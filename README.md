@@ -20,6 +20,7 @@ Most recently, I’ve been working on **[LiveMock.ai](https://livemock.ai/)** �
 
 ### ⚙️ Skills
 **Languages:** Python, JavaScript, HTML/CSS
+
 **Frameworks:** FastAPI, Flask, React  
 **APIs & Libraries:** OpenAI API, Twilio API, GPT-4o Realtime  
 **Tools:** Docker, ngrok, Git, AWS
