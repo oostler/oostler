@@ -6,7 +6,7 @@
 I’m a **Computer Science and Business student** at Western University and the Ivey Business School.  
 My interests lie in **AI and its applications in healthcare and education**, particularly in how voice technology can make these systems more accessible and human-centered.  
 
-I’ve worked in **AI strategy consulting** at KPMG and BCG, hosted the *Western AI Podcast* where I interviewed leaders from OpenAI and Anthropic, and built projects that have won several hackathons across Canada.  
+I’ve worked in **AI strategy consulting** at KPMG and BCG, hosted the *[Western AI Podcast](https://open.spotify.com/show/4CJ9QR7v3UjkKrpTZFVjS6)* where I interviewed leaders from OpenAI and Anthropic, started a [weekly AI newsletter](https://aiweeklybriefing.substack.com), and built projects that have won several hackathons across Canada.  
 
 Most recently, I’ve been working on **[LiveMock.ai](https://livemock.ai/)** — a real-time interview simulator that helps students practice consulting case interviews.  
 
