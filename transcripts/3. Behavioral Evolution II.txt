@@ -1,0 +1,3954 @@
+3. Behavioral Evolution II
+==========================
+
+[MUSIC PLAYING]
+Stanford University.
+OK.
+Let's get going.
+Various announcements,
+procedural things.
+A number of people want more
+information about grading
+and what the exams
+are like, all of that.
+I think I mentioned
+one-third of the points
+will come from the midterm,
+2/3 from the final.
+In terms of the
+style of the midterm,
+the midterm is
+heavily going to be
+about making sure you
+got down all the factoids
+from the first
+half of the course,
+that you've got the basics of
+each of our proverbial buckets.
+The second half of
+the final is all
+going to be about
+integration, thinking
+across the different categories.
+So just a sense of that.
+Readings.
+Readings, as they
+are coming out,
+the books are not required until
+the second half of the course.
+The handout on
+Monday, I think, said
+which chapters of
+the [? Zebra ?] book
+you should read.
+We will shortly get to you which
+chapters of the [? Chaos ?]
+book you should read as well.
+The readings that
+are being posted
+on the CourseWorks, the
+downloads of various published
+papers, those are required.
+I'm clear on those
+whether this is
+a paper you should read
+all of, if this is one you
+should read the abstract of.
+Even if you read all
+of, do not read it
+in some obsessive,
+detail-oriented way.
+The goal is probably to be
+able to say, in one or two
+paragraphs, why this paper
+has something pertinent to say
+about the topic they fell into.
+You're not sitting there
+having to memorize techniques,
+middle names of the authors,
+how many animals, anything
+like that.
+In terms of that, it
+probably makes sense
+to read those after the
+first lecture of whatever
+block there is.
+And hopefully, if
+I get organized,
+I'll be able to get you sort
+of a list of the readings
+further in advance than
+one week in advance.
+Nonetheless, you should
+probably hold off reading it
+until after the lecture occurs.
+Let's see.
+What else?
+People wanted to get a
+sense of how long things
+were going to go.
+As we'll see today, the
+evolution lecture topic
+will cover two classes.
+Molecular genetics, which is
+what we'll pick up on Monday,
+I'm guessing one
+to one and a half.
+Behavior genetics following
+that, one to one and a half,
+ethology one.
+Neurobiology,
+endocrinology, we'll
+have one week devoted
+to intro to the topics.
+And again, that's one where this
+is so important for everybody
+to be up to speed rather
+than these being in catch-up
+sections that week.
+The whole week, Monday,
+Wednesday, Friday,
+will be devoted to that
+with the TAs teaching it.
+The following week, three more
+lectures, more advanced ones.
+And depending on
+proximity to the midterm,
+there may be a half-lecture
+in there on statistics,
+or maybe not.
+So this is going to depend
+on keeping on schedule.
+This is a rough approximation.
+The midterm is going
+to be a Monday night.
+You will be responsible for
+material up to the previous
+Wednesday, and there will
+be lots of review stuff.
+Take a look at the extended
+notes being posted.
+What else?
+OK.
+I think that covers most
+of the procedural stuff.
+All of this stuff will
+get posted as well.
+So picking up on the other day.
+What was happening
+the other day?
+Number one, the trouncing of
+Darwin inventing evolution,
+trouncing of survival
+of the fittest,
+probably most
+importantly, trouncing
+of behavior for the good
+of the species, group
+selection-type arguments.
+What we saw was, number one, the
+rationale for the whole thing.
+There is a vicious,
+un-fightable logic
+to why hearts have to be the
+size they are and kidneys
+have the filtration
+rates they have to have
+in order to solve the
+challenges of leaving
+as many copies of your genes
+in the next generation.
+And making sense of the
+evolution of hearts and kidneys
+and things like that
+could be the worlds
+of bioengineers and biomechanics
+folks with an underlying logic
+that it's got to
+be something that
+increases the number of copies
+of genes that you leave.
+And the whole rationale for
+Wednesday's lecture and today
+is applying the same sort
+of logic to behavior.
+The whole world of just
+as you can optimize
+sort of the way one's neck, how
+long it is if you're a giraffe,
+you can optimize
+behavioral strategies.
+And again, also for
+a caveat, no animal
+is sitting there, maybe with the
+exception of some other apes,
+sitting there consciously
+strategizing along those lines.
+One saying, so what would
+you, as this dandelion,
+want to do at that point with
+this ecological challenge,
+personifying just to
+make things easier.
+OK.
+What we then barreled into were
+the three major building blocks
+for thinking about the
+evolution of behavior
+in the framework of contemporary
+evolutionary thinking.
+Number one,
+individual selection--
+passing on as many
+copies of your own genes
+to the next
+generation as possible
+by way of your own reproducing.
+The individual
+selection-- a chicken
+is an egg's way to
+make another egg.
+I've now rehearsed that, so
+I've got that down right.
+The whole notion of behavior as
+just being this epi-phenomenon
+in order to do what's needed to
+get another copy of the genes
+into the next generation.
+Building block number two.
+Some of the time, the best way
+to increase the number of genes
+you pass on to the
+next generation
+is to help your relatives
+do so following that logic
+of Mendelian relatedness.
+And people in the
+catch-up section, I know,
+went over issues of, why is it
+that you share half your genes
+with a full sibling, a quarter
+with a half sibling, et cetera?
+So sometimes the way to maximize
+is by helping out a relative
+to do so with,
+again, constrained
+by this vicious
+mathematical logic of,
+it depends on how related
+you are to the relative.
+And thus, you will
+gladly lay down your life
+for one identical twin, two
+full siblings, eight cousins.
+Off you go.
+So the whole notion
+there of insight into why
+social animals the galaxy
+over are so obsessed
+with kinship and
+relatedness, the whole world
+of who counts as an us,
+who counts as a them
+in terms of
+cooperative behaviors
+playing out along
+lines of relatedness.
+Finally, we saw the third piece,
+which was reciprocal altruism.
+You scratch my back,
+I'll scratch yours.
+Many hands make the task
+less scratchy or whatever.
+And what you see in
+those cases, there
+is a whole world
+in which you don't
+have to be related
+to have cooperation.
+And we saw all the
+domains of that bringing
+in the formalization--
+biomechanics person
+figuring out how strong
+a leg bone has to be.
+A game theorist figuring
+out within the realm
+of social behavior
+when you cooperate
+and when you don't and
+what sort of strategies.
+Game theory, of seeing
+the prisoner's dilemma
+as the building block
+of that entire field
+and seeing all the strategies
+worked out by mathematicians
+and economists and diplomats
+and seeing which ones optimize
+under what circumstance.
+And then going and
+look in the real world
+and seeing there's all
+sorts of animals out there
+that have evolved optimization
+strategies of when to cooperate
+and when to defect.
+And what we'll get to as a huge,
+huge issue by the time we get
+to the lectures on aggression,
+cooperation, et cetera is,
+well, that's great when you've
+got a cooperative system going.
+How do they ever start?
+How do you jump start
+cooperation in systems?
+The evolution of
+cooperation, that's
+something we will get to in
+great detail down the line.
+Finally, what we shifted
+to was now saying,
+great, we've got all these
+principles in hand here
+and our big three building
+blocks and all of that.
+How would it be applied to
+making sense of animal behavior
+out in the real world?
+And we left with the examples
+starting someplace there--
+where did it go, yes, that's
+it-- of us marching through,
+know one individual
+factoid about some species
+or other species,
+know that there's
+a big difference between
+the genders in size
+or there isn't, know
+that there's not
+high levels of
+aggression in males,
+know that females
+always give birth.
+Whatever those traits are
+as we marched through,
+using these ideas about
+individual selection, kin
+selection, reciprocal
+altruism, you
+could march through
+and logically infer
+what the social behavior
+of this particular species
+was going to be like,
+and you would be right.
+We saw, for example,
+in tournament species,
+tournament species where you
+have high levels of aggression
+among males, male-male
+competition for access
+to females.
+As a result, males tend to
+be a lot bigger than females.
+They are being selected
+for muscle mass,
+secondary sexual
+characteristics, plumage,
+big sharp canines for
+slashing the other guy.
+Bringing up this issue of,
+in a tournament species,
+who does the male
+want to mate with?
+What sort of female are males
+interested in mating with?
+The answer being,
+anyone who will
+mate with them because
+there's like no cost involved.
+All that's involved is no
+parental behavior, none
+of that, the cost of sperm.
+And literally, people
+analyze the relative cost
+of sperm versus eggs
+in tournament species.
+Males are dramatically un-choosy
+as to who they mate with.
+In tournament species, males
+have dramatic variability
+in reproductive
+success-- 5% accounting
+for 95% of the matings.
+Female choice in a
+tournament species.
+What does a female
+want out of a male?
+She certainly is not going
+to get good fatherhood out
+of the guy.
+All she wants are good
+genes because that's
+all she could hope
+for from the guy.
+A whole world of
+female selectivity
+for markers of good genes.
+And as we'll see in the
+sexual behavior lectures,
+a whole world of males
+trying to fake out females
+across the animal
+world, suggesting they
+got better genes than
+they actually do.
+So we will come to that.
+Then tournament species.
+Do you see female
+abandonment of kids?
+Absolutely not, because
+there's nobody else who's
+going to take care of them.
+Coupled with that,
+you see single births
+among those species, low level.
+High levels of aggression
+amongst the males,
+low levels of parenting.
+And males tend to live a
+lot shorter than females.
+And what we saw
+at the other end,
+the pair-bonded species was a
+completely different picture.
+Males are being
+careful who they're
+mating with because the
+wiring there is you mate,
+you take care of the kids.
+High levels of male
+parenting, females
+are thus able to abandon them.
+Females can have
+multiple births.
+Males are selected to
+be as close to females
+as a male can be.
+So there's not a big
+difference in size.
+There's not a big difference
+in secondary sexual
+characteristics.
+There's not high
+levels of aggression.
+There's not big
+differences in lifespan.
+Who does a female
+want to mate with?
+Someone who is going to
+be a competent father.
+Thus the whole world
+of pair-bonded species,
+where males court with
+rituals of coming up with food
+and coming up with
+things of that sort.
+So the most striking thing
+about that was, again,
+going back to the
+two skulls I brought
+in, you could know nothing
+more about that species
+other than this is
+an adult female.
+This is an adult male.
+And working through
+the same logic,
+you know a huge amount about
+the private lives of the species
+and who's messing around
+with who in the bushes.
+And that's merely by
+applying these principles.
+And likewise saying,
+here is a picture
+of a pair in this
+species and you
+can't tell which one
+is who by gender, that
+tells you a whole
+world of predictability
+at the other end.
+So a first example of how
+much explanatory power
+you can get out of this.
+And on the website,
+I will find all sorts
+of appropriate pictures of
+tournament and pair-bonding
+species for you to look at.
+OK.
+So a first round of
+looking at animal behavior
+and seeing how once we got
+these principles in hand,
+individual selection, kin
+selection, reciprocal altruism,
+suddenly an awful lot
+of stuff makes sense.
+Next domain where
+that's the case.
+And this is one that has
+had a real challenge to the,
+"Ooh, isn't nature
+benign and animals behave
+for the good of the
+species" viewpoint.
+This one domain probably
+proves an individual selection
+framework more than
+anything else out there.
+OK.
+Back to our inevitable
+National Geographic specials.
+And somewhere at the end
+of whatever the special is,
+about whatever species,
+at some point they usually
+get some narrator with some
+deep, baritone voice coming
+at that stage and
+saying something like,
+man is the only species
+that kills for pleasure.
+Man is the only-- and look
+at how wonderful and benign
+these rosebushes are.
+They don't kill.
+They don't have war.
+Only humans do.
+And what occurred, by
+about the mid '70s or so,
+was enough field workers from
+a different species reporting,
+hey, wait a second.
+We're not the only
+species that kills.
+And we will see
+plenty of domains
+where that makes sense
+in the lectures to come.
+But one particular
+version really,
+really demanded some rethinking
+about animal behavior, which
+was as follows.
+What is one of the universals,
+whether you start with us
+and go all the way
+down to slime molds?
+It's babies are cute.
+Everybody likes babies.
+Babies are adorable.
+You want to take care of babies.
+Your eyes dilate as soon
+as you're around them.
+And a longstanding notion that
+what infants, what babies,
+what baby features are about
+are, among other things, are
+means to reduce aggression.
+And we will see in the ethology
+lecture something about that.
+That was the standard
+sound bite forever.
+And suddenly, you
+got field biologists
+coming back from studying
+various species saying,
+something's up there,
+because in my species
+I see individuals murdering
+kids all the time.
+Whoa, what's up with that?
+Infanticide within a species.
+Suddenly, not only are humans
+not the only species that
+kills, we're like
+not the only one
+who goes and kills adorable,
+little, Disney infants.
+Suddenly, all sorts
+of species popping up
+where there was infanticide.
+And the huge challenge then
+became to make sense of this.
+This first emerged in the
+1970s, studies of langur monkeys
+in India by someone named
+Sarah Hrdy reporting this.
+Soon it was reported among
+lions, some other species
+as well.
+And the first obvious
+response to this was, wait,
+this can't be because I watch
+all the wildlife specials.
+There's something [? wrong. ?]
+Oh, there's some sort of
+psychopathology going on.
+This is not a normal population.
+This is not a normal
+population because they
+live close to humans.
+There's some disturbance.
+There's a toxic
+waste dump somewhere.
+They're not a normal
+species because you've
+got the wrong color socks on as
+the observer, whatever it is.
+And this is not normal.
+This is pathological behavior.
+But long enough
+time goes by, and it
+becomes clear in all
+sorts of species,
+individuals kill infants.
+So what is this about?
+You start to look closely,
+and there's patterns.
+There are patterns to it.
+The first one
+being that it tends
+to be adult males
+who kill infants.
+The next being,
+you look closely,
+and it's not random
+who kills who.
+It's males killing
+infants who are
+most likely to be the
+offspring of, you guessed it,
+individual selection,
+most likely to be
+the offspring of other males.
+Competitive strategies for
+reducing some other guy's
+reproductive success.
+So this began to be seen
+in these species that
+had infanticide.
+It was male
+infanticide of kids who
+were most likely to be the
+offspring of other males.
+But more patterns popped
+up at that time, which is,
+well, why don't you see
+that in any social species
+where you have competition?
+And what wound up being
+clear after a while is
+there's only a certain pattern
+that you see in species that
+have competitive infanticide,
+which is the average interbirth
+interval among females is
+longer than the average tenure
+of a high-ranking male.
+What?
+Here's what that means.
+That means you're
+some low-ranking guy.
+You've been working out in
+the gym for years on end.
+You're finally in the position
+to boot out the alpha male
+and take over the whole group.
+And damn, every single
+female in the group
+has a newborn who they're going
+to be nursing for the next two
+and a half years.
+So they're not going
+to be ovulating,
+and they're not
+going to be ovulating
+for about three years.
+And you're likely to be alpha
+for only a year and a half
+or so, where the length of time,
+on average, that you are going
+to be able to be
+reproductively active
+is shorter than
+the length of time
+that females in your
+species nurse kids and thus
+are not ovulating.
+And suddenly, you have
+this brutally clear logic
+that makes perfect sense from
+everything on Monday, which
+is, go and kill the kids.
+Go and kill the kids
+for two reasons.
+Number one, by killing the
+offspring of some other male,
+you are decreasing
+that individual's
+reproductive success.
+This competition is leaving
+as many copies of your genes,
+et cetera.
+Number two, by killing
+an offspring, the female,
+by stopping nursing,
+will soon be ovulating.
+And thus, you see this
+pattern in langur monkeys,
+vervet monkeys,
+patas monkeys, lions,
+mountain gorillas
+and such, where
+it's always this structure.
+Competitive infanticide-- a
+male takes over a breeding group
+and goes about systematically
+trying to kill the infants.
+So we've got an enormous
+violation there of behavior
+for the good of the species,
+and baby animals are cute
+and suppress aggression,
+all that sort of thing.
+The clearest demonstration of
+that is to look at the fact
+that one of the species
+where this goes on
+by this vicious sort of
+logic of competition, this
+is one of the species on Earth
+that is as close to extinction
+as you can get--
+mountain gorillas.
+There's maybe 600,
+700 of them are left.
+And these are just
+like stunning animals,
+and they are disappearing
+because of habitat degradation,
+and human presence,
+and civil war
+is sweeping through there,
+and all that sort of stuff.
+But also they are
+facing, I think,
+inevitable extinction
+in a decade or two
+because every now and then,
+a male mountain gorilla will
+systematically go and kill
+the infants around in a group
+by this logic.
+You can't ask for a much
+better demonstration of animals
+not behaving for the
+good of the species
+or the group-- this
+individual selection strategy.
+So immediately we start
+applying some rules to this.
+Well, when's a circumstance that
+a male would come into a group
+and boot out the previous
+reproductive male
+and take over, and
+where he wouldn't
+be all that fast to try to kill
+all the infants in the group?
+When would a male
+take over a group
+and not be all that thrilled to
+do this competitive infanticide
+strategy?
+Any guesses?
+When he's a brother.
+Yeah.
+Part two, individual
+selection, kin selection.
+Kin selection, you don't see
+the competitive infanticide
+if the males replacing are
+close relatives by exactly
+that logic.
+So then you begin to see some
+more elegant stuff going on.
+In some cases, in
+a bunch of species,
+instead of males killing
+infants, what happens
+is the presence of
+a new male causes
+females to miscarry,
+pregnant females to miscarry.
+One version of this, and
+this is seen in wild horses,
+the new male in there
+harasses pregnant females
+to the point of
+them miscarrying.
+Same exact logic again.
+In a whole bunch
+of rodent species,
+you see something
+far more elegant.
+The new male shows up, and if
+you were a pregnant female,
+the smell of a new male causes
+you to miscarry a litter.
+And the biology
+that is completely
+worked out, going from
+the olfactory signaling--
+and we're going to hear tons
+about olfactory signaling
+in weeks to come-- going
+from the olfactory system
+to release of a
+stress hormone that
+disrupts uterine
+maturation, and you abort.
+Olfaction-induced abortion.
+What's up with the
+female with that?
+Why is that a strategy
+for her to leave
+as many copies of her own
+genes in the next generation?
+If this guy is around, she's
+got a choice at that point,
+a choice, again, metaphorically.
+She has a choice at that point.
+Either she can go through the
+rest of the metabolic costs
+of pregnancy, give
+birth to these kids,
+and then they get killed.
+Or at least she can take
+the lesser of two evils.
+[? He ?] spontaneously
+aborts at that point.
+And soon after, she is
+ovulating and has a chance
+again to pass on copies
+of her own genes.
+And this is the whole world
+of-- you put a male hamster
+in with a female
+who's just had babies,
+and he goes and eats the kids.
+Oh, it's psychopathological.
+It's not psychopathological.
+Male hamsters are migratory.
+If there are kids there, they're
+not likely to have been mine.
+That's the logical thing.
+Females having been
+selected for if there
+is the smell of a
+new male, miscarry.
+And the same logic again
+extending, the smell
+of a new male, unless
+he's a close relative
+of the previous male.
+You see the exact same
+thing playing out there.
+Now, all of this, of course,
+is very sort of male-biased
+in terms of this.
+These are females sort of making
+the best of the bad situation.
+You're some female
+langur monkey,
+and some new male
+has come in and is
+intent on being infanticidal.
+And you've read
+evolutionary biology also.
+What do you want
+to do to maximize
+copies of your own genes
+in the next generation?
+Well, you've got this kid here
+who you're trying to protect.
+Would you protect that child to
+the point of your being killed?
+Probably not.
+And you don't see
+females doing that.
+Under what circumstance
+would a female
+be most motivated to defend
+her child to the point of her
+being seriously injured?
+Older females, older
+females who are
+less likely to have
+another child after that.
+You're on the scene there,
+and who else from day one
+would be most willing
+to get injured
+in order to protect the kid?
+The maternal grandmother, who
+has no reproductive potential
+at that point.
+And what you see in
+these langur monkeys,
+the females will defend, not
+to the point of serious injury.
+The older the mother is, the
+more strenuously she defends,
+and the grandmothers
+defend even more.
+Following the same logic
+here playing out in that way.
+But you also have
+another option,
+which is to do something
+much more clever.
+And this is not in
+the world after you've
+given birth, but the world
+of when you are pregnant.
+Because even in
+these species that
+have the competitive
+infanticide,
+the new male was also
+perfectly happy to harass
+a pregnant female.
+What have females evolved in
+a number of primate species?
+One of the great, all-time
+ways of manipulating males.
+So you're this
+pregnant langur monkey,
+and in comes this new male.
+And you know you're
+going to go through
+like six more
+weeks of pregnancy,
+and they're going to
+be enormously costly,
+and the damn guy is
+going to kill your kids
+as soon as they're born.
+And what can you
+do and all of that?
+And you come up with something
+very clever physiologically.
+You go into what is called
+pseudo-estrus, estrus being
+the term for when female
+primates are ovulating
+or sexually receptive,
+are in heat.
+And most primate species
+give external signs
+of when they're ovulating.
+There is engorgement
+of all sorts
+of tissues around the vagina
+and rear end and stuff
+that humans don't do.
+But they have some of the
+physiological residues,
+of water retention, for example.
+So you've got all these external
+signs of, I am ovulating,
+except you're not ovulating
+because you're pregnant.
+You are pseudo-ovulating.
+You are going through
+a pseudo-estrus.
+You generate the picture of it.
+So what happens at that
+point with this new guy who's
+just shown up, and here's this
+like four-month pregnant female
+who nonetheless looks like
+she's going through estrus?
+Well, these guys sit there
+then and say, well, well,
+that's kind of nice, and
+they go and mate with her.
+And like two and a half
+weeks later, she gives birth.
+And you know what the
+guy's going to do.
+He's going to sit there and
+say, what's the gestation period
+in my species?
+[LAUGHTER]
+[INAUDIBLE], what is it, like
+five months or something?
+I've been here three weeks,
+and already she's given birth.
+Whoa, what a guy.
+[LAUGHTER]
+And they fall for it.
+They fall for it every time.
+Females, by having these
+pseudo-estrus things,
+the males are not
+infanticidal afterward
+when the female gives birth.
+So this whole world
+that initially
+makes no sense at
+all-- oh, my god,
+animals killing members of
+their own species, even babies,
+making vicious logic
+when applying issues
+of individual selection
+and the qualifications
+by way of kin selection.
+Next example, another one
+with a similar flavor.
+And yeah?
+Wouldn't evolution favor a male
+that he didn't figure it out
+that it was his children?
+Yep.
+And I think probably the
+most technical, Darwinian way
+of explaining that is the
+well-known propensity of blood
+flow to either go to
+male brains or penises.
+[LAUGHTER]
+They just get impulsive
+at that point.
+They don't stop to think and
+get the gynecology textbook.
+That there no doubt
+is an advantage
+for the tiny subset
+of male langur monkeys
+who can actually be like
+prudent at that point
+and think through the logic.
+It works with males.
+They fall for it.
+Suggesting that a lot
+of what's going on there
+is not a conscious,
+cognitive strategy.
+And this is sort of not
+a facetious answer, when
+by the end of next week,
+we get to looking at,
+how do animals
+recognize individuals?
+With a lot of species, there's
+not a cognitive strategy.
+You're not able to sit there
+and figure out, wait a second,
+this isn't making any sense.
+No.
+I mean, like not that
+logically figure it out,
+but [INAUDIBLE]
+just favor the males
+that, for any reason,
+whether they figure it out,
+they just feel like
+[INAUDIBLE] three weeks instead
+of five months [INAUDIBLE].
+I think what it is
+is that there's not
+a whole lot of males
+there who could make sense
+or who have been selected
+for making sense of the fact
+that mating has something
+to do with babies down
+at the other end of things.
+I think there's not been
+much selection for being
+able to cognitively do that.
+Or to have some sort of rule--
+if I mate with this individual,
+any time she
+produces a baby, I'm
+going to be unaggressive
+to the baby,
+unless it's within
+this sort of time span.
+I think that's a little too
+much, too fast, [? too ?]
+evolved in sort of
+a primate system.
+The males fall for it.
+Another version with a
+lot of the same logic.
+And this became clear-- studies
+of baboons, Savannah baboons,
+in the early '60s,
+which is you would
+have some male,
+who male was having
+a tension with
+another adult male.
+And they're about to have
+some sort of clear fight,
+and one guy is
+obviously low ranking,
+and he's going to get trounced.
+And here comes the
+big, high-ranking male,
+and this guy is terrified.
+And what does he do?
+He looks around frantically
+and grabs a baby
+and holds it to his chest.
+1950s National
+Geographic special.
+Why is he doing that?
+Because infants are comforting,
+because babies are cute.
+And everybody becomes
+less aggressive
+when there's a baby
+around, because oh, my god,
+who would attack somebody
+holding an infant?
+What if the infant's injured?
+OK.
+So that's the old version.
+So applying some
+contemporary interpretations,
+what you wind up seeing, along
+comes the threatening male.
+The subordinate male grabs
+an infant and holds it.
+And what you only begin to
+see after a while of studying
+individuals is, it's not
+random which infant he grabs.
+And you know
+exactly what's going
+to come next, a
+very similar theme
+to the competitive infanticide.
+When males are doing
+"kidnapping" like this,
+and that is the
+term to use, they're
+not randomly grabbing kids.
+They're grabbing kids
+who are likely to be
+the offspring of that male.
+And it is very clear at
+that point, mess with me,
+and your kid's going to get it.
+And it's clearly
+not being played out
+in any sort of conscious
+level like that.
+But what you see
+is, it's not random.
+And it comes with the
+sort of qualifiers
+that show you even more
+how the system is working.
+So you've got some guy who's
+a big, high-ranking male
+and has obviously fathered all
+sorts of kids in the troop.
+And you're about to
+trounce this smaller
+guy who grabs one of the kids
+who's more likely to be his
+than yours.
+Logical competitive strategy
+of essentially blackmail.
+You've got a big,
+high-ranking male
+who's dominating everybody
+else, except he only
+joined the troop two weeks ago.
+In other words, there's
+not been enough time
+for him to have kids yet.
+When he is threatening
+lower-ranking guys,
+they're less likely
+to kidnap against him
+than kidnap against
+the high-ranking male
+with a long residency.
+And what you find
+even more interesting,
+which throws you into
+this world of, well,
+are these guys consciously
+thinking about this,
+or do they just smell that
+that kid is that guy's kid,
+and do they just know?
+In primates, they're
+thinking about it.
+And the way to realize
+that is when they
+screw up and make a mistake.
+And this one, sort of years ago
+I was watching some baboons,
+and there was this
+low-ranking guy.
+He was actually middle ranking,
+and this high-ranking guy
+was coming at him.
+And he was a middle-ranking guy
+who critically was on his way
+down.
+He used to be a
+high-ranking guy.
+He was aging.
+In other words, he used to
+be reproductively active.
+In other words, there's some of
+his kids around in the troop.
+So he's sitting
+there, and here comes
+this terrifying, high-ranking
+male who's coming at him.
+And our guy gets all agitated,
+nervous, looks around,
+and he grabs a kid, and
+it's likely to be his kid.
+He's grabbed his own kid.
+Oh, my god, you're
+sitting there saying,
+I'm never going to get a
+damn thesis out of this.
+These animals just ruined
+all the theoretical models.
+He's grabbing the wrong kid.
+So he's holding the kid there,
+and you're sitting there.
+And you could see the guy's
+about five steps away, and he--
+so he tosses the
+kid in the air--
+[LAUGHTER]
+--just as he's attacked.
+You will see they act as if
+they have made a mistake.
+They are consciously working
+around something like this.
+So this whole notion of coercive
+blackmail and kidnapping,
+again, it only
+makes sense once you
+begin to see the structures
+of individual selection, kin
+selection, reciprocal altruism.
+Another example, and this one
+makes perfect sense instantly.
+You look at the world
+of female primates
+in lots of different species,
+and there's ranking systems.
+There is a hierarchy.
+And what's the
+hierarchy built around?
+You get a rank one below
+that of your mother.
+You inherit your rank.
+Your mom is the alpha female.
+You're her first daughter,
+so you're number two.
+And as soon as she
+has another daughter,
+your kid sister is
+number three, until you
+have a first daughter, who
+pushes your kid sister down
+one step.
+In other words,
+dominance hierarchies
+amongst the females are
+entirely nepotistic.
+Whoa.
+How can you explain that?
+Part number two, kin selection.
+Dominance systems in all
+sorts of social species
+are built around the
+nepotism of relatedness.
+So that makes sense.
+Next one, next
+interesting notion here,
+which is one of those
+choices, one of those choices
+that are not conscious choices.
+But you're about
+to get pregnant,
+and you have a choice, as
+whatever species you are,
+do you want to have
+a male or a female,
+or do you want to have a
+litter of males or females,
+or do you want have a
+litter that's predominantly
+male or predominantly female?
+And it comes down to an issue
+now of two things, which
+is, how much does it cost to
+have a female versus a male
+during pregnancy?
+And what are the
+reproductive probabilities
+of having a male
+versus a female?
+Back to this issue.
+You are in a big
+tournament species.
+And as we saw, there's high
+degrees of male variability
+in reproductive success.
+5% of the guys are accounting
+for 95% of the matings.
+So you sit there,
+and what you've got
+is a rule that if you go for a
+son-- like 90% of sons running
+around there are never
+going to reproduce.
+And you hit the jackpot and you
+have the 5% at the very top,
+and each of them are
+going to like father
+30 different kids, going for
+males in a tournament species
+is a big gamble.
+It's a risky move.
+Going for a female,
+however, there
+is no female primate
+out there who
+has 420 kids because she
+lays eggs like a salmon.
+Most females there, unless they
+have some fertility problem,
+they all have something
+roughly one to five kids
+or so over the course of the
+life of an old-world primate.
+So female variability
+is way down.
+In other words, what's
+a conservative strategy
+to pass on copies of your genes?
+Have a daughter.
+What's a riskier strategy?
+Have a son.
+And what that immediately
+predicts is two things.
+Number one, you look in
+dominance hierarchies,
+and the prediction is that
+females who are high ranking
+should show more of a
+tendency towards having sons
+than daughters.
+And females who are low
+ranking, exactly the opposite.
+And that's what you see in
+a bunch of primate species
+that have this
+sort of structure.
+Next prediction.
+You should then predict that
+when ecological circumstances
+get tough, when
+times are tough, you
+want to go for the
+offspring that costs less.
+A female fetus is
+less calorically
+demanding than a male fetus.
+Male fetuses cost more to
+bring to term than females do.
+The prediction should be, during
+times of ecological pressure,
+the percentage of females
+being born should increase.
+And as a measure of
+the fact that males
+are more expensive
+as fetuses, something
+like 53% of
+fertilizations in humans
+are males, about a
+53% to 47% ratio.
+And over the course
+of pregnancy,
+the cost, the increased
+metabolic vulnerability
+of male fetuses, are such that
+by the time birth comes around,
+it's around 51-49.
+And it's not until
+adolescence that it flips over
+to the typical pattern
+of female dominance.
+You've got to have
+more male fetuses
+to start off with because
+they are more expensive, more
+vulnerable.
+So this prediction during
+times of ecological duress,
+you should get a bias
+towards more females
+being born, the 50/50 ratio
+skewing in that direction.
+And that's precisely
+what you wind up seeing.
+And you see all sorts
+of examples of this.
+In humans, for example,
+during periods of famine,
+food deprivation, the ratio of
+births skew towards females.
+What you also see as a measure
+of that is among humans,
+a boy, giving birth to a
+boy, statistically decreases
+the body weight, is likely
+to decrease the body
+weight, of the next offspring.
+It's expensive having
+one of those males.
+And what you wind
+up getting, then,
+is fluctuation as a function
+of your dominance rank.
+If you're high ranking,
+it's almost always
+worth the gamble to go for one
+of those high-risk, high-payoff
+boys.
+If you're low ranking, go
+for the far more conservative
+female.
+You've got this fluctuation
+around this 50-50 ratio.
+And this was
+something worked out
+by one of the sort
+of founding figures
+[? just through ?] modern
+evolutionary thinking--
+a guy named Robert
+Trivers in the 1970s,
+sex ratio fluctuation as a
+function of social context.
+And people have gone and
+looked, and it's precisely this.
+And you get an interesting
+bit of conservatism
+in this, though, which is
+there's some circumstance where
+it makes perfect sense for
+you to have a gazillion
+daughters because that's
+the time to do it.
+And at some point, you're
+having a gazillion daughters,
+and everybody else is having
+a gazillion daughters.
+And suddenly, males become
+really valuable because there's
+not a whole lot of them around.
+So the logical
+thing to do then is
+to switch over and
+start having males.
+And everything else being
+equal, after a while,
+with a predominance of
+males, it's going to make
+sense to switch over to females.
+You have density-dependent
+selection you will always
+have oscillating around 50%.
+Whichever sex is in
+the smaller number,
+that one is immediately
+more preferable.
+Poor ecological conditions
+pushes you this way.
+Dominance rank push you
+one way or the other.
+But in any of those
+circumstances,
+you have an oscillation
+around the mean.
+Whichever is more common
+is less desirable.
+So sex ratio fluctuation.
+More stuff.
+Role of kinship, for
+example, in vervet monkeys.
+We talked about
+that the other day.
+Play the sound, an
+infant alarm call,
+and the mother
+gets all agitated,
+and everyone else
+looks at the mother.
+They know that
+she is the mother.
+Sort of demonstration of
+awareness of kinship there.
+Now, another very
+interesting social structure
+to some species, which is we've
+seen all of these tournament
+species.
+You have one high-ranking male
+mating with lots of females
+and all that sort of stuff
+and polygamous systems.
+What about polyandry--
+circumstances
+where a female is mating
+with multiple males?
+What about circumstances
+of stable polyandry,
+where you get, in effect,
+the inverse of a harem?
+You get a single breeding
+female with a number of males?
+And what is seen with a
+very, very high predominance
+is when polyandry occurs,
+you get a type which
+is called adelphic polyandry.
+And the second I
+tell what it is,
+it will make perfect,
+wonderful sense.
+OK.
+Two male lions sharing a pride?
+That's like not what
+you're supposed to see.
+It's one male lion, and
+Mufasa and his, like, brother
+gets pushed out of there.
+And like, that's
+not what you see
+when you study Disney lions.
+There's supposed
+to be only one male
+is the breeder in the pride.
+And occasionally
+you see these prides
+where instead there
+were two males.
+How can they pull that off?
+They should be doing competitive
+infanticide, all of that.
+Who were the two males?
+Yes, you guessed it
+somewhere up there before.
+It'll be two brothers.
+When you see cases of two
+male lions sharing a pride,
+or flip the other
+way, when you see
+a pride being willing to
+tolerate two males in there
+instead of one, very,
+very high likelihood
+that they are brothers.
+This technical term--
+"adelphic polyandry."
+And you wind up seeing
+one totally wild example
+of this in humans.
+As I went over the other
+day, looking at our humans,
+tournament species,
+[? the ?] pair bonding.
+We're somewhere
+stuck in between.
+We're terribly confused.
+What you see is most cultures
+traditionally allow polygamy,
+but most people are not actually
+polygamous, all of that.
+And somewhere in there, you
+got to ask the same question.
+Hey, is there any polyandry
+going on with humans?
+And there is one wild
+cultural example of this.
+And this is seen in
+traditional Tibetan society,
+and there you get
+adelphic polyandry.
+You have the following
+structure in rural areas.
+A woman will marry a man.
+And in the process,
+she will marry
+him along with all of his
+brothers, all his brothers.
+She marries the
+entire lot of them.
+It is adelphic polyandry.
+And you see that.
+And like it's down
+to the point where
+here's this woman
+with her husband
+and his younger brother
+and his younger brother,
+all the way down to
+this infant that she's
+holding, who's the
+youngest brother who's
+now one of her husbands.
+And that's what you see.
+What's the explanation for this?
+This is a pattern that
+you get in agriculturally
+very impoverished areas
+where you got a problem.
+You've got five
+sons or whatever.
+And with a pattern
+of land inheritance
+where you would otherwise split
+up the land amongst the five
+sons, that's going
+to put each of them
+below subsistence level.
+What you need to do is
+have a way in which they
+remain as one reproductive unit
+so you don't split up the land.
+You see this adelphic
+polyandry, a woman marrying
+this whole bunch of brothers.
+And it's in
+circumstances where it's
+trying to keep the small farm
+plots from being broken up.
+But again, the logic
+there is the same
+as you see in lions with two
+brothers sharing a pride.
+What else?
+Now, somewhere in
+there, you begin
+to get in a realization
+that not only do
+you have males competing with
+males for reproductive success
+and females with
+females, but there's
+intersexual competition.
+How could this be?
+How could a planet that
+comes up with Valentine's Day
+have intersexual competition?
+What is obvious is the
+reproductive interests
+of any given
+individual may not be
+exactly the same
+as the individual
+she or he mates with.
+What would be an
+example of this?
+Here you have a species in
+which males are migratory.
+It's a tournament species.
+A male shows up during a mating
+season, lots of aggression,
+lots of secondary
+sexual whatever.
+And he mates with a
+female, and she has kids.
+Hooray.
+They have parented an offspring,
+and they've shared their genes
+and increased their
+reproductive success.
+Except this being
+the species, this guy
+is going to pack up
+and leave the next day.
+In other words, he
+has no investment
+in the future reproductive
+health of that female,
+whereas she sure does.
+She would be delighted
+for this offspring
+to thrive and prosper, but
+perhaps not at the cost
+of her future reproduction.
+What we see here is, between
+the male and the female,
+different reproductive
+strategies.
+And this opens up a
+whole bizarre world
+of intersexual competition.
+Here's one really bizarre
+manifestation of this.
+OK.
+Basic Mendelian genetics.
+Those of you who got
+the catch-up this week
+should have a
+vague sense of this
+by now, Hardy-Weinberg ratios.
+You've got one parent
+has one genotype,
+just to distinguish the parents
+and changes the colors there,
+all of that.
+What is it that isn't bothered
+with from day one when you
+learn these sorts of things?
+It doesn't matter
+which one is the male
+and which is the female,
+which is the father
+and which is the mother.
+This is just one
+of them contributes
+this profile, one that.
+What pops out the other side?
+Basic Mendelian genetics.
+When making sense
+of pedigrees, it
+doesn't matter which
+parent is contributing
+the homozygotic profile,
+the heterozygotic.
+It doesn't matter which parent.
+But then, there is a whole
+world of genetic traits
+where, in fact, it does matter
+which parent it comes from,
+because the same
+combination of alleles
+will function differently
+whether it came from the mother
+or from the father.
+And this was a field that sort
+of emerged in the early 1990s,
+and these are called imprinted
+genes, imprinted genes.
+These are genes where, for
+our purposes to define them,
+these are genes which have
+different manifestations,
+different phenotypic
+consequences.
+These are genes that work
+differently depending
+on which parent they came from.
+Mendel rolling in his grave.
+This is not how it's
+supposed to work.
+This obscure world of
+imprinted genes violates this.
+They work differently
+depending on which parent
+you get it from.
+Dramatic foreshadowing-- when
+we get to the ethology lecture,
+the word "imprinting" is
+going to come up again
+in a totally different sense.
+This is a purely
+molecular term right now.
+OK.
+So you get imprinted
+genes, imprinted genes.
+People began to figure
+this out in the '90s,
+that, wait a second, we've got
+a completely different profile
+in these individuals
+with a mutation
+and a particular disease.
+Here we have these two
+very different diseases,
+and they turn out to have
+the exact same mutation
+in the same gene.
+What's up with that?
+If you get that gene from this
+parent, you get this disease.
+If you get it from that
+parent, you get that disease.
+Totally boggling,
+making no sense at all.
+First thing to
+have to be solved.
+What's a mechanism for actually
+making a gene work differently
+depending on which
+parent it comes from?
+For those who care about
+these sorts of details,
+it's a biochemical process
+called methylation.
+You methylate the gene in
+one parent's genome and not
+the other.
+Don't worry about the details.
+The main way is there is a
+genetic mechanism for making
+genes work differently depending
+on which parent it comes from.
+So OK, we know how to do it.
+Why should this happen?
+Why does this make any sense?
+And it took a while, and people
+began to see patterns to this.
+And finally this
+was put together
+by an evolutionary
+biologist at Harvard
+named David Haig in
+the early '90s, who
+came up with a unifying
+theory which explains it all.
+And it's very cool.
+Here's what you see.
+You begin to look
+at imprinted genes.
+And for our purposes, the
+way we can describe them
+is, this is a gene where if
+you get it from one parent,
+it does what it's
+supposed to do.
+If you get it from another
+parent, it's silenced.
+It never works.
+It's methylated into silence.
+These are imprinted genes.
+So he began to notice something.
+When you look at
+imprinted genes where
+they are active if they
+come from the father,
+they all tend to be genes
+that promote fetal growth.
+They're all genes that
+increase fetal metabolism.
+They're all genes that
+make for a thicker uterus.
+They're all genes driven
+by hormones coming out
+of the fetus.
+They're all genes that push
+for greater fetal development.
+And then you look at the
+imprinted genes coming
+from the female, and
+they're all genes
+that tend to slow down
+fetal development.
+What have we got here?
+We've got that intersexual
+competition played out
+precisely there.
+You've got this
+male hamster who's
+going to mate and
+never be seen again
+because he's in this category.
+And what does he want?
+He could care less what happens
+to the future reproductive
+success of this female.
+He wants this offspring
+of his to survive.
+The male imprinted genes
+push for greater amounts
+of fetal growth.
+And the female ones
+saying, well, that'll
+be great if this kid
+survives, but I also
+have a future reproductive
+life to think about.
+Her imprinted genes
+tend to counter it.
+What would this look like?
+One of the imprinted genes,
+first ones identified,
+which comes [? from ?]
+active from the male, codes
+for a protein called
+insulin-like growth factor.
+Who cares what insulin-like
+growth factor does?
+What's clear from the name
+is it's a growth factor.
+It's one of those things
+that make fetuses grow more.
+It promotes fetal growth.
+And then meanwhile,
+the female hamster
+has a cognate, an
+opposing imprinted gene.
+What's that one for?
+That codes the gene for the
+insulin-like growth factor
+receptor.
+And what her
+version does is make
+for a less responsive receptor.
+The male was pushing for more of
+the insulin-like growth factor.
+She gets a receptor
+that's not as responsive.
+And you literally have this
+co-evolutionary arms race
+there of male imprinted
+genes evolving to push
+for more and more fetal growth.
+Female ones pushing for
+less and less fetal growth.
+And you see that coming
+out most apparently
+when you see mutations
+in some of these genes.
+For example, another pair
+of imprinted genes, one
+from the father,
+one from the mother,
+and what you see there
+is the father's version
+promotes invasion, placental
+invasion, into the uterus.
+And that's actually
+the term that
+gynecologists use,
+invasion of the fetus
+into the uterine wall.
+It promotes more of that.
+The female version
+slows it down.
+So what if you have
+a disease where
+the male gene relevant to this
+is mutated and knocked out
+of action?
+You solely have
+the female input,
+which is decreasing fetal
+implantation into the uterus.
+What have you got then?
+You've got a disease where
+fertilized eggs don't implant.
+On the other side,
+suppose there's
+a mutation in the female
+part of this pairing.
+And as a result, all you
+have is the male input
+driving for more and more
+aggressive fetal invasion.
+What do you have?
+You wind up with one of
+the all time bad cancers
+you don't want to
+get, choriocarcinoma,
+a cancer of the
+uterus, because it's
+growing completely
+out of control
+being prompted by the fetus.
+When you take out each of the
+voices through a mutation,
+you see that normally
+you're having
+this tilting, this balancing,
+of competition between males
+pushing for more fetal
+growth at the expense
+of the future reproductive
+success of the female, females
+trying to slow it down.
+All of the imprinted
+genes show this.
+Amazingly, people now have
+even identified imprinted genes
+that don't work
+until after birth,
+and they work in the brain.
+And what do they do?
+The male-derived one does
+things like make for infants
+that suckle more.
+Ooh, get more
+calories out of mom.
+And the female
+version tends to blunt
+some of the suckling reflexes.
+It's all built around the
+strategy of males and females
+do not necessarily have
+exactly overlapping
+reproductive strategies.
+So another version
+of it is one--
+a male gene which is
+pushing towards expression
+of the fetal enzyme fetal
+lactogen, placental lactogen.
+And what that does is it
+makes it easier for the fetus
+to grab sugar out of the
+bloodstream from the mother,
+and the mother
+tries to counter it.
+And if she's not very
+effective at doing it,
+or if she's rather
+over-effective,
+you get pregnancy hypoglycemia,
+pregnancy diabetes.
+Suddenly, this is mom having
+a fight with her offspring
+over how much calories
+they're going to get,
+the offspring being driven by an
+imprinted gene from the father.
+Totally cool,
+totally interesting.
+There should be a problem
+lurking here, though,
+which is this is a pattern you
+only see in tournament species.
+You got a pair-bonding
+species, and there's
+no reason why a male should be
+saying something like, ooh, I
+want to like ruin her
+future reproductive success
+at the cost of her giving birth.
+I'm a pair-bonding
+vole, and I want
+her to give birth to a child
+the size of an elephant
+who's going to survive, and
+who cares about her future?
+They're pair bonding.
+They're in it together
+for the rest of time.
+You don't find imprinted
+genes in pair-bonding species.
+You find imprinted genes
+in tournament species.
+And thus, we get back
+to that same issue
+the other day looking at
+tournament versus pair.
+Where do humans fall into this?
+And what we've already seen
+is, if humans can come up
+with choriocarcinomas
+and things like that,
+we have imprinted genes.
+Same punchline again
+as the other day--
+in terms of the
+number of genes we
+have puts us somewhere
+in between tournament
+and pair-bonding species.
+Again, we are terribly confused.
+OK.
+Let's take a five-minute
+break, and we will pick up
+with more examples.
+OK.
+Let's get going again.
+Two good questions just now.
+One is, where does homosexuality
+fit into all of this?
+And where it fits in
+is about 30 minutes
+worth of the sexual behavior
+lecture sometime in mid-May.
+It is a challenge for
+some of this thinking.
+The second good question was,
+am I capable of speaking louder?
+I will try.
+I mumble.
+OK.
+Pushing on.
+So we've just brought in this
+whole bizarre, unexpected world
+of trashing the Hallmark cards
+of intersexual competition.
+Another example of it, a
+really interesting one.
+This was work done
+by a guy named
+William Rice at Santa Cruz
+over some years looking
+at a number of
+different fly species.
+Female flies are polyandrous.
+They mate with a lot
+of different males.
+And you're a male.
+You've just mated with a female.
+And what you would
+like more than anything
+in order to pass on
+copies of your own genes
+is, like, not have some
+other guy impregnate
+her, some other male fly
+guy who's intimidating you.
+Not have some other guy do it.
+And suddenly, what you see is
+this interesting world where,
+because of the mating
+frequency of the females,
+she will have sperm from a
+number of different males
+inside her at the same time.
+And suddenly, we get this very
+strange world, a whole field
+of research, of sperm
+competition-- sperm
+competition of
+[? regal A teams, ?]
+and gold medals and
+all of that, of sperm
+competing with the
+sperm from other males.
+And what you see is, in fly
+species, the sperm of males
+make toxins that kill
+the sperm of other males.
+Whoa.
+That's very elegant.
+That's very elegant
+because it, in part,
+requires you to come
+up with a toxin that
+isn't toxic to yourself.
+You can solve that.
+All sorts of molecular
+tricks for doing that.
+But this makes wonderful sense.
+You increase the likelihood
+of you, the sperm,
+reaching the goal
+line and killing
+the other guys and all of that.
+Except there is a
+problem for the females,
+which is these toxins
+that the male sperm
+release aren't such a hot
+deal for the female's health.
+And what Rice did with these
+really interesting studies--
+I won't go into the details
+of it, in large part
+because I still don't
+understand what the guy did.
+But he was able to
+somehow take populations
+of male and female flies,
+and he would hold the females
+so that they could not evolve
+in response to whatever
+was going on with the
+males-- male-male competition
+for reproduction-- while he
+held constant the female-female
+competition.
+The females were not evolving.
+The males were.
+And what he saw over the
+course of 30 generations
+was this male-male
+sperm competition
+was such that the
+male sperm were making
+such powerful toxins that
+they were shortening the life
+expectancies of the females.
+Whoa.
+That's not smart.
+Whoa.
+That makes perfect sense.
+House flies are not
+your pair-bonding swans
+dying in each other's arms
+for life sort of organisms.
+It's a classic case
+of the male only has
+an investment in the
+current reproductive bout.
+And if he can wipe out
+the competitor's sperm
+and, oh, bummer,
+the female has now
+got all sorts of rotty
+necrotic lesions in her vagina,
+this is not a very
+reproductively effective female
+fly down the line.
+What do I care?
+I'm off to the next pile
+of cow dung after that.
+You have that same
+structure there,
+but this is a bummer
+for the females.
+The males, left to
+their own competition,
+will evolve more and
+more toxic sperm,
+which exacts more
+and more of a price
+on the future reproductive
+success of the females.
+Now Rice flips things.
+And now he takes
+these populations,
+and he holds the male
+evolution constant
+and allows the
+females to evolve.
+And over the course
+of 30 generations,
+they have evolved a means
+of detoxifying the sperm.
+So here we have male-male
+competition inadvertently being
+played out in an
+intersexual realm
+as well, where, again, this
+co-evolutionary arms race--
+totally bizarre.
+Sperm killing each other, and
+sperm damaging the female.
+And that makes no sense if you
+do for the good of the species.
+Again, very logical in the
+context of these models, these
+models of evolution.
+OK, final example.
+And here's one that will become
+very relevant way down the line
+when we're are looking at things
+like the biology of aggression.
+So you've got these
+social primates.
+And in lots of social
+mammals, you've
+got this pattern, which is one
+of the genders picks up around
+puberty and moves
+to another group.
+It's to avoid inbreeding and
+everybody having six fingers
+and tails, if you're a species
+that doesn't have a tail,
+and is perfectly logical.
+And what you need is just
+some sort of [? pattern-- ?]
+is that the females or the males
+of the species which disperse?
+And no one among the
+primates has ever
+found a good rule for
+which primate species have
+female exogamy or male exogamy,
+which gender leaves at puberty.
+But there's
+variability in chimps.
+It's the females who
+leave at puberty.
+In gorillas, it's the
+females who leave at puberty.
+In baboons, macaques, a few
+other Old World monkeys,
+it's the males who leave at
+puberty, with a very critical
+implication.
+So you've got baboons.
+Baboons-- you've got the troop,
+and you look at the adult males
+and adult females in there.
+The adult females
+grew up in that group.
+The adult males grew
+up someplace else
+and emigrated into
+here at puberty.
+In other words, among the
+adult females in this group,
+they're all relatives.
+Among the males,
+there's no relatives.
+Meanwhile, next door
+with the chimps,
+it's the females who
+have left at puberty.
+You look at the mature
+animals in the group,
+and it's the males who were
+there with all the relatives
+who have been there
+all their life,
+and the females who
+have no relatives.
+So asking a question.
+Comparing baboons and chimps,
+which of those species
+has higher levels of male-male
+aggression within the group?
+[INAUDIBLE]
+Baboons, yeah, because
+they're all brothers
+and brothers-at-arms in
+the chimp group there.
+And none of the adult
+males in baboon troops
+are typically related
+to each other.
+Very high levels of intramale
+aggression intragroup.
+So which species,
+on a certain level,
+has put us to
+shame when it comes
+to the invention of warfare,
+of fighting between groups?
+Chimps, because
+you've got bunches
+of males who cooperate
+because they are relatives.
+And what you wind up
+seeing with chimps--
+and we will eventually
+get to this--
+is you see things that are now
+termed "border patrols," where
+a bunch of males from
+a group will patrol
+the edge of their territory.
+If they encounter a male
+from the group over there,
+they will attack.
+They will kill him, as
+documented by Jane Goodall.
+Taken to an extreme,
+the males of one group
+will eradicate another group.
+And if the rule is, I
+am killing this guy,
+we are killing this
+guy, not because we
+don't like the look on
+his face, but because he
+is a member of that group,
+this is the United Nations
+definition of genocide.
+Chimps have not only come
+up with organized warfare
+between groups,
+they have come up
+with a chimp
+version of genocide.
+What's the driving
+force on that?
+One of the truly scary
+things on this planet, which
+is when all the males
+living next door
+are getting along
+with each other.
+Because when they
+do, they suddenly
+start looking over at this side.
+Organized males driven by
+female exogamy in chimps
+is where the warfare
+pattern comes from.
+And as you can
+guess, when we get
+to thinking about the biology
+of aggression with humans,
+we are suddenly in this
+world of taking non-relatives
+who were military
+recruits and convincing
+them to pseudo-kinship
+themselves
+into being a band of brothers,
+increasing the sense of kinship
+there.
+Chimps do this all on their own.
+So now making sense of
+which primate species have
+high levels of
+male-male aggression
+within group versus between
+group, between group
+are ones where it's the
+females who leave at puberty.
+All these guys
+have been together
+since they were terrorizing
+other kids in kindergarten.
+They're an organized
+group against each other.
+You get intergroup organized
+conflict in primates
+that have female exogamy,
+females leaving at puberty.
+OK.
+So we've now worked our way
+through a bunch of examples
+here and how to apply
+individual selection,
+kin selection,
+that sort of thing.
+A fourth branch has come into
+the field in the last decade
+or so.
+And this is one that has had
+a lot of controversy, in part
+because what it is built around
+is mistaken by a lot of folks
+as being an outdated concept.
+But in part because what
+it is actually implying
+is very controversial
+in some realms.
+And this is this business
+of group selection
+somehow sneaking
+back in the back door
+there and becoming
+relevant to the evolution
+of social behavior.
+Group selection.
+You remember Wednesday.
+All the wildebeests there,
+and the elderly wildebeest
+pushes his way forward and
+distributes his bank account
+and then leaps into the river
+and the crocs and all of that.
+And that makes no sense at all
+because animals don't behave
+for the good of the species.
+In individual selection,
+he got pushed in.
+Nonetheless, a notion
+of group selection
+has come back into thinking, but
+it occurs only under a couple
+of specialized circumstances.
+The version that we just
+trashed, which was the version
+Marlin-- OK.
+How many of you guys know
+who Marlin Perkins was?
+It's come to that.
+Marlin Perkins.
+How many of you guys know
+what-- does Mutual of Omaha,
+does that still exist?
+Mutual of Omaha's Wild Kingdom?
+Is that still a
+television program?
+Yes, no?
+When you were young
+did that exist?
+Yeah.
+OK.
+Is it still sponsored
+by Mutual of Omaha?
+They still do.
+That's great, OK,
+because that one has been
+going for decades and decades.
+And they'd somehow always have
+to segue to Mutual of Omaha
+in there doing the
+commercials, building it
+like, just as rhinos will
+mate on for hours on end,
+you want fire insurance for
+your home or some such thing.
+But in its original
+couple of decades,
+it was hosted by a guy
+named Marlin Perkins,
+and Marlin Perkins
+taught most of America
+their evolutionary biology.
+Marlin Perkins is the
+guy who taught everybody
+behaving for the good of the
+species and that sort of thing.
+The first version of
+group selection that got
+trashed in the '60s was Marlin
+Perkins' group selection.
+The group selection that's
+sneaking back into the field
+is very different, two
+different versions.
+First one, something you will
+get in various populations.
+You've got a population
+of something or others,
+and some biogeographic
+event occurs,
+which causes a subset
+of them to get isolated
+from everybody else.
+A land bridge disappears,
+or somebody drops a lake
+there, or who knows what.
+But something isolates a small
+subset of the population.
+So these guys go about
+reproducing by their standards,
+and these guys go about
+reproducing by their standards.
+And what's going to be
+a characteristic very
+soon of the smaller
+population, they're
+going to be more inbred
+than this population
+simply because they're smaller.
+They're going to have a
+higher degree of relatedness
+among individuals.
+So now we throw our second piece
+of our three building blocks,
+throw in kin selection.
+And what that
+immediately predicts
+is levels of cooperation
+will be higher in this group
+than in this group, because the
+higher degree of relatedness.
+That's great.
+And that's great
+because once we see
+how these sort of cooperative
+systems have a larger payoff,
+you will get a crystallization
+so that everybody,
+the second or third
+cousins, are eventually
+going to have to be just as
+cooperative as the siblings are
+with each other.
+You are going to fix
+a trait of cooperation
+in that population
+at a high rate.
+So notice here, in this
+case, we have a high degree
+of cooperation driven
+by kin selection,
+whereas these guys are going
+about their usual "savage
+at each other's
+throats" business.
+Biogeographic event
+reverses, and these guys
+get reincorporated into
+the main population.
+And they're so different
+by then that they
+get a different color.
+And what you've got then is,
+here in the large population,
+here is a nucleus of
+animals who are cooperating,
+and here is the huge, unwashed
+mass of the ones who are not.
+And everything we know
+about reciprocal altruism,
+all of that, means
+that these guys
+are going to start
+out-competing these guys.
+And the model that is
+used is cooperation
+will have to
+crystallize outward.
+Animals will have to join in
+in these cooperative patterns
+because these guys
+will outcompete them.
+What do we have?
+This is called a founder effect.
+This is a small population
+that, thanks to being inbred,
+has fixated some trait
+that's advantageous.
+[? Where ?] the evolution
+here moves faster than
+in here because of the smaller
+population with the inbreeding,
+some adaptive trait
+comes in there.
+They get re-induced into
+the main population,
+and this founder-driven
+trait quickly
+spreads throughout
+the population.
+And what you get here is, if
+the same thing is occurring
+in the realm of behavior,
+reciprocal, cooperative
+behavior, somewhere in
+here you have a transition
+from this being a kin
+selection phenomenon
+to this being a reciprocal
+altruism phenomenon.
+So that stands as one of
+the models out there for,
+how do you jump
+start cooperation
+in non-relative populations?
+You use inbred founder
+populations to drive it there.
+And just to have a metaphor,
+all you need to do,
+think about in some city
+there's some occupations,
+some mercantile something
+or other, that there's
+a gazillion of them, and all
+sorts of people work in that.
+And there's a subgroup
+of people there
+who work in this
+who are all related.
+And as a result, they
+do something cooperative
+and kin selective.
+They make low-interest
+loans to each other.
+And as a result, they're
+more successful at business,
+and they get
+incorporated into here.
+And what you then have
+is this economic force
+that everybody
+else has to join in
+to this cooperative business
+of trusting each other,
+or low-interest loans, or
+I trust you like a sibling.
+You don't have to pay
+me in full next week.
+Used to be that only
+siblings trusted
+each other like siblings.
+But a force there
+for more cooperation,
+a driving force of inbred
+kin selection initially.
+So that's one way
+in which people are
+thinking about group selection.
+And here you now have
+this group out-competing
+this because of this trait.
+And people actually use
+terms like "crystallization."
+The trait of cooperation will
+crystallize outward and fix
+in the whole population.
+So that's one version of it.
+And this is one, again,
+we will come back to,
+this is one of the ways
+to jumpstart cooperation
+in a world in which there
+is no reciprocal altruism.
+Because you see the
+problem with that.
+We all have learned
+tit for tat is the best
+one, except
+[? forgiving ?] tit for tat
+might be better, except
+Pavlov might even be better.
+And all of those who built
+around this one requirement,
+though, which is somebody
+has to make the first move
+of being cooperative.
+That's got to
+jumpstart the system.
+And what we all
+know is, in a system
+that doesn't go along with
+the rules of can't we all
+sing "Kumbaya," what
+happens is the first one
+in the first round who does
+something cooperative is
+some schmuck who's one
+step behind everybody
+else for the rest of time.
+There's no way to get these
+cooperative systems to evolve
+initially.
+We'll see there are ways.
+And this is one of those--
+have it driven initially
+by kin selection, and then throw
+it into the general population.
+So that's one version of where
+group selection has crept back
+in.
+Another version is sort of the
+more generalized form of it.
+And it could be illustrated--
+OK, the following example.
+You've got chickens.
+You've got chickens
+with an array of traits,
+and you can see there's
+two types of chickens.
+One chicken is super aggressive
+and beats on everybody else,
+and she lays lots of eggs.
+Another chicken-- far more
+pacific and introspective
+and less aggressive
+and has fewer eggs.
+So now you take any one of
+the high-aggression females
+and one of the low-aggression
+guys and put them together,
+and who's going to leave
+more copies of her genes?
+The high-aggression female
+laying lots of eggs.
+Now instead, you
+have a whole group
+of the high-aggression
+females and a whole group
+of the low-aggression females.
+What's going to happen in
+the high-aggression females?
+They're all so aggressive that
+they all injure each other.
+They all stress each other
+into lower fertility rates,
+all of that.
+And suddenly you have
+this very important world
+in which A can dominate
+B, but where groups of B
+dominate groups of A.
+And it's in that realm
+that you suddenly get a push
+towards group selection.
+When selection on that level--
+a world of any individual being
+outcompeted because of a trait.
+But as a "collective"-- and
+bringing in that word not
+randomly, as a collective
+in the collectivist future
+of low-ranking chickens to
+throw off their chains--
+once you have a group of them,
+the same traits that could be
+disadvantageous on an
+individual dyadic level,
+as a group outcompetes
+the others.
+And when you do that, you've
+suddenly got group selection
+in a classical form,
+where these animals,
+because of their traits,
+they are not behaving
+for the good of the group.
+But the very traits
+that are disadvantageous
+individually are
+advantageous as a group.
+And it's another way
+of thinking about this.
+If you indiscriminately
+make low-interest loans
+to everybody on earth,
+you are very readily
+falling into this category.
+If you were part of
+a group that makes
+low-interest loans
+to each other,
+suddenly you
+outcompete the other.
+A fascinating book.
+An evolutionary biologist
+named David Sloan Wilson, who's
+been the main person pushing
+for this idea for decades,
+has a very broad range of
+intellectual interests,
+including religious history.
+And a number of years
+ago, he published a book
+called Darwin's Cathedral.
+And he analyzed the birth
+of clusters of new religions
+over time as examples of
+founder effects and group
+selection-type properties.
+And he wound up,
+in great detail,
+analyzing Calvin and the
+starts of Calvinism and Calvin
+and his sidekick Hobbes in
+Zurich in the 17th century,
+or whenever it was
+that Calvinism started,
+of analyzing how there were all
+sorts of these little religions
+popping up there in
+these little city-states.
+And what it was about
+Calvinism-- in I
+think it was Zurich--
+that took off,
+where they established some
+of these inbred cooperative
+patterns and then
+beat the pants off
+of all the other city-states.
+And soon, all of central
+Europe was Calvinist.
+Really interesting
+book in that regard.
+OK.
+So back has come this whole
+possibility of group selection.
+And out of that has come the
+more broad way of thinking
+about it now, which is
+multi-level selection,
+a very important concept here,
+which is sometimes selection
+occurs entirely on the
+level of a single gene.
+In other words, have a gene
+with bad enough of a mutation,
+and it doesn't matter how
+many great other genes you got
+going for you.
+Selection will be
+decided entirely
+on the basis of one gene.
+As we saw in our principles
+from the other day, much more
+common-- selection at the
+level of the individual,
+[? at ?] an aggregation of
+the genotype playing out
+in terms of phenotype all
+the different traits there.
+But what this introduces is some
+circumstances where selection
+is at the group level.
+And it is never at the level of
+how an individual's trait plays
+out individually in a group.
+It's how this trait
+played out individually
+emerges as a group behavior
+that you get group selection.
+And this marks this
+great peace that's
+come between this
+David Sloan Wilson
+and the guy who's probably
+the most towering figure
+in this whole field,
+this guy EO Wilson,
+Edward O. Wilson at Harvard.
+David Sloan Wilson and
+EO Wilson spent years
+not getting along with each
+other because Wilson-- Wilson--
+because EO Wilson
+is very strongly
+individual
+selectionist model guy,
+and thus he hated
+group selection.
+David Sloan Wilson,
+the other way around.
+Each of them were
+endlessly invited
+to the wrong parties because
+of the same shared last name
+and all sorts of social
+awkwardness there.
+In the last few years, I
+don't know what happened.
+I don't know if they
+arranged marriages
+between their
+grandchildren or something.
+But they arranged
+some sort of truce.
+And Wilson-Wilson
+published a paper last year
+basically saying,
+whoa, you know what?
+Some of the time I'm right, and
+some of the time he's right.
+And isn't that great, and
+can't we all get along,
+and delineating circumstances
+where individual selection--
+individual selection, kin
+selection, reciprocal altruism
+is going to dominate
+circumstances
+where selection is going to get
+played out at the group level.
+They love each other now.
+They have formed a new language.
+They share burial customs.
+And this sort of constitutes
+a great resolution.
+Yeah, depending on
+the circumstances,
+the most important
+thing in evolution
+might be a single gene, a single
+organism, or a single group.
+And the power of a group
+and aggregate traits that
+work lousy in the
+individual is going
+to be really important
+down the line
+when thinking about aggression
+and stopping aggression
+and things of that sort.
+OK.
+So all of this is great.
+This multi-level
+selection now showing
+sort of a fancier,
+more sophisticated way
+of thinking about
+individual, kin,
+reciprocal circumstances,
+where it works,
+circumstances where this is
+the most interesting thing.
+So that's great.
+So now we begin to look
+for a first pass of where
+humans fit into this.
+We've already seen in terms of
+all of these traits, tournament
+versus pair bonding, we're
+somewhere in between.
+In terms of imprinted genes,
+we're somewhere in between.
+These are specifics.
+How do we begin for
+a first pass to think
+about humans, human behavior,
+fitting into these frameworks?
+Two problems, or two
+issues, that are all we'll
+touch on at this point.
+The first one is, there
+is this temptation,
+as soon as you think along
+these lines, to discover, oh,
+isn't that interesting?
+Langur monkeys will
+have infanticide.
+Male langur monkeys will kill
+the kids of some other male.
+Human males do that sometimes.
+Oh, langur monkeys might be an
+interesting evolutionary model
+for where infanticidal
+behavior came from in humans.
+Oh, isn't this interesting?
+Dominance is passed
+along by males.
+We do that [? sometimes. ?]
+isn't it interesting?
+Kidnapping somehow occurs.
+And before you know it, you
+have a world in which people
+are saying, well, damselflies do
+something that look like rape.
+So huh, we've got a damselfly
+model of human behavior
+in that realm.
+And two things are
+happening there.
+One is taking the traits,
+a small number of traits,
+in some other species and
+inflating the relevance it has
+for understanding us.
+The other danger
+is that somewhere,
+creeping below the
+surface, is you see
+it happens in other species.
+It's kind of natural.
+It's kind of inevitable.
+This is a whole world in
+which people have run off
+with how this applies to humans
+in a completely distorted way.
+We are unique as a species,
+as is every other species.
+We are unique.
+By applying the same
+evolutionary rules
+that every other species has,
+that's the commonality, not
+the outcome.
+The other challenge
+is constantly
+going to be that you get all
+these great predictive models,
+and then humans
+go and screw it up
+by having quirks
+and idiosyncrasies
+and personalities
+and stuff like that.
+All I can say in that realm
+is, back to Wednesday,
+if making sense of
+which lions are going
+to go to the scary speaker
+in the bushes there revolves,
+in some part, around
+personalities, humans,
+by the time you get to us,
+blindly assuming these models
+apply is going to be very shaky.
+OK.
+So just a first
+pass at how one will
+have to be cautious
+for the rest of course
+in applying all these models.
+Now, far more critically,
+is looking at,
+what are the criticisms
+that have been brought
+against this whole framework?
+This framework of
+social behavior
+has evolved to maximize
+the number of copies
+of genes driven by kin,
+driven by reciprocal altruism.
+Group selection is a rare
+trait, but when it does,
+it follows these properties.
+This is how you explain
+all the behavior.
+Know these four or
+five rules and not only
+can you look at two
+skulls of different sizes,
+but you can explain all behavior
+and all of human behavior,
+and it's all biology.
+And eventually,
+as EO Wilson said
+in his landmark
+book of his in 1975,
+Social Biology, eventually
+all of the social sciences
+will be under the wing
+of evolutionary biology.
+No surprise that social
+scientists were not
+very pleased with that
+proclamation at that point.
+But this was this
+notion that this was
+going to explain everything.
+So what are the criticisms
+that have been leveled
+at this style of thinking?
+And as we'll see, there
+are a lot of them.
+All of the stuff we've
+been thinking about,
+this basic notion of applying
+the Darwinian rules as to why
+giraffe have to have hearts
+of certain size to behavior,
+there's three features that
+are coming through [INAUDIBLE].
+The first one is the notion
+of heritability of traits.
+Because what we've
+been discussing
+throughout the last
+lecture or so is,
+there's heritability of the
+tendency to kidnap infants
+at the right strategic time.
+There's heritability
+of the tendency
+to decide that you like
+males with big, fancy plumage
+and long canines.
+There's heritability to deciding
+that your daughter should
+be highest ranking in
+the troop [INAUDIBLE].
+Heritability.
+An assumption of heritable
+behavioral traits
+runs through every single
+one of these discussions.
+The next theme that runs
+throughout all of them
+is the notion of adaptiveness.
+If some trait has emerged
+out of the evolutionary murk,
+if some trait has
+been selected for,
+selection implies
+adaptiveness-- the notion
+that everything you see has an
+adaptive explanation for why
+it's emerged evolutionarily.
+The third principle, which
+is not explicitly stated
+in this field very often but
+is implicit to everything
+about it, is these processes
+of evolutionary change
+are gradual.
+At every generation, if by
+getting into some better
+behavioral strategy for
+playing prisoner's dilemma
+you leave 1% more copies of
+your genes than everybody else,
+come back in 100
+zillion generations
+and that trait will have spread.
+All of this is played out in
+generation after generation
+so that evolutionary
+change is occurring
+in gradual, incremental steps.
+So what do you do with
+these three starting points?
+The first one.
+An awful lot of
+the next two weeks
+will be looking at how
+other disciplines look
+at the issue of, how
+do you figure out
+when a behavior is genetic?
+And one of the first
+things we'll learn
+is how that phrase means
+absolutely nothing whatsoever.
+Maybe a better way of
+stating it is, how do you
+figure out when a behavioral
+trait has a genetic influence?
+And as we'll see, even
+the safer way of saying it
+is, how do you
+figure out in which
+environment a
+certain behavior has
+a particular genetic influence?
+How do other disciplines go
+about saying, oh, it's genetic.
+It's genetic.
+In this field, among this sort
+of sociobiological thinking,
+what you do is an
+inverse style of proof.
+You say, OK, if a trait
+has a genetic component,
+you would expect it to be
+heritable along these lines.
+If it's more adaptive,
+it will increase
+its frequency, all of that.
+And look, that explains where
+competitive infanticide has
+come from.
+Show me a more
+explanatory model.
+Show me a model that
+is more predictive.
+And until you can
+show me one, I'm
+assuming this trait
+has some heritability.
+And we'll see how, by next
+week, the more molecular people
+rip this view to shreds.
+Tell me, when you're
+talking about heritability
+of some behavior,
+show me the damn gene.
+Show me the sequence of DNA.
+Show me how that
+produces the behavior.
+This is where this field
+ends saying, oh, we
+can inferentially sort of decide
+there's a genetic influence.
+As we'll see by next
+week, this one piece
+is the main thing attacked
+by a number of other fields.
+Next piece, the
+adaptiveness-- the notion
+that everything
+that has evolved has
+evolved under the scalpel
+of evolutionary demand
+for optimization
+and all of that.
+And the critics
+of this view call
+this the adaptationist
+fallacy-- the notion
+that everything is
+there for a good reason.
+And what they often do in terms
+of making fun of that is that,
+oh, you look at people
+who do this kind
+of evolutionary biology with
+this adaptationist emphasis,
+and it's one big just-so story.
+Why do giraffe have
+hearts with thick muscles?
+And here's the story I make up,
+and if my story is better than
+yours, I get tenure
+and you don't.
+Why is that the
+zebras got stripes?
+Why is it that
+males kill infants
+in this species or whatever?
+That everything is adaptive.
+And what you need to do now
+is come up with the story
+to explain why it's adaptive.
+And if it fits some of those
+principles of individual
+and group, et
+cetera, then you win.
+You've got the
+best just-so story.
+And what is constantly
+brought as a sort of criticism
+of that is, show me experimental
+evidence that it is adaptive.
+And by the time
+we get to looking
+at the field of ethology,
+you'll see a whole way
+in which people do that.
+Show me that it's
+possible to disprove it.
+OK, tell me a just-so story,
+where if that were the case,
+that would prove that this
+is not what's going on.
+You got to have the
+rules of science.
+It can't just be you observe
+something and come up
+with the best story and you win.
+But what's most striking in sort
+of terms of criticizing this
+is some domains
+in which there are
+traits that have not evolved
+because they are adaptive.
+They've just evolved because
+they are excess baggage.
+And this has brought in a whole
+sort of criticism of the field.
+Now, some of the time, when
+you begin to see-- it's
+kind of hard to see where
+the adaptiveness is.
+It's because it's a more
+subtle feature of it.
+For example, you
+could look at squid.
+And someone who is
+enamored with fish
+and how cool and aerodynamic,
+aquadynamic, fish are
+and all of that, will
+point out that squid
+are pretty lousy swimmers
+compared to all sorts of fish.
+They're pretty lousy
+swimmers compared to fish,
+but they're pretty great
+swimmers for something
+starting out evolutionarily
+as a mollusk.
+This adaptiveness has to be
+in the context of where it
+came from and where it got to.
+OK, so that is a qualifier.
+Nonetheless, even
+factoring that in,
+of hidden features of adaptation
+in evolutionary history,
+there's lots of traits that
+are simply not adaptive.
+And one of the most
+effective critics
+of this whole view,
+Stephen Jay Gould,
+introduced a term about 30 years
+ago that summarized this view.
+Gould was a
+paleontologist at Harvard,
+and his thinking will come
+in a whole lot in next week's
+lectures.
+He teamed up with another guy, a
+molecular geneticist at Harvard
+named Richard Lewontin.
+And in critiquing a lot of
+this, they came up with a term
+saying an awful lot
+of traits have evolved
+that exist not because
+they're adaptive,
+but because they're spandrels.
+So at that point,
+everybody in the field
+had to go run to
+their dictionary
+because Gould and Lewontin were
+all being snotty and coming up
+with fancy, highfalutin
+culture terms,
+because it turns out "spandrel"
+is a term from architecture.
+So immediately, they already
+won points off of everyone else
+for being all
+cultured and stuff.
+But a spandrel, a spandrel is
+you got some medieval building.
+Remarkably enough, that's a
+medieval building, and-- [SIGH]
+[LAUGHTER]
+--it's a nice medieval building.
+[LAUGHTER]
+And what you get is you have
+these arches that-- there winds
+up being a space
+between arches, that's
+there's space between
+arches just because you
+can't build arches
+next to each other
+without there being
+like this space here.
+This is solid brick or
+LEGO blocks or whatever.
+So you have these arches, and
+there's a space in between.
+And you got this space.
+It's not there for
+any good reason.
+It's there because you can't put
+two arches next to each other
+without coming up with
+this triangular space.
+And the architectural
+term for those triangles
+are "spandrels."
+And spandrels, in
+architecture, is something
+that forms between two arches.
+And as Gould and
+Lewontin used the term,
+a spandrel is some
+trait that occurs simply
+as the unavoidable outcome
+of some other traits that
+are being selected for.
+You can't put two
+arches together
+without getting some sort of
+triangular shape in between.
+And throughout the history of
+architects making spandrels,
+these would be artistically
+built up and all of that,
+and there would be all sorts
+of decorative stuff on that.
+So if you were an adaptationist
+[? folly ?] person,
+everything has an adaptive
+[? purpose. ?] You look at that
+and, oh, there's got to be
+some reason why spandrels have
+evolved and have these elaborate
+secondary sexual features
+on spandrels, little gossamer
+things flying around and stuff.
+And there's got to be
+an adapt-- oh, I know,
+because people in church will
+look up at it a whole lot,
+and their necks will get sore.
+And when their necks
+stop being sore,
+they will decide this
+is the glory of God,
+and they will increase
+their [? belief. ?]
+That's why architects
+put in spandrels.
+No, you can't build
+buildings like this
+without spandrels happening.
+And just because
+they were there,
+why not let's decorate them.
+That's the evolution
+of spandrels.
+And in Gould and
+Lewontin's critique,
+an awful lot of stuff,
+where the sociobiology types
+would sit there and say, we're
+going to have a just-so story
+contest now and
+use our principles
+and figure out some way in
+which this is actually adaptive,
+they're saying, this
+actually wasn't selected
+for because it's adaptive.
+It was an inadvertent
+byproduct of something else.
+So here's an example
+of that would be given.
+Humans have chins.
+Humans have chins.
+Apparently, all
+humans do have chins
+hidden away someplace or other.
+Humans have chins.
+And weirdly, we're like
+the only primate that does.
+You look at, like,
+other apes and stuff,
+and they have the
+sort of weak chins
+that suggest sort of immoral
+characters and criminality
+and things like that.
+We're the only species
+that has chins.
+And apparently, there's been
+some like nutty adaptationist
+school somewhere
+back when, trying
+to make sense of why it is
+that humans evolved chins.
+Why it is that human faces
+come to a point there,
+and what's the
+adaptive advantage?
+And [? where ?] you
+can, like, stab rivals--
+[LAUGHTER]
+--or you can get crumbs from
+out of the corner on the floor
+and stuff with your chin.
+Until somebody figured
+out that there's
+no way that you could
+have a primate face
+that has a muzzle foreshortened
+and a jaw at this angle.
+You do this, and you
+do this, and you're
+going to get this little
+spandrel thing sticking out
+there.
+And oh, there hasn't
+been selection for a chin
+because you have selection
+for a hominid face
+with a shortened muzzle, and
+this thing pops out there.
+And suddenly, all
+those doctoral theses
+about the reproductive
+advantages of chins
+go down the tubes there.
+It was merely a spandrel.
+And Gould and
+Lewontin's argument
+is that there's lots
+and lots of spandrels,
+that this emphasis--
+everything is adaptive,
+everything is the
+outcome of competition--
+that's produced that,
+an awful lot of stuff
+is excess baggage that
+merely gets carried along
+because the evolutionary process
+isn't all that efficient.
+You're starting with
+a mollusk if you
+want to make yourself a squid.
+Giving rise to another concept,
+another term in the field.
+Andre Lwoff, who was a
+French-- or was it Jacob?
+They were these two French
+molecular biology guys,
+and they both got Nobel Prizes.
+And one of them said this,
+and I don't remember which,
+but I'm going to
+say it was Lwoff
+because I like saying Lwoff.
+Andre Lwoff once said that
+"Evolution is not an inventor.
+Evolution is a tinkerer."
+It works with
+preexisting structures.
+And the notion that you're
+going to see this everywhere,
+you're gluing stuff together.
+You're duct taping
+this part of the pelvis
+to this part of the
+circulatory system, whatever.
+And you're going
+to have spandrels.
+An awful lot of
+what those folks go
+through in these whole song
+and dances of adaptation
+are merely spandrels.
+Evolution is not about
+optimizing every single trait.
+What comes out of
+that is this notion
+that an awful lot of
+this world of competition
+really isn't about competition.
+You stick with these
+models, the models
+we've been covering
+for the last two days,
+and every bit of
+advantage is going
+to increase the number
+of copies of your genes.
+What's the only
+possible outcome?
+You need to compete.
+You need to outcompete.
+It was a critique
+of this whole view
+as being one driven very
+strongly by competition,
+because all the traits
+there are driven
+by having to out-reproduce
+the next individual, next
+individual.
+Another realm in which
+this has been critiqued
+has been by, interestingly,
+evolutionary biologists
+from the Soviet Union.
+And where it was
+emphasized there--
+in Western sort of emphasis
+in evolutionary biology,
+most of evolutionary
+selection was
+about competing with
+other individuals.
+Sexual competition,
+competing for running
+away from the predator faster
+than the guy next to you,
+competing for food, all of that.
+If you're sitting there
+in the Soviet Union
+and you're thinking about
+evolutionary biology, what
+you're mostly thinking
+about is evolving
+the means of surviving climate
+demands, surviving extremes
+of climate, what would
+be categorized as abiotic
+rather than biotic, abiotic
+demands in the environment.
+And when you look at species
+where most of their survival
+is about surviving
+ecological extremes,
+environmental
+extremes, you don't
+see a whole lot of competition.
+That's a world with far less.
+And throughout the years, the
+Soviet evolutionary biologists
+tended to emphasize
+abiotic selection, which
+had far less of an
+emphasis on competition.
+The final piece,
+though, the gradualism.
+The gradualism is very
+intrinsic to this.
+Because if everything
+is adaptive,
+every little bit of
+advantage is worth
+fighting for, and
+competition and killing
+each other's infants and
+killing each other's sperms
+and oviducts and all of that.
+And every little
+bit is going to make
+for a little bit
+of an advantage,
+and you will have this
+gradualist change.
+And the huge challenge
+that came to that
+was from Gould and another
+scientist in the '80s, a notion
+that maybe that's not
+what evolution looks like.
+Maybe evolution is not
+occurring in these gradualist,
+incremental steps.
+Maybe what occurs instead
+is long periods of nothing
+happening and then a
+rapid evolutionary change.
+In long periods,
+nothing happening,
+then rapid evolutionary
+change, something
+that they called
+punctuated equilibrium.
+And the whole next lecture
+is going to be about this.
+Critical implications--
+the genetics
+of how stuff evolves
+turns out to fit
+far better the molecular
+genetics with these models
+of punctuated, rapid
+change, and stasis,
+equilibrium, punctuated change,
+rather than these gradualist
+models.
+And if that's what it looks
+like in these steps, most
+of the time you're
+not punching it
+out for every one-half of
+1% reproductive advantage,
+and it's all competition.
+Most of the time,
+nothing's happening at all,
+and there's periods of severe
+selection and then long periods
+in which nothing happens.
+A step function like that,
+the role of competition
+is reduced tremendously in
+thinking about evolution.
+So we're going to
+spend a ton of time
+looking at the punctuated
+equilibrium model.
+To give away the
+punch line that I
+know you are all on the
+edge of your seats for,
+I kind of think it's right
+in a lot of the circumstances
+of evolution because
+it fits much better
+with the molecular biology.
+Finally, in addition to these
+critiques of show me the genes,
+everything doesn't
+have to be adaptive
+because there are spandrels,
+and besides, this is really
+wimpy science where science
+counts as making of the best
+story, and there's no reason
+to think that it's gradual,
+there's a mechanism
+for this as well.
+In addition to
+that, there's always
+been a final realm of criticism
+of this style of thinking,
+which has been a
+political critique.
+And in lots of
+realms of science,
+you can't really imagine
+a political critique
+as to whether cilia on amoeba
+flip this way or that way
+or a critique as to
+whether, like, plants
+should have three clover
+things or four clover things,
+that there's not a
+political factor in that.
+There's a huge amount of
+sociopolitical implications
+that run through
+this entire field.
+Because it addresses
+issues of like how natural,
+how evolutionarily ancient,
+how evolutionarily honed, how
+adaptive are things like
+whether a species, a society,
+has male domination or not,
+has strict hierarchies or not,
+has certain degrees
+of aggression,
+has certain patterns
+of sexual coercion.
+And a whole world arguing
+that these things have
+a naturalistic grounding in
+adaptation versus a whole world
+that says that's jibberish.
+Most of the time,
+nothing's happening.
+And when it does, a
+lot of it is spandrels.
+Those have very different
+political implications.
+And from day one, the
+critics of this entire world
+have made a point of
+something that initially
+seems kind of silly,
+but may not be silly,
+which is the entire
+founding generation
+of these sociobiologists
+were white, Southern males.
+Make of that what you will.
+EO Wilson from Alabama,
+Robert Trivers, Irven DeVore,
+a whole population
+of these folks,
+the first generation
+of these people,
+were all white males
+from the American South.
+Whereas Gould and Lewontin,
+all of these guys,
+were Northeastern Marxists.
+OK.
+So we got kind of a
+major contrast here.
+And the critique of the
+sociobiological view is, well,
+isn't it interesting that their
+notion of how evolution works
+just happens to emphasize the
+naturalness of a system that
+rewards them for the
+inequalities that we have?
+Isn't it interesting that their
+models predict the naturalness
+of a world in which they're
+the ones who benefit most
+from the notion that
+this is natural?
+And from day one, that has
+been a strong critique.
+And that's not like critiquing
+cilia amoeba theories
+for political implications.
+That is a very real one.
+Because the notions that this
+is pertinent to making sense of,
+is rape a human
+psychopathology, or is
+rape a competitive
+strategy, is the fact
+that children are more likely
+to be killed by stepfathers
+than by biological fathers.
+Does that represent something
+about the typical socioeconomic
+pressures in families
+with step-parents
+versus the natural biology
+of gene competition
+through competitive infanticide?
+This has a lot of implications.
+And from day one, as this
+field emerged in the late '70s,
+there was a huge
+political agenda
+that was assumed to be there.
+Sufficiently so at one lecture,
+a famous conference in 1977
+where EO Wilson was presenting
+there, a bunch of people
+rushed the stage and
+knocked him off the stage
+and dumped water
+on him and chanted,
+whatever it is in German,
+saying, we will have
+a society of law and order.
+This is pretty
+agitated circumstances
+for thinking about science.
+This was a group in
+Boston called Science
+for the People, which was
+a Marxist group at the time
+there, and saying, all
+this sociobiological stuff
+is doing is justifying a world
+in which it is male-dominated,
+stratified, and where aggression
+and competition pays off.
+And this has been
+highly controversial
+from the beginning.
+The one counter to it-- and I
+think a lot of that was valid,
+and I think a lot of
+it instead defaults
+into models where this is not
+making a whole lot of sense.
+The one thing to
+be pointed out is,
+when we see what punctuated
+equilibrium is about,
+it's exactly the sort
+of world of evolution
+that produces the sort of world
+that a Gould or a Lewontin
+would want it to be, one
+which minimizes competition
+in favor of cooperation and
+a whole pattern of stasis
+and rapid dialectical change.
+It's exactly the world that
+two Marxist geneticists would
+say evolution should be about.
+So I think that as
+a first pass, you're
+seeing this stuff is dripping
+in sociopolitical implications.
+So starting Monday, we will look
+at this punctuated equilibrium,
+taking apart this
+piece of the story.
+And basically, for the rest
+of the course, examining--
+For more, please visit
+us at stanford.edu.

@@ -1,0 +1,2117 @@
+12. Endocrinology
+=================
+
+[MUSIC SWELLING]
+Stanford University.
+Can you hear me like this?
+Is this better?
+Yes.
+Yes.
+OK, great.
+So yeah, so like Tom said,
+feel free at any point
+to interrupt us with questions.
+Just raise your hand if
+something's confusing,
+stuff like that.
+Also, just like with
+the other lectures,
+feel free to email
+us after class.
+Our emails are on CourseWare.
+You can find us that way.
+So today, we're gonna provide
+a little bit of background
+context introducing sort
+of [INAUDIBLE] place
+in the context of the other
+sort of buckets of this class,
+or I guess sort of think
+about it generally.
+We're gonna talk
+specifically then
+about peptide and
+steroid hormones,
+different types of hormones.
+Then we're gonna see some
+specific interesting things
+about them that you
+might want to know.
+Then we're gonna talk about how
+the brain controls hormones.
+So hormone release, and
+then eventually feeding back
+to how hormones
+influence the brain.
+Sort of this dual communication
+system that's pretty neat.
+But we're gonna touch on
+all those things today.
+So Tom's gonna start out
+with some background context.
+OK.
+So way back when, when life
+first arose, things was--
+were inside single cells, right.
+Individuals were
+single cells who
+had to interact with
+their environment.
+They had to get food, they
+had to get rid of waste,
+they had to make sure they were
+in the right pH and temperature
+so that they could do
+well for themselves.
+And as a single cell, it seems
+like a simple enough task.
+But as things got
+more complicated
+and multicellular
+life arose, there
+arose a really big,
+important issue
+for life, which is how
+cells talk to each other.
+Cellular communication, OK?
+And you don't have to
+worry too much about,
+like, the jargony
+words like paracrine.
+But it's kind of
+worth thinking about.
+There are four main ways that
+cells can talk to each other.
+The first one being
+cell-cell contact,
+where you actually have one
+cell physically touching
+another cell.
+And that seems pretty
+understandable.
+It's got to be really,
+really short range.
+And it's just gonna be this
+cell talking to another cell.
+We've got paracrine, which
+is a little more short range.
+And you guys have heard
+about neuronal and endocrine.
+And I'm gonna try to put these
+examples of communication
+in the context of us, as a
+giant, multicellular organism.
+This class, right now, OK?
+So who wants to be the pancreas?
+No one wants to be the pancreas.
+OK, we've got a
+pancreas right there.
+Thank you very much.
+No, we don't have to
+be specialized cells.
+But the point is that
+a cell-cell contact
+in our organism would
+be actually someone
+physically handing you
+a note during class, OK?
+You actually-- and it's just
+one to one, short and easy.
+Not gonna-- not a lot of people
+are gonna know about that
+signal.
+Paracrine is more
+like kind of you
+whispering to a bunch
+of neighbors, right.
+A couple people can hear you.
+It happens pretty quick.
+But it's not widespread.
+Neuronal is something that is
+really important to this class,
+and it's something you've
+heard about already.
+This is the equivalent
+of texting your friend
+during class, OK?
+I saw Bill Loundy
+texting someone earlier.
+I was a little offended.
+So if you could put your phone
+away, sir, that'd be great.
+And the key to
+neuronal transmission
+is that it's really about
+electrical movement, OK?
+That's why it happens
+so fast, because I've
+got neurons that span
+all the way from here
+to through my spinal
+cord, or from all
+the way from my spinal cord
+out to the tips of my fingers,
+and that's just
+electrical transmission
+via action potentials, which
+you've learned a lot about.
+Now, granted, when one neuron
+talks to the next neuron,
+it's kind of a relay.
+It's got to use a
+neurotransmitter
+to communicate that.
+But you can really focus, for
+the purposes of this example,
+on that fast electrical
+action potential thing.
+And the fact that it's a
+lot more specific than what
+we're about to see, which is
+endocrine, which is long-range.
+It's all about
+chemical messengers
+traveling through
+the bloodstream.
+Hormones in the blood.
+That's what endocrine
+signals are about.
+This is a lot more like Steven
+sending you guys an email
+to the entire class,
+but it takes a long time
+to get there, right?
+It's gonna take a
+little bit longer,
+but it's gonna
+enable us as a class
+to coordinate our
+behavior so we all show up
+to the right place at the right
+time, wearing the right thing,
+whatever.
+OK.
+So you guys get that.
+Questions about those different
+mechanisms of communication?
+OK.
+So endocrine clearly
+the focus of today.
+Things are traveling
+through the bloodstream.
+It's gonna take a
+while to get there,
+but it's gonna be--
+allow us to coordinate
+a lot of different things.
+Now, what would we
+want to coordinate?
+Two kind of really exciting
+things that we can coordinate.
+One is these giant
+transformations
+that occur during life.
+Things like
+metamorphosis of-- good,
+I see some mimicking back there.
+That's very good.
+I want everyone to do
+this with me right now.
+Metamorphosis.
+Good.
+So basically, you want all
+the cells in that organism
+to kind of change in
+coordination with each other.
+Same thing for a
+couple other things
+which I'm about to talk about.
+That's in contrast
+to-- it doesn't
+have to be an adult
+organism, it just
+has to be a functioning
+organism who
+is in a certain environment.
+And in that
+environment, oh, crap,
+I need to get all my
+cells on the same page,
+because we've got to address
+this particular environmental
+thing.
+So I'll give you
+a couple examples.
+One really great coordinated
+developmental transformation
+was the transition
+from young Harry Potter
+to Daniel Radcliffe, right.
+He was in that weird horseplay
+thing, got a lot of publicity.
+And you can see, like,
+a lot of his cells
+had to change kind of
+all at the same time.
+And you get the point.
+Same thing, I've kind
+of mentioned these.
+As opposed to a kind
+of coordinated response
+into a specific
+environmental thing,
+which might be a
+stressful situation.
+We're gonna hear about
+that a little bit later.
+You want to make sure
+all your organs and cells
+are doing the right
+thing for stress
+mode or sexual arousal
+mode, whatever it is.
+And we're gonna hear a little
+bit more about that later.
+So Will has the mic.
+All right, so that's sort of
+the background context putting
+that stuff into play for today.
+So there's some very
+important things
+that you have to know
+about hormones overall.
+We wrote here peptide
+versus steroid.
+There'd technically a
+third kind of hormone,
+which is single amino
+acid [INAUDIBLE] hormones.
+But we're basically gonna
+talk about the distinction
+between peptide and
+steroid hormones
+today, and sort of
+structural differences
+and what that means in
+terms of their transport
+in the bloodstream, the effect
+they have on target cells.
+And then we'll see
+different things
+about their duration and
+other cool things like that.
+So the structure generally,
+as you can see here,
+we put up a picture of
+insulin in peptide form.
+We wanted to make it
+look like a protein.
+Peptides, of course,
+and amino acids
+being the precursors
+to proteins.
+We see sort of here this is a
+typical peptide hormone made
+from amino acid precursors.
+And a key term
+associated with this
+is the notion that
+it's hydrophilic.
+So this idea that
+it's water-loving.
+This plays into the sort of
+transport mechanisms involved
+with it, and other things which
+we'll talk about in a moment.
+So peptide hormones
+made from amino acids,
+hydrophilic, water-loving.
+We'll see some examples.
+You've heard of some already.
+Insulin, vasopressin,
+oxytocin, ACTH, CRH, and more.
+And then we also
+have steroid hormones
+So these are made from
+cholesterol precursors.
+They're hydrophobic,
+water-hating.
+Another term we associate
+with this is lipophilic,
+liking of lipids.
+When we talk about the
+cellular membrane being
+made of a phospholipid
+bilayer, steroid hormones
+are hydrophobic or lipophilic.
+They're able to pass through
+this phospholipid bilayer.
+Ends up being very important for
+their mechanism inside target
+cells.
+So some examples of this.
+Classic example,
+glucocorticoids.
+We're gonna see those
+all over the place.
+We already had talked
+about them a bit.
+Androgens, estrogen,
+things like that.
+Something really interesting
+about the structure
+of the hormones.
+So if we take a
+steroid hormone-- OK,
+so I'm not gonna
+draw [INAUDIBLE].
+I'm gonna draw a single amino
+acid, which this actually
+is nothing-- looks nothing like
+a single amino acid hormone.
+But you sort of bear
+with me and pretend here.
+So a lot of these
+hormones, steroid hormones,
+single amino acid
+hormones, peptide hormones,
+they come from similar
+precursors, right?
+You have peptide hormones,
+it's amino acids.
+And single amino acids,
+it's often from tyrosine,
+and steroid hormones is from
+these cholesterol precursors.
+Why is this interesting?
+It's interesting
+because, when they
+come from the same
+precursor, they
+end up looking very similar.
+So one might have this here.
+So this might be one hormone.
+And then we might have an
+identical-- a newly identical
+one underneath.
+But now it has just
+another sub-chemical shift.
+Chemical structure
+doesn't really matter.
+The point is that, if you're
+familiar with some organic
+chemistry, you have just
+subtle chemical shifts leading
+to different hormones.
+Interestingly, from an
+evolutionary standpoint,
+this suggests the
+need for basically
+having receptors specialized
+for these subtle chemical
+differences in the hormones.
+norepinephrine and dopamine
+have just a slight difference
+like this.
+But the effect, if
+the receptor wasn't
+able to distinguish
+those-- between those,
+it would have a drastic effect.
+So it's very important, from
+an evolutionary standpoint,
+to have receptors
+that can distinguish
+these subtle differences in
+the hormone chemical structure.
+That sounded really technical.
+Any questions on that
+sort of general idea?
+Is that cool?
+OK.
+That does remind me
+of one thing that I
+didn't make a
+distinction between when
+I was talking about neuronal
+versus hormonal transport.
+A lot of times, we will kind
+of throw out these words,
+and there's a lot
+of jargony words.
+Norepinephrine,
+blah, blah, blah.
+And it's kind of
+good in your mind
+to be able to separate
+between hormones, things that
+are really these
+classic things that
+travel through the blood as
+signals, and neurotransmitters.
+Neurotransmitters being
+they're also chemicals,
+and they also need to
+communicate cell to cell,
+but they are gonna be
+just in that synapse, OK.
+From one neuron to the
+next in the synapse
+that you've already heard about.
+And just to make your
+guys' lives awesome,
+there can be overlap.
+There can be neurons that
+release their neurotransmitter
+into the blood, at which
+point they become hormones.
+So things like dopamine
+and epinephrine, right.
+Things you might associate
+with neurotransmitters
+can also be hormones, depending
+on what context and all
+that stuff.
+So just something
+to really focus
+your attention on when you're
+distinguishing these signals.
+OK, cool, thanks.
+So yeah, so we talked about
+the structure very briefly.
+From that structure, we can talk
+about sort of the differences
+in transport.
+We talked hydrophobic
+versus hydrophilic.
+The images-- should have done
+an animation-style pop-up.
+So our peptide hormones
+are gonna be water-soluble.
+They're gonna travel freely
+through the bloodstream.
+We have-- I guess
+our example here is
+people riding a roller coaster.
+These monks are just
+riding free, looking good.
+You can imagine
+the monks as sort
+of examples of these
+peptide hormones traveling
+freely, dissolved
+through the bloodstream.
+Not really dissolved,
+but that's OK.
+So peptide hormones traveling
+freely through the bloodstream.
+Steroid hormones,
+however, they're
+not water-soluble, so they need
+to be bound to a chaperone.
+This is our example of a
+chaperone guiding this hormone
+through the bloodstream.
+So this is-- it's just sort
+of an interesting thing
+to note about their transport.
+We may talk about this a
+little later in other contexts.
+Other interesting things we
+can learn from the structure.
+So, interaction with
+the target cell.
+When Thomas was talking
+about the context here,
+it's really that we
+understand how hormones
+interact with cells, right?
+They require a specific receptor
+for each individual hormone.
+We talked about
+the importance sort
+of the specificity of that.
+Peptide hormones and
+steroid hormones sort of
+have generalized
+mechanisms that we're
+gonna talk about,
+ways in which they
+interact with target cells.
+Peptide hormones
+on the left here.
+So peptide hormones, because
+they can travel freely
+through the bloodstream-- or
+I'm sorry, let me step back.
+They can travel freely through
+the bloodstream because
+of their structural properties.
+However, those same
+structural properties,
+the fact that
+they're hydrophilic,
+prevents them from
+being able to travel
+through the phospholipid
+bilayer of a cellular membrane.
+So the receptors
+for peptide hormones
+are on the surface
+of these cells.
+They're surface receptor
+cellular membrane sort
+of-- the receptors are
+on the cellular membrane.
+Because of that,
+they're typically
+associated with these what
+are called secondary messenger
+responses.
+The details of this-- I
+think a lot of you guys
+have been exposed to this
+in all sorts of biology
+or human biology.
+But if you haven't,
+generally what happens
+is a peptide hormone binds to a
+receptor of the cell membrane,
+and then sets off what we always
+call this cascade response.
+The secondary messenger
+cascade response.
+This is actually
+really interesting.
+It can lead to a number
+of different effects.
+One thing it can
+do, which we'll talk
+about when this
+is a neuron, is it
+can activate ion
+channels, sort of helping
+ion channels to open or close.
+We'll talk about that in terms
+of membrane potential later on.
+Another thing it can do-- and
+this is the classical example
+with peptide hormones--
+is it sets off
+this secondary
+messenger cascade that
+affects proteins within the
+cell, directly within the cell.
+So we can think of
+peptide hormones
+generally as having action
+on proteins within the cell.
+And that's sort
+of the end effect
+of the secondary
+messenger cascade.
+They also technically
+can go into the nucleus
+and affect transcription.
+However, that we tend to
+associate more with steroids.
+And we'll look at some of the
+complexities and complications
+of this later on.
+You'll hear about this.
+But I would say generally,
+it's important to note
+that we tend to associate
+peptide hormones
+with these secondary
+messenger cascades affecting
+the proteins existing within
+the cell at the moment.
+The onset tends to
+be relatively quick,
+and the duration is
+relatively short.
+We're gonna talk about this in
+comparison to steroid hormones.
+And we can see why the relative
+onset duration is different.
+So because it's
+affecting proton--
+or proteins that exist, it's--
+we can say that the duration is
+relatively short.
+And as we said here, it may
+affect protein activity.
+Steroid hormones,
+by contrast, they
+travel through the blood
+on these chaperone protein
+carriers.
+And then when they
+get to a cell,
+they're able to diffuse
+through the membrane
+and actually bind to receptors
+located within the cell.
+Classically, we talk
+about steroid hormones
+passing through the membrane,
+binding to a receptor,
+and then going
+directly to the nucleus
+to affect transcription.
+So this is sort of
+our classic example.
+Main effect, transcription.
+The onset, then, slower,
+and the duration longer.
+It takes longer to start these
+transcriptional processes,
+and it's lasting a lot longer.
+We're changing the rate
+of synthesis of proteins,
+rather than changing the
+proteins that currently exist.
+OK.
+As always, feel free to
+interrupt if anything
+seems sort of confusing.
+So those are sort of some
+of the generic examples.
+We-- insulin would be a classic
+example of a peptide hormone.
+Glucocorticoids is
+our steroids hormone.
+We may-- we'll see this
+coming up again and again.
+We may touch on this again
+today in the lecture.
+Cool.
+So just to recap-- does anyone
+have questions off the bat?
+Yes?
+For the steroid hormones,
+it's like a receptor floating
+in the middle of a cell.
+Like, would that be on the
+nuclear envelope, or is it,
+like, on something else?
+Great question.
+So the question was,
+for the receptor
+for this-- and this
+image, by the way,
+courtesy of Professor Sapolsky.
+Thank you, wherever you are.
+So the receptor is located
+within-- the question
+is where is that
+receptor located
+for the steroid hormone.
+Is it on the nuclear membrane,
+is it within the cell.
+Classically, we're gonna talk
+about basically receptors being
+located in the cytoplasm.
+There are examples you'll see
+if you look-- even if you did
+a Google images
+search, you might
+find examples of steroid hormone
+coming in, binding a receptor,
+floating in the cytoplasm that's
+then taken into the nucleus.
+Basically, we
+associate the receptors
+as somewhere within the cell.
+Perhaps on the nuclear
+membrane, perhaps somewhere else
+in the cytoplasm.
+And the steroid hormones
+bind within there,
+and sort of carry out
+effects from that.
+And you could
+easily also imagine
+there being a receptor
+protein that's
+already sitting on the DNA
+just waiting to be activated.
+And then when the steroid
+hormone travels the entire way
+into the nucleus, that's
+when it hits the receptor.
+So yeah, both work.
+Other questions?
+Yeah.
+What are cholesterol made of?
+What is cholesterol made of?
+So cholesterol-- I have
+no clue what it's made of.
+I know generally what its
+chemical structure looks like.
+If you look at the
+steroid picture
+from the other page,
+the chemical structure,
+cholesterol precursors are sort
+of similar ring structures.
+You can look it up.
+I think-- it's an
+interesting question.
+In my mind, what I
+tend to associate
+as a relevant
+question, or something
+that I'm trying
+to get across more
+would be that the
+steroid hormones come
+from cholesterol precursors.
+And so I sort of consider
+that the baseline,
+rather than trying to think
+about what cholesterol
+is made from.
+Interesting question.
+Don't know off the
+top of my head.
+And maybe the most
+important thing
+would be that cholesterol
+is hydrophobic.
+So if you're gonna
+make stuff from
+this hydrophobic beginning,
+it's gonna be hydrophobic also.
+And I just want to make sure
+people are completely-- those
+are some really jargony terms.
+Hydrophobic, hydrophilic.
+There are a lot of
+synonyms for those terms
+that are equally jargony, things
+like lipophilic and lipophobic.
+Lipo means lipid, so
+something that is hydrophobic
+is lipophilic.
+That hurt anyone's brains?
+OK.
+So just kind of
+maybe spend some time
+thinking about those words.
+You can kind of logic
+through them pretty easily.
+You might also hear
+people use the terms
+polar versus non-polar.
+Water is polar.
+So water-loving things,
+hydrophilic things,
+tend to be polar.
+And hydrophobic things
+tend to be non-polar.
+Don't worry too much
+about that vocabulary.
+I just want you to
+know that there's
+a lot of different words
+people might throw around
+that all essentially are
+getting at the same thing.
+Any other questions about
+this basic setup so far?
+No?
+All right.
+Onto chapter two, which is
+how does the brain control
+hormone release.
+We've established that
+it'd be a good idea
+to release hormones in response
+to certain environmental cues.
+How can we control that?
+And as this picture shows, there
+are many, many different sites
+in our body where we can
+release hormones from.
+We've got the
+pancreas right there.
+We've got the testes.
+We've got all these
+different glands.
+These are just
+specialized structures
+that can just pump this
+hormone into the bloodstream,
+because that's what
+hormones are all about.
+Some that will come
+up will definitely
+be the testes, the
+ovaries for females.
+I don't know why they're
+drawn on the same guy here.
+Kind of interesting.
+The pancreas, which is-- we
+keep talking about this thing
+called insulin.
+That's released
+from the pancreas,
+and it's gonna have something
+to do with food and sugar
+and things like that.
+The thymus is another great
+little endocrine gland.
+It releases thyroid-- no,
+thymus releases-- oh, thymus
+is where-- what endocrine
+signal does the thymus release?
+T-cells.
+Thymus-- t-cells?
+I'm not sure those
+are hormones, though.
+So anyway, the thymus is
+involved in the immune system.
+Let's ignore that for now.
+And blah, blah, blah.
+You guys get the point.
+There are many places throughout
+our body that secrete hormones.
+And they tend to secrete
+a certain signal.
+Now very excitingly, you'll
+notice that the brain itself
+has some endocrine glands in it.
+The hypothalamus.
+We've heard this word
+hypothalamus a few times.
+The hypothalamus is
+an endocrine gland,
+meaning it can secrete
+things into blood.
+The pituitary, right
+next to the hypothalamus,
+separated by a
+little blood maybe,
+maybe not, the pituitary
+also can release hormones
+into the blood.
+And these other kind of
+lower-down peripheral endocrine
+glands often are regulated
+by those big master endocrine
+glands in the brain.
+I don't know if you guys have
+been reading your zebras yet,
+but I think Professor
+Sapolsky referred
+to these as the brain is the
+master of these witless organs.
+These guys are
+just kind of, like,
+doing whatever the
+brain tells them to do.
+And it's the brain controlling,
+via the hypothalamus
+and the pituitary,
+is going to be
+able to control how much
+testosterone is coming out
+of those testes.
+Does that make sense?
+The brain controls these
+peripheral endocrine glands.
+OK, so let's zoom in on
+that hypothalamus pituitary
+situation.
+Will really didn't want
+to include this picture,
+but I thought it was hilarious,
+and I can't explain why.
+Maybe it's the ponytail.
+I'm not sure.
+But we're just
+kind of focusing in
+on these two different parts.
+And you'll notice maybe that
+with-- something to take away
+from this picture is
+simply that the brain is
+kind of feeding into
+the hypothalamus, which
+is feeding into the pituitary.
+So when we see something,
+that information is processed
+in our brain, can tell our
+hypothalamus oh crap, oh, crap,
+it's stressful.
+It can tell the pituitary.
+And we get this-- eventually,
+we can tell the rest of our body
+what to do via hormones.
+Awesome.
+Goodbye, ponytail lady.
+OK.
+Here's another just classic,
+classic Sapolsky image here
+that we were able to borrow.
+And this is zooming
+in, once again,
+on just the hypothalamus.
+And now we're really, really
+looking at the pituitary.
+And this is where
+things are gonna
+kind of hit the
+fan a little bit,
+so I went everyone to put your
+A-game on, to mix a metaphor.
+OK.
+So the pituitary.
+The pituitary are these
+two kind of things dangling
+below the hypothalamus.
+A lot of weird pictures of them.
+This one's nice
+because it clearly
+divides the anterior pituitary
+from the posterior pituitary.
+And we're gonna make some
+really, really important
+distinctions that hopefully
+you can grasp from this image.
+And if you can't, let me know.
+OK.
+So first of all, the anterior
+pituitary secretes hormones.
+It secretes these
+things over here.
+I'll talk about
+them in a second.
+The posterior pituitary secretes
+a different set of hormones,
+these ones over here.
+That's one distinction.
+Another really
+interesting distinction
+is how the hypothalamus
+regulates that secretion.
+OK?
+On the anterior side of
+things, the hypothalamus,
+being an endocrine
+gland, can actually
+drop some hormones into that
+little red river of blood
+right there.
+So the hypothalamus is
+actually releasing a hormone
+into the blood, and that travels
+down to the posterior pituitary
+and tells those-- sorry, the
+anterior pituitary, sorry--
+and tells those
+cells to then release
+another hormone into the blood.
+And once they're
+in the blood, they
+can go all the way down
+to those other target
+organs we talked about.
+So that's one system.
+You've gotta actually
+travel through the blood
+in the anterior pituitary.
+The posterior
+pituitary is actually
+directly innervated, OK?
+So the hormones that are
+released by the posterior
+pituitary are actually
+coming out of those neurons.
+And the cell bodies
+of those neurons
+are up in the hypothalamus.
+So a couple examples.
+Let's go through the examples.
+You absolutely do not
+need to memorize this.
+We only did this because
+Will teaches MCAT,
+and those kids really
+like their acronyms.
+They like things that you can
+say out and put around and put
+them in bold.
+So FLAT PEG is the
+acronym that people
+use when they want to
+memorize a lot of stuff
+to memorize the posterior--
+or sorry, the anterior
+pituitary hormones.
+Some that will be
+relevant to us that you
+might want to keep in mind
+are, particularly, ACTH.
+Don't worry about it quite
+yet, but just kind of plug it
+in your mind to something cool.
+And a couple of these
+other ones might come up
+as well, but whatever.
+On the posterior
+side, we were upset
+because there was
+no cool acronym--
+is that the right word, acronym?
+Yeah.
+For the vassopressin
+and oxytocin.
+And we decided that since
+these are the two hormones that
+are always being shouted
+out in these vole studies,
+we put some voles on there.
+And we thought they were cute.
+They've kind of got some Rudolph
+things going on with the noses.
+So yeah, whenever you're hearing
+about vasopressin and oxytocin,
+those are hormones
+that are released
+from the neurons in-- that
+go from the hypothalamus
+to the posterior pituitary.
+Now, questions
+about any of that?
+That's kind of
+some neuroanatomy.
+You're probably not super
+excited and interested
+in about that.
+But it's useful to know.
+It might come up a little bit.
+So, questions?
+Clarifications?
+None at all.
+Oh, there's one.
+Oh.
+Yes.
+So I guess the
+neurotransmitters [INAUDIBLE]
+or are they released
+[INAUDIBLE]?
+Oh, my, that's a great question.
+So I don't know how much
+we got into kind of--
+Why don't you
+repeat the question.
+Oh, sorry.
+The question was the
+neurotransmitter slash hormones
+like vasopressin
+and oxytocin that
+are released in the
+posterior pituitary,
+are those just kind of
+like sitting there waiting
+to be released, or do those
+have to be manufactured and then
+sent over there.
+Is that the question?
+Yeah.
+Or, like, if they're released
+from the [INAUDIBLE].
+Are they released when needed,
+or are they, like, created
+and then sort of sit there--
+OK, so yeah.
+I would think about this based
+on your typical understanding
+of a neuron, which just has a
+cell body, an axon, and then
+the axon terminal, which
+is where it releases
+neurotransmitter, right?
+In that axon terminal where
+it releases neurotransmitter,
+it's got vesicles.
+It's basically got these giant
+balls full of neurotransmitter.
+Same thing here.
+You've got these giant
+balls full of oxytocin
+and vasopressin just
+waiting to be released.
+But aren't those made
+in the hypothalamus?
+Those-- like any other
+neuron, those are synthesized,
+produced in the cell body
+of that neuron, which
+exists in the hypothalamus.
+And if you're interested
+in how that works,
+you've got to go on
+this crazy journey
+where stuff--
+proteins, whatever,
+made in the cell body of that
+neuron, which you can see up
+there-- has to be carried
+by these motor proteins
+down the cytoskeleton.
+They walk like
+this, I'm serious.
+I'm not making this up.
+And they have to walk all
+the way down the cytoskeleton
+to get there so that they can
+just wait for the right signal.
+That's an excellent
+question, also getting
+at a deeper issue,
+which is what is it that
+leads to this hormone release.
+And we are gonna cover that in
+our chapter three coming up.
+Yeah.
+Yeah.
+So yeah, clearly
+there are neurons
+telling the hypothalamus
+neurons when
+to be activated, when
+to release vasopressin.
+Other questions about this
+slide that's-- is anyone totally
+confused as to what it
+is even talking about?
+Or you guys feel OK?
+You feel OK.
+All right.
+One last thing on
+this one is I'd
+like to contrast it to
+Dana's excellent talk
+on the autonomic nervous
+system, where you guys learned
+a lot about a lot
+of different things,
+including the fact that
+the brain can control
+the autonomic nervous system.
+And the brain actually sends
+neurons with their cell bodies
+in the hypothalamus and,
+instead of sending them
+to the pituitary, it sends
+them some other route
+down your spinal cord and out.
+And when we were talking about
+the autonomic nervous system
+and it being also controlled
+by the hypothalamus--
+this is just kind
+of a reminder, OK?
+The brain and the hypothalamus
+are really, really important
+for regulating a lot of things.
+In the case of endocrine
+systems, this is how it works.
+Cool.
+Awesome.
+Now we're gonna look at just
+one example, kind of zoom back
+out from the lady
+with the ponytail
+to the dude with the
+ovaries and the testes
+to remember kind of how
+all this works together.
+And I could have done many
+different systems, right,
+because we had all those
+different peripheral organ--
+peripheral endocrine glands
+that needed to leak juice out
+into the blood.
+I chose this one because it
+comes up a lot in the class,
+and it's often referred to.
+So it'd be the hypothalamic
+pituitary adrenal axis.
+The adrenal gland is one
+of those several glands.
+It is regulated by
+whatever hormones
+are in its environment.
+And whether that
+hormone is there
+is thanks to the
+pituitary and so forth.
+There's this kind
+of cascade of events
+that allow the brain to
+control a peripheral gland.
+And in terms of exactly
+which hormones do that,
+we see that the
+hypothalamus is gonna
+have to leak some CRH
+into that portal vessel
+that we saw for the
+anterior pituitary.
+So those neurons
+on the upper left
+would leak, leak, leak some CRH.
+I might even choose not to
+tell you what CRH stands for.
+And let's just say it's CRH.
+And then CRH travels
+through that blood
+until it gets to those neurons
+where it activates ACTH.
+It activates neurons--
+or sorry, not neurons,
+it activates endocrine cells
+to secrete ACTH into the blood.
+And then that travels through
+the entire body's bloodstream.
+So it's gonna go
+all over the place.
+But it just so
+happens that the cells
+that really like to respond to
+ACTH are in the adrenal gland.
+So the adrenal cortex,
+it's kind of chilling right
+on top your kidneys,
+having a good time.
+And when ACTH is present, it
+will release glucocorticoids.
+And that's a big, scary word.
+It's a very important word,
+because it's involved--
+this is the stress hormones.
+And for those of you guys who
+have started reading zebras,
+you will have read a lot
+about glucocorticoids already.
+They are gonna be a
+really important hormone
+throughout the second
+half of the class.
+So glucocorticoids,
+stress hormones.
+One specific one that often gets
+referenced is called cortisol.
+And we don't have to worry
+about it too much right now,
+but just remember
+stress hormones are
+getting pumped out.
+So we kind of understand these
+first two positive arrows,
+I hope.
+Brain sends an arrow
+to the pituitary
+sends an arrow to
+this via hormones.
+Now when cortisol
+comes out and it
+travels through the
+systemic blood circulation,
+it's kind of knocking on all
+the doors of every single cell
+in the body saying, like,
+yo, yo, yo, I'm cortisol,
+I'm here to party.
+And if that cell
+has a receptor--
+this is a theme coming
+up-- then it will respond.
+OK?
+And some of the cells that
+have receptors for cortisol
+are in the pituitary, and
+some are in the hypothalamus.
+And what that allows for,
+it allows the pituitary
+to know how much cortisol
+is in the system.
+So when it kind of realizes
+oh my god, yay, the ACTH
+made it there and
+cortisol came out,
+now that I hear the cortisol
+is in the pituitary,
+I'm gonna stop.
+I'm going to slow
+down on the ACTH
+and I'm gonna
+relax a little bit.
+And that's something
+called negative feedback.
+Negative feedback, big term
+in biology and all this stuff,
+just means that
+the more cortisol
+you get it to send
+out, the less ACTH.
+It's kind of a
+balancing mechanism.
+Brings us back to baseline
+so that we stop secreting
+so much dang cortisol.
+Same thing exists,
+there's a whole other area
+for negative feedback,
+in the hypothalamus.
+And I think that, in the more
+advanced endocrine lectures,
+we'll learn about another
+site of negative feedback,
+OK, other parts of the brain
+that, when they hear cortisol,
+can slow this cascade down.
+So any questions about
+negative feedback,
+what is the HPA
+axis, why does it
+represent everything
+we've been learning.
+OK.
+OK, great.
+Thank you, Tom.
+So Tom pointed out my
+least favorite slide
+of the day earlier.
+This happens to be
+my favorite slide.
+This is one of
+those slides where
+it looks like it's
+fairly simple,
+but actually a lot of
+thought went into this,
+so much so that we
+probably spent, like,
+two hours with the
+original slide,
+scrapped that, and then about
+an hour ago changed it to this.
+So here it is.
+Very important question.
+Stemming from the things
+that Tom just talked about,
+this hormone being released
+and feeding back to the brain,
+we're gonna investigate
+that a lot more closely now.
+We're gonna look at hormone
+action on the brain.
+We're gonna talk a lot about
+the hormone and receptors
+for hormones.
+We mentioned very
+briefly earlier sort
+of a generic cellular response
+to having a hormone bind
+to your receptor, either on
+the surface or inside the cell.
+Now we're gonna talk about
+specifically in the brain.
+So we have hormone to the
+neuron, an epic journey.
+The reason this slide
+took so much work is we
+were trying to come up with the
+perfect analogy for a hormone
+returning to the brain.
+Something historically that
+had to go on an epic journey
+to deliver a message where there
+were sort of proper receptors
+to receive the message.
+So we thought about sort of
+sticking with the Harry Potter
+theme and going with Kingsley
+Shacklebolt's Patronus
+to Bill and Fleur's wedding.
+And Tom was a part of this.
+But I decided that
+that didn't quite work.
+We thought about Phidippides,
+the ancient Greek god who
+went from Marathon to Athens to
+deliver the message that Greeks
+had defeated the Persians,
+which was, like, the route--
+or why the marathon is 26 miles.
+Also didn't work.
+So we stumbled
+upon this, which is
+a picture of Paul Revere,
+the guy who supposedly
+said the British are coming.
+The reason this is such a good
+example-- well, or at least
+we can stretch it
+to fit here-- is
+that a hormone secreted
+from an endocrine gland--
+let's say we're starting sort
+of from a target organ here.
+And we-- Tom just
+mentioned cortisol
+coming from this adrenal cortex
+and going back to the brain.
+It has to travel sort
+of through-- a hormone
+has to travel through
+the bloodstream.
+Interestingly, in
+order for cortisol
+to be secreted in
+the first place,
+it received a signal, right.
+In this case, from ACTH.
+ACTH binding to receptors,
+stimulating the release
+of cortisol.
+Paul Revere was
+sitting out one night.
+This is the guy back in
+1775-- actually a week ago
+today, and like 325 years
+ago or something like that.
+1775, so that math
+is probably way off.
+But you can figure it out.
+He was sitting outside waiting
+to see these light beams.
+He was waiting to
+receive a signal.
+And we can think of Paul Revere
+as sort of a group of hormones
+here.
+And when the signal came
+in, these two light beacons,
+he set off on this path
+through the bloodstream-- him
+on horseback through the
+roads-- with this message.
+And he didn't actually say
+the British are coming.
+He said-- boy, what was it.
+Something like the normals.
+Something like that.
+I may have written it down.
+No, I didn't.
+OK.
+Well, he said some code word.
+And basically, this
+code word, if there
+were proper receptors for
+it, they knew how to respond.
+So it wasn't just the
+British were coming,
+it was some other word.
+And if there were receptors
+for it, they could respond.
+The relevance in this
+case is we're talking
+about going back to the brain.
+So Paul Revere was
+going to Lexington,
+sort of the central hub, this
+central nervous system brain.
+We can sort of
+stretch it that way.
+And has to find the
+proper receptors there
+to initiate this
+proper response.
+So I don't know, I
+just like that analogy.
+So what we're gonna talk about
+is hormone back to the neuron
+has to get through the
+blood brain barrier.
+Those are the neurons.
+It's going through the neuron
+or the group of neurons.
+Do they have the
+proper receptors
+for this hormone signal.
+And once it binds, how
+does it influence activity
+in the brain.
+What is going on there.
+Questions so far?
+Did I confuse
+significantly with that?
+OK, cool.
+So we're gonna move on.
+Starting with the
+blood brain barrier.
+So, the blood brain barrier.
+On the left, we have this
+picture of just blood vessels
+in the brain.
+This is here because Tom sort
+of has a personal mission.
+He and I both have been confused
+about what the blood brain
+barrier is, what it looks like.
+He used to envision--
+you can tell them.
+It's just really embarrassing,
+so I'd rather say it myself.
+I used to think that, like, the
+brain was in this barrier that
+protected it from, like,
+the evil blood supply, when
+it obviously can't be like
+that because the blood has
+to get inside the brain
+and tell every single cell
+in the brain what to do.
+And I'm confessing
+this to you today
+that you actually have to
+picture the blood vessels'
+access to the brain in a
+much more complicated way.
+So the barrier itself is much
+more complicated, as well.
+Right.
+So the barrier is
+constructed by basically
+these epithelial cells lining
+the blood vessels, right.
+The blood vessels extend
+throughout the brain.
+Just sort of an
+image of it there.
+And we have this
+blood brain barrier
+created by these tight
+junctions in epithelial cells.
+Sort of a bunch of details
+that aren't necessarily
+super important.
+However, it's interesting
+because this barrier,
+this blood brain barrier,
+basically tightly
+regulates what type of things
+can go inside and outside
+the bloodstream in the brain.
+It's very important that
+we have a lot of control
+over what's going on in terms of
+our blood supply in the brain.
+So hormones, the
+question comes up,
+can hormones pass through
+the blood brain barrier.
+We did a bunch of
+research on this,
+and basically because of
+their epithelial cells,
+phospholipid
+bilayer, same story,
+steroid hormones are lipophilic.
+They can pass
+through this blood--
+this phospholipid bilayer.
+Not much of a problem there.
+Peptide hormones,
+generally we know
+that they can't pass
+through just on their own.
+But we looked this
+up, there doesn't
+seem to really be a problem
+with peptide hormones getting
+to the places they need
+to get in the brain
+because they have these
+carrier transports.
+They have the ability to get
+through the blood brain barrier
+when they need to.
+So just sort of an
+interesting point there.
+First step getting through
+blood brain barrier,
+it's helpful to know it exists.
+It might come up in
+other contexts later on.
+Things like alcohol, alcohol
+can go right through the blood
+brain barrier.
+And that has certain
+effects on behavior.
+We're gonna-- it might
+come up later on.
+Here's this blood
+brain barrier, what
+can get through it, what
+can't, what does that mean,
+what are the implications for
+that in terms of behavior.
+Something just to sort
+of know about generally.
+So next step, receptors.
+So hormones, when they're
+traveling back to the brain,
+there have to be appropriate
+receptors for these hormones.
+Tom talked about cortisol, an
+example of a glucocorticoid.
+Glucocorticoid is
+a steroid hormone.
+This is an image of a rat brain,
+and glucocorticoid receptors
+in the rat brain.
+We also have mineral corticoid
+receptors, which we're not
+really gonna focus on, in blue.
+An example would be, like,
+aldosterone for my MCAT,
+you know what that is.
+But we'll-- thanks
+for the nod, Nate.
+But we're not gonna
+focus on that.
+So glucocorticoid receptors.
+As you can see, there are
+glucocorticoid receptors
+throughout the rat brain.
+Interestingly, however,
+we see them sort of
+clumped in certain areas.
+What's going on there?
+This might suggest
+a particular area
+that's particularly sensitive to
+these glucocorticoid hormones.
+So these glucocorticoid
+hormones come
+into the brain, diffuse
+through the membrane,
+and bind to these receptors
+located in the brain.
+We see here that one
+area is the hypothalamus.
+Tom already mentioned
+one effect of what's
+going on there, potentially
+sort of these negative feedback
+mechanisms, right.
+Glucocorticoids coming back and
+helping to regulate, or down
+regulate the release--
+maybe I shouldn't say down
+regulate, but basically
+suppress the release of CHR
+and, eventually, ACTH and other
+things affecting cortisols
+released in the first place.
+We also see these receptors
+clumped in the hippocampus
+here.
+So another interesting potential
+other type of negative feedback
+thing going on there.
+Stay tuned.
+We may hear more
+about this later on.
+Interesting point, though, is
+that for every single hormone,
+we're gonna have unique
+receptors throughout the body.
+But we're looking at
+the brain right now.
+So we're gonna have unique
+receptors for these hormones
+in the brain.
+We're gonna want to
+be paying attention
+to when we're
+looking at behaviors,
+we're gonna want to look--
+we're gonna want to think about,
+basically, where are these
+receptors in the brain, what
+types of receptors are
+they, that sort of thing.
+On this slide, we
+wrote receptors
+location, type, and how many.
+So I briefly just
+talked about location,
+the location of receptors,
+how that can matter.
+Type of receptors.
+You can have, within
+an individual,
+you can have different
+types of dopamine receptors,
+for example.
+You can have multiple
+different types of receptors
+for a particular hormone.
+And this can lead to
+different effects,
+depending on what type this is.
+We also heard about this on sort
+of the population level, right.
+A variation in the type
+of vasopressin receptor,
+and how that can lead to sort
+of monogamous versus tournament
+species type behavior.
+I guess maybe stay
+tuned for this,
+but we've also heard
+about these things before.
+So types of receptors
+are interesting,
+location of receptors.
+How many receptors.
+This is another question
+that becomes very important.
+If we have a lot
+of receptors, we
+can basically
+predict that there's
+gonna be a higher sensitivity
+to the hormone in that area.
+The low amount of
+receptors, not as sensitive.
+When we look at
+sort of-- when we
+talk about [INAUDIBLE]
+rats, epigenetic mechanisms,
+this is supposed to
+be basically affecting
+the expression of receptors
+in certain parts of the brain.
+And then we can see the
+behavioral impacts of that.
+So another thing briefly related
+to how many receptors we have.
+We have the level
+of hormone, and we
+have the level of receptor.
+And both of these
+things basically
+impact the behavioral output.
+And the interesting effect
+we can begin to see happening
+is that the level of
+hormone can affect
+the up regulation or down
+regulation of receptors.
+You might start out with a
+certain amount of receptors.
+And then if you're flooded
+with tons and tons of hormone,
+these receptors then might
+start to down regulate.
+The cell might sort
+of down regulate
+the amount of
+receptors expressed
+on the surface of the cell, and
+you might see down regulation.
+Conversely, we might
+see up regulation
+if it's not receiving
+enough of this hormone.
+Stay tuned for more of
+this, complexity of this,
+complications with
+this, et cetera.
+Any question so
+far on this stuff?
+OK.
+Cool.
+So hormone action on the brain.
+Next we turn to basically
+looking specifically
+at a neuron.
+As I mentioned before, we
+talked about sort of the effects
+on cells.
+We talked about peptide hormones
+and the secondary messenger
+cascades.
+We put the image back up,
+talked about steroid hormones
+and generally affecting
+transcription.
+Now we basically want
+to zoom in on a neuron
+and see what types
+of effects could
+be happening on these
+cells, these brain cells.
+So we wrote down here, we
+summarized it very nicely,
+potential effects of
+hormones on neurons.
+Once the hormone
+binds to a receptor,
+we can have it change
+the membrane potential
+via ion channels.
+So maybe secondary
+messenger cascade,
+if basically some
+molecule of some sort
+bumps into another
+channel, opens it more,
+now you've changed the
+membrane potential in the cell.
+It either becomes easier or more
+difficult to start an action
+potential, something like that.
+We can change
+transcription of genes.
+So it can go in-- like we saw
+this with the steroid hormone,
+going in and basically
+binding to DNA,
+affecting
+transcription of genes.
+In this case, the genes,
+they could be receptors.
+This might be sort
+of the mechanism
+for up regulation
+or down regulation
+of receptors,
+something like that.
+We can also have, of
+course, change in protein
+activity in transport.
+This, of course,
+is crucial, right?
+Proteins could be involved
+with tons of things.
+Neurotransmission,
+formation of new synapses,
+the things listed there.
+Basically, hormones
+can have impacts on all
+of these different areas.
+Protein activity, transcription,
+membrane potential,
+all these different things.
+And so at an individual
+cellular level,
+we can begin to see sort of
+the wider array of impacts
+on hormone binding,
+what that can do.
+If you step back
+and think about this
+as sort of networks of neurons,
+not just individual neurons
+but networks of
+neurons, now you can
+begin to see how hormones can
+start to shape behaviors more
+overall, just these
+networks of neurons, these--
+and those behavioral
+outputs being
+sort of the output
+of these networks.
+Yeah, question?
+When you talk about
+impact on neurons,
+do you mean cells
+that are in the brain
+and the central nervous
+system, or are you
+just talking about the brain?
+Great.
+So question-- actually,
+can you repeat that for me?
+Are we talking the whole central
+nervous system, or just, like,
+just the brain?
+Whole central nervous
+system or just the brain?
+Yeah.
+So in this case, I'm
+talking about neurons
+that are in the brain.
+But these might
+project anywhere.
+As Tom said earlier, neurons
+can project to other areas
+within the brain,
+can project down
+the spinal cord and elsewhere.
+So the impact could be
+essentially anywhere
+that these neurons
+could project when
+we're talking about the
+effect of hormone input
+on neurons in the brain.
+The key is the neurons,
+where they project,
+they'll have a certain
+impact on-- they'll
+have some certain output
+wherever they project to.
+But in the first
+place, they have
+to have a receptor for
+this hormone to bind.
+So it's just something
+interesting to note.
+Other questions?
+I saw a question.
+OK.
+Cool.
+Good, thanks.
+So I think that's-- kind of
+summarizes my thing on that.
+Tom, did you have
+anything to add to that?
+I'd say the more
+interesting things
+that-- when we're talking about
+neurons changing activity,
+neurons in the brain is where
+the interesting stuff is
+happening.
+Maybe the lower doses reflex
+has more of the, you know,
+how hormones might
+influence how likely you
+are to your little back
+arch raise, but who knows.
+OK, cool.
+So yeah, so we talked
+about in the nervous system
+lectures how behavior is
+affected by the nervous system.
+Now we've talked
+about how hormones
+can affect the nervous system,
+and therefore sort of affect
+behavior as an output there.
+We're gonna do a little
+preview of some areas
+we might see hormones
+interacting in future lectures.
+So, stress.
+We're definitely gonna see
+glucocorticoids associated
+with stress response.
+Here's Harry and Sirius,
+looking sort of stressed.
+Sexual behavior.
+Testosterone, estrogen,
+vasopressin, oxytocin.
+We're gonna see these things
+as players in sexual behavior
+lectures.
+Aggression.
+Testosterone again.
+Glucocorticoids,
+estrogen, epinephrine.
+Depression.
+OK.
+There's something
+about that picture.
+All right, depression.
+Glucocorticoids, thyroid
+hormone, estrogen,
+progesterone, melatonin.
+Great.
+So some things [INAUDIBLE].
+Just something to
+add for this slide
+is we're kind of throwing
+a bunch of random hormones
+at you that you might
+not be familiar with yet.
+Something to think about
+is how every single thing
+we've told you thus far
+regarding receptors and hormone
+levels and room for individual
+variation and all these things,
+levels, where they are,
+what type of receptors
+might influence these things.
+That's gonna be
+kind of how we walk
+through a lot of
+these behaviors.
+And then I think the
+last slide is just
+take-home points, things that
+are really excellent for you
+to try to walk away with.
+So don't walk away if
+you don't understand
+most of these things.
+But steroid versus peptide
+hormones and the importance
+of what it means
+to be hydrophobic.
+Pretty much a lot
+of the consequences
+for how we distinguish
+between these two things
+depend on whether you're
+hydrophobic or hydrophilic,
+so it makes it
+pretty easy to logic
+through if you know
+that basic thing.
+Whether you need the chaperone
+or not, and what-- how,
+where your receptor
+is going to be.
+The nervous system control
+of hormone release.
+You guys-- I kind of hit
+that into the ground.
+The HPA axis as one example
+of how the brain could control
+peripheral or endocrine glands.
+And then finally, when
+those hormones are released,
+how can they influence
+behavior via neurons.
+Kind of the long trials and
+tribulations of Paul Revere.
+A really excellent
+analogy, I think.
+I think you guys
+would all agree.
+And yeah, basically that's it.
+So if you guys
+have any questions,
+you can shout them out, or
+just come down here and ask us,
+because you guys have
+fun things to do today.
+Thank you.
+For more, please visit
+us at www.stanford.edu.

@@ -1,0 +1,3407 @@
+4. Molecular Genetics I
+=======================
+
+[MUSIC PLAYING]
+Stanford University.
+So we pick up from
+whatever the last day was.
+And we do our first
+disciplinary leap
+as promised at the very
+beginning of the course.
+The entire function of the
+first half of the course
+is to leap from one bucket
+to another, such that
+just as soon as you feel
+like you are getting mildly
+comfortable in one,
+we will spend time
+trashing it from the standpoint
+of a different discipline.
+This is our first one of these.
+And the whole point of this jump
+is to show on a certain level
+exactly where one discipline's
+the notion of an explanation
+ends, another one begins.
+And what this one will be about
+is how evolution works down
+on a molecular level.
+Where did we leave off
+after finishing our overview
+of the evolution of behavior?
+We finished with a bunch
+of criticisms at the end.
+Criticizing sort of what
+some of the basic tenets
+were of that view.
+First off, that notion
+of heritability.
+Heritability-- assuming
+that all sorts of behaviors
+have a genetic component,
+have a genetic basis,
+have a genetic cause.
+And we will see those are worlds
+of differences in those words
+there.
+And what we saw was that
+that could be the case.
+That could not be the case.
+That's going to be what we
+focus on a great deal today.
+Another one of
+the basic tenets--
+this notion of adaptation.
+Everything you see is
+wonderfully adaptive.
+The outcome is
+exactly the process
+that evolution brings
+about to optimize results.
+The counter view being the
+world of spandrels-- a lot
+of the time, stuff gets
+carried along as baggage.
+Things evolving aren't
+necessarily things
+that have been sculpted into
+being as adaptive as possible.
+Another critique, and one
+that's also central today,
+is that whole emphasis
+on the gradualism,
+on small incremental changes.
+And what I alluded to
+at the end the other day
+is going to see
+a viewpoint where
+something very, very different
+is proposed to be going on.
+One that will make sense
+only eventually when
+we see some pretty unexpected
+things about genetics
+and the molecular biology of.
+OK, so starting off--
+what we also finished with
+was a notion that there
+are political agendas that
+run through every
+aspect of this subject.
+And if that very
+first lecture, back
+when talking about how some of
+these viewpoints influence who
+gets a lobotomy, who
+winds up exterminated,
+who winds up being viewed as
+educatable or uneducatable,
+et cetera, polypolitical views
+run throughout all of this
+you will see very
+strongly in this realm.
+OK.
+So that viewpoint of
+the sociobiologists,
+the evolutionary
+psychologists the other day,
+one of the tenets going after
+the notion of heritability.
+The notion that these
+behaviors are heritable,
+or are genetically
+influenced, blah, blah.
+How would folks in
+that business do it?
+What they would do is
+exactly what we were saying.
+Which is say, OK, here's
+some behavioral structure.
+And we know how evolution works,
+and evolution of behavior,
+and individual selection,
+and kin selection,
+and reciprocal
+altruism, and evolution
+of, and all the above.
+And then they say, Well, with
+that framework, that explains
+the behavior pretty well.
+Go show me something better.
+Show me a better
+theoretical structure
+that's even more
+explanatory, more predictive.
+And until you come up
+with something better,
+I'm going to assume
+that this one is right.
+And this one comes with
+a larger assumption
+of heritability of genetics
+all built around inferentially.
+These are highly
+structured models
+built around how genes work.
+They explain what we see
+with these behaviors.
+And until you can give me a
+model that does even a better
+job, I'm sticking
+with this, and this
+counts as my evidence
+for a genetic component
+to this set of behaviors.
+And what we'll see is
+that's exactly where
+the molecular biologists
+decide that they finally
+have gotten free of
+people doing poetry
+for all the science in it.
+My god, that counts as science?
+Coming up with a
+bunch of these rules
+there and saying until you come
+up with fancier rules or a more
+pleasing just so story, I win?
+That counts as science?
+Complete contempt
+for this approach.
+This is where more molecular
+stance about it all takes off.
+And what we'll see
+that that not only will
+have lots to say
+about adaptiveness,
+it will also have lots
+to say about gradualism.
+So starting with it.
+In order to make sense of
+this, for a molecular biologist
+what is evolution about?
+When you see traits that have
+evolved, what's it about?
+By necessity, what one is
+immediately talking about
+is genes.
+Genes in this case
+not as some constructs
+that one wants to maximize
+copies of and ones
+that your cousins have
+only whatever percentage
+of in common with you, but
+genes instead molecules.
+Genes as information,
+genes as strings of DNA.
+And I'll assume by now there's
+like a basic level of shared
+knowledge about this after
+hearing that a lot of folks
+came to the catchup session
+last week, which I think
+is a good idea.
+But what it's all built about,
+all of this notion of genes,
+eventually way out the
+other end having something
+to do with behavior, is the
+intermediary of proteins.
+Proteins are important.
+Proteins are important
+not just to have
+in your diet to make you run
+fast, and strong, and all.
+Proteins are, in lots of ways,
+the structurally most important
+things you've got
+making up cells.
+Proteins have endless roles.
+Proteins hold the shapes
+of cells together.
+Proteins form
+messengers, hormones,
+neurotransmitters,
+all of this to come.
+Proteins are the enzymes
+that do all sorts
+of the most important stuff.
+Proteins, et cetera,
+et cetera, et cetera.
+Proteins are the
+workhorses of what
+have cells doing what
+they're supposed to do.
+So the question
+of course becomes
+what codes for proteins?
+And this is where genes come in.
+Our basic issue here is this
+flow of information-- genes
+specify proteins.
+Proteins are made up of
+constituent building blocks,
+amino acids.
+There's approximately
+20 different ones
+that are commonly occurring.
+And each one has to be coded
+for with a different DNA
+sequence, a different
+DNA sequence of three
+letters, three nucleotides.
+And I hope I'm not hitting
+the level here where people
+for whom this is new this
+is going way too fast
+and everybody else
+this is way too boring.
+But hang on for a
+while in that case.
+So DNA codes for amino acids.
+A long string of DNA coding
+for a sequence of them
+will code for a
+sequence of amino acids
+which get plugged together,
+and you then have a protein.
+You've got one intervening
+step, which for our purposes
+is like not really interesting.
+And we could ignore
+it for the most part.
+Which is, there's an
+intermediary step--
+genes at the level of
+DNA, sequences of DNA,
+first specify an
+intermediate form called RNA.
+And it's from that that
+you get the readout forming
+the proteins.
+Now, everything about
+the function of this
+is built out of the
+following sequence.
+If you know the
+sequence of DNA, you
+will know the sequence of RNA.
+You will know the
+amino acid sequence.
+You will know the protein
+that thus is made.
+You will know the
+shape of the protein.
+And you will then know the
+function of the protein.
+And that is this critical
+link between what DNA, genes,
+evolution, blah,
+blah, are about,
+and the actual things that
+pop out at the other end
+and do something.
+For the very critical
+reason that everything
+about protein function
+is built round shape.
+Here is a cliche that
+is required by law
+to be said at this point.
+Which is, all sorts
+of effector proteins
+fit into other molecules,
+other effector proteins.
+Like a-- OK, everybody
+say it out loud.
+Everybody knows this cliche.
+It fits in like a--
+Glove.
+Yes.
+OK.
+Cliched education at its best.
+Like a lock and key
+for those of you
+who are not tortured with
+this one from early on.
+It's the whole notion that
+a shape of a protein imparts
+information insofar
+as it interacts
+with something else of a
+shape which modifies it,
+which complements it, whatever.
+The whole world that we will
+have of various hormones
+and neurotransmitters
+will consist
+of hormones and
+neurotransmitters going
+into receptors where there
+is a critical relationship
+in the shape between the
+messenger and the receptor.
+And all of this is
+driven by proteins,
+protein shape, et cetera.
+All of this is driven
+thus by DNA sequences.
+Shape is everything with this.
+What you get from
+that is, of course,
+the question of where do you
+get different shapes from?
+And those 20 amino
+acids, for our purposes,
+for the purposes
+especially people
+without a strong
+chemistry background,
+all that's pertinent here is
+the 20 different amino acids
+have different degrees
+of being attracted to
+or repelled by water.
+Which, most proteins are
+spending their life swimming
+around in water.
+They are pulled towards water.
+They avoid it.
+They are hydrophilic,
+hydrophobic.
+All that means is
+different amino acids gets
+pulled into different
+positions by their relationship
+with water.
+And thus, a string
+of amino acids,
+the shape it winds
+up getting with,
+is determined by that
+amino acid sequence.
+There is a whole world
+of really interesting
+horrible neurological
+diseases called
+prion diseases which show
+that everything I just said
+is wrong.
+But for our purposes,
+everything I just said is right.
+So this is where you get
+this critical relationship.
+Know the DNA sequence.
+Know the coding.
+And out the other end, you
+will get protein shape because
+of this business of
+different amino acids
+having different
+relationships with water
+and thus strings
+of them coming up
+with different three
+dimensional structures.
+And out of that will
+be coming function out
+of the famed lock and key nature
+between shapes of functions
+and shapes of other things.
+Just once again for people
+fairly new at this-- nope.
+No diagram there.
+One of the most interesting--
+or the blank slate.
+One of the most interesting
+things the proteins do
+is when they are enzymes.
+Everybody knows that enzymes are
+important because they put them
+in your laundry
+detergent, and advertise
+about how cool it is that you
+have enzymes in your detergent.
+But what enzymes do is
+they catalyze reactions.
+They cause reactions to
+occur which left on their own
+would be very, very rare events.
+What enzymes do is
+accelerate vastly--
+a gazillion times over-- the
+speed with which these happen.
+Catalyze reactions.
+What do I mean by that?
+For our purposes, they
+can take two things
+that aren't connected
+and stick them together.
+Or they can take one
+thing and break it apart.
+For our purposes,
+that's what enzymes do.
+Virtually every enzyme
+out there is a protein.
+So proteins fit into other
+things and send on messages.
+Proteins are enzymes.
+Pull things together,
+pull them apart.
+Proteins are structural.
+Again, a whole lot of the
+superstructure of your cells
+are held together by proteins.
+This is the realm
+of what they do.
+Notice here, suddenly there is
+a change of shape in a protein
+if it's an enzyme.
+Because what's it doing?
+In some way, it's got to
+be pulling apart something
+or putting something together.
+The shape, in some
+cases, also can
+change as a function
+of what this protein is
+doing with its job.
+We will see a classic
+version of that are channels.
+Channels in which chemicals
+can flow in or out of cells.
+Ions, for chemistry types.
+Channels that will open up
+under some circumstances,
+close under others.
+So protein structure not only
+gives shape and function,
+but it gives the circumstances
+where the shape might change
+in a functionally relevant way.
+So out of all of this comes
+of the central dogma of life.
+And this was proposed by Francis
+Crick of Watson and Crick fame.
+And Francis Crick
+was the one who
+formalized saying the
+central dogma of how
+life and information flows
+is DNA to RNA to protein.
+And that became defining.
+An entire generation of babies
+were told that at birth.
+This is the flow of information.
+It has been violated
+in all sorts
+of interesting ways, which will
+dominate a lot of what comes.
+But this was the central dogma.
+One way in which
+it is violated--
+and again, this notion
+is not DNA to RNA,
+but the notion of whatever
+your DNA sequence is, whatever
+the gene is, whatever
+structure of a protein
+it codes for-- the
+flow of information
+is going to be from
+DNA, RNA, to protein.
+DNA as running everything.
+Note the importance of that
+in the very statement of this
+as the central dogma, the
+canonical flow of information
+in life.
+It all starts with DNA.
+DNA is the one sitting here
+deciding when information is
+going to flow from DNA to RNA.
+DNA as knowing what's happening.
+And a lot of what we will see
+shortly is DNA knows squat.
+DNA is not making a whole
+lot of decisions there.
+The one simplistic way in
+which central dogma went down
+the tubes in the
+1970s or so, and one
+that's tangential here,
+but just as a first blow
+against central dogma.
+One of the things
+that's interesting
+is there are things
+called viruses.
+And what viruses do for a
+living is get into organisms.
+Viruses, in the classical
+form, being little smidgens
+of foreign DNA which are able
+to get into the DNA of your own,
+hijack the processes
+there, and make the cell
+function for its own
+parasitic, vicious needs.
+And so you are changing
+the starting step of how
+the central dogma of life.
+And thus you're going to change
+RNA and protein, all of that.
+In the '70s, it
+became apparent there
+was one weirdo viral
+world of viruses made out
+of RNA, this intermediate form.
+All sorts of people were
+extremely upset about this
+and tried to ostracize
+the scientists who
+came up with this and
+told them there's no way.
+But eventually, what
+was shown in Nobel Prize
+winning glory was there's
+a class of enzymes.
+Enzymes-- they pop up.
+A class of enzymes that could
+take the RNA information
+and turn it back into
+DNA, viral information.
+And then it does its thing.
+Huge blow to the central.
+Here's information running
+from an RNA virus somehow being
+reversed back to a DNA form.
+And thus these are
+called retro viruses.
+Inserting the DNA, and
+off they go from there.
+So this was a major blow.
+Everybody eventually
+came to terms with this.
+But it still is a minor
+footnote in this Crickian world
+of everything flows from DNA.
+It is the Bible.
+It is the law giver.
+It is the holy grail.
+It is where it all starts.
+So stay tuned.
+So given that framework,
+one should immediately
+get mighty impressed with
+what if something changes
+in the DNA?
+What if one of the bits of
+coding is coded incorrectly?
+What if we now have on
+our hands a mutation?
+And what we'll focus on
+here is classical realms
+of mutation, and
+genetics, and how
+that plays out in
+classical, gradualist models
+of evolutionary change, and
+then see how all of that
+falls apart when you look
+at what's really going on.
+So starting off,
+what you can have--
+and again, this is going
+to be a review for people
+with a background in this.
+Newcomers to this-- hopefully
+this won't be going too fast.
+But broadly when
+you were talking
+about this world
+of micromutations,
+for our purposes what we
+will mean by a micromutation
+is when one letter in your
+DNA sequence of information
+gets accidentally miscopied.
+Or it gets changed by radiation.
+Or it gets changed by
+some chemical compound
+the environment.
+Some such thing where
+there's a mistake and one
+letter in the DNA
+sequence comes up wrong.
+As I noted before,
+pairs of triplets.
+And there we've got
+three pairs of triplets.
+And what we've got here
+is at the DNA level,
+a amino acid is coded
+for by three base pairs.
+A triplet-- three of these.
+Next amino acid coded for.
+Next one coded for.
+So what we've just raised is
+the possibility of a mutation
+occurring, something
+changing in one single one,
+and now asking what
+are the consequences
+going to be in classical
+realms of genetics
+and evolutionary change?
+Broadly, you can get
+three different versions
+of stuff going wrong.
+One is where one
+of these letters--
+nucleotides, translating; not
+essential to have that down--
+where one of these
+letters is accidentally
+changed into another
+letter-- a point mutation.
+In some cases, point mutations
+are of no consequence at all.
+How can that be?
+For this very simple reason,
+going through some math here,
+there are four different
+potential letters
+at each one of these sites.
+DNA comes in four different
+letter types, letter flavors,
+four different types of bases.
+And thus, you can have
+four different ones
+in the first
+position times four,
+times fourr-- a total of
+64 possible three-step
+combinations of DNA letters.
+A possibility of 64
+of them, and you're
+only coding for 20 amino acids.
+So you use up some
+of the 64 for signals
+saying stop or start, or
+thank god it's Friday,
+or who knows what.
+But what you have, though,
+is a large redundancy.
+You have a number of
+different triplet sequences
+coding for the same amino acid.
+There's redundancy
+in the genetic code.
+And in general, where
+you get that redundancy,
+where you get the differences
+in three triplets, a couple
+of different triplets that
+code for the same amino acid,
+they'll tend to differ in
+the middle one of the three
+letters.
+That's the easiest one to have
+a change where it doesn't change
+the overall consequence of it.
+So you will tend
+to have redundancy.
+Each amino acid is
+coded for by a number
+of closely-related triplets.
+So first possible type of
+mutation-- this point mutation
+where one letter is
+flipped to another.
+Potentially, this could be
+of no consequence whatsoever.
+If you flipped to a letter
+out of the middle one,
+which happens to leave you
+with a triplet that codes
+for the same amino acid.
+In that case, you have
+a neutral mutation
+of zero consequence whatsoever.
+So that's not a very
+exciting mutation.
+In
+Some cases, you can
+have a single point
+being changed where you wind
+up with a different amino acid
+coded for.
+And that's most typically, if
+it's a mutation in here or here
+rather than the
+boring middle one,
+you get a different amino acid.
+Is that the end of the world?
+Often not at all
+or only minimally
+because a lot of the amino
+acids have similar feelings
+and ambivalences about
+water, similar responses
+and similar shapes.
+It won't be exactly
+the same shape,
+but the protein will
+function somewhat the same.
+So you could have, in this
+case, a point mutation
+and most people would
+not find the second line
+to be impossible to make
+sense of in the context
+of the first one.
+Or you could have a
+point mutation which,
+by changing one letter,
+produces a different amino acid,
+and this one is
+majorly different.
+This one has a
+completely different set
+of attractions or being
+repelled by water.
+Produces a protein of a very
+different shape and potentially
+a very different message.
+And shown here, just changing
+one letter in this case, one
+single point mutation,
+and you dramatically
+change the meaning of that.
+And I actually did that
+once in the grant proposal.
+Sort of the final paragraph--
+we have now accomplished
+x, y, and z with your money
+over the last five years.
+And no wonder it
+didn't get renewed.
+So in that case, you see
+a single point mutation
+of great consequence.
+So you can have one
+of these letters,
+one of these nucleotide
+mistaken for another-- entirely
+neutral, moderate
+consequence, or
+major, disastrous consequence.
+Second way of
+classical mutations,
+the second version
+that it could come with
+is there is a deletion.
+One of the letters gets
+lost in the process.
+And what you then get is a frame
+shift over to the missing spot
+there.
+And the D from here
+now finishes up this.
+And what you can
+see is it suddenly
+becomes dramatic jibberish.
+And it would continue that way.
+A deletion mutation,
+in classical genetics,
+is major league.
+It totally changes the
+coding downstream from that.
+Third classical type--
+an insertion mutation.
+One where you now accidentally
+double the letter,
+and you're frame shifted
+in the opposite direction.
+Just as screwing up of meaning.
+Major consequences there.
+So you have point
+mutations, which
+can have major consequences,
+or can have none whatsoever,
+and anything in between.
+You have point
+mutations, and then you
+have insertion and deletion.
+The last two tend to
+have big consequences.
+So all of this is built around
+one single base pair change.
+And all of this is built
+around thus one single protein
+changing its shape.
+And thus, this world of
+micromutation-- single spots
+that are mutating--
+what this tends to do,
+and this is an important
+concept for what's to come,
+what it does is it changes how
+well the protein does its job.
+It changes the efficacy
+of that protein
+by changing the
+shape a little bit,
+by changing it
+dramatically, all of that.
+And we can see back
+to our lock and key
+where if, thanks
+to a mutation, this
+has a slightly different shade,
+it will fit into the lock
+slightly less effectively.
+It may stay in there
+for a shorter time
+before floating off and
+thus send less of a message.
+On the other hand, if you've
+got a deletion insertion that
+dramatically changes
+the shape of this,
+you will change how well
+this protein does its job.
+It won't do its job
+at all, because it's
+going to wind up with a
+completely different shape
+and not fit in there whatsoever.
+What we have here is
+a world of mutations
+which are changing the function
+of one protein at a time.
+That is
+microevolutionary change,
+and that's what we're now
+going to see played out.
+When can this make a difference?
+This can make huge
+differences when
+it's in the realm where, thanks
+to a change in the shape,
+the protein is completely
+out of business.
+Two examples-- one where
+you take out the function
+of the preexisting gene.
+First one-- there
+is this amino acid.
+For our purposes, that's
+going to derail us.
+For our purposes,
+there's a chemical
+that occurs in the body
+called phenylalanine,
+which has its uses.
+But you don't want
+the levels of it
+to build up too high, because
+it can become toxic, damaging
+to brain cells, to neurons.
+And fortunately,
+there is an enzyme
+made of protein which turns
+phenylalanine into something
+safer.
+That's all we need
+to know about it.
+So you have a mutation in the
+gene coding for that enzyme.
+Not a fancy mutation
+to something.
+One of these categories--
+a classical, single spot
+point mutation.
+And what you got there
+is an enzyme that
+no longer does its job.
+And as a result,
+this phenylalanine
+is not converted
+into the safer form,
+builds up, and lays waste
+to one's nervous system.
+And thus you have a disease--
+PKU, phenylketonuria.
+Very, very common
+genetic disorder.
+And this is one where the
+outcome is a small mutation
+that has completely knocked
+this enzyme out of business--
+this enzyme which
+was able to turn
+the phenylalanine
+into something safer.
+This is not a subtle outcome.
+Have untreated PKU, and
+your reproductive success
+by the rules of
+evolution is going
+to be real down near zero.
+This destroys the nervous
+system very rapidly after birth.
+So that's dramatic.
+Here's another dramatic one.
+And this one-- anyone
+who took BIO CORE,
+I always bring this one in as
+a big hormone crowd pleaser.
+But here's an
+interesting thing that
+can go wrong with any child
+you might eventually have.
+You've got a daughter,
+and she's doing just fine.
+And she's growing up just
+fine, and things are terrific.
+And around age 10, or 11, or
+so, some of her classmates
+are beginning to reach puberty.
+That's on the early side
+for the Western average,
+but it's not outrageously early.
+Not a big deal.
+By about 12, statistically about
+half of the girls in her class
+have reached puberty.
+12 is about the Westernized
+average these days.
+She hasn't yet.
+Not a big deal.
+A year later, she still hasn't.
+Well, this is nothing critical,
+but it's getting a little bit
+on the late side.
+A year after that, two
+years after that, she
+has still not reached puberty.
+So at that point, you
+take her to a physician
+who examines her closely
+and figures out what's up.
+And at some point, the
+physician is probably
+going to have pupils
+dilate, or some sort
+of weird autonomic response,
+when they figure out what's up.
+And then very calmly,
+in a premeditated way,
+sit you down for a
+little talk afterward,
+and inform you that
+your daughter has not
+started menstruating, has
+not reached puberty yet.
+Your daughter has not started
+to do this because you
+don't have a daughter.
+You've got a son.
+This kid here for
+these last 14 years
+has actually been
+male, not female.
+You have what is called-- no,
+I'm not going to tell you it.
+OK, it's called-- especially
+since it's in the handout
+already-- anyone want to
+guess what it's called?
+It's called TFM, Testicular
+Feminization Syndrome.
+And you wind up with a
+testicular feminized male.
+These are individuals who,
+genetically, are male.
+At the level of chromosomes,
+that XX and XY business,
+these are individuals
+who have testes.
+Testes way up in their
+stomach or whatever, never
+descended down.
+These are people whose
+testes make testosterone.
+Testosterone out the wazoo.
+Tons of testosterone.
+Enough testosterone to put
+like antlers on your testes,
+or something.
+That much testosterone.
+And nonetheless, you're
+getting a female phenotype.
+You are getting a female
+external genitalia.
+You are getting
+female everything.
+Yup, question?
+Sorry, is that different
+than androgyne insensitivity?
+No, that's the
+fancy term for it.
+And you've just given away
+the punchline, you creep.
+[LAUGHTER]
+So they figured out in
+this disease there's
+an insensitivity to something.
+What could that be?
+OK, go and say it again.
+Yes, OK.
+What you've got here is one of
+those simple little classical
+mutations.
+And what it does is it changed
+the shape of the androgen
+receptor, the
+testosterone receptor.
+And at that point it doesn't
+matter how much testosterone
+is floating around, those target
+cells are not going to listen.
+This is consequential.
+This is a major consequence.
+This is one of changing
+gender phenotype,
+and there is a long and at
+times absolutely appalling
+history of what has been
+done with individuals
+who have Testicular
+Feminization Syndrome, what
+counts as the medically
+appropriate intervention.
+There's some horrifying
+history there
+that could be straight out
+of the first lecture in terms
+of some notions of what counts
+as normal gender behavior.
+Another version of
+this-- this one's
+a little bit more subtle
+because in this case,
+it's not wiping out the
+function of an enzyme.
+It's just making it a little bit
+less effective at what it does.
+And this has to do
+with a disease that
+is found in two different
+populations, slight variants
+on it.
+One is up in the Dominican
+Republic, in the mountains.
+The other is in the
+mountains of New Guinea.
+Interesting similarity there.
+In both cases, some fairly
+isolated, inbred populations.
+So that has genetics
+written all over it.
+But in these cases, there
+is a problem with enzymes
+that make testosterone.
+So this is a whole other world.
+Instead of the enzyme, instead
+of the proteins, and thus
+the gene somewhere
+back there, that code
+for the receptor
+for testosterone,
+the receptor that responds
+to this messenger,
+here instead it's back way
+up there in the testes.
+A bunch of these enzymes, which
+go through a bunch of steps
+and make testosterone,
+biosynthetic enzymes there.
+Proteins, genes, once again.
+So you've got a mutation in one
+of those critical, biosynthetic
+enzymes.
+And It's not a huge one.
+The shape is a little bit off.
+Its efficacy, the
+effectiveness with which
+it makes testosterone
+is down a bit--
+and actually it's
+down a lot-- so here's
+what you wind up getting.
+You get an individual
+who before puberty has
+extremely low
+testosterone levels, even
+far lower than you would see
+in prepubescent males in most
+cases.
+Someone who's genetically male.
+Someone who never saw a
+whole lot of testosterone
+during fetal life, way
+below the threshold
+for the testosterone
+having any effects.
+So the person is born
+phenotypically female.
+Female in appearance.
+Female in external genitalia.
+And not internal-- back to those
+testicular feminized males.
+What you find there is a
+vagina which goes nowhere,
+because there's no ovaries
+waiting somewhere above that.
+There is the testes.
+But the external
+genitalia is just fine.
+What I think these days is
+the most common medical ethics
+advice and what's done with that
+is the physician explains what
+it is and says, For
+all practical purposes,
+you have a daughter who
+is perfectly healthy,
+who's going to have a
+long, happy, healthy life,
+and simply cannot reproduce.
+That's the only consequence
+that's relevant here.
+And there's been a
+whole other world
+of reconstructive surgery, and
+all sorts of very interesting,
+horrifying history.
+So back to this one.
+Because of the extremely
+low testosterone levels,
+because at the time of
+life when there's not
+a whole lot of testosterone
+around in the fetus,
+in a young male, and now
+it's below the threshold
+for causing anything.
+Along comes puberty, and thanks
+to a whole bunch of changes
+in the brain, signals go out
+so that testosterone levels now
+come roaring up into the usual,
+impossible levels in the males.
+And what happens
+here is the levels
+don't go up as much
+as they should,
+because that enzyme is a
+little bit on the slow side.
+But they go up enough
+to pass threshold
+for beginning to have an effect.
+And somewhere right
+around puberty,
+this individual changes sex.
+This individual
+transfers, transmits,
+jumps ship and goes
+from female to male
+as a result of these androgenic
+effects suddenly coming in.
+It's not a complete
+switch there,
+but it's somewhat
+of a transition.
+This is bizarre.
+Again, this is not
+something subtle.
+This is something
+changing completely here.
+And again, one single mutation.
+And in this case, not
+even a mutation wiping out
+the function entirely
+of some protein
+as in PKU or Testicular
+Feminization Syndrome.
+But now you've got
+a protein that's
+just working differently,
+slowly enough that you
+get this very different picture
+popping out the other end.
+What's most interesting is you
+have this intersection between
+molecular biology
+and the bio-, endo-
+consequences of this
+mutation, all of that.
+And the cultural context
+of it, apparently
+in both of these
+populations, people
+have kind of adapted to it.
+It's not a big deal.
+You know, puberty--
+sometimes you get acne.
+Sometimes you get a penis.
+And people just deal with that.
+That's just part of
+the whole process
+and cultural accommodation
+to interesting biology.
+One final example
+of where you can
+have a classical
+type of mutation,
+and another version of
+a very mild difference.
+And in this case, it is
+not a very mild difference
+producing an overt disease.
+In this case, it's just
+producing something
+that probably differs in you
+from the person sitting next
+to you.
+Which is, you have a
+neurochemical system,
+a system of chemical
+messengers in your brain.
+If this is new stuff, hang on.
+It will all be explained
+in a couple of weeks.
+But this is a class of
+neurochemical signaling
+that has something
+to do with anxiety.
+A chemical messenger
+which decreases anxiety.
+And we will learn plenty
+about that down the line.
+And there's this regular class.
+They're known collectively
+as benzodiazepines.
+Do not panic if you've not
+heard that word before,
+and certainly do not
+attempt to spell it right,
+because it's not possible to.
+So benzodiazepines.
+There are synthetic
+versions of benzodiazepines
+which people might
+take when they're
+feeling anxious like
+Vallium, like Librium.
+Vallium is the synthetic
+benzodiazepine.
+So benzodiazepines
+are protein, and they
+have a particular shape.
+And you guessed, it there are
+thus benzodiazepine receptors,
+which could do that whole lock
+and key deal going on there.
+And what you have
+are differences,
+small, single point,
+in this case not
+mutations, but simply
+different versions
+that one letter can come in
+in the DNA sequence specifying
+the benzodiazepine receptor.
+These are not mutations.
+This is just normal variability
+is one particular spot
+can specify two or three
+different amino acids
+that function roughly the same.
+So that you're changing somewhat
+the shape of the receptor,
+and thus changing somewhat how
+long the benzodiazepine stays
+in there, and how long
+the signal is sent.
+And it's all very subtle.
+And what does this
+begin to explain?
+Individual differences
+in levels of anxiety.
+It's only one of the gazillion
+ways of explaining it,
+but it's part of
+that picture there.
+Here we have
+individual differences.
+This explained a very
+interesting finding.
+For decades, people often tried
+to breed rats, different rat
+lines for different
+behavioral traits.
+And it makes it
+very useful models.
+There are alcoholism prone rats.
+There are rats that have
+been bred for being smart,
+for being not as smart at
+spatial maze stuff, et cetera.
+And for years, there'd
+been a number of rat lines
+that have been bred that
+were either high anxiety
+or low anxiety rats.
+Very useful for understanding
+things like-- what are they're
+useful for?
+I don't know.
+They're just cool
+to have around.
+Very useful for understand
+the effects of stress,
+or things of that sort.
+So finally, modern era of
+molecular biology comes in,
+and those high and
+low anxiety strains
+differ in the shape of the
+benzodiazepine receptor in many
+of these cases.
+Again, tiny little differences.
+So what we've got here
+is classic old genetics
+at the molecular level.
+These tiny little changes in
+one single base pair at a time--
+point, deletion, insertion.
+A world in which it may or
+may not change the shape.
+Where it could change it
+dramatically and produce
+some pretty exciting,
+dramatic diseases
+where you wind up with
+a different gender
+than your chromosomes say.
+Ones where you get more
+subtle differences.
+You change gender at
+your 13th birthday.
+Or ones where we're
+just for the first time
+beginning to look at the
+individual differences that
+flow out from stuff like this.
+Not them and their disease,
+but the individual variability.
+All of this is in the
+realm of single base
+pairs being changed.
+What all of this
+now allows us to do
+is translate this world
+of mutational changes
+into what does this look
+like evolutionarily?
+What does this look like
+in terms of explaining
+patterns of evolution?
+And you will know exactly
+where this goes right now.
+This helps explain
+the classical,
+the gradualist picture of
+little bits of change at a time.
+Little bits because you've got
+one protein which now works
+a little bit
+differently, and thus you
+get to ask a
+sociobiology question.
+By having testosterone having
+a little bit more of an effect
+or a little bit
+less of an effect
+by way of molecular
+changes in this receptor,
+is that going to increase
+the number of copies of genes
+that individual has?
+Is it going to
+decrease the number?
+How's it going to fit into
+all of last week's science?
+And you will know exactly
+how that drill will run.
+Oh, if thanks to one
+single base pair changing,
+you now have a receptor
+which functions in a slightly
+different way, which makes
+this individual 1.5% more
+fertile than everybody else
+that they're competing against,
+you just wait long
+enough and come back,
+and everybody in
+that population is
+going to have that
+different version of it.
+We can run the logic there.
+We have variability--
+Darwinian variability-- thanks
+to a mutation.
+We have differential fitness.
+We have just defined an adaptive
+difference somehow or other.
+There there's a
+smidgen of advantage,
+thanks to a slightly
+different shape.
+And thus we have selection
+changing distribution
+over time.
+The smidgen more
+effective version
+will become more common
+in the population.
+And what's also
+intrinsic in that
+is that these are slow
+little steps of change.
+This is gradualism.
+So gradualism is absolutely
+commensurate with everything
+we got last week built around
+adaptation, competition.
+Every little bit
+makes a difference
+because 1% difference in
+number of copies your genes.
+Run it enough
+generations, and that's
+going to be a big
+difference, and all of it
+changing in a very
+gradualist, incremental way.
+This has popped up in
+a number of domains
+and could be really useful,
+because it allows you
+for one thing to trace
+evolutionary history by looking
+at the changes of
+single base pairs.
+And that's allowed for looking
+at one really interesting gene,
+which we may talk about down
+the line, a gene called Fox P2.
+Fox P2 has something
+to do with language.
+Fox P2 was first identified
+and a family, all of whom
+had some sort of language
+communication problem.
+And people to this day
+argue whether it was mostly
+about coordinating the
+motoric aspects of speech
+or was it something about
+grasping the symbolic message
+aspects of language,
+all of that.
+In any case, a mutation
+was found in this gene,
+and a whole cottage
+industry has emerged
+since then of studying Fox P2.
+Because versions
+of Fox P2 occur all
+throughout the animal
+kingdom-- in birds, and rats,
+and non-human primates,
+and all sorts of things.
+Fox P2 popping up
+all over the place.
+And in all these
+different places,
+it's got something to
+do with communication.
+It's got something
+to do with bird song.
+It's got something to do with
+rat ultrasonic vocalizations.
+Rats are constantly jabbering
+at each other in a range
+that we can't hear.
+And Fox P2 has something
+to do within all of those.
+And different versions of Fox P2
+in all these different species.
+And what becomes
+most pertinent is
+when you look at
+those differences,
+you will see tiny
+little differences
+in this tree across all
+these different species.
+One base pair difference
+between rats and mice.
+One base pair difference
+between hawks and elephants.
+That sort of thing varies.
+And then you look out at humans,
+and a whole bunch of changes.
+A whole bunch of changes in a
+very short evolutionary period.
+What this suggests
+is no wonder this
+is producing some very
+different stuff than these guys.
+A very different gene.
+And a very different
+gene, people
+now have been able
+to back calculate
+due to a series of single
+base pair changes somewhere
+in the last quarter
+million years or so.
+And that makes a difference.
+Totally cool,
+unsettling experiment
+that was done a few
+years ago, which
+was some people taking the
+human version of Fox P2
+and knocking out a mouse line,
+knocking out their own Fox P2
+and sticky in the human version
+and seeing what happens.
+And it was very interesting.
+They immediately sing the theme
+song from all the Mickey Mouse
+cartoons.
+Ha, can they prove that?
+OK, what you see is you've
+got more complex types
+of ultrasonic vocalization
+in these mice.
+That's really interesting.
+And there's years
+of stuff to sort out
+what's going on with that.
+For our purposes, the
+main thing is here
+you have wound up with a very
+different world than chirping,
+and buzzing, and
+barking, and all of that.
+And you wind up with a
+very different version
+of this gene where you can
+trace out how many amino acid
+changes it took.
+And every step of
+the way, you were
+having some gradualist process.
+What also this
+allows you to do is
+look at a footprint, an echo
+of what the selection was like.
+Important concept here.
+So back to that business.
+There's 64 different ways
+of coding for amino acids,
+a couple of them are just
+informational, stop messages,
+and stuff.
+There's about 60 different ways
+of coding for 20 amino acids.
+So on the average,
+each amino acid
+could be coded for in
+three different ways.
+So suppose you throw
+in a random mutation.
+And of those, what you find is
+of the 60 possible mutations,
+40 of them will not cause
+a change in the amino acid.
+Statistically, 2/3 of the time,
+there will not be a change.
+So in other words,
+if you scatter
+a whole bunch of
+mutations, and you wind up
+seeing 2/3 are neutral in
+terms of their consequence,
+and 1/3 third actually causes a
+change in an amino acid, that's
+telling you it's happening
+at the random expected rate
+of mutations popping up that are
+either consequential-- changing
+an amino acid-- or
+inconsequential-- just coding
+for a different version
+of the same amino acid.
+Now suppose you find
+a gene that differs.
+And you look at the ways
+in which it differs.
+And 99% of the base
+pair differences
+over the course
+of this 5 million
+base pair-along gene,
+99% of the differences
+make for a different amino
+acid than beforehand.
+In other words, at much
+higher than expected rate
+if this was a random process.
+What is this an echo of?
+Of very strong selection.
+Of very strongly advantageous
+traits driven by these changes.
+Term used-- this would
+be a mark of their
+having been positive
+selection for this trait.
+In other words, the changes
+that it has gone through
+over the gazillion
+years has not been just
+by random mutational
+rates of neutral.
+And remember, every amino
+acid is coded for three ways.
+If 99% of them
+are consequential,
+there has been some major, hard
+ass selection going on there.
+Alternatively, if
+you find a long gene
+with a whole bunch of mutations
+and 99% of them are neutral,
+make no change at all,
+what does that tell you?
+This protein's function
+you do not want
+to mess with in the slightest.
+Even a minor change in the
+function of it, and you
+don't pass on copies
+of your genes.
+This would be stabilizing
+selection, negative selection,
+strong selection to make sure
+that this gene and its function
+downline as the protein
+does not change.
+When you look at the number of
+changes, the burst of mutations
+over the last quarter million
+years or so that differentiated
+Fox P2 in humans from
+these other species,
+it's almost entirely evidences
+of positive selection.
+This did not just
+happen by chance.
+Every step of coming up
+with these new versions,
+these new amino acids
+in the sequence there,
+clearly were ones that were
+positively selected for.
+A lot of selection brought
+about this huge difference.
+OK.
+So that begins to give
+the sense here of how
+these little changes can occur.
+At this point, we
+have to go through one
+of the all time confusing
+things in genetics out there,
+which is something two
+factoids and two soundbites
+that seemingly totally
+contradict with each other.
+You share, on the
+average, 50% of your DNA
+with a full sibling.
+You share 98% of your
+DNA with chimpanzees.
+What's up with that?
+That seems a little
+bit unexpected.
+And those are two soundbites
+that everybody knows.
+Everybody knows it goes
+through like basic Mendel.
+50%, 100% with an identical
+twin, 50% with a full sibling.
+You know that song
+and dance by now.
+And meanwhile, one of
+the great soundbites
+of our evolutionary history, and
+the mark of evolution, and what
+in hell are you
+creationists thinking,
+is the fact that, oh, humans
+share 98% of their DNA
+with chimps.
+This doesn't make any sense.
+One minute here to be spent on
+just clarifying that one that
+is not contradictory at all.
+Genes specify by
+way of proteins--
+and now this is taking
+a bunch of leaps
+down there-- traits, aspects.
+Gene specify, to be
+totally simplifying here,
+genes specify for
+antlers, for dorsal fins,
+for petals, and pistils
+and stamens, for kidneys,
+for-- it's totally simplifying.
+So right off the bat, you will
+have some genetic similarities
+between two different
+species in that both of them
+will have genes that
+code for dorsal fins.
+You're thinking about two
+different species of whales.
+So they share genes
+coding for dorsal fins.
+Whales have dorsal fins.
+Neither we nor chimpanzees
+have genes for dorsal fins.
+Meanwhile, we have genes
+coding for a pelvis that
+has a certain shape
+which either in chimps
+predisposes towards being
+able to walk bipedal
+for certain strengths
+of the length of time.
+Us as well.
+You don't find these
+genes in apple trees.
+They don't have pelvises
+that are shaped like those,
+so they don't have.
+So when you look at the
+human and the chimp genome,
+98% of the genes code for
+similar kind of things.
+We share with chimps
+an absence of genes
+for antlers, and trunks,
+and tusks, and wings,
+or serve who knows what.
+And we share all
+sorts of other genes
+in common having to do with
+our shared immune systems,
+et cetera, et cetera.
+So 98% of the genes code
+for similar types of things.
+So that's where we get the
+98% similarity with the chimps
+from.
+For each one of
+those genes, it could
+come in a couple of
+different flavors,
+a bunch of different flavors.
+And thus asking not to do
+both you and your full sibling
+have a gene for
+opposable thumbs, do you
+and your sibling
+have the same type
+of gene for opposable thumbs?
+So suddenly that's
+a different world
+of variants on
+each type of gene.
+So when talking about the
+amount of DNA shared in common,
+the genes shared in common
+with other species, what you're
+talking about are
+the types of genes
+coding for the types of traits.
+When we're talking about,
+from last week's notion,
+50%, 25%, 12.5%, one
+brother and eight cousins,
+what you're talking about
+are different versions
+of particular genes.
+Important clarification.
+So final thing here before the
+break, which is once again,
+notice with these models,
+these point mutations,
+where you can get slight
+differences in function.
+And thanks to a 1% difference
+in fitness and number
+of copies of genes, you get
+these gradualist changes.
+What's intrinsic
+in that, and where
+we get the political
+theme coming through is,
+thus there's
+competition everywhere.
+In terms of the
+evolution of behavior,
+the evolution of species, every
+little bit of genetic advantage
+will play out in
+some competitive way
+in some little
+bit of an increase
+in reproductive success.
+OK.
+Whoa, there's a lot of
+Apples there lit up.
+Well, that wasn't very subtle.
+Let's take a break.
+Whoever did that.
+OK, a five minute break.
+Are you slightly
+more fit by the rules
+of your population's natural
+selection, sexual selection,
+whatever?
+Even if that gives
+you a tiny advantage
+thanks to this tiny
+change in this tiny gene,
+enough generations
+go by, and that trait
+is going to become
+more prevalent.
+Final point there intrinsic in
+this, is if every little bit
+of difference matters in
+terms of fitness and gene
+distribution within
+the realm of behavior,
+every little bit of
+competition matters.
+A very, very intertwined
+political, philosophical stance
+in gradualism as it
+applies to evolution.
+So that's been sitting
+there around forever.
+And in the 1980s, suddenly a
+very different model emerged.
+And this came from
+Stephen Jay Gould, who
+we heard about the other day.
+Stephen Jay Gould,
+and the person,
+the poor schnook who
+was always lost in this,
+another evolutionary biologist
+named Niles Eldridge who
+somehow did not quite have
+the press that Stephen Jay
+Gould did, so he is lost to
+history except for people
+who know what he's up to.
+And he's an amazing scientist.
+But Gould and Eldridge came up
+with a very different model.
+And I alluded to it the other
+day and drew it right there.
+And their notion was that
+gradualism is nonsense.
+There are not gradualistic
+incremental changes.
+Evolution is not being driven
+by small gradualist changes.
+Instead, what their
+model was is that there's
+long periods of nothing
+happening, of stasis.
+Long periods of
+nothing happening.
+If there's changes in DNA
+sequences thanks to mutations,
+they're not consequential.
+Or if they're
+consequential enough
+to change the fitness
+of one organism 1%,
+that's not going to
+make a difference.
+Most of the time, no
+change is occurring.
+And when it does occur,
+it is in incredibly fast,
+explosive periods
+of change followed
+by a new period of stasis.
+Evolutionary change comes in
+step functions rather than
+smooth gradualism.
+Long periods of stasis
+followed by dramatic jumps
+of evolutionary change
+in short periods of time.
+Thus, they called
+this the notion
+of punctuated equilibrium.
+Long periods of
+equilibrium and stasis
+punctuated by periods
+of very rapid change.
+And as I mentioned the other
+day, Gould was a Marxist
+and felt that Marxist's
+sort of stance
+was running through all of the
+ways to think about genetics.
+And I don't now what's
+up with Niles Eldredge,
+but that was the
+case with Gould.
+And when you look
+at this model, this
+is like classically
+fitting with stasis,
+and revolutionary change,
+and dialectical materialism,
+and stuff like that.
+The last sentence, I have
+no idea what I just said.
+But apparently
+that's got something
+to do with that stuff.
+And once again, we see
+in a very different way,
+a political theme running
+through a different worlds
+view of what evolution is
+about-- punctuated equilibrium.
+OK, so where did the idea
+of punctuated equilibrium
+come to these guys?
+Mainly because Gould
+was not a biologist.
+He was certainly not an
+evolutionary biologist.
+What he was a paleontologist.
+He studied fossils.
+He studied the history,
+the evolutionary history
+of fossils.
+And apparently, like
+totally separate
+of his large
+theoretical models, he
+was like the world's
+expert on the evolution
+of some Caribbean snail shell
+over the last 10 billion years
+or something.
+He's one of those
+paleontologists who
+traces lineages of evolutionary
+change over the course of time
+with fossils, fossil
+records, as the readout.
+So he's a paleontologist
+slash geologist in some ways.
+And when you do that, you notice
+something, which is you've
+got gaps in the record.
+You've got your
+famed missing links.
+You have gaps in your
+evolutionary record
+there of what fossils look like.
+And you're measuring some
+trait or other in these snails,
+or trilobites, or whatever
+you're looking at.
+And at this time period,
+the trait looks like this.
+At this time period,
+it looks like this.
+And this looks like a perfectly
+good gradualist model.
+And what Gould would
+notice is as the field got
+more and more information,
+more and more intervening steps
+on a lot of these
+fossil histories,
+they would start to
+look more like this.
+And every now and then,
+you would see something
+like this in between.
+And from that, that begin
+to suggest to him this model
+of punctuated equilibrium.
+Most of the time, as assessed
+by the fossil record,
+nothing dramatic is happening--
+long periods of stasis.
+And what allowed this to occur
+is that for some fossils,
+you have incredibly detailed
+evolutionary history, where
+you can begin to fill in
+lines, and they wind up
+looking punctuated in this way.
+So out of him comes
+this whole theory
+that it's all about punctuated
+equilibrium rather than
+gradualism.
+Right off the bat, what are
+the consequences of that?
+Little genetic
+changes don't matter.
+Competition driven by the notion
+of little changes mattering
+aren't actually occurring.
+In model [? saying ?]
+most of the time, all
+of the notions of if you figure
+out the right kid to kidnap
+when the big guy
+is coming at you,
+and you'll leave more
+copies, and figuring out
+exactly who to be
+infanticidal to, all that,
+it's not going to
+make a difference
+in terms of gene distribution.
+Evolution is not
+being driven by that.
+And out of it came this
+very strong indictment
+of the sociobiological
+view of what you've
+got there is a world where it's
+all about competition, where
+it's all about hierarchy, where
+it's all about domination,
+where it's all about that.
+Hey, isn't that interesting
+that that's exactly
+the sort of world
+that these folks live
+in who are benefiting from
+this, who started this theory?
+Very different notion here.
+Competition, selective
+advantages, all of that,
+most of the time,
+nothing's happening.
+So not surprisingly, all
+of the evolutionary types
+from last week did
+not like this one bit.
+And this was an
+attacked left and right
+in some extremely valid ways.
+First one, first form of attack
+is a very simple problem there,
+which is that you have two
+different disciplines happening
+here.
+You get a
+paleontologist, and you
+get a evolutionary
+biologist, and they're
+functioning in completely
+different universes.
+OK, stomach problems.
+And they're functioning in
+completely different universes
+there.
+What counts as fast
+for a paleontologist--
+these are tens of millions
+of years going on.
+Whoa, incredibly fast
+evolutionary change
+going on there.
+That's like 100,000 years.
+That's like, are you kidding me?
+Said the biologists.
+The ones who study one
+generation at a time.
+That is asinine.
+That is ridiculous.
+This is them
+imposing models where
+this has absolutely nothing to
+do with how evolution actually
+works.
+These geologists get
+completely thrown off,
+and these paleontologists
+led by Gould, simply
+orders of magnitude
+different scale of time.
+Yeah, maybe in some rough
+approximation of what
+they look at.
+But they're not
+studying evolution,
+because they're not biologists.
+Next critique-- the next
+one made lots of sense also.
+Which was, you're not just
+an evolutionary biologist,
+but you're one who thinks about
+the evolution of the brain,
+or the evolution
+of skin melanism,
+or the evolution of eye
+color, or the evolution of how
+many chambers in your
+heart you're going to have,
+or the evolution of
+any of these things
+that will leave no
+record whatsoever
+in the paleontological record.
+Because all
+paleontology is about
+is shapes of stuff-- fossils.
+Fossils do not tell
+you what kind of brain
+was going on inside that fern.
+Fossils do not tell you
+anything about internal organs.
+Fossils do not tell you
+anything about behavior.
+So at this point, all of
+the evolutionary folks
+of the school from last
+week attack and say, Yeah,
+what do they expect?
+They're studying the most
+boring possible things--
+the morphology of organisms.
+Ooh, just because
+the fact that humans,
+over the last like million
+years or so, have not
+evolved getting rid of
+the large trunk and roots
+that they have
+during springtime,
+and now they don't have them.
+Oh, that morphological
+change didn't occur,
+so obviously
+there's been stasis.
+Give me a break.
+What is interesting
+about evolution
+and evolutionary
+change, paleontologists
+can't pick up, because
+all they can study
+are forms, morphology.
+So that was a big
+attack on these folks.
+So you've got the
+Gouldian folks,
+the punctuated
+equilibrium people,
+saying when you look
+at the fossil record,
+it's not gradualism.
+And we've got some
+really complete ones.
+And to this day, the
+majority of fossil pedigrees
+where there are
+very, very complete
+records, show patterns of
+punctuated equilibrium.
+And back come the rejoinders,
+this is ridiculous,
+the time span they talk about.
+That makes no sense.
+In this period, humans evolved,
+doubled their brain size
+in the length of time that
+they call a very rapid
+evolutionary change.
+Their time span is
+completely crazy,
+and they can't study the
+evolution of anything
+that's interesting because
+they study fossils.
+But in lots of ways,
+the best rebuttal,
+the one that most
+got at these folks
+advocating punctuated
+equilibrium,
+would be the gradualists saying,
+Show me a molecular mechanism.
+Show me some way in which you
+can get rapid change and then
+long stasis.
+Turn that into modern
+molecular biology.
+Which is, occurring
+two minutes after
+the microevolutionary people
+were trashing the folks
+from last week saying, You need
+to look for the actual genes.
+It's not enough just
+to make up stories.
+And once these folks had
+assimilated what evolution
+looks like on the genetic
+level, mutational level,
+micromutational changes,
+they loved genetics.
+They loved the
+molecular end of it,
+because they could now turn
+around to the Gouldians
+and say, Show me the genes, and
+show me the mutations that will
+account for stuff like this.
+Because you can't
+account for it.
+Because we all know classical
+genetics and mutation,
+you don't get that.
+You get gradualism.
+So this was a period of enormous
+hostility between the two
+camps.
+And the gradualists called the
+punctuated equilibrium people
+evolutionary jerks.
+Ha ha.
+And the punctuated
+equilibrium people
+called the gradualists creeps.
+So ultimately, they all
+got along wonderfully
+because they were so witty.
+But what you had was
+enormously hostile camps.
+And really quite
+hostile because all
+sorts of implications
+spreading beyond
+like how fast the
+shape of this seashell
+was going to be evolving.
+And when they first
+came on in the '80s, all
+of this controversy, the
+punctuated equilibrium people
+didn't have a word
+to say with the show
+me the molecular mechanisms.
+Show me mechanisms for mutation
+that will produce rapid change.
+And everything that
+has occurred since then
+in the world of
+molecular genetics
+that has been most striking has
+supported punctuated models--
+ways in which the
+micromutational,
+microevolutionary
+stuff of an hour ago
+is not what's going on
+an awful lot of the time.
+Starters-- so simple
+classical model.
+What we've got here
+is a stretch of DNA.
+And this box
+symbolizes a sequence
+of DNA coding for one gene.
+And right next to
+it, once it finishes,
+one of those stop codon,
+stop triplet signals,
+right after that
+comes the stretch
+of DNA coding for the next
+gene, and the next gene.
+And this is what DNA is about.
+It's the sequence genes there.
+And what you would
+obviously then get
+is this arrow having this
+intervening step of that RNA
+stuff, but eventually producing
+an amino acid that produces
+a protein of this shape.
+And this is the protein
+coded for by this gene.
+This, this, and so on, and
+that's exactly how it works.
+That's the structure of DNA.
+Then, though, people began
+to find that that's not
+the structure of DNA.
+And what you began
+to get instead
+was something vastly
+more interesting.
+Which is that,
+for starters, when
+you look at coding
+for one single gene,
+it's not necessarily coded
+for in one continuous stretch
+of DNA.
+In other words, it's
+broken into little pieces.
+And you will have
+a stretch of DNA
+coding for the first
+third of the protein,
+and then a bunch of DNA that's
+got nothing to do with it.
+Stay tuned.
+Then coding for the next third,
+coding for the next third,
+that the gene was broken up
+into separate coding domains.
+And the term that was
+given for these was these
+were called exons.
+And the in-between boring
+stuff were called introns.
+And this was a major finding
+which made no sense whatsoever.
+Because how are you going to
+get from this to then having
+a protein which has its
+normal sequence and shape
+where this part was coded
+for by this exon, Exon
+One of this gene, and this from
+Exon Two, this from Exon Three.
+That's a completely
+different world of stuff.
+How are you going to do that?
+Because you're
+going to meet an RNA
+that's going to
+encompass all of this,
+and that's going to code for
+something completely different
+because you've got these
+introns in between there.
+And people then
+guessed something
+had to exist which was
+soon discovered-- enzymes
+called splicing enzymes.
+And what they did
+was exactly what
+you need to do to solve this.
+Which is at the RNA level,
+the splicing enzymes
+would come along, and they would
+snip out the part corresponding
+to here.
+And another would
+snip out there.
+And another one as
+an enzyme catalyzing
+would stick this
+two pieces together.
+And thus you have this.
+This utterly bizarre
+world in which
+genes, the vast
+majority of them,
+are not coded for in a
+continuous stretch of DNA
+but instead are broken up
+into these separate exons.
+And then you need these
+splicing enzymes to clip out
+the boring in-between
+parts, the introns,
+stick them all
+together, and you've
+got your functional gene.
+Weird.
+OK, but that's how
+they work though.
+I know shortly after
+these were discovered
+that one of the giants in
+this business, guy named
+David Baltimore who got
+the Nobel Prize for some
+of the work on that
+reverse process of RNA
+viruses turning
+back to DNA, he was
+the first to really appreciate
+that what you've got here
+is a potential for a
+lot of information.
+Because of, and I think
+he was the first person
+to introduce this word into
+thinking about it, because
+of the modular
+construction of genes.
+Because genes come in
+these separate exons.
+What does that begin
+to allow you to do?
+Very important stuff.
+OK, so we have the
+same structure here.
+And we have a gene coded
+for in a modular way
+in three separate exons.
+And thanks to splicing enzymes,
+protein catalysts clipping this
+out, you wind up with this.
+What Baltimore was the first or
+one of the first to appreciate
+was that you could wind up
+with something different
+there as well.
+You could, for example, create
+a very different protein--
+one consisting only
+of A and B. Or one
+consisting only of A and C.
+Or one consisting of B and C,
+or A alone.
+And suddenly, you have this
+combinatorial possibility
+of cranking out a number of
+different ways of putting
+together-- seven different
+ways since you can't transcribe
+this gene so that there's
+no transcription-- seven
+different ways of combining
+these different exons.
+Seven different
+types of proteins
+you could generate
+from the same gene.
+This was not accepted with
+a whole lot of pleasure
+by the old guard.
+Because intrinsic in the know
+the DNA sequence specifies
+amino acid, protein
+shape, protein function,
+intrinsic in that is one
+gene specifies one protein.
+One gene only specifies
+a single protein.
+One protein is only specified,
+coded for, by one gene.
+And suddenly, this
+modular business
+allows you with one gene to
+generate seven different kinds
+of proteins.
+For starters, how could that
+possibly work that way just
+on a nuts and bolts level?
+All you need are
+splicing enzymes
+that work a little
+bit differently
+in different parts of the body.
+One that will splice
+this off and is attached
+to an enzyme that
+will degrade this,
+while the splicing enzyme
+here-- and what have you
+just produced?
+You'll get this one.
+Coupling of splicing enzymes
+with degradative enzymes,
+and suddenly you've
+got a means to have
+tissue-specific
+expression of genes.
+The same gene will
+produce different types
+of proteins in different
+parts of the body
+because of splicing enzymes
+working differently.
+Then, just to confuse
+things even more,
+people began to note that there
+would be some splicing enzymes
+and genes where they would
+splice at a different point.
+And you would now have a
+gene with A, and A prime,
+and other splicing enzymes
+that would cut at other points.
+One single sequence of
+DNA generating all sorts
+of different types of proteins
+in different parts of the body,
+at different times of life,
+under different circumstances,
+in different individuals
+in different ways.
+Suddenly, there's a lot more
+information floating around
+in there.
+So that was a huge, huge
+breakthrough in the field,
+understanding this modular
+basis of gene construction.
+And for our purposes
+right now, what
+the most interesting consequence
+of that is is it's no longer
+one gene, one protein.
+One gene instead can
+generate all sorts
+of different types of
+proteins, different settings,
+different circumstances.
+The next thing that was
+intrinsic in this model that's
+now been trashed of one
+continuous gene, one
+continuous gene-- what we just
+figured out that instead you
+can have the introns,
+exons, all of that.
+The next thing that went down
+the tubes was looking at, Well,
+how much of DNA is
+actually devoted
+to coding for amino acids?
+And the answer was
+obvious, like 99.9% each.
+One of these would just have
+to have a stop codon, a stop
+signal at the end.
+And otherwise, this was just a
+continuous flow of information
+once you have factored
+in these interim things.
+OK, so they're
+part of this gene,
+but immediately
+starts the next one.
+The next major
+discovery was one gene
+would very rarely start
+immediately after the next one.
+There would be long
+stretches of DNA in between
+that didn't code for a
+protein-- non-coding DNA.
+That's mighty puzzling.
+What's that?
+Just junk or stuff?
+And around that time,
+the phrase junk DNA
+was actually floating around.
+People trying to
+make sense of this.
+And when people sat
+and started actually
+like doing the numbers,
+out came a number
+that knocked people on their
+rears it was so flabbergasting.
+95% of DNA is non-coding.
+95% does not code for a
+gene specifying a protein.
+In other words, in between
+here on the average
+would be a stretch of DNA
+19 times the length of that,
+or whatever the
+math winds up being.
+And suddenly calling that stuff
+junk DNA starting to see me
+a little bit tenuous,
+because 95% your DNA
+just can't be packing
+material for the whole thing.
+It's got to be doing something.
+And during that period,
+became sort of the insight
+into this that all the
+intervening, non-coding stuff
+was-- what was that?
+That was the
+instruction booklet.
+That was the instruction
+booklet on when
+to activate these genes.
+That was the on and off switches
+for turning genes on or off.
+Upstream in the
+non-coding domain
+just above a particular
+gene sequence
+would be the information for
+when that gene is activated.
+Activated when it makes RNA
+into protein, all of that.
+And upstream of that are
+the on and off switches.
+Implication right there off the
+bat, which is Crick was wrong.
+DNA sequences are not
+the starting point
+of the central dogma of life.
+And DNA is the rule-giver
+and all of that.
+DNA is being regulated.
+Genes are being regulated
+in some other way.
+And where 95% of
+DNA is being devoted
+to regulation of the genes.
+DNA has no idea what it's doing.
+DNA is a readout that's
+under the control
+of all sorts of other factors.
+And out of this emerged the
+really, really important
+concepts of regulatory
+sequences upstream from genes.
+So here we have a long string of
+DNA coding for this gene which
+happens to come in two exons.
+And it is like the
+space between the galaxy
+how long the non-coding is going
+to go on until the next gene is
+back there.
+So what's going
+on in the stretch
+just upstream from this gene?
+Things that were
+soon being called
+stuff like promoter sequences
+or repressor sequences.
+Things, stretches of DNA,
+that coded for switches
+rather than coding for protein.
+That coded for things
+coming into the neighborhood
+of the DNA and binding to some
+of these promoter or repressor
+sequences, and then turning
+on, or in some cases off,
+the transcription of that
+gene, the process of the gene
+generating proteins.
+You would have
+promoters sitting there.
+And this is overly literal.
+It would be just
+a sequence of DNA,
+which thanks to that
+sequence would have
+a certain subtle microshape.
+And along would
+come something which
+happened to be able to fit
+perfectly into that spot.
+And if, and only if, this
+molecule-- usually a protein--
+bound to this
+promoter, suddenly that
+would trigger a whole
+bunch of enzymes
+to come in, which would start
+the process of transcribing
+this gene.
+This would be the switch,
+and this is the thing
+that just turned the switch on.
+And these things that turn
+these switches on, or off
+in some cases, were soon
+called transcription factors.
+Totally critical concept
+in there-- the fact
+that vast stretches of DNA
+don't code for anything.
+Instead, they have the
+instruction booklets.
+Here's how you turn
+this gene on or off.
+Send in this
+molecular messenger.
+Send in this type of
+transcription factor.
+And if it shows
+up, binds to here,
+you now activate
+the transcription
+of this gene, the process
+of turning that gene,
+making proteins derived from it.
+This is where the
+information was.
+And this is not DNA
+knowing what it's doing.
+This is outside
+regulators coming in.
+So immediately,
+that has made life
+a whole lot more complicated.
+Next complications-- you
+could have different genes
+scattered all over
+the place that
+would have the same
+promoter upstream of it.
+What would that mean?
+In comes a transcription
+factor, and it
+doesn't activate the
+transcription of one
+gene producing one protein.
+It activates the transcription
+of a whole bunch of them.
+In other words, now
+suddenly we have messengers
+that could trigger activation of
+genetic networks, entire arrays
+of proteins being produced all
+with a functional similarity
+driven by the fact
+that all of them
+have the same promoter upstream.
+So suddenly, you
+have the possibility
+of the same promoter
+being upstream
+regulating more than one gene.
+That is the general rule.
+Flip side of it, any
+given gene, for example,
+could have a bunch of
+different promoters responding
+to different types of signals.
+So now, suddenly,
+you have this gene
+which can be transcribed
+under this circumstance,
+or under this circumstance.
+And both are ways of turning
+on activation of that gene.
+And in this circumstance,
+the same promoter
+is found in Genes A, B, and
+C somewhere at the other end
+of the chromosome.
+And in this case,
+this promoter is
+found on Genes D, E, and F down
+there-- different networks.
+So the same sort of
+transcription factor logic--
+once you can have different
+promoters upstream of a gene,
+and once you can have the
+same promoter upstream
+for multiple genes, you
+suddenly have the ability
+with different
+transcription factors
+to activate entire networks
+of gene expression.
+OK.
+So what this has
+allowed you to do
+is completely trash this notion
+of DNA knows what it's doing.
+DNA is just the readout.
+And who knows what's going on?
+Whatever is controlling
+the transcription factors.
+Whatever is causing
+them to do their thing.
+And this could be a
+world of influences.
+And to be absolutely
+accurate, this
+requires introducing
+the word environment.
+This is environment
+having something
+to do with genetic effects.
+This is going to be a
+way in which environment
+is interacting with genetic
+elements, environment
+determining which of
+these are doing what.
+What would that look like?
+Sometimes environment
+could be the environment
+in the rest of this cell.
+So you've got your DNA
+there, and your structures,
+and all of that,
+and the promoter.
+And we could do that by now.
+And something is occurring
+inside the cell which activates
+some transcription factor.
+And then you go change a
+genetic event going on in there.
+The cell is running
+out of energy.
+There's various ways
+to construct sensors.
+In other words,
+evolution has come up
+with a bunch of different ways
+in which cells can respond
+to signals of low
+energy, and that
+will activate some transcription
+factor which will go
+and bind to a bunch of promoters
+which produce proteins involved
+in taking up more energy from
+outside the cell, transporting
+in more, using energy
+more efficiently.
+So what we have here is an
+environmental regulation
+of genetic effects.
+Environment-- the rest of
+the environment of the cell.
+The DNA doesn't know
+what it's doing.
+The gene doesn't
+know what it's doing.
+Events going on
+elsewhere in the cell
+is what's regulating what's up.
+Some of the time,
+the environment
+can be even more far flung.
+And in this case, it's
+now events going on
+outside just this one cell.
+In this case now, you've
+got the cell with it's DNA.
+And now, instead, you
+have a chemical messenger
+coming from somewhere else.
+And binds to its receptor
+like a lock and key.
+And as a result of
+this binding, something
+happens here, which
+does something here,
+which does something
+here, which eventually
+activates some transcription
+factor, which goes and does
+its thing.
+Now we have gene expression
+in the cell being regulated
+by the environment
+somewhere else in the body,
+somewhere else there.
+What would be a classic
+example of that?
+This is what a whole
+lot hormones do.
+Hormones go floating around.
+And they affect cells
+everywhere throughout the body.
+By definition, a hormone is a
+bloodborne chemical messenger.
+So you could secrete
+some hormone out
+of the top of your ear,
+and it will affect things
+in your little toe.
+Very far flung.
+Hormones will bind to their
+receptors, lock and key.
+Most hormones are
+protein in nature,
+and trigger what's called
+a second messenger cascade.
+Jargon, don't worry about it.
+Just get it conceptually.
+Activate some
+transcription factor,
+deactivate some other
+transcription factor.
+And suddenly, events going
+on 14 counties over there
+are regulating what proteins
+are being made in this cell.
+What would be an
+example of that?
+Testosterone, for example.
+Testosterone secreted
+from the testes,
+traveling far and wide and
+eventually binding to androgen
+receptors on muscle.
+And what happens there is
+through a pathway like this,
+turning on the activation of
+genes, coding for proteins,
+all sorts of structural
+proteins that will
+make that muscle cell bigger.
+Your muscles are getting
+bigger thanks to testosterone.
+Look at this.
+Events occurring a gazillion
+cells away in the testes,
+a messenger here, determining
+what gene expression,
+what gene activation
+is happening.
+Sometimes, though,
+the environment
+could be completely
+outside the organism.
+Like that.
+Sometimes you can have,
+for example, a messenger
+from the outside world.
+What sort of messenger?
+A scary sight.
+A bit of sensory
+information or whatever.
+Olfactory.
+Olfactory-- suppose
+some odorant comes in.
+A pheromone-- you're female rat
+who has recently given birth,
+and the pheromones
+from your babies
+come floating in and
+bind to receptors here.
+Very similar principle, again.
+And that causes them to activate
+something, activate something,
+and some cell down there.
+And eventually
+there is a cell here
+that controls some
+muscles, and it
+makes your eyes
+dilate because you
+love the smell of your baby.
+And you're just-- I don't know
+if rats have their eyes dilate.
+But humans will in many
+other circumstances.
+Aha, how do you do that?
+You just changed some structural
+proteins that did this or that.
+Or suddenly this
+female is making
+some hormone like oxytocin as
+a result of smelling her baby.
+What have we got here?
+We got something going on in
+the outside world regulating
+what's going on with the genes.
+Genes as the central
+dogma of life,
+as the information
+giver-- nonsense.
+Events going on in
+the rest of the cell,
+the rest of the organism,
+the rest of the universe,
+are determining
+when genes activate.
+So what we see now is a
+much more interesting world
+of regulation of
+gene expression.
+First, the modular
+ability for one gene
+to generate all sorts of
+different proteins, which
+brings up an issue after
+a while is, does that
+count as one gene?
+And people argue over that.
+And because of this 95%
+regulatory sequence business,
+the most interesting
+stuff going on with DNA
+is not what the protein is
+like, not what the protein does,
+not how well the
+protein does it,
+but when it does it,
+in what contexts.
+And what we've just
+introduced are if then clauses
+into this whole world.
+If you get a signal that there
+is low glucose in the cell,
+then you begin to make proteins
+related to glucose uptake.
+If you have the smell
+of your child come in,
+then you activate
+this [? path. ?]
+It's not changing what
+the protein is like.
+It's changing context.
+And I think what we will see
+is context is vastly more
+interesting than whether this
+protein is a little bit more
+like this, a little
+bit more like that.
+If it is being expressed
+instead at a different time,
+in a different place,
+in a different context,
+that's much more interesting.
+So what does that
+set us up for here?
+Now beginning to see the
+organization of this.
+By the way-- 95%,
+this whole stuff here.
+I don't know what
+percentage is accounted
+for by identified promoters,
+and repressors, and stuff.
+But it's a tiny percentage.
+What that means is there's
+regulatory stuff going on
+that no one has a clue about.
+The main thing, though,
+here is modulatory structure
+to genes-- introns, exons--
+and this whole world
+of the environment
+regulating when
+genes are turned on and off.
+A whole world where
+you could generate
+completely different proteins.
+Not a protein that's a
+little bit more this way,
+a little bit more that way, in
+completely different contexts.
+So all we need to
+do now is begin
+to stick this into the
+molecular biology of mutations
+and evolutionary change.
+Where does this begin?
+Oh, no, before we
+do that, that's not
+what we're going to do.
+We're going to look at one
+more level of regulation here.
+OK, so you've got your DNA.
+And we already know
+this whole business.
+What's telling it what to do.
+You can have transcription
+factors coming in,
+all of that, these
+interesting implications.
+DNA-- let's see.
+For our purposes, protected
+in sort of layers of protein
+that are just sort of
+structurally stabilizing.
+This is not really what
+they look like or quite
+what they're made of, but
+they're called chromatin.
+There's this stuff that
+stabilizes the DNA.
+Because these are
+wispy little things.
+And one of the things that,
+of course, they need to do
+is they're in wrapped
+around the DNA stabilizing.
+You've got some transcription
+factor coming in from somewhere
+else in the cell.
+It's got to be able to
+get down to the DNA.
+And thus, you have a whole
+world of chomatin opening up
+to allow transcription
+factors to get through.
+And thus, you have a whole world
+of what's telling the chromatin
+to open up where and when?
+Suddenly, a whole
+world of regulation,
+of whether the
+transcription factors
+even have access to the DNA.
+So you can have tons of
+a transcription factor,
+and all set to transcribe
+something off of this.
+And thanks to conformational
+changes, folding or unfolding
+of chromatin, you're regulating
+whether the transcription
+factor can even get through.
+And thus, there's a
+whole world of stuff
+that changes chromatin
+modeling and remodeling.
+Additional step here, one
+that's really interesting,
+is you can do things--
+circumstances [? arise, ?]
+the environment can do
+things-- where you change
+the structure of chromatin
+around a particular gene
+in a way that makes it
+easier to transcribe,
+or harder to transcribe.
+And you can essentially
+make that change permanent.
+You could permanently
+do something
+in some particular
+stretch of chromatin
+so it will never open up again
+to allow the transcription
+factor in.
+And what you have
+just done-- jargon--
+is you have silenced that gene.
+You've silenced it permanently.
+And people know a lot of the
+mechanisms for how this occurs.
+For those who care
+about such things,
+the process is
+called methylation.
+This is a little bit different.
+That's occurring
+with the DNA itself.
+But this is silencing of
+genes by structural access
+of transcription factors to it.
+When does that occur?
+There's all sorts of
+circumstances early in life
+where you will change the
+permanent accessibility
+of some gene and
+transcription factors.
+You will cause long-term,
+lifelong changes.
+As but one example,
+and one that we
+will look at a number of
+times down the pike there,
+in rats, the mothering
+style of the mother rats,
+will cause chromatin
+changes-- permanent ones--
+in some of the genes
+related to stress hormones.
+So that certain types of
+mothering-- how often you
+lick the baby, and other
+rat mother type stuff--
+will regulate how readily
+some genes will be turned
+on for the rest of your life.
+This is early experience.
+This is molecular mechanisms
+for events early in life
+lasting forever.
+A lot of these turn out to
+be a little bit reversible.
+But for our purposes,
+lasting forever.
+This is a whole new
+field called epigenetics.
+Genetics is all
+about DNA sequences.
+Epigenetics is all
+about regulation
+of access to DNA sequences,
+things of that sort.
+So suddenly this
+epigenetic world
+is entirely capable of
+overriding anything going on
+at the transcription factor end.
+Just to give you a sense
+of this-- researcher.
+This is a guy at the National
+Institute of Health--
+a guy named Steve
+Sumi who studies
+primate social behavior.
+And what he has
+shown is in monkeys,
+in one part of their
+brain, you change the style
+of mothering that that monkey
+is subject to as a baby,
+and you will change the
+conformational access
+state of 4,000 different genes.
+Enormously influential there.
+Enormous arrays of ways of
+regulating where it's not
+genetics, it's epigenetics.
+And this has given rise to a
+great phrase-- fertilization
+is all about genetics.
+Development is all
+about epigenetics.
+And what epigenetics
+is about are
+ways in which the environment
+not only can regulate what's
+going on with this
+gene right now,
+but can cause lifelong
+differences in the ability
+to access genes.
+So this is an enormous array
+of levels of regulation.
+Splicing enzymes
+determining how your exons
+get mixed and matched,
+generating all sorts
+of different proteins.
+Transcription factors
+representing the things
+that turn the switches on and
+off, and the array of switches
+is far more interesting and
+plentiful than the gene itself.
+Transcription factors
+reflecting what's
+going on in the outside world,
+like in the rest of the cell
+to the other side of the planet.
+And finally, this
+whole additional level
+of regulation where some of
+the regulatory consequences
+here can be lifelong.
+Enormous array of
+levels of regulation.
+And an enormous number
+of ways in which
+just the DNA sequence
+of the gene itself
+is not very interesting.
+That determines the
+shape of the protein.
+All this other
+stuff is where is it
+expressed, when is
+it expressed, in what
+contexts, what sort of
+if then contingencies,
+whether it is ever expressed
+after a certain childhood
+event.
+All of that much much
+more interesting.
+So what we need to
+do now is transition
+to thinking about
+evolution, mutations,
+on the level of all the
+stuff we just heard about.
+And all I will leave you with
+and picking up on Wednesday,
+is think about what if you get
+a mutation in a splicing enzyme?
+What if you get a mutation
+in a transcription factor?
+What if you get a mutation
+not in the letters
+coding for a gene, but
+coding for a promoter?
+What happens in all those cases?
+And suddenly you
+begin to see a world
+in which you can get stuff
+that's not purely gradual.
+For more, please visit
+us at stanford.edu.

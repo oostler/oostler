@@ -1,0 +1,3550 @@
+7. Behavioral Genetics II
+=========================
+
+[MUSIC PLAYING]
+Stanford University.
+Something incredibly cool I
+just found out about yesterday,
+which, oh, I wish I had
+known about two days ago,
+but still, it's useful.
+You remember those Siberian
+foxes and that amazing thing?
+You breed them for tameness,
+purely on a behavioral trait,
+and come back 30
+generations later,
+and they look like puppies.
+They have the short muzzles,
+and the big roundy eyes,
+and the cute ears, and
+they wag their tails
+and all of that, punchline
+there being, number one,
+evolution can move really fast.
+Number two in some
+interesting, mysterious way,
+if you are selecting for
+certain behavioral traits--
+in this case, one where you
+like being around humans
+and are all cuddly with
+them-- what you're also going
+to select for are a
+whole bunch of traits
+that are associated with
+baby wolves in terms
+of physical appearance.
+Turns out, there's a flip side
+of this going on right now
+with what are known as metro
+dogs, which are dogs that live
+in the subway system in Moscow.
+And I don't know, but
+they live in there,
+and a whole deal was made out
+of the number of them which
+get on subways and know
+which stops they're going to.
+And there's an entire
+website devoted
+to metro dogs, which
+are in Russian,
+but it has lots
+of nice pictures.
+But what they're seeing
+there is that these
+are dogs who, essentially,
+have been feral
+and in feral packs for
+decades and decades.
+And what have they been
+being selected for?
+Being able to scrounge,
+being, in fact, quite scared
+of humans, a lot of the
+time staying far from them
+whenever possible because
+they are raiding garbage
+cans, who knows what.
+And what they're seeing
+in the metro dogs
+is about 30 generations
+into it now,
+their tails are looking
+more like the tails
+you see on wolves.
+Their muzzles are
+getting longer.
+Their coat patterns
+are beginning
+to get less fancy and
+distinctive from all
+the different strains of dogs.
+These guys are being selected
+for the exact same traits that
+went into being wolves.
+It's a really interesting
+demonstration.
+Again, these guys are not
+surviving because they've
+got a different-shaped tail.
+It's just part of the package.
+If you were going to have
+this canine-like thing
+and be selected for
+being scared of humans,
+functioning in packs, having a
+fairly aggressive temperament,
+you're going to wind up looking
+like a wolf after a while.
+Same deal, again, very rapidly.
+So unexpectedly,
+Russia turns out
+to be the motherland of all
+sorts of interesting things
+with puppies and puppies in the
+past and puppies in the future
+and all of that, so
+that's wonderful.
+OK.
+However, I don't have
+any pictures of them
+that I've brought today,
+but go to www.metrodog.edu
+and see what they have to say.
+OK, so picking up
+on Monday's lecture,
+I recognize Monday's lecture
+was probably the first one
+officially to be
+able to blow half
+of you guys out of
+the water because it
+was really tough material.
+Not only was it, as promised,
+yet another disciplinary jump,
+but it was the first
+wave at a lot of material
+that went by fairly fast,
+and a lot of it quite subtle.
+What are the things
+to focus on in there?
+What did we cover
+Monday that's critical?
+Behavior genetics as
+an overall approach
+is not doing the constructing
+an evolutionary story.
+Who's got the best story?
+We win.
+It's not molecular
+genetics looking
+at evolutionary change
+driven by actual mutations
+down at the molecular level.
+Instead, it's looking
+for patterns of behavior
+that go along with relatedness.
+What we saw was-- the most
+completely useless version was,
+well, here's a trait
+that runs in a family,
+and it runs in the family
+more the more related
+the individuals are--
+completely useless, bringing
+in the first of the
+problems that we're
+going to have nonstop
+in the subject,
+ruling out different
+environments.
+We saw a number of
+the classic approaches
+they have, which is
+studying monozygotic
+versus dizygotic twins,
+studying adopted individuals,
+or studying the gold standard
+of identical twins separated
+at birth, adopted, and then
+brought back together again.
+And in each one of
+those cases, that's
+explaining some degree of the
+confusion, eliminating some
+of the environment, but over,
+and over, and over again,
+this problem of environments
+are sneaking in all sorts
+of interesting ways.
+Adoption is nonrandom in terms
+of where placement occurs.
+All sorts of stuff like that--
+making it harder to tell.
+What we then transitioned
+to was dealing
+with the most interesting
+realm of environment,
+having influences, which
+is this whole world
+of prenatal environment and
+environmental effects there,
+one version of it being
+this whole new field,
+fetal origins of adult disease,
+the fact that early events--
+fetal environmental events--
+can have lifelong consequences,
+even multigenerational,
+as we saw.
+And people are understanding
+the nuts and bolts
+of how that might work,
+that epigenetic stuff.
+So we saw that as one--
+a very subtle realm
+of environment slipping in.
+And we also saw examples
+where "environment" could
+be occurring within
+an hour of birth,
+and where environment
+is occurring
+despite seemingly like similar
+things, like the number of math
+classes you take-- environment
+being very critical.
+What we also saw, just to
+make life a whole lot messier
+and more complicated,
+was violating
+the rule we have all
+known since infancy,
+which is you get equal genetic
+input from each parent.
+The business about mitochondria
+coming from your mother--
+the business about, as we
+saw, more subtle version--
+the same equal input
+of genes, perhaps,
+but the regulatory
+control is much more
+coming from the mother by way
+of the transcription factors,
+all of that and the
+cytosol of the egg,
+sperm having nothing interesting
+going on from a cell biology
+level, the egg
+having all of this.
+And where you can even
+get something as nutty
+as inheritance of an acquired
+trait, Lamarckian evolution.
+OK, so that was plowing
+through all of that,
+and I'm fairly certain
+that reviewing the last two
+hours in these
+last three minutes
+has not put anybody
+back in the water who
+was blown out of the water.
+So go to sections-- this
+is difficult material,
+and it's going to
+get worse today.
+OK, this is hard material.
+Make sure you read the
+extended notes because there's
+a fighting chance that will be
+more coherent than the lecture.
+OK, so we got to
+the point last time
+around of seeing that,
+OK, prenatal effects--
+the last thing we focused on
+was the actual nuts and bolts
+of it, epigenetics, all of that.
+Now we transition to what became
+the much more modern, exciting
+version of behavior
+genetics, unless you happen
+to have yourself
+hundreds of pairs
+of identical twins
+separated at birth, which
+is to go and actually find
+the gene, finally beginning
+to bring together-- to
+marry the classical behavior
+genetics approaches
+with molecular biology.
+And it was starting
+around the '80s
+or so that people began
+to be able to work
+in actual molecular techniques
+into this whole field,
+and it started off in
+a very primitive way
+and has gotten much
+better since then.
+The version that you
+can start off with
+is you know something
+about the trait,
+or as we're really
+saying here, you
+know something about that
+there are differences
+in the trait among
+different individuals,
+and now you go
+looking for the gene.
+How do you do that?
+The first classical
+way of doing that
+is that you actually have
+an observable difference
+in two individuals,
+in two populations,
+in two branches of
+the same family,
+a difference in an external
+manifestation of what's
+going on with
+genes, a difference
+in phenotype-- appearance,
+behavior, some such thing.
+And what you then do is
+you use that approach
+to try to then find
+genetic differences.
+You get a whole
+bunch of examples
+of folks with one version,
+a whole bunch of folks
+with another version,
+and you start looking
+for where the differences are.
+Slightly more
+constrained version,
+you don't actually
+have the phenotype.
+You are not looking
+at eye color.
+You are not looking at how
+wrinkly somebody's face is.
+You are not looking
+at behavioral traits.
+You're not looking
+at anything external.
+The next more
+focused step is now,
+you're looking at proteins,
+what some proteins do.
+Here is some enzyme that
+turns this into that,
+and there's two different
+ways the enzyme can do it
+or two different variants on it.
+And now, we've got
+this bunch of people
+where we take their
+blood and look,
+and they've got this variant.
+These guys have this version
+of how the protein goes
+about its business.
+Can we find the
+genetic difference?
+Next step down, next
+step more frustrating--
+when you can't see
+external differences
+that you're tracking.
+There is no
+phenotypic difference
+that you've got to
+work with, where
+you don't know what the protein
+does, what its function is.
+Next, lower rent version is to
+look at the same protein that
+comes in slightly
+different sizes
+because that's usually
+a hint that there
+are different functions.
+The way the protein
+works is going to differ,
+and somewhere along
+the way there,
+you came up with one
+version by having
+some insertion, mutation, or
+deletion, or some such thing.
+You don't know what
+the protein does,
+and you certainly
+don't know what
+that does in terms of the
+individual's appearance,
+behavior phenotype, but at
+least you've got something
+to work with there.
+So what it is you are using as
+your starting point-- easiest
+external signs.
+Next is what would be called
+intermediate physiological
+endpoints.
+Intermediate-- it's
+something functional,
+but it's not functional like
+how the person functions.
+It's functional like how an
+individual protein functions.
+And then, if you're up the
+creek with that, at least
+hopefully going for differences
+in the size of the protein,
+the electrical charge
+of the protein.
+For non-chemistry types, how
+this version of the protein
+interacts with a
+water environment
+versus how that
+version-- you don't
+know what the protein
+does, but at least
+you've got something
+to work with.
+You got a difference.
+In all of these
+cases, the strategy
+is to then see what are
+the gene differences that
+go along with it?
+Primitive initial version
+would be as follows.
+You've got, for
+example-- in this case,
+you were trying to find
+the gene for some disease.
+And this is where
+the whole field
+started because it is a lot
+easier to go after a disease.
+Either you have it
+or you don't if you
+pick the right kind
+of awful disease,
+rather than going on a
+phenotype like television taste.
+That one's going to be a lot
+harder to find the gene for.
+The whole field started instead
+looking at extremes of really
+major league,
+you-got-it-or-you-don't-have-it
+diseases.
+So you've got this family
+that has this disease running
+in the family-- PKU,
+phenylketonuria, for example,
+or Huntington's disease,
+or cystic fibrosis.
+These were some of
+the first ones to go.
+And what you now do is
+you've got the big family,
+and what you want ideally is
+a big huge family where about
+half the people have the
+disease and half don't.
+And the initial way the
+whole approach would be done
+was you get blood samples
+from everybody there,
+and you start sifting
+through everybody's DNA,
+and you're looking
+for a stretch of DNA
+that everybody with a
+disease has in common
+and that none of the relatives
+without the disease have.
+And what you've
+got at that point
+is what would be called a
+genetic marker because doing
+it this way, you're just
+sifting through a haystack.
+You're just trying to pick
+up big, crude patterns.
+The difference that you wind
+up seeing between these two
+populations of relatives
+almost certainly-- in fact,
+as far as I know, never
+once with this approach
+had you just found
+the individual gene.
+You found a stretch
+of DNA that's
+got 10, 20, 30 genes in there.
+But somewhere in that stretch
+is the interesting one.
+So at least you have
+a genetic marker here.
+You know the
+genetic neighborhood
+where the difference occurs.
+So this was at one
+point cutting edge,
+a technique called RFLP,
+restriction fragment link
+polymorphisms.
+Do not write that down.
+And this technique
+was incredibly
+slick at some point early
+on, and it is not easily done
+because you are dumping
+20,000 puzzle pieces over here
+and 20,000 there,
+and you're looking
+for the one difference
+between the two
+that's otherwise identical.
+It's that sort of task.
+Nonetheless, using
+that approach,
+people began to
+get disease markers
+where they got the stretch
+of DNA that contained
+a whole bunch of genes
+and who knows what else,
+but at least the
+candidate gene, the gene
+that was floating
+around that was
+responsible for this
+disease, was somewhere
+in the stretch of DNA.
+At that point, what would be
+done is a number of things.
+First is people would
+obsessively, obsessively check
+their statistics to see just
+how certain they are that this
+is the genetic marker
+for this disease
+because you were soon
+going to be advising people
+whether to terminate
+pregnancies based
+on genetic tests like those.
+This is an area where more
+stringent rules were imposed
+before you announce you think
+you know how the universe works
+with respect to this disease.
+Really, really major
+room for things
+going wrong in terms of it
+being then applied clinically,
+so first big demand
+would be you really
+have to be much more certain--
+a much more demanding field
+than lots of others in biology.
+The next issue would be
+this bioethics problem,
+which is you've got
+somebody from one
+of these families who may
+or may not have the disease.
+This is a disease that doesn't
+get you until age whatever,
+and you're younger than
+that, and this immediately
+exploded this whole
+issue for the first time.
+Should people get
+tested if they have
+the genetic marker
+for that disease,
+if they are a candidate for it?
+And this opened up a
+whole world of confusion
+about this, where a key
+feature of these debates
+was the fact that you
+haven't gotten the gene.
+You've just gotten the
+candidate stretch of DNA,
+and there remains a very
+small statistical chance
+that you've got the wrong one.
+For a bunch of reasons,
+there is that possibility.
+So do you let
+somebody take a test?
+Can people tell the difference
+between a yes and no
+and a statistical probability?
+What do you do if it's a disease
+where the person has just spent
+their last 10 years
+watching their parents
+slowly die from it, and
+there's no cure for it,
+and it's absolutely horrible?
+Do you give them a test that
+is-- if the bad outcome is
+going to throw them off
+the top of a building
+with a high likelihood?
+Enormously complex
+bioethics issue.
+The third challenge, though,
+was to step up the science
+from just having
+the stretch of DNA
+with a bunch of genes in there
+to actually find the gene.
+And in the years since, the
+molecular biology has gotten
+much, much better at moving
+past finding a genetic marker,
+we are 99.9% certain that
+the gene that's relevant
+is somewhere in this stretch,
+to finding the actual gene
+and then being
+able to see what's
+the difference in it
+between them and them.
+What's the difference,
+down to base pairs?
+Where is the mutation?
+Where's the difference
+coming from?
+That's the world of
+sequencing genomes now.
+That's where the field is at.
+So that has been enormously
+powerful in terms
+of potentially finding
+one single gene.
+But everything that came through
+in the molecular lectures
+last week should be
+pointing out there's
+not a whole lot
+going on in there
+that revolves around one
+single gene at a time.
+So hold on to really
+horrible diseases.
+Yeah, one gene, single
+mutation, but most of what
+goes wrong, if you want
+to start understanding
+the genetics of psychiatric
+disorders, of diabetes,
+of early-- of late-onset
+dementias, things of that sort,
+it's not going to
+be just one gene.
+So the next huge
+advance in the field
+was being able to do searches
+like these for multiple genes.
+One thing that has been
+used is a technique called
+microarrays, gene microarrays.
+And they were basically
+invented here on campus by a guy
+over in the med school named
+Pat Brown, who is already
+very famous for
+having done this and I
+suspect has all sorts of
+interesting awards coming
+for him down the line.
+This spectacular technique-- you
+take what is now called a gene
+chip, and through techniques
+that are absolutely boggling
+and make me feel queasy,
+what you somehow manage to do
+is you get all the
+copies of RNA that
+could be made in a cell
+from this individual.
+If you are completely
+new to this
+and you've managed
+to get in this far
+without having to think
+about what RNA is, ignore it.
+This is just sort of a
+subtle detail for people
+who are interested in this.
+What you do is you get
+a copy of each type
+of RNA made in a cell.
+You force the cell basically
+to transcribe all of the genes
+it has.
+And then you get
+this little chip,
+and you basically glue the
+end of each one of these RNAs
+to it, and you will
+have a chip with 20,000
+of these little things.
+And then you use
+probes which will
+allow you to see which versions
+of 20,000 of those genes
+are different in this
+individual from that individual.
+Total boggling, has
+forced an entire new world
+of trying to analyze data,
+this new field of informatics
+because you're not looking
+at one gene at a time.
+You're looking at patterns,
+and that becomes a lot harder.
+That becomes
+incredibly important
+because, again, it's all sorts
+of the interesting stuff where
+it's not going to be one gene.
+It's a dozen.
+It's 100.
+So that has been one
+challenging approach.
+Another is a technique called
+QTLs, quantitative trait
+lowside.
+What that basically
+is built around--
+that if you have subtle enough
+of tests, you could figure out
+this is a complex trait that
+is modulated by two genes,
+or by three, or by 17.
+You can see all of this
+going in the direction
+from techniques that
+would let you know
+you're kind of in the
+neighborhood of a gene,
+to actually identifying a gene
+that differs between the two
+populations, to the much
+more useful realistic world
+of whole bunches of genes,
+networks going on at a time.
+So using these
+approaches, people
+have made lots of progress.
+The most recent
+version of that--
+I mentioned the other
+day there, one type
+of mutation, a macro
+mutation, is this business
+about variants of major
+stretches of DNA copy length
+variance, where a
+whole stretch of DNA
+is duplicated twice or
+eleventy different times.
+Can you identify traits
+that are occurring
+because of differences
+in the number of copies?
+Yet another version
+of dealing with
+this whole hierarchical,
+multi-level business about gene
+regulation.
+OK, take home message
+from this is 20,
+30 years ago when
+all of this started,
+you can start with a trait, and
+through increasingly fancier
+techniques, you could find
+the neighborhood of where
+the gene is that the
+different versions of the gene
+correspond to the different
+versions of the trait-- moving
+from patterns of that to the
+neighborhood of the genes
+to the actual gene to
+whole bunches of genes
+to macro differences
+there, that's one approach.
+The other approach
+of the field has
+been starting the other way.
+You've got a gene.
+You've got a gene, and
+thanks to researching it
+in flies, and worms, and
+rats, and all of that,
+you kind of have a sense
+of what the gene does,
+and you have a reasonable
+guess of what sort of traits
+might be relevant in
+a human, and now you
+run it the other way.
+You have two different
+versions of the gene,
+and you look for
+differences in behavior,
+or differences in
+protein function,
+or differences in the
+size of the protein.
+You start with the
+genetic knowledge.
+And for our purposes, where
+people are mostly looking
+is at behavioral end points.
+So what do you see with that?
+Lots of findings in recent
+years, and my feeling
+is this is one of the more
+interesting ways of doing
+this behavior
+genetics-- starting
+with basic research
+with animals.
+You've got some sense
+of what the gene does.
+How about it in people?
+Because there is variability.
+First example, and this has to
+do with a really interesting
+hormone that we will hear
+plenty about down the line,
+a hormone called vasopressin.
+And vasopressin in rodents
+I think I already discussed.
+Vasopressin in rodents has
+a receptor, the vasopressin
+receptor.
+And what we talked about
+the other week is depending
+on which version
+of this you have,
+if you happen to
+be a vole male, it
+will determine
+whether or not you
+were monogamous or polygamous.
+That's interesting.
+What was also interesting
+was that difference-- the two
+variants were not in the gene
+itself but in the promoter,
+and that winds up meaning that
+the promoter caused in one
+strain the gene to be expressed
+in different parts of the brain
+than in the other version of it.
+OK, so what we saw there was all
+sorts of hints from the animal
+world that vasopressin has stuff
+to do with social affiliation,
+things of that sort.
+So what do you now do
+if you want to apply
+this knowledge to humans?
+The first thing you
+need to ask is, well,
+do we know where the
+gene is in humans?
+And with modern sequencing
+in the human genome,
+you've got it, so you know where
+the gene is for the vasopressin
+receptor.
+And the next thing
+you have to ask
+is, does it come in
+two different flavors?
+Does it come in two
+different flavors,
+and do they differ
+in the same way
+as the ones people have
+studied endlessly in rodents?
+Yay.
+Yes, indeed, the receptor
+gene is exactly the same
+in everyone, but there's
+two different versions
+of the promoter--
+the same exact story.
+So that's great.
+If you've gotten
+that far, now you
+start looking for what
+the differences are
+between people who have one
+variant versus the other.
+And you've got to
+do your homework.
+You got to match them for
+age, and gender, and number
+of cavities, and all
+sorts of stuff like that.
+And when you've got
+that under control,
+you go looking for behaviors.
+What's the limit of this?
+By definition, you're
+only looking where
+the light is shining already.
+You're only looking
+where you already
+have a sense that maybe
+you should be looking,
+unless you're totally
+crazy-obsessive
+and want to try to measure
+everything possible in people
+and look for a difference.
+In most of these studies, you
+kind of know where to look.
+That immediately means
+there's all sorts
+of areas you're not looking.
+Nonetheless, with
+this approach, people
+have gone looking in humans
+at these different variants
+on the vasopressin
+receptor gene,
+and you find some really
+interesting differences.
+One was a paper published
+a couple years ago
+in a very prestigious
+journal, which
+got picked up in the papers
+all over the universe,
+showing if you have the
+version of the promoter
+that you find in monogamous
+male voles, you as a human male
+are likely to have more stable
+relationships than if you
+have the other version of it.
+Whoa.
+That's pretty bizarre.
+That's pretty cool.
+Next thing, a study
+that just came out
+in that same prestigious
+journal a couple of weeks ago,
+and this is one
+we're showing, which,
+depending on which version
+you have, how good are you
+reading facial expressions
+in other people?
+Subtle differences in
+facial expressions--
+then, there's a whole
+other world of approaching,
+evidence emerging that in
+families where autism runs
+majorly through the families,
+people are seeing mutations
+in genes related to vasopressin
+and the vasopressin receptor.
+So this is one
+really cool example
+of starting with that
+approach, and this
+is a gene whose
+variants have something
+to do with some pretty
+meaningful realms
+of human social connectiveness,
+variability stuff.
+Totally interesting.
+Another example-- this is
+a gene coding for a protein
+called BDNF, brain-derived
+neurotrophic factor.
+Doesn't really matter.
+The main point of BDNF
+is it prompts neurons
+into growing new processes.
+And it turns out, BDNF does
+something that ultimately
+is kind of a drag for you.
+In one part of the
+brain, the amygdala,
+which-- I think I've already
+mentioned the amygdala
+has a lot to do with fear and
+anxiety and that sort of thing,
+and we will come back to that.
+Don't panic.
+But the main thing is BDNF plays
+a role in causing individuals--
+individual rats-- when they
+are highly stressed to make
+the neurons in the amygdala grow
+new connections, new processes.
+What are you doing?
+You are training that
+rat to be anxious.
+You are training that rat
+to be hyper-responsive
+to scary things.
+BDNF appears to play this role.
+So now, the next step in
+this sequence-- and you'll
+begin to see it's the same
+pattern over and over-- people
+then found, ah, there's a couple
+of different flavors of BDNF.
+There are a couple of
+different genetic variants.
+There's a couple
+of different ways
+in which BDNF pops up in
+rats or mice or whatever,
+differing by a base pair
+here, an amino acid there,
+where you then do your
+scutwork and show, OK,
+this BDNF works faster than that
+version of it or it works less
+but it lasts longer,
+or who knows what.
+You find a functional
+difference.
+There's a genetic difference.
+There's two different
+versions of it,
+and it actually
+makes a difference
+for how the protein functions.
+And this has all been
+studied in animals,
+and now you understand what it's
+doing in the amygdala of a rat,
+depending on which
+version you have.
+And then the exact
+same strategy--
+go look at the BDNF gene
+in humans and ask, well,
+do you see the same difference?
+Are the same two
+flavors in humans
+popping up as in rodents?
+Yes, indeed.
+And then, the exact
+same approach again,
+looking for differences, and
+you know where to start looking.
+What has that
+literature been showing?
+The type of BDNF
+variant that you
+have in the exact same way
+that it maps in rodents maps
+onto your likelihood
+of an anxiety disorder,
+the levels of stress
+hormones in your bloodstream,
+the levels of metabolic
+activity in your amygdala,
+the same exact sort of finding.
+Next, a whole other
+world, which we will learn
+much more about down the line.
+This is obviously a quick
+survey of a whole bunch
+of different areas.
+All of these we will
+come back to big time
+later on in the course.
+Next area, this
+neurotransmitter,
+dopamine-- you will learn
+amazing amounts about dopamine.
+Dopamine, which
+works through a-- you
+guessed it-- dopamine
+receptor-- and in fact, there
+is a gazillion different
+types of dopamine receptors.
+And dopamine
+receptor number four,
+D4, the dopamine
+receptor four gene
+has something to do with a whole
+bunch of interesting traits
+in rodents.
+And it comes with variability
+in the rodent versions,
+different flavors, and
+humans have variability
+along similar lines.
+And dopamine-- what is
+dopamine involved in?
+Pleasure, and anticipation,
+and reward-seeking behavior.
+What two different versions
+of the dopamine type
+four, the D4 receptor gene,
+begin to map onto in humans?
+Levels of risk-taking behavior,
+levels of sensation seeking,
+levels of novelty craving.
+That's interesting.
+Another example, a gene
+called NPY-- a protein,
+a neurotransmitter called
+neuropeptide Y. Do not get
+overwhelmed by all of these.
+It's just the same
+pattern over and over.
+NPY, same deal again-- and
+two different human variants
+have something to do with
+differences in levels,
+again, of anxiety, of metabolic
+rates in the amygdala,
+all of that.
+And in this case,
+the NPY difference
+is quite interesting
+because it's
+one of those where
+the difference is not
+in the gene structure sequence.
+It's once again a
+difference in the promoter.
+OK, so what have we
+have in all of these?
+This is a really
+powerful approach.
+The first version
+that we heard, you've
+got a behavioral difference.
+You've got a
+phenotypic difference.
+You've got a difference in
+how two proteins function,
+or their size.
+Go looking for what's the
+genetic difference between
+those who have this trait
+and those who don't.
+This version, reverse
+engineering it,
+you start off with a gene that
+comes in different flavors.
+You got a sense of what it
+does from animal studies.
+Do you have the same
+variation in humans,
+and does it map onto behavior?
+So all of these are amazing.
+All of these, it
+has to be emphasized
+in a way that will come
+back to haunt us also
+big time-- all of these
+explain tiny percentages
+of the variability in the data.
+There is nothing
+remotely resembling
+a world in which
+if you have flavor
+vanilla of the D4 receptor
+versus if you have flavor
+chocolate-- if you
+have flavor vanilla,
+you are going to be hand gliding
+when you are in preschool.
+You're going to be
+totally sensation seeking.
+And if you have
+the other version,
+you're going to spend your
+entire life collecting
+stamps or who knows what.
+It's not that deterministic.
+No surprise with
+this gene stuff.
+No single gene is going to
+be particularly deterministic
+once you get outside the
+world of phenylketonuria
+and cystic fibrosis and such.
+They contribute some
+explanatory power.
+So on one hand, amazingly cool,
+seeing these genetic links
+to aspects of human behavior.
+On the other hand, they're
+not very big effects,
+and this is something
+we will come back
+to endlessly down the line.
+OK, so this is how the field has
+gone about more recently trying
+to find links between variation
+in genes or their promoters
+and variations in aspect of
+behavior, running it both ways.
+And what all of
+this is looking at,
+what is intrinsic
+in everything we've
+been talking about with
+this behavior genetics,
+is oh, my God, the
+cliche finally emerges.
+Nature and nurture, and
+gene and environment,
+and gene/environment
+interactions--
+what is becoming increasingly
+clear in the field
+is there's a third
+leg to all of this.
+There's a third leg that
+could be extremely powerful
+and is going to be the basis
+for the chaos and complexity
+lectures down the
+line, which is chance,
+the role of random
+events, the role
+of chance in being a form that
+transcends what we would call
+environment and is
+certainly not genetics,
+a whole different world
+where that contributes.
+OK, where will we see chance
+playing out an important role
+in all of this?
+Brownian motion-- for those who
+don't have a techie background,
+I will describe it in the
+way that I understand it,
+which is flailing desperately.
+Brownian motion has to do
+with the fact that molecules
+oscillate and use an intrinsic
+movement, oscillation,
+of molecules.
+You take a whatever
+full of water
+filled with all sorts of
+things-- molecules, whatever--
+and they're all
+going to be vibrating
+to a certain extent because
+of this Brownian motion.
+I suspect that was the most
+amazingly incorrect description
+of what Brownian motion
+is, but that's the point.
+That's the main point, simply
+that there is this oscillation,
+which is completely random.
+It is just an intrinsic
+feature of how
+the world of physics and Albert
+Einstein's mustache works.
+And so you've got this
+Brownian motion stuff going on.
+So where might that play
+out in terms of chance?
+So we got here a cell with our
+four powerhouses of the cell
+here.
+And on the right-- let's assume
+this is a genetically identical
+cell, and I just got tired
+of drawing it completely--
+but the same four mitochondria.
+And what we see here
+first off is genetically,
+these mitochondria differ.
+One of them has a blue spot.
+One of them has a red sweater.
+Wait a second.
+Every single cell in
+your body was built out
+of the same genome when
+you started off life.
+Ah-ha.
+Back to that thing
+the other day.
+Mitochondria have their own DNA.
+Mitochondria are going
+about their own business
+of dividing in the
+cell, of replicating
+their-- replicating themselves
+now and then with a mutation.
+Within any given cell, the
+mitochondrial sequence of DNA
+is going to differ from
+one mitochondria to another
+because they've been
+separate organisms that
+are inside a cell going
+about their own evolution,
+their own mutations,
+their own whatever.
+What you then
+have-- what would be
+called a mosaic of
+different genetic profiles
+of the mitochondria
+within a cell.
+So that in and of itself
+is pretty interesting
+because this is a
+whole other world.
+This is not the DNA
+back in the nucleus,
+and this is not
+variability introduced
+by jumping genes or
+accessibility of transcription
+factors to genes, all that.
+This is-- meanwhile,
+outside the nucleus,
+there's this whole weirdo world
+of these mitochondria that
+are functioning
+all on their own,
+so the different
+mitochondria in the same cell
+will have different
+genetic makeups.
+So great.
+So these two cells are
+absolutely identical.
+Each of them have four
+mitochondria, and each of them
+have two red kinds,
+one blue kind,
+and one that gets nothing.
+So now that cell is going to
+go about splitting in two.
+And what happens is it splits.
+And in the process of splitting,
+what the fluid, the cytosol,
+the stuff inside where all
+the molecules-- including
+the mitochondria in the
+other organelles-- are found.
+And it splits,
+and there winds up
+being a very simple question.
+Which mitochondria wind
+up in which daughter cell?
+And what we've got here is in
+this case, a split like that.
+In this case, a split like that.
+Oh my god, why did that happen?
+Is that because there is
+a gene in this one that
+says when you form a new pair
+of cells, have blue and blank
+in one and two
+reds in the other?
+And this one is a completely
+different instruction manual
+for how you split cells.
+No, simple randomness of
+where the mitochondria were
+in the cell when they split.
+A totally random event.
+So what you see here
+is you start off
+with two cells that are
+genetically identical.
+And within one round
+of cell splitting,
+these genetically
+identical individuals
+are already
+genetically different.
+How come?
+Because of instructions
+or a blueprint?
+No.
+Simply because
+molecules, organelles,
+things like mitochondria
+just oscillating around.
+And along comes a split, and
+who is stuck on which side
+of the divide.
+So you've got
+variability that way.
+Intrinsic in that is another
+type of variability, which
+the second I
+mention it, you will
+be able to run
+with effortlessly,
+which is floating
+around in here also
+will be transcription
+factors, and splicing enzymes,
+and other enzymes.
+And along comes the split.
+And there is not
+the remotest chance
+that half of every single
+type of transcription factor
+is going to go each way, and
+half of every type of splicing
+enzyme, et cetera.
+It's going to be who's
+oscillating where
+and where the cells splits.
+So you wind up not only
+with different outcomes
+in terms of mitochondria
+and their genetic makeup,
+you're going to have
+different distributions
+of different types of
+transcription factors.
+All due to this random
+oscillatory stuff.
+So that's one big component
+where chance plays a role.
+And what the chaos
+complexity lectures
+are going to be
+very heavily about
+is just how important
+stuff like this
+is, how important it is in
+explaining what goes on,
+how important it is in
+explaining why, no matter
+how much you know about what
+every single molecule is having
+for lunch next
+Tuesday, there's still
+going to be a huge degree
+of unpredictability.
+All of that is to come.
+This is just beginning to
+establish the idea yes, nature,
+nurture, nature, nurture.
+Chance also is the third leg
+in there playing a large role.
+Whether chance is
+what's going on when
+you get a transposable event--
+you remember at the point
+that neural stem cells
+are beginning to divide
+into neurons.
+That's when they juggle around
+their transposable genes
+most dramatically.
+Whether that is a completely
+random event as to where
+the copies land when
+they come back to Earth,
+I'm not sure if people know.
+But I suspect there's an
+element of chance in there also.
+So this is introducing
+that notion in there.
+So great.
+So now you've got
+all these caviats,
+which is environment
+is subtle and coming
+all over the place,
+and early experience,
+and epigenetic changes, and all
+the different ways you could
+find genes linked to behavior.
+And don't forget,
+variability also
+has something to do with chance.
+At the end of the
+day though, what
+all of the behavior
+genetic approach
+is going to come down to at
+the end is a single number.
+We have studied this trait
+with adoption techniques,
+with looking for
+genetic markers,
+with looking for
+copy length variance.
+We have studied this trait
+and the variability of it.
+And thanks to us studying
+for a gazillion years,
+we can now conclude that 53.5%
+percent of the variability
+in this trait is heritable.
+You come up with this
+number at the end.
+This trait has a
+53% heritability.
+That's the number that
+winds up coming out.
+Scientists report that
+this or that trait
+has variability as
+80% heritability.
+This is the number that
+always comes out at the end.
+What's the heritability?
+Ranging somewhere
+from 0% up to 100%.
+This is heritability.
+And this is absolutely critical.
+Because this is a truly
+influential number.
+The one that people
+come away with when
+they are being taught,
+Oh, this trait is genetic.
+Those who want to
+be quantitative
+will have been told, Whoa this
+trait has 80% heritability.
+It has 90% heritability,
+all of that.
+And it's the wrong
+interpretation.
+And what we're going to
+spend a bunch of time on now
+is looking at what
+heritability actually means.
+The heritability
+number-- because it
+is completely different
+from the everyday intuition
+about what it means.
+And what it's
+usually telling you
+is how unimportant genes are
+in the deterministic way rather
+than the other way around.
+OK.
+So what does everyone assume?
+What is heritability
+telling you?
+It is telling you
+how much do genes
+determine the average
+level of this trait.
+You have one version of a gene,
+and there's the other flavor.
+And they produce different
+average levels of some behavior
+or something at the end.
+What heritability
+is teaching you,
+if you've got this
+completely wrong notion,
+it's teaching you
+how much do genes
+have to do with the average
+level of that behavior,
+that trait, that whatever.
+That's not what
+heritability actually means.
+What heritability as
+a number is telling
+you is not what genes have
+to do with the average level
+of the trait, it's
+what genes have
+to do with the
+degree of variability
+around that average.
+This is a point where
+things immediately
+seem panicky and start getting
+very, very complicated,
+all of that.
+We will see it's not that bad.
+And it's not that bad
+in a very critical way.
+OK, simple first sense
+of getting at it.
+Here's two populations where
+you measure something or other.
+And these three individuals,
+they come in at nine, 10, 11.
+And these come in at one,
+10, and 19, or whatever.
+What's going on here?
+You average them.
+They have the
+exact same average.
+What's the difference?
+There's a lot more
+variability around the average
+here than in this case.
+What's the wrong
+idea that people
+have that heritability means?
+It's telling you
+how much do genes
+determine the average here.
+That's not what it's doing.
+It's how much do genes determine
+how much variability there is.
+Initially, this seems
+like a very subtle point.
+And what's the big deal?
+Because at the end
+of the day, it's
+still talking about how
+important genes are.
+What we'll see now
+is it's actually
+a way of seeing how less
+deterministic genes are
+in lots of cases.
+So this heritability stuff,
+talking about variants.
+Here we have an example.
+We've got some plant.
+Some plant with
+some gene that comes
+in three different flavors.
+And you measure something
+or other about the plant.
+This is how much
+water it retains,
+or of the plant's IQ,
+or something like that.
+You're measuring some
+trait, and you're asking,
+Does it differ as a function
+of which version of this gene
+you have?
+So you do your study,
+and this is what you see.
+And you say, Whoa, OK.
+I went and looked at this
+plant in a rain forest,
+and we identified the
+genetic versions of it.
+And look-- very different.
+The gene that you have
+there, knowing that,
+gives you a lot of
+predictive power
+over what level of
+whatever it is that you're
+measuring this plant is.
+That's great.
+So you're going to get
+your doctorate out of that,
+and you get some publications.
+And it's great, and you
+finally stop being a student.
+And it's terrific.
+And meanwhile,
+some individual who
+shares like none of
+your genes in common
+on the other side of
+the planet, meanwhile
+there are some S-O-B who's
+studying the exact same plant
+in the middle of
+the Gobi Desert.
+You're sitting here in
+the Amazon studying this,
+and here's this individual
+doing the exact same kind
+of experiment,
+saying, Oh, here we
+have this unlikely plant
+that grows both in the Amazon
+and the Gobi Desert.
+But here we have this, and
+we're studying this here.
+And what am I studying?
+I'm studying those
+three variants.
+Those three variants
+of this gene.
+And I'm asking do they
+influence plant IQ?
+The same thing that you
+were asking over here.
+And that individual
+was doing their study,
+and they see that yes,
+indeed, the gene influences
+what version that you have.
+And here you had A,
+B, and C. And here's
+what they see when
+they measure plant IQ.
+And it looks like that.
+And what do they conclude?
+Whoa, look at that.
+Knowing what version
+of the gene you
+have gives me enormous
+predictive power
+in predicting what the
+plant IQ is going to be.
+And then catastrophically,
+tragically, the two of you
+meet each other and
+discover that you're both
+researching the same plant.
+And you look at your
+numbers, and your heart
+breaks at that point.
+Because you look at these,
+and what's going on here?
+What's going on?
+Let's translate this
+notion of heritability,
+and variance, and all of that.
+Let's translate it into
+a very simple question
+you can ask, translating
+all of this in English.
+You're interested in what this
+gene has to do with plant IQ.
+And you're allowed to find
+out one piece of information.
+You could know whether the
+plant has version A, B, or C,
+or you could know
+whether the plant is
+growing in the Amazon
+or the Gobi Desert.
+Which piece of information
+is going to give you
+more predictive power?
+And what you wind up seeing
+here is if you can either
+know this or the
+environment, you
+want to know what
+the environment is.
+The variability-- plant IQ could
+come in at 98, 100, 102, eight,
+10, and 12.
+Far more of the variability
+in those six numbers
+is explained by what
+environment it's
+going on in rather than
+the genetic difference.
+That's what heritability
+is telling you.
+And in a study like
+this, it would tell you
+that the heritability number
+is actually quite low.
+Because the amount of variation
+due to this is far less
+explained by the gene
+type than whether it's
+the Amazon or the Gobi Desert.
+So that's a first pass at it.
+Why is this really important?
+For the following reason.
+You're a scientist,
+and you are trying
+to understand how A, B,
+and C influence plant IQ.
+And you come up with
+something nutty and stupid
+like saying, Well,
+I would like to be
+able to do field seasons in both
+the Amazon and the Gobi Desert.
+And your advisor will
+say, or all of your elders
+will say something like,
+No, you can't do that.
+Because that's just-- you're
+not controlling for environment.
+You're not studying it in only
+one controlled environment.
+You can't go to-- they're
+such different ecosystems,
+all of that.
+Pick one and go study it there.
+And what you do is
+you go study it there.
+And as a result of
+just studying it here,
+you come away thinking
+that virtually
+all of the variability
+is explained by genes.
+What have you just done?
+You explicitly have
+designed your experiment
+so that you can't detect
+the environmental role
+in determining that trait.
+What counts as setting up the
+experiment as the right way
+for people who think
+about this sort of thing,
+standard sort of
+approaches to experiment,
+what counts as doing a good
+job by definition, what you're
+doing is biasing towards
+thinking the genetic input
+is more important
+than it actually is.
+Because scientists don't
+decide to study this trait
+in two different places.
+You don't decide
+to do a study where
+you're looking at some trait
+in both rats and ocelots,
+or something.
+Look, pick one species.
+Maybe even pick just one gender.
+Pick one environment.
+Don't have your rats in one room
+where the air conditioning is
+going nonstop and the other
+room you're barbecuing stuff.
+Control for environment.
+And by definition,
+if you've done
+the nice, careful,
+responsible thing
+that a scientist's supposed to
+do doing this sort of thing,
+you control for environment.
+What have you just done?
+You have just
+removed your ability
+to see the role of environment.
+And you have just artificially
+inflated how important
+you think the genes are.
+OK, let's take a
+five minute break.
+We are going to look at
+this in a lot more detail.
+Do not freak out if this is
+not immediately intuitively
+obvious.
+Questions that just came up.
+The first one is
+pointing out one
+of those where I probably
+should have actually taught
+something clearer.
+What are you talking about with
+proteins being different sizes?
+How do you figure out
+proteins are different sizes?
+And the answer is
+you make them stand
+against the wall in their
+bedroom with a ruler,
+and you mark it there.
+And then you see if
+they differ in size.
+Or if that doesn't
+work, what you do is you
+use various
+biochemical techniques.
+You basically make
+something akin
+to a thick, homogeneous
+soup of something or other.
+And you put the two different
+versions of the protein
+in there, and essentially
+you sit and wait
+and see how far they sink down.
+And the one that's heavier is
+going to sink down further.
+Anyone who knowns about gels
+and the electrophoresis,
+that's insanely simplified.
+But that's basically
+the notion of it.
+Put them where they
+move through something
+as a function of
+their weight, gravity,
+and you could then pick
+up size differences.
+The other good
+question that was asked
+is, What did you just say
+in the last 10 minutes?
+This is very difficult. This
+is an extremely subtle point.
+And I'm going to hammer
+it in over, and over,
+again here, in
+sections, all of that.
+Why is it so important?
+Because number one, this
+is a number, heritability,
+that the general lay
+public comes away
+with interpreting
+incompletely wrongly.
+And number two, the vast
+majority of scientists,
+when they're working in this
+field of behavior genetics,
+design their experiments
+so that by definition, they
+are eliminating
+all sorts of realms
+of environmental influences.
+So going back to this here.
+So here we see once again
+this simple question.
+Use this one over and over
+translating all this theory
+in variation and stuff.
+Always translates into
+the same question.
+I can find out what type,
+what version of this gene,
+or I can find out which
+environment this is happening.
+Which one do I want to know if I
+want to be in a better position
+to guess what's going on?
+And when it looks like this, you
+don't want to know the genes.
+You want to know the environment
+because it's far more powerful.
+And if you only studied
+this in this setting,
+you would come away saying,
+Oh, this variability
+is entirely explained by
+which version of the gene.
+Oh, this trait, plant IQ,
+has 100% heritability.
+And what you see there is
+when you combine it together
+with numbers like these,
+it's 15% heritability.
+So that's totally
+critical to hammer in.
+So what are some of the
+responses at that point
+by people who will
+say, That's ridiculous.
+If you're saying what
+heritability mostly
+should be teaching us is
+how unpowerful genes are,
+what would be one of
+the initial responses?
+Great.
+How many plants out there are
+growing in both the Amazon
+and the Gobi Desert.
+And it's so hard to
+study IQ in plants.
+This is a totally artificial
+dichotomy between the extremes
+of environment.
+You're like
+inflating things now.
+You're cheating in
+the other direction
+to get the most dramatic
+artificial circumstances
+to inflate your sense of how
+important environment is.
+This is totally
+artificially dichotomized.
+So think about humans, and think
+about one single fact, which
+is we inhabit more
+different environments
+than any other species on Earth.
+We live in the Amazon, and
+we live in the Gobi Desert.
+And we live in Peoria, and
+we live in all these things.
+And we have more exposure
+to different sorts
+of environments.
+So immediately, that
+argument goes down the drain.
+OK.
+So now instead, somebody
+argues something different,
+saying OK, sometimes plants
+have IQ in the Amazon
+and in the Gobi Desert.
+And I get your point,
+your stupid point here
+that ooh, environment
+can make-- No one's going
+to argue that the difference
+between the Amazon and the Gobi
+Desert isn't important.
+Oh, yeah, OK.
+Well, humans, they live
+in both, all of that.
+It's not an
+artificial difference.
+But you notice something?
+Isn't it interesting
+that in these two
+different environments, C plants
+always have the highest IQ,
+and A plants always
+have the lowest.
+That's telling us
+something about that gene.
+That's telling us, and you're
+then saying well, yes, yes, it
+differs by environment.
+But we've just learned something
+very important about these gene
+versions.
+Which is, in totally
+different environments,
+version C gives you
+a higher plant IQ.
+So that's important.
+Yeah, yeah, environment.
+But we've just seen how
+powerful this gene is.
+But then you run into the
+person at the conference who
+is studying it in
+the Gobi desert,
+and they put their
+data up and it's
+even worse than in
+the last version
+because it looks like this.
+And what have you just learned?
+That you can't say a
+thing about this gene.
+You have just learned the
+translation of this sentence.
+The first critical
+sentence we've had
+over and over is,
+if you can only
+know one factoid,
+one about which gene
+version or what environment,
+choose the environment,
+we have now just learned
+a second sentence.
+A second question to ask.
+Which is, what does having A, B,
+or C have to do with plant IQ?
+And if the answer
+is "it depends,"
+you've just seen this subtlety.
+If the answer is, "it
+depends on which environment
+you're looking at." if
+you're looking in the Amazon,
+C gets you the best plant IQ.
+if you're looking
+in the Gobi desert,
+C gets you the worst plant IQ.
+What have you just shown?
+What is technically the
+definition of a gene
+environment interaction?
+And we've just seen going
+from, well yeah, yeah,
+they're very different,
+but C is always the best.
+Isn't that interesting?
+To a completely
+different profile.
+What does A, B, or C
+have to do with plant IQ?
+It depends.
+It depends on the environment.
+That's how you've just
+defined, that's your diagnosis,
+for gene environment
+interaction.
+And what ultimately
+one has to argue
+is that it is impossible to
+ever say what a gene does.
+You can only say what a gene
+does in the environments which
+to date it has been studied in.
+OK, let's see that
+expanding even more.
+Because you've got this--
+OK, let's jump ahead.
+OK, so this is showing you
+now just how totally nutty
+and counter-intuitive
+heritability terms actually
+are.
+You ask a question.
+What's the heritability of
+number of fingers on your hand?
+You know, genes have
+to do with the fact
+that we've got five fingers
+instead of flippers,
+or some such thing.
+Genes have huge
+amounts to do with it.
+You're not asking about the
+average number of fingers,
+you're asking about
+the variability.
+Remember that again.
+So what are the
+circumstances out there
+which will give somebody
+six fingers instead of five?
+That's incredibly rare.
+What about four fingers
+instead of five?
+Oh, industrial accidents.
+Three fingers instead of five?
+Lots of industrial accidents.
+Two?
+Change jobs or whatever.
+What are we seeing
+here in terms of,
+how much do genes have
+to do with having fewer
+than five fingers?
+It's all industrial accidents.
+Genes have nothing
+to do with it.
+There's no doubt some
+weirdo disease out there.
+But for our purposes,
+this is how it works.
+What have we just discovered?
+Number of fingers, that
+trait has a 0% heritability.
+That's totally bizarre.
+That's completely
+counter-intuitive.
+Genes have everything to do
+with why the average human has
+five fingers, but
+they have nothing
+to do with the variability.
+In that case, it's
+entirely environmental.
+The number of fingers you
+have has 0% heritability.
+Now let's look at
+another example.
+It's 1950 in Eisenhower America.
+Actually, it wasn't until 1952.
+But it's a very
+different world than now.
+And one of the things that you
+would never ever, ever, never,
+never, ever see in
+the United States
+would be some guy
+wearing an earring.
+Unless in a very cloistered
+part of the country
+he was a sensitive guy.
+But for most of America,
+this is not what men do.
+They do not wear earrings.
+And likewise, in
+most of America,
+if you were a good
+red-blooded American woman,
+you would not go outside
+without your earrings on.
+So now you've got
+to say OK, well
+what causes variability in
+earring wearing behavior?
+And it's entirely explained by
+whether you are female or male,
+which is a genetic trait.
+What we've just seen
+is, whether or not
+you wear earrings in 1952
+has 100% heritability.
+Totally counter-intuitive.
+Think through this again
+and again and again,
+because this makes sense.
+When heritability is a number
+about this rather than this,
+you get a world
+where 0% heritability
+for your number of
+fingers and 100%
+heritability for whether you are
+wearing earrings at that time.
+Because once again,
+asking OK, I've
+got a choice in the matter.
+I can either know the entire
+genome of this individual,
+or I can know whether
+they are in a frat where
+they close their eyes and
+work with a wood saw every now
+and then.
+Which fact do I want to know?
+That's the one that will tell
+me what about the environment
+going on with them.
+Or now you have a choice.
+I can either know the entire
+genome of this person,
+or I can know that what
+sort of environment
+they're living in 1952.
+What do you want to know
+there is, male or female.
+If I know that, I can
+completely predict this behavior
+of earring wearing.
+So this totally
+counter-intuitive thing here,
+where heritability is telling
+just the opposite of what
+people intuitively think.
+And as soon as
+you deal with that
+and recognize that and
+recognize the way scientists do
+experiments, is to
+try to do things
+as cleanly as possible--
+study it only in one place,
+in only one setting, only one
+circumstance-- you have just
+artificially
+guaranteed that you're
+going to come away more
+impressed with the genes
+than they actually
+deserve to be.
+So how would this look?
+Beginning now in more detail.
+So what we've got here are
+a number of different ways
+in which you can see when
+are genes important, when
+are environment important,
+that sort of thing.
+OK, so we have here two
+different traits-- no,
+we have one trait, two
+different flavors of a gene.
+Flavors A and B. And three
+different environments.
+So here you have the
+Amazon, the Gobi Desert,
+and a roller coaster.
+And you're measuring plant IQ.
+And there's two different
+versions of the gene there.
+And you're asking
+well, what does
+gene, what to environment
+have to do with it?
+Your data look like this.
+What does it tell you?
+Environment makes no
+difference at all.
+It doesn't matter if you are
+in the desert, the rainforest,
+whatever.
+Which version of the
+gene you have entirely
+explains variability.
+So this is what a heritability
+of like 100% would look like.
+Now you do the study,
+and instead you
+get data like these.
+You'll note just one of
+the most important things
+about being a card
+carrying scientist, which
+is data are plural.
+Which, talk about
+counter-intuitive,
+earrings are genetic
+and data are plural.
+So now you get these data
+and you see as follows.
+In this environment,
+no difference depending
+on what type of gene you have.
+In this environment, no
+difference, no difference.
+In each environment,
+very different averages.
+Ah, this is what it would look
+like with 0% heritability.
+There is no difference at all
+of the variation explained
+by gene variation.
+It's all environmental.
+So now we have a
+version that forces
+us to put in the same phrase
+we heard about before.
+This is what your
+data look like now.
+And you now ask
+the question, well,
+what does being in environment--
+what does your environment have
+to do with your plant IQ?
+And the answer is, it depends
+on which version of the gene
+you have.
+And now you ask,
+what does having
+a certain version of the gene
+have to do with your plant IQ?
+And the answer is, it depends
+on which environment you're in.
+This is, in a sense, the verbal
+definition, again, of a gene
+environment interaction.
+What do genes have to
+do with this trait?
+Depends on the environment.
+What does environment
+have to do with a trait?
+It depends on the type of genes.
+This is what the
+data would look like.
+And here you have
+an interaction.
+And in some fudging
+of the numbers,
+this is what 50%
+heritability would look like.
+What we just saw here before,
+our hypothetical example
+of the messiest
+it could get, this
+is the one where the people come
+back and say, yes, yes, yes,
+environment matters.
+But you notice
+version C is always
+associated with the highest IQ.
+And here we have
+the version where
+depending on the setting, if
+you have this type of gene,
+it gets better.
+If you have this type
+of gene, it gets worse.
+This is one where there's
+a dramatic interaction
+between what the genes
+are doing and what
+the environment is doing.
+This is one that's going to
+have an even lower heritability
+because this is one where
+you are saying big time,
+it depends.
+It depends on what
+the gene type is.
+It depends.
+It depends on what
+the environment is.
+This is, in a sense,
+as dramatically
+as it could be that case.
+So you constantly have
+stuff like this going on.
+Let's look at an example
+where, in fact, you wind up
+seeing something like this.
+Back to our iconic mutation
+disease from the other day
+there, PKU.
+Phenylketonuria.
+Just to remind you, do not
+worry about the details.
+It's this disease where normally
+there's this thing in your body
+which would be
+toxic to your brain
+unless it's turned
+into something else.
+And this is the
+enzyme-- the protein,
+and thus coded for
+by a gene-- this
+is the enzyme that
+turns the scary version
+into the safe version.
+And in PKU, you have a
+mutation in this enzyme,
+it's not doing its job.
+The scary version builds up and
+wipes out your nervous system.
+That looks bad.
+And what we've got now
+is a trait where you're
+going to say, well, let's see.
+I am very interested
+in knowing, being
+able to predict whether or not
+this person has a fairly normal
+looking brain or whether
+it looks like Swiss cheese.
+Do I want to know whether
+or not they're growing up
+in Idaho versus Montana?
+Or do I want to know
+whether or not they've
+got a mutation in this enzyme?
+Obviously, you want
+to know if there's
+a mutation in the enzyme.
+Seemingly, heritability is 100%.
+But now you do
+something which people
+have been doing for people with
+PKU for a couple of decades
+now.
+Which is, you put little labels
+on bottles of food and stuff
+saying, if this food contains
+the scary bad news thing.
+And if you have
+PKU, if you simply
+don't eat food that contains
+that-- if you have what's
+called a fennel
+alanine free diet--
+you don't get your brain
+looking like Swiss cheese.
+What have you got there?
+You've just put in an
+environmental influence
+that has reduced
+heritability down to zero.
+This is a case where we've got
+something like this looking.
+And here we're measuring is,
+like, the Swiss cheese index,
+or whatever of the brain.
+And what we've got here is, this
+is an environment where people
+know how much of the stuff there
+is in different types of food
+and don't eat it.
+A simple environmental--
+not so simple--
+but an environmental
+intervention.
+A behavioral change
+in the environment.
+And you've just reduced
+heritability from 100% to 0%.
+So that is a dramatic version.
+Now, let's look at a version
+of a real life example of this.
+This would be with-- I think
+I've already put this one up.
+OK, does this work
+familiar by now?
+No.
+OK, that was at Thanksgiving.
+OK.
+What we've got here is a
+gene that's got something
+to do with depression.
+It's a gene that has something
+to do with neurotransmitter
+serotonin.
+Details don't matter,
+they will come later.
+But the gene comes in
+two different flavors.
+And one version of it,
+based on everything
+that's known from
+laboratory animals,
+one version should be
+the kind that predisposes
+you more towards depression.
+So, in this incredibly
+important study
+that was done a
+number of years ago,
+a guy named Caspi, Duke
+University, and colleagues,
+they had been studying 17,000
+people basically from birth
+up to age 25 or
+so in New Zealand.
+And who knows why
+in New Zealand,
+but studying them there,
+and following and asking.
+They took blood so they know
+the whole genetic profiles.
+And looking at, among
+other things, by age 25,
+does the person have
+major depression or not.
+Have they had an
+episode of depression.
+And now let's go look at which
+version of this gene they have.
+And what would everything
+predict from all the animal
+studies, which is you have
+the bad version of the gene
+and you're, as a human,
+going to have a higher
+chance of having a depression.
+That's not what the
+data looked like.
+Instead, it was one
+of those "it depends."
+It depends on the environment.
+What you saw was,
+it all depended
+on how many major childhood
+stressors there were.
+Loss of a parent, divorce,
+abuse, some such thing.
+And the absence of
+any of those, this
+was the rate of depression
+in the people having
+the good version.
+And throw in one childhood
+trauma, two of them,
+three of them, and the
+incidence is going up slightly.
+Now, you've got the bad
+version of the gene.
+And it puts you
+more at risk only
+in certain types
+of environments.
+So here we have a great gene
+environment interaction.
+That's something
+straight out of this one.
+You're saying well,
+what does this gene
+have to do with the
+risk of depression?
+And the answer is, it depends.
+It depends on what your
+childhood environment was like.
+But now, one additional detail
+showing that this is actually
+a case of this.
+One that just gets
+ignored whenever
+people talk about the
+study because it's cool,
+but it's actually not
+all that important.
+OK, so here's the people with
+the good version of the gene,
+but it makes this point though.
+You've got the good version,
+and they're down here.
+And you know what's
+going to happen,
+the bad version is going
+to be exactly the same.
+But you look at the data
+closely, and in the absence,
+the bad version is actually
+a little bit protective
+from depression versus
+the quote "good version."
+What have you just
+discovered there?
+It's one of these.
+This is a radical gene
+environment interaction.
+Not only is it the case that,
+does this put you more at risk?
+Well, that depends
+on the environment.
+Depending on your environment,
+it could put you less at risk.
+This one is not a big
+deal because there's
+a tiny difference.
+There's no reason
+to pay attention
+to it, other than just sort of
+pointing it out pedagogically.
+But this is an amazing
+example where this can
+go in the opposite direction.
+This is a hugely important
+gene environment interaction.
+So what all of this begins
+to set you up for is,
+you've forgot this
+heritability number.
+And people come away
+constantly thinking about,
+it's telling you about how much
+the average level of a trait
+is determined by genes.
+It's instead telling you
+how much the variability.
+What that means, thus, by
+definition, that there's
+all sorts of nutty
+counter-intuitive things going
+on, where earrings are totally
+heritable and number of fingers
+are not.
+What that tells you is, by
+definition, the way experiments
+are set up to make things nice
+and clean and interpretable,
+scientists typically remove
+environmental variability.
+Scientists typically
+artificially
+have boosted up the seeming
+heritability of a trait.
+What does that tell you?
+The more different environments
+you study a trait in,
+the lower the heritability
+is going to be.
+Because you are
+going to be getting
+more and more opportunities
+for things to be different.
+More opportunities to be
+able to say, it depends.
+It depends on which environment.
+We've just studied it in
+99 different environments,
+and it always looks like this.
+No difference by
+environment, and genes
+always make a huge difference.
+And then you go out and,
+before dying of fatigue,
+you study it in the
+hundredth environment,
+and it now looks like
+this sort of thing.
+What you've just learned is,
+this is a "it depends" example.
+And the more environments
+you study something in,
+the lower heritability
+is going to be.
+Translating that into
+English, the more environments
+you study a genetically
+influenced trait,
+the less interesting
+and important
+the genes are going to be.
+The less interesting
+and important
+they're going to
+be in answering,
+what does this gene have
+to do with whatever?
+And what we're seeing
+over and over again
+is, the only way to answer
+it over and over again
+is, it's going to
+be an "it depends."
+It depends on the environment.
+Ultimately-- as I said a
+little while ago-- ultimately,
+it winds up being meaningless
+to ask what a gene does.
+Ultimately, the only
+really truly scientific way
+you can answer a
+question like that
+is, what does this gene do in
+this particular environment?
+People make this big deal out
+of oh, genes do something,
+environments do something.
+And every now and
+then, hooray, they
+interact in some exciting way
+in teaching the gene environment
+interaction cliche,
+that's what's
+happening every single time.
+And that winds up
+being the basis of that
+quote from Paul Ehrlich
+in this department
+that I put on the
+handout, which is great,
+summarizes this entire
+point, asking whether genes
+or environment have more
+to do with some trait
+is akin to asking whether
+height or length have more
+to do with the volume
+of a rectangle.
+They're inseparable.
+There is no such thing
+as a gene influence
+outside the context of an
+environmental interaction.
+OK.
+Let's look more at
+what this looks like.
+Here, this being
+one great example.
+And this being this iconic one.
+And this is a finding that
+is destined to be, like,
+the most important
+in the last quarter
+century in biological
+psychiatry.
+It is the most
+powerful demonstration
+in the realm of abnormal human
+behavior of what your genotype
+has to do with your behavior.
+The most amazing, logical,
+intuitively reasonable
+demonstration of "it depends."
+It depends on how stressful
+the childhood environment was.
+Really great.
+Bringing things
+back to last weeks
+sort of molecular
+lectures, people already
+know who study this.
+The two different versions
+of the gene, certain classes
+of stress hormones interact with
+the two versions differently.
+When stress hormone levels
+aren't particularly raised,
+that difference isn't
+being manifested.
+The more of a history
+of stress-- and it's
+obviously more mechanical,
+more complicated
+than just how much you're
+exposed to-- but the promoters,
+the variation here
+is in the promoters.
+The promoters
+interact differently
+with those glucocorticoid
+stress hormones.
+In the absence of the
+glucocorticoid stress hormones,
+because in the absence
+of something exciting,
+your genetic difference
+makes no difference.
+So we've just translated
+an epidemiological answer--
+what does this gene have
+to do with depression?
+It depends.
+It depends on your
+childhood stress history.
+We've just translated that into
+last week's molecular biology,
+what does this genetic variance
+have to do with whether or not
+you have depression?
+It depends.
+It depends on how much childhood
+exposure to glucocorticoids
+you had.
+So we've just leaped
+from analyzing this
+in the context of this
+field, to translating that
+into last week.
+And translating that
+into the endocrine
+lectures that are going to come
+next week, beginning to show,
+OK, you're an epidemiologist.
+The answer is, what
+sort of environment?
+You're an endocrinologist.
+The answer is, well, the
+hormonal environment.
+Whether you define it,
+it's the same punch line.
+It depends.
+It depends on the environment.
+So this is the best,
+most amazing example
+of this in all of psychiatry.
+Except, these guys--
+Caspian colleagues--
+measured something
+else and they got just
+as bestest of an
+answer for that.
+Which is, they looked at
+another gene that has variation.
+One we will hear
+about down the line.
+A gene called MAO,
+monoamine oxidase.
+All we need to know right now
+is, a gazillion animal studies
+suggest that one
+version of the gene
+predisposes more towards
+aggression than the other.
+Whoa.
+So they've got
+17,000 people who've
+just had 25 years
+worth of opportunity
+to be aggressive or not,
+and they got the genes.
+And now they ask the question,
+rather than at age 25,
+has this person ever had a
+major clinical depression?
+Now they ask, at age
+25, has this person ever
+been in trouble with
+the law for some sort
+of antisocial behavior?
+Antisocial behavior
+is the new jargon
+for what used to be called
+sociopathic behavior.
+Has this person been
+in trouble with the law
+for sociopathic
+behavior, anti-social.
+And does it vary depending on
+which version of the MAO gene
+you have?
+And what you get is,
+not only is the answer
+"it depends," the
+graph is basically
+identical to this one.
+It's superimposable, the
+magnitude of the effect.
+What was this in that case?
+Whether or not you had, and how
+severe your child history was,
+of abuse.
+The more childhood
+abuse you had, the more
+having the wrong
+version of the gene
+increased your odds of
+having anti-social aggressive
+behavior.
+Once again, a major
+dramatic "it depends."
+And it's stunning.
+You look at these
+two different papers,
+both were published in
+"Science" a couple years apart.
+Landmark studies, all of that.
+And the two graphs really
+are virtually superimposable.
+The same magnitude of effects.
+The same answer.
+It depends on your childhood.
+So that is a very
+strong example.
+Next one, another one, now you
+go back to this gene difference
+with the serotonin,
+the depression world.
+And now you study it in monkeys
+and the variation there,
+there is a variation in
+brain chemistry related
+to depression, all
+of that depending
+on how stressful the
+monkey's childhood was.
+Same exact sort of finding.
+What else?
+Now when you begin to
+look at-- going back
+to that world of dopamine
+receptors and thrill
+seeking and all of that--
+and what you look at
+there is variability
+in a certain type
+of different dopamine
+receptor gene.
+And what you find
+there is, if you
+have a certain
+version of that gene,
+you have less social attachment.
+There's a whole psychology
+of how you measure that.
+And God knows why.
+It's associated with
+less social attachment
+if, and only if,
+you got brought up
+by a mother who was
+cold and withdrawn.
+There is once again
+a "it depends."
+My looking at that, it's
+nowhere near as clean as this.
+But it's the same
+sort of theme again.
+Another example of it.
+There's another
+gene called FAD2.
+And don't even ask me
+what it stands for.
+But which version
+of the gene you have
+has some predictability
+over your IQ.
+That's kind of interesting.
+It's not a big effect, but
+nonetheless it is demonstrable.
+Which version of the gene
+you have has some control,
+but there's a "it depends."
+Which version of
+that gene you have
+has something to do with IQ
+if and only if something.
+Let me tell you what
+this FAD2 is involved in.
+It is involved in
+carbohydrate metabolism.
+Carbohydrates-- carbs,
+carbohydrate metabolism-- it
+codes for some enzyme
+that breaks down
+carbohydrates and no
+doubt, some certain kind.
+OK.
+What's going on here?
+You've got two
+different versions
+of a gene that break
+down carbohydrates,
+and you've got one version.
+And on the average, you'll
+have a higher IQ if and only
+if some environmental
+thing was happening.
+Any guesses what that
+environmental thing might be?
+High carbohydrate diet.
+High carbohydrate diet, OK.
+That makes tons of
+sense, yes indeed.
+That winds up being relevant.
+Remember, you're
+now-- not remember,
+because I didn't
+say it already--
+but you're looking
+at IQ in kids.
+So you're looking now
+at carbohydrate stuff
+going on early in life.
+So frame it in that context.
+So, we've got a start
+of an answer here.
+So what else could be happening?
+If and only if the
+version you have
+of this gene that's involved
+in breaking down carbohydrates,
+translating into
+how you're dealing
+with the amount of
+carbohydrates in your diet,
+gets you a different IQ
+with an if and only if.
+What would the if
+and only if be?
+Build on that comment there.
+What else could it be?
+OK, I'm not even going to look.
+Somebody shout out an answer.
+[INAUDIBLE]
+You're right!
+OK, Who started?
+Somebody started
+saying something.
+Who started saying something?
+OK.
+Any other ideas?
+Breast feeding.
+Who said that?
+Look at that, they
+start pointing.
+The person doesn't even fess up.
+Who said that?
+It's in your notes.
+You're right.
+[LAUGHTER]
+OK.
+You want to be that way.
+I'm out of here.
+OK.
+So if and only if you read the
+damn notes, as it turns out.
+Yes!
+Breastfeeding.
+OK.
+If and only if you were having
+a particular type of diet
+very early in life
+that is extremely
+rich in the types
+of carbohydrates
+that this enzyme works on.
+So a very dramatic
+if and only if there.
+I don't know why I
+write that stuff.
+I don't know why I show up here.
+I should be doing
+one or the other
+and some sort of environment
+interaction thing.
+So yeah, breastfeeding.
+OK.
+So one more example, a
+very interesting one.
+And this is one that has at
+some point or other, I'd bet,
+been pertinent to every
+single person in this room.
+Which is, there's another
+genetic difference
+that has something to do with
+a certain cognitive aptitude.
+And this one
+everybody knows about.
+And this one is as follows.
+If you have-- there's two
+different versions of this sort
+of genetic picture
+and they're associated
+with different
+levels of aptitude
+in this particular
+cognitive realm--
+this is not a world any more
+of one single gene at a time.
+FAD2, any of these.
+This instead is talking
+about a whole bunch of genes.
+If you have a Y
+chromosome or not.
+If you are male or female.
+A genetic trait.
+And what is the thing
+that has been demonstrated
+most consistently
+in the literature
+forever and ever
+and ever in terms
+of a gender difference in
+a cognitive skill in math
+performance.
+That has come through endlessly.
+I've already talked
+about it the other week.
+A small difference in the
+average median performance
+on junior high school
+old Johns Hopkins
+superstar kids taking the SATs.
+But a big difference in the tail
+at the end, high performance,
+all of that.
+This comes up in
+endless, endless studies.
+This comes up with kids
+at fairly young ages.
+There is this gender difference
+on the average-- yes, we're
+saying on the average, don't
+forget, you say on the average
+before you even ignore that--
+you say on the average,
+boys are better at
+math than girls.
+Men are better at
+math than women.
+Male plants in the
+Gobi desert are better
+in math than female
+plants there.
+And so we've got a
+genetic trait here
+being a function of whether
+or not you get a Y chromosome.
+But then, a few years ago there
+was an astonishingly important
+paper published in "Science."
+And what these people did
+was look at math performance
+scores-- of I think it was
+480,000 different high school
+kids.
+And all over the world.
+They didn't just
+study it in America.
+They studied it in 40
+different countries.
+And they asked a
+very simple question.
+Which is, are there big
+differences in gender quality
+of life issues in this country?
+And there is a whole index that
+comes out of the World Health
+UN something or other called
+a gender equality index.
+Which takes into account,
+like, if there is--
+and if there is, how
+dramatic of-- a gender
+difference in educational
+opportunities,
+in freedom of movement, in
+freedom to serve in an elected
+office, and freedom to vote,
+in freedom to choose who you're
+married to, and obviously
+the enormous variability
+on this planet in terms of that.
+And what they showed was,
+the greater the inadequacies,
+the greater the difference
+in gender treatment
+in the society across
+40 different countries,
+the bigger the difference
+there was in math scores.
+It's not a function
+of gender, it's
+which society you're
+growing up with your gender.
+What was at the most extreme?
+Let me make sure I get
+the countries right here.
+Who had the worst profiles
+of the 40 countries
+in terms of the biggest gender
+differences in these quality
+of life measures?
+Turkey, Tunisia,
+and South Korea.
+Where was the United States?
+Sitting somewhere
+around the middle
+with most Western
+European countries.
+And which were the countries
+on earth which, as a block,
+had the lowest degree of
+different treatment of people
+in their society
+based on gender?
+The ever handy wonderful
+Utopian Scandinavians.
+So in comes the Scandinavians.
+And what you show
+is, by the time
+you look at the country on
+Earth that has the least gender
+differentiation of
+any, which is Iceland,
+you notice something different.
+There still is a
+gender difference.
+In Iceland, girls are better
+at math than boys, slightly.
+A small difference
+going on there.
+But nonetheless, as you go
+from the countries in which
+from day one, girls
+transitioning into women
+are given the most
+constraints of freedom
+of life, that's where you're
+going to see the biggest math
+difference scores.
+And you look at less and less
+of those sort of inequities.
+And the gender difference
+in the math score,
+by the time it's at the
+Scandinavian countries,
+it's down to zero.
+And then you get to Iceland,
+and it actually reverses.
+It's got nothing to do
+with your Y chromosome.
+We immediately come
+back to the first
+of those questions from before,
+that diagnostic question.
+You've got a choice.
+You want to have a sense of,
+in this population-- nah,
+even at the individual level.
+You've got a choice.
+You're comparing
+two individuals,
+and you want to
+guess which one is
+better at math than the other.
+You can either
+know their gender,
+or you could know whether they
+grew up in Tunisia or Iceland.
+Which fact do you want to know?
+You want to know
+about environment.
+Environment is vastly
+more powerful there.
+Another feature of that
+that has been interesting.
+So you then say
+OK, the extremes.
+OK, so in some societies, the
+means are exactly the same.
+But what about that difference
+way out at the highest
+level of performance.
+As I mentioned the other
+day, in the mid-1980s,
+looking at the highest first
+percentile of math performance
+on junior high school
+kids with their SATs,
+and there was a 13:1 ratio
+of males to females in there.
+When it was last
+studied a few years ago,
+it's down to a 3:1 ratio.
+Oh, that's obviously due to
+evolution over the last 20
+years, because it's
+got to be due to genes.
+That's like saying genes explain
+the fact that in 1980s people,
+like, wore pads
+on their shoulders
+and, like, power sneakers
+to work or whatever.
+And the fact that
+nobody does that anymore
+shows that the gene for wearing
+that on your woman executive
+decor deal has evolved.
+That's asinine.
+You do not go from 13:1
+to 3:1 with a trait
+in 20 years in a
+highly interbreeding
+mixed population-- in
+other words, humans--
+and have this as
+a genetic trait.
+Even function at the
+extreme has squat
+to do with the
+genetics of gender.
+It's, I want to know what
+society the person got
+raised in.
+I could care less what
+their chromosome is.
+If I want to know
+how good they're
+likely to be at math
+compared to the other person,
+tell me where they grew up.
+That's the most
+important thing to know.
+Interesting additional thing.
+The second most reliable
+finding in all of measures
+of cognitive aptitude thing
+that has a gender difference
+is, on the average, girls being
+better at verbal performance
+tasks than boys.
+Women than men, all
+that sort of thing.
+So what's going on in those
+40 different countries there?
+What you wind up seeing is,
+it depends on which country
+you're in.
+It depends on that
+gender equality index.
+And what you see is, in
+the worst countries there,
+by these measures, Tunisia-- who
+else was it?-- Tunisia, Turkey,
+and South Korea, what
+you see is, yeah,
+women get better scores
+on verbal tests than men.
+And as you go to the
+more equal places,
+the gender difference increases.
+In other words, you've
+got one of these.
+The more gender
+equal a society is,
+the less of a sex difference
+there is in math capabilities
+and the bigger the advantage
+is for females over males
+in verbal performance.
+It's got everything to do
+with what society you're in.
+This gender difference in
+this realm of cognitive skills
+means next to nothing.
+And if I had any
+technological skills--
+I kept saying I
+was going to bring
+the figure from this
+paper, I'll have
+it posted-- because
+this one figure,
+it's across all these--
+you just look at it
+and there's the answer.
+It's got nothing to do with the
+genetics of gender difference.
+OK, so what else would one
+want to emphasize here?
+OK, what else would one
+want to emphasize here?
+Which is, this is a total
+mess and totally complicated.
+OK what have we gotten to so
+far in this field of behavior
+genetics?
+There's all these
+different ancient ways
+of inferring something.
+Twins, adoption, there's the
+much more modern way, which
+is finding the actual genes.
+That's wonderful.
+That's exciting.
+Nonetheless, over
+and over and over,
+an environment
+gets understudied.
+Environment is far more
+subtle than you think.
+Environment starts earlier
+in life than you think.
+And when you do it in a very
+formal quantitative way,
+analyzing what genetic
+influences are about,
+you discover that
+scientists study things
+under circumstances where
+you constantly underestimate
+the importance of environment.
+Blah, blah, etc., etc.
+But at the end of
+the day, don't genes
+have something to do
+with something or other
+going on with this?
+And obviously, obviously they
+have some very important roles.
+You have genes that completely
+determine aspects of behavior.
+Single genes that completely
+determine your intelligence
+if you are a housefly.
+Lots of interesting
+studies there showing
+single gene determination,
+a lot of these behaviors.
+And it doesn't matter sort of
+what the economic opportunities
+are for houseflies in that
+country versus humans.
+What you see there
+is yeah, there
+are realms of behavioral
+biology where genes
+play very, very strong roles.
+And we will certainly
+see some of them
+in the lectures to come.
+But with two qualifiers.
+The first one we
+heard the other day.
+Which is, even when, with all
+of these criticisms on board
+and you've got
+every critical tool
+to slice up anybody
+arguing that here's
+a high heritability important
+genetic component, blah, blah,
+etc.
+You've completely
+cut it to pieces,
+and there still is
+a gene that seems
+to be doing something important
+for trait X. What we heard
+about the other day is,
+nonetheless, think about
+if there is an indirect genetic
+route for getting there.
+Is there a gene
+for extroversion?
+Or is there a gene
+for your height
+and how people of your
+height are treated?
+Is there a gene for
+picking at grubs?
+Or is there a gene for if you're
+really tall, you pick at grubs
+and people don't
+make fun of you.
+Is all of that business about
+indirect genetic effects?
+So even when you see
+a gene for something,
+you have to begin to ask to
+make sure that you are not,
+in fact, looking at
+an indirect effect.
+Final qualifier.
+When you look at the
+really interesting genes
+in terms of what they do.
+When you look at
+some of the ones
+that have the most
+to do, say, with what
+differentiates our genome
+from the chimp genome.
+When you look at things like
+juggling your DNA just when
+you're making new neurons,
+what you see over and over is,
+what human genes are
+about most dramatically
+is coding for ways in
+which you have freedom
+from the effects of genetics.
+And that is going to be a
+theme endlessly in the lectures
+to come.
+OK.
+For more, please visit
+us at stanford.edu.

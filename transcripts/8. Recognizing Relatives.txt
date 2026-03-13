@@ -1,0 +1,3293 @@
+8. Recognizing Relatives
+========================
+
+Stanford University.
+--push off into new terrain,
+here-- yet another bucket.
+But before doing that,
+various bits of feedback
+from office hours.
+Hearing from TAs.
+Getting a sense of where
+the grand, gaping craters
+of confusion are so far.
+And apparently an
+awful lot of them
+were provided in the
+last two days of lectures
+with behavior genetics.
+Various issues that came up.
+Clearly, one of the most
+complicated, inaccessible,
+subtle, pain in
+the neck concepts
+in the whole class, which is
+this heritability business.
+So memorize the
+following two sentences,
+because it all comes down to
+the difference between something
+that is inherited and
+how heritable a trait is.
+The fact that humans
+overwhelmingly
+have five fingers reflects the
+fact that the number of fingers
+is an inherited trait.
+The fact that, when there are
+some circumstances of humans
+having other than
+five fingers, it
+is overwhelmingly
+due to environmental
+something-or-others is
+an indication of the fact
+that, nonetheless, variability
+around the number of fingers--
+heritability is essentially 0%.
+So get those two
+sorted out, and you
+have those two concepts
+all under your belt
+and very useful.
+Why is it useful?
+First off, why is
+this one useful?
+Because it is important
+to know the distinction.
+Everybody, for one
+thing, out there
+tends to view these as
+telling the same thing.
+And insofar as they think
+it says the same thing,
+they think that both terms
+are referring to this.
+Something that is genetically
+regulated, genetically
+determined-- whatever.
+Two totally different terms.
+So one reason to
+obsess over this
+is that when the
+newspapers give us
+our sound bite of
+"scientists report that,"
+it's usually this one
+that they're reporting,
+with one of those marvelously
+misleading numbers.
+Which then sets people up
+for thinking they have just
+been told how much
+do genes "determine"
+some average feature
+of this trait.
+So, important to
+tell them apart.
+The other reason of
+getting this sorted out
+is not to only unlearn
+the nonsense aspects
+and misinterpreting this term
+but because understanding
+that term gives you
+a lot of insights
+into when and how
+you are getting
+gene-environment interactions.
+Caveat with that.
+Saying "when and how
+you're getting"--
+you're always getting
+gene-environment interactions.
+Remember the quote
+from the other day.
+It's like saying,
+which contributes
+more to the volume of a square,
+or the height, or the length,
+or the roundiness, or whatever?
+Yes, it's always
+gene-environment interactions.
+Saying, in what
+ways are there some
+of the more interesting ones,
+dramatic ones, in what realms--
+Understand this, and you
+avoid this confusion.
+Understand this,
+and it gives you
+insights into
+gene-environment interactions.
+OK.
+Other issues that are coming up.
+By now, we've looked at three
+different broad approaches
+to the biology of
+social behavior.
+The evolutionary stuff--
+broadly stated-- the molecular,
+the behavior genetics.
+And what should
+be clear by now is
+if you were living inside
+one of those buckets,
+you hate each of the other
+two and trash them entirely.
+So we get to the first of our
+great, conflicting points,
+which is, does that mean
+one of these is wrong?
+No, one of them is not wrong.
+None of them are wrong.
+Some are more right
+than others, and some
+are a lot better than others.
+But nonetheless,
+these are all-- again,
+from the very first
+lecture-- different levels
+of description.
+Another way to begin to
+think about this, in terms
+of what we've now
+been focusing on--
+and this sort of coming up
+from some questions afterward.
+So by now we've had
+the term "epigenetics."
+That's come in in the
+last couple of lectures.
+And there are at least
+three different levels,
+three different buckets, with
+which you can define the term.
+What is epigenetics?
+Epigenetics is the way
+the culture, environment--
+all of that-- affects biology.
+That's a certain broad
+way of stating that.
+NodA stated that
+way, you are making
+biology synonymous with
+genetics, which ain't so.
+But nonetheless, that's
+a certain broad level
+of stating it.
+In another discipline,
+a very sort
+of first pass at
+molecular stuff,
+what is epigenetics about?
+It's the way in which
+environments turns genes
+on and off.
+And at another level of
+explanation, more reductive,
+what is epigenetics about?
+It is regulation of chromatin
+remodeling and methylation
+of genes and all of that.
+Do not panic, if
+that's not the level
+you want to know it about.
+That's the business
+from the other day,
+about changing access
+of transcription factors
+to DNA-- jargony
+way of doing it.
+Don't worry.
+The main point being that this
+is a completely different level
+of defining this.
+This is the whole point in here.
+We are beginning to see
+different disciplinary
+approaches.
+We are beginning to see where
+one discipline has decided
+they have answered a question.
+This is how culture
+affects biology?
+Give me a break.
+Show me which genes
+we're talking about!
+We're talking about genes, here.
+Give me a break.
+Show me-- is this chromatin
+remodeling-- what's
+the mechanism for it?
+How reversible is it?
+One discipline's answer is the
+next one's starting point--
+blah, blah.
+One discipline's wonderfully
+satisfying scientific answer
+is the basis for
+the next discipline
+to be totally
+contemptuous of them.
+You call that science?
+This is sort of the
+whole point, here,
+beginning to see how we could
+chip out a way between these.
+More bits of clarification.
+Amid that, one of the things
+that really came through
+is-- in the sort of
+ratio of praising
+to trashing-- I was clearly
+spending a lot of the last two
+days trashing the
+behavior-genetics approaches.
+So a little bit of
+clarification, there.
+First off, we can
+broadly divide what
+came the last two days into
+classical behavior genetics.
+And that's the comparing
+monozygotic and dizygotic
+twins.
+That's the adoption
+studies, that's
+the twins adopted at birth--
+that's all of those approaches,
+there.
+Those are all the ones where
+you were just inferring really
+indirectly that there's
+something genetically going
+on there.
+The other half, and much more
+sort of the modern behavior
+genetics, is marrying these
+traditional approaches
+with molecular biology.
+And that was the business at
+the end-- you know the gene,
+and you kind of have an
+idea of what it might do.
+How does that map onto
+behavioral variability
+in humans?
+You know the
+behavior, and you've
+got some sense of
+its variability.
+How does that map onto
+variability in genes?
+This is the much more powerful,
+contemporary end of it.
+So what is this end good for?
+All it's good for is pronouncing
+that something's genetic,
+or it's 73% genetic
+and then you trash it
+because that's jibberish.
+What it's good for mainly is--
+OK, so you've got
+an adoption study--
+classical
+behavior-genetic study--
+where they're adopted right
+at birth, within seconds,
+and raised in
+different households.
+Oh, you haven't ruled
+out environment!
+Don't forget
+prenatal environment.
+Oh, you haven't ruled
+out environment!
+Remember the
+nonrandom assignment
+of adoption-- all of that.
+Does this mean this
+approach is useless?
+No.
+What it's good for is
+demonstrating nonetheless well
+we've just ruled out all
+sorts of realms of environment
+that people would
+guess is consequential.
+It's less consequential
+than you think.
+We haven't ruled out
+environment entirely.
+And just because it's all
+gene-environment interaction,
+we certainly can't come up
+with a stupid number like that.
+But what this is good
+for is at least showing,
+here's domains where
+people-- a lot of people--
+would have assumed there is
+big environmental effects.
+Much less than you would think.
+So that's the much
+more conservative, sort
+of sobrietous thing that
+people can do with that field.
+The fact that far too
+few of them actually
+do that is reasons to trash--
+no, well, nonetheless, there's
+lots of good things
+in behavior genetics.
+But that's the limited
+domain where it's useful.
+OK, so just beginning
+to get a sense, here,
+of the various things
+that are confusing.
+Obviously, no one on
+earth in any exam in here
+is going to be asked to
+choose which field is better
+and which field gives
+more-- you know, kum by ya
+and all of that.
+But just recognizing
+the different approaches
+and the wonderful
+rainbow diversity of ways
+to think about mating in
+fruit flies or whatever.
+And just beginning
+to see by now,
+this is what the
+whole class is about.
+Speaking of that, I recall
+from the first class on that.
+There's somebody in here who
+I think was an English Lit
+grad student.
+If you have a chance, email me
+about how it's going in here.
+Let's see.
+What else?
+Next week.
+[LAUGHTER]
+No, I'm curious.
+I am very pleased
+whoever you are--
+assuming you haven't fled after
+the first class-- is in here.
+Let's see.
+Other stuff.
+OK.
+Schedule.
+Next Monday, this
+coming Monday, we
+will have a lecture on yet
+another of our disciplines,
+ethology.
+And we will see that's
+a totally different way
+of doing it-- blah, blah.
+Wednesday, Friday,
+and the following
+Monday are the catch-up lectures
+in class, taught by the TAs.
+Two of the lectures,
+introduction
+to the nervous system.
+The third one, introduction
+to endocrinology.
+It will be a broad overview.
+It is explicitly designed
+for people who have
+no prior background in this.
+But what I think is
+probably a good idea is,
+even if you believe you
+have prior background in it,
+maybe assume it might be a good
+thing to get a refresher on it.
+And this will be very useful.
+Following that, we will
+have two more lectures--
+more advanced topics
+and basic features
+of neuroendocrinology-- and then
+staggering into the midterm.
+And then-- oh, then--
+the second half comes.
+Just a sense of what's coming.
+OK.
+So that's where we're at.
+So now we transition
+to the next subject,
+here, which is-- no,
+actually, before I forget--
+how many-- did people see this--
+the article in the New York
+Times this morning about the
+study-- the Chutes and Ladders
+study?
+Did anybody see it?
+It was posted this--
+nobody saw it?
+This was-- you know the
+game Chutes and Ladders?
+OK, we all played
+Chutes and Ladders.
+This was this massive study
+funded by the World Health
+Organization where
+what they did--
+this is going to be
+the definitive study
+on the subject.
+They showed that
+people from Nepal
+are better at playing
+Chutes and Ladders than are
+people from Belgium.
+[LAUGHTER]
+Cool study!
+I don't know how
+you guys missed it.
+OK.
+You need to know about this.
+This is important.
+What do you want to
+know about this study?
+This massive study shows
+that people from Nepal
+are better at Chutes and Ladders
+than people from Belgium.
+Ask me questions, since
+you were terribly, woefully
+underinformed about this.
+What more information
+do you need
+to be impressed and
+tell everybody about it
+in the dorm tonight?
+What else you want to
+know about this study?
+[INTERPOSING VOICES]
+"What does 'better' mean?"
+OK, social relativist.
+And does it mean that you
+learn more about yourself
+playing Chutes and Ladders?
+[LAUGHTER]
+Does it mean that you make
+the world a happy-- you win!
+You win, win, win!
+OK, so winning is the end point.
+Good question.
+What else do you want
+to know about the study?
+Yeah.
+Why?
+Why?
+Why?
+You ask that?
+Read Aristotle!
+Since humans first
+pulled out of the mud,
+this has been the thing
+we have wanted to know.
+[LAUGHTER]
+And now we do.
+[LAUGHTER]
+Son, the difference between
+knowledge and wisdom--
+OK, so, why?
+OK, what else do
+you want to know?
+What are your questions?
+Yeah.
+What the methods
+of the study were.
+The methods.
+Very good.
+OK, various methods.
+Do you want to break it
+down into more details?
+Given some of the
+critical tools you
+have by now, in
+terms of methods,
+before deciding how impressed
+you are or not with this study.
+What sort of questions, now,
+in the methodological realm.
+Yeah.
+What population
+they're sampling?
+Ah, very good question.
+Because we see a first
+methodological issue.
+Are you getting a
+decent sample size,
+so that you're confident that
+you can actually say something
+about the population at large.
+And that's a great question.
+It was done on everybody in
+Nepal and everybody in Belgium.
+[LAUGHTER]
+Good study!
+OK, what else do
+you want to know?
+What other questions?
+Yeah.
+In terms of their method, did
+they pit people from Nepal
+against people from
+Belgium in one game, or--
+Well, that's an
+excellent question.
+Every single person in the study
+from both Belgium and Nepal
+played one game against
+every single other person
+in the study.
+[LAUGHTER]
+That's why you
+haven't been hearing
+much about either country
+in the news lately.
+They've been very
+busy with this study.
+OK, so, good methodology,
+large sample size,
+random assignments of games.
+What else you want to know?
+Yeah.
+Why-- the question and subject
+to ask worth reading about,
+and why did they [INAUDIBLE]?
+Why'd they-- OK, that one again.
+It's self-evident.
+Know thyself, or know the
+Nepalese and the Belgians
+or something.
+This is a-- I'm glad
+I know this now.
+I'm glad they went and did that.
+OK, what else do
+you want to know?
+Obviously, a matter
+of subjective
+taste as to what counts as an
+important scientific subject.
+this strikes me as critical.
+What else do you want
+to know, in terms
+of what sort of conclusions?
+They kind of hint--
+they're not positive--
+but they're kind of hinting
+at a genetic component to it.
+Yeah-- question in
+the back, there.
+Yeah.
+What skills are involved
+in Chutes and Ladders?
+What skills are involved?
+It involves, um-- what is it?
+They have a whole list, there.
+Um-- let's see.
+Various tasks involving
+spatial memory.
+Various tasks involving reversal
+performance and telekinesis.
+[LAUGHTER]
+So it taps into all
+of those domains.
+What else do you want
+to know about the study?
+Yeah
+Is it inheritable?
+Is it heritable?
+Great-- oh, ho, ho,
+is it heritable!
+So which are you asking about?
+OK, well, they did it.
+They are suggesting there's
+some degree of heritability.
+And they did it right.
+They went after all the issues
+we've learned about by now.
+Specifically, what I'm saying
+is that every single person
+in Nepal and in Belgium was
+cross-fostered to somebody
+in Ecuador.
+[LAUGHTER]
+In fact, they did it fetally,
+right after conception.
+[LAUGHTER]
+So they can-- the
+prenatal stuff.
+What else do you want to
+know, in order to decide,
+am I impressed about the
+fact that people from Nepal
+are better at Chutes and Ladders
+than people from Belgium?
+Yeah.
+Were they all good at
+the exact same amount
+of Chutes and
+Ladders as children?
+Oh!
+Yes.
+In fact, none of them had
+been exposed to it before.
+They were all raised
+in hydroponic gardens,
+without Chutes and Ladders--
+[LAUGHTER]
+--and they were only released
+in time for doing this.
+OK what else?
+Yes.
+What's the amount of variance
+within each individual group?
+Oh, good question!
+Here we are, getting
+to that-- all of that.
+Everybody got the exact
+same score from Nepal,
+and everybody from Belgium
+got the exact same score.
+So that's kind of impressive.
+Are you impressed yet?
+Are you impressed enough
+yet to go run out of here,
+screaming with this news?
+What else do you need to know?
+Yeah.
+Who went first?
+Who went first?
+They randomized it.
+They randomized it by-- the
+entire populations played, um--
+oh, what is that--
+Roshambo.
+Roshambo, yes.
+They played roshambo.
+And, best of all, they had to
+play roshambo in Esperanto.
+Yes-- more.
+What was the environment in
+which they test [INAUDIBLE]?
+OK, they were released
+from the hydroponic garden,
+and then all of them were placed
+in a completely sterile bubble
+environment, where
+all they had in there
+were copies of People magazine
+in a language they didn't
+understand.
+So it was well--
+[LAUGHTER]
+Environment was very
+well controlled-for.
+What else do you need to know?
+How much better were they?
+Like, 0.001--
+Ah!
+Ah!
+There we have it.
+They had a huge sample size.
+They cross-fostered as fetuses.
+They controlled for environment.
+They got everybody in there.
+They did the right techniques.
+They randomized at
+every possible choice.
+That is so impressive.
+That is so impress--
+How big is the difference?
+Is it a big difference?
+And this is a critical
+thing to start putting there
+in your armamentarium
+of critical questions,
+to start having skeptical ones.
+Great.
+You've got a whole
+bunch of tools by now.
+Whoa!
+They said "genetic."
+Did you control for this?
+Did you control for that?
+Whoa, they see a
+difference, there.
+Well, wait a second.
+Did they all have the
+same exper-- whoa,
+did they have a big sample size?
+All of it covered.
+Great, wonderful,
+perfect science.
+They get every single
+bit of it covered, there.
+But then the critical
+thing you better ask
+is, how big is the difference?
+Is it impressive or not?
+Because we all think we've got
+the basic tools-- or hopefully
+we all have the basic tools--
+for going at these issues.
+OK, was a study
+done in a way that
+was clear-cut and unobjective?
+Were people blinded
+to whether or not
+this person was
+Nepalese or Belgian
+or-- was there
+appropriate blinding?
+Was it done in a way that you
+can falsify your finding--
+in a sense, the definition
+of experimental science?
+Was it designed in--
+was it independently
+replicated by anybody else?
+We all have those tools
+under our belt by now.
+But far too often, we are
+not trained, at that point,
+to say, wait a second.
+Before I get all excited, how
+big of a difference was it?
+Let me give you a
+real example of this.
+And this was a paper,
+about three years ago,
+in the journal Science-- which
+you should get a sense by now
+that the journals
+Science and Nature are
+the two official biggie
+ones on this planet,
+in terms of credibility.
+And this was a paper
+having to do with IQ.
+And this was a paper having
+to do with IQ and birth order.
+And what they showed
+in this paper,
+with spectacular statistical
+confidence and as much
+of, like, all the
+controls in place
+as you can ask for from the
+hydroponically gardened fetuses
+in Nepal-- they did
+absolutely perfectly.
+What they showed in
+the definitive study,
+with 250,000
+18-year-olds in Norway,
+was that there is a
+reliable IQ difference
+depending on whether you were
+firstborn or latter-born.
+OK, how many of
+you are firstborn?
+Whoa!
+How many of you are only childs?
+OK, how many of
+you are number 2?
+How many of you are
+more than number 2?
+OK, so, how many of
+you think the highest
+IQ comes from the firstborn?
+[LAUGHTER]
+OK, and we'll assume the
+converse with the other group.
+Did anybody just vote against
+their own birth order?
+[LAUGHTER]
+Whoa-- OK.
+Well, that's-- impressive.
+We salute you.
+OK, so they found a difference.
+They found a
+difference, which is,
+firstborns-- in this very
+statistically reliable way--
+have higher IQ
+than latter-borns.
+They restricted the analysis
+just to second-borns
+to keep things clearer.
+And they showed firstborns have
+higher IQ than second-borns.
+250,000 people--
+as close as you can
+get to all the people
+from Nepal and Belgian.
+Huge sample size.
+So they report this.
+This was the most
+thorough study ever done.
+So what sort of questions
+do you want to ask?
+Give me hypotheses
+for what's going on.
+Obviously, sort of
+one is that, like,
+the parents pour protein
+into the ears of firstborn
+and the second one just
+gets Fritos or something.
+But give me other hypotheses
+for what could be happening.
+Possible explanation
+for this, in terms
+of biological, sociocultural,
+endo, immuno, psycho-- yeah.
+I think we already know that
+firstborns tend to be more,
+like-- well, I mean-- it's
+like the parents-- they're more
+worried about making mistakes,
+and they kind of raise them
+harder, so to speak, and
+then they sort of relax
+on the second-born
+child. [INAUDIBLE]
+firstborns tend to go to college
+more and stuff like that--
+do more traditional [INAUDIBLE].
+OK, so, great hypothesis.
+It's more parental
+investment in the firstborn,
+and those are the ones
+with the parents freak out
+with everything.
+And by the time
+there's a third one,
+they're all foraging
+on their own
+when they're six months old.
+[LAUGHTER]
+OK, so, parental investment.
+They went after
+that one correctly.
+Here's what they showed,
+to rule that out.
+Which was, if you
+are an only child,
+you have a lower
+IQ-- on the average,
+blah blah-- then firstborns
+who have younger siblings.
+So it's not parental investment.
+It's something about being
+the firstborn of multiples.
+Yeah.
+[INAUDIBLE] firstborns
+are expected
+to kind of like [INAUDIBLE].
+OK, so pressure on the
+firstborns to be first born.
+How would that raise IQ?
+Um-- all right, just
+kind of like-- kind
+of like responsibility
+[INAUDIBLE]?
+OK, so that's one of
+the models out there.
+A variant on that
+is, firstborns get
+pushed into a tutoring
+position, early on.
+And the well-known fact
+that occasionally now
+within teaching
+something actually
+causes you to know what
+you're talking about.
+So the firstborns, because
+of this tutoring role-- oh,
+that would control
+for the single child
+versus the firstborn
+difference, there.
+So maybe it's a
+tutoring phenomenon.
+What else could be happening?
+What other possible notions?
+Yeah.
+It depends what age you're
+looking at the kids at.
+Because if you're looking
+at, like, actual children
+and comparing IQs,
+older children
+will probably have higher IQs
+because they've had longer time
+in life to learn.
+OK.
+Great idea.
+Up to age 12,
+latter-borns tend to have
+higher IQ than firstborns.
+By age 18, which is when
+this study was carried out,
+it flips the other way around.
+So, any hypotheses for why
+this difference occurs?
+Why, by 12 years of
+age, latter-borns
+tend to have higher
+IQs than firstborns?
+Why does that then
+flip afterward?
+Yeah.
+[INAUDIBLE]
+OK, so is it IQ testing--
+some biases with that.
+What would rule
+against that, though,
+is that the age
+controlling for only
+childs-- only children--
+versus firstborns.
+So that would definitely
+be a possibility.
+That was ruled out.
+Yeah.
+I think that I [INAUDIBLE]
+in another class
+that you said it had to do
+with the ratio of adults
+in the environment when
+the kids were growing up.
+So when there's
+only one child, you
+have more adults with higher
+language skills, and--
+Good.
+OK, so another version of a
+parental-investment model,
+there, which is, the fewer
+the children, the more
+parental energy.
+So, again, that's one of the
+standard things in the field.
+They ruled that out with
+comparing the only children
+versus firstborn child.
+So that's been a dominant
+model in the field,
+so they had good
+data against that.
+Yeah.
+Could it be the
+age of the mother
+when the baby is a fetus?
+Oh, OK!
+What's your idea about that?
+Well, younger mothers--
+maybe the fetal environment
+is better, and
+obviously older children
+have younger mothers than their
+siblings whose-- the mother
+[INAUDIBLE]?
+OK, so we've got an
+intrauterine effect.
+So we've got egg quality and
+age of mom and all of that.
+They controlled for that--
+the age of the mother.
+Can anybody think of something--
+another intrauterine mechanism,
+though-- for what's the
+difference between being
+the first fetus
+who hits the womb
+of your mother versus being
+the second or third or fourth?
+What's one of the biological
+things that might happen?
+Yeah.
+Stress levels.
+[INTERPOSING VOICES]
+OK, stress levels, which is
+a way of stating something
+about intrauterine environment.
+The more times you've
+done this, perhaps more
+stressed you are in there.
+What else could biologically--
+that's definitely
+one of the things.
+What else biologically
+can happen, over time?
+Remember progesterone,
+the other day,
+from that lecture of
+making new if-then clauses
+and glucocorticoids.
+And this is a bit of a stretch.
+This takes some sort of fair
+amount of OB/GYN knowledge.
+What's a danger as you have
+more and more pregnancies,
+in terms of your immune system?
+[INAUDIBLE]
+Yeah-- wait-- I
+heard that mumbled!
+Sure!
+It gets surpressed?
+Yeah.
+OK, immune suppression.
+So mom could be getting
+a lot less healthy,
+which is another version of
+tapping into that notion,
+there, in terms of
+egg quality with age.
+Separate of age, the number of
+times you've gone through this.
+What could be another
+possibility, immunologically,
+with repeated pregnancies?
+Yeah?
+A mother [INAUDIBLE] more,
+like, form antigens [INAUDIBLE]?
+OK, despite that immune
+suppression, on the average,
+with later pregnancies you
+have a greater likelihood
+of having formed antibodies
+against aspects of the fetus.
+They controlled for that.
+They showed, if you
+were second-born
+and there were kids after
+that-- if you were second-born
+and the firstborn died, you
+reverted to the firstborn IQ.
+Showing that it was
+not anything about,
+oh, you were the second fetus
+in there, with more antibodies.
+They controlled for that.
+That's actually one of the
+ideas they brought up in there.
+What else?
+How about that business
+about up to age 12,
+the second-born does better?
+After that, by age 18,
+the firstborn does better.
+Any theories with that?
+Yeah.
+Did it have to do, maybe,
+with how fast they grow,
+or something?
+I know we talked about
+how for fathers it's,
+like, a child grows
+faster [INAUDIBLE]
+more later [INAUDIBLE]
+grow faster then
+that takes a toll on
+your [INAUDIBLE] health?
+OK, so an early advantage,
+and you pay for it later,
+type deal.
+So that's a possibility.
+What else could come in?
+Think about-- back
+to the idea, there,
+about if you're a firstborn.
+Some of the firstborn
+responsibility stuff.
+How that plays out in
+family dynamics early on.
+Why are the second-borns
+doing better
+in the first dozen years?
+Why is it reversed later on?
+More ideas about that.
+Yeah.
+The second-born benefits
+from the tutelage
+of the firstborn early in life.
+But later on, having the
+older having had that
+experience of being more
+responsible [INAUDIBLE].
+Exactly.
+That's one of the main theories.
+That's probably the
+predominant one proposed
+to explain that age switch.
+You get the second kid
+show up, and suddenly you
+have a neotenized,
+dumbed-down environment,
+where suddenly
+the 8-year-old kid
+is watching Tinky Winky again
+for the first time in six
+years.
+That it's an environment
+that's then dominated more
+by having a younger one around.
+And what the older one is
+mostly doing is the tutoring.
+And it takes a number of years
+for the advantages of that
+to finally come through.
+That's the main model
+that's given for that.
+Any other ideas?
+How about
+parental-resource stuff?
+The fact that the larger
+the family, on the average,
+in westernized countries, the
+lower the socioeconomic status?
+Run with that one.
+Where does that fit in?
+What else?
+What else could be
+happening with that?
+Yeah.
+If the socioeconomic status
+of the family is lower,
+then wouldn't that suggest
+that the children might
+bear more burden, in some
+respects, with more children
+around, so that they had
+to grow up more quickly
+and be exposed to
+the real world?
+It's the later ones who are
+out hunting squirrels and not
+getting the violin lessons.
+That's another version of the
+parental-resource one, one
+being because there's a
+smaller ratio of parents
+to the kids, the other being
+because the more kids, the more
+expensive for the
+same parental income.
+And you have got less
+to spread to each child.
+So they controlled for that,
+looking at within family
+rather than just between family.
+They covered all of this.
+This is going to be
+the definitive study
+for the rest of all of
+time, showing what's
+going on with IQ by birth
+order in 18-year-olds in Norway
+in 2007.
+What was the magnitude of the
+difference for this study?
+2.3 IQ points.
+And thus, coming
+back to what could
+have been the very first
+question sitting there
+when these guys were
+ready to announce this
+to the world and
+sort of start selling
+their "be like a firstborn
+IQ" self-help books and all
+of that.
+Lost in there-- and this was
+picked up all over the press
+and, like, no doubt, endless
+snotty comments by David
+Letterman or--
+And nobody-- 2.3 IQ points!
+You sneeze while you're
+taking an IQ test
+and have to wipe your nose
+for eight seconds afterward,
+and that's going to cost you
+2.3 IQ points, because you
+get distracted for a second.
+An amazing example of this
+whole business of-- yes,
+impeccable science that these
+people did-- phenomenal!
+I don't know who possibly
+gave them the money
+to do a study like this.
+And at the end of the
+day, totally cool,
+irrefutable, statistically
+totally reliable--
+which is very different
+from saying "important."
+But what you get at
+the end of the day
+was this mammoth study
+producing 2.3 difference.
+And this is a great
+demonstration.
+The difference between
+how solid the science
+is, how confident you are
+of the finding-- which
+takes in all the variables of
+sample size and objectivity--
+how confident you
+are of the finding,
+and how big of a finding it is.
+And those could be two
+entire differences.
+So, as a [INAUDIBLE] you
+to all the stuff that's
+going to come in the second
+half of the course, one
+of the next tools you
+have to have in mind,
+in addition to all the
+ones that were apparent
+here in the questions you
+were asking-- another one
+is to keep saying, well,
+is this a big effect?
+"Is this a reliable
+effect?" is different
+from "Is this a big effect?"
+"Is this a consequential one?"
+So, another tool
+to have in hand.
+So, with that in hand, go
+and tell everybody tonight
+about Chutes and Ladders.
+OK.
+So what we jump to
+now is something
+that's been running through
+a whole bunch of the lectures
+already.
+OK, we've got all those
+evolutionary models
+of individual selection and
+kin selection and in-group
+and out-group.
+And we've got something
+about the molecular biology
+of why it is that you
+share 50% of your genes
+with this relative and 25 and
+12 and a half, and all of that.
+And somewhere in there,
+lurking through all of it,
+is a question
+which is what we'll
+focus on now, which is, how
+do organisms, how do animals,
+how do individuals
+recognize relatives?
+Because you can't do any of
+that evolutionary-biology,
+kin-selection-theory stuff,
+where it's all predicated
+on degree of relatedness,
+unless you know how related
+am I with this individual.
+So what we're going to be
+looking at, here, is, why--
+or how-- sure, let's go for
+"how" instead of "why"--
+how do animals, how do social
+animals, recognize kin?
+What's clear is, it does not
+take a very fancy organism.
+And there was a great
+example of this,
+which I think I stuck in the
+extended notes, last minute--
+a paper published just a couple
+weeks ago looking at deer mice.
+Deer mice, and much like
+their vole cousins--
+if they are cousins--
+some deer-mice strains are
+monogamous, and
+some are polygamous.
+This appears to be
+a frequent theme
+in these little rodent things.
+And with the deer
+mice, what you find
+is, with the polygamous
+ones one female mates
+with a bunch of males.
+And as a result,
+one female will have
+sperm from a number of different
+males afterward in the vagina.
+And what you get
+is, evolutionarily,
+from all the rules we learned
+by now, perfectly logically,
+you get intrasexual
+competition between the sperm
+from the different males.
+We already heard
+a version of that
+with the flies,
+back the other week,
+there, where the
+sperm of one releases
+toxins that kill the other
+sperm but in the process could
+damage the female's
+future-- all of that.
+This is a theme that runs
+through a lot of the literature
+on sexual competition.
+Sperm competition.
+And there's even hints
+that something like that
+goes on in humans.
+OK.
+So what form does it take?
+In these deer mice, as follows.
+I don't begin to understand
+the mechanics of this,
+nor do I want to.
+But apparently, with
+deer-mice sperm,
+if they all clump
+together-- you know,
+many hands on the
+oars, or something.
+If they all clump together,
+you get this macro sperm thing
+which swims upstream faster.
+And the paper had
+all sorts of diagrams
+of this which I did not want
+to look at in much detail.
+But there's this--
+So you've got-- with
+the polygamous strains,
+you've got this problem.
+If your sperm want to do
+things absolutely correctly,
+they only want to form
+one of these big-old,
+you know, pleasure-boat
+aggregate crew things,
+with sperm from themselves--
+with sperm from only
+themselves.
+And, following all
+of our theorizing,
+to a lesser extent with close
+relatives and not at all with
+sperm from some other guy.
+And that's precisely what
+they showed in this paper.
+You take sperm from
+monogamous strains,
+and you put sperm from
+different males together,
+and they all happily form this
+big cooperative clump of sperm,
+there.
+But you take them
+from species that
+have evolved under the
+selective pressure of polygamy,
+and the sperm there know
+who they're related to
+and will form these clumps only
+with the ones from themselves.
+You can immediately design all
+sorts of lock-and-key stories
+for how it's pulled off.
+You could immediately come
+up with some approximation
+of what the molecular
+mechanism would be.
+But for a first pass,
+what's striking here is, oh,
+how do organisms
+recognize relatives?
+There are, out
+there, single cells
+that can do this under
+exactly the evolutionary
+circumstances-- models
+that we've got already.
+So, as we begin to look, now,
+at how whole organisms do it,
+even cells can do it.
+And we're going to see lots of
+different possible mechanisms.
+In lots of species, what you
+have is some equivalent of what
+those single sperm
+are doing, which is,
+there is innate
+recognition of relatives.
+How do you show this?
+We already know the classic
+ways of doing this, which is
+the crossed-fostering approach.
+You take a litter, newborn
+litter, of your rodents,
+and you cross-foster
+them to other females.
+And if, later on,
+they can behaviorally
+differentiate between their
+siblings and nonsiblings,
+there's something
+innate about it.
+Oh!
+Wait a second, wait a second.
+What about prenatal environment?
+Wasn't there something
+about-- so now you
+do the prenatal
+cross-fostering--
+the fetal-transplant
+approach-- and you get
+the exact same thing.
+There is innate
+recognition of relatedness
+in all sorts of rodent species.
+Another way of doing
+it even cleaner.
+You have two different litters
+from the same mother and father
+rodent.
+And then they meet together.
+So there was no shared
+prenatal environment.
+And you can show
+recognition there.
+You put the rat, later
+on, into the cage where
+there is the urine
+of its sibling,
+and there is the urine
+of a perfect stranger,
+and they will prefer
+going to that one.
+You could show that it's
+even more subtle than that.
+They will prefer to go to
+the urine of a full sibling
+versus a half sibling, a half
+sibling versus a first cousin--
+all the way on down.
+They could take it out to
+about third or fourth cousins.
+Incredible discrimination,
+there, that can go into it.
+And it has to be that way, or
+else all of the theorizing from
+the other day-- you can't figure
+out how to give up your life
+for two cousins or eight
+brothers or eight brothers or--
+[FEEDBACK]
+--two cousins, or
+whatever the math
+is, unless you know who's who.
+And in some species where it's
+done entirely instinctually,
+that would be the way
+you demonstrate it.
+So what's the mechanism,
+, there, in those cases?
+The most-studied
+ones are olfactory.
+Olfactory signatures.
+"Pheromones"-- we've already
+heard that term in here.
+We're going to hear
+tons more about it.
+But pheromonal communication.
+What does that begin to require?
+If you have pheromones,
+odorants, coming out of, say,
+the urine from
+different individuals,
+telling you your degree
+of relatedness to them,
+it requires two things.
+It requires qualitative
+differences in the urine,
+reflecting the genetic makeup
+of the individual who provided
+that urine to the grad student.
+And it requires some mechanism,
+some olfactory brain-processing
+mechanism, to be able to pick up
+whatever those differences are.
+And both have been shown.
+OK.
+The way you begin to
+get the differentiation
+at the end of how the
+urine smells differently.
+What you've got--
+and referred to back
+with the transposable
+stuff is-- you remember,
+in vertebrates you've got
+some of your highest rates
+of transposable events
+in your immune system,
+your genes devoted to immunity,
+where you juggle them around.
+And that's how, with
+any luck, you come up
+with an antibody that will
+recognize this completely
+novel pathogen. All of that.
+There's an additional
+stretch of genes
+in that neighborhood where
+what happens with that is,
+it also undergoes huge amounts
+of splicing and transposition
+and juggling and all of that.
+And what do you do then is,
+you create a completely unique
+protein.
+You do it in enough
+of a combinatorial way
+that it would take
+statistically 400 quadrillion
+googleflex-whatevers to come
+up with another organism
+with the exact same
+protein signature.
+When you make a
+protein from that,
+you have made up one that no
+other organism on earth has,
+with a very high
+statistical reliability.
+This is a stretch
+of genes called
+the "major histocompatibility
+complex"-- MHCs.
+And what you see with those
+is histocompatibility,
+that whole business with
+organ transplants-- how
+compatible of a donor is
+it, how closely related,
+how much of this--
+jargon, for those of you
+who know it-- how much of a
+shared antigenic determinant,
+how genetically similar is this
+fingerprint, this identifying
+ID of a protein?
+That determines things
+like histocompatibility--
+how well organ transfers work.
+That's the origins of the term.
+So every single one of us,
+every single organism out there,
+has made an arguably unique
+juggle of these genes
+and comes up with
+this signature protein
+that it sticks on the surface of
+every single one of its cells.
+What's that good for?
+That's good for
+your immune system
+learning, if we run into a
+cell with one of those things,
+it's us.
+Don't attack it.
+Don't form antibodies
+against it.
+And if we run into
+anything else in here that
+doesn't have one of those,
+it's an invasive pathogen,
+and go attack it.
+This is the basis of the
+self/nonself recognition
+ability of the immune system.
+And what autoimmune diseases
+are is when your immune system
+screws up and begins to mistake
+one of your signature proteins,
+your major
+histocompatibility gene
+derived signature protein,
+as, in fact, being invasive.
+And one of the other things
+you hear about-- the other day,
+we heard about this tropical
+parasite, trypanosome.
+What it does, as
+you heard, was it
+keeps juggling its
+surface proteins.
+So just as your immune system
+is all set to attack it,
+because it's got
+antibodies to recognize it,
+it has changed its
+signature protein.
+There's another tropical
+parasite, schistosomes,
+where what they do is they steal
+your major histocompatibility
+proteins from the surface
+of some of your cells
+and glue it on themselves.
+And they are wolves in a
+sheep major histocompatibility
+proteins or some such things.
+So that's one major domain where
+this unique protein-- derived
+from a unique gene--
+unique protein signature
+lets your immune
+system work properly.
+So it turns out there's another
+whole domain with it, which
+is, these proteins
+can become soluble.
+Which means they're no
+longer anchored to a cell,
+they're just floating around.
+And ultimately they're
+floating around in your saliva,
+in your urine, in your armpit
+exudates or whatever it is.
+And what they begin to do--
+complicated mechanisms, which
+I think I will bypass.
+What they do is give a unique
+signature to the pheromones
+coming off of you.
+And, as we will
+see in the lectures
+to come, animals of all
+sorts of species can tell,
+is this individual
+of my species,
+are they the same gender,
+are they an adult,
+are they sexually
+mature, are they healthy,
+are they pregnant-- whatever.
+But thanks to this
+major-histocompatibility
+business they can also
+tell, is this a relative?
+Now the juggling of events,
+the splicing and the juggling
+of the genes, has some degree
+of statistical relatedness
+the more closely
+related you are.
+In other words, you
+smell your own urine--
+if that's your hobby-- and the
+major histocompatibility genes
+in there will obviously
+exactly match your own.
+You smell those of
+a full sibling--
+even more questions to be
+asked-- and you do that,
+and there will be a greater
+degree, statistically,
+of similarity of the
+structure of that protein
+than with a second cousin,
+than with a perfect stranger,
+than with a Nepalese
+if you're from Belgium.
+Whatever it is, what you
+find in those cases is,
+that's how you not only
+get innate olfactory
+recognition of, is
+this a relative or not,
+but how related of a relative?
+So that's half of it.
+That's how you generate
+the unique signature
+at the olfaction at
+the pheromone end.
+The other trick is,
+how do you generate
+an olfactory system that can
+make that discrimination?
+And all we've got to go with, at
+that point, is-- you can guess,
+if you think about
+it a bit-- is,
+we've got to have some
+version of olfactory receptors
+that do the old
+lock-and-key business.
+Just as you make a protein
+which has a certain shape,
+indicating that this is
+your unique signature.
+What you want to do
+is have receptors
+that will have the uniquely
+complimentary shape
+for the lock and key so
+that you can do a-- oh!
+This fits perfectly.
+Let's transduce this to a
+signal to the brain, saying,
+I'm smelling my armpit.
+And if, instead, you've
+got a protein that
+fits in there like a lock and
+key but not quite as well,
+you send the message of, oh, I'm
+smelling my sibling's armpit.
+And if it fits in there not
+quite as well, and all the way
+down, you could begin to see
+exactly how you designed this.
+If you've got 1,000 of these
+receptors of this shape
+and every single one of them it
+has them fitting in well enough
+to stay in there for three
+seconds, so that all 1,000
+of them send the signal.
+It takes three seconds
+of binding there
+to cause the signal to happen.
+All 1,000 of them send the
+signal that means "it's me."
+It doesn't fit quite as well,
+so, statistically, only 800
+of them stay in there for three
+seconds, so 800 of the cells
+are reporting, oh,
+that's a full sibling.
+I don't know if
+that's the mechanism.
+But this would be a
+way of constructing it.
+That's exactly how it could
+be, along the lines of lock
+and key, genes produce
+proteins of certain shapes,
+certain functions-- all of that.
+And that's how you
+begin to do it.
+What have we just gotten?
+We've gotten a protein--
+a molecular basis
+of our theorizing, the other
+day, of an if/then clause.
+If and only if this
+is a close relative,
+then send a message to the
+neurons that do "cooperation."
+We already know
+that's gibberish,
+to say that there's neurons
+that do cooperation.
+But you could begin to see
+how this is going to work.
+This is the "if" part of
+all the conditional if/then
+clauses built around
+degree of relatedness.
+So how does your
+olfactory bulb do this?
+Very interestingly,
+people are beginning
+to get a sense of two hormones
+that are relevant to this.
+One is called
+"oxytocin," and the other
+is called "vasopressin."
+And what we will see in lectures
+to come is, particularly
+in females, oxytocin
+has long been
+known to play some, like,
+plumbing, nuts-and-bolts job
+in giving birth, and vasopressin
+in uterine contractions.
+And take your average, like,
+off-the-rack endocrinologist.
+And what these
+hormones are about
+is, like, your uterus
+contracting and giving birth.
+But oh, that's so
+little of what they do.
+What they're much more
+interestingly involved with
+is what happens next.
+Which is now
+beginning to learn how
+to recognize the smell
+of the individual
+you just gave birth to.
+Because it turns out, what
+oxytocin and vasopressin do
+in the olfactory bulbs--
+the olfactory system,
+the olfactory equivalent
+of your eyes and ears--
+is they tune up the
+cells that recognize
+major histocompatibility
+signals.
+They make them attuned to,
+is this a relative or not?
+And there's an if/then clause.
+If the levels of this hormone
+have the certain high levels
+indicating that I
+just gave birth,
+and I smell something whose
+signature odorants fit really
+well to this
+receptor, then this is
+someone who I'm going to nurse
+like crazy, unless it turns out
+to be my mother or grandmother.
+OK, let's put it another-- if
+they're very little and cutesy
+and make cute little
+mewling sounds,
+then I will take care
+of them and nurse them
+and all that sort of thing.
+And it's turning out that that's
+what oxytocin and vasopressin
+are doing in there.
+You generate mice with
+genetically-- knocking out
+oxytocin or vasopressin
+or their receptors--
+if these are totally new terms,
+this will come by the week
+after next, as an introduction.
+You knock out those
+genes, and you get what
+is called a "social anosmia."
+Anosmia is the inability
+to smell something.
+A social anosmia is, your
+nose is working just fine--
+if you're a rat, you could
+discriminate different food
+types-- completely
+arbitrary odors-- you just
+can't distinguish
+between individuals.
+And there was a paper,
+a couple of weeks ago,
+showing for the first time--
+what the model has always been
+is that circulating
+oxytocin and vasopressin
+get into your olfactory
+system and have those effects.
+What this paper showed
+for the first time is,
+you're making those hormones
+right in your nostrils,
+to begin with.
+This is what tunes it up.
+Very interestingly,
+there is also
+a literature emerging
+suggesting mutations
+in genes relevant to
+oxytocin and vasopressin
+in families with a high
+incidence of autism.
+Autism, a disease where-- one
+way of characterizing it is,
+there are enormous deficits
+in normal socialization
+interaction, social
+bonding, social affiliation.
+And this suggests that has
+something to do with it.
+OK, so that's a first mechanism.
+That's how it might
+work innately.
+Very cool study in recent years,
+also showing one facet of this.
+One of the things you get
+taught in Intro Neuro--
+if you've taken anytime
+in the last 5,000 years--
+is, when you've
+got an adult brain,
+it doesn't make
+any more neurons.
+You've got all the neurons
+you're ever going to get,
+by the time you're
+three years old,
+and all you can do thereafter
+is squander them away on, like,
+stupid weekend
+binges or whatever.
+And it turns out that,
+nonetheless, this is not true.
+And arguably this is the biggest
+revolution in neuroscience
+in the last decade or so.
+Adult "neurogenesis."
+And it turns out, this
+adult neurogenesis
+happens in only two
+areas in the brain.
+The first one is
+really interesting.
+Because it's this part of the
+brain called the "hippocampus."
+Hippocampus-- learning, memory.
+It's totally cool.
+And a gazillion studies
+now showing stuff
+like, you learn a new fact,
+you stimulate neurogenesis
+in your hippocampus.
+You get put in an
+enriched environment,
+you exercise, you do
+all sorts of stuff--
+you make new neurons there.
+You get stressed, you make
+less new neurons there.
+This whole new field.
+And 99% of the studies have
+been about these populations
+of neural stem cells
+in the hippocampus.
+Totally ignored has been
+the second, little pocket
+of these neural stem cells
+that can make new neurons.
+Nobody's interested in it.
+What's this about?
+It's totally boring.
+Where's the second pocket?
+Just behind the olfactory bulb.
+And what this study showed--
+and this is one in your reader,
+just at the abstract.
+What it showed was, if
+you have a rat right
+around the time
+she gets pregnant,
+she starts to make a new
+neurons out the wazoo--
+not from the exciting
+hippocampal pocket,
+but from this boring,
+little olfactory.
+And what goes on with
+the onset of pregnancy--
+female rodents do this
+massive renovation
+job of all their olfactory
+neurons going on, there.
+What it is, they
+showed in this study--
+it is driven by the
+prolactin levels that
+rise during pregnancy.
+And what have you got there?
+What they showed was,
+right around the time
+she gives birth, she's got
+this spanking-new, completely
+renovated olfactory
+system, just in time
+to do one of the most important
+olfactory things of her life,
+which is quickly figure out
+which ones are her babies.
+To quickly do the
+social bonding to them.
+What hasn't been
+tested yet, but what
+I guarantee has to be there, is
+that vasopressin and oxytocin
+has to have some sort of
+role going on in there.
+Really interesting.
+Interesting implication of this.
+So think about this.
+If you were pregnant-- and
+assuming this works in mammals
+other than rodents-- and
+if you were pregnant--
+so the whole time you were
+pregnant, what's going on?
+You're doing this huge
+job of ripping out
+the walls and the plumbing in
+your olfactory bulb and, like,
+putting in new stuff.
+And it's a total mess.
+Like, you spend your pregnancy
+with your olfactory system
+totally cockeyed.
+No wonder stuff smells
+weird, and no wonder foods
+taste weird and all of that.
+There is a whole
+adaptationist literature
+out there on, why should
+it be that you suddenly
+want pickles and these foods
+you can't stand the taste of?
+And it's to avoid
+inadvertently eating toxins.
+A really unconvincing,
+spandrel-filled
+literature out there.
+It may be an inadvertent
+spandrel byproduct of,
+you're ripping apart the
+whole olfactory system,
+so you're all set to recognize
+the smell of your kids.
+You just got screwy
+olfaction and taste
+all throughout pregnancy.
+The main point of
+this, though, is,
+this is endocrine
+regulation driving,
+not to make you
+able to recognize
+a relative-- because you've
+already got the genes in place
+for that-- just making sure
+that your olfactory bulb is
+at the very best at
+that time for doing it.
+OK.
+What else does one want
+to know about that?
+OK, one additional thing you
+could do with that information.
+Which is, OK, so,
+why do you want
+to know who your relatives are?
+It's who you mate with,
+it's who you cooperate
+with, it's who you
+try to kill, it's
+who you take care of, it's
+who-- all that sort of thing.
+All of these domains.
+Also it's who you pay
+attention to socially,
+in terms of gossip and such.
+One interesting
+study that was shown,
+which was with
+baboons-- and this
+was the same folks at the
+University of Pennsylvania.
+What they did was they
+recorded the voices--
+You notice this
+business about playing
+the voices of some
+animal in the bushes
+and looking at the
+response in everybody else
+is one of these standard tools.
+What they did, in
+this case, was,
+the voice of two animals from
+that group, from that troop.
+And what we heard was the voice
+of the lower-ranking animal
+giving a dominating
+vocalization,
+and the voice of the
+lower-ranking individual
+giving this terrified
+subordinating noise.
+So they obviously were
+not getting a terrified
+subordinating noise
+out of number 1,
+but they had to sit
+around and get recordings
+of number 2 and everybody
+else, at some point or other,
+so now they could
+put them down there.
+And they would play this.
+So everybody else is sitting
+there and saying, what?
+Number 4 is terrified
+of number 27?
+What's going on?
+And what they showed was,
+everybody paid a huge attention
+to this, if they were hearing--
+number 27 was trashing number
+4 if they weren't relatives.
+But if they were
+in the same family,
+and there was this dominance
+reversal nobody paid attention.
+Crazy relatives.
+Who knows what's going
+on in that family?
+They're just squabbling.
+They distinguish the
+social implications
+of a dominance
+reversal, depending
+on relatedness or not.
+One additional thing
+with it, before we
+go to our next way of
+recognizing relatives,
+after the break-- hold on.
+One additional
+thing is, of course,
+telling you who to mate with.
+And it's obvious who you're
+supposed to mate with,
+in species after
+species-- someone
+who is not related to you.
+Because if you do,
+you may inadvertently
+produce babies with two
+tails and seven fingers
+and all of that.
+Nobody picked up on the
+fact that actually we
+have 10 fingers instead of
+five, but we'll let that slide.
+But what you get there
+is, oh, avoid inbreeding.
+Don't breed with relatives.
+But we've already heard about
+a counterargument, which
+is, breed with relatives because
+of the inclusive fitness,
+the kin-selection
+advantages of doing that.
+And, from the
+first minute people
+started getting these
+theoretical models,
+it was clear that,
+in fact, there
+were contradictory
+pulls between doing
+major outbreeding in
+your mating and doing
+inbreeding with your mating.
+And people did all
+these theoretical models
+of econometrics of where
+you optimize the difference.
+And they came out
+with the conclusion
+that, in all sorts of
+species, the optimal balance
+of avoiding inbreeding
+disasters with advantages
+of kin selection would
+be to mate with something
+like a third cousin.
+And you go and look at all
+sorts of species out there,
+and that's precisely
+what they do.
+That's where it balances out.
+And, again, you can't do that
+unless you know relatedness.
+Then, a couple of years ago,
+along came this researcher--
+Martha McClintock,
+University of Chicago.
+She's the person who discovered
+the Wellesley effect back when.
+And for all of you guys who are
+gearing up for senior honors
+theses, this was her senior
+honors thesis-- discovering
+the Wellesley effect.
+So this was, like,
+one impressive study.
+Yeah?
+Did Darwin marry a second
+cousin? [INAUDIBLE]
+Who did-- he married
+a first cousin?
+First cousin [INAUDIBLE].
+First cousin.
+There you go.
+When we all know he would much
+rather have married a Galapagos
+tortoise, but his
+parents forced him--
+[LAUGHTER]
+Well, interesting exam-- OK,
+so you thus catapult us, here,
+into the human realm.
+What McClintock did was a
+study, a couple of years
+ago, where she took swabs-- she
+has this whole paradigm of very
+high-tech-- getting cotton
+balls and rubbing it
+on people's armpits and
+putting it in a jar,
+there, and then getting
+these volunteers who
+can [SNIFF] smell it and give
+some assessment of how good it
+smells or not.
+Which, in and of
+itself, is pretty wild.
+And you run that with humans.
+And of a curve of relatedness,
+whose odor gets rated
+as having the most appealing?
+Third cousins.
+Yuck!
+Think about that one later.
+We are just another
+species, in that regard.
+All of this suggesting,
+even in humans,
+you are balancing
+this disadvantages
+of inbreeding with the
+kin-selection advantages.
+And, again, there's no way you
+can do that without knowing
+who's related to what extent.
+OK.
+Five-minute break.
+And what we'll then
+transition to are,
+species that don't do
+it innately but instead
+have to imprint, early on,
+after encountering them.
+OK, let's get going again.
+Let's see.
+First off, thanks to
+the wonders of Wikipedia
+never being that far away
+from us, we now know-- here
+were Charles Darwin's parents,
+who were third cousins.
+And then Charles Darwin
+married his first cousin.
+So there you have it--
+something or other.
+But this apparently was
+rather common at the time.
+And is not quite the optimal,
+according to Martha McClintock.
+OK.
+So, pushing on.
+So we've now seen
+why you would want
+to recognize your
+relatives and recognize
+the degree of relatedness.
+All of our models of who to
+compete with, who to mate with,
+who to nurse, who
+to take care of,
+who to be voyeuristic about.
+And we've seen the
+first domain where
+you can do that, which is to
+recognize somebody innately.
+And one very confusing
+aspect of it,
+which I managed
+to make confusing,
+is-- so, what's
+up with olfaction
+with that and oxytocin and
+vasopressin and prolactin?
+OK, as follows.
+It is innate that you will have
+receptors, olfactory receptors,
+in your olfactory neurons,
+in your olfactory bulb--
+in your nose.
+It is innate that you will
+have olfactory receptors that
+will be able to detect
+degree of relatedness--
+how close an olfactory
+signature is to your own.
+That is innate.
+That will be there.
+What appears to be the case
+is, oxytocin and vasopressin
+make you more likely to make
+those receptors-- increase
+the number of those receptors.
+So this is not oxytocin and
+vasopressin making you suddenly
+be able to recognize relatives.
+It's just making
+you better at doing
+that-- more sensitized to it.
+So that you have 100
+receptors reporting instead
+of 10 of them-- more accuracy.
+What prolactin appears
+to be doing is--
+and this is under study,
+but the best bet is,
+this is another way of getting
+more of these olfactory
+receptors online,
+right around birth,
+to innately recognize
+your relative.
+And this time, instead
+of making neurons
+make more copies
+of the receptors,
+it's making more neurons.
+There's going to be
+more subtlety than that.
+But broadly, those
+are two different ways
+of making you better
+at doing something
+that is innate in you.
+Rather than making you suddenly
+able to learn how to do this.
+So we now transition
+to the second way
+in which relatives
+are recognized,
+where it's not innate.
+It requires imprinting.
+It requires some sort
+of learning which leaves
+a long-lasting message of it.
+Imprinting.
+So now we've got imprinting in
+yet another use of the word.
+And major use of it
+coming next Monday.
+Imprinting-- how an animal
+learns who its mother is.
+How a mother learns
+who its babies are.
+How it imprints on the
+smell, on the sound,
+on the whatever of its
+offspring or parent--
+how that learning goes on.
+What is clear is,
+that's a case where
+the learning that the learning
+occurs at that point is innate.
+What is learned is experiential.
+Important sort of
+distinction, there.
+OK.
+So, what goes on with this?
+So in lots of species,
+you learn the sound
+of your infant's voice.
+In lots of species,
+you learn the odor.
+In lots of species, you
+learn what they look like.
+Different species, different
+modalities that dominate.
+What goes into, for
+example, learning what
+your offspring smells like?
+Remember, it's not
+innate in these cases.
+For example, a goat, a sheep--
+whatever-- they do not innately
+have the means of
+recognizing, oh, this
+is somebody whose major
+histocompatibility proteins are
+fairly similar to mine.
+In fact, they
+share 50% homology.
+Oh, this must be my child.
+That's not done that way.
+These are not innate cases.
+So what sort of rules
+might you have for how
+to recognize your offspring?
+Here's a simple one.
+OK, there's a whole
+bunch of babies out here,
+and which ones are mine?
+And I'm a goat
+trying to figure out
+which one I'm going to nurse.
+What would be a good
+rule that is not innate,
+instead building on learning
+something at that point?
+I know-- I'm going to start
+taking care of whichever kid
+there smells like
+my vaginal fluids.
+That's a pretty reliable
+way of figuring out
+this is somebody you
+just gave birth to.
+Or, this is someone who I lick
+as they're first coming out.
+And, for a while afterward, I
+figure out, who am I nice to?
+Someone who smells
+like my saliva.
+Someone who I scent-mark
+right after this
+is someone who smells
+like my whatever
+glands I'm using, there.
+This is someone who smells
+like my amniotic fluid.
+This is someone who,
+after I get that learned,
+I then nurse them for the first
+time-- this is someone whose
+mouth smells like my milk.
+You could see,
+now, in this case,
+it is learning
+being built on top
+of whatever your own
+recognition system is of smell.
+You can have
+elaborations on this.
+How do you recognize a
+sibling in species where it is
+learned in this imprinting way?
+Oh, I'm going to imprint as
+a relative on somebody who
+smells just like mom.
+Somebody who smells like mom's
+vaginal fluid or her saliva
+or any of that same
+stuff going on, there.
+Or, I'm going to be nice to
+someone who smells like someone
+I mated with back when.
+That's another strategy
+in various species.
+You could begin to
+see how all of these
+are ways of just getting
+logical information.
+Someone who has the
+voice like someone
+who I heard peeping when they
+were still inside the egg.
+Oh, it's them!
+I'm going to nurse-- no,
+I'm not going to nurse them,
+I'm going to give them worms
+or whatever it is birds do.
+But all these ways of
+using sensory information
+to say, oh, that's the one!
+That's the one.
+That's how I know it's them.
+So, all sorts of ways in
+which this could be done.
+How can you prove that this
+is not hardwired-- this is not
+absolutely dominating?
+A technique we've been hearing
+about already, which is
+that cross-fostering business.
+Which is, you take
+newborn whatevers,
+and you switch mothers
+on them, and the mothers
+will take care of them.
+What does that tell you?
+It means other attributes
+of these pups coming over
+to them-- these rat pups--
+override the fact-- wait,
+these kids don't smell
+like my vaginal fluid!
+Wow, they're cute, though, and
+there's no other moms around,
+and they sure look cuddly, and--
+So maybe it takes you 10 seconds
+to decide, this is one of mine,
+instead of three seconds.
+You have different things
+being played out, there.
+Contrasting sort of
+signals coming through.
+So that's another
+domain of doing that.
+So now we move to us and how
+we do recognizing relatives.
+And initially what
+the answer seems to be
+is that we have a
+different version of it.
+We do not recognize
+relatives innately,
+nor do we recognize
+relatives by imprinting.
+We don't do that deal of, like,
+we smell our parents right
+after they're born, or we
+sniff the vaginal fluid
+and that's how we know who
+mom is forever after, or stuff
+like that.
+So we don't-- instead,
+what do we do?
+We do it cognitively.
+We figure it out.
+We think about it.
+We think about it, with active,
+conscious, cognitive rules
+of how you know a relative is.
+And, of course, what
+we're going to see shortly
+is, that's not really how
+it works, a lot of the time.
+But, for a first pass,
+we do it cognitively.
+So now you do it--
+Instead of, this is
+someone who smells just
+like my vaginal fluid, the
+way the goats are doing,
+or, this is someone who I
+innately recognize as my child,
+the way the rats are
+doing it, you're saying,
+well, that's the baby
+I just gave birth to,
+because they haven't taken
+him out of the room yet.
+So that must be-- a
+cognitive strategy.
+How do I know who the father is?
+Not because I can
+smell in the baby's 50%
+sharing their major
+histocompatibility gene.
+This is the only
+person I had sex
+with during the cycle
+that I conceived.
+A cognitive strategy.
+This is what humans
+do, again, [INAUDIBLE]
+because we can think.
+We can go through
+stuff like that.
+We can also do other
+versions of it,
+which is, well, this is someone
+who I saw mom give birth to.
+Or at least when they
+took me out of the room,
+and then they, like, gave me
+some stuffed animals to keep me
+from, like, getting too upset.
+And then they said, here's
+your new baby whatever.
+Oh, OK.
+Which is a variant
+on, this is someone
+who's been around ever
+since I saw mom give birth
+to that individual.
+This is someone
+who looks like me.
+This is someone who looks
+like a family member.
+All of these cognitive
+strategies, going into that.
+We think about it.
+We think about it.
+And, it turns out, we
+have brain mechanisms that
+are good for doing that, too.
+But we're not the
+only species that
+thinks about it in that way.
+For example, baboons-- wonderful
+study, a few years ago.
+Baboons can do this with some
+sort of statistical thinking.
+OK, baboons are polygamous.
+Females will mate with a
+bunch of different males
+during her cycle, and conceive,
+and thus it's not at all clear
+who the father is.
+But everybody there
+plays a guessing game.
+And everybody does
+some statistics.
+The usual rule
+is, baboons, being
+a highly tournament
+species-- males do
+no parental care of offspring.
+Turns out that's
+not quite the case.
+Some males do.
+When they're pretty
+sure who their kid is.
+And here's how it's done.
+You are a baboon, and you
+are just hitting puberty.
+You're female.
+And what goes on is, for, like,
+your first half dozen cycles,
+you're cycling but you're
+probably not ovulating yet.
+You're not quite fertile.
+This happens in humans, as well.
+And none of the big,
+high-ranking guys
+are terribly interested in you,
+probably because you're not
+pumping out a whole lot of
+interesting pheromones yet.
+So who do you wind up with?
+You wind up with some poor,
+like, adolescent schnook
+who has no chance to
+mate with anybody else.
+And nobody's
+contesting his ability
+to have a consortship with you.
+So you do all of
+your mating with him.
+The vast majority of the
+time, they're not fertile,
+because you're not really ov--
+Every now and then,
+though, you get
+this, like,
+junior-high-school baboon
+guy who gets his
+girlfriend pregnant,
+and he's the only one.
+And what tends to happen then
+is, when she gives birth,
+he gives a fair amount of
+parental care to the offspring.
+So what does he have
+as a rule, there?
+If I'm the only one
+who mated with her--
+if they're using a
+cognitive strategy-- then
+I'll take care of the
+kid to some extent.
+And it is a sight to
+behold, how incredibly inept
+an adolescent male
+baboon is when
+he's trying to be paternal.
+But what you wind
+up seeing there is,
+well, maybe he's imprinted.
+Maybe he's doing major
+histocompatibility gene innate
+stuff.
+Or maybe he's actually thinking,
+hey, I was with her 24/7,
+so it's gotta be me.
+I'll take care of the kid.
+Now you see the more
+complicated circumstance,
+where it's a more desirable
+female-- more mature one--
+where there will be a
+bunch of males contesting.
+And what you will tend to
+see is, two days before
+and after she ovulates, she'll
+be mating with number 10.
+A day before and after,
+she's mating with number 3.
+The day of ovulation,
+she's mating with number 1.
+That tends to be the pattern.
+Stay tuned.
+It doesn't fit that perfectly,
+because female baboons also
+have some opinions about
+who they want to mate with.
+But, nonetheless,
+there winds up being
+this pattern, just like that.
+So there winds up
+being this pattern.
+And thus-- you're
+the male, afterward,
+when she gives birth, and
+you're trying to decide,
+is this my kid?
+Or, should I give some
+male parental investment?
+And what is shown is,
+baboon males do statistics.
+They do probability.
+What they do is, if
+this was a male who
+was mating during her
+prime ovulatory day,
+he is more likely to
+take care of the kid
+than a male who was
+mating during this window
+or this window.
+They are playing probability.
+They're not very good
+at it-- no surprise.
+But nonetheless this
+pattern emerges.
+That's not innate recognition.
+That's not innate
+recognition of some smell.
+That's just thinking through it.
+Was I with her?
+Yeah, but she sure smelled
+a lot better the day after,
+and that other guy
+was with her, so I
+guess I'm in this category.
+OK, well, I'll smile at the
+kid now and then tell him I
+like their piano playing.
+But I'm not going to,
+like, invest anything--
+kind of stuff, there.
+Here, you see a conscious,
+cognitive strategy.
+So, OK, so us and other
+smart beasties like primates.
+Here's another version of it,
+occurring in fish-- in sunfish.
+And this was research
+done by that guy
+David Sloan Wilson, that
+multilevel-selection-evolution
+evolution guy, who actually
+has done research in, like,
+so many different fields.
+Incredibly creative guy.
+Here's a study that he did.
+Sunfish males,
+surprisingly, are quite
+paternal in their taking care
+of their eventual offspring.
+They're almost as
+good as Nemo's dad.
+And what you've got there
+is, in this version, he--
+I'm not going to
+draw fish mating.
+Forget that!
+OK.
+So the guy mates
+with the female,
+and she eventually
+gives birth to kids.
+And he helps take care of them.
+Now, instead, he
+mates with a female--
+and you, the savagely
+heartless researcher,
+puts him in the next
+tank over, where
+he can see what's happening.
+And you fiendishly,
+at that point,
+drop down a clear plastic
+box right next to the female,
+with another male in there!
+In reality, he's not
+mating with the female,
+but he's right there.
+And this guy, who's stuck on
+the other side of the barrier
+and going out of his mind
+with jealousy and petulance
+and all of that immature stuff.
+And what happens is,
+after she eventually
+gives birth, she-- this
+apparently being the female,
+in this diagram.
+After she gives birth, he
+doesn't take care of the kids
+as much.
+There is no difference in
+any of the sensory cues.
+Because he, in fact, is
+the only one who mated.
+This one is kept inside.
+There is some sort of cognitive
+stuff even going on in a fish.
+Remarkable.
+So it's not just us.
+So we've got this broad
+realm-- innate strategies.
+One's on very all-or-none
+sensory imprinting.
+And then there's the folks
+who think through it.
+We're in the mainstream of that,
+but we're not the only ones.
+So how do our brains do that?
+There is a part of the human
+cortex called the "fusiform
+cortex."
+And what it's good at
+is recognizing faces,
+which is a remarkable thing.
+It specializes in recognizing
+faces, facial expression,
+degree of relatedness.
+You show someone a good
+portrait of someone else,
+and you will get that
+part of the brain
+to activate as if
+it was their face.
+You show a good
+cartoon of somebody.
+It will do the same thing,
+maybe with a little bit
+less confidence.
+This is the specialized
+part of the cortex
+that does facial recognition.
+Remarkable.
+You look at people with autism,
+and this part of the cortex
+doesn't do a whole lot.
+You show a
+nonautistic individual
+a picture of a
+well-known loved one.
+Fusiform cortex
+activates a whole lot.
+You show them a
+picture of someone
+they don't know a whole lot.
+It activates somewhat
+to a lesser degree.
+You show them a
+picture of an armchair.
+Doesn't do anything at all.
+You take someone who is
+autistic, and you show them,
+and you get the same low-degree
+activation for all three.
+You know, mother equals
+stranger equals armchair.
+This in some ways is the
+core of what autism is about.
+You see that going on, as played
+out in this part of the cortex.
+So that's really interesting.
+And then it turns out we're
+not the only species that
+has this specialized
+fusiform cortex.
+Primates have this, as
+well-- nonhuman primates.
+Sheep have it, it turns out.
+Pigeons who could recognize
+pictures of each other.
+And why they would want
+to do that, god knows.
+But pigeons have a very proto
+version of the fusiform cortex.
+This seems to be
+part of what goes
+into this conscious, cognitive
+strategizing of, this
+is a face, this is
+a face I've seen
+a whole lot more over the years.
+So this activates a lot more.
+This seems to suggest some
+sort of cortical specialization
+for recognizing individuals.
+More features of
+how humans do it.
+Something that humans
+are very good at,
+if they are human
+mothers, is recognizing
+the smell of their
+baby right after birth.
+And this has been shown to
+have a major histocompatibility
+component to it.
+In other words, that's not
+a purely cognitive strategy.
+There's some innate,
+instinctual olfactory
+signaling going on there.
+So, a first bit of
+evidence is that we are not
+just purely rational
+beasts at figuring out
+who we're related to.
+Babies, very
+shortly after birth,
+are already spectacularly good
+at distinguishing the smell
+of Mom versus somebody else.
+How do you tell
+that with a baby?
+You take a newborn baby, and you
+give them, like, on this side,
+some armpit smell of Mom, and
+there's some armpit smell of,
+you know-- I don't
+know-- Margaret Thatcher.
+And what you see, then, is
+that the baby, the newborn,
+is more likely-- will
+spend more time turning
+its head towards Mom's smell.
+That's how you know it.
+Newborn babies cannot
+distinguish between the smell
+of Dad and any other male.
+It's not instinctual,
+in that case.
+Newborn humans are doing some
+version of proximity to mom,
+vaginal fluid smell-- whatever.
+This seems to be bringing
+up a question of,
+is there a difference in
+bonding in those early stages
+between vaginal-birth
+offspring and cesareans?
+I don't know, but that suggests
+that should be happening.
+And maybe I should
+even find that out.
+OK.
+Other features of it.
+Newborn kids, as we already
+know from a couple lectures ago,
+can recognize the voice of Mom.
+How?
+From all that resonance, there,
+inside the amniotic fluid,
+as Mom reads them War and Peace.
+And, as we also
+heard, they can't
+recognize the voice of Dad.
+Not instinctual.
+In this case,
+getting information
+on the sensory route--
+the amniotic environment
+as a good resonator
+for Mom's voice.
+So we're now already
+getting a mixture, here,
+of some instinctual
+olfactory stuff,
+major-histocompatibility-complex
+stuff, some acquired,
+hardwired sensory-driven stuff.
+Ooh, does this sound like the
+person whose voice I heard
+for those last nine months?
+And then some cognitive
+stuff-- trying to figure out
+who this relative is.
+Ooh, who did they come
+with to the party with?
+All of that-- the
+cognitive stuff.
+So, already a suggestion
+that we're not just
+such pure cognitive machines.
+So where is that
+most interesting?
+And this is in a totally
+fascinating series
+of studies that were
+done over the years,
+showing just how little
+conscious cognition might
+play out in us humans in
+some really critical realms.
+Which is, who you decide you
+are interested in mating with.
+OK, so how does
+that work in humans?
+All sorts of different ways.
+But here's one way in which
+it does something interesting.
+And this was a classic study
+done by an anthropologist named
+Joseph Schaeffer.
+And this is what he did.
+He studied people who grew
+up in Israel on kibbutzes.
+Kibbutzes-- these are these
+traditional, socialist sort
+of communes, where one
+of the-- none of them
+are like this anymore.
+But one of the early
+principles was, one parent
+is as good as another parent.
+All the kids are raised in
+these big, communal bathtubs
+together.
+And it's one big, sort
+of socialist [INAUDIBLE]
+of everybody bathing
+naked together.
+And what Schaeffer found was
+this very interesting thing.
+Which is, you are brought
+up in your age group.
+All the kids born
+this year are raised
+in the same communal group.
+And they take their
+baths together,
+and they play
+together, and they've
+got the same-- one
+parent takes all of them
+for one afternoon,
+every Tuesday afternoon,
+and the next one comes
+for the next shift.
+And this big communal
+business, there.
+And what Schaeffer
+discovered was,
+if you were raised in the
+same age group as somebody,
+anywhere up to six
+years of age, you never,
+ever wind up marrying them.
+And this was not with a sample--
+an appropriate sampling.
+This was a study he did of every
+individual who ever grew up
+in the kibbutz system in Israel.
+We appear to have
+a rule as follows.
+If this is somebody who you
+spent a whole lot of time
+with before six
+years of age, this
+is someone who you
+sure don't want
+to grow up and marry-- yuck!
+And you love them--
+they're incred--
+but they feel like my sister.
+They feel like my brother.
+Whoa, that would be
+totally grotesque!
+There has never been a
+case of people brought
+up during the first-- grow up
+in your first six years of life,
+taking a whole lot of
+baths with someone,
+and you are not going to
+discover an amorous passion
+for them when
+you're 20 years old.
+They're going to feel
+like a sibling for you,
+for the rest of your life.
+What is that telling us?
+We have a very noncognitive
+strategy in there.
+Yes, who are relatives--
+who are appropriate people
+to mate with?
+Well, if we know that this is
+the daughter of Mom's sister,
+then this person
+is not appropriate,
+and this whole cognitive--
+spend a whole lot of time
+naked with somebody, taking
+baths and playing pattycake
+and counting their toes,
+the first six years of life,
+they feel like a sibling.
+Something very similar was
+then shown by Arthur Wolf,
+here, in the
+Anthropology department--
+a different cultural version.
+Traditional Taiwanese
+marriages, where
+there's some equivalent of that,
+and where either you wind up
+with your future spouse
+at some insanely early age
+and basically get brought
+up with them from infancy,
+or it happens later.
+And if you're brought up
+from infancy with them,
+you have a disastrous
+marriage later on,
+because they feel like a sibling
+for the rest of your life.
+So what this shows
+us here is, yes, we
+are these wonderful,
+rational, cognitive machines.
+We've got all sorts
+of innate strategies
+and sensory-imprinting stuff
+going on, instead, in us.
+We are not a whole lot
+fancier than hamsters.
+What does this set us up for?
+A topic that's going to
+be real important when
+we come to the lectures on
+aggression and cooperation
+and competition and all of that.
+Which is, if we spend a lot
+of our time figuring out
+who we are related
+to-- cognitively--
+or, even more
+importantly, if we are
+malleable in the way these
+kids growing up in Taiwan,
+or in these
+kibbutzes-- if we are
+malleable in who
+we feel related to,
+it is possible to manipulate
+us in lots of ways
+to feel more related
+to individuals
+than we actually are, or to feel
+less related to individuals.
+And the terms for these
+are "pseudo kinship"
+and "pseudo speciation."
+And what we will
+eventually see is,
+when you make sense of human
+violence and human cooperation
+and human aggression
+and all of that,
+we are so easily manipulated
+as to who counts as an "us"
+and who counts as a "them."
+And one of the brilliant things
+militaries all the world over
+do, whether you're talking
+about clans with warrior classes
+all the way up to sort
+of state militaries--
+what you see in all these cases
+is a brilliant understanding
+of how to make nonrelatives feel
+like they're a band of brothers
+and how to make "them" seem
+so different they hardly
+even count as humans.
+So this ability for
+us to be manipulated
+in these subliminal ways, as
+to who counts as a relative,
+will come back to
+haunt us big-time
+in making sense of a lot
+of human social behavior.
+In other words, we are
+not purely rational.
+OK.
+So what we will do on Monday
+is switch another bucket, now,
+to this field of ethology,
+which, once again, is trying
+to make sense of, what
+behaviors are hardwired,
+what does environment do?
+You will see a completely
+different approach--
+For more, please visit
+us at stanford.edu.
