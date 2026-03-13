@@ -1,0 +1,2816 @@
+11. Introduction to Neuroscience II
+===================================
+
+Stanford University.
+I would like to get
+started, please.
+So my name is Patrick House.
+I am a neuroscience PhD student.
+I work with Robert
+in Robert's lab.
+I'm a first year.
+And I study something that
+you guys will eventually
+hear about, but I don't
+want to ruin the punchline.
+But today we're going to talk
+about memory and plasticity.
+And so two days
+ago on Wednesday,
+you guys all sat in
+here, in this room.
+And you learned, some of
+you for the first time,
+some of you for maybe
+the 10th time, the basics
+of neurobiology, of
+how a neuron works,
+how a neuron-- you have
+a presynaptic cell,
+you have a postsynaptic
+cell, and this kind
+of simplified version of the
+communication and information
+transfer.
+And something
+interesting happened
+between now and then,
+which is that now you
+sit in the same room.
+And something about you knows
+something about neuroscience
+now.
+You heard one of the TAs talk.
+You slept on it.
+And then you come
+back now and you
+have assimilated, integrated
+into your identity,
+into what you know, new facts.
+And this lecture is
+about how you do that.
+And to kind of get
+at what memory is,
+we need to think about
+a lot of different ways
+in which it's interesting, and
+a lot of different spectrums
+and severities about memory.
+So why is it that some
+memories last our entire lives,
+whereas other memories, we
+hear and they're fleeting?
+They go away in a second.
+Why is it that someone
+sitting next to you in bed,
+telling you a
+story, and as you go
+to sleep you can't remember it?
+As you wake up, you can't
+remember your dreams.
+But if that exact same
+person, that exact same story
+was told to you as they were
+sitting next to you in a car,
+and you get into a
+car accident, suddenly
+that memory becomes salient.
+You may remember it for years,
+if not your entire life.
+And you may actually associate
+either the story itself,
+the voice of the person,
+with that traumatic event.
+And you might get
+post-traumatic stress disorder.
+So if the mechanism is
+the same between these two
+types of memory, between ones
+that are fleeting and forgetful
+and ones that last your
+entire life, the question is,
+how does environment,
+how does context
+fit into shaping these
+types of memories?
+And so in order to
+understand that,
+we have to kind of get at, what
+are the mechanisms of memory?
+And how are these
+contextually motivated?
+So I want introduce to you
+first Stephen Wiltshire,
+who is an architect, if not
+in practice, at least in mind.
+He is an autistic savant.
+And he has been mute
+since age three.
+And he has this remarkable
+capacity, which I'm actually
+going to test you guys on
+slightly here, if you have
+any kind of
+inclination to sketch,
+or you happen to have some
+sketch paper with you.
+I want you to-- this will
+take approximately 60 seconds
+to span across all
+of Rome-- draw it
+from memory in your 60 seconds.
+Because Stephen Wiltshire
+has this amazing capacity
+to take helicopter rides--
+he's done this over Tokyo.
+He's done this over New York.
+He's done this over
+Rome and over London.
+And in 20 minutes,
+he can then sit down
+and recreate every single
+building, every single column,
+every single window in
+correct proportions,
+from the correct angle in
+which the helicopter ride was.
+And so you may be thinking-- OK,
+your 60 seconds are almost up.
+Can you guys do it?
+You may be thinking-- if any
+of you are artists out there,
+you may be thinking
+this is unfair.
+Why can't I do this?
+And as neuroscientists,
+our first thought
+is, OK, this is unfair.
+Why can't I do this?
+But really, it can
+tell us something
+interesting about memory.
+So you come at it
+with two questions.
+First question-- before and
+after this helicopter ride,
+what is different
+in Stephen's brain?
+And second, on this theme
+of individual variation
+that we keep harping on in
+class, why is it that he can
+do this and we can't do this?
+And these are two
+important questions
+that if we could
+answer those questions,
+we would know a lot
+about what memory is.
+And so it really
+makes sense to go back
+to what it is that we
+know so far about neurons,
+the basics of one neuron
+and how it is activated.
+And so we have a
+presynaptic cell,
+and we have a postsynaptic cell.
+And in our simplified version,
+we can kind of know now--
+and what I'm going to
+tell you is that memory,
+learning happens, to the best of
+our knowledge, in the synapse,
+in the space between the pre
+and the postsynaptic cell.
+But to understand why it is that
+we think that, we kind of need
+to go back about 100
+years to when people,
+scientists, neuroscientists
+were investigating the brain,
+investigating memory.
+And they thought that the
+smallest unit of the brain
+that they knew was the neuron.
+So because of our
+tendency to explain
+what we don't know in terms
+are the smallest unit of thing
+that we do know,
+they thought OK,
+this makes sense-- a
+memory is a new neuron.
+And when you learn
+a new fact, when
+you learn the basics
+of neuroscience,
+you are growing new neurons.
+And each individual fact is
+associated with one new neuron.
+For instance, they
+may have thought
+that OK, you guys learned
+on Wednesday that the axon
+hillock is the site of the
+generation of the action
+potential.
+So then that is a new
+fact, and then a new neuron
+would then be formed.
+I just realized that that
+actually might not make sense,
+because at the time that they
+thought that, they didn't know
+what an axon hillock is,
+so maybe that formulation
+doesn't even make sense.
+But the idea is that a
+couple decades later, people
+discovered the synapse.
+They discovered that
+neurons were not just
+one interconnected thing,
+that there is space.
+There is a gap between them.
+And as soon as they
+discovered the synapse, that
+then became the smallest
+bit of information
+we knew about the brain.
+And then theories came out
+saying, well, no, memory
+must be the formation
+of synapses.
+So the dogma at the time was
+then that OK, new fact, axon
+hillock.
+What does this
+mean in the brain?
+You can see this in the brain.
+This takes the shape of a
+new synapse being formed.
+And what we think of now is that
+well, this isn't exactly right,
+because new synapses are not
+being formed all the time.
+And new neurons are not formed
+in the adult brain, which
+isn't entirely true, but
+we'll get back to that.
+But the idea is just that
+memory and storage of learning,
+what I'm going to tell you
+is that it's in the synapse,
+and that it involves modulation
+and change of the synapse.
+And why do we think that?
+Because we understand
+the molecules.
+And we understand
+at a molecular level
+what's happening in a
+synapse when it changes.
+So that it is thus
+now our smallest level
+of understanding of the brain.
+And so of course, we
+think oh, well that's
+probably where memory is.
+So that's the dogma that
+we're going to start with.
+And we're going to
+start with this idea
+that memory is
+synaptic plasticity.
+Memory is when the
+space between the
+presynaptic and postsynaptic
+neuron changes in some way.
+And not only that, it
+changes in one direction.
+It gets stronger.
+It's strengthened.
+And so what this
+means is that if you
+have your presynaptic
+neuron and you fire it,
+and you get some
+amount of response,
+that over time, if you give
+enough presynaptic activation
+in a certain time window, that
+you will then get a heightened,
+strengthened response in your
+postsynaptic cell eventually.
+And that is the
+kind of mechanism,
+the overarching, broad
+mechanism of LTP.
+And so what we need to
+do to understand memory
+is to focus on the synapse.
+So what we get is our
+classical picture, which
+is that you have your synapse.
+And a neurotransmitter
+is coming out.
+And that neurotransmitter
+is excitatory.
+And in your postsynaptic
+cell, what you're getting is
+you're getting a small
+amount of activation.
+You're getting current
+that comes into that cell.
+You're getting ions,
+some sort of response
+for any individual piece
+of neurotransmitter.
+So what this is, is a
+version, a simplified version,
+of what is called
+Hebbian plasticity.
+And so there's this guy
+Hebb, which you have to know.
+There's a few of names you
+have to know in neuroscience,
+and he's one of them.
+And Hebb came up with this
+idea, the only bumper sticker
+that neuroscientists ever
+have on their car, which
+is that neurons that fire
+together wire together.
+And what this is saying is that
+you have your standard picture
+of a very, very simplified
+version of a presynaptic cell
+that's releasing an
+excitatory neurotransmitter,
+and that when it does
+so, you get a response
+in your postsynaptic cell.
+So if you will remember
+from one lecture ago,
+that excitatory
+neurotransmitter is glutamate,
+though if you're going
+to spend any time
+and energy into remembering
+one neurotransmitter that
+might be relevant for
+the class, this is
+the one you want to remember.
+You don't have to remember it.
+So mostly, the idea is
+just that it's excitatory.
+And why is this important?
+Because information is
+transferred in the brain
+through activation.
+And in order to
+transfer information,
+you need excitatory
+neurotransmitters.
+You need your neurons
+to be activated.
+But as we know from
+what I've told you
+so far, that repetition
+is what drives memory,
+I would suggest that you
+remember that glutamate
+is the excitatory, and one
+and only neurotransmitter
+that you have to know.
+Say there's a test
+question that says,
+what is the one excitatory
+neurotransmitter
+in the brain that
+you have to know?
+You would respond glutamate.
+And then you would be right.
+And so you can imagine that
+for this type of simplified
+diagram, if we
+were to strengthen
+the synapse, if we were to
+get some sort of plasticity,
+some sort of change,
+potentiation,
+you could think of a
+few ways of doing this.
+You could take the
+presynaptic neuron
+and change how much excitatory
+neurotransmitter is released.
+You could change how much
+glutamate is released.
+And presumably, if you release
+more of the little circles
+with positive charge
+in them, then you're
+going to get more activation
+in the postsynaptic cell.
+Another thing you could
+do is basic neurochemistry
+in this diagram, is that each
+of those neurotransmitters
+is binding to a receptor
+on the postsynaptic cell.
+And so what you can do is
+take that individual receptor.
+And you can make it respond more
+to a single, individual unit
+quanta of neurotransmitter.
+Alternately, you
+could just increase
+the number of postsynaptic
+receptors on your cell.
+And all of these would
+be mechanisms by which
+you could take this
+very, very simple synapse
+and potentiate it, such that
+you get the same release,
+you get the same
+neurotransmitter.
+And what you get is subtle,
+because LTP is often
+very subtle.
+You'll just notice that the
+response is slightly larger,
+a slightly larger response
+given the same amount of input,
+given the same amount of
+output of the presynaptic cell.
+And this is the entire idea of
+LTP, long-term potentiation,
+this idea that at your
+individual synapse,
+you can potentiate it.
+You can change it.
+It is plastic.
+But there should be
+one large red flag
+here, which is--
+one of these caveats
+is, well, your
+presynaptic neuron,
+how does it know whether or
+not LTP should be undergone?
+How does it know whether or
+not LTP has been induced?
+This requires a kind
+of communication
+between both the pre and
+the postsynaptic cell,
+that how would the presynaptic
+cell, which has already
+released its
+neurotransmitter, know?
+And what you get is this
+kind of heretical type
+of neurotransmitter
+that can actually-- we
+call it a retrograde
+neurotransmitter--
+that can actually be sent back
+from the postsynaptic cell.
+And it's a gas.
+Nitric oxide is
+an example of one.
+It's what you get
+at your dentist.
+And it kind of goes
+back and diffuses
+back across the synapse
+and actually modulates
+how much neurotransmitter
+gets released
+from the presynaptic cell.
+So we have these mechanisms.
+We have these mechanisms of LTP.
+And the question then is, where
+does this happen in the brain?
+And why is it that
+we believe that these
+are the places of LTP?
+And one of the things
+you need to know--
+this is our first dive
+into neuroanatomy--
+is you need to know
+the hippocampus.
+It was introduced
+to you last lecture.
+But if there's one
+neurotransmitter you
+need to know, it's glutamate.
+And if there's one neural
+anatomical structure
+you need to know at this
+point, it's the hippocampus.
+I'm kind of always jealous of
+these autistic savants that
+can memorize 10,000 digits of
+pi, and take a helicopter ride
+and then fully recreate the
+cityscape of any city they see.
+And if you read interviews
+about how they do it,
+it's really interesting.
+So what they seem to
+do is not memorize
+just a sheet of a bunch of
+digits, a string of 10,000
+digits of pi.
+They'll take a walk through
+their childhood town.
+And they'll say that they
+put one of the digits
+on each and every object.
+So your mailbox will
+be the first digit,
+and then your neighbor's
+door will be another,
+and then their
+window will be three.
+And then they are
+not re-conceiving
+and reconstructing just a
+sheet of boring numbers.
+They're taking spatial
+tours through their memory.
+And what this always
+compels me to do
+is make these kind
+of visual mnemonics.
+So I'm going to give you a
+visual mnemonic for the one way
+you have to remember
+that the hippocampus is
+the site of memory
+and the site of LTP,
+insofar as this class is
+concerned, which is-- OK,
+hippo horse.
+We learned that last time, it
+looks kind of like a seahorse.
+But that doesn't
+really make sense.
+What if you think about this?
+What if you think about the
+hippodrome back in Rome?
+Hippodrome is the
+circular arena where
+you had your little chariot
+races, because of horses.
+And there's two
+different scenarios
+that I want you to imagine.
+The first is-- you guys remember
+Michael Jordan and Larry Bird?
+They had this commercial
+where they played Horse.
+And what they were doing
+is they were playing-- you
+have to make a basketball shot.
+And then the next one,
+you have to remember
+what that first
+person did exactly,
+and you have to recreate it.
+So what I like to imagine is
+Larry Bird and Michael Jordan
+playing a game of horse in
+the hippodrome, back in Rome.
+And then you can kind of
+get this idea of how memory
+is related to the hippocampus.
+and this horse structure.
+And if that doesn't
+work for you,
+I have one more,
+which is actually
+my favorite, which
+is you can imagine
+the entire amphitheatre,
+the entire hippodrome filled
+with people.
+And there was that one emperor
+who named his horse a senator.
+Do you guys know who that is?
+What's his name.
+I don't know his name.
+Caligula.
+Caligula, there you go.
+So imagine the entire hippodrome
+is filled with people.
+And Caligula is there.
+And he gets his senator horse
+in the middle of the field.
+And the horse is sitting
+kind of cross-legged.
+And he's typing out your
+memoirs on a typewriter.
+And that is how you're
+going to remember
+that the hippocampus, the
+hippodrome, the horse,
+is where memory is formed.
+So now you guys are all
+autistic savants now.
+Really though, what
+we need to determine
+is, why is it that
+we really think
+that the hippocampus is the site
+of LTP and memory formation?
+It turns out that there is
+actually adult neurogenesis
+and adult plasticity.
+So in the last 10
+years, we've discovered
+that the adult brain really
+does actually form new neurons.
+And for the last 100 years,
+we kind of disregarded that
+and said those guys
+who initially believed
+that every new neuron is
+associated with every new fact,
+those guys were just totally
+wrong and ridiculous.
+What a ridiculous concept.
+And so perhaps
+eventually, in the future,
+we will have to
+incorporate this idea
+that there does seem to be
+some neurogenesis in the brain.
+But much like how we
+learned that there
+is non-genetic inherited
+traits, which we had learned
+from the disreputable Lamarck,
+way back in Lamarckian
+evolution, that there
+is no-- for 100 years,
+we thought, no, it's impossible.
+There is no non-genetic
+inheritance of traits.
+But it turns out
+that, well, OK, we
+do seem to have some kind
+of non-genetic inheritance.
+And so Lamarck isn't
+entirely wrong.
+And it turns out this is a
+kind of similar thing, where
+the people of most disrepute are
+often just a little bit right.
+So probably, people
+that used to think
+that adult neurogenesis has
+something to do with memory
+are probably a little bit right.
+But we're going to stick
+with the canon, which
+is that LTP happens,
+and that it happens not
+on the level of the neuron, not
+on the level of the synapse,
+but on the level of the
+plasticity of the synapse.
+And so why do we think
+it's the hippocampus?
+We get at it from a few ways.
+The first way is that HM, this
+kind of well-dressed epileptic
+who had his hippocampi removed.
+And what happened was
+he had selective removal
+of just his hippocampi.
+And he could no longer
+remember anything at all.
+He could not form new
+memories whatsoever.
+So with these types
+of conclusions,
+in addition to evidence
+that if you watch and record
+from neurons in the hippocampus
+as you're giving someone
+a learning task,
+then you see LTP.
+If you pharmacologically
+block LTP,
+you see changes in
+the hippocampus.
+And so all these
+pieces of evidence
+are trying to get at the
+idea that the hippocampus is
+necessary for memory and
+memory consolidation.
+But if you introspect
+a little bit,
+you can probably
+realize that well, we
+undergo all kinds of forms
+of learning and memory.
+We have motor learning.
+We learn how to shoot baskets.
+We learn how to throw darts.
+We understand
+emotionally that events
+that are more emotionally
+salient are more memorable.
+And so how is it that
+these types of things
+are also encoded
+in our brain, also
+encoded in the same region, the
+one region, the hippocampus?
+And what that turns out
+to be is that, well, it's
+not just that one region.
+LTP is happening
+all over the brain,
+that if you look in your
+emotional regulation centers,
+if you look in your emotional
+cortices, you also see LTP.
+And this makes sense, because
+these types of memories
+have to have different methods
+of storage and retrieval.
+And also, that you can imagine
+this type of excitation,
+this type of synaptic
+plasticity, can go wrong.
+In post-traumatic
+stress disorder,
+for instance, you get LTP.
+And you get LTP that is severe.
+And you get severe LTP
+potentiation of your synapses
+in those emotion
+regulation centers that
+create a situation where the
+context leads to memories that
+shouldn't necessarily
+be brought up,
+that shouldn't
+necessarily be retrieved.
+And so we see this mechanism for
+types of behavior that we know,
+types of things like
+why certain memories,
+certain emotionally salient
+memories last for a long time,
+and others don't.
+And we can also
+imagine that this
+is a physiological
+process, and that it
+can go wrong, occasionally.
+We all know that
+memories are degraded,
+sometimes intentionally so,
+sometimes unintentionally so,
+that there are certain
+things we want to remember.
+And despite any and all
+repetition about glutamate
+being the excitatory
+transmitter,
+we just don't remember them.
+And there are some that just
+kind of fade away into time,
+into the oceans.
+And what is happening
+is that there
+are mechanisms for
+intentional disruption of LTP.
+And you can think of a few.
+So hypoglycemic states, if
+you are really, really hungry,
+you get insulin cascades
+that end up reducing LTP.
+If you're starving,
+it's not a good time
+to try to remember things.
+It's a good time
+to try to go out
+and expend energy finding food.
+As we'll learn
+later in lectures,
+there are some stress hormones.
+And these stress
+hormones actually
+give us a selective memory
+advantage in the short term.
+If you're in a car crash,
+you remember the slow motion
+details of the entire event.
+And this has to do with
+these stress hormones,
+these fear hormones
+coming out and saying,
+OK, well, we want to be
+able to remember this moment
+so we can learn from it
+next time, if we survive.
+But if you do this chronically,
+if you do this for a long time
+window throughout the
+lifetime of the organism,
+then you can actually get damage
+to LTP and damage to memory.
+So it's about time window.
+It's about the same
+mechanisms that
+can enhance memory can also
+be deleterious eventually.
+Another probably
+more familiar one,
+perhaps not to the
+introverts, but perhaps
+to the extroverts
+in the crowd, is
+that if this lecture
+were on Saturday morning,
+I could probably ask you
+guys what you did last night.
+And some of you would
+not be able to tell me
+with delicate accuracy
+what happened on Friday.
+And you might not be
+able to tell me the story
+that was read to you
+at bedtime, or even
+who read you the
+story at bedtime.
+And this is because ethanol,
+alcohol, directly disrupts LTP.
+And we see this.
+And we see this in
+the hippocampus.
+And these are the types
+of things, behaviors,
+that we know of.
+We know that emotionally
+salient memories last longer.
+We know that alcohol
+somewhat-- there
+are differential effects of
+types of substances on memory.
+We know that it's hard
+to remember things right
+before we go to sleep.
+And so what's
+interesting is, can we
+get at a physiology that
+explains all of these things?
+And so I'm going to give you
+60 more seconds-- there's
+going to be a pop
+quiz at the end,
+by the way-- you have 60
+more seconds to do this.
+And what is interesting here
+is that when we get down
+to these physiological
+mechanisms,
+we have two ends of a spectrum.
+We have HM and we have
+Stephen Wiltshire,
+someone who cannot form
+any memories whatsoever,
+and then someone who can do this
+in a 20-minute helicopter ride,
+recreate the entire landscape.
+And the question is,
+the theme of this class
+is often one of
+individual variation.
+How is it that
+one person can not
+be able to form any
+memories whatsoever?
+How is it that one
+person can have
+an autistic,
+photographic memory?
+And where do we fit?
+Where does memory fit in a
+properly functioning way?
+And like most of
+the spectrums that
+are introduced into
+this class, one
+of imprinted genes, tournament
+versus pair-bonding species,
+things like that, the
+answer turns out to be we
+are somewhere in the
+middle between HM,
+no hippocampi, no
+formation of new memories,
+and Stephen Wiltshire.
+So one more thing
+we need to discuss
+with the theme of this
+class is that often, we'll
+give you a lecture and then
+maybe in the next lecture,
+maybe five minutes later,
+we'll tell you it's all wrong.
+Or we'll say, no, you've
+been way too myopic.
+That's not how you
+should see these things.
+And what we need to do in
+order to understand somewhat
+about the context of memories
+is to take and expand
+your myopic view of this
+simplified version of a neuron.
+So far, we've gone into
+what a single neuron
+functioning looks like.
+And we've gone into what a
+single neuron as it transmits
+a signal to another
+neuron looks like,
+how there's a gap in between the
+pre and the postsynaptic cell,
+and what that information
+transfer looks like,
+and how we can change that
+information transfer, how
+we can make it plastic.
+But there's a
+problem here, which
+is that if we're trying to
+learn anything about the brain,
+we have to understand that the
+brain is really complicated,
+and that there's
+100 billion neurons,
+and that sometimes these
+individual neurons will connect
+to 10,000 other neurons.
+And sometimes, each of
+those 10,000 neurons
+will have 10,000 neurons
+that connected to it.
+And so the question--
+I don't know.
+As a neuroscientist, when I look
+at that, the first thing I do
+is want to give up.
+And I do.
+And then the second
+thought is OK, maybe
+it's time to expand
+the simplified version
+of the neuron that we have.
+It's not just one neuron
+talking to another neuron.
+It's not just a single
+synapse, but that it's
+the dynamics of many,
+many interacting neurons.
+And as these dynamics
+expand, as these dynamics
+get introduced into 10,000
+neurons at the same time,
+10,000 dendrites,
+dendritic arbors
+connecting to 10,000
+other axonal processes,
+then we see that things
+that didn't matter
+so much in the single,
+individual neuron actually
+matter quite a bit
+when you're talking
+about 100 billion neurons.
+So one of the things
+to introduce here
+is the concept of noise into
+the individual signal transfer,
+into the individual
+information transfer.
+A neuron, as we
+presented it, was
+something that fires
+an action potential,
+transmits information.
+Every single action
+potential leads
+to neurotransmitter
+release, which
+leads to postsynaptic response.
+But these are very
+delicate things.
+An individual
+neuron is constantly
+in flux with how much
+current is coming in and out.
+Ions are flowing around.
+It's not as simple as
+a static neuron that
+then gets activated,
+and then passes on
+a message to another
+static neuron, which
+then gets activated.
+What you get is
+often, a lot of times,
+you'll get random and
+spontaneous generation
+of signal, of action potentials,
+and sometimes of current
+in the postsynaptic cell.
+And one of the major
+tasks of the brain
+is figuring out
+what is signal, what
+is appropriate and meaningful
+signal, versus what
+is this noise.
+If you can imagine on
+a single neural level,
+the noise might not
+have that much impact.
+But if you're talking
+about 100 billion neurons,
+you're going to get noise all
+over the place that will just
+lead to this static of noise
+that you don't know what
+to make of the world anymore.
+You don't know what
+to make of the signal.
+You don't know what to make
+of individual neural signals.
+And so what we need to do is
+to start considering neurons
+in terms of how they interact
+in dynamics of groups.
+And one of the first ways
+and the most important ways
+to think about this
+is to understand
+that neurons are not just
+excitatory forces, that
+information, yes, is
+generated by glutamate
+and the transfer of
+excitation, but that neurons
+have a capability to inhibit.
+And one of the important ways
+that they differentiate signal
+from noise, one of the important
+ways to learn what is noise
+and what is not, is to inhibit.
+And I'll explain
+how it is exactly
+that the inhibition works.
+But one of the first--
+oh, that's pretty high.
+One of the first
+ones to understand
+is that a neuron can inhibit
+itself, which is not really--
+it seems like it could initially
+be some sort of masochism,
+but it's really not.
+It's just that the neuron
+is trying to sharpen
+the signal that it's sending.
+So a neuron is firing
+and firing, over and over
+and over, and what
+it wants to say,
+what it wants to be able
+to do, is accurately give
+a precise description of the
+signal, of the information.
+And what it can do is inhibit
+itself to say, I'm done.
+No more spontaneous noise.
+No more spontaneous
+little bits of current.
+I am done with my signal.
+And what this is, is it allows
+for temporal sharpening.
+It allows for the ability
+of a neuron to say,
+this was my signal.
+It was meaningful.
+I really meant it,
+and inhibit the kinds
+of random noise and spontaneous
+things that could happen.
+Another type of
+inhibition that's
+very important to separate
+noise from not noise
+is spatial inhibition.
+So what this is, is
+your individual neuron,
+not only can it send
+processes and inhibit itself,
+it can actually send processes
+out and inhibit its neighbors.
+And how might this be useful and
+important is that it can say,
+essentially, OK,
+this signal is real.
+This signal is the
+signal that I want
+to send, the information
+that I want to transfer.
+And not only that,
+ignore my neighbors.
+It's really me.
+And what this allows you to
+do is get spatial sharpening.
+So what this allows you to do
+is say, in the field of things
+that you're trying to
+perceive, a certain neuron
+will respond to a certain
+section of that field.
+And what this is saying
+is, I am activated.
+And you inhibit
+your neighbors so
+that you're more sure
+that your signal is true.
+And how can we relate this?
+How can we make sense of this?
+There's a very simple
+type of feedback network
+that should elaborate
+this idea, which
+is pain and pain sensation.
+And so we all probably, at
+some point in our lives,
+presumably, have
+discovered and felt pain.
+And there's two general
+qualities of pain.
+You can have really,
+really fast, sharp pain.
+And you can have this dull,
+aching, throbbing pain.
+And what people found
+when they investigate
+into your spinal cord and
+into your sensory peripheral
+processes is how this
+pain is generated.
+And it's generated on two
+separate types of neurons.
+And one carries fast pain, one
+carries the sharp, fast stuff.
+One carries the
+slow, dull stuff.
+And what you find is that
+these are intertwined
+in this delicate
+feedback loop, such
+that the fast, spiking,
+first pain will generate,
+eventually, the
+slow-moving pain.
+It will fire the other neurons
+next to it, the neighbors,
+and say, OK, also start
+this slow pain spike.
+But then the slow pain
+spike can come back
+and inhibit the first sharp
+spike, such that it stops.
+We're trying to get
+information about the world.
+And your body is
+trying to do what
+it can with that information.
+And if you get
+stung by something,
+you want really sharp
+pain to be like,
+hey, pay attention to that.
+Make sure it's not a
+scorpion that's still there.
+But you don't need this
+sharp pain forever.
+You want to be able to inhibit
+it and just say, OK, pay
+attention.
+But then, just to make
+sure you don't walk on it
+anymore and get
+it infected, we're
+going to make it
+hurt a little bit.
+And so this is your body
+trying to make the most
+of this type of information.
+And what it's doing is
+using lateral inhibition
+in this complicated way,
+actually simple way,
+to allow for these two types of
+transmissions of information.
+That was a very simple example.
+And I think there's a much
+more complex example when
+we go into the types of
+complex visual stimuli
+that vision gives us.
+And you can imagine that lateral
+inhibition, the same type
+of spatial sharpening
+of a signal,
+can come into play as we're
+trying to figure out and piece
+together the visual world.
+So what this is doing, what
+this kind of lateral inhibition
+allows for, is it allows for
+visual neurons to receive input
+and then to say, it is me.
+This is the signal
+that I want to send.
+Not only that,
+inhibit the neighbors.
+And what this leads to
+is this emergent property
+of these retinal
+cells that allow
+for specific types
+of signal and allow
+for specific types
+of receptive fields.
+So in your eyes, your neurons
+in the back of your eyes,
+if you just stand
+still, they only
+have a certain angle of
+light that they can get.
+And that idea is this
+idea of receptive fields,
+that they are responsible
+for that field.
+And they're
+responsible for saying,
+if there's a signal
+there, this is what it is.
+And this is how it's relevant.
+And what this type of lateral
+inhibition allows you to do
+is it allows you to say, OK.
+Your neuron gets
+a signal, and it
+wants to say, OK,
+that's an edge, an edge
+detection, contrast detection.
+If you look around at
+the objects in the room,
+often you define
+them by their edges.
+So we have this elaborated
+neural mechanism
+involving inhibition
+and excitation
+that allows for this type
+of contrast enhancement.
+And what can we do
+with this even more?
+So these guys Hubel
+and Wiesel decided
+that they were going to look--
+OK, another brief anecdote.
+So there's this commercial
+when I was young.
+And it was Michelin Tires.
+And if any of you guys ever
+become marketing people,
+which there's enough of you that
+statistically, someone will.
+I don't know why you
+don't make commercials
+that are scary, because this
+commercial frightened me.
+And I was, like, six.
+And I remember it to this day.
+So why not, if you want someone
+to remember your product,
+just make it-- take
+what you know from this,
+and use it to manipulate people.
+That's what education is.
+And so I remember
+this commercial.
+And I just remember it
+was for Michelin Tires.
+And their whole point was
+that no matter how fancy
+your car is, no matter how
+much you spend on your car,
+there's only four
+points of contact
+between you and the road.
+And it's on your tires.
+And I don't know why, but this
+blew my mind, and it scared me.
+And it made me recognize
+that, yeah, you
+should get good tires.
+So Hubel and Wiesel, they took
+essentially the same logic,
+which is that we have this
+complicated visual world,
+and we know that we put
+it together somehow,
+but our only access
+to this information
+is through the retina.
+We have the light is the road.
+These are our two tires.
+We only have two tires
+to connect with the road.
+And so their logic
+was that if we
+look at each individual
+neuron in the retina
+and trace it back, we should
+be able to see, somehow,
+how this visual
+world is constructed,
+how it is that we go from the
+only signal, the only signal
+from the outside
+world we get, to
+this complicated visual field.
+And what they found
+was that if you
+look at the neurons in
+the back of a retina,
+and then look at where
+they synapse, back
+in your visual
+cortex, they found
+a one-to-one correspondence,
+that if you activate
+a certain neuron in
+your retina, you'll
+get a spatiotopic-- which
+means they're oriented
+in the same way,
+and all the neurons
+are aligned in a
+similar way-- field
+in the back of your
+visual cortex, in V1.
+And so what that
+essentially means
+is that your eyes are smushed
+to the back your head.
+There's no information that
+necessarily gets enhanced
+or reduced between your
+retina and the back
+of your visual field.
+And they're like, OK, great.
+And so these guys, Hubel and
+Wiesel, won the Nobel Prize.
+If you could win more
+than one, they probably
+would have won four by now.
+They were these Harvard
+neuroscientist back in the day.
+And they are pretty much
+who you need to know.
+You need to know Hebb.
+You need to
+understand glutamate.
+You need to understand LTP.
+And Hubel and Wiesel, if you're
+going to be a neuroscientist,
+be interested in the
+brain, they will come up.
+And if you're a
+neuroscientist, you
+have to invite them
+to your wedding.
+You have to do everything.
+I don't even know if they're--
+they might even be dead.
+You have to seance
+them, or something.
+But what they decided to do
+was then, OK, now we're at V1.
+We're at the one level
+of visual cortex.
+What else can we do?
+Where does the scene get
+constructed that we see?
+And what they did was
+looked one layer up.
+And they did the
+exact same thing.
+They fired individual
+retinal neurons.
+And they looked in
+the next layer up.
+And absolutely nothing happened.
+There was no activity anywhere,
+no matter what they did.
+It fired all of them, and
+there was no activity.
+And they were like, oh, damn it.
+We're not going to get
+invited to any weddings.
+What are we going to do?
+But what they discovered
+was that if you activated
+enough retinal
+neurons, and that they
+were in a certain spatial
+orientation, say a line,
+then you get activation
+in this other layer
+of your visual cortex.
+And what they discovered,
+and what was on, I'm sure,
+the construction of all of
+their wedding invitations,
+was that if you have
+certain neurons that
+are selective to certain
+orientations of lines, like so,
+if you imagine these
+are four neurons,
+a single neuron will be
+responsive to a vertical line.
+A single neuron, another
+one, a different one,
+will be responsive
+to a 45-degree angle,
+a horizontal line, 135 degrees.
+And so what you get, and you're
+starting to piece together,
+is this way of constructing the
+visual world that is layered,
+and that extracts out features,
+and that through those features
+you get individual
+neural activation.
+And you might imagine that
+if you go up even further,
+you would get some sort
+of more higher order
+types of activation,
+individual activation,
+in your visual cortex, something
+like, say, a neuron that only
+responds to an orange, or
+a neuron that only responds
+to a banana, or a
+neuron that-- so this
+is one of the terms
+in the field--
+only responds to
+your grandmother.
+And they call it a
+grandmother neuron.
+And there's this kind
+of El Dorado type
+quest for grandmother neuron.
+Where can we find it?
+And the problem is,
+nobody ever found it.
+So then the question
+becomes, again,
+related to memory, related
+to even our understanding
+of these kind of
+networks of neurons.
+Where are these memories stored?
+This is slightly out of order.
+But basically, this is
+an example of, again,
+your lateral inhibition.
+So to understand how it is that
+these signals are sharpened,
+this is a nice visual illusion.
+Do you guys see little dots
+of dark between each of those?
+That is an artifact.
+That is an artifact of
+your visual perception.
+That is an artifact of
+you constructing that.
+And why is that happening?
+Because at each of those
+individual corners,
+you're getting the
+most amount, because
+of the four axial bars of
+white, of lateral inhibition.
+So in every single one
+of your brains right now,
+whenever you look at
+the individual corner,
+you're getting
+lateral inhibition.
+And so you can imagine
+that this type of thing
+is a demonstration of
+lateral inhibition.
+Another type of thing, when
+I was talking about pain,
+there's this fascinating
+thing where-- we all
+know this-- where if
+something itches, say,
+you have a mosquito bite.
+And you want to scratch
+the hell out of it,
+because sometimes it
+feels really good.
+You notice also that you
+can scratch around it.
+You can make hard,
+kind of painful stimuli
+in the immediate
+vicinity, and just
+do it really,
+really hard enough.
+And you get lessening of pain.
+And what that is, is
+the same type of thing.
+It's lateral inhibition of the
+focal point of the mosquito
+bite.
+And so these things
+sound abstract,
+but these things
+really are real.
+And we can see them,
+and we can feel them,
+if we know where to look.
+So one last idea.
+We're trying to
+get at, OK, where
+are these memories stored?
+Where are these facts?
+Where is what you know now
+about neurobiology stored?
+And it's helpful to introduce
+the idea of neural networks.
+There's 100 billion
+neurons in the brain.
+These are not
+communicating one to one.
+These are communicating
+with tens of thousands
+of other types of neurons.
+And if you simplify this
+down to just the basic idea
+of a neural network,
+such that you
+have your bottom,
+first layer cells.
+And these first layer cells
+respond to, respectively, left
+to right, Monet, Cezanne, Degas.
+They just respond.
+For some reason,
+they have been tuned.
+They have undergone LTP.
+That is what they respond to
+in this very one-to-one Hubel
+and Wiesel kind of way.
+But what we notice is that
+there's this elaborate property
+you get when you start
+to combine neurons
+with many, many other
+types of neurons, which
+is that you get a network.
+And you get a network without
+one-to-one correspondence.
+So if you look at the top
+row, and you get neurons A
+through E, A still responds
+in this one-to-one way,
+with just Monet.
+E, again, you got just Degas.
+So those are not really
+informative in the way
+in which we want to understand
+the emergent property,
+and what's important
+about neural networks.
+What we get out
+of neural networks
+is emphasized when
+we focus on C. Neuron
+C doesn't know-- if it gets
+activated, what can you tell?
+You don't know which
+input it came from.
+You don't know whether it came
+from the first-layer neuron
+1, first-layer neuron 2, or 3.
+You don't know whether or not it
+was a Monet, Cezanne, or Degas.
+All you know is that
+it's one of those three.
+And what you get
+now is this idea
+that you can have concepts,
+and you can have categories.
+And you can have a
+category of impressionism.
+That doesn't
+necessarily give you
+information about individual
+types or names, or which
+neuron it came from.
+But you have a
+network of neurons
+with different concepts in it.
+And amidst this
+network, you can now
+understand how it is that
+environment and context can
+impinge on the storage
+and retrieval of facts.
+So the idea that emotionally
+salient memories are longer
+lived in your brain, in your
+synapses, in your plasticity,
+than other ones,
+well, how is that true
+if they're not contextually
+related, if the mechanism is
+the same everywhere?
+But what you begin to see is
+that if you combine context
+in this version of
+neural networks,
+you start to get the neural
+representation of context,
+the neural representation
+of environment.
+And this makes sense
+if you think about how
+we try to remember things.
+If you try to
+remember something,
+and you know it's an
+impressionist painter,
+or you know it's
+within a category,
+but you're not quite
+there, you kind of
+take a tour of categorical
+ways of thinking
+and categorical learning
+and categorical objects
+in the world to try to
+get at how that one fact,
+that one bit of information
+that you're trying to remember.
+So it's not that individual
+memories are stored in neurons.
+It's not that they're stored
+in the generation of synapses.
+It's not that they are stored
+in entirely just the plasticity
+of single synapses.
+It seems that we can
+get at and explain
+a lot of these types of
+memory by understanding
+that memory is one
+aspect of the formation
+of these neural networks,
+and that if we have
+100 billion neurons,
+we can imagine
+elaborate and complex ways
+of designing these things.
+So here we go, one more time.
+Many very different
+things happen
+when we remember,
+everything down
+from the synaptic
+plasticity all the way up
+to this impressionism,
+categorical way of thinking
+and remembering about things.
+And what is again
+interesting here
+is that you can
+imagine-- what we've
+learned about polymorphisms,
+genetic individuality
+and variation, that
+certain people can have
+different stress responses.
+The person next to you can
+have a different response
+to stress than the other person.
+One person will be more
+afraid of public speaking
+than the other person.
+One person will
+respond a certain way
+based on prenatal,
+postnatal environment,
+all these different things,
+all these different variations,
+these polymorphisms that lead to
+individual and varied behavior.
+And now we can understand that
+a polymorphism in how much
+presynaptic glutamate
+gets released-- remember,
+glutamate, excitatory--
+a polymorphism
+in how strongly your
+postsynaptic receptor responds,
+a polymorphism in the ways in
+which your neural networks are
+constructed, these types
+of individual things,
+which each are their own
+variable in your brain's
+construct of memory, can lead
+to different and individual ways
+in which we remember.
+Some people are just better
+at remembering than others.
+And what we're trying to get
+at is from the spectrum of HM,
+who can't remember anything,
+to Stephen Wiltshire, who
+can remember this, and where
+the genetics and the environment
+impact our individual memory.
+And I think that's it.
+So we'll take a
+five minute break.
+[APPLAUSE]
+I'm going to talk to you guys
+about the autonomic nervous
+system.
+So basically, autonomic
+sounds like automatic.
+This is anything that's
+going to happen automatically
+in your body, not quite
+the hippocampus, horse,
+like hippodrome-- like
+automatic, autonomic.
+So basically, your heart
+beating, digesting,
+goosebumps, orgasm, things that
+you don't have control over--
+[LAUGHTER]
+Good stuff, right?
+This is going to be your
+autonomic nervous system.
+So first, the nervous
+system, remember,
+is split up into the
+central and the peripheral.
+So our central nervous system is
+our brain and our spinal cord.
+And our peripheral
+nervous system
+is everything else
+on the periphery.
+And then within that, the
+peripheral nervous system
+can be split up into the
+somatic nervous system
+and the autonomic.
+So we're going
+over the autonomic.
+Remember that.
+But just to tell you
+about the somatic,
+that's basically the
+voluntary nervous system.
+So if you want to pick
+up a pen off the ground,
+your brain says, OK, I
+want to pick up a pen.
+Send the message to my muscle.
+Muscle's going to
+pick up the pan.
+It's also your
+sensory info, so when
+you touch something or
+smell something, information
+from the periphery going to
+your central nervous system.
+And autonomic
+nervous system, what
+we're going to talk
+about today, can
+be split up into the
+parasympathetic and sympathetic
+nervous systems.
+We'll go over all
+those in detail.
+But for right now,
+one last comparison
+of the voluntary and autonomic.
+So the voluntary nervous
+system, remember, voluntary,
+moves muscles.
+Autonomic, it's involuntary,
+moving organs, your heart,
+your digestive
+system, your lungs.
+The voluntary nervous
+system's actually myelinated.
+So what that means is there's
+a myelin sheath covering
+the axon, as you can see there.
+And the action
+potential actually
+can speed up and go
+down the axon faster.
+And the autonomic nervous
+system's actually unmyelinated.
+These are just fun facts.
+So it goes a little bit slower.
+The good stuff, autonomic
+nervous system--
+so we have sympathetic
+and parasympathetic.
+And sympathetic is
+that nervous system
+where you hear fight or flight.
+So anything exciting,
+arousal, alertness, emergency,
+like if you have a
+hippo chasing after you
+or something, definitely
+sympathetic nervous system.
+If you like somebody and are
+talking to them first time,
+sympathetic nervous system
+activation, you're excited.
+Parasympathetic is more of
+the calm, vegetative function.
+So after you have a huge meal,
+or when you want to take a nap,
+anything like that, growth,
+repair, total relaxation state.
+And as you can see,
+they kind of sound
+like they have opposing
+functions, because they do.
+And they tend to
+work in opposition,
+so it's kind of like
+putting your foot on the gas
+and the brake at the same time.
+You can't really do that,
+because they're opposing.
+When the parasympathetic
+system is on,
+your sympathetic nervous system
+is usually off, and vice versa.
+So they work together to keep
+our body going automatically.
+OK, sympathetic nervous
+system-- so remember,
+this is like that huge animal,
+whatever your favorite one is,
+chasing after you.
+What do you do?
+Well, your heart speeds up.
+It's going to beat faster.
+You're going to breathe more.
+You're going to vasoconstrict.
+So what that means is you're
+sending the blood-- you're
+basically constricting
+your blood vessels
+and sending blood more to your
+lungs and to your muscles,
+so you can run away.
+You're going to
+inhibit digestion.
+When you're running
+away from a hippo,
+you don't care about digesting
+the sandwich you just had.
+You're going to sweat.
+Your muscles will
+tense, anything
+you would think of when you're
+just totally freaked out.
+And the parasympathetic
+nervous system-- I
+really like these pictures.
+I found the dog, and
+I got super excited.
+And then I found him,
+and I wanted to name him,
+but I haven't thought of it yet.
+But basically, they're
+resting and digesting.
+They're just taking it
+easy, like growth, repair.
+Basically anything you would
+do when you're not stressed,
+you have time to do now.
+Your immune system
+can function well.
+You can spend time
+digesting and urinating.
+Sympathetic nervous
+system-- So we're
+going to look into the
+neurotransmitters involved
+in both the symptoms now.
+So neurons-- what's
+being communicated?
+And I know that Pat told
+you glutamate's the best.
+But I'm going to fight that and
+tell you that norepinephrine
+is one of the good ones, too.
+So basically, you
+release norepinephrine
+in the target organs
+when you're dealing
+with the sympathetic
+nervous system.
+So the hippo coming
+at you, what you do
+is you're going to
+release norepinephrine,
+NE, onto the target organs.
+And you can see the
+organs on the right.
+It affects all of those.
+So it's going to your heart.
+It's going to your lungs.
+It's going to your
+kidney, your bladder.
+And it's telling it-- when
+it receives norepinephrine,
+those organs know, OK, my
+sympathetic nervous system
+is activated.
+I'm going to fight or flight.
+I'm going to run away right now.
+Or I'm going to start-- my
+heart's going to beat faster.
+And the one exception is the
+sympathetic nervous system
+actually releases
+epinephrine in the adrenal.
+And this is just
+a cool exception.
+Epinephrine, remember it's one
+step away from norepinephrine
+in the biosynthetic pathway.
+So you can make epinephrine
+from norepinephrine,
+so they're not really
+that different.
+And epinephrine's also
+called adrenaline-- adrenal,
+adrenaline, see the resemblance.
+And this is just
+another diagram, again,
+showing you norepinephrine
+released on the target organ.
+So you think of sympathetic,
+you think of norepinephrine.
+And you can see how it will
+go and accelerate the heart
+beat, stuff like that.
+And just more in
+detail, if you've
+taken bio core-- I don't know
+about [INAUDIBLE] bio core,
+but definitely bio core-- you
+know that it's not that simple.
+You don't need to
+worry about this.
+But there's actually
+an intermediate step,
+where the spinal cord
+projections actually
+first go to this ganglion, which
+then goes to the target organ
+and releases NE there.
+But don't worry about that.
+Just know norepinephrine,
+sympathetic.
+Parasympathetic
+nervous system-- so we
+have another cool
+neurotransmitter
+besides glutamate and NE,
+which is acetylcholine, or ACh.
+And the parasympathetic, you see
+it goes to all the same organs.
+But now, when it releases
+ACh, those organs
+know parasympathetic,
+rest and digest.
+I have time to finish my
+meal and do everything that I
+can do when I want to relax.
+And again, there is
+an intermediate step,
+where you release acetylcholine
+first in the target organ.
+And then a second neuron goes,
+releases acetylcholine again.
+This [INAUDIBLE]
+Ach, parasympathetic.
+And if you want more
+details about it,
+too, this slide is
+totally extra details.
+But you can see the projections
+from the spinal cord
+actually lead from
+different places
+in the parasympathetic and the
+sympathetic nervous system.
+And you can just see at
+the end, acetylcholine
+and norepinephrine
+being released.
+So this is a really
+important slide.
+That's why I put stars on it.
+[LAUGHTER]
+Even Sapolsky, when
+he saw my PowerPoint,
+he was like, spend a lot
+of time on that slide.
+So I'm going to.
+So we're going to look at
+exactly what happens when
+your parasympathetic or
+sympathetic nervous systems
+are activated, and compare
+them in different organs.
+So the easiest one to start with
+is your cardiovascular system,
+so your heart.
+You're running
+away, you're scared,
+or you're meeting someone
+new for the first time
+that you really like.
+And your sympathetic
+nervous system turns on.
+Your heart's going
+to beat faster.
+Remember that.
+So your heart actually
+has a myogenic rhythm,
+which means it actually
+has a muscle that
+is controlling its beating.
+But what the brain does, and the
+sympathetic and parasympathetic
+nervous system does,
+is it can change
+how fast the heart beats.
+So your heart's beating faster.
+Your blood pressure
+will increase
+when your sympathetic
+nervous system is on.
+You're going to
+vasoconstrict, remember, send
+the blood to your muscles,
+so you can run away and all
+that good stuff.
+And parasympathetic-- opposite.
+Slower heart beat,
+vasodilation of the vessels.
+Blood's now going to the
+GI tract for digestion,
+and everything like that.
+Another fun example is
+the GI tract itself,
+so your gut, your stomach,
+your small intestine.
+So basically, parasympathetic
+activity, when you're resting,
+you have time to digest.
+So what you do is you
+stimulate the secretion
+of the acids and enzymes
+needed for digestion.
+You move your small
+intestine with a contraction
+called peristalsis.
+And basically, you can go to
+the bathroom, and everything
+that you would do
+while you're relaxing.
+Sorry.
+So in the heart
+and the GI tract,
+you can pretty much see that
+they're working in opposition.
+So when the heart beats
+up with sympathetic,
+it slows down with
+parasympathetic.
+GI, the opposite case,
+parasympathetic turns it on,
+speeds up digestion.
+Parasympathetic turns it off.
+I'm sorry.
+This is the important slide.
+So one place where they
+actually do work together
+instead of actually
+opposing each other
+is in the male
+reproductive system.
+And they work together for
+you to erect and ejaculate.
+So what happens is in
+order to have an erection,
+you have to be stress free.
+You can't be worrying
+about your test.
+So which one do you think
+is in charge of erection,
+parasympathetic or sympathetic?
+Parasympathetic.
+Perfect.
+So parasympathetic activation,
+you get an erection.
+Now let's say you
+have an erection.
+And now you're with
+somebody, maybe.
+I don't know what you're doing.
+[LAUGHTER]
+Whatever's happening-- sorry.
+All of a sudden, you feel
+your heart beating faster.
+You start sweating a little bit.
+Your sympathetic nervous system
+is turned on a little bit now.
+So now we have parasympathetic,
+we still have our erection.
+But we also have some
+sympathetic activity,
+and then more and more
+sympathetic activity.
+And all of a sudden, sympathetic
+activity completely takes over.
+And what happens?
+You ejaculate, right?
+So parasympathetic-- erection,
+sympathetic-- ejaculation.
+And it's actually a cool fact
+about erectile dysfunction
+that about 60% of the cases are
+due to stress and not actually
+organic basis in your body.
+So if you're stressed
+out all of the time,
+your parasympathetic
+activity won't turn on,
+so you can't have an erection.
+And also, we can explain
+premature ejaculation,
+if you want to to
+your friends tonight.
+You can just be like,
+well, let's think about it.
+So I have an erection, but I'm
+going to ejaculate too soon.
+So parasympathetic transition
+to sympathetic transition,
+or the parasympathetic
+transition to sympathetic,
+happens too quickly, your
+premature ejaculation.
+[LAUGHTER]
+And then health,
+so immune system.
+[LAUGHTER]
+When your parasympathetic
+system is on,
+you can take care of
+your immune system.
+You have the time to make
+the white blood cells.
+But when you're chasing away
+from a predator or an elephant,
+you really don't care about
+making new white blood cells.
+And this could also explain
+why it's easier to get sick
+when you're stressed out.
+Your sympathetic
+is too much caring
+about your stressful
+situation than taking
+care of your immune system.
+I don't know-- oh my
+computer goes on sleep.
+I think that's it.
+So again, we see there's
+a balance between the two
+branches.
+So sympathetic, you're
+running away from a snake.
+When that's on,
+parasympathetic's
+off, and vice versa.
+And there's actually a really
+cute video that I found.
+And you have to click it twice.
+So the sympathetic
+nervous system, this video
+will tell you everything
+that I just told you.
+It increases heart
+rate, makes your pupils
+dilate so you can see further,
+run away from the predator.
+You don't have time to digest.
+You don't care about nasal
+secretions right now.
+[LAUGHTER]
+You're not going
+to produce saliva.
+Who cares about eating?
+Inhibits the liver,
+kidneys, and gall bladder,
+and stimulates sweating.
+We're going to sweat when we're
+running away, getting scared.
+Causes piloerection,
+so when your hair
+stands when you're nervous.
+Makes the lungs dilate,
+you can breathe faster.
+Increases muscle strength
+so you can run away,
+and is important for orgasm.
+[LAUGHTER]
+Sorry.
+Parasympathetic, opposite, so it
+makes your heart rate go down.
+Pupils are going to contract.
+You're going to digest.
+You're going to like the
+nasal secretions now.
+[LAUGHTER]
+You're going to stimulate
+the liver, the bladder,
+and the kidneys.
+You constrict your lungs.
+You're going to pay more
+attention to your digestion.
+And it's important for sexual
+arousal, remember erections.
+You can play it again later.
+So an important
+point to make is when
+we think about sympathetic
+nervous system,
+we're thinking about arousal,
+emergency, fight or flight.
+But that doesn't mean it
+always goes to the organ
+and excites it.
+So in the heart,
+when norepinephrine
+goes from the sympathetic
+nervous system to the heart,
+it does excite the heart
+and make it beat faster.
+But when it goes
+to the GI tract,
+it inhibits GI tract activity.
+So it's not always excitatory,
+it's not always inhibitory.
+It depends on the organ.
+Same with parasympathetic.
+We think of it as being
+the slower moving one.
+But in the GI tract,
+it does excite it.
+In the heart, it inhibits.
+So what does that mean?
+It means we need two different
+receptors on our organs
+that respond to norepinephrine
+or acetylcholine.
+So on the heart, for instance,
+for norepinephrine, you'll
+have an excitatory
+norepinephrine receptor,
+because it will get excited
+and make the heart beat faster.
+But in the GI tract, you'll have
+an inhibitory norepinephrine
+receptor that will respond to
+the sympathetic nervous system
+and slow it down.
+And then for the
+parasympathetic,
+you'd have an excitatory ACh
+receptor on your GI tract
+to speed it up, to
+digest more food.
+And you'll have an
+inhibitory ACh receptor
+on the heart to slow it down.
+So just see you
+can't always have
+the same receptor
+on the same organ,
+or else it wouldn't
+respond right.
+And this is just
+showing you, again.
+So the heart there, you have
+your inhibitory ACh receptor,
+which tells your
+heart to slow down.
+Excitatory norepinephrine,
+heart speeds up.
+And in the GI tract, if
+ACh is coming your way,
+it will attach to the
+excitatory receptor,
+and it'll be like, digest.
+And you have the inhibitory
+norepinephrine receptor there,
+too.
+So if sympathetic activity
+is being stimulated,
+norepinephrine will land there
+and will slow down digestion.
+So if you've taken bio core,
+if you want to know more--
+there's actually names for all
+of these forms of receptors
+that I put there, just in
+case you're extra interested.
+But on the heart, I think
+the coolest fact about it
+is the beta blocker.
+So the form of the
+receptor on the heart that
+responds to the
+sympathetic nervous system
+is actually called
+a beta receptor.
+And what beta blockers do,
+they block the receptor,
+the beta receptor.
+So this is why beta
+blockers are used
+for slowing down heart
+rate, reducing hypertension.
+It's basically
+blocking the effects
+of the sympathetic
+nervous system.
+And Pat actually just
+told me, which is great,
+that the one drug that's
+banned from the Olympics
+are actually beta blockers,
+because if you think about it,
+a huge advantage would
+be to be less stressed.
+So if they're
+blocking the receptor
+on your heart that
+responds to stress
+and the sympathetic
+nervous system,
+you can see how it could
+allow you to relax more.
+So it's a fun fact.
+So now we're going to
+talk about the regulation
+of the autonomic nervous
+system, so what's
+happening in the brain that's
+resulting in norepinephrine
+or acetylcholine being released.
+And the center of regulation
+is now the hypothalamus.
+So we just talked
+about the hippocampus,
+so this is a different area of
+the brain, the hypothalamus.
+It's going to be very
+important on Monday as well,
+when Tom and Will talk
+about the endocrine system,
+because the
+hypothalamus directly
+affects the pituitary
+gland, which is center
+of your endocrine system.
+So basically, the hypothalamus
+here contains the cell bodies,
+or is just one synapse away
+from all the cell bodies
+that project onto
+the target organs,
+from the spinal cord
+to the target organs.
+So basically, the hypothalamus
+will tell the spinal cord
+what to project onto the organ.
+So an example of this
+would be in your heart.
+And this is actually
+called the baroreflex.
+And this is just an example of
+how your hypothalamus is going
+to help your body
+maintain status quo,
+so make sure that your blood
+pressure's never too high,
+your heart's beating
+at a normal speed.
+So let's say you're
+hemorrhaging,
+because I don't know, a
+hyena just attacked you.
+That's weird.
+So anyways, you're hemorrhaging.
+And you're losing
+a lot of blood,
+so your blood pressure's
+going to go way down.
+And you have these receptors
+in your blood vessels
+that are called baroreceptors.
+And they'll say, OK, blood
+pressure's way too low.
+What do I do?
+They're going to send that
+info to the hypothalamus--
+remember the hypothalamus,
+center of regulation.
+And the hypothalamus
+will be in charge
+of sending that
+information along
+to the spinal cord, which will
+then project onto the heart
+and tell it to beat faster.
+Sympathetic nervous
+system will be activated.
+Beat faster, increase
+my blood pressure,
+so that you'll make up
+for the loss of blood
+that you just had.
+And the opposite would happen
+if your blood pressure is
+getting too high or something.
+Maybe the info will
+be sent to your brain.
+And then you can
+decrease blood pressure
+through the parasympathetic
+nervous system.
+So reptiles, everybody kind of
+has that hypothalamus control
+of the-- yeah.
+Sorry, I had a question
+about the [INAUDIBLE].
+This is kind of a
+[INAUDIBLE] question,
+but is it actually stimulating
+the sympathetic nervous system?
+Or is it normally stimulating
+the parasympathetic and then
+stops the stimulation?
+Oh, because remember,
+one's on or off.
+So like which one's normally on?
+Do you guys know?
+Anybody know?
+There's just a baseline
+balance [INAUDIBLE].
+Yeah.
+So what about mammals?
+Mammals have emotions.
+And we have an
+emotional regulation
+are in our brain that's
+called the limbic system.
+And we're going to learn
+a whole lecture just
+about the limbic
+system in general.
+But basically, it has everything
+do with emotions, behaviors,
+memories, all
+mammalian type things.
+So now we see this realm where
+not just losing all your blood
+can activate or stimulate
+the nervous system
+and cause a parasympathetic
+or sympathetic response.
+But now just seeing
+someone you hate
+can cause a sympathetic
+response that's
+very similar to
+losing a lot of blood.
+And this is pretty amazing.
+Wildebeests, for instance,
+if they see their enemies,
+the info will be sent from
+just the smell of their enemies
+to the limbic system, project
+onto the hypothalamus, spinal
+cord, to the sympathetic
+nervous system,
+be like, I don't
+like you response.
+The sympathetic
+nervous system wanting
+to either fight or flight.
+And then in the
+realm of primates,
+we also have our cortex.
+And what the cortex does is
+it makes thoughts and memories
+really important.
+So now, instead of just
+having-- losing a lot of blood,
+we're changing how
+our body functions.
+And now, not even
+having to sense-- we
+don't need to have a sense.
+We can just think
+about a thought.
+And that can go ahead
+and change the way
+that every organ in
+our body functions,
+which is pretty amazing.
+So when you're thinking
+about a test, for instance,
+you're going to
+activate your cortex.
+And this will activate your
+limbic system, and then
+your hypothalamus.
+So that's known, actually, as
+the triune system of the brain.
+You have the cortex
+in primates, mostly.
+Then you have the limbic
+system, mostly mammalian.
+And then you have
+the hypothalamus.
+So it's going to go to each one
+of these layers of the brain.
+And just thinking
+about a test can
+cause a sympathetic
+response, where
+you start sweating, getting
+nervous, stressed out.
+And it's pretty amazing that
+if you lost a lot of blood
+in a reptile, we can stimulate
+the same response just
+thinking about
+something, or thinking
+about someone on the other
+side of the world dying.
+It's just amazing
+what primates can do.
+And an interesting
+example of this-- and I
+think we're having a lecture
+on depression, so I don't
+want to give it all away yet.
+But if you think
+about it, the symptoms
+of depression, loss of
+pleasure, pain pathways on,
+don't want to have
+sex, aren't in the mood
+to eat, you're exhausted all the
+time, a lot of these symptoms
+are the same symptoms
+you would see
+if your sympathetic nervous
+system was overly activated.
+And we can see how the
+cortex having bad thoughts
+can go and activate that
+system in the same way, links
+to depression.
+And the last thing
+I wanted to talk
+about in terms of the
+autonomic nervous system
+was the plasticity of it.
+So we just learned the
+plasticity in neurons,
+in the synapses.
+So that's when it
+can change over time.
+And the autonomic nervous system
+can actually change over time,
+in terms of how receptive,
+or when it turns on and off.
+And a molecular
+example of this is
+if you're a very
+stressful person,
+and you're stressing
+all the time.
+Well, then you need a
+lot of norepinephrine.
+What do you do if you're
+stressing all the time?
+You increase the
+synthesis of the enzyme
+called tyrosine
+hydroxylase, I believe.
+Yeah, it's up there.
+And basically, this is
+the rate limiting step
+in making norepinephrine.
+So if you increase
+more of the enzyme,
+you increase more of
+the norepinephrine,
+you can sustain the
+stress response.
+Another example,
+cellular example,
+is that we have projections from
+the sympathetic nervous system
+to the skin, eyes,
+nose, everything
+that's going on out there.
+And let's say we
+see something scary.
+We can make those receptors more
+sensitive to that scary thing.
+So we can say, hey, it
+actually smells that enemy.
+We can make it seem scarier.
+The sympathetic nervous
+system can turn on faster,
+so sensitization.
+There's also the opposite
+end of the spectrum,
+where you habituate to things
+that are going on outside.
+So scary stimuli--
+if you see a spider
+in your room the
+first time, you're
+probably going to freak
+out when you're younger.
+Lots of sympathetic activity,
+running away, fight or flight.
+You decide to fly, because
+I don't like spiders.
+But basically, after a while,
+second time you see a spider,
+you're just like, oh,
+this is still scary.
+Maybe I'll run away.
+The third time,
+maybe you decide,
+whatever, I'm just going to
+leave it there at this point.
+And you're habituated to it.
+So you've made the thresholds
+of your sensory receptors,
+they don't care as much.
+They don't respond as much.
+And a last example, when we're
+talking about cognitive thought
+and the cortex and
+what that can do
+to change our autonomic
+nervous system,
+is an example of biofeedback
+and blood pressure.
+So basically, if you
+have high blood pressure,
+you can go into the
+doctor's office.
+And you have two options.
+You can take medicine, or
+you could try biofeedback.
+And what they do
+is they tell you
+to think of a pleasant thought.
+So think of your
+favorite vacation,
+or think of your
+favorite person,
+or just think of the
+beach in general.
+And what you'll see is that your
+blood pressure will actually
+decrease with a certain thought.
+And then the doctor
+will tell you to think
+about that thought again.
+Your blood pressure
+will decrease.
+And thinking more and
+more about that thought,
+helping your blood
+pressure decrease,
+what you do is you potentiate,
+remember, you make stronger
+the connection where a
+cortical thought can go ahead
+and activate more
+parasympathetic tone,
+have less sympathetic tone.
+So we're potentiating
+that pathway
+by which a thought can cause
+our blood pressure to decrease,
+which is pretty cool.
+So the take home points,
+if you want to just know
+what to remember from this.
+Know the broad difference
+between autonomic,
+automatic, and the voluntary
+nervous system, what we
+talked about at the beginning.
+Understand the neurotransmitters
+involved in each,
+and why you need two
+types of receptors,
+the inhibitory and excitatory.
+Know one or two examples of
+what the parasympathetic--
+that's what PNS,
+by the way, means--
+and sympathetic nervous
+system do to an organ.
+So remember the heart,
+the digestive tract,
+the male reproductive system.
+And then know a broad overview
+of how the brain regulates
+the autonomic nervous system,
+so hypothalamus, cortex,
+and we have the limbic system.
+On Monday, we're going
+over endocrinology.
+So have a good--
+For more, please visit
+us at Stanford.edu.

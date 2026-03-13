@@ -1,0 +1,3907 @@
+9. Ethology
+===========
+
+[MUSIC PLAYING]
+Stanford University.
+Let's get started.
+Let's see.
+Once again, game plan for
+the coming week or so.
+Next three lectures will be the
+TA overviews-- introductions
+to nervous system,
+endocrinology.
+Once again-- what I
+emphasized the other day is--
+if you're not sure if you've
+got enough background exposure
+to these topics for
+it to be worth coming,
+I would suggest you
+assume that you don't.
+Because it could do
+nothing more than
+help, even if you've had
+a lot of this before.
+Following that, some more
+advanced topics in the subject,
+and then barreling
+on into the midterm.
+OK.
+Today we leap yet
+another discipline
+into yet another one, this one
+being concerned with basically
+the same exact issues that we've
+had before-- nature, nurture,
+interaction, behavior.
+And this one, as you will see,
+with a completely different
+approach than all
+the prior ones.
+Now the other day, when going
+through what heritability means
+and doesn't mean, one of the key
+points that came out at the end
+was that whole business of,
+the more different environments
+you study something in, the
+lower your heritability term
+is going to be.
+So what's one of the punch
+lines that comes out of that?
+If you want to understand
+the genetics of behavior,
+you've got to go look
+at the behavior in lots
+of different environments.
+What today's
+discipline is about is
+taking that one step broader.
+If you want to
+understand anything
+about the biology of
+behavior, number one,
+you want to study it in lots
+of different environments.
+Number two, you want to study
+it in as natural of environments
+as possible.
+And number three,
+go in there assuming
+that you are going to have
+to translate a language.
+The quote at the
+beginning there,
+something to the
+effect of ethology,
+the field we'll be
+looking at today.
+Ethology is the process
+of interviewing an animal,
+but in its own language.
+So what we'll see
+here is this is
+an expansion, in a certain way,
+on that notion that if you want
+to understand behavior, get your
+animal out of the laboratory.
+Now to begin to
+sort of appreciate
+the context this
+has in history, we
+start off-- God help us--
+with history of psychology
+at around 1900 or so.
+When, universally agreed upon,
+the Grand Poobah of psychology
+was William James.
+And all I know
+about William James
+is that he was
+highly philosophical,
+and I fall asleep every
+time I try to read the guy.
+But he dominated the period
+in a way in which psychology
+was basically an introspective
+business that was
+sort of a branch of philosophy.
+And coming out in the
+decades after that
+were the Young
+Turks of psychology,
+who despised this whole
+approach, because they wanted
+to make psychology a science--
+a quantitative science,
+an experimental science.
+They wanted numbers.
+Enough of this philosophy stuff.
+And out of it came this very
+deep, deep reflexive distrust
+of any behavior you couldn't
+see and you couldn't measure.
+And you didn't want to know what
+was going on inside anybody's
+personal life,
+inside their head,
+whether they were
+a fish or a human.
+All you were
+interested in is what
+was going on in
+the outside world
+just before that
+behavior occurred
+and what behavior was it.
+Simple organisms as
+input output black boxes.
+Forget this philosophy stuff.
+Give me something I can measure.
+And this was this
+emerging discipline
+of behaviorism, which
+became the dominant school
+in American psychology by the
+middle of the last century.
+We've already heard from one of
+the starting founding fathers
+of it, and that was John Watson.
+That was the guy from the
+first lecture-- give me
+a kid from any
+background, and I'll
+turn him into a butcher,
+baker, candlestick maker
+sort of thing, and
+that everything could
+be controlled in environment.
+And thus, you could
+shape behavior
+to any direction you want.
+Behaviorism sort of hit its
+heyday, its absolute apogee,
+with its most
+famous practitioner,
+who was BF Skinner.
+Skinner-- who dominated, I
+think, most studies show.
+Or that he was the
+best known, most
+cited psychologist
+throughout the middle part
+of the last century.
+Incredibly influential, and
+American psychology at the time
+was all about behaviors.
+What are the key features of it?
+First one was this
+hysterical, radical, extreme
+environmentalism.
+The notion that we are all
+table rases, whatever that is.
+That we are all blank slates
+and all that we come in with
+is this blank slate to be
+written on by environment.
+Don't tell me about genes.
+Don't tell me about
+biology at all.
+Don't tell me about
+anything other
+than what's going on
+in the environment,
+and how does that shape
+the behavior coming out
+the other end, and
+can I measure it?
+Extreme radical environmentalism
+in terms of gene environment.
+There were no genes.
+There were no interactions as
+far as they were concerned.
+The next building
+principal was this notion
+of reinforcement theory.
+Let me control when any
+given organism receives
+a positive
+reinforcement, a reward.
+Let me control when it receives
+a negative reinforcement
+of punishment.
+Give me the ability to control
+those in the environment,
+and I will produce any behavior
+you want in that organism.
+Once again, whether it is a
+fish or a human and everything
+in between, this utter
+reliance on behavior
+is shaped by the rewards and
+punishments of environment.
+Reinforcement theory.
+The final piece of it was
+this notion of universality.
+Which is, it works
+this way in everybody!
+It works this way in every
+single species out there.
+And if you want
+to study lab rats,
+you're going to learn
+the exact same thing as
+if you were studying giraffes.
+But it's a lot harder
+to study them in a lab.
+You sure don't need
+to study them out
+in their natural habitat,
+because it's just understanding
+the reinforcements coming
+in, the behavior coming out
+the other end.
+They're all the same.
+This period dominated
+by the behaviorists
+was, historically, a total drag.
+Because these guys had just
+a stranglehold on the field.
+And all of them,
+like, looked the same.
+If you ever look in one
+of those time-life books
+on the history of
+the mind or whatever,
+there will be the
+inevitable picture
+of BF Skinner with some pigeon.
+And Skinner was
+like your archetypal
+out-of-central-casting
+behaviors.
+He had this inordinately shiny
+forehead and these big glasses.
+And every picture of
+him, for some reason,
+photographers were always
+forced to kneel down and take
+a picture of him looming
+over with his pigeon.
+And everything considered, this
+was an incredibly frightening
+looking man.
+And he would then be free to
+go on with astonishing quotes
+like, dog, cat, rat,
+child, doesn't matter.
+It's all the same.
+This notion of universality
+of behaviorism.
+And Skinner invented all
+sorts of Utopian societies--
+one, a book of his that
+was very influential,
+a novel called Walden Two.
+You can build a perfect world
+out of reinforcement theory
+all with environmentalism.
+And I could have built
+the exact same utopia
+studying this with grasshoppers
+as with humans-- boy, cat, dog,
+rat, whatever.
+They're all the same.
+So the building of American
+behaviorism-- utter reliance
+on environmentalism, utter
+reliance on the notion that all
+of behavior could
+be explained-- could
+be shaped by the
+rewards and punishments,
+the positive and negative
+reinforcements of environment.
+And this works the same way
+in every single type of animal
+out there, so you might as
+well just study it in a rat,
+in a pigeon.
+Those were the two backbones
+of behaviorist research.
+Because they're a
+lot more convenient.
+And you can study it in
+the lab, because it's
+the exact same thing.
+It is purely a function of the
+environment you're controlling.
+And you understand that.
+And as long as there is
+some behavior coming out
+the other end that you could
+measure and generate numbers,
+you are doing
+scientific psychology,
+and this is what the
+whole field was about.
+Meanwhile, over in Europe,
+there was a totally different
+tradition emerging.
+And what it has its greatest
+similarities to is--
+you know, you read
+any of these books
+on the history of evolution,
+and there's always
+this phase of like all
+of these 19th century
+British naturalists,
+where like half of them
+were Parsons in some
+Anglican church or whatever.
+They always had to be Parsons.
+And they would always
+be out trumping
+around the woods of England
+with a butterfly net.
+And these were the guys
+who would come back
+with a gazillion different
+types of butterflies.
+This is when
+butterfly collecting
+became this obsession with like
+British, upper middle class
+and Parsons and stuff who would
+just go out in the country.
+And what would you do?
+You would come back, and you
+would generate these whatevers
+of all the different types of
+butterflies and just wallow
+in the variability.
+That was the main thing of it.
+Look at all these
+different colors.
+Look at all these
+different shapes of wings.
+The interpretation at the time
+of course was, look at all
+this glorious
+variability of life
+and God's work showing in it.
+But the main thing emotionally
+that these guys were about
+was variety-- the
+range of differences,
+the range of different ways
+that species could look like.
+And what this new field
+was emerging in Europe
+was ethology.
+What ethology was about was
+the same exact emotional pulse
+as in those 19th century
+Parsons with the butterfly nets.
+But what ethologists would do
+is go out and collect behaviors.
+And they would come back, and
+they would just wallow and just
+be buoyant by all of
+the different types
+of behavioral variety.
+And that's the most
+important thing.
+So we can see right
+off the bat, they
+are not going to be
+getting along very
+well with the behaviorists--
+with the rat equals boy
+equals hippo business there.
+Because what these
+guys were all about
+was just the sheer variety of
+behavior and, implicit in that,
+how you have to study it
+in natural environments.
+So there were three
+guys during this period,
+beginning work early in
+the 20th century, who
+were the official godfathers
+of the whole field of ethology.
+One was Niko Tinbergen.
+Next was Konrad Lorenz.
+The next was Hugo Von Frisch.
+And these were the big three.
+They eventually got
+their Nobel prizes.
+And Tinbergen was basically
+a saint, an incredibly sort
+of accomplished,
+interesting man who
+did all sorts of
+extraordinarily good things.
+Konrad Lorenz, as we
+know, was Nazi scum.
+And Hugo Von Frisch was just
+really, really, really old.
+Somehow he was just really
+old from the very beginning.
+And he was about 89 when
+he got his Nobel price.
+These were the starting three
+that began the whole field.
+So we've got our archetypal
+behaviorist villains there
+with their shiny foreheads
+leaning over the camera guy
+and waving pigeons at them.
+And what are the
+ethologists about?
+All of them were guys with
+these knobby knees and very
+hairy legs, with big thick
+old hiking boots covered
+in mud and alpine whatevers.
+And what they were
+doing was just
+tromping around in the outside
+world collecting behaviors,
+just looking at
+the sheer variety.
+OK.
+It's obvious which team
+I'm rooting for here.
+But even, you know, that they
+hung out with Konrad Lorenz.
+OK.
+The ethologists are
+much more nuanced--
+the much broader, much
+more multi-faceted,
+diverse view of life there.
+The ethologists, completely
+unconnected with behaviorism
+in the United States.
+Instead, we're developing
+this whole field
+premised on all sorts of
+very different notions.
+Behaviorists, this
+radical environmentalism.
+What ethology was
+about, from day one,
+was gene environment
+interactions--
+behaviorist rules of positive
+negative reinforcement.
+That explains the entire world.
+As we'll see, some of the most
+amazing things ethologists
+came up with were examples
+of animals acquiring
+new behaviors that broke every
+rule on earth of behaviorism
+about how learning occurs.
+Finally, over there
+with the behaviorists,
+with their universality--
+cat equals hippo--
+and what the ethologists
+were about was,
+every species solves its
+environmental challenges,
+and its history of evolutionary
+challenges, in a unique way.
+And out of that came
+Tinbergen's famous quote.
+Which is, again, ethology is
+the study of animal behavior,
+but where you're interviewing
+the animal in its own language.
+And the whole
+premise of ethology
+was, that's
+preferable, and that's
+not going to happen
+unless you're
+out there in the nature in
+the animal's real habitat.
+And you better be
+real open minded
+as to what counts as
+communication, as what
+counts to be the animal's
+language that you
+are talking to it with.
+One example of this.
+And this was somewhat of
+a different discipline,
+but in the 1960s, there was
+this very interesting sort
+of cottage industry of
+research that came out.
+Which is, you take
+a normal lab rat.
+And now what you do
+instead is put it
+in an enriched environment.
+You put it in a big
+enclosure with lots
+of other rats and beeping toys
+and interesting smells and cell
+phones and all sorts
+of sounds of that sort.
+And what they would show
+was landmark-- take a rat
+and put it in an
+enriched environment
+and-- in 1960s neurobiology,
+of a type we've
+heard about already--
+you get a thicker cortex.
+People went wild
+over that in terms
+of enriching the environment.
+This prompted a
+gazillion studies
+during the '60s built around
+this very Great Society '60s
+optimism about things.
+The Head Start program
+emerged during that period
+out of a demonstration that
+all sorts of privations
+in various points of
+life, early in life,
+could be buffered,
+reversed, by the right sort
+of enriched environments.
+Incredibly influential.
+Billions of studies done.
+And hidden away
+in the literature
+was one very interesting study.
+Which is, when you took these
+enrichment sort of Poobahs
+there-- and now, what
+they did in this one study
+was they studied wild rats.
+And they brought in wild rats.
+And what they saw was, even
+without the enrichment--
+you didn't need to do a
+thing about enrichment.
+You take the best environmental
+enrichment laboratory paradigm
+to get you the
+thickest cortex around,
+and it's not going to be
+as thick as in a wild rat.
+And these guys were not-- these
+guys were not ethologists,
+but this is exactly
+the sort of thing
+that ethology is built around.
+You were not going to be seeing
+normal behavior in a cage,
+looking at a rat in there.
+That's like studying dolphins
+swimming in a bath tub.
+You are going to be missing
+everything under those.
+And, whoa, there is
+stuff going on out there.
+If a wild rat has
+a thicker cortex
+than we know how
+to come up with,
+we need to be studying animals
+in their natural setting.
+OK.
+So that was their basic
+sort of call to arms.
+What ethologists worked
+out were a number
+a very clear experimental
+approaches built
+around a whole bunch of the
+W questions-- who, and what,
+and where, and why, or whatever
+it is we did in fifth grade.
+Here's what they looked at.
+They looked at, first,
+what was the behavior?
+What was the behaviors?
+We'll see they had a certain
+jargony term for it--
+fixed action patterns.
+And what we'll see
+about it is this
+is a very specific realm
+of types of behavior
+that had a very interesting
+subtle relationship with things
+like instinct.
+Next.
+What in the outside
+world triggered
+that behavior to occur?
+And their jargon
+stuff, terminology--
+what was the environmental
+releasing stimulus that
+caused this fixed action
+pattern to come out?
+Next.
+Dramatically different from
+where the behaviorists were--
+what's going on in
+that organism's head
+so that that releasing stimulus
+triggers the fixed action
+pattern to occur?
+What are the
+intervening mechanisms?
+What are the innate
+releasing mechanism,
+was the jargon
+they came up with.
+Very jargony, middle
+European stuff.
+But what's going on
+in an animal's head?
+What's the behavior?
+What triggered it outside there?
+What's the machinery that
+took that releasing stimulus
+in the environment and
+turned it into the behavior?
+And finally, a realm
+which connects them
+with evolution type
+people, what's the value?
+What's the adaptive
+value of that behavior?
+And what we'll see
+is that question
+meant an utterly different
+world to ethologists than it
+did to evolution people.
+OK.
+So starting off, those
+fixed action patterns.
+Fixed action patterns,
+when you first
+begin to learn how
+ethologists thought about it,
+you immediately sense they're
+talking about instincts.
+They're talking about reflexes.
+They were definitely not.
+And terms like instinct had
+incredibly dirty connotations
+among psychologists and animal
+behaviorists around that time,
+just because, like an
+earlier period, animals,
+humans had instincts
+for maternal behavior,
+and instincts for
+inevitable aggression,
+and instincts for
+entrepreneurship,
+and instincts for-- and it was
+a totally meaningless term,
+because it described
+anything that you wanted
+to say was something
+that's supposed to happen
+and that I'm good at doing.
+What you had instead,
+in their view,
+was something much more subtle.
+A fixed action pattern
+is not maternalism.
+A fixed action pattern
+is not entrepreneurship.
+A fixed action pattern is a
+relatively tractable piece
+of behavior involving a bunch
+of interconnected muscles
+and producing this
+characteristic behavior which
+had a meaning to it.
+OK.
+Nice and abstract.
+We will see example shortly.
+But what they also had, that
+separated it from instincts
+by miles and miles,
+was animals didn't
+have to learn how to do it.
+It was hardwired,
+but animals had
+to learn how to do it better.
+And that was an amazing insight
+in terms of gene environment
+interactions.
+The word gene was not appearing
+in their thinking at the time.
+But fixed action patterns.
+In other words,
+experience could change
+the way you do the
+fixed action pattern.
+Or, already harking back
+to the molecular lecture
+and that obsession with if/then
+clauses, what experience mostly
+would do is not so much change
+the nature of the fixed action
+pattern but change the context.
+Teaching you when to
+do it, when not to.
+If/then clauses of, if
+this environmental event
+is happening, then bring
+out this cohesive set
+of behaviors that have at least
+some superficial resemblance
+to instinct but doesn't
+hold up for long.
+This was really important.
+OK.
+So what would be examples?
+What does this look like-- a
+behavior where animals simply
+know how to do it without
+learning, without experience?
+And they can do it
+right from the start
+and nonetheless
+experience shapes that.
+Obviously, first example was
+all of Charlotte's babies
+knowing how to say salutations
+within a few seconds of being
+born there.
+And no doubt they would soon
+learn who not to say that to.
+Classic example.
+And this was one that
+Lorenz studied for years
+and always wanted to have the
+pig killed because Nazi scum.
+OK.
+But anyway, I digress.
+And other examples.
+You take a squirrel.
+You take a squirrel that's
+been raised in a cage
+without ever seeing another
+squirrel-- a squirrel that
+has subsisted on nothing
+but a liquid diet
+and that kind of thing.
+And give it a nut, and it
+will know how to crack it.
+It will know to carry out
+this fixed action pattern.
+This is not an instinct
+for food acquisition.
+This is something instinctual
+for how you hold this thing
+and where you chew
+on it or whatever
+it is that squirrels do.
+It's in there.
+The squirrel doesn't have
+to learn how to do it.
+But what you see is,
+you take that squirrel
+without any prior experience
+with nut cracking,
+and you look at them over time,
+and they get better at it!
+They do it faster.
+They get a larger percentage
+of whatever's inside there.
+They have a basic, hardwired
+fixed action pattern--
+a bunch of coordinated muscles
+doing a coherent set behavior,
+and it is shaped by experience.
+In this case, they learn
+how to do it better.
+Another example.
+This is one where you have
+any of those intro psych books
+from anywhere in
+1950s, '60s or so,
+and there was this
+inevitable picture where
+you had-- it was this room.
+There was this surface, and
+it had a checkerboard linoleum
+on it.
+And the surface
+came to around here,
+and then it dropped
+down about three feet
+and then continued the
+same on the bottom.
+It was always the same
+checkerboard linoleum.
+Linoleum which was like worth
+its weight in gold at the time.
+Linoleum which was going to
+make life better for everyone.
+So you had this checkered
+linoleum thing there.
+And the critical thing
+was right around here.
+When the wall dropped
+down, right here
+was a sheet of glass
+that continued out there.
+In other words, the actual
+floor would continue here
+on the glass, while it was
+also dropping down to this.
+And what was always in
+one of those pictures
+would be some adorable, cute
+baby animal sitting out there
+on the glass,
+totally freaking out.
+Because it's out there, and
+it's looking way down there,
+and there's stuff-- a yawning
+chasm below of three feet--
+and you are eliciting what was
+called a visual cliff response.
+Which is, get me out of here!
+I'm floating up in the air here.
+You did not have to have animals
+who already had experience
+by trial and error
+learning that when
+you're floating in the air,
+that tends not to last for long.
+And you go to
+[INAUDIBLE] afterward.
+There was no-- it's
+there in the first place.
+You take a baby dog.
+You take a baby human.
+You take a baby blue
+whale, whatever.
+And you push them out
+on the glass there,
+and they look down, and
+they totally freak out.
+Unless they're a baby sloth.
+Oh!
+Isn't that kind of interesting?
+Because if you're a baby
+sloth who gets freaked out
+by yawning space
+underneath you, you
+are not going to be
+a very functioning
+sloth when you grow up there.
+Oh, species specific
+fixed action patterns. ,
+Where in this case, this visual
+cliff could evoke this whole
+fixed action pattern of
+panic responses, all of that.
+So where does the
+learning come in?
+You push this poor
+animal out there enough
+times-- the 40th time,
+the elephant's out there,
+and it begins to learn.
+I don't know what's
+up with this,
+because this gravity business
+is making sense otherwise.
+But it seems to be
+OK when I'm out here.
+You could habituate the
+visual cliff response.
+But all sorts of animals--
+except for arboreal ones
+hanging up there--
+all sorts of species
+didn't have to have prior
+experience with not liking
+to drop down open spaces.
+It was there already.
+They learn the context better.
+Another example of this
+that the ethologists showed.
+These were with
+captive primates.
+You take a monkey who
+was raised in isolation,
+who has never seen
+another monkey,
+and at some point
+in adolescence.
+It's a male monkey.
+And you sit him down,
+and you show him a film.
+And the film
+consists of the face
+of a huge, scary male monkey
+of the same species giving
+a threatening display,
+which is usually
+displaying the canines there.
+And this is a monkey who has no
+prior experience with monkeys.
+It has never seen
+a monkey before.
+All of its interactions have
+been with Barney or whatever,
+knows nothing about any of this.
+And you show it that, and
+it will freak out and give
+a fixed action pattern--
+a subordinate gesture
+crouching down and not
+making eye contact.
+Whoa!
+Where'd that come from?
+No learning from
+trial and error.
+It was simply there as
+a fixed action pattern--
+a whole bunch of
+things that the monkey
+does with its torso,
+its face, all of that.
+Where does experience come in?
+The monkey needs to learn
+that you give a subordinating
+gesture like that to
+some big, scary animal,
+you don't give it to infants.
+It needs to learn the
+right social context.
+So that's where it comes in.
+So you've got all these
+examples of behaviors that are
+hardwired, whatever that means.
+And what you have, nonetheless,
+is shaping by experience.
+And this is what the
+ethologists learned.
+And what was clear after
+awhile was all sorts of animals
+already knew all about ethology.
+They understood what a
+fixed action pattern was.
+As follows.
+Type of monkey in East
+Africa called vervet monkeys.
+If you were a vervet monkey,
+there are three things on Earth
+that terrify you.
+One is a leopard.
+Another is a snake, and
+the third is an eagle.
+Leopards come from below.
+Snakes come from below.
+Eagles come from above.
+And what you have
+in vervet monkeys
+are fixed action
+patterns of alarm calls
+that they give when spotting
+one of the predators.
+They have different alarm
+calls for each of the species.
+And what has been
+shown is, you fly over
+the silhouette of a
+perfectly nice bird there
+that's not going to
+try to carry it away,
+and you don't elicit it.
+It's not just things
+going on up there.
+It's a fixed action pattern
+for scary, terrifying stuff up
+above verses scary, terrifying
+stuff below with four legs,
+versus scary, terrifying
+below with no legs at all.
+And they all know how to do
+this without prior experience.
+But what goes on
+is the same thing
+that makes it a fixed
+action pattern, which
+is it can be sculpted
+by experience.
+What am I saying here?
+Which is, you are a
+young vervet monkey,
+and you've got these
+fixed action patterns.
+That's great!
+What you have to learn how to
+do, though, is not screw up
+and say, oh my god, there's an
+eagle, when you actually should
+be saying, there's a leopard.
+Because if you say,
+there's an eagle,
+everyone's going to
+run down the tree.
+And if you say,
+there's a leopard,
+everybody's going
+to run up the tree!
+And you get some kid
+who gets it backwards,
+and that's going to have
+some bad consequences.
+How do you know adult vervet
+monkeys have studied ethology
+and fixed action patterns?
+Because they don't
+listen to the kid
+until some adult agrees
+with them, because they know
+this is some dumbass kid that
+doesn't know the language yet
+very well and makes mistakes.
+Under a certain
+age, adult vervets
+don't respond to alarm calls
+other than with vigilance,
+trying to figure out what
+the kid's talking about,
+until it is seconded
+by an adult.
+So what about fixed
+action patterns in humans?
+Classic example--
+infant smiling,
+involving all sorts
+of muscles that who
+knows what's involved in them?
+All sorts of muscles
+that produce this
+without prior experience.
+How do you know?
+Fiberoptic mysteries
+show that fetuses
+smile at various points.
+What else?
+You will see smiling
+in blind babies.
+So there's no visual
+information coming in.
+What's smiling?
+It's a fixed action pattern.
+Where's the learning?
+Learning who to smile at.
+Learning that mannequins
+aren't going to smile back
+at you and things of that sort.
+That's it being
+shaped by experience.
+More fixed action patterns.
+Infants are not having to have
+trial and error experience
+with learning there's this thing
+you do with your mouth right
+after you're born that keeps
+you from being really, really
+hungry, and it's called nursing.
+Oh, can somebody
+demonstrate that for me?
+That's a fixed action pattern.
+What happens is, kids get more
+and more efficient at it--
+the number of calories they
+can consume per unit of time.
+They get better at doing it.
+More fixed action
+patterns in humans.
+Every culture on earth,
+people raising their eyebrows
+and greeting to somebody.
+Every culture on
+earth, people can
+recognize what anger looks
+like, what fear looks like,
+what disgust, what
+contempt, all of those.
+These are all fixed
+action patterns.
+And where does the
+context come in?
+With all of them obviously
+learning when you interpret
+this as good news, bad news.
+When you pretend you
+don't see it, all of that.
+Learning the social context.
+So humans are absolutely full
+of fixed action patterns.
+Next, the next sort of question
+that the ethologists would
+ask after getting
+to this point of,
+what's the behavior-- what does
+learning have to do with it?
+And now asking the
+question-- the same one
+the evolutionary folks
+would ask-- which is, well,
+what's the benefit of it?
+What's the adaptive value?
+And a totally different
+way of thinking about it
+than the evolution people.
+The evolution folks going
+on with adaptive value,
+which is it allows you to pass
+on more copies of your genes.
+And over the generations,
+the prevalence of that trait
+becomes more common.
+What the ethologists did
+instead were experiments.
+They simply went and
+experimented to see what
+this information--
+what these fixed action
+patterns-- actually meant.
+So Tinbergen was famous
+for one of those.
+Which was there was like
+some gull something or other
+that he would study, and
+the outside of gull eggs
+were all speckled.
+And there would be this very
+distinctive fixed action
+pattern shortly after
+the chicks pop out,
+which is mom would go around
+systematically turning over
+all the fragments of egg
+where the white of egg shell--
+where the white was facing
+up-- and would turn it
+over so that the speckled
+part was facing up.
+Whoa!
+That's an interesting behavior.
+Does that make that gull
+more attractive to males
+and thus pass on more
+copies of her genes?
+But, no, here's
+what Tinbergen does.
+He goes in with these gulls
+who just finished doing it
+and with her new pups,
+chicks-- her new chicks
+just having hatched.
+And she goes off to get
+them food or whatever.
+And this total vicious,
+heartless Tinbergen sneaks in,
+and he turns the shells
+back over to white.
+And what happens?
+All sorts of raptors
+flying around up
+there are better at spotting
+down there that there's
+all these baby chicks, who
+are gone by the time mom
+comes back.
+Tragically.
+I know!
+And I'm complaining
+about Lorenz?
+[LAUGHTER]
+OK.
+But that's showing, oh, why
+do gull mothers, shortly
+after giving birth, go through
+this interesting collection
+of motoric movements which they
+don't have to learn how to do,
+flipping these things over?
+Does this make
+their groups better
+to out-compete those with
+the next Ice Age comes?
+No.
+It's because you turn it
+over so that some predator
+up there in the sky
+can't see the egg
+shells-- the adaptive value.
+Next.
+Next example of
+this-- and this is
+like one of the most famous,
+iconic sort of stories
+to come out of
+ethology-- this was
+the work of Von Frisch showing
+bee dancing, bee communication.
+And what bees are about
+is-- they're scary,
+and they go find out
+about food sources.
+And they fly back
+to their colony.
+And what they need to do is
+communicate to everybody else
+that they have
+found a food source.
+And they have to communicate all
+sorts of types of information.
+Which direction?
+How far?
+How much?
+Is it totally exciting,
+or is it, I just stumbled
+into a little bit?
+And what Von Frisch
+was able to work out
+was bees came back and did
+this fixed action pattern
+movement which has been seen
+in every bee species on Earth.
+Which is, they do this
+figure eight, a waggle dance.
+They're shaking their
+rear back and forth.
+And they're moving
+over the floor
+of the hive, where everybody
+is watching and cheering them
+on, and going around and
+doing this figure eight.
+And what is this about?
+What is this about?
+Von Frisch was
+able to dissect it,
+and with brilliant, experimental
+tricks showing the bee
+was giving three
+pieces of information.
+The axis of the figure
+eight told the bees,
+with respect to
+sunlight, which direction
+to go to find the source.
+The longer the bee danced, the
+further away the food source
+was.
+And the more frantically it
+was wiggling its rear around,
+the more exciting of
+a food source it was.
+This was information.
+This was what's
+the adaptive value.
+So Von Frisch is sitting
+there saying, well, I
+think it might mean
+this, because I'm finding
+this interesting pattern.
+I may speculate.
+What do you do?
+You do an experiment instead.
+Which is, now you
+take a beehive,
+and you put it on
+a bar stool thing.
+And it's sitting out
+there in the field,
+and you grab some bee.
+And I don't know how he did it,
+but he lived to a ripe old age.
+But you grab a bee, and you
+give it some amazing food
+source out here, and you
+let it fly back to the hive
+where it goes berserk with
+the waggle dance stuff,
+telling everybody there's
+something amazing over there.
+Meanwhile, Von Frisch,
+in his hiking boots,
+is slithering on his
+belly towards the beehive
+with the piano stool, and
+comes up underneath it,
+and rotates it--
+rotates it 180 degrees.
+And what happens then?
+Everybody in the hive
+comes barreling out
+and goes in the wrong direction!
+Because they were
+given directions
+as to where to go with respect
+to the hive's entrance.
+That's how you show it
+actually contained information.
+And then he would have the
+food source closer or further,
+and show the length
+of the dancing
+and all sorts of
+other cruel things
+he would do to the hive to
+confuse them and wipe out
+the credibility of that one bee.
+But this is how you
+get the information.
+He would show this
+explicitly-- oh,
+why do they do this fascinating
+fixed action pattern?
+Because they're
+telling them something!
+And here's how you prove it.
+And you rotate it around.
+So you can begin to see
+the ethologists were really
+good, clever experimentalists.
+And they were just
+trying to do it
+in the animal's own language.
+This became really clear when
+you study their next category
+of questions-- that
+business of, well, what
+is it that just happened
+in the outside world that
+triggered this fixed
+action pattern to occur?
+What was the sensory trigger?
+Their jargon-- what was
+the releasing stimulus?
+And they had general
+strategies for doing this.
+OK.
+You were speculating
+that this site
+is the thing that
+triggers whatever
+this behavior in this animal.
+How do you begin to test it?
+Let's remove the-- OK, enough
+with the abstract stuff.
+Baby birds-- baby
+gulls or something--
+peck at mom's
+mouth, at her beak.
+And that is meant to get mom to
+regurgitate some exciting food.
+How do they know how to do this?
+What is it that gets
+them to do this behavior?
+On mom's beak, there's
+a little red circle.
+And the early ethologists
+noting that, oh,
+that's kind of interesting.
+I wonder if they're looking
+at the red circle there?
+I wonder if that's the
+thing that's causing
+them to start this behavior?
+What were the experimental
+techniques for saying, oh,
+is a red circle on mom's
+beak a releasing stimulus
+for this fixed action
+pattern of pecking?
+Let's do an experiment.
+And the standard
+experimental models
+they would have would be to
+subtract out the thing that you
+think is the stimulus.
+Take mom and white out
+her little red circle
+there and see if the
+kids no longer peck.
+Replacement.
+Which is, now you've
+done that to mom.
+And you draw a little
+red circle back,
+and you see if they
+start pecking again.
+Replacement substitution.
+Now you take something
+completely different.
+You put some neon
+triangle on mom's beak,
+and you see if you will
+elicit the same-- oh, what's
+the specificity of it?
+Finally, the thing
+that they really
+specialized in--
+which is now you
+would do what they
+called super stimulation.
+Which is, you wave a piece of
+paper in front of the chick
+there-- that you've drawn
+a gigantic red circle on--
+and you see if it goes out
+of its mind and pecks at it
+like there's no tomorrow.
+Experimental
+approaches like this.
+If you take away this thing,
+does the fixed action pattern
+no longer occur?
+If you put it back,
+does it work again?
+If you replace it
+with something else,
+if you exaggerate
+the traits, do you
+get even more of the behavior?
+These were the
+standard approaches
+for figuring this out.
+And ethology types
+who were interested
+in this realm of
+releasing stimuli,
+the thing they have gotten
+incredible mileage out
+of recent years is making
+little robotic animals.
+Because you could program
+to do certain behaviors,
+and you could see if you
+could elicit everybody else
+to respond to the behaviors.
+And, of course, the
+first ones were all sorts
+of techie folks building
+robotic bees who could
+dance in certain dimensions.
+And they would
+stick him in there
+and wind up the
+gear shaft thing.
+And they would just
+dance away, and they
+could get the other
+bees to go flying off
+someplace-- the bees not
+being very discriminating as
+to which dancers they
+pay attention to.
+But the point there was,
+this was a substitution--
+a mechanical substitution
+for that releasing stimulus.
+Or there's some amazing
+paper a couple years ago,
+where somebody made
+a robotic cockroach
+and was able to trick all the
+other cockroaches into doing
+some sort of imprudent behavior.
+And so you see this is high
+tech versions of this approach.
+Oh, it might be this stimulus
+that's-- let's replicate it.
+Let's make it even
+more exciting.
+So using this approach,
+the ethologists
+would begin to figure
+out, what is it
+in the sensory world of this
+animal that caused that fixed
+action pattern to occur?
+And it was never more
+than in this domain
+that they were doing that whole
+sound byte about interviewing
+an animal in its own language.
+Because what it's all about is
+recognizing other species out
+there are functioning
+in sensory modalities
+we can't even guess at.
+What they began to see.
+One example-- the sorts
+of auditory stimuli
+that would trigger
+fixed action patterns.
+One example-- deer moose.
+Big things.
+What are they called?
+Elk!
+Elk!
+Is elk a female
+name for-- bulls.
+OK.
+So you get Bullwinkles there.
+And what he's doing is he
+is trying to find a mate.
+And how does he do it?
+What they do, when they use
+northern Minnesotan beasts,
+is they bellow.
+They give these
+bellowing calls that
+are heard for miles and miles.
+Male deer-- I guess it's deer.
+OK.
+They bellow.
+It could be heard miles away.
+And if you were the
+right kind of female,
+and you hear some guy
+bellowing in the next valley,
+do you know what you do?
+You ovulate.
+Auditory induced ovulation.
+And not only that, you begin
+to go try to find the guy.
+And when you get there,
+you start this whole
+courting display thing, if
+he's the right kind of guy
+and he expresses himself.
+And what you have there is--
+what's the releasing stimulus?
+An auditory one.
+Even more bizarre--
+discovering that rats,
+rats are responsive to
+certain types of stimuli.
+For example, you tickle
+them on their rib cage,
+and they giggle.
+Yes!
+Your tax dollars going on that
+that could instead be spent
+on nuking something or other.
+What you've got
+there is rats giggle.
+They giggle in an
+ultrasonic range.
+So you can't hear it until
+you've got some rat giggle
+decoder thing.
+And they giggle in
+response to logical things.
+Like you tickle them,
+and they giggle.
+And then they come
+back for more.
+And you show all those
+patterns with it.
+And if you get it at the
+right frequency only,
+and they do this
+giggling chirping thing,
+and you're releasing that
+there, and other rats
+come over to check it out.
+Because the sound-- the
+auditory releasing stimulus,
+in this case of rat chirping
+giggling-- induces this,
+whoa, let's go see
+where the party
+is response in the other rats.
+Another example of
+this-- interesting thing
+that you see in various
+species, including
+humans-- which is when
+females are ovulating,
+their voices go a little higher.
+And studies showing that males
+subliminally can detect this.
+More evidence of modality
+supplying information we
+would never even guess at.
+OK.
+Then you can show releasing
+stimuli in the visual domain.
+And one example of this
+is that you have turkeys,
+and turkeys apparently do
+their sexual attraction stuff
+visually.
+And this prompted one of the
+cruelest, most savage studies
+I've ever seen, which
+is trying to figure out
+what is it that
+makes female turkeys
+attractive to male turkeys.
+And what they did was,
+they would show the male,
+and they studied his
+behavior for a long period.
+And the scientists
+began to guess
+at what were the releasing
+stimuli, the visual information
+from the female, that
+would elicit this behavior?
+So they did the subtraction
+substitution technique.
+They made themselves an
+artificial female turkey.
+They took a big old
+ball of Styrofoam,
+and they stuck this fake
+turkey head on at one end.
+And they stuck a bunch
+of feathery things
+at the other end and just stuck
+it out there in the field.
+And, of course, the
+idiot male turkeys
+instantly are like all around
+the thing and courting it.
+And all, oh.
+So interesting visual stimuli.
+What about it actually
+attracts the male?
+And here's where
+the cruelty came in.
+They would begin to mess
+with the artificial females.
+And I once saw a film of this.
+And like the empathy you feel
+for this poor turkey guy there.
+Because they have a--
+and he comes in there,
+and they've got the Styrofoam
+female with this stuff there,
+and he's courting it
+and having a great time.
+And now they put him
+back there, and they
+do something or other there.
+And he comes out,
+and the back feathers
+are kind of perpendicular
+to the head.
+And that doesn't-- so you see
+he sort of stops there and kind
+of circles around for a bit.
+But, being a male, he
+decides what the hell
+and starts courting the thing.
+Then they put him back
+in the room there.
+And now they let him out.
+And the tail and the head
+are on the same side.
+He stands there, looking
+a little more confused,
+before starting to
+court the thing.
+Put him away, come back in,
+and the head is over there,
+and the feathers are there,
+and the Styrofoam ball.
+And you see he's kind
+of like looking around
+and goes up to this and-- well,
+that's not going to work--
+and goes over to the next one.
+And you're seeing what
+the information-- can you
+believe how cruel this was?
+You could begin to see this
+sort of information-- what
+were the building blocks of
+that visual releasing stimulus--
+in order to find out about that.
+Then there is, not
+surprisingly, a whole world
+of olfactory releasing stimuli.
+And we won't spend
+any time on that
+here, because all
+that stuff is going
+to come big time in the
+lectures on sexual behavior--
+pheromones, information
+that triggers behaviors,
+sexual behaviors in all sorts
+of species, including humans.
+Olfactory information.
+One example with
+humans, which was
+this very cool study that was
+published a couple of months
+ago.
+What you need is sweat
+from terrified people.
+So here's what you do.
+You throw somebody
+out of an airplane
+who's never parachuted before.
+And the whole thing
+is, I guess you
+can do your first jump in
+tandem with the instructor who's
+attached to you and
+who knows what to do.
+The instructor who's doing
+all the physical work
+while you're just there attached
+to them being scared out
+of your pants.
+Then you get a control
+group-- a control group
+who, instead, have generated
+stress sweat on an exercise
+bicycle.
+Totally fine.
+So quick, you get the guys
+lying down in the field.
+They're hyperventilating.
+You run at them
+with cotton swabs,
+and push his armpits into it,
+and get some of his sweat,
+and seal it away.
+And then you get the
+person on the bicycle,
+and you get some of their sweat.
+And now you sit
+down people, and you
+let them smell the two sources.
+Objectively, people cannot
+distinguish between them.
+Put the person in
+a brain scanner,
+and give them the odors.
+And if they're smelling the
+sweat from the terrified
+person, their
+amygdala activates.
+Not if you smell the sweat
+from the other individual.
+And not only that,
+you now show them
+faces where the facial
+expression is ambiguous.
+It's been sort of merged halfway
+between a scared appearance
+and a happy one, between
+different facial expressions.
+And you get somebody
+after they've
+smelled the scared
+sweat, and they interpret
+faces as more frightened.
+Whoa!
+Smells?
+The smells of people's armpits
+and whether they were terrified
+or not changes how
+your brain is working
+and changes how you judge
+pictures of facial expressions.
+We've got stuff going on in
+all sorts of sensory domains
+that we can't even
+begin to guess at.
+Showing this even more, other
+species where you go into stuff
+we don't even know about.
+Electric fish.
+You want to understand releasing
+stimuli for electric fish,
+you've got to
+understand electricity,
+and how they sing to each
+other in electric fish songs,
+and how they-- where
+is that coming from?
+Oh, right, they're singing
+to each other in electricity.
+And, yes, you get
+territorial songs.
+You get specific ones.
+You get males who are
+courting the same female,
+trying to jam each
+other's frequencies.
+This actually is
+demonstrated quite readily.
+You see relatedness of frequency
+patterns between siblings.
+They're going about
+this with electricity.
+Whoa!
+What is happening
+in the outside world
+there that we haven't
+a clue at interviewing
+an animal in its own language?
+Vibration.
+All sorts of insects communicate
+with each other by vibrating.
+Arachnids, there's all sorts of
+things where they communicate--
+I don't know what they
+want to talk about--
+but by vibrating a web.
+They can produce
+distinctive patterns of it,
+which sends information.
+And oh, OK, weirdo insects
+and spiders and stuff.
+Really interesting work
+done in recent years,
+by somebody who used to be
+here on campus named Caitlin
+O'Connell-Rodwell,
+looking at elephants.
+And it turns out
+elephants have all sorts
+of interesting pressure
+transducer receptor
+little corpuscle
+thingies in their feet.
+Nobody else has stuff like that
+in their feet among mammals.
+These are things that
+are supposed to be
+in other parts of the body.
+You don't see them at
+the bottom of your feet.
+And what are these about?
+When an elephant walks,
+it's causing tiny, tiny bits
+of vibration in the ground
+that could be picked up
+hundreds of yards away.
+And what she has
+shown experimentally
+is elephants can communicate
+with each other with vibration
+through their feet.
+And she has done some brilliant
+classical ethology studies
+of manipulating it and seeing if
+you could change the elephant.
+They're talking to each
+other with vibration.
+All of this very, very
+different than we would guess.
+Tactile stimulation.
+And out of this came one of
+the iconic experiments and one
+we will come back to lots
+in lecturers to come.
+This one you've also seen
+every single intro textbook
+out there, which is the
+surrogate mother monkeys.
+You got the monkey who's
+raised in social isolation,
+and all he's got are two
+surrogate moms to choose from.
+And one has this
+chicken wire tube torso
+thing with this little
+unconvincing Styrofoam
+head put on top.
+And the other one is wrapped
+in this nice, warm, terry cloth
+around its chicken wire
+torso, with a head on top.
+What's the difference?
+The first one, the
+chicken wire one,
+has a bottle of
+milk sticking out.
+That one supplies milk,
+supplies calories.
+This one supplies warmth.
+And in the mid-1950s, you
+would ask somebody, well,
+why do babies like
+their mothers?
+Because their mothers positively
+reinforce them with milk,
+says BF Skinner, who clearly
+knows endlessly about that.
+What is bonding between
+mother and child about?
+It's about the mother meeting
+the caloric and temperature
+needs of a child.
+By reinforcing the child
+with milk now and then,
+the child becomes attached.
+And this is what
+dominated in the field.
+OK.
+Nice, abstract question.
+Interesting realm where it
+had an implication-- you take
+an infant, you take
+a very young child,
+and you put him in
+a pediatric ward
+for a couple of weeks
+because of some illness.
+And what's the
+philosophy at the time,
+derived from
+hard-nosed behaviorism?
+It would say, dog equals
+cat equals monkey.
+It would say, one person
+with a bottle of milk
+equals another person
+equals another.
+Parents, they don't
+know the routines here.
+They never wash
+their hands enough.
+So what we're going to do,
+what was standard practice
+in pediatric wards
+at the time, was
+parents were allowed to
+visit 30 minutes a week.
+And otherwise, all of
+the care was provided
+by people working there.
+And eventually,
+the best thing ever
+came along that would make
+any behaviorist delighted.
+You could do things with
+infants, keeping them going,
+without even being
+touched by human beings.
+Someone modified
+chicken egg incubators
+and invented human incubators.
+And an entire just
+grotesque literature
+shows the more incubators
+a hospital had,
+the shorter the life
+expectancy was of infants
+who came in in their ward.
+But that was the dominant
+notion at the time.
+What do infants like about mom?
+She gets calories.
+She gives them calories.
+So OK.
+So you've got the
+baby monkey there.
+And she's got two moms to choose
+from-- the one that gives milk,
+and the one that has the terry
+cloth with the tactile stuff.
+And which one is she
+going to cling to?
+It's clear, if you had
+BF Skinner in there,
+he'd be up there nursing
+on the milk bottle
+within a couple of seconds.
+But what does the
+baby do instead?
+Which one does it bond to?
+The warm, terrycloth mother.
+Ah.
+Love has so much more to
+do than just calories,
+and adequate clothing, and a
+vaccine every now and then.
+This was a study by a man
+named Harry Harlow which
+transformed-- began to get
+people to think utterly
+differently about the
+nature of bonding.
+We will hear tons about
+that work down the line.
+So tactile stuff.
+Finally, what is the realm of
+the most brilliant combination
+of various releasing stimuli
+triggering fixed action
+patterns out the wazoo?
+What baby animals look
+like in every species
+out there short of
+crocodiles and snakes.
+All the baby animals and
+all the different species
+have the little short
+muzzles, and the big round
+eyes, and the big
+shiny forehead,
+and the big ears
+sticking out there,
+and maybe a
+distinctive coloration
+that sets them off different
+from mom, from adults.
+And every species, you take some
+incredibly cute baby monkey,
+and polar bears are going
+to say, oh, look how cute!
+And their eyes are going
+to dilate, their pupils,
+and you are going to
+elicit cute responses.
+The term, this set of
+fixed action patterns
+that people and all
+sorts of species
+do in response to the releasing
+stimuli of a cute baby.
+And, I kid you not,
+the early generations
+of Disney illustrators
+studied this.
+They studied what it is
+that makes baby faces baby.
+And an amazing paper, classic
+one by Stephen Jay Gould,
+talking about Mickey Mouse,
+the evolution of Mickey Mouse.
+If you go back to when
+Mickey Mouse started off
+in, I don't know,
+the 1920s or so,
+his name was Steamboat Willie.
+And he was this rat.
+He was this like skinny,
+angular, ectomorph rat
+thing with five fingers.
+And he was basically sort of
+this double entendre-ing sort
+of mildly sexual
+aggressive beast, who
+was always ripping people off.
+And somehow he turned
+from that into our Mickey,
+who delights people.
+And what Gould showed
+was-- in this paper,
+he actually showed the evolution
+of Mickey Mouse's muzzle
+as over the decades, showing
+how it was getting smaller,
+and the ratio of the
+forehead to this.
+And somewhere along the way,
+Mickey lost one of his fingers.
+And somewhere along
+the way, his voice
+got real prepubescent,
+which it wasn't early on.
+And suddenly, the oh so chased
+mysterious Minnie shows up,
+and all they ever do
+is sing and dance.
+And this is an amazing paper
+on how the Disney artists
+eventually learned what is
+it about baby animals that
+makes everybody want
+to be around them.
+So we see here the
+releasing stimuli.
+Next thing, after the break,
+what's going on in the head
+in between the
+releasing stimulus,
+and out comes the
+fixed action pattern.
+OK.
+So five minutes.
+Two great questions.
+The first one, going back
+to Niko Tinbergen's attempts
+to get baby gulls eaten--
+that whole business
+about flipping the
+eggshells over.
+Somebody asking, so why
+haven't eggs and birds
+and stuff evolved so that
+the inside of the egg shell
+is speckled also?
+And the answer is,
+I haven't a clue.
+Does anybody know why?
+Is there some good reason
+why the inside of egg shells
+have to be white?
+Calcium or-- well, there's
+got to be some good reason.
+But you go out and test that.
+OK.
+So that would have been
+an interesting study.
+I have no idea why.
+The other one, of
+the same sort of bent
+of the, how do they figure this
+out-- how do they figure out
+that human males can detect,
+like the sound of women's
+voices when they rise around
+the time of ovulation?
+What you do is
+you record voices,
+and then you manipulate
+the pitch that it's at.
+And this is a very
+subtle effect,
+but people listen to it.
+And if they're men and they
+listen to it, on the average,
+they will rate the voices that
+are a little bit higher as more
+appealing.
+We will hear plenty about
+stuff like that down the line.
+OK.
+So what do we got so far?
+We have looked at interviewing
+an animal in its own language
+and asking what the behavior
+is about-- the effect
+of experience on the behavior.
+Looking at what's going on
+in terms of adaptive value
+in a totally different way
+than the evolutionary folks
+would be looking at.
+Looking at what-- in the outside
+world, what releasing stimulus
+triggered the behavior.
+Huge take home message there
+being animals, including us,
+are communicating
+information in sensory realms
+we could never even
+guess at-- interviewing
+in its own language.
+And also, along the
+way there, training
+ethologists to come up with
+really clever, cool, elegant
+experiments.
+So the next step.
+What's going on
+here between when
+the releasing stimulus happens,
+and out pops the behavior
+from the other side?
+Old ethology jargon-- what is
+the innate releasing mechanism?
+Which is like this really
+unfortunate phrase.
+But what's going on inside?
+And it was right
+around this point
+that all the classical
+ethologists would say,
+we don't know!
+It's obviously
+important, but we're not
+able to understand it.
+And that has changed now.
+And what that field is
+called is neuroethology.
+And that is the hottest
+part of the field
+in the last few decades,
+trying to understand what's
+going on in the brain that
+turns certain releasing stimuli
+into behaviors
+out the other end.
+And there have been
+some amazing successes
+in this realm in
+terms of working out
+the nuts and bolts of it.
+One example, the
+one that's probably
+the most studied,
+which is understanding
+the neurobiology of birdsong.
+Bird song-- how does a
+bird learn its species
+specific song?
+How does a bird learn
+one that winds up
+being distinctive for itself?
+What happens to birds
+that have to come up
+with a new song every
+year, because they're
+seasonal breeders in a way
+where they're migrating around?
+How do they learn that?
+What sort of sensory stimulation
+do they need from around them?
+If you raise a bird
+in complete isolation,
+does it come up
+with a song which is
+exactly what its species does?
+No, but it's kind
+of close to it.
+It needs experience to shape it.
+What's going on in bird
+species like [INAUDIBLE] birds
+that imitate the
+sounds of other birds?
+And people have been
+dissecting this down
+to the individual neurons
+for years, understanding
+what's going on in between.
+Another domain that seems
+far more inexplicable for why
+people would want to
+spend decades on it
+is-- for people
+who took Bio core,
+I always go over
+this one-- a reflex.
+A reflex you find
+in female hamsters.
+Which is you get
+a female hamster,
+and you put pressure, tactile
+pressure, on her rear end.
+And what she will
+do is arch her back
+at that point and produce what
+is called a lordosis reflex.
+So what's that about?
+It's obviously a
+fixed action pattern.
+Let's ask an adaptive question.
+What's the advantage of
+having a lordosis reflex?
+What it does is, by
+arching up that way,
+it exposes the
+female's genitals,
+making it easier for
+a male to mount her.
+Well, when is that
+useful for the female?
+If she's ovulating.
+You only get this reflex when
+estrogen levels are elevated.
+And adaptive value of
+that built around the fact
+that most things
+that are pressing
+on the rear end
+of female hamsters
+are not grad students trying
+to get their degree eventually.
+[INAUDIBLE] ethologically
+relevant context,
+that's part of the mating
+courtship display stuff.
+And there is a guy I know who is
+the king-- the king of pressing
+on the rear end of
+female hamsters.
+People will not be able
+to talk about the behavior
+for centuries to come
+without his name being
+sung about there.
+And he and his
+lab have gotten it
+down to individual neurons
+in the whole reflex pathway,
+and which neurons are
+affected by estrogen,
+and how exactly it
+works-- neuroethology.
+Another realm of it,
+of neuroethology,
+is one done with
+humans these days--
+taking advantage of brain
+scanning techniques, and seeing
+what sort of subliminal sensory
+information you give someone,
+and what parts of
+the brain change
+their levels of activity.
+And the scared sweat versus
+the neutral sweat study
+is a perfect example
+of that, and we
+will hear plenty of those
+in the lectures to come.
+As neuroethology
+really took off,
+an additional
+elaboration happened,
+which is people began to
+try doing neuroethology out
+in the field with animals
+in their real habitat.
+Because all the ones
+I just described
+were the laboratory
+animals trying
+to do it out in the
+field, and there's
+been a number of approaches.
+One is, people-- a guy
+named John Wingfield used
+to be at the University
+of Washington.
+John Wingfield studies birds.
+And I have no idea if he ever
+actually wanted to study birds
+or if he was fated to
+do this from the start.
+But what he does is, he studies
+the physiology and the behavior
+of bird species that
+migrate from Baja
+up to the Arctic each
+year and back again.
+Bird species where what happens
+with their migratory behavior,
+if there's an extra
+freeze that's unexpected,
+if spring comes earlier,
+what are the-- and he
+traps these birds.
+He nets them, and he's got
+like electrodes in their heads,
+and lets them go to fly off to
+Alaska, recording from there.
+And this is neuroethology
+stuff-- figuring out
+the circuitry going on
+precisely with that, with birds
+in their natural setting.
+Another example, which
+is some of the work I've
+done over the years, which
+is studying baboons out
+in their natural habitat
+and trying to do ethology,
+neuroethology stuff, out there.
+What, for example,
+does your personality--
+if you were a baboon--
+have to do with the brain
+chemistry of anxiety in you?
+You remember the stuff
+by now, benzodiazepines
+and the benzodiazepine
+receptors.
+Are there personality
+related differences
+in the brain chemistry of
+benzodiazepines in baboons
+out there.
+And you can squeeze
+out a surprising amount
+of information.
+All of this is part
+of the transition
+back when of saying,
+well, something
+has to be going on
+in between there.
+You're a behaviorist,
+and you say, who cares?
+You're an ethologist,
+and you would say,
+wouldn't it be great
+that someday we're
+going to be able to study it?
+And what the neuroethologist
+actually can do
+is study it and
+begin to work out
+circuitry maps and all of
+that, what's going on inside.
+Interviewing the brain of an
+animal in its own language.
+Because-- as you will see
+in some of the anatomy,
+neuroanatomy lectures
+to come-- you're not
+going to make any sense about
+which parts of the brain
+are big, and send
+projections to which
+other parts, until
+you know something
+about the behavior
+of that species
+and what sort of sensory
+systems it pays attention to.
+OK.
+So these are sort
+of the big pieces
+of the ethological approach.
+What's the behavior?
+What triggered it?
+What are the intervening
+neuro endo steps in there?
+What's the adaptive value?
+What was also the final piece
+of the ethological approach was,
+what does learning have
+to do with all of this?
+We already know that
+learning is relevant in terms
+of those fixed action patterns.
+But exploring learning in
+all sorts of additional ways.
+And the ethological
+contribution to that field
+is basically twofold.
+The first would be
+boring, classical,
+sort of behaviorist
+type learning
+paradigms that behaviorists
+had explained centuries before.
+What was interesting, showing it
+in domains of animal behavior,
+where everybody else
+would have said,
+they have to learn
+how to do that?
+That's not an instinct?
+Showing realms of
+traditional learning
+that were very unexpected.
+The second piece
+was showing types
+of learning that break every
+rule about how learning
+works if you're a behaviorist.
+OK.
+So what would be a standard
+example of normal learning?
+You get reinforced, you're
+more likely to do something.
+You get punished,
+you're less likely.
+The whole song and dance there.
+Where does just plain old
+normal learning-- learning
+from trial and error--
+come in in places
+that one would not expect?
+If you are a female monkey,
+it is not instinctual
+for you to know what you're
+doing with your first baby.
+Maternal competence is
+not a strong instinct.
+It does not produce a
+bunch of fixed action
+patterns in, for example,
+female rhesus monkeys.
+They have to learn how to do it.
+They have to learn how
+to hold on to the kid
+when they're jumping
+up in a tree.
+They have to learn which end you
+try to stick on to the nipple.
+You have to learn all
+sorts of stuff like that.
+Weird.
+All of my kids starved to
+death, but then today I
+tried switching this
+one around this way.
+Isn't that cool?
+Anybody know Niko
+Tinbergen's email address?
+What you wind up
+seeing there is they
+have to learn how to do it.
+So what sort of
+evidence would you see?
+For example, you have mothers
+having a higher likelihood
+of their kids surviving as you
+go from their first offspring
+to later ones.
+OK.
+But maybe you can
+come up with all sorts
+of other things going on there.
+What else do researchers find?
+If you have a big sister,
+and you are a female rhesus
+monkey-- or a female baboon,
+it's been shown as well.
+If you have a big sister
+who has a baby, when
+you have your first
+baby, your child
+is more likely to survive.
+How come?
+Because you watched her.
+You watched your
+big sister doing it.
+Or if your mother had another
+sister, another daughter,
+and you got to-- no, another
+child of either sex--
+and you got to watch,
+what was even more
+clear in the literature was
+the more experience you had
+actually holding on to
+your niece or nephew there,
+the more-- as
+termed in the field
+now-- the more [INAUDIBLE]
+behavior that you had,
+the more likely your first
+child was to survive.
+Because you were learning
+how to be a competent mother
+as a primate, as a monkey.
+It's not, oh, instinctual.
+They just know how to do it.
+It's all hardwired somehow.
+This is a realm where
+you have to learn.
+Another domain
+where this happens,
+and another one where what
+you would immediately say is,
+wait, they didn't do this just
+by reflex or instinctually?
+Meerkats-- meerkats who eat
+all sorts of unlikely things.
+And one of the things
+they eat are scorpions.
+And mom meerkats have to
+teach the kids how to hunt
+and eat scorpions without
+getting yourself in trouble
+there.
+What is shown-- like
+teaching techniques,
+they would be teaching three
+blocks away in the Ed school,
+in terms of progressively
+making the task harder
+in small increments.
+What happens?
+The meerkat mom goes
+and kills a scorpion.
+And for the first
+couple of days,
+the baby learns how to eat a
+scorpion that's already dead.
+Then, once the kid has
+that under control,
+the mom goes and
+captures a scorpion.
+Which remains alive, but mom is
+able to bite off the stinger,
+and now leaves the kid
+with this live scorpion
+that it can learn how to
+hunt, and learn how to kill,
+and get food.
+And only when
+they're doing that,
+then mom captures a live
+scorpion with the stinger
+still on and plops
+it down for the kid.
+This is exactly what
+they teach you to do
+if you're being a good teacher.
+Which is a nice, small,
+incremental steps.
+You don't want to do the
+same thing for too long.
+The kid gets bored.
+You don't want to
+have too big of steps.
+They get learned helpless.
+And you just-- they're teaching
+their kids how to hunt,
+because the kids don't
+know how to do it.
+Perfectly clear example
+of classical learning,
+but in a domain where nobody
+thought it would be going on.
+Another example of
+it-- and this is
+one where the behavior itself
+was so unlikely that nobody
+would ever have been saying, oh,
+animals just know instinctually
+how to do this,
+because nobody believed
+this behavior could occur--
+which is animals making tools.
+This has been shown in a
+number of species, including,
+for example, cetaceans.
+Where it's been best
+studied is in apes.
+Other ape species.
+Actually, we make tools, too.
+So all of the ape species.
+And Jane Goodall, pioneer
+of chimp research,
+was the first one to
+discover this-- chimps being
+able to strip the little bark
+and stuff off of a long twig
+and insert it into
+a termite mound
+and pull it up with
+all the termites
+that grabbed onto the stick
+when it was down there.
+And now being able
+to eat the termites.
+And chimps, various types of
+populations of chimps, they
+use tools to hammer,
+to break open nuts.
+They know how to use
+a hammer and anvil.
+They get a flat rock, and
+they do this with this.
+All sorts of tool
+making and tool using.
+As we will hear, there is
+at least one population
+of chimps that has been studied
+where males will actually
+fashion large pieces of wood--
+Where they will work to modify
+it, to use it as a weapon.
+They can build tools
+that are weapons.
+So what's going on with that?
+And all sorts of studies
+showing, for example, the more
+experience you have sitting
+and watching somebody else
+make these things, the faster
+you're going to master it.
+But you actually want
+hands on practice.
+The more the individual,
+the other chimp,
+gives you the
+building blocks of it
+to start doing the
+piece and all of that,
+and you begin to master
+it learning by experience.
+One thing that is
+very amusing is
+that it has been shown
+that chimps, the daughters
+learn much, much
+faster than the sons.
+Because the sons don't
+pay attention to mom
+when she's sitting there
+and trying to get them
+with their hands to do this.
+The daughters are
+much more attentive.
+What you also see is, the larger
+the social group, the earlier
+in life the kids
+learn the tool use.
+And this is brilliant
+ape behavior,
+brilliant ape learning.
+Monkeys don't do this.
+I have seen baboons--
+films of them, actually.
+I have seen baboons on films
+where they are watching
+these chimps doing the
+thing with the stick
+there, and going down,
+and out come the termites.
+And do it again and again.
+And finally, the chimp is just
+gorged with all the termites
+and staggers off for a nap.
+And the baboon comes over
+and will pick up the stick
+and shake it at
+the termite mound
+or push it against
+the side of it.
+Monkeys can't do this.
+Apes can, but they don't
+do it instinctually.
+They gotta learn how to do this.
+So another domain of learning--
+learning purely of the,
+we know how this
+works, we just didn't
+think it would be
+going on in this realm.
+But then, what
+ethology has been most
+amazing at is showing types
+of learning that are simply
+unexpected, that break all the
+classic rules of reinforcement
+theory.
+One example.
+One example of it is what is
+now called one trial learning.
+Which is another
+term that I think
+I used the other
+day, the one that's
+sort of more-- sort of a classic
+that everybody learned back
+when, that animals will
+imprint on something after one
+round of exposure to it.
+And the classic example
+would be Konrad Lorenz
+and his famous little duckies.
+That when birds come out, there
+is a short period after which
+where they imprint on any
+big thing moving around,
+on a fairly safe assumption
+that, in most cases,
+that big thing is
+going to be mom.
+That's how they bond to mom.
+There is a short
+window, what is now
+known as a critical period,
+where the bonding goes on
+during that time.
+And whatever big thing is
+moving around-- and eventually,
+people were doing
+classic ethology studies
+with subtraction and
+substitution of stimuli
+and running around with
+like a stuffed Big Bird.
+And they imprint on
+that, and all sorts
+of large mobile objects--
+basically anything that moves.
+And that's where you would get
+all the little duckies, goose
+stepping behind Konrad Lorenz
+when they had imprinted on him.
+And this is not by
+trial and error.
+Oh, I initially got
+bonded to this thing
+with sharp teeth and claws.
+And that was kind of a bummer.
+That involved all
+sorts of blood loss.
+So I've learned, don't
+bond to that sort of thing.
+Well, then I tried bonding to,
+are you my mother bulldozers?
+And then I tried
+bonding to this.
+And, oh, eventually you
+figure out your mother
+is the one you should
+be hanging out.
+No.
+This is not a domain where you
+can learn by trial and error.
+And what is seen instead
+is this phenomenon
+of one trial learning.
+The first thing baby
+birds are exposed
+to in many species, the first
+big thing moving around,
+statistically likely to be mom,
+that's who you get attached to.
+And lots of interesting
+neuroethology
+has gone on over
+the years trying
+to figure out what are the
+mechanisms of imprinting.
+One of the things
+that come out is
+it's nowhere near as dramatic
+of critical periods--
+if you don't figure out who
+mom is in the next 7 and 1/2
+minutes, you are up the creek.
+You will never-- it's more
+a sort of relative term.
+But nonetheless, that's
+not how learning works.
+You're supposed to learn
+from trial and error that
+snakes, and leopards,
+and all of those guys
+are not good mothering models.
+But it happens.
+Another realm.
+Something that came to be
+known as prepared learning.
+Which is, there's
+all sorts of ways
+in which some piece of
+information can be learned.
+Or there's all sorts
+of sensory associations
+you could make with
+something, but you
+are prepared to make certain
+of those associations
+more easily than others.
+What do I mean by this?
+A classic example
+of it is what's
+called the sauce
+Bearnaise syndrome.
+And sauce Bearnaise is
+some fancy French food
+that seems very unappealing.
+And I don't know
+what it's made of.
+But this was first described
+by a guy, University
+of Pennsylvania,
+Martin Seligman, one
+of the most sort
+of major figures
+in psychology in the
+last decades or so.
+We will hear plenty
+about him to come.
+And this was, one evening
+he went out for dinner,
+where he had sauce Bearnaise.
+And then he went to a concert
+of some opera or something,
+and then he went home.
+And for some reason or other, he
+got himself a terrible stomach
+ache.
+Terrible stomach ache.
+It was a total drag.
+All night long, he had it.
+He didn't throw up.
+It wasn't that bad.
+But he had a terrible stomach
+ache, recovered from it.
+Weeks, months later,
+he goes out for dinner.
+And he goes off to
+this French restaurant,
+and has sauce Bearnaise,
+and is about to take
+the first spoonful, or forkful,
+or handful, or whatever.
+And he realizes this smells
+totally repulsive to him.
+He could not eat
+the sauce Bearnaise.
+He has never been
+able to since then,
+because he's associating it with
+the stomach pains afterward.
+Remember, he didn't throw up.
+He wasn't burping up sauce
+Bearnaise vapors or anything.
+So it's not like, oh,
+the taste was just
+like the acidic stuff that came
+roaring up the other direction,
+just associating with
+the stomach pain.
+OK.
+That's sensible.
+I mean, that's not great,
+but you can kind of
+see how that happens.
+But you think about
+it, and that's
+breaking all sorts of
+classical rules of behaviorism
+and classical learning.
+Which is, if you were going to
+make an association-- you can
+have a choice between an
+association of a with b or a
+with c-- you're going to
+make the association more
+readily with whichever one
+comes closer in time to a.
+So what came closer
+in time for him?
+The opera.
+He finished dinner, and
+then he went to the opera
+and spent hours listening
+to Wagner or something,
+and he didn't attribute
+his stomach ache to that.
+The next time he went to
+an opera, he was perfect.
+He was just fine with that.
+He had prepared learning.
+For pain coming
+from your gut, you
+are far more likely to associate
+with food than with music.
+Prepared learning in us
+for pain in our GI tract
+with gustatory stimuli.
+More examples are
+prepared learning.
+So now you take
+these, and you're
+trying to teach them where
+there's a food source.
+Experimental stuff.
+And you give them
+some like mark or sign
+or whatever to tell them,
+here it is, and remember
+this for the next time.
+Do they make an association
+between the food source
+and whatever marker you put up?
+And what they show
+in the studies is,
+they can modify the marker.
+They either modify the
+shape of it-- here's
+a little triangle, square, or
+whatever-- the color of it,
+or they can modify the smell.
+The smell that they-- some
+smell source that they--
+And what they show is, bees
+have prepared learning.
+They learn the smell
+associations much, much faster
+than the shape or the
+color associations.
+They can learn of
+the other ones,
+but bees have prepared learning
+for making associations
+by olfactory cues more
+readily than making them
+by color or shape.
+More examples.
+One of the great
+urban legends is
+that humans are innately
+scared of spiders and snakes.
+Humans are not, because
+there's all sorts of cultures
+where people love spiders
+and where, in fact, they
+love spiders.
+Because they love
+to chase after them,
+and pull their legs out, and
+then cook them up and eat them,
+and people are not scared
+in front of spiders
+and getting the
+willies from them.
+It is not innate.
+But humans show prepared
+learning for being
+scared of spiders and snakes.
+Which is, you can show in
+humans and in monkeys, as well,
+the conditioning that's needed
+to associate, for example,
+a picture of a spider with
+the autonomic response
+to a mild shock, versus
+a picture of Disneyland
+and Mickey and associate it.
+That it takes less of
+an association for we
+primates to associate something
+like a spider or a snake
+picture with something
+unpleasant than all sorts
+of other animate stimuli.
+More examples of how this works.
+You give people--
+or, as it turns out,
+you give monkeys-- a task.
+You flash up a complex
+picture, and you take it away
+for a few seconds or whatever.
+And then you flash it
+up again, and one thing
+has changed in the picture.
+It's a street scene,
+wherever it is.
+And you need to pick
+out which it is.
+And with the monkey
+studies, you need
+to indicate sort of where
+it was to get the reward.
+Are you able to pick up the
+subtle thing that changed?
+Humans and monkeys
+are better picking up
+for animate objects
+that change, are
+better at spotting if there
+are things like snakes,
+than if they are animals that
+we don't associate like that.
+We are better, in this
+very rapid exposure, almost
+subliminal stimuli, we have
+prepared learning for that.
+Do the exact sort of
+thing with humans,
+where what changes from
+one flash to the other
+is either an animate object
+or an inanimate object.
+Humans have prepared
+learning to pick up
+stimuli of animate objects
+much, much more readily.
+A shorter exposure time, more of
+a subliminal cue, all of that.
+So prepared learning is being
+all of these examples where,
+by any logic, universal rules.
+You learn to associate this
+with this, as BF Skinner,
+or just as easily with this,
+or just as easily with this.
+And dog, and cat, and
+they're interchangeable,
+and sensory stimuli.
+But no, all sorts of
+species come already
+wired up to learn certain
+associations more readily
+than others.
+So completely
+violating behaviorism.
+OK.
+Final domain where ethologists
+think about interesting stuff
+is one of those ones that used
+to be just the backwaters,
+or one of those were
+people would say,
+there's no way this
+could ever be studied.
+And people finally
+got some headway
+in figuring how to look at
+this stuff, which is finally
+all sorts of
+interesting things--
+not just studying the ethology
+releasing stimuli, neurobiology
+adaptive advantage of
+behaviors, but understanding
+what the internal cognitive and
+emotional life is of an animal.
+And you can see, it's
+right at this point
+that old classical
+behaviorists would just
+have to leave the room they
+were so repulsed by this.
+Because this was just
+like William James
+navel contemplation.
+What do you mean what's going on
+inside the head of the animal?
+You measure what it's doing.
+It produces a behavior, and
+that's how you study it.
+And what instead has come
+out is another new branch
+of ethology known as
+cognitive ethology.
+What's going on there?
+One of these sort of
+landmark ones of it--
+of sort of a piece of
+it-- came from a guy
+named Donald Griffin, who
+passed away a few years ago.
+He was in his 90s.
+He was one of the towering
+figures of animal behavior,
+whatever, over the centuries.
+What Donald Griffin
+discovered was echolocation--
+that bats echolocate.
+Classic, classic ethologist
+flavored thing of, whoa!
+How about we interview the
+bat in sound frequencies
+that we humans don't consider
+to be sensory stimuli?
+And opening up this
+whole new world.
+He was central,
+played a key role
+in World War II in the
+development of sonar,
+working off of some of
+the same principles.
+But he's the person who
+discovered echolocation.
+Just to make all of you who
+are seniors feel really upset,
+this was his senior
+honors thesis at Harvard.
+And, oh!
+Discovered echolocation.
+So he passed.
+And he spent his
+entire career on this
+and doing amazingly
+elegant stuff.
+And people came
+to kiss his feet.
+He was such an amazing
+experimentalist.
+And when he was
+about 70 years old,
+clearly what
+occurred to him was,
+I don't really care what anybody
+else thinks at this point.
+I've got something that
+I want to bring up,
+which is the possibility
+that animals actually
+have awareness.
+And he published a book
+called On the Question
+of Animal Awareness.
+And it's clear he published
+it then because he had tenure.
+And he already had tenure
+in his nursing home,
+and he wasn't going to get
+booted out by everyone saying,
+oh my god, did you see what
+happened to Donald Griffin?
+He used to be a real scientist.
+What happened to the guy?
+Here he is, sitting
+around speculating on,
+do animals have internal
+lives of awareness?
+And what he did was outline how
+what a research program to get
+at that would be like.
+And people have been
+studying it ever
+since and showing that animals
+have strategic awareness.
+They are doing all
+sorts of subtle really.
+Really interesting field.
+So starting it off with that.
+Closely related to
+that was the issue
+of whether animals
+have self-awareness.
+And we know that dogs
+don't, because they
+will bark at themselves in the
+mirror for the rest of time.
+But do animals have
+self-awareness?
+This was something pioneered
+by a guy named Gordon Gallup.
+And like one of those
+brilliant, elegant studies.
+Here's what he did.
+He would take a chimp,
+a captive chimp,
+and he would give it
+a mild anesthetic,
+so the chip would be a little
+bit drowsy for a minute or two.
+And while it was
+down, he would quickly
+run in with a magic
+marker and put
+a little circle like on
+the forehead of the chimp.
+Chimp comes to, goes
+back to its business,
+where there is now a
+mirror in the room.
+And at some point, the
+chimp comes up to it,
+because they'll wander
+around and encounter this.
+And here's the critical
+question right now.
+Can the chimp figure out that's
+not another chimp, that's me?
+And what the evidence
+was that he produced
+to suggest this was precisely
+the case was showing
+the chimps were now far more
+likely than at the chance
+level-- you see how
+it's being set up,
+this is a well-designed
+experiment-- far
+more likely to
+look in the mirror
+and scratch here to
+see what is this thing?
+Where did this thing come from?
+And that has been viewed
+as the gold standard
+for self-awareness.
+Do you look at that
+and respond as if you
+were knowing that that
+is you rather than,
+that's some other animal?
+And self-awareness
+by this test has been
+shown in all sorts of species.
+Elephants by this rule
+have self-awareness.
+I don't know who puts
+the magic marker thing up
+on their forehead.
+But when you do that, they
+will bring the trunk up
+and investigate it.
+But interestingly,
+marmoset monkeys--
+those delightful, pair bonding
+for life South American
+monkeys-- marmoset monkeys
+don't have self-awareness.
+And that's kind of
+puzzling, because all sorts
+of other primates
+that in the rough way
+are as neurobiologically
+complex had it.
+And they don't.
+And, OK, so Marmoset
+monkeys don't.
+But then an ethologist, a guy
+named Marc Hauser at Harvard,
+thought in the
+monkey's own language.
+And knowing marmosets-- he was
+a marmoset researcher-- in order
+to spot this on your forehead,
+if you were a monkey,
+you have to be looking
+in the mirror something
+very close to looking in
+your reflection's eyes.
+And marmosets don't do that as
+part of their social system.
+They never noticed
+there was this up there,
+because they never look up at
+that part of their reflection.
+So what he would do is, he
+would now do the same paradigm
+and put the little dot here.
+And marmosets, off
+they are a minute later
+trying to figure out what
+this thing was about.
+Interviewing the animal
+in its own language.
+What else?
+Another domain of this.
+So awareness, self awareness.
+Another thing now shown in other
+species called theory of mind.
+One that psychologists,
+developmental psychologists
+love.
+Theory of mind.
+At what point when
+you were growing up
+do you suddenly
+realize, number one,
+there are other individuals?
+There are boundaries
+to individuals.
+You are not one sort
+of ego boundaryless
+sort of continuation of mom.
+There's other
+individuals who could
+have different information
+about the world than you do.
+And that usually comes
+around age 4 or 5 or so.
+My children got theory of
+mind when they were 3 and 1/2.
+And we can document
+that if need be,
+but it comes out
+somewhere around then.
+And what you see-- it's a
+classic test that it's done.
+You tell the child a story,
+OK, here's the-- some of you
+will know this.
+The Mary Ann, the Barbie Ann?
+The Sally Anne.
+OK.
+The Sally Anne test
+of theory of mind.
+So you tell this kid
+this story about,
+here's this kid who has
+their doll named Sally Anne.
+Sally?
+OK, Sally.
+OK.
+So they have this
+doll named Sally Anne.
+And you tell them-- they're
+totally attached to Sally Anne.
+They go to sleep
+with it, and always
+on the bed, and all of that.
+And the kid goes off every
+day to preschool or whatever.
+And this is the day that mom
+looks at Sally Anne there
+and says, oh no, Sally
+Anne is all soiled,
+and it's time to throw Sally
+Anne in the washing machine.
+So in goes Sally Anne.
+And Sally Anne is
+then on the dryer,
+eventually sitting
+on top of the dryer,
+when child comes
+back from school.
+And now you say to the
+kid you're testing, oh,
+where's that child going to
+go and look for Sally Anne?
+If you have theory
+of mind, you will
+know the kid doesn't know
+that Sally Anne wound up
+in the washing machine, because
+she was off at preschool.
+And you would then say,
+oh, still in the bedroom.
+On the other hand, if you
+don't have theory of mind,
+it's inconceivable to you
+that the child in the story
+wouldn't know, because you know.
+And they must know the
+same thing, because we all
+know the same thing.
+And you would say,
+the child will go look
+on the washing machine.
+That's how you begin to see
+the evidence of beginning
+to understand that
+another individual has
+different information
+than you have.
+And people were soon
+showing this with chimps.
+Here would be one example.
+That's not a smile.
+That's a banana.
+So you would have one chimp
+here and one chimp here.
+And here's how you would do
+this paradigm, which is this
+would be a high ranking chimp.
+This would be a low ranking one.
+Put him in there,
+and they're watching.
+And an experimenter
+comes along and puts down
+a really cool piece
+of food and in a way
+that the chimps can't
+necessarily see.
+But the main thing
+here is that there
+are these dividers in between.
+In one case the divider,
+near the dominant individual,
+is glass.
+They can see through it.
+In the other case, it's opaque.
+They can't see through it.
+So now, you release the
+chimps to go for the food.
+And what happens is
+the low ranking guy--
+if and only if this
+was glass here--
+doesn't bother trying
+to get the banana.
+Because he knows the
+other guy saw the banana.
+Put up an opaque one, and
+now he will go for it.
+Design is all wrong here.
+There's no divider here.
+So release this guy.
+And if this was
+opaque, he will now
+go for it, because he
+knows the other guy doesn't
+know there's a banana there.
+He knows that the other guy
+has different information
+than he does.
+Parts of the controls you
+would expect to see now
+have this with the glass here,
+where the dominant individual
+sees somebody bring in the
+banana, shows it to them,
+put it down behind
+the opaque screen.
+And take out this
+dominant guy, and put
+in a different dominant
+guy, let them loose,
+and he will go for the banana.
+Because he knows, oh,
+it's not simply the rule
+that dominant guys who scare
+me know there's a banana there.
+They know, he's the one
+who saw there's the banana.
+This guy doesn't know
+there's a banana there.
+Theory of mind.
+Or now do it with a
+lower ranking individual,
+and it doesn't matter
+to you whether or not
+they could look through
+the glass or not.
+You're going to
+go for the banana,
+because you're going
+to get it regardless.
+The first bits of
+evidence of theory
+of mind that a chimp understands
+that other chimps have
+different information than them.
+What the studies
+since then have shown
+is that chimps do not know
+how to do theory of mind
+in a cooperative setting.
+They can only do
+it for competition.
+They can only do
+it when they are
+highly motivated in that way.
+But still, this is an ape.
+This is really quite impressive.
+Birds can do theory of mind.
+Apparently, the smartest
+birds in the entire universe
+are corvids, which are ravens
+and crows who are wildly smart.
+And all sorts of
+interesting ethology studies
+that have been done on them,
+including doing theory of mind.
+You show, with these
+guys, you give them nuts
+or whatever it is,
+seeds or whatever, which
+they will hide in places.
+And if there is another
+one around looking at them,
+they won't hide it.
+Or they'll put it there.
+They'll dig it down into the
+sawdust there or whatever.
+And when the other
+guy isn't looking,
+they'll quick get it and
+move it to someplace else.
+Because they will know,
+when it's over here,
+that this guy doesn't
+have the information.
+They can do theory of
+mind when stashing food.
+More things that
+animals can do that fall
+within the realm of this
+cognitive ethology stuff, which
+is animals can
+distinguish between
+intentional and
+unintentional behaviors.
+How has this been
+done in studies?
+One example, you take a
+chimp, a captive chimp.
+And it has some totally great
+food item sitting out there
+that it's about
+to get access to.
+And along comes some lummox
+of a human walking through.
+And in one case,
+the human leans down
+and takes the plate of food
+and flings it someplace else.
+And in the other
+circumstance, the human
+comes along and accidentally
+trips over the plate,
+flinging it someplace else.
+When the human leans
+down and flung it away,
+the chimp will bang on
+the walls a lot longer
+than when the person
+accidentally tripped over it.
+Chimps can distinguish between
+intentional and unintentional
+gestures like that.
+And dogs know the difference.
+Dogs absolutely
+know the difference
+between somebody
+who has kicked them
+and somebody who has
+tripped over them.
+All sorts of stuff
+like that, as well.
+What else?
+Evidence of animals being
+able to plan for the future.
+And one great
+example of this has
+been with those corvid birds.
+And here you have a
+design where every day,
+there's two compartments
+that the bird can go into.
+And on one day,
+you put food here.
+And the next day there,
+and the next day there.
+You alternate back and forth.
+The key thing is, any
+time you put food in here,
+you put a huge amount in here.
+And at the end of the
+day, you clear it out.
+Whereas when you're
+putting in food here,
+you're putting in
+only a tiny amount.
+So on alternating days,
+they get a lot here.
+The next day, a little bit.
+A lot here, a little.
+And what you show, what you see
+after not that long of a time,
+is these guys, on the day
+that there's food here,
+will take some of it and stash
+it there for the next day.
+Ravens and crows will do this.
+This is planning for the future.
+They have flexible,
+cognitive strategies.
+Here's what's been
+shown in bees.
+OK.
+So you do your basic
+Hugo Von Frisch deal.
+Which is you show a bee some
+interesting food source.
+They go back to the hive, and
+they dance and tell everybody
+about it.
+But this time,
+what you do is you
+give the bee completely
+ridiculous, implausible
+information.
+You take the bee
+out to the middle
+of the lake in your rowboat,
+and you give him the food there,
+the nectar.
+And they go flying back to the
+hive, and they dance like mad,
+and everything we
+know about ethology
+predicts what the bees are
+supposed to do at this point.
+But the bees don't do that.
+Because, in effect, they're
+sitting there saying, yeah,
+right.
+In the middle of the lake?
+You know what you're telling us?
+You're telling us there's food
+over in the middle of the lake
+there.
+That doesn't make any sense.
+We're not going
+to listen to you.
+They don't respond if a bee,
+thanks to an experimental
+manipulation, is telling about
+a food source in a place that
+cannot possibly be.
+Flexible cognitive strategies.
+Finally, some evidence
+in various species,
+but predominately studied
+in chimps, of numerosity.
+Numerosity, as in having
+a sense of numbers
+having meaning in
+and of themselves.
+This is totally cool,
+this experiment.
+OK.
+What you do is you teach a
+chimp a series of three objects.
+And you show him
+the first three,
+and they need to
+recognize that, if I've
+seen this one before, I press
+a lever, I get a food reward.
+You train them at the
+same time to recognize
+three other pictures--
+another trio,
+another trio, another trio.
+So the chimp has now learned
+a dozen different trios
+of pictures and
+knows how to do that.
+If I have seen this trio
+before, hit the lever,
+and I get a food reward.
+Now what you do is
+you make a mistake.
+What you do is you take--
+here, instead of HIJ,
+you take out the J, and
+you substitute it with A.
+In this case, what you
+do is you take out the I,
+and you substitute it with
+B. What's the difference?
+In this first case,
+what you're doing is
+you're removing the third
+object in the sequence
+and replacing it with
+something from the first object
+in a different sequence.
+In this case, you're
+replacing a second object
+in the sequence with another
+second object in the sequence.
+And when you do this
+quickly, tasks quickly,
+chimps make more mistakes
+with this than with this.
+What's going on in their heads?
+They're saying, oh yeah,
+this one looks right.
+No, wait, that one's not right.
+It's a different number two
+than the one for this trio.
+When it matches the
+number in the sequence,
+they make more mistakes,
+because they have partially
+filed it away.
+Not only have I seen this
+picture before-- not only
+have I seen this picture
+before as part of this trio,
+but when I see it as the trio,
+it's the third one that I see.
+It's the first one
+they have had some sort
+of numerosity information
+coming in there.
+Another study showing this,
+and this one with chimps.
+And in this one, what
+you do is a strategy
+you've heard already,
+which is you record
+the vocalizations of chimps.
+And what you do is you record
+the sounds of big male chimps
+giving threatening bellows.
+So now, you hide the
+speaker in some bush there,
+and you've got
+your chimps nearby.
+And you play the sound of
+some big male bellowing,
+and it's a chimp they've
+never heard before.
+Chimps recognize individual
+voices, no big surprise.
+And what happens is
+all the males run over
+to the bush to investigate.
+Now make it a little scarier.
+Play the sound of two
+strange male chimps
+bellowing, giving their
+territorial calls.
+And do you run over or not?
+You have a whole bunch
+of males run over.
+Now make it even scarier.
+Three voices of them.
+And what you see is, by the time
+it gets up to there, if there
+are more voices of novel
+males that they're hearing,
+than the number of
+males in their group,
+they get out of there.
+And what you'll see is, they're
+playing the voice there.
+They begin, and they add in
+another one sequentially.
+And say this will come
+up to four voices,
+and they'll show the three
+chimps are like coming
+up there ready to investigate.
+And three voices, and
+uh-oh, we're out numbered.
+Numbered.
+We're out numbered.
+And they slither back and go
+the other way at that point.
+They have a sense of
+the number four is
+bigger than the number three.
+Finally, evidence of
+transitive thinking.
+Not just in nonhuman
+primates, but as
+shown here by Russ Fernals in
+the bio department in fish.
+I'm watching a defeat b.
+Then b defeats me.
+I go and give a
+subordinate gesture to a.
+And this has now been shown.
+And a similar theme
+again, it's only
+done in the context
+of competition,
+highly motivated circumstances.
+OK.
+So what do we got now?
+We've got a completely different
+way of thinking about behavior
+and emphasizing here natural
+setting-- experimentation
+rather than coming up with
+those just so stories.
+The notions of all
+sorts of species,
+including us, functioning
+in sensory domains that
+are unheard of.
+And finally, all sorts
+of types of learning that
+are ways in which
+organisms are not supposed
+to learn that all of us do.
+For more, please visit
+us at standford.edu.

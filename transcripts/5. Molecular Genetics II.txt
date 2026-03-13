@@ -1,0 +1,2885 @@
+5. Molecular Genetics II
+========================
+
+Stanford University.
+Let's see.
+Various announcements.
+I am out of town tomorrow,
+so no office hours.
+I managed effortlessly to
+confuse a whole bunch of people
+Monday about positive selection
+versus stabilizing selection.
+All of that on the Q&A
+part of the course works.
+I've pulled out the paragraphs
+from the extended readings
+that explain that coherently, as
+opposed to what happened here.
+And Monday-- Monday I discovered
+that somebody sitting in this
+room, who I cannot
+spot at the moment,
+has a spectacular tattoo
+illustrating the central dogma
+of life, or at least one person.
+If there's two, it's
+really something.
+So amazing demonstration
+of DNA to RNA to protein.
+So if the person doesn't
+have a class afterward,
+he will be standing up
+on top of this counter
+here displaying
+it for everybody's
+educational purposes.
+So besides finding about that
+guy, what else happened Monday?
+Monday we introduced
+two concepts
+and, with great
+dramatic foreshadowing,
+started to trash both.
+The first one being
+this huge emphasis
+in all of the preceding lectures
+on the evolution of behavior--
+not only this emphasis
+on adaptation,
+not only this emphasis on
+inferring a genetic basis
+through that roundabout--
+here's a story
+and until you make up
+a better one, I win.
+But also that emphasis
+on gradualism,
+that slow evolutionary change.
+What we focused
+on there was what
+would be the mechanisms,
+the molecular mechanisms,
+for classic gradualist
+evolutionary change,
+microevolution, the whole world
+of point mutations-- deletion,
+insertion, all of that, the
+whole world of mutations
+potentially being big news,
+knocking a protein completely
+out of business
+and suddenly you've
+got a different gender than
+you actually are chromosomally,
+but a world, none the less,
+where for our soundbite,
+micromutations are affecting
+how readily a protein does
+its job-- how strongly,
+how potently, how long,
+what its job is,
+all of that, that
+as sort of the grist for the
+microevolutionary change.
+What we then transitioned
+to was the huge, huge attack
+on the gradualism that
+came with this view
+of punctuated
+equilibrium, this notion
+that most of the time, nothing
+exciting was happening,
+long periods of stasis, and
+then sudden, dramatic change
+proposed by Gould, other
+evolutionary people.
+And what we saw was
+the huge implication.
+There it was.
+If most of the time,
+nothing interesting
+is happening in terms
+of evolutionary shift,
+there goes
+gradualism, there goes
+the emphasis of every
+bit of adaptation
+is going to make a difference
+long term, every, opportunity
+to compete, compete
+and dominate,
+is going to make a difference.
+All of that goes down the
+drain if 99% of the time,
+there is instead
+equilibrium stasis.
+What we saw were the wildly
+enthused attacks upon it
+along the grounds of that
+stasis and rapid change
+for paleontologists
+bears no resemblance
+to what the world is like for
+an evolutionary biologist.
+Paleontologists can only see
+the evolution of boring stuff--
+morphology.
+You miss the entire
+world of what's going on
+inside that morphology.
+And the most damning
+sort of complaint,
+show me some
+molecular mechanisms
+for these
+macroevolutionary changes.
+What we then transitioned
+to was seeing all the ways
+in which the picture of the
+structure of genes and DNA
+is completely wrong along
+the lines of there's
+the intervening sequences,
+the intron/exon organization
+of genes.
+Suddenly the opportunity
+to mix and match
+combinatorial abilities for
+one gene, or at least one
+stretch of DNA, to
+specify a whole bunch
+of different proteins, depending
+on the function of the splicing
+enzymes, and those
+splicing enzymes
+differing in different
+parts of the body
+under different circumstances.
+We then saw that flabbergasting
+business about 95% of DNA
+not coding for proteins, not
+being genes, but instead,
+the instruction manuals,
+the promoters, the switching
+on and off, leading to
+that critical notion
+of transcription factors
+transducing events going on
+out there, out there outside
+the nucleus, outside the cell,
+outside the organism,
+into changes in DNA,
+and thus the incredibly
+important role of transcription
+factors, promoters.
+There are a lock and
+key interactions.
+All that sorts of
+stuff introducing
+the second critical
+concept-- if microevolution
+is about sort of changing the
+function of a protein, changes
+occurring at the level
+of transcription factors
+or promoters, those
+are about changing
+the context for which
+proteins are functioning
+when genes are expressing.
+What they are about are
+introducing if/then clauses.
+If this is happening outside
+the nucleus, cell, universe,
+whatever, then if that results
+in this gene being activated,
+then you will see that response.
+What came along sort
+of de facto with that,
+the second major thing
+that we thus trashed,
+was DNA as the central starting
+point, the dogma of life.
+DNA is the only one who knows
+what's going on out there.
+DNA commands, RNA commands,
+protein commands all of life.
+And what we saw was DNA,
+genes, are just a readout
+and most of what it's about
+is environmental regulation
+of when genes activate.
+Finally we began to see all
+sorts of ways of futzing around
+with gene expression
+that has nothing
+to do with the sequences
+of DNA, but instead
+has to do with things like
+access of transcription factors
+to the DNA, changing
+accessibility permanently,
+that whole world of
+epistatic, epigenetic changes,
+coming up with that
+sound soundbite.
+Fertilization is about genetics.
+Development is about
+epigenetics-- all of that
+combining to show,
+number one, genes
+are not such a hot deal in
+terms of them knowing what's up.
+Number two, in
+addition to mechanisms
+known for
+microevolutionary change,
+we left just on the cusp of
+seeing how all of this stuff
+can set you up for some big
+time macroevolutionary changes.
+First example of it.
+First way in which
+that could occur.
+So back to the modular
+construction of genes.
+We've got our introns,
+exons, all of that.
+And what we learned
+the other day is here
+we've got a gene coded
+for with three exons.
+You produce a messenger
+RNA that encompasses
+all of these plus the introns.
+Along comes a specific splicing
+enzyme, knocks out these parts,
+and here is the mature protein.
+So that's great.
+What if you have a mutation
+in your splicing factor,
+in your splicing
+enzyme, and as a result,
+instead of clipping here,
+it ignores those and clips
+here instead.
+What do you get?
+You get two completely
+novel proteins
+that never existed before in
+this cell, in this individual.
+What you've got there
+is not some sort
+of little
+microevolutionary change.
+This is not a protein
+working a little bit better
+or a little bit more sluggish.
+This is the invention of
+entirely new proteins.
+So what we see here is splicing
+factors working differently.
+And this is a major
+change, if whatever
+went on in the outside world
+that causes the then of this
+being made, if you've got
+that mutation in the splicing
+factor, you've just made
+entirely new if/then.
+If whatever's going on
+in the outside world
+happens to activate this,
+you produce these two novel
+proteins.
+So we've suddenly
+got the potential
+for producing all
+sorts of novelty.
+They're splicing enzymes,
+enzymes, proteins, thus there
+are genes coding for
+the splicing enzymes.
+As a result, suddenly a very
+different type of consequence.
+Yeah, question?
+How often do those [INAUDIBLE]
+make it out of the [INAUDIBLE]?
+Great question.
+How often do they make
+their way out of the--
+[INAUDIBLE]
+What was that?
+How often do the
+mis-splice [INAUDIBLE]
+successfully have function?
+Do they have any function?
+[INAUDIBLE]
+That's a critical question.
+Wait about an hour
+and 17 minutes
+and you will get the answer
+to it-- the answer being,
+not very often.
+Oops.
+I gave it away.
+The answer being not very often.
+And we're going
+to see why that's
+real critical to
+punctuated equilibrium.
+So we see one realm
+of major consequence.
+And intrinsic in that is,
+wait a second-- so if splicing
+enzymes, enzymes are genes.
+There's a gene for
+the splicing enzyme.
+And that gene has its promoters.
+And that gene maybe is
+in a number of exons.
+And thus it needs
+a splicing factor.
+And we're rolling all
+the way down there.
+Recursive regulation.
+So one splicing factor,
+big consequence.
+Next realm where you can
+have a big consequence
+is now you've got a
+mutation in a promoter.
+A whole world of a mutation in
+a noncoding part of your DNA.
+And you can immediately
+run with that one.
+Have a different
+promoter, and it's
+going to interact with a
+different transcription factor.
+And we go back to that business
+about typically a promoter,
+the same version of it, multiple
+copies of that promoter,
+appear upstream of various
+different genes-- promoters
+mediating expression of
+entire network of proteins.
+Change that promoter and you're
+going to change the network.
+Change that promoter in
+only some of the places
+where it occurs and
+now you've created
+a completely novel network,
+a network consisting maybe
+of half of the proteins
+that you would have
+made in the unmutated version.
+Mutate every single
+version of it,
+and maybe it's an entirely
+different transcription
+factor that interacts
+with that promoter.
+And thus we've made an
+entirely new if/then clause--
+not just a new if/then make
+a never seen before protein.
+Now it's an if this
+happens, then make
+a network of proteins that
+have never existed before,
+a combination of these that
+have never occurred before.
+What we're beginning
+to see here is
+a theme of amplifying affects.
+Huge, major
+consequences, instead of
+one little protein which,
+thanks to one little base pair
+changing, is 1 and
+1/2 degrees more
+folded this way
+instead of that way
+and 1.5% better at binding
+this or that hormone.
+That's the microevolutionary
+this is setting up
+for big network changes.
+Novel genes, novel networks,
+novel if/then clauses.
+Third range-- an example of
+why promoters and promoter
+mutations are interesting.
+Later on in the course, we
+are going to hear about one
+of the all time
+interesting differences
+that you can have in
+one of your promoters
+if you happen to be a vole and,
+increasingly it's turning out,
+equally interesting if
+you happen to be a human.
+This is a promoter
+upstream of a gene
+having to do with the
+hormone vasopressin.
+Do not panic or care if you
+haven't heard of this yet.
+But you will have in more
+detail within a few weeks.
+Vasopressin is this
+hormone which has something
+or other to do with social
+affiliated behavior in males
+and all sorts of
+interesting stuff with that.
+And naturally, it
+being a hormone,
+out there is a
+vasopressin receptor.
+And thus, there's a
+vasopressin receptor gene.
+And there's a promoter
+upstream of that gene
+which turns out to come in a
+couple of different flavors.
+And you look at voles, which
+are a little hamster thingee
+sort of things.
+And there's all sorts of
+different vole species.
+And there's ones
+in the mountains,
+and there's ones in
+the plains, and there's
+ones from California to
+the New York islands.
+And there's all these
+different species.
+And it happens some of them
+happened to be monogamous.
+Some of them happen
+to be polygamous.
+We're off and running with
+the social biology of that
+and how many imprinted genes and
+all that they're going to have.
+But a critical difference
+in monogamous vole species--
+there is a different
+promoter upstream
+of the vasopressin
+receptor gene than you
+find in the polygamist ones.
+And go and mess
+around with them,
+use gene therapy techniques
+to change the promoter
+to modify it, and you could
+convert a polygamous male vole
+into a resoundingly
+monogamous one.
+And I don't know if this
+counts as gene therapy
+like curing a disease or just
+gene transfer sort of stuff,
+but what you've got here
+is change your promoter
+and you suddenly have
+a different pattern
+of expression, which parts
+of the brain it winds up in.
+Suddenly you have made a
+major shift in behavior.
+You're not causing
+a change in a gene.
+You're causing a
+change in its promoter.
+You've just changed a
+major if/then clause.
+Another example of
+it-- there is a gene
+that codes for hormone
+neurotransmitter that
+has something to do with pain
+perception called dynorphin.
+It's broadly related to
+things like morphine and such.
+It's got a dynorphin gene
+that's a little more complicated
+than that.
+But there's a promoter upstream.
+And recent research is showing
+that the number of copies
+of that promoter
+in different rats
+predicts something about how
+readily they become addicted
+to various drugs.
+And that winds up
+being pertinent.
+Back for a second.
+Back to the vasopressin
+gene and the vasopressin
+reporter gene and it's promoter.
+In the last couple of years,
+a number of studies come out.
+One, for example, in a
+very credible journal
+by a great group
+showing that if you
+happen to be a human male,
+which version of that promoter
+you have gives you a certain
+significant predictive power
+over how stable your social
+relationships are going to be.
+Get a load of that one.
+And that one is coming later on.
+Whoa.
+Have a different type of
+promoter and statistically
+you are more likely to get
+divorced down the line.
+Back to that first
+lecture freewill stuff.
+There is so much more to
+come along those lines.
+We will look at the
+vasopressin system
+much more in the sex lectures.
+But again, that's not
+a difference in a gene.
+That's a difference
+in the promoter.
+Next domain-- we've now seen
+changes, subtle changes,
+dramatic changes,
+in splicing enzymes
+and the genes underlying
+them, changes in promoters.
+Next obvious domain where you
+can get a macro, macro change
+is a mutation in a gene
+for a transcription factor,
+obviously.
+Do that and you're going to have
+completely different networks.
+Once again, you will have
+changed if/then contingencies
+dramatically.
+Transcription factors are very,
+very important, obviously.
+One measure of
+this-- when you look
+at the human genome
+versus the chimp genome,
+and we will eventually do that
+in some detail and say, 98%
+of our genes in common,
+which is kind of accurate.
+And you remember from the
+other day how that's different.
+It's the level of
+explanation than you
+sharing 50% of your genes
+with your full sibling.
+All of that.
+Back to us sharing 90%,
+98% of our DNA with chimps.
+What are the differences?
+And there's going to be some
+really interesting differences
+we're going to focus
+on down the line.
+But one of the patterns
+that's come out
+of that is a
+disproportionate share
+of the genetic differences
+between humans and chimps
+are genes that code for
+transcription factors.
+And that makes perfect sense.
+You get a change
+in some gene coding
+for some structural
+protein and maybe
+your muscles will bend
+a little bit this way
+instead of that way,
+or who knows what.
+You get a change in the gene
+coding for transcription factor
+and you will have invented
+all sorts of novel networks.
+So a disproportionate
+share of what
+has gone on in evolution
+differentiating us from chimps
+are changes in
+transcription factors.
+This was a big
+triumph, big support,
+for a view that came
+out in the '80s.
+There were a pair of scientists
+at Berkeley, King and Wilson,
+and this iconic set
+of studies they did.
+They were the first
+persons, people,
+to come up with a
+98% business there.
+And using very primitive
+molecular techniques
+that have since been
+affirmed-- and they also
+came up with a prediction, a
+purely theoretical one, which
+is, the most interesting changes
+that will occur in evolution
+are in regulatory parts of
+DNA rather than in the coding
+parts for protein.
+And everything since
+then has supported
+that, including
+things like, you want
+to turn an ancestor
+of a human and a chimp
+into something that
+will look a whole lot
+different from a
+chimp, turn into us,
+change stuff with
+regulation, transcription
+factors, promoters.
+What you see with that
+is this is endlessly
+networks for amplifying
+effects for macro changes.
+And there's a new person in
+the department, Bio department,
+Hunter Frazier, a new
+assistant professor,
+who works in this
+area showing just how
+much evolutionary
+change is being driven
+by change in regulatory
+parts of the DNA world,
+rather than the genes itself.
+Changing a little bit about how
+this protein works, that's OK.
+Changing if/then clauses
+for entire networks,
+that's hugely important.
+Another interesting
+factoid-- there's
+now been the genomes
+of, I don't know,
+about 100 different species
+sequenced, and ranging
+from really short
+genomes with I don't
+know how many genes in
+there, to the longest ones.
+When you pile them up
+and you look at them
+as a function of how
+long their genomes are,
+the more genes you find
+in a species, the greater
+the percentage of
+those genes are
+that are transcription factors.
+And this makes
+wonderful sense as well.
+You got one gene and you only
+need one transcription factor.
+You got two genes and you could
+milk maximal information out
+of them with three
+transcription factors.
+You transcribe A or B, or AB.
+You've got three genes
+and there's seven.
+And the equation
+is 2 to the nth.
+This one.
+Whatever.
+But what you see is by four
+genes, you're up to 15.
+By five genes, you're
+up to 30-- you're
+having an exponential, a
+dramatic increase in the number
+of transcription factors
+you need to take advantage
+of all the possible combinations
+of networks of gene expression.
+The larger the number of
+genes you find in an organism,
+the greater the percentage it
+is of transcription factors.
+In other words, get tiny
+little micro, micro changes
+in DNA coding for transcription
+factor splicing, enzymes,
+promoters, and you're going to
+have big major consequences.
+So over and over here, we see
+this contrast microevolution is
+about the function of proteins.
+Macroevolution is
+about which proteins--
+when networks' if/then clauses
+are far more consequential.
+One additional
+domain of-- we're not
+talking about a tiny
+little micro change
+in one base pair--
+one additional domain,
+a highly revolutionary one that
+came some years ago that also
+has lots of implications
+for thinking
+about macro stuff in evolution.
+And this revolved around one of
+the great irresistible musical
+dramas that have ever come
+out of the history of science.
+Once that is-- there's got
+to be a musical somewhere
+in the future of this-- having
+to do with a scientist named
+Barbara McClintock.
+Barbara McClintock--
+if you are sort
+of a modern molecular sort of
+person, at some point or other,
+you will have to have sacrificed
+a goat at the altar of Barbara
+McClintock.
+She is so amazing and she
+has such a stirring story
+as to what happened with her,
+one which actually is so.
+Barbara McClintock was born, I
+don't know, about 1900 or so,
+and was a plant
+geneticist and was sort of
+off doing genetics of plants
+and doing something or other
+with maize.
+Whatever those people do.
+And she was
+extremely successful.
+She was wildly successful.
+I think at age 40 or
+so in the late 1930s,
+she was already a
+member of what's
+called the National
+Academy of Sciences, which
+is like the most honorific
+science club you can belong to
+in this country.
+40-year-old women
+in 1940 were not
+becoming members of the
+National Academy of Sciences.
+110-year-old white guys
+with shiny foreheads
+were becoming members
+of the National Academy.
+For her to have been
+elected at that point,
+she was an amazing scientist,
+one of the absolute leaders
+in the field.
+So she's cruising along
+there, being renowned.
+And one day she made a
+discovery that completely
+destroyed her career.
+So she's sitting there one day
+and she studies beloved corn
+maize and the patterns
+of inheritance
+based on colors of kernels.
+Genes, molecular biology,
+like nonexistent.
+None of the stuff available now.
+All you could do in
+terms of making sense
+of what is being inherited,
+patterns of inheritance,
+is just looking
+at the phenotype,
+looking at the appearance.
+Peas and whether they're
+wrinkly or not, people
+and whether they're
+wrinkly or not, corn
+and what the colors are of
+the various kernels there.
+That was cutting edge molecular
+sort of genetics at the time.
+So she's working in that domain
+and she's seeing a result.
+She's seeing a
+pattern of inheritance
+which keeps popping up
+in certain circumstances.
+And you go through all of
+the inferential math that
+was available and you
+crunch through everything.
+And you, if you were Barbara
+McClintock pursuing this,
+you come up with a conclusion
+that is totally nutty.
+The only way to explain how
+this change was occurring
+was if genes were picking up
+and moving around on the DNA,
+if gene were jumping around,
+if genes were mobile,
+moving around.
+And out of this, she
+came up with a proposal
+that there are such things
+as transposable genes,
+transposable genetic
+elements, transposons.
+All of the people who spent
+decades afterward mocking her
+in various ridiculing
+tones of voices
+soon referred to these
+as jumping genes.
+And the general
+consensus in the field
+was that Barbara McClintock
+had gone out of her mind.
+Yeah, genes jumping around.
+Yeah, right.
+I'll sell you the
+Brooklyn Bridge
+after that if you believe it.
+That's ridiculous.
+That's ridiculous.
+And Barbara McClintock, having
+a certain stoic self-esteem
+sort of based personality of
+one that was-- basically said,
+you know what?
+This is what I see.
+You want to believe
+it, believe it.
+You don't want to believe
+it, don't believe it.
+Leave me alone, I want to
+go back to my experiments.
+And she essentially
+disappeared from the field
+and just sat out
+in her cornfield
+at a lab in Long Island
+called Cold Spring Harbor lab,
+and just chugged along on her
+own for decades afterward.
+She wrote papers about it
+that were incomprehensible
+to people, because
+no one could believe
+anything this ridiculous.
+And she was developing
+this whole story
+about genes that move,
+transposable genetic elements.
+Everybody ignored her.
+She was mocked.
+She was pilloried.
+She was burned at the stake.
+All of that.
+And then finally somewhere in
+the 1980s, molecular techniques
+caught up enough to show
+she was absolutely right.
+And these things now
+are called transposons.
+Transposable genetic elements.
+Genes really do pick
+up and move around.
+And this was an amazing
+landmark discovery.
+The entire world went crazy
+about Barbara McClintock
+at the time.
+She was on the cover of Post's
+Wheaties boxes of cereal.
+[LAUGHTER]
+There were Barbara
+McClintock lines
+of dance clothes and exercise
+videos and recipe books
+and all of that.
+And somewhere along the way,
+they gave her her Nobel Prize.
+And she was in her
+late 80s at the time.
+And showing exactly the
+stuff she was made out of,
+she said, well, that's nice.
+Thanks for the Nobel Prize.
+But you know what?
+I didn't really need
+to have gotten it.
+This is what I saw.
+You want to believe
+it, yes or no?
+You believe it now?
+That's nice.
+Leave me alone.
+Let me go back to work.
+[LAUGHTER]
+And she continued to work in
+her cornfields doing experiments
+up until about a week before
+her death in the early '90s.
+This is a totally
+cool, amazing figure
+in the history of
+science, a lonely pioneer.
+As it turned out, she wasn't
+that lonely of a pioneer
+and people didn't think
+she was quite that crazy.
+And apparently a
+lot of her papers
+were ignored because
+she could not write
+and her papers were
+incomprehensible.
+But nonetheless,
+the general picture
+was, she discovered
+all of this on her own,
+staked her career on
+this, and most people
+thought she was out of her
+mind and eventually vindicated.
+Totally cool sort of piece
+of the history of science.
+Really, really
+inspirational person.
+And I met her once
+and got to see her
+with her corn and she was--
+[LAUGHTER]
+A remarkable-- she was like 90
+at the time-- and a remarkably
+nice, low-key person, where
+after about 13 and a half
+seconds, it was obvious
+that what she mostly wanted
+was for me to get
+the hell out of there
+so she could go back
+to her corn, which
+was her response
+to everybody there.
+But very heroic figure.
+So she discovers
+this entire new world
+of these transposable
+genetic elements.
+And people have been studying
+it since, these jumping genes.
+The first thing that
+has become clear
+as the field ha matured is
+she picked the right species
+to study.
+She never would have discovered
+transposable genetic elements
+if she was out there
+alone in her cornfield
+studying sperm
+whales or something.
+Separate of the funding
+problems and the logistics,
+she would not have found it.
+She did it in the right
+organisms, which were plants.
+Think about it.
+You are an animal.
+And one of the things you can do
+is, when the going gets tough,
+you can get up and run away, or
+you can crawl away or fly away
+or whatever sort of animate
+animal type things can do.
+If you're a plant,
+you're stuck there.
+You can't run away.
+And if you're going to
+survive a challenge,
+you're going to have
+to have something
+more subtle going for
+you than, oh, let's run
+and get out of here.
+And it turns out all sorts
+of realms of plant stress
+responses are in just the avant
+garde of molecular biology.
+Plants have to
+have fancier tricks
+than all sorts of boring animals
+because plants don't run away.
+What they do instead, among
+their various defenses, when
+a challenge, a pathogen, a
+climate change, whatever it is
+comes along, one of
+the things they do
+is there's realms of their DNA
+where they move genes around,
+where they shuffle stuff around
+in the hopes of stumbling
+onto something novel and useful
+to get them out of that mess.
+Plants have induce-able
+events of genes moving
+transposable genetic elements.
+They tend to induce
+them when the plant is
+under some sort of challenge,
+a cellular stress response.
+And the way that's
+done is by activating
+an enzyme called transposase.
+And those of you who are
+new to the business, enzymes
+tend to have -ase
+the end of the word--
+lactase, sucrase, transposase.
+And what you've
+got there is, this
+is a defense on the
+part of the plant.
+Juggle some of
+its DNA prudently,
+and see if you can come up
+with something to help you.
+Make a copy of
+the gene, and then
+go plunk it down somewhere
+else and see if you've
+stumbled into something useful.
+And it was only in the
+aftermath that people
+started to look at the
+same issue in animals
+and vertebrates and mammals.
+And shockingly to
+everyone, except the people
+who hung out with her, was the
+fact that we've got them, too.
+We've got transposable
+genetic elements, we animals.
+We've got them.
+Where they were first discovered
+made a lot of sense as well.
+You are some scientists
+and you've just
+invented in your lab some
+pathogen, some toxin,
+some who knows what, that
+has never been seen before
+in the history of the planet.
+You've synthesized
+it and you inject it
+in a whole bunch of people.
+And they get totally
+sick and miserable.
+And then you come back two
+weeks later, two months later,
+and they will have made
+antibodies against that thing.
+Their body, their
+immune systems,
+will have made antibodies
+against some invasive pathogen
+thingee that never
+existed before
+in the history of the planet.
+And a staggering challenge
+is how does the immune system
+come up with this
+vast variability
+for dealing with
+novel pathogens,
+making antibodies that
+will recognize them?
+And people soon discovered
+one of the tricks
+was splicing of genes
+relevant to making
+antibodies and juggling
+them around-- induce-able,
+transposable events--
+in the hope of making
+a gazillion new
+types of antibodies
+in a remarkable filtering
+process that goes on
+in the immune system,
+spotting are any of them
+good against this new
+thing that just showed up?
+That's where you had a
+lot of transposable events
+in the vertebrate immune system
+in response to novel pathogens.
+Turns out, we
+weren't the only ones
+doing that because there
+were other things that
+could be happening.
+There were all sorts
+of the pathogens that
+could do the same exact thing.
+There is one tropical
+parasite, Trypanosome, which
+is one you do not want to get.
+And trypanosomiasis is
+the inflammatory disease
+you get from a
+trypanosome, this parasite,
+and it shows up in your
+body, and your body
+does this induce-able
+trick and, thank god,
+comes up with some
+antibodies that could begin
+to target it and attack it.
+But trypanosomes also
+worship at the altar
+of Barbara McClintock.
+What they do is, a
+couple of weeks into it,
+they take away the surface
+proteins on their surface
+and they juggle some
+of the relevant DNA
+and come up with a
+novel version of it.
+So just as you've got
+the antibodies online,
+you can't recognize the
+thing with those antibodies.
+You've got to start the
+process all over again.
+And thus trypanosomes are
+always a couple steps ahead,
+thus the immune
+system has to have
+evolved better ways of juggling,
+coming up with novel stuff.
+Co-evolutionary races there.
+But the cornerstone
+of it is inducing
+movable genetic elements.
+And what people have
+learned since then
+is it occurs outside of
+just the immune system
+and under interesting
+circumstances.
+One really amazing one, which
+I was going to tell you later
+but I will tell you now because
+I just can't wait-- there
+is one transposable
+element that's
+very predominant in primates.
+And there is a certain cell
+type and a certain time of life
+when it is most mobile, when it
+moves around the most-- which
+is, the cells in your brain
+that are going to be making
+new neurons, neural
+progenitor cells, at the time
+that they start proliferating
+and making new neurons.
+There is an induce-able
+event at that time
+where you increase the movement
+of that one genetic element.
+What are you doing?
+You're making some new neurons.
+And, as it turns out, in
+a fairly controlled realm
+of your DNA, you decide to
+shuffle the deck a little bit
+just because you want to get
+the interesting novel sort
+of things that neurons can do.
+This is totally amazing.
+This is totally amazing because,
+among other things, what
+this tells you is the
+cells in your body
+that have the greatest thing to
+do with making you who you are,
+are the least constrained
+by genetic determinism.
+Because right when these
+types of cells, neurons,
+are first being
+generated, they're
+doing more shuffling
+of genetic cards
+than any other cell
+type in the body.
+That sure takes away
+the power of genes a lot
+when it comes to
+the nervous system.
+These transposable events make
+a whole lot of variability,
+some of which is wonderful.
+Some of which is not,
+and this is coming back
+to the question that was asked
+before, are these disastrous?
+In most of the cases, yes.
+But in a few minutes, we'll see
+exactly why it is not likely
+that when you randomly
+shuffle a bunch of cards,
+they're going to come out in
+a perfect sequence of numbers
+or some such thing.
+It is a long shot to get
+something interesting out
+of it.
+Nonetheless, this is a
+mechanism for doing this.
+What this allows you to
+do by moving parts of DNA
+around, making a copy of this
+stretch and then moving it
+and, I think-- I don't
+know the field that well,
+but I think, at
+least in most cases,
+the notion is it plunks
+down randomly somewhere else
+in the genome.
+By moving stuff around, you can
+have big macro consequences.
+For example, suppose
+you've got, by now,
+and if/then clause
+introducing this concept
+already-- if/then clause,
+and we can translate
+this totally primitively
+into worlds of promoters
+and worlds of the actual gene.
+So you've got an if/then clause.
+Suppose you are dehydrated.
+If you were dehydrated,
+translating that
+into actual biology, I
+don't know, your hematocrit
+or how wrinkly your kidneys
+are getting or some such thing.
+Then tell your kidneys to
+start doing something or other
+that kidneys do to retain
+water, which I once understood
+for a finale, no longer do.
+But you wake them up and
+they have some response.
+So we've got an if/then clause.
+If you were getting dehydrated,
+then make your kidneys work
+in a way that increases
+water retention.
+This is ridiculous.
+There is if you are getting
+dehydrated promoter.
+There is no gene
+that is equivalent.
+There's networks, though.
+There's networks,
+and there's ways
+in which your kidney monitors
+that and other outposts
+in your body.
+So we have a rough
+if/then clause.
+Wouldn't take a whole
+lot of imagination
+to turn that into real biology.
+Now suppose you have
+some transposable events.
+Suppose whatever it is,
+the promoter world of that,
+picks up and moves
+and the if you
+were dehydrated part of the
+if/then clause floats around.
+It gets plunked down
+upstream from the genes
+that say go and ovulate.
+What have you just invented?
+What does this allow you to do?
+So now you've got an
+if/then clause, a promoter
+of that response to
+dehydration, and it turns
+on genes related to ovulation.
+What does that get for you?
+Any ideas?
+Oh, come on.
+Ovulate really frequently.
+Ovulate--
+Really frequently.
+Really frequently.
+Depends on your threshold.
+If like you should be-- skip
+orange juice in the morning,
+does that mean you're
+dehydrated enough to ovulate.
+You could set it at a very
+low threshold like that.
+You could do that.
+You could do
+something else though.
+What else?
+[INAUDIBLE]
+You're about to
+die of dehydration
+and that gives you
+one last chance
+for a round of passing
+on copies of your genes,
+if you could find some
+guy who isn't dehydrated
+to dramatic blood flow extent.
+That's a possibility.
+What else can you do?
+Seasonal mating.
+Yes, seasonal mating.
+That's what it's
+mostly used for.
+Certainly possibilities here.
+But what this
+allows you-- you're
+a species where six months
+of the year it's dry
+and six months of the year
+it's wonderful wet and lush
+and exactly the time you
+want to be having a baby.
+And you've got like a six
+month gestational period.
+What do you want?
+You want your body to know
+when it's the dry season,
+and that's the signal to mate,
+because you want to give birth
+during the rainy season.
+And then there's species where
+you are pregnant for two weeks
+or so.
+And what you want to
+have there as a rule is,
+oh my god, if it's the
+dry season, don't ovulate,
+because I'm going to give
+birth to kids who are going
+to starve or some such thing.
+Let's wait until I
+get a signal that I'm
+totally wet and hydrated.
+Then ovulate.
+You introduce novel
+if/then clauses.
+And for certain
+species, this would
+be how you would do
+seasonal mating-- how
+to know you should
+obviously at a time of year
+where, given your
+gestation length,
+it's going to set you
+up for giving birth
+at the time of year
+when your offspring are
+most likely to survive.
+And thus, you will have passed
+on copies of your genes.
+All of that.
+So that's great.
+Another example.
+And this one is
+immediately accessible
+and is a first crude
+way of beginning
+to approach some of this stuff
+that just flowed seamlessly
+and cheaply in the
+forms of theories
+from last week's stuff.
+So you have some
+if/then element in there
+and a promoter
+which, in some way,
+can tell this individual
+near me smells like me.
+And we will see, by
+next week, exactly how
+that translates into genetics.
+But this individual kind
+of smells a lot like me.
+And it has an if/then clause
+which immediately shuts down
+transcription of all sorts of
+things related to fertility.
+You don't mate with relatives.
+Some sort of incest taboo runs
+through a gazillion species
+out there.
+Individuals smelling like
+you, if you were a hamster,
+make you much less
+likely to mate with them.
+So a very logical
+if/then clause.
+All that works great.
+And now you've had a
+transposable genetic event.
+And you plunk down the,
+if it smells like me then,
+into upstream of the
+gene that says cooperate.
+And what have we just invented?
+The starts of kin selection.
+And you could see all
+sorts of rules like,
+if you have more
+promoters, you could
+begin to have subtleties
+of saying, if they really,
+really smell a lot like me,
+like if all these promoters are
+going off at once, then really,
+really, really cooperate.
+If they smell only somewhat like
+me, only somewhat cooperate.
+You could begin
+to fine tune that.
+What have you just invented?
+A way of taking
+sensory information
+about degree of related-ness
+and turning that
+into your extent of sacrificing
+for one sibling or eight
+cousins.
+So you could begin to see how
+you invent new if/then clauses.
+Obviously this is ridiculous.
+Obviously this bears
+no relationship
+to what's going on
+in the real world.
+This would be happening
+in nose cells.
+This is occurring
+down in the ovaries.
+There is no promoter that
+responds to, oh, somebody
+here is smelling like me.
+But there are some that do stuff
+not all that far from that.
+You could begin to
+imagine turning this
+into real biology, how you
+could program for this.
+And once you've got
+genes moving around,
+you've plunked a promoter
+down someplace else.
+You've just made a
+new if/then clause.
+Now the possibilities is of
+transposing genetic elements,
+also raises the possibility
+of moving around
+parts of genes-- not just
+parts of regulatory elements--
+moving around parts of genes.
+How would you do that?
+How would you move
+a part of a gene?
+Exons.
+That's that modular
+construction of genes
+again, where if you
+get a transposase
+that comes and does
+its thing there,
+and in making a copy of this,
+moves this stretch around,
+you're now moving copies
+of parts of genes around.
+And you can relate new genes.
+For example, here we
+have the basic mechanism
+of action of steroid hormones.
+You guys who need an
+introduction to that,
+we'll get it in a week or two.
+Steroid hormones--
+hormones like estrogen,
+progesterone, testosterone,
+glucocorticoids.
+All of these, they
+work as follows.
+Steroid hormones can
+enter a target cell
+and they bind to their receptor.
+Yes, indeed.
+Lock and key.
+All that happens.
+Steroid hormones are
+not made of amino acids.
+They have a different structure.
+But nonetheless, each
+has a distinctive shape.
+And each type of receptor
+for a type of steroid hormone
+has a distinctive shape driven
+by its amino acid sequence
+and those gene codes.
+All of that.
+So you've got a specific type
+of steroid hormone fitting
+into its specific type
+of receptor-- estrogen
+into an estrogen receptor,
+that sort of thing.
+And what it does
+as a result is it
+activates this receptor complex.
+And on the other side
+of it, is a confirmation
+which recognizes a particular
+promoter down on the DNA.
+A, in this case, what would be
+called an estrogen responsive
+promoter.
+So what have you got there?
+You've got events going
+on in the outside world.
+You are reading the
+right parts of some novel
+and suddenly you're
+secreting certain hormones
+that weren't there before.
+And you're changing genomic
+effects shortly afterward.
+This is environment
+regulating genes like crazy.
+What is this requiring?
+One part of the receptor
+recognizing the hormone,
+specifically.
+And one part of the
+receptor recognizing
+its specific
+appropriate promoter.
+So now along comes one of
+those transposable events.
+And it happens,
+steroid hormones--
+this would be called the
+hormone binding domain.
+And this would be called
+the DNA binding domain.
+In steroid receptor genes,
+those are in different exons.
+And suppose along comes
+a transposable event.
+And you clip this part
+off and you stick it
+in a different hormone
+binding domain.
+So you've just made a completely
+different if/then clause.
+If this hormone is
+around, then do this.
+Now suddenly instead it's,
+if this hormone is around,
+then do this.
+New if/then clause.
+Here would be one possibility.
+One of the class of
+steroid hormones,
+glucocorticoids,
+which eventually you
+will come to love because you
+will hear endlessly about it.
+And glucocorticoids,
+they're stress hormones.
+Human version of hydrocortisone.
+For our purposes
+right now, what's
+interesting about them is they
+suppress the immune system.
+These are steroidal
+anti-inflammatories.
+When you're taking
+non-steroidals,
+you're taking things that
+work like glucocorticoids
+on the immune system,
+but they don't
+have some of the side effects.
+Glucocorticoids suppress
+the immune system.
+It is very well understood.
+And glucocorticoids
+come in and bind
+to the hormone binding domain
+of the glucocorticoid receptor.
+And this translocates to a
+glucocorticoid responsive
+promoter.
+That's its whole thing.
+So now you have gotten
+a transposable event.
+And what you've done
+instead is plunked down
+the hormone binding domain
+from the progesterone receptor.
+So suddenly you've
+got an if/then clause
+that's novel, instead of,
+if they are glucocorticoids
+around, suppress immunity.
+Now instead you've got,
+if there's progesterone
+around, suppress immunity.
+What do you think
+you've just invented?
+Any uses for that?
+If you happen to know what
+progesterone is about and where
+that might have been a great
+invention to come up with.
+Any speculation?
+During pregnancy?
+During pregnancy.
+Progesterone, which
+is progestational--
+so you suppress your immune
+system during pregnancy.
+How come?
+Why is that a
+clever thing to do?
+So your body doesn't
+eat your baby.
+[LAUGHTER]
+Did you just say so your
+body doesn't eat your baby?
+[LAUGHTER]
+Well, there you go.
+I don't know what your family
+is like, but I won't speculate.
+[LAUGHTER]
+But, yeah.
+You do that so your body
+won't eat your baby.
+So your body doesn't do
+that, so that you don't have
+an immune reaction against it.
+And that's a whole world of
+having to decide this thing
+belongs here,
+instead of this thing
+having invaded my
+placenta-- back
+to that word that was used
+by gynecologists talking
+about last week--
+the imprinted genes.
+Male derived imprinted genes
+making for a more potent
+invasion into the placenta.
+All of that.
+Yeah.
+This is a great way to
+now do that deal of,
+you suppress immunity
+during pregnancy,
+you are less likely to have
+some weird immune attack
+on your fetus.
+And that was a great invention.
+That was a wonderful thing
+to have come up with.
+There's an interesting
+consequence of that,
+though, one that
+pops up in medicine
+often, which is--
+so you are immune
+suppressed because
+you're pregnant
+and then you give birth, and you
+stop being immune suppressed.
+The progesterone disappears
+for the most part.
+You're off into a very different
+endocrine world at that point.
+Your immune system comes back
+to where it was before hand.
+But there is a
+potential problem,
+which is your immune
+system is so wiped out
+and you're so distracted
+changing diapers and having
+no sleep whatsoever, and
+so your immune system is
+a little bit out of control.
+What if it recovers from this
+pregnancy immune suppression
+and, instead of coming back
+to where it was before,
+it overshoots a little bit?
+What have you gotten
+at that point?
+Your immune system shoots
+into being more active than it
+should be at that point.
+What class of diseases
+are you set up for now?
+Autoimmune.
+Autoimmune disease.
+Whoa, that's as good
+as the lock and key,
+everybody knowing that one.
+You are set up for an
+autoimmune disease then.
+There is a whole realm
+of autoimmune diseases
+that tend to have
+either initial onset
+or flare up in the post
+parturition period for women.
+And in fact, there are
+some autoimmune diseases,
+a very serious
+form, say, of lupus,
+women really should
+not get pregnant,
+because they are going to get
+such a burst of lupus flare ups
+afterward.
+So this is a clever thing
+during pregnancy, as usual.
+You don't want to overdo it.
+Our main point here
+though is, by doing
+some transposable event,
+moving one exon around
+and sticking it to
+another exon that never
+existed before, you've made
+up a completely novel if/then
+clause.
+So where have we gotten so far?
+We are worlds away from
+the dull, gradualist world
+of micromutational stuff from
+the other day of one protein
+working differently.
+You have the capacity to invent
+completely novel proteins
+through splicing enzyme changes,
+through transposable events.
+You have the opportunity to
+make completely novel networks
+with mutations and
+promoters, with mutations
+and transcription factors.
+What all of this means is, there
+is going to be major changes.
+And thus, after a
+five minute break,
+we will come back
+to your question
+there of, what are the odds
+of these changes actually
+being good for you?
+So a five minute break.
+Sometimes you will find a
+gene will be duplicated.
+There will be an extra
+copy of the gene.
+There will be two copies,
+one after the other.
+Gene duplication.
+Sometimes, you can have even a
+larger expansion of the number
+of copies of a gene.
+Or you can have duplication
+of a whole stretch of genes.
+And this is falling
+into this new area
+that people refer to, calling
+it copy number variant.
+And ranging from one
+extra copy of one gene
+to massive duplication of
+whole stretches of chromosomes.
+And no surprise,
+you wind up getting
+interestingly different
+things going on at that point.
+What we'll see later
+on in the course is,
+there is more and more evidence
+that the disease schizophrenia
+involves mutations in
+copy number variance.
+And here, this is not a
+mutation in one base pair.
+This is not a mutation
+in one transcription.
+This is extra copies
+of genes sitting there.
+This can have some very
+interesting implications.
+In some cases, the second
+gene can function as a backup.
+If something goes
+wrong in the first one,
+there's a second one
+there doing its job.
+And there is some suggestion
+that something like that
+is occurring in some subsets
+of Alzheimer's disease.
+Or what you can have is the
+number of copies of the gene
+you make has something to do
+with how much of the protein
+you make.
+And there's recent
+studies showing
+that when you compare
+Japanese populations
+with Western European
+ones, on the average,
+Japanese populations have
+more copies of a gene that
+has multiple copies, more
+copies of a gene that
+makes an enzyme related
+to carbohydrate digestion.
+I have no idea what the
+implications would be of that.
+But this is not a populational
+difference in a DNA sequence
+or in a-- this is simply the
+number of copies of the gene.
+What a second copy,
+what a duplication also
+allows you to do in the
+most metaphorical sense
+is experiment with
+one of the copies.
+Because the other
+one is there taking
+care of whatever the
+function is that's critical,
+what you'll see is you get
+faster evolution going on
+with genes that you have
+duplicated, where one of them
+is the one that, in
+a sense, is freed
+to have more dramatic movement.
+And what you then
+see is it's more
+likely to stumble
+into some great use
+without sacrificing the
+initial use in the process.
+And there's a guy
+at the University
+of Oregon named
+Joe Thornton who's
+done really interesting work
+on the evolution of genes
+for steroid receptors.
+And what he has shown
+from ancestral genes
+is that's exactly
+what's occurred.
+A lot of what are now two
+different genes for two
+different types of
+steroids receptors
+were once duplicates
+of the same gene.
+And one was allowed to
+float and eventually,
+in at least some cases,
+stumbled into something useful,
+while the other one
+held into place.
+In passing, what
+that phenomenon does
+is help explain one of
+the endless, frustrating,
+exasperating, irritating
+things that people
+who attack the notion
+of evolution bring up,
+which is the famed sound bite
+that they have of the problem
+irreducible complexity.
+It always runs the
+same way, which
+is saying that
+evolution can't possibly
+exist because is what
+good is half of an eye?
+You've got to have those
+intermediate forms.
+And what good is it-- you
+couldn't have invented.
+Evolution could not
+have produced an eye
+in one mutation, one
+generation, and thus it
+would have to be in
+a series of steps.
+And what good are
+the series of steps?
+They can't exist.
+There can't be anything
+such as evolution.
+Off you go.
+Hallelujah.
+So what you get
+here in these cases
+is a demonstration,
+instead, by having
+extra copies of genes, one of
+which is freed to be evolving.
+You don't have to have a
+rapid transition from one
+to the other.
+You can have this thing
+moving along, stumbling along,
+until it just happens to come up
+with a shape of a receptor that
+just happens to be able to
+bind a hormone that stumbled
+its own way into existence
+10,000 generations earlier,
+which because it was duplicated,
+it didn't matter that one
+copy was now of a form where
+there was no receptor on earth
+for it until it happened
+to stumble into that.
+And there is more
+and more evidence
+that duplicated genes
+have a way of describing
+these intermediate states
+where you don't necessarily
+have half an eye,
+but instead you
+have the pieces
+ready in place there
+for when one thing
+suddenly pops up,
+which completes the picture.
+In fact, you can have, as
+it turns out, sort of half.
+Russ Fernald in the
+biology department
+has done really cool research
+on the evolution of eyes.
+And you should read
+about it some time
+to read basically
+how eyes evolved
+from a single layer of
+cells on the surface
+of some ancient proto something.
+And you sure can
+have half an eye
+and a zillion
+intermediate forms.
+None the less, this
+business of multiple copies
+allowing you the freedom to have
+loser evolving of single genes
+of a time-- critical mechanism.
+So now we've got all of our
+pieces in place-- changes
+in splicing enzymes and
+promoters and transcription
+factors and transportable
+elements and number
+of copies of genes,
+number of copies
+of whole stretches of genes.
+What wind up being the
+consequences of this?
+Back to the question
+brought up before.
+So what we saw the other day is
+some time futz around with one
+single base pair,
+one single gene,
+and you've got somebody
+who's going to be
+dead at three months of age.
+PKU, phenylketonuria.
+One single gene could be
+a total, utter disaster.
+My god.
+Instead now, thanks to these
+macro evolutionary changes,
+you change one single
+base pair and as a result
+you change-- one, two,
+three-- seven different genes.
+No, not seven.
+But you change
+more than one gene,
+you have one single
+base pair change,
+and if it's an exon
+that's used in a lot
+of different
+combinatorial ways, you've
+now produced mutated
+versions of a whole bunch
+of different proteins.
+One single change in the
+transcription factor and you've
+invented an entirely new
+network of expression.
+What are the odds of
+stumbling into something there
+that is going to suddenly be
+great and wonderful in all
+those different
+areas of consequence?
+It's really unlikely.
+What have we just seen here?
+This is a very stabilizing
+mechanism for equilibrium.
+Equilibrium, long
+periods of stasis.
+What we've got is,
+if a single base pair
+change is going to affect half
+a dozen different proteins
+or affect, through a
+transcription factor,
+entire networks, the odds are
+pretty lousy that you are just
+going to happen to
+stumble into one that
+works in all those
+domains, or at least
+works in enough of them that
+it doesn't do you in in others.
+Most of these macro
+mutational changes
+are going to be bad news.
+Most of the time,
+in other words,
+there is stabilizing
+selection against
+macro mutational changes.
+So what have we just gotten?
+We've just gotten
+a straight line.
+We've just gotten long
+periods of stasis.
+So when do the changes come?
+When you have some circumstance
+that is extreme enough
+that it doesn't matter
+that if this mutation--
+you have made elevendy
+new types of proteins.
+And elevendy minus one of
+them are not great news.
+And the final one
+used to kill you.
+If the final one now
+is the trait that
+is going to save
+you, it is going
+to carry the weight of all
+the other proteins that
+are changed.
+If you get what is called
+an evolutionary bottleneck,
+if you get a circumstance of
+such severe selection for such
+a tiny subset of traits,
+that basically the rule is
+it doesn't matter-- if you have
+that trait-- it doesn't matter
+how much of a network
+you've changed,
+you're going to be one of
+the ones who come through
+and everybody else does not.
+And the evolutionary
+record is full of all sorts
+of circumstances where there
+have been selective bottlenecks
+where 1% of a population comes
+out the other end of it because
+of some rare trait that they
+had which carries all the macro
+consequences of that.
+For example, there
+was clearly some sort
+of bottleneck of selection that
+went on with cheetahs about--
+I don't know, a couple
+thousand years ago or so.
+People have estimated
+more accurately.
+Because all the cheetahs
+are so genetically
+similar to each other that
+you can transplant tissue,
+you can graft tissue
+from any cheetah on earth
+onto another one and there
+will not be rejection.
+All of the cheetah on earth
+are closely related descendants
+of what had to have been fairly
+recently, a couple of thousand,
+a tidy, remnant population
+that now is highly inbred
+and you had some sort
+of selective bottleneck
+that went on at that time.
+Similarly, I can't remember
+when in hominid history,
+but the suggestion was at
+at least a couple of points
+in hominid evolution,
+there have been
+points of selective bottlenecks
+where glaciers or comets
+or knows what, where only a
+small subset of individuals
+with some traits that have
+been, up until then, neutral
+or are unlikely to be useful
+because of these big macro
+consequences, suddenly
+only the folks who had it
+came out the other end.
+What are we beginning
+to describe here?
+Circumstances of rapid change.
+Circumstances of
+punctuated radical change.
+There are circumstances
+that begin
+to make conceivable
+punctuated equilibrium.
+It's so intrinsic in
+this huge complexity
+of macroevolutionary change in
+DNA because of the structure
+intrinsic in it are
+two critical things.
+One is the vast
+majority of the time,
+make a change which
+changes some whole network
+and it's going,
+to be a disaster.
+The majority of the time,
+there's going to be stasis.
+And also intrinsic in
+that is the ability
+to have massive macro
+changes, any of these examples
+we've had here,
+where, in periods
+of selective bottlenecks,
+you're going to get something
+like that happening.
+So Gould and friends
+are absolutely right.
+All of that.
+Not necessarily.
+Because again, this radical
+rapid change period, that's
+for paleontologists,
+for biologists.
+That's thousands of
+generations, in some cases.
+Again, what counts
+as very rapid in one
+scientific discipline may not
+be the same for the biologist
+at the other end.
+Nonetheless, this winds
+up being a mechanism
+for long periods of spaces
+and very rapid change.
+So that suggests that, where
+we have these mechanisms.
+So how does one begin to resolve
+the microevolutionary picture
+of gradualist social
+biology from last week
+and the macro picture of
+punctuated equilibrium
+drama, all of that?
+How do you begin to put
+the pieces together?
+A number of ways that
+it could be done.
+Let me just see here.
+Yes.
+A number of ways
+it could be done.
+One is thinking again about
+micro mutational changes
+or about changes in the function
+of preexisting proteins.
+And macro mutational changes
+are about the invention
+of new proteins, new networks,
+new, if/then clauses,
+all of that serving
+different functions.
+Back to the difference
+in the genome
+between humans and chimps.
+When you look at the micro
+versus the macro differences,
+for example, in the domain
+of the immune system,
+most of the differences
+between humans and chimps
+genetically have to do with
+microevolutionary differences.
+And that comes down
+to clinical pictures
+that you see humans are much
+more resistant to tuberculosis
+than chimps are.
+Chimps are much more resistant
+to malaria than humans are.
+Nonetheless, it's the basic nuts
+and bolts of the immune system
+there.
+One of these guys has a
+little bit better of this,
+one has worse of that.
+This is within a realm
+of gradualist change.
+The genetic differences
+that explain that
+are microevolutionary ones.
+Where are the macro evolutionary
+differences between humans
+and chimp genomes?
+Those are the ones that
+have to do with development.
+And those are the ones that
+amplify differences big time.
+You have one tiny little
+difference and you
+get an organism that's going to
+look as different from a chimp
+as a human does.
+The other way around, some
+systems, their evolution
+is much more built driven by
+micro changes, some much more
+than macro.
+Some of the most
+interesting macro stuff
+is going to be
+developmental blueprints,
+developmental trajectories.
+What else?
+What else in terms
+of resolution?
+There are plenty
+of fossil histories
+by now for some line that are
+complete enough that it is
+very clear they look like this.
+And the majority
+of fossil pedigrees
+that are that detailed enough
+support a punctuated model.
+Nonetheless, there
+are plenty that
+are understood with as many
+time points in here that
+follow gradualist models.
+So evidence for both.
+Nonetheless mostly
+punctuated evidence.
+The biggest problem though
+in debating all of this
+is it is impossible
+for the most part
+to see gradualism going
+on, because it's gradual,
+because it's hard to spot that.
+It's hard to show whether
+changes are incremental
+or changes are rapid.
+But by now, there
+are a few examples
+where people have actually
+been able to observe
+evolutionary changes
+in organisms and ones
+that can count as fairly rapid.
+One first example-- for reasons
+I cannot begin to understand,
+people in Chicago-- I don't know
+if it's in the Chicago Field
+Museum or the mayor's
+office or something--
+have all sorts of carcasses
+around from rats killed
+in Chicago in the 1880s.
+Key to the city,
+souvenirs, who knows what?
+Chicago's centennial.
+But those around
+stored someplace.
+And a few years ago,
+researchers were
+able to look at the
+genomes of those beasts
+compared to rats
+that are being taken
+these days off the streets
+of Chicago, current ones,
+and showing over the course of
+a century, a lot of the genome
+has evolved.
+There are a lot of differences.
+Over the course of a century--
+I don't know, what is that?
+Maybe 500, 1,000
+generations or so.
+There has been significant
+change over that time.
+Darwin's finches,
+for those of you
+Darwin history fans, that
+started the whole thing.
+All sorts of different species.
+The finches found in
+the Galapagos Islands
+and people have
+been studying them
+for half a century,
+three-quarters of a century.
+Gene distributions are
+changing-- gene distributions
+for traits, like the
+size of your bill
+and thus what kind of
+food you could break into,
+in response to environmental
+shifting there.
+That is being documented.
+That's going on.
+What else?
+Another one that is
+really interesting
+and important and
+critical for lots
+of us, which is the evolution
+of resistance to diabetes.
+This is a very
+interesting phenomenon.
+Diabetes comes in two forms.
+Juvenile onset diabetes-- that's
+the one where you need insulin.
+The diabetes that's instead
+becoming an epidemic
+is adult onset
+diabetes, which is
+when you have a body
+which is all built out
+of lean hominid history to
+store away lots of calories
+and all of that, and you
+throw in a westernized diet
+and you get the increasing
+westernized problem of obesity.
+And you then wind
+up getting diabetes.
+For our purposes right
+now, it doesn't matter
+what diabetes looks like.
+The main thing is,
+it is driven by food
+excesses in westernized diets.
+So there's been a
+whole literature
+by now of people
+studying populations
+that have had rapid shifts
+from traditional diets
+to westernized diets.
+A lot of Pacific Islanders
+have been studied.
+All sorts of other populations.
+The group that is the
+iconic one to study
+is Native American
+group in Arizona
+called the Pima Indians.
+And what's very convenient
+about them is about half
+of them live in the United
+States and about half
+in Mexico.
+And there has been very
+rapid changes in diet
+in the American side, less so
+in the Mexican one-- far more
+traditional.
+And one of the things
+that soon emerged
+once westernized sort of
+typical processed food
+became the predominant food
+eaten by people in the Arizona
+side is 90% diabetes rates by
+the time you're 30 years old.
+The exact same thing in
+some of the Pacific Islands
+that have been studied,
+in the Naru and Samoa
+and some of these other places.
+Astronomically high
+rates of diabetes.
+Another population
+where it's been studied
+are populations of Jews
+who were living in Yemen
+and who-- I think in
+the '60s or '70s--
+moved to Israel, switching
+from a very traditional diet
+to a very westernized one.
+Diabetes rates absolutely
+through the roof.
+What that's doing very
+quickly was killing off
+all sorts of folks very early in
+their reproductive life history
+periods.
+Suddenly you've
+got the people who
+are most vulnerable to
+diabetes when suddenly given
+a westernized diet,
+they're leaving
+fewer copies of their genes.
+And it's been in the
+last decade or so,
+some of the Pacific
+island populations
+that have been studied,
+the diabetes rates
+are beginning to go down.
+In other words, there has
+been this selection that
+went into Western
+European populations,
+I don't know, a
+century or so, which
+is the folks who have the
+most efficient metabolisms
+and can store away all of
+those dozens of Hershey bars
+effortlessly.
+They're dead.
+And they died before they
+left copies of their genes.
+You are now selecting
+for human populations
+that have sloppier metabolisms.
+And this is within the
+course of a century.
+Another example.
+Here's a totally, totally
+cool, irresistible one.
+This is one of the
+great genetics stories.
+As you can see, or not,
+this pure white screen
+tells you that this is research
+that went on in Siberia.
+[LAUGHTER]
+Actually, these were Siberian--
+so this was a famous study done
+by this Soviet
+geneticists starting,
+I don't know, about
+50 years or so,
+where you have these
+Siberian silver foxes.
+And that's what they look like.
+And for all sorts of
+reasons, who knows what,
+it is highly valued
+to have clothing made
+out of their bodies, and thus
+highly valuable wild animals,
+tough to get.
+And this guy decided,
+well, what we need to do
+is start some Siberian silver
+fox domestication farming
+stuff.
+So he did a very logical thing.
+He started selectively
+breeding them for tameness.
+He would have a bunch of captive
+foxes that were wild born
+and most of them totally
+feral and crazed.
+And he would see, is there
+a subset, 5%, 10% of them,
+that I could get relatively
+closer to that were calmer
+in the human's proximity?
+Only let those ones breed.
+Now take their offspring
+and only take the 10% or so
+that are most calm,
+most easily tamed.
+And it took about 35
+generations or so to get foxes
+that were as tame as dogs are.
+Something else totally amazing.
+So he's breeding them for only
+one trait-- a behavioral trait,
+which is the ability
+to get close to them
+if you're a human,
+calmness on their part,
+whatever you might
+describe it as.
+Breeding entirely
+based on that trait.
+And when you spend 35
+generations breeding
+a wild animal like
+a fox so that it's
+the ones who are
+most able to function
+in the role of
+domesticated animals,
+it's not just the
+behavior that changes.
+This is what the adults look
+like 35 generations later.
+Aw!
+[LAUGHTER]
+Oh, give me one.
+Give me 100.
+I want-- yes.
+They're adorable.
+Can you believe how
+great they look?
+What's going on here?
+They were selecting
+for a behavioral trait,
+and they are fox puppies.
+They've got a big roundy
+ears and these cute
+little short muzzle things.
+And they wag their tails
+when humans show up.
+And these are not dog
+descent into wolves.
+This was 35 generations to
+turn something on to left
+into something
+looking at the right.
+Very interesting thing we
+will come to in the ethology
+lectures.
+Basically, what you're
+breeding for when you're
+breeding a wild animal
+to be tame-able,
+your breeding for
+the ones that behave
+more childishly, the
+ones who are acting more
+like developing
+animals who are more
+dependent on other individuals.
+You're breeding them
+for infantile traits.
+This is what a baby
+fox looks like.
+This is what these
+domesticated foxes look like.
+Totally amazing
+that this happened.
+Ironic ending
+department-- you will
+notice that the coat has changed
+from the ones on the left
+to these wonderful
+coats that you just
+want to have made into
+underwear and hats and all
+of that sort of thing.
+And on the right, they
+look like Spot and Rover
+and all those guys.
+It is called a piebald
+coloration pattern.
+Somehow also, you can't
+get the domestication
+without that happening.
+Ironic ending--
+nobody wants to wear
+clothes that look like that.
+They would've been killing
+Dalmatians for years
+if that were desirable.
+In the process of
+breeding them, they
+became useless economically.
+Nonetheless, totally
+amazing demonstration.
+35 generations and
+you turn something
+on to left into
+something looking
+like that on the right, who
+will wag its tail like you would
+lick your face and bring your
+chewed up slippers back to you.
+This is a very rapid change.
+Final example.
+This is one that is also
+quite consequential,
+and one possibly even
+more so than diabetes,
+which is if this
+type of evolution
+keeps occurring at the rate
+that it's happening, all of us
+are going to have
+dramatically shortened life
+expectancies-- antibiotic
+resistance in various bacteria.
+Evolution going on there.
+What we see in all
+sorts of cases is,
+evolution is not just
+occurring over the course
+of glacial lengths of time.
+It can be occurring
+very rapidly.
+And what we see here
+also is, in some cases,
+it's going to leave a
+different sort of skeleton,
+changing how good your kidneys
+and pancreases are dealing
+with westernized
+food, that's not going
+to make for a different fossil.
+Breeding for antibiotic
+resistance in bacteria
+is not going to make for
+a different-- actually,
+can bacteria even make fossils?
+Does anybody know?
+Yes.
+Yes.
+So it's going to make bacterial
+fossils that look exactly--
+all of this interesting
+amazing stuff going on,
+and it's stuff that no
+punctuated radical dogmatic
+paleontology type would
+ever be able to pick up.
+So what are we heading to here?
+We're heading to a wonderful
+heart-warming resolution
+of these different
+schools of thought, which
+is, can't we all get along?
+And can't we all
+have means of having
+different types of
+evolution happening?
+So almost certainly harking
+back to what mentioned before,
+microevolutionary
+changes-- the immune system
+in chimps versus humans.
+Macroevolutionary
+changes development.
+You don't have to choose
+vanilla or chocolate.
+They could be going
+on at the same time.
+And they could be going
+on at the same time
+in a very important
+resolving way, which
+is-- so you've got evidence
+for a punctuated change
+of some trait.
+And single traits
+don't evolve at a time.
+They come in whole
+packages, packages
+making you wag
+your tail and such.
+So there is some other
+punctuated thing going on.
+And that's its pattern
+happening there.
+And then meanwhile, you've
+got some other trait moving,
+evolving in a punctuated manner.
+I guess it doesn't go down.
+And you put enough
+of these together
+and have enough punctuated
+events happening,
+and on a whole
+population level, you've
+just invented gradualism.
+You don't have to choose.
+You can have it all.
+You can have it all.
+So a resolution there.
+Both are almost
+certainly happening.
+So what does this
+set us up for now?
+Now that we have
+finished this bucket,
+we are now ready on
+Friday-- what is today?
+Wednesday.
+We are now ready on Friday to
+move to the next bucket, which
+is a very different world
+of trying to make sense
+of the genetics of behavior.
+Last week's version,
+you make up stories
+built around
+individual selection,
+kin selection, group
+selection, and come up
+with the best story
+around to show
+me something more predictive.
+And you win.
+This week's version, showing
+actual genetic changes
+over the course of time.
+What patterns of
+evolutionary change
+will those code for
+with what consequences
+for understanding the evolution
+of behavior, competition,
+reproductive
+strategies, all of that?
+By the end of this
+week, switching over
+instead to the world of
+behavior geneticists, where
+they try to understand
+what's going on by looking
+at-- so somebody gets adopted.
+Do they share a trait more
+with their adoptive parents
+or their biological parents?
+You look at identical twins
+versus non-identical ones.
+You look at identical
+twins who were adopted
+into different families right at
+birth, put them back together.
+A whole world of trying
+to make sense that way.
+And what we'll see
+is the same deal
+is with this-- what counts
+as finishing, coming up
+with an explanation--
+last week's social biology
+approaches-- this
+version of this
+is the starting point
+for the next discipline.
+So we'll pick up
+on that on Friday.
+Oh, my god.
+He let us out--
+For more, please visit
+us at stanford.edu.

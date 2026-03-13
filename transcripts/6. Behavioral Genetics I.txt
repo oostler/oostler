@@ -1,0 +1,3757 @@
+6. Behavioral Genetics I
+========================
+
+[MUSIC PLAYING]
+Stanford University.
+[SIDE CONVERSATIONS]
+OK, let's get going.
+Let's see.
+First off, apologies for Friday.
+Sometimes, what seems
+like a flawless set
+of connecting flights on paper
+turn out not to be in reality.
+So hopefully, people made
+good use of the time.
+OK.
+We are ready for our next
+bucket, our next bucket,
+our third one in this
+series, just in time
+to convince you that we
+just keep jumping these.
+As soon as you get accustomed
+to one approach, here
+we are, yet another
+one, where we
+are going to trash everything
+that's come before us.
+OK.
+What have been the two
+broad approaches so far?
+The first one, the
+sociobiological/evolutionary
+psychology one--
+behavior evolves
+exactly under the same sort
+of wind tunnel of selection
+as does the heart of
+a giraffe, blah, blah,
+that whole song and dance.
+Following certain
+rules, you could
+generate fairly
+structured predictions
+about social behavior.
+And then, the we-win
+version of using that is,
+here's what we predict.
+Here is the way we explain
+this complex system
+of social behavior,
+using these rules which
+assume certain degrees of
+heritability of behavior,
+following certain
+rules of evolution.
+And until you come up
+with a better explanation
+for how this goes on, we win.
+This is how behavior works.
+Then we shifted over
+to the molecular end.
+And what we saw was, on a
+certain sort of trendy level,
+molecular biology is the
+answer to the people who
+would sit around to
+the sociobiologists
+and say, show me the genes.
+Show me the genes
+for what you keep
+talking about inferentially.
+And what we saw was how
+evolutionary change works out
+in the DNA level.
+Very importantly,
+the common mechanisms
+for microevolutionary
+change and how that supports
+the picture of gradualism.
+And then seeing all of these
+relatively new, unexpected ways
+in which you are getting
+big time changes in DNA,
+all these amplifying
+effects of macroevolution,
+and suddenly support for
+punctuated equilibrium
+in two ways.
+The first one being,
+as soon as you
+get one, little, tiny mutation
+affecting transcription
+factors, affecting
+splicing enzymes,
+affecting entire
+networks, it is going
+to be real rare
+that you don't get
+a mutation that's a disaster.
+Stabilizing.
+Stasis, that's the
+long-term feature
+of the punctuated equilibrium.
+The equilibrium part
+and the punctuated
+seeing how, under circumstances
+of extreme selection,
+something that is come up with
+is wildly adaptive, wildly
+advantageous, quickly
+fixates in the society.
+And thus, we have
+step functions.
+OK.
+So what we do today--
+and Wednesday is now
+shift to another field--
+thinking about behavior
+in a genetic context,
+in a heritable context,
+this whole field of
+behavior genetics.
+And what you'll see is,
+depending on your stripe,
+either these are a bunch of
+really powerful approaches
+for being able to infer some
+sort of genetic components
+to behavior, often getting
+a whole lot of insight
+into what's going on,
+and in some cases,
+a more negative view,
+more critical one,
+the entire field is gibberish.
+And a way to summarize the
+view of it as being gibberish
+was this great cartoon
+I saw a while back.
+OK, two scientists are
+standing around the lab.
+And they've got
+their lab coats on,
+and their test tubes, and going
+about doing science stuff.
+And one of them is
+saying to the other one,
+you know how sometimes you're
+on the phone with someone,
+and you've been talking
+for a long time,
+and it seems like they
+decide they want to get off,
+but they don't want to
+say they want to get off,
+so they say, I probably
+shouldn't keep you any longer,
+even though you're not the
+one wanting to get off,
+because they're the one
+who wants to get off?
+Well, I think I found
+the gene for that.
+[LAUGHTER]
+And that winds up being one of
+the criticisms of the behavior
+genetics.
+Once again, this world of
+inferring genetic bases
+to behavior in often the most
+deterministic possible way
+and using techniques which
+are often complete nonsense.
+And what we'll see are the
+tools of behavior geneticists,
+and all the criticisms,
+and why this winds up
+being a very contentious field.
+OK.
+So this being another version
+of getting at, how do you
+know when a behavior
+has a genetic component.
+And we're immediately
+allowing ourselves
+to be a little more subtle
+here, not determined by genes,
+not determined purely by nature.
+All of that merely to
+have a genetic component,
+a genetic influence, how
+do you begin to do that?
+And this is a world where
+people, the scientists,
+don't sit around coming up
+with evolutionary models.
+They don't sit around trying
+to find mutations in genes.
+They have a very different
+sort of strategy.
+They look for patterns
+of shared traits
+among the individuals who
+have differing degrees
+of shared genes and
+infer, related to this,
+and infer genetic
+influences from that.
+OK, what's the simplest most
+mindless version of doing this?
+The basic initial
+rules, centuries ago,
+when behavior genetics
+started , was the notion,
+if you see a trait that
+is universal in a species,
+obviously, it's genetic.
+Obviously, it's hard-wired.
+Obviously, it's instinctual.
+Obviously, that's an
+extremely limited approach.
+Yes, indeed.
+You will see some
+species, like flies,
+in which certain behavioral
+traits are determined
+by relatively small numbers
+of genes and are universal.
+This is obviously
+going to fall apart
+when you get to something
+more interesting than a fly.
+So what's a much more
+the starting point
+for the whole field
+is to say, ooh, look.
+Here's some behavioral
+traits that run in families.
+Genes run in families.
+Therefore, we may have
+just found evidence
+for a genetic influence
+on these traits.
+And of course, it
+takes about an eighth
+of a second to come up with the
+retort to that, which is, yes,
+genes run in families, but
+environment runs in families
+as well.
+So the standard
+response is to now
+put a little bit more
+strictures on it,
+to say, OK, it's not just
+that genes run in families,
+but as we know, from a few weeks
+ago, the more closely related
+you are, the more genes
+you share in common.
+Our Mendelian rule
+of half the genes
+with full sibling, et cetera.
+Following thus, the logic that,
+if you have a behavioral trait
+that becomes more common
+the more closely related two
+individuals are, now
+you're inferring something
+about genetics.
+And of course, the
+problem there is not only,
+as you become more closely
+related to somebody,
+do you share a greater
+percentage of your genes,
+you share environment more.
+Obviously, you are sharing
+environment on the average,
+in most cases, much
+more with a sibling than
+with a first cousin, than
+with an eighth cousin.
+The trouble is shared genes
+and shared environment
+tend to co-variant families.
+So that greatly weakens what
+was the initial classic approach
+to the field 70, 80 years ago.
+OK.
+So you've got to come up
+with something fancier,
+something more informative,
+something more subtle.
+And what you wind
+up doing then is,
+let's control for environment.
+Yes, obviously,
+the eighth cousin
+is living in a different
+world than your full sibling.
+Let's control for environment
+under circumstances
+where you examine
+relatives where
+they have the same
+environment, and they
+differ in terms of the
+amount of genes they share.
+And what is this
+classic approach?
+Look at identical twins
+versus fraternal twins,
+monozygotic twins, from one
+zygote, monozygotic, identical
+twins versus dizygotic.
+And the general notion there
+is, OK, identical twins
+share 100% of their genes.
+Fraternal twins share
+50% of their genes.
+So if identical twins are raised
+in the exact same environment,
+and fraternal twins are raised
+in the exact same environment,
+they all have
+environments shared.
+What's the only
+difference then to explain
+any behavioral
+differences, if you
+see a trait that is
+shared to a greater
+extent in a pair of identical
+twins, than in fraternal twins?
+What's the only difference?
+They all grow up with
+identical environments.
+It's because the identical
+twins have twice the amount
+of genes in common, 100%.
+You could thus infer a genetic
+influence on that trait,
+because it's the
+identical environment.
+Twins get raised
+absolutely the same.
+And the only difference
+is the degree
+of relatedness, the
+degree of shared
+genes between monozygotic
+and dizygotic twins.
+That one should take about
+2/8 of a second to demolish,
+for the simple
+starting point that,
+oh, yeah, sometimes fraternal
+twins, dizygotic twins,
+are different sexes.
+OK.
+So that complicates things.
+So you come back and you're a
+little bit more rigorous now.
+And you restrict your
+comparisons of monozygotic
+to dizygotic, to
+same-sex dizygotic pairs.
+And then you
+institute this rule,
+OK, same-sex twins, whether
+identical or fraternal,
+are raised essentially
+in the same environment.
+The same environment.
+So if you see a greater
+sharing of traits
+among the monozygotic
+twins than the dizygotic,
+the only place that greater
+sharing could be attributed to
+is the fact that they
+have more genes in common.
+Ah.
+We have just identified
+a behavior that
+has a strong genetic component.
+So the big problem
+with that approach
+is-- anyone-- who's
+a twin in here?
+Whoa.
+That's a lot of hands.
+Identical twins?
+Dizygotic twins?
+Any triplets?
+OK.
+Just to extend that,
+armadillos always
+give birth to four
+identical offspring at once.
+[LAUGHTER]
+OK.
+[LAUGHTER]
+So that having been prompted,
+what we then move on to
+is the obvious problem
+with this entire approach.
+Hurray.
+Monozygotic twins get raised in
+virtually the same environment.
+Dizygotic twins
+of the same gender
+get raised in virtually
+the same environment.
+That's not true
+in the slightest.
+There is far more
+differentiation of environment
+for dizygotic twins than
+for monozygotic twins.
+They are treated
+differently, as pairs.
+Thus, if behavioral
+traits are more in
+common between monozygotic
+twins than between dizygotic,
+it could be because these guys
+share more genes in common,
+and/or because they share
+more environment, a completely
+flawed approach in that regard.
+The next complication.
+It turns out, monozygotic
+twins don't always
+have the exact same environment.
+Well, yes.
+Obviously, one of them gets
+sneezed on at a higher rate
+by a kid sister, or something.
+And that's going to produce just
+decades worth of consequences.
+But even in other
+domains, monozygotic twins
+don't get treated exactly the
+same, in some circumstances.
+And here is what it looks
+like, if I had drawn it.
+OK.
+So you've got your twins.
+And this is during fetal life.
+And there are fetuses in there.
+And OK, there's one with
+a little thing of hair.
+And there's the other.
+OK.
+And what you have
+is a placenta forms.
+And here's the deal.
+With monozygotic twins, if they
+split during the first five
+days after conception,
+they wind up,
+each one, with
+their own placenta.
+On the other hand, if the
+split occurs between days five
+and 10, there's already
+commitment to one placenta,
+which they then share.
+So monochorionic
+pregnancy, or bichorionic.
+And what does that
+wind up meaning?
+In the monochorionic,
+the two fetuses
+share a blood stream,
+to a greater extent,
+than in the bichorionic
+circumstance.
+In these cases, it's
+separate blood flow from mom.
+OK, it's still the same
+mom, and it's still
+ultimately the same
+blood, but it's
+going to be subtle differences
+in the levels of stuff
+in the bloodstream.
+With the monochorionic, the
+environment for these fetuses
+are much more similar,
+in terms of whatever
+is carried in the bloodstream.
+OK, great.
+That's a great factoid.
+And that's like interesting,
+things about identical twins.
+But like different
+levels of nutrients,
+whether it's coming off
+of a blood vessel here,
+versus there, OK, maybe
+that makes a difference.
+But these are going to
+be minuscule differences.
+Nothing interesting.
+As one example of it,
+monochorionic identical twins
+have more similar IQs than do
+bichorionic identical twins.
+Just one demonstration that
+this could make a difference.
+This is relevant.
+The IQs are more similar.
+And this has been one reason
+why marmoset monkeys-- marmoset
+monkeys, pair
+bonding, so you know
+what they're all about--
+among other things,
+marmoset monkey mothers
+always give birth
+to twins, because there is
+two parents around to take
+care of them.
+And it's got a completely
+screwy circulatory system
+for the twins that are
+unlike either of these.
+And there's all sorts
+of people who've
+been interested in
+marmosets over the years--
+the ones who couldn't afford
+to by themselves armadillos--
+interested in terms of looking
+at the differences in blood
+flow during fetal
+life there of twins.
+OK.
+So we start off here that,
+just because you see something
+more in common in
+monozygotic twins
+than dizygotic, that
+doesn't tell you
+the first thing about
+whether it's genes involved.
+They share our
+environment much more.
+Then even trying to
+make sense of what's
+going on in monozygotic.
+What you've got there
+are fundamental potential
+differences,
+environment, starting
+at a very important
+early state of life.
+So monochorionic
+versus bichorionic.
+What else then?
+How about another one where you
+can look at a behavioral trait,
+looking at traits and
+traits differences,
+according to some
+genetic trait and where
+environment is the same?
+How about gender differences?
+Whoa.
+OK.
+So genes have something
+to do with producing
+what your gender is.
+And environment being
+the same, if you
+see differences between
+females and males,
+that's attributable to
+the different genetics.
+OK.
+And you should be able to nuke
+that one within seconds, as
+well, which is the
+notion of shared
+environment, the notion
+of identical environmental
+experience.
+To give you a sense
+of how subtle this
+is, at one hour of life, on the
+average, the level of activity,
+the rate of movement, the
+amount of movement of limbs,
+on the average, is
+greater among newborn boys
+than newborn girls.
+Whoa.
+That's there like within
+an hour of getting born.
+That's not a whole lot
+of time for environment
+having gone on there.
+Maybe you're seeing a
+strong genetic effect.
+What other studies have shown
+is, from the first moments
+of post-natal life,
+mothers are already
+interacting differently with
+baby girls than with baby boys.
+From the first interaction, from
+the very first holding of them,
+there's differences in
+how long they are held.
+There are differences in
+proximity to the body,
+to the face.
+So Whoa.
+Sex differences in
+behavior at one hour.
+Sex differences in environment
+within mere moments
+after being born.
+So that weakens that one.
+And this came through
+in another realm.
+This was a study that was
+done in the '80s, that
+was enormously influential, by
+a pair of scientists at Johns
+Hopkins, Benbow and Stanley.
+And it had to do with a program
+that I'd bet a lot of you
+guys had something or
+other to do with back
+when, which is the Johns
+Hopkins Gifted Youth Program
+thing, which I bet
+all sorts of you
+guys qualified for
+at various points
+and got the Johns Hopkins
+blue ribbons pasted
+to your forehead.
+And that was part of
+this massive study that's
+been going on for decades
+and decades of kids who
+are very gifted,
+academically, and in a number
+of different realms.
+And Benbow and Stanley were
+some of the senior researchers
+on this.
+And this was a study
+they did when they had
+40,000 kids in their database.
+And they asked a
+very simple question,
+which was, well, what
+does IQ distribution
+look like in this population as
+a function of what sex you are?
+And back came a very
+interesting finding,
+which was a highly, highly,
+highly significant difference
+in the average IQ
+between girls and boys,
+in the direction of
+boys having a higher IQ.
+Moreover, when you looked at
+the tail of the distribution,
+the highest IQ
+range, what you saw
+there was approximately a 13:1
+ratio, way out at this extreme.
+They then followed up and did
+the exact same thing-- no,
+they didn't do IQ.
+What am I talking about?
+They did math.
+Ignore that.
+Erase all of that.
+OK, let's start over.
+[LAUGHTER]
+So lots of you probably got the
+Benbow and Stanley sweatshirts
+when you were part
+of that program.
+So they were looking at math
+skills, yes, junior high school
+kids who were taking the
+math part of the SATs.
+That's part of getting
+into this Hopkins program.
+So they took the math SATs and
+they looked at those 40,000
+scores and saw that
+there was a gender
+difference in the average
+score on the math SATs,
+with boys scoring higher.
+Not only that, but
+when they looked out
+at the tail here-- OK, I'm back
+on track-- when they looked out
+at the tail here at the
+highest math achievement,
+there was a ratio of
+13:1, boys to girls
+OK, so that was pretty striking.
+And in their paper, which
+was published in Science,
+was a very, very
+critical phrase.
+Their rationale for
+doing this study on kids
+that age was the
+fact that-- at least,
+at the time in most
+schools, middle school,
+junior high school-- kids have
+not differentiated classes yet.
+They're not yet
+at the point where
+you could choose to take
+extra math classes, to choose
+to take the absolute minimum.
+This was still the stage where
+most kids in this country
+are getting the exact
+same math classes.
+Everyone is still
+getting the same.
+And thus, at that point, they
+could include in their paper
+a phrase along the lines of,
+since all the children had
+essentially identical
+educational environments,
+any gender differences
+seen in it are reflecting--
+and they used the
+word, "biological"--
+are reflecting
+biological differences.
+This was one hell
+of a famous study.
+This was front page
+all over the place.
+This wound up being shown in
+a very large article in Time,
+and in Newsweek, the
+Reader's Digest--
+which I know, sort of,
+everyone is supposed
+to make fun of-- but the
+Reader's Digest, at least--
+does it still exist?
+Yes.
+Yes, it does.
+OK.
+Throughout the 1980s,
+the Reader's Digest
+was the most widely
+read magazine
+in this country,
+which is astonishing,
+showing what percentage of
+people read in the bathroom,
+so having to go with the
+Reader's Digest there.
+And the Reader's Digest covered
+this and used the phrase,
+"The math gene,"
+and discussing how
+this was the definitive study
+showing that more boys have
+the "math gene."
+Like, you already know
+that's like nonsense
+on so many different levels.
+But this was all over the place.
+This was the study
+that definitively
+showed genetic differences
+in math skills by sex,
+and definitively showed that
+this was manifest at a stage
+before there were different
+educational environments,
+in terms of math.
+And what, of course,
+completely rips apart
+that study-- and it was shameful
+that thing was ever published,
+let alone got as
+much attention as it
+did-- is the fact that the
+environment was not exactly
+the same.
+Endless number of studies
+have shown, beginning
+by first grade, if
+it is a simple math
+problem at that stage for
+the same hands put up,
+a boy is more likely to
+be called on than a girl.
+Studies showing that, for
+the same correct answer,
+boys in elementary
+schools are more
+likely to be praised for the
+correct answer than are girls.
+By the time junior high
+school is coming around,
+guidance counselors are
+already differentially,
+by sex, advising, once
+you get into high school,
+to take more elective math.
+Tremendous, massive
+differences in environment.
+And this study, using
+this whole argument of,
+if there's an
+identical environment,
+and you see differences,
+it's due to genes.
+And predicated on
+that, if that's not
+true in our afterlife,
+it was ludicrous
+that they were making this
+argument about 13-year-olds.
+So this was a paper
+with enormous influence
+in every major newspaper
+in the country.
+Scientists have discovered
+the "math gene."
+And boys have them
+more than girls.
+We will come back to
+that study later on,
+because something much, much
+more interesting was going on.
+OK.
+So those were the limits in
+the sex difference end of it.
+So what can you do next?
+There's a flip side,
+another approach,
+that the behavior
+geneticists use, which
+is basically the converse.
+Now, you look at
+individuals getting
+raised in the same environment
+who don't share genes.
+Same environment,
+different genes.
+Rather than just now
+the different genes,
+same environment nonsense
+about gender differences,
+even down to monozygotic
+twins, all of that,
+but now the flip
+side, same environment
+and different genes.
+What was the paradigm for this?
+The one that is used over,
+and over, and over again,
+the standard approach in
+this part of the field
+is adoption studies.
+You take someone who
+is adopted as a child,
+and they are now raised
+in a household of people
+who they are not related to,
+their adoptive, non-biological
+parents.
+And what you now
+begin to look at
+are patterns of shared traits.
+Specifically, what
+is looked at is,
+when you see a trait in
+someone who was adopted,
+who are they more likely
+to share that trait with?
+Their biological
+parents, or parent?
+Or with an adoptive parent?
+Now, the logic of this is
+completely straightforward.
+And this has been sort of the
+standard paradigm in animal
+studies of the genetics
+of behavior for centuries,
+something called
+cross-fostering.
+You take a newborn litter
+and another newborn litter,
+and you switch them
+between moms so that they
+were raised by different moms.
+And they're raised with, thus,
+someone they're not related to,
+but someone who they now have
+environmental shared with them.
+Or in the litter
+cross-fostering studies,
+you will take half of
+a litter and switch it
+to another mother, half-- so
+you see how the iterations there
+go.
+So that was essentially
+the rationale
+for how this would
+be done in humans.
+And this was the
+basis of one study
+in the late '60s,
+early '70s, which
+was the landmark study
+in genetic psychiatry,
+in behavioral genetics as a
+whole, a study carried out
+by a guy at Harvard,
+named Seymour Kety.
+And this was a phenomenal study
+and phenomenally important.
+Here's what Kety did.
+Kety was dealing with the
+notion at the time of making
+sense of schizophrenia.
+And as we will see when we get
+to the schizophrenia lecture,
+the number of nutty
+ideas out there as
+to what the cause of this
+disease is is just staggering.
+But what he was
+interested in was
+getting at the notion that
+was kind of floating around
+in some corners of the
+field at the time, which
+is schizophrenia has a
+biological component,
+a genetic component.
+And what that was was
+viewed as very unlikely.
+But what Kety did was
+try to go and test this.
+So what's he going to do?
+He's going to look at
+adopted individuals who
+are schizophrenic
+and see are they
+more likely to share that
+trait with a biological parent
+or adoptive parent.
+You see the logic already.
+OK, how many
+schizophrenic adoptees
+are you going to find
+out there where you also
+were able to figure out who
+the biological parents were.
+This was not an easy task.
+And Kety's insight,
+his intuition,
+was to go to one of the places
+on Earth where that was most
+easily done, which
+is Scandinavia,
+where all the Scandinavian
+countries keep records like you
+cannot believe about
+everything on Earth.
+People understanding,
+for example,
+how the age of
+puberty onset in girls
+have been decreasing
+for centuries.
+They're always using
+Scandinavian data,
+because every single thing
+that could possibly be recorded
+has been written down and
+stored someplace there
+in moth-proof vaults.
+And what he was able to do in
+ways that no human subjects
+committee on earth would
+approve these days,
+is go through the entire
+database of adoptees in Denmark
+and identify all of the cases
+where somebody adopted had
+wound up with
+schizophrenia, and then
+able to go back and see
+who the biological parents
+and the adoptive parents were.
+Was a staggeringly large study.
+He and a team of psychiatrists
+spent years in Denmark
+doing this, because one
+of the things they did
+was they then did follow-ups.
+And they themselves
+interviewed all
+of the potentially
+schizophrenic individuals
+on there, so that
+they would have
+the same diagnostic standards
+all across the board.
+As we'll see in the
+schizophrenia lecture,
+it's a very squishy diagnosis.
+So having the same
+psychiatrists interviewing
+every possible person,
+hugely important control.
+This is part of what took
+them years and years.
+And then they finally
+were able to say
+what the patterns
+of similarity were.
+And here's what they
+wound up saying.
+You take any random
+person on the street who
+is schizophrenic, and you
+take any other random person
+off the street, and you
+ask what are the odds
+that the second person
+shares this trait
+with the first person?
+About 1% likelihood.
+What's that another
+way of stating?
+In the population
+as a whole, there's
+about a 1% incidence
+of schizophrenia.
+So you start with
+the circumstance
+where the biological
+parents, neither of them
+had schizophrenia, and neither
+of the adoptive parents do.
+And what's the incidence in
+this population among adoptees?
+A 1% schizophrenia rate.
+That's just average
+people off the street.
+That's the usual rate across
+Western European population.
+So 1% rate.
+Now, let's have the
+person growing up
+in a different
+sort of household.
+This is a person who
+has no biological legacy
+of schizophrenia,
+but was brought up
+in an adoptive household
+with a schizophrenic parent.
+And what you saw
+then was a 3% chance,
+which, with this
+enormous sample size,
+was a highly significant,
+reliable number.
+So in a rough kind of way,
+being raised in a household
+with an adoptive parent
+who is schizophrenic
+approximately triples your risk
+of a schizophrenia diagnosis.
+But then, the really
+critical one, which is you
+were raised in a household
+where neither parent,
+adoptive parent,
+is schizophrenic,
+but you have a biological legacy
+among your biological parents
+of schizophrenia.
+What do you see?
+A 9% incidence.
+Approximately a three-fold
+increase above that, almost
+a 10-fold difference
+now over what you
+see in the general population.
+This one number was what
+roared through the field.
+This was viewed as
+the clearest evidence
+to date for a genetic component
+to a psychiatric disorder.
+Regular old person off
+the street, 1% rate.
+Have a biological parent
+with schizophrenia
+and share no environment with
+them, because you got adopted
+away, and almost 10-fold higher
+chance of getting the disease.
+Then, final thing, looking at
+the incredibly rare people who
+got screwed on more different
+fronts than you can imagine,
+who had a biological parent
+with schizophrenia, and phew,
+got out of there, and landed
+in an adoptive household
+with a schizophrenic parent.
+[LAUGHTER]
+So you get the
+double whammy there.
+And what you saw
+was a 17% incidence.
+What's interesting
+about that number?
+OK, what this cell does,
+what this number does,
+is reflect the
+increased risk by having
+a biological legacy
+of schizophrenia,
+plus the increased
+risk of having
+an adoptive environmental
+legacy of schizophrenia.
+So let's see.
+What's the difference
+between 1 and 3?
+That's 2.
+So the difference between
+1 and 9, that's 8.
+So thus, it should be
+about 10 percentage points.
+It should be about a 10% rate.
+What are you seeing here?
+A synergism.
+Get yourself a biological
+legacy and get yourself
+a schizophrenia
+household to grow up in,
+and it is not just adding
+the two degrees of risk.
+There was a synergism, a
+non-additive synergism.
+That is an important hint
+for us of stuff to come.
+So this was this landmark study.
+This was phenomenally
+difficult to have pulled off.
+It got Kety a number of
+Nobel Prize nominations.
+This was the study that showed
+the first definitive modern
+science evidence for
+a heritable basis
+to a psychiatric disorder.
+And this became
+the gold standard
+for how to do behavioral
+genetic studies.
+And in the aftermath
+of that, people
+began to do adoptive
+studies on heritability
+between biological and
+adoptive households,
+heritability of depression,
+heritability of alcoholism,
+heritability of criminality.
+And you can see heading
+off in all sorts
+of interesting directions
+from there all sorts
+of interesting ones, and
+them always producing
+a number that would be higher
+in this cell of the matrix
+than that cell, and always
+producing the notion
+that one has just shown a
+strong genetic component
+to whatever that trait is.
+That trait-- IQ.
+That trait-- criminal behavior.
+That trait-- alcoholism.
+These were some
+very loaded studies,
+in terms of the implications.
+So what is the problem
+with that approach?
+A number of problems.
+The first one is that, under
+the best of circumstances--
+best of circumstances, best
+of circumstances for people
+trying to publish
+papers out of this--
+under the cleanest
+of circumstances,
+the individuals in the
+study were adopted away,
+were taken from the biological
+parents, a quarter of a second
+after being born.
+No postnatal shared
+environment whatsoever.
+What one knows, of
+course, is that's not
+the case with adoption.
+And there's varying amounts
+of lag time before it occurs.
+And they were never able to
+factor that into the analyses.
+OK, so environment-- so
+you've got two and a half days
+worth of environment with
+your biological parents
+at the beginning there.
+OK, so that's a confound
+"give me a break, though."
+Just a couple of days, that's
+going to explain differences
+like these?
+What, of course, is
+also linking around
+in there is the
+huge, whopping topic
+of prenatal affects, prenatal
+environment shared with mom.
+And we're about to
+see in a little while
+some absolutely
+astonishing realms
+in which prenatal environment
+has very long-term effects.
+OK, so that's a huge confound.
+So how could you
+control for that?
+You see a trait that an
+individual shares in common
+with a biological parent,
+despite being adopted away
+a second after
+birth, all of that.
+And thus, you can infer
+there's a biological,
+there's a genetic
+component to this trait.
+Uh-oh.
+Wait a second.
+Shared environment
+with the mother,
+that may explain some
+of the shared traits.
+How do you get by that then?
+The difference in the likelihood
+of sharing a biological trait,
+a trait with a
+biological mother,
+versus a biological
+father, is the measure
+then of the prenatal effect.
+If a trait is shared 10% with
+the biological father and 17%
+with the biological
+mother, the 7%
+is attributable to
+prenatal effects.
+That was the general
+conclusion that the field
+made at that point for dealing
+with this irksome little
+problem, this pesky little thing
+of prenatal environment, which
+is going to come back big
+time in a few minutes.
+That was how they
+were distinguished.
+So some more problems
+with that approach.
+One is one that absolutely
+tortures behavior geneticists
+the world over, one
+which makes them just
+want to have people
+being inbred strains
+where they could keep them in
+cages and keep track of them.
+The problem being that, often,
+the guy saying he's the father
+ain't actually the father.
+Oh, issues of
+paternity uncertainty.
+That sure screws up
+your genetic studies,
+if you're trying to attribute
+stuff to someone who turns out
+not to be related.
+Very much higher rates than
+the people at Reader's Digest
+would have you believe, the rate
+at which the person claiming
+to be the father is not
+actually the biological father.
+OK, that's a bummer.
+That makes things
+more complicated.
+One other big confound
+in the adoption approach.
+And this was something that
+was emphasized by a guy
+at Princeton, Leon Kamin,
+a psychologist there,
+doing a very good job of
+showing that adoptive family
+placements were non-random.
+When a child is adopted,
+you don't sit there
+and close your eyes
+and spin the globe
+and put your finger
+down in some place,
+and two minutes later this kid
+born in, like, Shaker Heights,
+is running around with some
+camel herders in Rajasthan.
+This is not done.
+It is not random placement.
+Instead, what is a policy in
+virtually every adoptive agency
+in this country
+is to try to match
+the kids, as much as
+possible, along a number
+of different domains.
+In other words, you are also
+sharing a lot of biology
+with the adoptive parents.
+And that completely
+screws up the analyses.
+Adoption is non-random,
+how it is done.
+One does not just
+spin the globe.
+And instead, there are
+very intentional attempts
+to try to match for certain
+traits, traits which have
+genetic influences on them.
+OK.
+So that's a big problem.
+So the adoptive approach
+had tons and tons
+of interesting findings,
+enormously influential.
+But over the years, people
+have realized, more and more,
+prenatal effects,
+paternity uncertainty.
+And from day one, being pointed
+out that adoptive parents
+have higher than random rates of
+shared genes with the adoptees,
+in most cases, in this country.
+OK.
+So what becomes
+the next approach?
+And this one wound up
+being the gold standard,
+the high watermark, of how
+to do behavior genetics.
+Behavior geneticists who are
+able to do this sort of study,
+the rest of the
+behavior geneticists
+hate them, because they've
+got the best toys out there
+to play with.
+And they've got the
+coolest things going.
+And they're always
+snotty, because they've
+got the best possible
+circumstance, the most perfect
+thing you can imagine, which
+is identical twins separated
+at birth.
+Whoa.
+That must be one hell of an
+experiment to have pulled off,
+identical twins
+separated at birth.
+It turns out, every now and
+then, a pair of identical twins
+are adopted very
+soon after birth
+where each one is adopted
+into a different household.
+Perfect.
+Perfect.
+Different environments,
+different households,
+identical genes, you could
+not possibly ask for something
+better than that.
+People, like, wet their pants
+when the identical twins
+separated at birth paradigm
+burst on the scene.
+This was so wonderful.
+People wrote poems
+about identical twins
+separated at birth, sonnets.
+It was the best.
+It was so informative,
+because look
+at the power of this approach.
+This is an incredibly
+powerful approach.
+The two individuals are raised
+in different environments,
+but they've got the
+exact same genes.
+So the question
+becomes, where are you
+going to find identical
+twins separated at birth?
+And there's one obsessive
+geneticist, behavior
+geneticist, University of
+Minnesota, Tom Bouchard,
+has done an entire career not
+only studying these folks,
+but God knows how he
+finds these people.
+But he first started
+publishing when
+he had 40 pairs of identical
+twins separated at birth
+re-united in adulthood.
+And that made for some
+incredible, bizarre,
+heartwarming stories
+of discovering
+your long-lost identical sibling
+and produced a mountain's worth
+of data.
+It was a bizarre
+literature from day one.
+First one being, that you would
+get the perfect case there.
+And what these guys would be
+reporting in the literature
+was totally nutty stuff.
+OK, so you've got one of these
+pairs of identical twins.
+And they're born.
+And Wolfie winds up being
+raised in Uruguay by neo-Nazis.
+And Shmuel gets raised in
+Israel by his highly orthodox
+whatevers.
+[LAUGHTER]
+And then, as a result of
+a game show quirk of fate,
+they're suddenly
+brought back together.
+And there is Wolfie and Shmuel,
+who are identical twins.
+And what do they report?
+The most amazing thing
+they have in common,
+they both flush the toilet
+both before and after they
+go to the toilet.
+[LAUGHTER]
+You think I'm being facetious.
+Go back to that literature
+when that first came out
+and the coverage in the press.
+And it would be things like,
+Wolfie and Shmuel, they both
+have, like, a
+poodle named Fluffy.
+And the flushing the toilet
+before and after going
+to the bathroom, that was one
+of the landmark early findings
+of these studies.
+They would find twins
+that would do that.
+They would find twins who
+were both married to somebody
+named Congolia, or something.
+[LAUGHTER]
+And they'd, oh, my god.
+This is totally amazing.
+That was what hit
+the pages, initially,
+these obscure, little,
+bizarre similarities
+within a backdrop
+of, well, what's
+the data actually showing?
+And what's by now a twin
+registry of probably a couple
+of hundreds sets
+of these twins--
+and this has become the cottage
+industry of the best behavior
+genetics around-- what has
+come out of that literature is
+the most solid, reliable
+findings is about 50%
+heritability of IQ.
+About 50% heritability
+of where you
+are on the introversion,
+extroversion scale, and about
+50% heritability for
+degree of aggression.
+That's kind of interesting.
+And what we will see is
+there's all sorts of problems
+with this approach as well.
+First one being,
+starting right off,
+back to that Kamin
+guy from Princeton,
+his critique-- turns
+out there were not
+a whole lot of
+Wolfies and Shmuels.
+Even though they got adopted
+into different families,
+there again was the non-random
+placement in families,
+more similar environments
+than one would have
+anticipated purely by chance.
+So that is a confound.
+OK, so what's the
+solution for that one?
+I know.
+Let's look at monozygotic
+twins separated at birth
+and reunited on Oprah
+at age 50, and then
+look at dizygotic twins
+separated at birth
+and reunited after the
+commercial break on Oprah,
+and see what similarities are.
+And if you see more things in
+common with the monozygotics,
+rather than the
+dizygotics, you've
+just controlled for the
+non-random placement
+in the adoptive homes.
+The extent to which
+the monozygotics
+have traits more in common
+than the dizygotics, that
+reflects the identical genes.
+That was the interpretation.
+That was a very powerful
+sort of analysis,
+one that, nonetheless,
+winds up being very limited.
+Because in this case,
+because of tiny sample size,
+it's really hard to
+have done those studies.
+What's another feature of
+the whole behavior genetics
+approach?
+Here's another one.
+If you see traits that
+occur, behavioral traits,
+in the absence of any
+learning, in the absence
+of any environmental experience,
+in the absence of anything that
+can count as being
+non-genetic, if you see that,
+you're looking at a
+genetic influence.
+And what are the examples
+that are always given?
+The fact that all babies
+all over the universe
+start smiling, and they use
+the exact same set of muscles.
+And they always start smiling
+socially around, roughly,
+the same age.
+And what you also
+see-- I don't want
+to know how these were done--
+but these classic photographs
+that you can get filming
+of kids in utero--
+I don't know what fiber
+optic something or other
+was doing that-- but
+the demonstration
+that fetuses smile.
+Fetuses smile during
+the third trimester.
+This is a motoric pattern that
+is shared among all humans.
+OK.
+Well, social smiling,
+you see the flaw there,
+which is that is very subject
+to shaping of behavior.
+You are three months
+old, and you're
+watching all this social smiling
+going on around you, and how
+the mannequins they have
+at home are nowhere near as
+interesting as the
+animated faces there.
+And you sort of try
+it out yourself.
+What you see it's the exact
+same developmental time
+course for smiling among
+congenitally blind babies,
+babies who never
+see anybody smiling.
+So you see the
+motor pattern here
+being something that is
+arguably fairly universal
+and occurring in the absence
+of any sort of training,
+how you go about smiling.
+The other example
+that's always used
+is with congenitally
+deaf babies.
+And what you get there is
+another universal, which
+is beginning to babble
+at the exact same age
+that hearing kids
+begin to babble,
+and the same argument
+being made there.
+Of course, you have a very
+uphill task there of ruling out
+any environmental similarities.
+Because once again,
+once again, an area
+that has been utterly
+under-appreciated
+in this whole field
+is the whole world
+of prenatal
+environmental effects.
+And the theme that's going to
+come out of that is environment
+does not begin at birth.
+And some environmental
+effects prenatally
+are enormously
+influential forever after.
+And if you showed up
+on the scene one second
+after that individual
+was born, all
+of the tools of modern
+behavior genetics
+would tell you that
+you were looking
+at a genetic trait,
+where it is one instead
+that was brought about by
+the prenatal environment.
+OK, let's take a
+five-minute break,
+and then we will
+pick up on that.
+--good ones.
+First one being going back
+to that gender difference
+business, the assumption
+running through the field
+that, OK, boys and girls are
+raised in the same environment
+by their parents.
+And the only thing that
+differs is the genes.
+Like even those people,
+behavior geneticists,
+believe that could be the case.
+No, they recognized this
+was a very limited approach,
+and thus would limit
+themselves to circumstances
+like the first hour of
+post-natal life, which
+we already saw is a
+flawed assumption,
+or under circumstances
+where everybody's
+had the same number
+of math problems
+to take in their first
+12 years of life.
+And we see the
+problem with that.
+Nonetheless, there
+was the recognition
+that that was a very
+limited set of tools
+for getting at these issues.
+The other useful thing
+that was brought up
+was somebody pointing out
+that, in the extended notes
+for behavior genetics, in the
+second paragraph, somewhere
+in there, about the
+fourth or fifth line,
+is the very clearly
+typed out word, "unable."
+And pointing out that,
+actually, the word
+was supposed to be "able."
+So you might want to
+take a look at that
+and kind of keep
+that one in mind.
+OK, perhaps I should
+take a look at it also.
+Moving on.
+Moving on now to this
+business, all of the approaches
+we've been seeing
+about comparing
+monozygotic with dizygotic.
+By the way, with the
+identical twins, 2/3 of them
+have monochorionic.
+1/3 are split.
+And how many of you who are
+identical twins absolutely
+know in your heart of
+heart right now whether you
+were a monochorionic
+or bichorionic twin?
+OK.
+Well, that didn't
+work very well.
+OK.
+So pushing on.
+What we see here is, with
+all of these approaches,
+the adoption, the twins
+separated at birth,
+the twins, mono versus
+dizygotic, et cetera,
+et cetera, all of
+those were predicated
+on one simple
+assumption, which is,
+environment begins at birth.
+And that has been
+completely destroyed
+in some incredibly interesting
+ways in recent years.
+We have very vibrant
+literature at this point.
+First way that it
+can go down, which
+is your prenatal environment.
+What are you having as
+a prenatal environment?
+Who are you sharing
+environment with?
+Obviously, with your mother.
+You are sharing blood.
+You are sharing blood,
+and thus the things
+that she is experiencing in
+the world around her that
+make for a different environment
+than the person standing
+next to her gets translated
+into effects on the fetus.
+First domain, hormonal ones.
+Here's one example of something
+that you will wind up seeing.
+This was worked on by a
+guy named, Fred Vom Saal,
+at University of Missouri.
+And what he did was
+look at the fact
+that rats give birth to
+litters of about a dozen kids
+at a time.
+And there's some
+circulatory system thing.
+They look like a whole
+necklace of fetuses there.
+And the circulatory
+system is such
+that everybody's getting
+blood, but you're
+getting preferentially
+the blood that
+is from the siblings
+right around you.
+There's some sort
+of looping thing
+that occurs with the blood
+system that looks just
+like that.
+And what you wind up getting is
+you have a particularly shared
+blood environment with the
+siblings on either side of you.
+And what he asked was
+something very simple.
+You are a female rat fetus.
+And in one case,
+you're sitting there
+with brothers on each side.
+In another case,
+one brother and one
+sister, or in the final case,
+obviously, with two sisters
+on either side.
+And what you wind up getting
+is a different hormonal
+environment.
+How does that
+translate out later?
+The more male siblings you
+have around you as a fetus,
+the later you're going
+to reach puberty.
+That's interesting, suggesting
+that very local endocrine
+effects here play out
+in something like that.
+Also, it predicts how
+estrogen levels are going
+to drop in you later in life.
+So this winds up being
+one very interesting
+prenatal environment.
+Here's another one.
+Here we have, in humans,
+the age of one's mother
+when she gave birth-- and
+extrapolating a little bit here
+at both ends, but just assume
+this is kind of the age range.
+And what we see here is
+the age of puberty onset
+in the offspring.
+And what is seen is very young
+mothers and very old mothers
+have offspring who reach
+puberty later than women
+in a more intermediate age.
+What does that
+appear to be due to?
+Differing estrogen levels.
+Higher levels of estrogen
+at this point in life--
+it's actually not symmetrical.
+It's skewed a little
+bit this way--
+and that seems to be
+the driving force on it.
+Whoa.
+The age at which
+you reach puberty
+has to do with how old the
+fetal sack was that you hung out
+for nine months?
+That has an influence?
+Absolutely.
+So prenatal effects.
+More.
+Another version of it.
+Suppose now the
+hormone you're getting
+inundated with through
+the bloodstream
+is a stress hormone.
+A stress hormone--
+glucocorticoids,
+we will learn all about
+those down the line--
+a stress hormone,
+because mom is stressed.
+What are some of
+the consequences?
+For the same prenatal
+stress, as an adult,
+you will have a smaller
+brain-- if you're a rat.
+You will have a thinner cortex.
+You will have less
+learning abilities.
+You will be more
+prone towards anxiety.
+You will have fewer of those
+benzodiazepine receptors
+that we heard about
+the other day.
+You will have more of
+a cognitive decline
+when you are a
+doddering old rat.
+All sorts of stuff
+will go differently
+throughout your entire life.
+But get this.
+OK, look at this mechanism.
+So you are a rat.
+And your mother
+was stressed when
+you were a fetus back when.
+And you were marinated
+in those glucocorticoids
+when you were a fetus.
+Your brain, overall,
+will be smaller.
+There's one particular
+brain region,
+which I won't mention
+right now because it's not
+really critical,
+there's one brain region
+that's particularly hard hit.
+What does that brain region do?
+Among other things, it helps to
+turn off the stress response.
+So if that part of
+the brain is smaller,
+you're not as good at blocking
+glucocorticoid secretion
+at the end of stress.
+And somebody with a normal-sized
+whatever, something stressful
+occurs, and they recover.
+And you do this instead.
+Because this mysterious part
+of the brain is smaller,
+is not giving as much of a
+negative feedback signal.
+And for people new to
+endocrinology, that's something
+you'll be getting
+in a couple weeks.
+The net result is, if this
+part of the brain is smaller,
+you will have more lifetime
+exposure to glucocorticoids.
+So what happens next?
+What happens next, in
+addition, baseline is also
+elevated in these individuals.
+So the net result is a lot
+more cumulative exposure.
+So you are a female rat.
+And you were in a mother
+who was stressed prenatally
+when you were a fetus.
+And as a result, in addition
+to all the other problems
+that you've got lifelong,
+you secrete higher
+than expected
+glucocorticoid levels.
+And eventually,
+you get pregnant.
+And thus, your fetus
+is going to be exposed
+to elevated
+glucocorticoid levels
+and will be born with a
+somewhat smaller brain, thinner
+cortex, et cetera, et cetera.
+What have we just shown?
+An environmental manipulation
+on a pregnant female
+manifesting itself
+two generations later
+in the grandchildren.
+And when this was first
+described in the early '60s,
+this was called the
+grandmother effect.
+And eventually, it
+was shown to go out
+about four or five generations.
+The magnitude the
+effect would get smaller
+with each generation,
+before it disappeared.
+But look at what this is about.
+This is inheriting a
+trait that is not genetic.
+And this wound up being the
+first example of what is now
+called, non-Mendelian
+inheritance
+of traits, non-genetic
+inheritance of traits.
+And all you've got going
+here is prenatal environment.
+Extremely powerful observation.
+And what you also then have
+is, your some researcher,
+and again, you come
+along one second
+after the animal is born.
+And you wind up studying,
+saying oh, look at this.
+This rat tends to have elevated
+glucocorticoid levels, just
+like mom.
+And this rat tends to have a
+thinner cortex, just like mom.
+And this rat-- and
+if you've never
+heard of prenatal
+environmental effects, what's
+the only conclusion
+you could make?
+There are genetic
+influences on these traits.
+So these non-Mendelian,
+non-genetic transmission
+of traits are really,
+really important.
+Next thing.
+What else is floating around
+in mom's bloodstream that
+gets shared, besides hormones?
+Nutrients.
+Nutrients.
+And this winds up producing
+something extremely interesting
+as well.
+OK, it's all a blur by now.
+Have we already talked
+about Dutch Hunger Winter?
+It was in the video we
+watched while you were gone.
+Oh.
+[BLOWS RASPBERRY] OK.
+[LAUGHTER]
+Well, now that you all know
+about-- what did I say?
+That was only like
+100 people, though.
+OK.
+OK, for those of you who
+didn't-- Dutch Hunger Winter,
+here's the deal.
+If you were a fetus in Holland
+during the winter of 1944,
+something very interesting
+happened with you.
+1944, Holland is still
+occupied by the Nazis.
+Nazis are being
+pressured on all fronts.
+In the process of losing,
+they're falling back.
+They're losing a lot of
+the land they've occupied.
+And what they decide
+to do that winter
+is, because they need some
+food and because they wanted
+to punish the Dutch for
+beginning to be more openly
+in the resistance, what
+they did was, that winter,
+they diverted all of the
+food in Holland to Germany.
+And historically known as
+the Dutch Hunger Winter.
+Essentially, people went
+from a perfectly fine,
+healthy-- amid the
+context of a war--
+Western-European diet,
+down to something
+like that from out of nowhere.
+40,000 people starved to death
+during the Dutch Hunger Winter.
+Something very
+interesting occurred,
+if you were a third-trimester
+fetus, during the Dutch Hunger
+Winter, because it only
+lasted for the winter.
+The Allies came in,
+liberated Holland after that.
+And it went to something
+like this, something
+resembling a step
+function of starvation
+for about three months.
+If you were third-trimester
+fetus during the Dutch Hunger
+Winter, your body learned
+something important,
+which is here is not a whole
+lot of calories out there.
+During third trimester,
+fetuses are in some way--
+and this is metaphorical--
+deciding, learning how much,
+in the way of
+nutrients out there
+in the world, how readily
+do calories come in?
+How is the fetus finding out?
+By way of mom's circulation.
+Mom is starving.
+And thus, much lower levels of
+nutrients in the bloodstream.
+And the fetus, at that
+point in development,
+is saying, metaphorically,
+well, what's
+it like out there in
+this place I'm going
+to be heading to rather soon?
+What's the nutritional
+profile like?
+There's not much in the
+way of food out there.
+And as a result, the fetus
+has-- and the term used now
+is "metabolic programming."
+There is metabolic programming,
+or metabolic imprinting--
+notice the word
+"imprinting" here being
+used in a completely
+different sense
+than we've heard about
+already-- metabolic programming
+to produce what is called
+a thrifty phenotype.
+The fetus, realizing
+there is nothing out there
+in the way of plentiful
+food, what it does
+is it programs its
+pancreas to function in
+a certain way forever after.
+What does the pancreas do?
+The smallest smidgen of
+food hits the bloodstream,
+and the pancreas is
+pumping out insulin,
+which helps store all that
+stuff and quickly scarf up
+every bit of nutrient
+in the bloodstream
+and store it away,
+because you've got
+to be as efficient as possible.
+And you've metabolically
+programmed your kidneys,
+so that your kidneys are
+incredibly good at retaining
+salt. Because along
+with starvation,
+there's going to
+be salt shortages.
+So really hold on to salt.
+And you are born with a body
+with a thrifty metabolism,
+very good at retaining salt,
+and spectacular at storing
+away every bit of nutrients
+that hits the bloodstream.
+So at that point, you go
+back to this sort of diet.
+And you have that for
+the rest of your life.
+And what has now been shown
+with the Dutch Hunger Winter
+individuals, the ones who were
+third-trimester fetuses then,
+as adults, they have a
+19-fold increased incidence
+of obesity, hypertension,
+diabetes, and what's
+called metabolic syndrome.
+What's that about?
+Their body has programmed
+to be extremely
+thrifty with metabolism.
+And as such, it is
+forever after storing
+away every of the
+grotesque Westernized diets
+that we all wallow in.
+And what you've got then
+is setting individuals
+up for a much, much higher risk
+of these metabolic disorders.
+If you were a newborn at
+the time, it didn't happen.
+A newborn during
+here, the metabolic
+programming is
+already over by then.
+If you were a first-trimester
+fetus, didn't happen.
+The metabolic programming
+hasn't started yet.
+Second, the later part or
+second to third trimester
+is when the programming goes on.
+And this was a
+landmark observation.
+This was really important.
+Among other things,
+you get the people
+who do not like the notion
+of these subtle effects.
+And they're saying, OK, sure.
+This can happen,
+but this is subtle.
+19-fold is not subtle.
+And this was the
+landmark study that
+ushered in what is now called
+a whole field of fetal origins
+of adult disease.
+Fetal origins of
+adult disease, which
+a lot of realms
+of medicine think
+is outrageous and couldn't
+possibly work this way.
+And it is popping up in
+more and more domains.
+Elevated levels of stress
+hormones during fetal life,
+increased likelihood
+of anxiety disorders
+as an adult, independent
+of post-natal environment.
+Other examples like that, all of
+these being ones of programming
+around that time.
+And the Dutch Hunger Winter
+one is the iconic example.
+You know, what we're all
+accustomed to is yeah,
+you study something
+in, like, a planaria.
+And then you study it in a rat.
+And you study it in a monkey.
+And then you study it
+in a college freshman.
+And finally, when it's-- now,
+you can conclude something
+maybe, maybe about humans.
+This was first discovered in
+this population of humans.
+This was no, is this
+relevant to humans.
+Interestingly, there
+was another population
+at the time that went
+through something or other
+like that, which was people
+in the city of Stalingrad
+who were under
+siege by the Nazis
+and had essentially years
+worth of severe starvation.
+They didn't get a Dutch
+Hunger Winter phenomenon,
+because the food
+coasted off like this.
+And afterward, it
+took years for it
+to reach a
+Western-European average.
+You don't get it under
+those circumstances.
+It's a step function like this.
+OK.
+So think about this now.
+So you were a Dutch
+Hunger Winter fetus.
+And as a result, you have
+a very thrifty metabolism.
+And 30 years later,
+you've gotten pregnant.
+You're having a
+perfectly normal diet,
+normal intake of calories.
+But you've got this
+thrifty metabolism.
+And as a result,
+your body is really
+good at pulling nutrients
+out of the bloodstream,
+because you secrete more
+insulin than most people would.
+With your thrifty
+metabolism, you
+are pulling a disproportionate
+share of the calories out
+of the bloodstream.
+And thus, your fetus is getting
+a disproportionately smaller
+amount of calories.
+And thus, your fetus is
+born with a milder version
+of the Dutch Hunger
+Winter phenomenon.
+And this has now been
+shown in the grandchildren
+of Dutch Hunger Winter fetuses.
+This is that exact same deal.
+This is non-Mendelian,
+non-genetic transmission
+of traits, multigenerationally.
+Absolutely astonishing
+that this could work.
+And the biology is
+all in place for it.
+What we will see in a little
+while is what the mechanism is,
+and it's been identified down
+to the molecular level of what
+went on in these Dutch Hunger
+Winter-- OK, I'll give it away.
+Remember that epigenetic
+business the other day?
+There are epigenetic
+changes in the gene's coding
+for things related to insulin in
+the Dutch Hunger Winter babies.
+So enormous effect.
+Another example of it,
+another dietary one,
+which is, if you are
+female-- and female human,
+among other species, this
+has been shown in-- there's
+an issue of how much estrogen
+does your mother consume
+when you were a fetus.
+Where's estrogen coming
+from in the diet?
+From a lot of different types
+of plants, phytoestrogens.
+And what the studies show
+is that increased exposure
+to estrogen derived
+from phytoestrogens
+during fetal life, and there
+is a small but consistent
+increased risk of
+estrogen-dependent breast
+cancer, 20 years
+later, 90 years later.
+Again, very subtle prenatal
+environmental effects
+playing out forever, even unto
+the generations after you.
+Another realm of prenatal
+effects, learning.
+OK, this sounds ludicrous
+right off the bat,
+that you can have
+learning prenatally.
+You have learning prenatally.
+You can show this first in rats.
+Here's what you do.
+You take a rat fetus, and
+you can inject into it
+a particular flavor of
+water along with sucrose.
+And the fetus absorbs it.
+The fetus actually drinks
+amniotic fluid, which
+I find to be deeply creepy.
+But nonetheless, you
+inject this stuff in there.
+And you are doing this a
+number of days running.
+And this fetus is now
+drinking this flavor that
+has a lot of sucrose in it.
+It tastes good.
+It tastes good?
+You're a fetus.
+What do you mean,
+it tastes good?
+The fetus learns about it.
+Because after birth,
+given a choice
+between two neutral
+flavors, it will
+prefer the flavor it was
+exposed to that it was
+drinking when it was a fetus.
+How weird is that?
+More ones-- more ones?
+OK, that was good grammar.
+More ones.
+Here's one from humans.
+And this was a study,
+which is as strange
+as you can get,
+looking at the fact
+that the diaphragm is
+a very good resonating
+membrane, something or other.
+Mother's voices are heard in
+the fetal sack quite readily.
+And if I don't know how they
+got the fiber-optic camera
+in there, I have no idea
+how they got the microphones
+in there for recording that.
+But it is a very resonant
+chamber, the diaphragm
+and the amniotic fluid.
+Fetuses hear a lot of
+what's going on out there,
+most notably mom's voice.
+So this was a study, a
+totally inspired one.
+And what you had
+was, in this one,
+pregnant women spent
+their last trimester
+loudly reading either
+The Cat in the Hat
+over and over, like
+four times a day
+or something, until they
+went mad, absolutely mad--
+and that's before the
+kid was even born--
+or reading some random
+collection of sentences that
+controlled for word length,
+that controlled for rhythmicity,
+all of that.
+Then, you get the
+newborn some time later,
+and you give them a test of
+which they prefer to listen to.
+How do you do that
+with a newborn?
+Something you can do is,
+when newborns like something,
+they make more sucking
+motions with their mouth.
+So you've got a sucko-meter
+thing in there measuring it.
+And the newborns prefer
+hearing The Cat in the Hat.
+They learned it.
+Not a huge effect,
+but nonetheless,
+what is up with that?
+Of course, a follow-up question
+that maybe half the people
+in here would be wondering is,
+well, what about the fathers?
+And they have the study with the
+fathers reading Cat In The Hat
+and, you know, like a megaphone
+on mom's belly and reading.
+And it doesn't work.
+It doesn't resonate
+enough that side.
+Sounds from the mother.
+OK, so what we see here is this
+whole world of stuff going on
+before behavior geneticists
+show up and say,
+environment is just started.
+All these prenatal
+effects of hormones,
+nutrition, sensory stimulation,
+amazing, in some cases,
+multigenerational.
+Yeah?
+Did they catch up with
+those children later,
+The Cat in the Hat
+children, and see if they
+had a tendency to rhyme more?
+[LAUGHTER]
+Where are they now?
+Remarkably, all of them are
+heads of states of countries.
+[LAUGHTER]
+People are still trying
+to understand that one.
+But very good
+follow-ups on that.
+So we've got this punch
+line here, over and over,
+showing the power
+of prenatal effects.
+One final study.
+And this was one carried out by
+a scientist at Berkeley named,
+Darlene Francis, which took
+some amazing surgical skills.
+So there are different
+strains of rats
+that have been bred for
+different levels of anxiety.
+And we've already heard about
+one possibility for that.
+It turns out some
+genetic differences
+in the promoter to the gene for
+the benzodiazepine receptor.
+There's all sorts
+of strains that
+have been bred for high,
+low levels of anxiety
+that people have studied.
+They've been bred.
+These are transmissible traits.
+These are heritable,
+these are genetic traits.
+Here's what Darlene
+Francis did, which
+was she did an adoption study.
+What's the adoption paradigm
+we've heard already?
+Right after birth, you
+cross-foster the rats,
+or the kids get adopted.
+That's not the
+adoption study she did.
+She transferred fetuses.
+She figured out how
+to do the surgery
+to remove a fetus early on
+in development from one rat
+mom to another rat mom where
+they developed perfectly
+normally, once she
+had this surgery down.
+And you know what turns
+out to be the case?
+It's not a genetic trait.
+It was not a genetic trait.
+You grew up with
+the anxiety levels
+matching the strain
+of your mother,
+even if the strain of the
+individual whose body you
+fetally developed in-- you take
+a mom from the high anxiety
+strain, and you take a mom
+from the low anxiety strain.
+And you take fetuses from
+the high anxiety mom,
+and they go through gestation
+in the low anxiety mom.
+And as adults, they
+are low anxiety.
+It was not a genetic trait,
+it was a prenatal one
+having to do with another one
+of those multigenerational
+begatting by having early
+experience influencing
+the nature of the pregnancy
+you would eventually have,
+and thus, influencing
+your fetus,
+producing a different pregnancy
+for them down the line.
+This demonstration
+of cross-fostering,
+of adopting, as early
+as you possibly could,
+enormously important study.
+One really difficult one.
+Yet another wave pounding
+on this point, environment
+does not begin at birth.
+And some of the most
+important environment
+is not occurring
+starting at birth.
+And everything about
+behavior genetics,
+classically, was
+predicated on there's
+no environment before that.
+OK, so what do they
+come back with?
+What's the response?
+We've already seen
+a possible way
+of controlling for that, which
+is, if you see traits shared
+in common with the
+biological father,
+and then you see
+more traits shared
+in common with the biological
+mother, the increased
+degree of sharedness with the
+mom reflects, not the genes,
+because you're getting
+the same amount of genes
+from each parent.
+It reflects the
+prenatal environment.
+That would be the control that
+would be used in these studies.
+The extent to which
+a trait is more
+shared with a biological mother
+than with a biological father
+is a reflection of
+prenatal effects,
+because you get the same amount
+of genes from each parent.
+Naturally, this turns out to
+be vastly messier than this.
+Because there's a
+whole world in which
+you're getting more genetic
+influences from your mother
+than from your father.
+OK.
+First one is, once
+again, if it turns out
+the person who's claiming to
+be the father isn't actually
+the father, that kind of
+changes the whole map.
+And once again,
+that is a problem
+running through all of human
+behavior genetics literature.
+But here, here's the next one.
+Here, we have-- just make sure
+we've got our cliche in place
+here-- what is this?
+This is the--
+OK, which is the
+what of the cell?
+Powerhouse,
+The powerhouse.
+OK, here we have the powerhouse
+of the cell, mitochondria.
+And in this rather odd cell,
+there's one mitochondrion,
+but it is standing in for
+all of the powerhouses.
+And we've got mitochondria.
+Something that, when you
+first learn about this,
+is just flabbergasting,
+which is, here
+you've got a cell with
+its DNA, and its nucleus,
+and its double helix
+thingy happening there.
+And it turns out
+that mitochondria
+have their own DNA.
+And this is part
+of explaining one
+of the, like, truly amazing,
+adventurous, nutty ideas
+that have turned out to be true.
+Scientist, named Lynn Margulis,
+University of Massachusetts,
+30 years ago or so, she
+noted that this business
+of mitochondria
+having their own DNA,
+and came up with this hypothesis
+that mitochondria used
+to be independent organisms.
+That in some symbiotic
+whatever, billions of years
+ago, got into cells that had
+no mitochrondia at the time,
+and that there's been
+a symbiosis ever since.
+Mitochondria have
+DNA, which are related
+to mitochondrial function.
+Not a ton of the
+stuff, nonetheless, you
+have every gene that is critical
+for mitochondrial function.
+No, that's not true.
+A few of them have
+wound up in here.
+But all of the genes
+in here are pretty
+important for
+mitochondrial powerhousing,
+all that sort of thing.
+And these are derived from
+a completely different world
+of DNA than these.
+So now consider this.
+This cell is an egg.
+This cell is not an egg.
+This cell is just merely
+carrying genetic information
+that looks like that.
+What you've got is sperm,
+all they are carrying
+are the DNAs, the
+genes, the DNA.
+And they don't have cytoplasm,
+the fluid-y environment
+in a cell.
+This is one major
+dense packing job.
+Here's the critical implication.
+Eggs have mitochondria,
+sperm don't.
+So right at the point
+of fertilization,
+you have gotten all of your
+mitochondria from your mother.
+And thus, all of
+the genes related
+to mitochondrial
+function that are
+contained in the mitochondria
+you don't get from fathers.
+It is exclusively
+inherited from mothers.
+Mitochondrial DNA solely
+comes from the mother.
+So what we've just
+seen as a first pass
+is it's not an even 50/50 split.
+You get a disproportionate
+share of your DNA
+coming from the mother.
+Really important.
+And one that's been
+used by all sorts
+of evolutionary geneticists
+to trace legacies.
+If these mitochondrial DNA is
+only passed along female lines,
+that allows you to figure
+out all sorts of stuff
+about evolution.
+It has given rise to the Eve
+hypothesis, that somewhere back
+then was a woman, probably
+some sort of early hominid,
+who is ultimately the ancestor,
+the great, great, great, great,
+great, grandmother of every
+single human on Earth.
+And it can be traced through
+the mitochondrial DNA.
+So that's an asymmetry.
+Next one.
+Next source of asymmetry
+is back to that business
+about imprinted genes.
+From a couple of weeks
+ago, you remember
+that one, genes that
+are working differently,
+depending on which parent
+you are getting them from.
+So that one's a violation
+as well of this rule
+that you get all of your DNA in
+equal amounts from each parent.
+This is another thing that
+possibly skews the ratio.
+Now, here's another
+very interesting thing.
+So you've got the egg here.
+And not only does it have this
+cytoplasm with mitochondria
+floating around,
+but in addition,
+there's other stuff
+floating around in there,
+like transcription factors.
+Sperm don't have
+transcription factors.
+Sperm, all they're doing is on
+this, like, suicide swimming
+mission there.
+And they're not
+making any new genes.
+All they're doing is
+this one, long spurt
+of racing for the end.
+And in the case of
+the eggs, though, you
+have transcription factors.
+You have all sorts of
+proteins in the cytoplasm.
+You've got a fully functioning
+cell, instead of this, sort of,
+much more streamlined version.
+All the transcription factors
+that come in a fertilized egg
+are coming from the mother.
+So what does that
+wind up meaning?
+Transcription factors,
+those are proteins.
+We're not talking
+about genes here.
+We just saw how
+you get more genes
+from your mother
+than your father,
+these mitochondrial genes.
+OK, but transcription
+factors, the father
+has genes for
+transcription factors.
+The mother has genes for
+transcription factors.
+What's the significance of
+getting your transcription
+factors from your mother
+in the fertilized egg?
+OK.
+Consider here two genes.
+The first one codes for
+transcription factor A.
+We know that already.
+Transcription factors
+are typically proteins,
+so they have their own
+genes all the way down.
+And this codes for gene
+X, whatever that is.
+So here's what you've got.
+There are promoters responsive
+to transcription factor A.
+Transcription factor A turns
+on the synthesis of the protein
+coded for by gene
+X. And in addition,
+transcription factor A turns
+on transcription factor A gene.
+It's a positive feedback
+loop where it makes
+more and more of the stuff.
+That's the way this particular
+transcription factor works.
+So suppose this is
+the only thing that
+can activate transcription
+of gene X. So
+suppose you've got some
+environmental event which,
+as a result of it, knocks out
+the activity of transcription
+factor X in an egg.
+The egg is fertilized.
+And as a result of transcription
+factor A not being expressed,
+it doesn't express more.
+This is the only thing that
+drives more expression.
+And you never make gene X.
+Now, somewhere along
+the line in your body,
+you are soon making eggs
+which contain these genes,
+of course, but
+where you have never
+expressed transcription factor
+A, because this was knocked out
+in the egg.
+So because of that, you
+never express gene X.
+And that egg gets fertilized.
+And you pass on that
+trait to your offspring.
+You pass that on, this
+acquired trait of transcription
+factor A not working.
+If this is the
+circuitry that you have,
+it doesn't matter which
+version of gene X you get,
+you are never going to express
+that gene for generations
+and generations, forever,
+if this is the loop.
+What's going on here, what a
+lot of people think is relevant,
+are some environmental
+toxins that
+are known to
+disrupt the activity
+of certain
+transcription factors.
+And what that does is
+induce heritability
+in a non-genetic way of
+non-expressing of a gene.
+The gene's being inherited,
+but it will never ever
+be expressed.
+What have you just acquired?
+A Lamarckian trait.
+You remember Lamarck.
+Everybody learns about Lamarck,
+in order to mock him viciously.
+And Lamarck had the notion that
+the way evolutionary change
+works, the way
+inheritance works,
+is you experience
+something, and it
+causes a change in your body.
+And as a result, you pass
+on that acquired trait
+to your offspring.
+Ludicrous.
+Lamarckians have been mocked
+and pilloried for centuries,
+except in the Soviet Union in
+the 1930s, where it gave rise
+to Lysenkoism, a very horrific
+piece of genetic history.
+But what you've got is
+this complete trashing
+of the notion of you
+acquire some trait
+from the environment, and you
+pass it on to your offspring.
+This is Lamarckian inheritance.
+This is an environmental factor
+that knocks this transcription
+factor out of action.
+And if this is the
+wiring that you've got,
+this gene will
+never be expressed.
+And as a result, it will never
+be expressed in your offspring,
+in your grandkids, et
+cetera, all the way down.
+This is Lamarckian
+inheritance of a trait.
+And again, where the best
+evidence for this has been
+is with environmental
+toxins that knock out,
+that have some of these
+mutating effects in eggs.
+They are not mutations
+in a classical DNA sense.
+But nonetheless, they
+are now heritable.
+So that pops up also.
+So have we got here?
+We have the simple
+assumption that,
+if you see more sharing
+of a trait with the mother
+than with the father,
+that's reflecting
+prenatal environment.
+And what we've seen
+here is totally
+messing this up is the
+fact that you do not
+get equal genetic
+influences from each parent.
+You are getting more
+genetic material,
+you are getting more
+genes from your mother,
+because the mitochondrial DNA.
+Even if you are getting
+equal amounts of DNA,
+expression of them will
+have different consequences
+because of imprinted genes.
+Finally, in this
+world, having nothing
+to do with the amount of
+genes or the actual DNA,
+you can have this
+Lamarckian inheritance
+of traits due to
+environmental perturbations.
+What we see here
+are ways ranging
+from extremely subtle and rare
+to some rather substantial ones
+with the mitochondria where
+you are not getting equivalent
+inheritance from both parents.
+So that confuses things a lot.
+OK.
+So after all of that,
+you do, nonetheless,
+get circumstances where
+behavior is influenced by genes.
+And by every rule,
+it could be shown.
+And by the most
+contemporary of techniques
+where people find
+the gene and the DNA,
+and they've traced out the steps
+in showing that there really
+are genetic influences
+on behavior,
+and ones that withstand every
+single one of these criticisms.
+OK.
+So sometimes, you've
+got genes regulating
+or genes influencing behavior.
+But now we bring in a
+whole other possibility.
+And this is something
+that was emphasized
+by a psychologist named, Judith
+Rich Harris, a number of years
+ago, in a very important book
+of hers, called The Nurture
+Assumption, which has a
+lot to do with arguing
+the relative importance
+of influences
+of peer versus parents.
+Nonetheless, she
+focused in one section
+of the book on the
+genetics of behavior
+and focused on what she calls
+indirect genetic effects.
+What would indirect
+genetic effects be?
+OK.
+You've got that
+trait that I referred
+to before, one of
+the most reliable
+of traits in the
+identical twins separated
+at birth business, 50%
+heritability of where
+you are on the introversion,
+extroversion continuum.
+OK.
+So that one has
+held up pretty well.
+Amid all the possible complaints
+about these various approaches,
+that one appears
+to be quite solid.
+And you're immediately
+off and running
+with, OK, genes for
+extroversion, for sociality,
+for all of that.
+What she shows instead is
+something else is happening.
+There's a very, very heritable
+trait from parent to offspring,
+one of the most heritable
+physical traits out there,
+which is your height and
+your appearance in general,
+that those are highly
+heritable traits.
+And suddenly, you
+have a phenomenon that
+is well-documented,
+which is people
+who are taller are treated
+better and considered
+more attractive, comma,
+he says bitterly.
+[LAUGHTER]
+What you've got is people
+are treated differently
+along those lines.
+And what is known
+also is, people
+who are treated more
+positively during development,
+during childhood,
+become more extroverted.
+What we have here is not
+heritability of the trait
+where you are in
+the introversion,
+extroversion continuum.
+What you have is heritability
+of a physical trait, which
+causes you to be
+treated differently
+in the world, which then brings
+about changes in personality.
+And studies have
+since shown that most
+of the heritability of the
+introversion, extroversion
+is mediated by physical
+traits in between.
+So that's a completely
+indirect way in which
+you could have gotten to this.
+More cases.
+More cases of this.
+Let's see.
+OK, you can show, in various
+bird, turkey, hen species,
+that there are chicks, that
+there is heritability of rank.
+You could be born
+to a low-ranking mom
+in the pecking
+order, high-ranking,
+all the perfect
+studies, and controls,
+and cross-fostering,
+all of that,
+and there is
+heritability of rank.
+But another indirect
+genetic effect
+that was subsequently
+demonstrated, which is it's
+not the rank that's
+being inherited,
+it's a particular
+version of genes
+related to melanism of
+your feathers, the color
+and iridescence
+of your feathers.
+And it turns out, if you have
+a certain color pattern, all
+the other like
+roosters, and chicks,
+and hens, and poultry,
+peck at you more often.
+And you're reduced
+to subordination.
+This is not inheritance
+of a social dominant trait
+or a social subordination trait.
+This is inheritance
+of a gene having
+to do with the color and
+iridescence of your feathers,
+which wind up producing
+your social rank.
+Another example.
+Here's another one.
+OK, back to chicks
+again, which is chicks
+appear to be intuitively
+able to peck at grubs shortly
+after birth.
+That they're able to
+peck down and get grubs.
+And by all the rules
+of behavior genetics,
+with all the constraints
+and criticisms answered,
+this appears to be
+a heritable trait.
+But it turns out that this
+is not what is heritable.
+What is heritable, bizarrely, is
+the tendency of newborn chicks
+to find their toes to
+be very interesting
+and to peck at their toes.
+And they quickly learn that this
+doesn't feel all that great.
+But if you do it in somewhat
+more sloppy of a way,
+you get one of
+these things that's
+squirmy that tastes good.
+They start off, what is
+genetic is the tendency
+to peck at your feet.
+God knows why.
+If you are a newborn
+chick, because
+of extremely elegant
+high technology
+studies in which newborn
+chicks are put in galoshes
+or something and
+they don't pack,
+and they don't show the
+seemingly innate ability to
+peck for grubs.
+So here, we have
+a behavioral trait
+which, in fact, is indirectly
+mediated by something else.
+More examples.
+There is, by now, a literature
+showing approximately 70%
+heritability-- and I
+keep using this word.
+We are going to dissect the
+word, "heritability" big time
+in a short while--
+There's about 70%
+heritability of political party
+affiliation in this country.
+Sharing that behavioral
+trait with your parents.
+Whoa.
+What is that about?
+That's sure disturbing.
+And that sure makes
+you want to procreate
+in the name of your political
+stances, or whatever.
+And this appears to
+hold up pretty well
+to some of the standard
+criticisms in the literature.
+And it's got nothing
+to do with this.
+What's the mediating variable?
+A large really
+interesting literature
+showing, when you compare
+political or social
+progressives with political
+or social conservatives, one
+of the most reliable
+personality differences
+is how they feel
+about ambiguity.
+Conservatives, on the average
+do not like ambiguity.
+They are much more
+ambiguity-averse.
+And you can start
+it with showing
+ambiguous sensory
+stimuli in kids
+and looking at heart
+rate responses to it.
+And that tends to be a
+stable personality difference
+at political extremes.
+You will see, some
+time later on,
+that there's a whole world
+of moral development in kids
+where there's various
+scales measuring.
+One's Kohlberg's Stage
+of Moral Development.
+There was an old
+literature suggesting
+political differences as to
+how fancy of a Kohlberg stage
+you got to.
+We will see that,
+despite what struck me
+as the intuitive sort of
+logic of what was found.
+That one hasn't held up.
+But one that does
+hold up is difference
+in ambiguity tolerance.
+And that's probably
+the mediating trait.
+It is not inheriting a tendency
+to like elephants, or donkeys,
+or whatever.
+It is instead having
+this intermediate trait.
+Final example of what would
+be an intermediate trait.
+There's a whole bunch
+of rat and mouse strains
+that have been
+developed that have
+differing levels of aggression,
+high aggression strains.
+And you do all the
+proper controls,
+and you can show that
+this is a genetic trait.
+Whoa, heritability
+of aggression.
+We're suddenly back to twin
+adoption studies and Kety
+with heritability of
+criminality, all of that,
+heritability of aggression,
+what's actually going on
+in all of the strains identified
+to date by spontaneous traits
+coming up and then
+breeding for it.
+What you see instead
+is the strain
+that is so aggressive, and
+so pissy, and so impossible,
+and so constrained by the law
+and order of rodent society,
+and all of that.
+They've got a lower threshold
+for pain sensitivity.
+Things hurt them more readily.
+And they're more likely
+to become aggressive
+at that point.
+It turns out it's genetic
+differences in the neurobiology
+of pain sensitivity.
+So what we're seeing
+here, over and over is,
+amid the gazillion
+of criticisms we've
+had about when does
+environment actually start,
+and when do
+environmental assumptions
+and being treated
+the same go down
+the tubes, and differential
+inheritance of genes,
+yeah some traits do appear
+to have some fairly strong
+genetic components.
+But even once you get
+that far, they very often
+are through some
+very indirect routes.
+OK more things here.
+More things?
+We just covered that.
+OK, a little bit
+more on epigenetics,
+which is that
+whole business, you
+remember, from the
+other day, which
+is after you've got
+the DNA, and then you
+have that whole world of
+protein coatings, which
+I've been very careful not
+to give the jargony name for,
+because it's not important.
+But what you've got
+is this whole world
+where regulation is not so
+much at the level of genes--
+and in 95% of the DNA,
+that's the on/off switches--
+but whether the transcription
+factors can even get in there,
+and this world of
+epigenetic changes
+that will cause lifelong
+differences in how
+readily transcription factors
+get to something or other.
+What have you got at that point?
+The exact same possibilities
+as this one here.
+If instead of, due to
+some environmental toxin,
+you knock a transcription factor
+out of business in a fertilized
+egg where there's the set up
+of genes, if for some reason,
+whatever, you do not
+have access to it because
+of an epigenetic
+change, it's going
+to be the exact
+same consequence,
+multigenerational inheritance
+of non-genetic traits
+due to epigenetic, rather
+than genetic differences.
+That is turning out to be what
+went on in the Dutch Hunger
+Winter people and
+the animal models
+of epigenetic differences and
+access of transcription factors
+to genes related to
+insulin metabolism.
+That turns out to
+be a critical one.
+Here is one of the coolest
+examples of this to date.
+And this is work done by a guy
+at McGill University, named
+Michael Meaney.
+And what he has focused
+on is what started off
+as a very artificial
+literature, which is,
+take yourself a newborn rat,
+and for the first two weeks
+or so of its life,
+every day, you
+pick it up for three
+minutes and you pet it.
+And now, you put it back.
+And all else being
+equal, it will
+have a bigger brain in
+adulthood, better learning
+abilities, more resistance
+to a whole bunch
+of neurological insults,
+lower glucocorticoid levels,
+et cetera, that
+whole world of what
+came to be known as
+neonatal handling.
+On the other hand,
+pick up the rat,
+take it away from mom
+for, instead of 3 minutes,
+an hour and a half.
+Then each day, put him back.
+And as an adult, it's going
+to have a smaller brain
+and a shorter life expectancy.
+Three minutes away
+from mom does wonders.
+An hour and a half of
+being petted does not.
+That, in and of itself,
+is interesting in terms
+of what counts as stimulation,
+what counts as stress.
+OK, so hurray.
+What we've just
+learned is just how
+generations of rat-petting
+graduate students
+can influence the lineages of
+rat brains and all of that.
+And what Meanie started
+looking at with this phenomenon
+being one that was around
+forever-- first identified
+around 1960 by a
+guy named Seymour
+Levine in the Psychiatry
+Department here,
+and no longer alive-- but
+that started this whole world
+of neonatal handling.
+What Meanie did
+was say, well, rats
+did not evolve, whatever
+is going on here,
+for the purpose of
+doctoral theses,
+what's the natural equivalent
+in the world of a rodent?
+And it turns out that what
+happens when you pick up
+a rat for three minutes and
+do this and put it back,
+mom is all excited and
+goes and checks out the pup
+and nestles it, and licks it,
+and whatever other stuff there.
+And it has all this attention.
+Whereas, if you take the pup
+out for an hour and a half,
+when you put him back
+with mom, mom basically
+ignores the pup for
+long periods of time.
+You're changing the
+mother's behavior.
+OK, so that's an
+indirect effect.
+And what he
+proceeded to show was
+the critical thing about
+the handling was not
+what you're doing to the
+rat during that time,
+it's the fact that
+you're causing
+dramatic changes in maternal
+behavior based on that.
+So that's interesting.
+But that still doesn't
+solve the problem
+of why did the system
+evolve for grad students
+manipulating maternal behavior.
+And what he then
+proceeded to look at
+was normal variation in
+rat mothering styles,
+because some rat
+mothers are-- OK,
+I know this is a
+value judgement--
+but some rat mothers are better
+mothers than other mothers.
+Some rat mothers, they
+simply are better.
+They're better.
+They're nicer they
+have better souls.
+[LAUGHTER]
+And in these rat mothers,
+how do you determine that
+by these sorts of measures?
+Licking and grooming.
+How much time do you
+spend licking your baby?
+And how much time do you
+spend grooming your baby?
+And what Meanie
+proceeded to show
+is that's what the neonatal
+handling phenomenon was about.
+When you have moms who lick and
+groom their kids an awful lot,
+what you do is produce the
+same sort of better outcome.
+From the three minutes
+of petting deal there,
+you get the kid who is
+bigger, and healthier,
+and smarter, that sort of thing.
+Moms who hardly ever lick
+and groom their pups,
+they produce pups
+that, as adults,
+are like the ones
+that were separated
+for an hour and a half a day.
+It is a reflection
+of mothering style
+in the rats and the
+variability there.
+Next thing he showed was that
+this was multigenerational.
+If you lick and groom your
+baby rat daughter a whole lot,
+as an adult, she will be
+more of a licker and groomer.
+And he's already shown what some
+of the neurological mechanisms
+are for that.
+For development,
+what have we got?
+Yet again, one of these
+non-Mendelian inheritance
+of traits deals going on.
+In this case, not even prenatal.
+Your early experience is going
+to cause lifelong changes
+in your brain, which
+will make you more
+likely to reproduce the
+same early experience
+for your offspring.
+Off you go.
+The final thing he
+did, which stands
+as a landmark in the field
+of behavioral neurobiology,
+is he figured out what
+the epigenetic change is.
+One of them, or
+rather two of them
+is identified by now,
+what gets changed
+by how mom often or
+un-often licks you,
+grooms you, all of that?
+You change the access
+of transcription factors
+relevant to activating
+genes for making receptors
+for stress hormones, making
+receptors for estrogen,
+making receptors for a whole
+bunch of different hormones.
+Showing the epigenetic
+changes there,
+that's how you go from moms
+differing maternal style
+to lifelong differences
+in expression
+of all sorts of genes.
+How's this?
+What you wind up seeing there
+as this permanent mechanism,
+it is also reversible,
+what he has since shown,
+which is you have a
+baby rat who spends
+the first half of its
+infancy with some totally
+terrible, negligent, distracted
+mom who pays no attention
+and doesn't do any licking.
+Now cross-foster the pup
+to a more attentive mother,
+and you can change the
+epigenetic pattern.
+So all of this has
+two themes going on.
+Early experience, causing
+really persistent differences
+in how this stuff
+works long after,
+and experience later on having
+the potential to reverse
+some of this.
+All of this stuff, once again,
+would be mistaken for genetic.
+What we have here
+is what appears
+to be a genetic style of what
+sort of mother rat you are.
+And it's not genes,
+it's the mothering style
+setting up the offspring for
+being a similar type of mother.
+Incredibly important
+studies demonstrating this.
+What remains unclear
+is how you get
+from mom licking you to
+something epigenetic happening
+here.
+His crew is pounding
+away at that.
+OK, so what have we
+got at this point?
+We have gone through
+over and over here--
+where have we gotten
+to at this point?
+We've gone over and over here at
+all of the classical techniques
+in the field of
+behavior genetics,
+does it run in families,
+adoptive studies,
+identical versus
+monozygotic twins,
+twins separated at birth.
+We saw all of the
+problems with it.
+And most dramatically,
+most excitingly these days,
+prenatal environmental effects.
+We saw that trying to separate
+maternal prenatal effects
+from paternal
+genetic effects hits
+a wall, when you get all
+of these weird-o hereditary
+things, including potentially
+non-genetic Lamarckian
+inheritance of a trait.
+And what we've seen is how this
+stuff playing out early in life
+has multigenerational
+consequences.
+What we're going to pick
+up with on Wednesday
+is now looking at how
+people in this business
+find the actual genes, and
+ultimately, gene environment
+interactions that make the last
+two hours basically irrelevant.
+OK.
+For more, please visit
+us at stanford.edu.

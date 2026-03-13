@@ -1,0 +1,2389 @@
+10. Introduction to Neuroscience I
+==================================
+
+[MUSIC PLAYING]
+Stanford University.
+--out by now, I am
+not Dr. Sapolsky.
+You probably got some cues from
+the beard and other things.
+My name is Nathan.
+I'm a graduate student.
+I'm a fourth year PhD student
+in the neuroscience program.
+And I'm going to be giving you
+the introductory lecture today
+on, basically how
+the brain works.
+And just to get a sense of
+who is here before I get
+started, how many
+of you are either
+a biology major or HumBio majors
+and decided to come today?
+That's a lot of people.
+OK.
+How many in other hard
+sciences or engineering?
+A few.
+OK.
+How many in the social sciences?
+A few.
+And humanities?
+All right, humanities.
+Anybody else in anything other?
+OK.
+We've got a few others as well.
+OK, great.
+So for some of you, this
+is going to be a review.
+And hopefully, you'll
+still learn something new.
+For some of you, this is
+going to be the first time
+that you're hearing these terms.
+And hopefully,
+this will give you
+just a very general
+background so
+that when you hear Dr.
+Sapolsky give lectures
+on neuroscience later, you have
+a better understanding of what
+he's talking about.
+So we started out this
+whole course talking
+about the everlasting
+question of,
+why did the chicken
+cross the road?
+Yes, that's supposed
+to be a chicken.
+My major is not art.
+But the chicken is
+crossing the road.
+And we started the
+course basically
+saying that this whole course
+is going to teach us why
+the chicken crossed the road.
+And specifically, the
+first half of this course
+is talking about the ways
+that different sciences
+have approached this question.
+So we started out
+with evolution,
+which would ask, how did this
+behavior of crossing the road
+evolve over many, many,
+many millions of years?
+Why was it adaptive?
+Why did chickens who crossed
+the road produce more offspring?
+All of that.
+It was studied by
+old men going around
+in boats to the
+Galapagos to see how
+chickens on different
+islands crossed the road
+and then figured out
+how that happened
+over millions of years.
+The next week, we went
+into molecular genetics.
+And there we talked
+about the actual genes
+that control this evolution
+and how it happened.
+And there we were talking
+about people thinking
+about how genes change
+in the genome over time,
+how they hop around, if we're
+thinking about women in corn
+fields looking at this, and
+how those individual genes led
+to evolution.
+Then the next week, we went
+into behavior genetics.
+And this, specifically
+was asking
+about what individual
+genes are accounting
+for the variation in the ways
+the chicken crossed the road.
+So some chickens cross
+the road really fast.
+Some of them do it slowly.
+Some of them don't do it at all.
+How does the
+variation in the way
+that the genomes are structured
+for these different chickens
+account for that?
+So that was behavior genetics.
+And then on Monday, you
+heard about ethology,
+which really talked
+about studying
+this behavior in nature.
+And we talked about the
+fixed action pattern.
+And we talked about
+all the old man
+in field booths going out into
+nature to observe that fixed
+action pattern and talked about
+the stimulus the chicken would
+receive, why it would
+cross the road after that,
+how it does it, again,
+looking at that out in nature.
+And that was ethology.
+So today, we're going to talk
+about yet another bucket, yet
+another way to think about
+this, which is neuroscience.
+And neuroscience is going
+to focus, specifically
+on this black box that
+we talked about on Monday
+where you get the input coming
+in of some stimulus that makes
+the chicken cross the road.
+And neuroscience is about
+that black box in the middle
+and why it is that the
+chicken is doing this.
+What was going on in
+the chicken's brain
+a few milliseconds before
+it crossed the road?
+Why is it that the
+specific cells in the brain
+are doing this?
+And how are they doing it?
+So that's the overall
+background of why we're
+thinking about neuroscience.
+And the goal for today
+is really to give you
+an overview of the brain
+and the nervous system,
+get to know some
+different parts of it
+not so that you memorize a list
+of different parts of the brain
+but so that you get
+a general overview
+that different
+parts of the brain
+are specialized for
+different behaviors.
+And also, we're going
+to zoom in a little bit
+on the actual cells in the
+brain, how they communicate.
+Again, not so that you can
+sit there memorizing lists
+of different things
+but that so when
+it comes up in
+future lectures, you
+will have a better understanding
+of what we're talking about.
+And just as a caveat before we
+start, I, as a neuroscientist,
+think this is the coolest
+discipline out there, better
+than all the others.
+And you'll see I put in a
+quote from Thomas Edison that
+says, "The chief
+function of the body
+is to carry the
+brain around," which
+is a very brain-centric way
+of thinking about the world.
+And there are a lot of people
+who look at neuroscience
+and think of it that way.
+Yes, neuroscience
+has its limitations.
+Want to put that out
+there from the beginning.
+It can be very brain-centric.
+It can be thinking about how
+different parts of the brain
+control different behaviors
+without considering the bigger
+evolutionary aspects or
+any of the other aspects.
+So it does have its limitations.
+But I think it's really cool.
+So that's why I'm going to
+tell you about it today.
+So let's start out.
+You have a brain.
+Actually, this is my brain.
+I volunteered for a psych
+study back in college
+and got to look at some
+pictures in a scanner.
+And they gave me this printout
+of my brain afterwards.
+And the brain, I think,
+is an absolutely amazing,
+amazing thing.
+And one thing that people
+love about the brain
+is that it starts working
+and keeps working.
+But just as a reminder
+from this quote,
+"It never stops working until
+you stand up in front of public
+to speak."
+So during this
+lecture, there may
+be things that are confusing.
+If you don't understand them
+because I'm not explaining them
+in a way that makes them
+understandable to you,
+I've put my email
+address up there.
+It's also in the handout.
+And it was at the beginning
+of the presentation.
+So definitely email me if
+you have any questions.
+Or come to see me after class.
+And I'll be giving this
+first 45 minutes or so
+introduction to the brain
+and the nervous system.
+Then, Anthony's going to come
+up afterwards and tell you
+a little bit more
+about how neurons
+communicate with each other.
+So let's think about the
+brain and the nervous system.
+And to give you a
+really broad overview,
+the nervous system is divided
+into two really broad classes,
+the central nervous system and
+the peripheral nervous system.
+And we'll start with the
+central nervous system, which
+is what most people
+think about when
+they think about
+neuroscience, which
+is the brain and spinal cord.
+So you have this brain
+sitting up there in your head.
+You have the spinal
+cord going down
+communicating to
+and from the brain.
+And this is the
+central nervous system.
+And I'm going to go through
+some different parts
+of the central
+nervous system just
+to give you an idea that
+there are different parts
+and that they do
+different things.
+Again, don't worry
+about memorizing them.
+This is really just to get
+you familiar with what's
+going on up there.
+So if we look at the
+brain more carefully
+and look at different
+parts of the brain,
+we've got these different parts
+that people-- neuroscientists
+specifically-- have
+divided up for us.
+And if we start at the bottom
+down there with the brain stem,
+the brain stem sits at
+the bottom of the brain
+at the top of the spinal cord.
+And it's what ends up
+relaying the information
+to and from the spinal cord
+and to and from the brain.
+So you have your
+brain up here doing
+all the processing, spinal
+cord down there sending out
+all the signals to make
+you move or to send up
+sensory information.
+The brain stem
+sits in the middle
+and helps regulate
+what goes through.
+Then, you have the cerebellum
+sitting at the very back
+of the brain up there.
+And the cerebellum is a
+really cool part of the brain.
+It's really, really wrinkled.
+It has lots of different
+cells packed into it.
+And what it does is it helps
+control your motor movement
+and specifically helps when you
+have to learn something new.
+So when you have to learn how
+to play piano for the first time
+or when you have to play
+basketball for the first time,
+you're going to make mistakes.
+And what the cerebellum
+does is it helps
+correct for those mistakes.
+So when you are shooting
+a hoop for the first time
+and it goes off to the left,
+then you have to learn,
+OK, I need to move it over
+to the right a little bit
+next time.
+The cerebellum is
+what does that.
+And when I teach this to middle
+schoolers or high schoolers,
+one fun thing I
+do with them is I
+bring along these
+specialized classes,
+which have prisms on them.
+So when you wear them,
+it skews your view
+of the world a few
+degrees to one side.
+So if I'm looking,
+say, at this marker
+here, when I put on
+the prisms, it's going
+to look like it's over here.
+So I do this to the kids.
+And the kids look
+out at the marker,
+and I tell them to
+quickly reach for it.
+They see it over here.
+So they start out
+reaching this way thinking
+that the marker is over there.
+But what happens over
+time is that they
+do this over a few minutes, and
+eventually they correct for it.
+So even though their
+vision is out here,
+they've corrected for it by
+moving their arm over here
+to where the marker is.
+And that's learning that
+happens in the cerebellum.
+Then, the really cool thing
+is they take off the glasses.
+And because the
+cerebellum has taught them
+that they need to reach
+to the left of where
+the visual field is, they
+look out at this marker.
+They start reaching over
+here to try to get it.
+So the cerebellum
+corrects for that.
+And again, after a
+few minutes, they
+do that a little bit longer.
+And they eventually
+reach for the marker.
+So that's learning
+that's happening
+in the cerebellum, really
+cool part of the brain.
+Then above the brain
+stem and the cerebellum,
+you have this
+wrinkled outer layer
+of the brain called the cortex.
+And the cortex we
+can broadly think
+of in four different lobes.
+And again, broad theme for
+this lecture, different lobes,
+different parts of the
+brain are specialized
+for different functions.
+So you have the frontal lobe
+up, as you would expect,
+at the front of the brain.
+And the frontal lobe,
+among many other things,
+plans your actions and
+controls your movement.
+So this is the
+part of your brain
+that's going to be sending
+a lot of connections
+down through the spinal cord
+to make you move your arms,
+move your legs, move the
+other parts of your body.
+And that's all happening
+because of the neurons
+that are up there in the spinal
+cord-- in the frontal lobe.
+And again, broad theme,
+different parts of the brain
+are specialized for
+different functions.
+Different parts of the
+frontal lobe, different parts
+of that part of the cortex
+that control movement
+control different
+parts of your body.
+So you've got a part of
+that frontal cortex that
+controls your foot
+and your left foot
+and your right foot and your
+left hand and your right hand.
+And they're all in specific
+places in the cortex.
+And they line up the way
+you would expect them to
+in the body.
+So if your foot
+cortex is down here,
+then your leg and
+your knee are going
+to be up here and then
+your trunk and then
+your arms and then the parts
+of the cortex that control
+facial movements up at the top.
+So it's organized
+according to function.
+So that's one thing that
+happens in the frontal lobe.
+Then, you have behind
+it the parietal lobe.
+And right next to the part
+that controls your movement
+in the frontal lobe is the
+part of the parietal lobe
+that senses the sensory
+touch information
+from the outside world.
+And again, form
+follows function.
+So different parts
+of the parietal lobe
+are specialized
+for different parts
+of the body, different parts
+of your touch information.
+And not only are there
+different parts of it
+but the sizes of the cortex
+that receive that information
+are also different sizes.
+So you've got your finger tips
+that are really sensitive,
+have lots of nerve endings,
+have lots of sensory information
+coming from them.
+Your fingertips have a big
+part of cortex represented
+in the parietal lobe.
+So again, different parts,
+different functions,
+different sizes.
+Below the parietal lobe,
+you have the temporal lobe,
+which is sitting here
+next to your temples
+as you might expect.
+And the temporal lobe,
+among other things,
+receives the
+auditory information.
+Your hearing information comes
+into that part of the cortex.
+And also, as you'll hear
+later, deep inside that lobe
+are the parts of the brain
+that help for memory formation.
+So the temporal lobe
+receives auditory information
+and also has a really important
+part for memory formation.
+Then finally, at the
+back of the brain,
+you have the occipital lobe.
+And all the way at
+the back of the brain
+here, this occipital
+lobe is where you're
+receiving visual information.
+So visual information
+comes into your eyes,
+travels all the way to
+the back of the brain
+to the occipital lobe.
+And that's where
+it gets processed.
+So different parts of the brain
+are doing different things.
+And this is just a really broad
+way of thinking about that.
+So I'm next going to go
+over some specific parts
+of the brain that you're
+going to hear a lot
+about in the coming lectures.
+For now, it's just
+an introduction.
+But hopefully, when you
+hear them again later,
+you'll be able to say,
+ah, I remember that.
+So the limbic
+system, you're going
+to hear about again
+and again and again.
+It's this series of structures
+that are underneath the cortex
+but sort of above
+the brain stem.
+And in general, the limbic
+system controls a lot of things
+that we associate with
+emotion, with learning,
+memory, really important
+things that an animal has
+to do to behave.
+And two structures
+we're going to hear
+a lot about time and time
+again are the hippocampus
+and the amygdala.
+So the hippocampus
+up there in blue
+is-- well, the hippocampus
+word itself means seahorse.
+And supposedly,
+when neuroanatomists
+were looking at
+this, they thought
+it looked like a seahorse.
+I don't see it, but
+let me know if you do.
+And this part of the brain is
+really important for memory
+and forming new memories.
+And the way that scientists
+first found this out in humans
+anyway was by a
+bit of an accident.
+The hippocampus, they
+found out, is this place
+where new memories are made.
+But they didn't do it by any
+sort of experimental approach
+that you would suspect them to.
+What happened is there
+was this patient,
+one of the most famous patients
+in all of neuroscience,
+named HM.
+For privacy reasons, his
+name up until he died
+was known just as HM.
+And this patient had really
+terrible seizures, really bad
+epilepsy that could
+not be controlled
+and was debilitated
+by these seizures.
+So when he was a
+young man, they tried
+all sorts of
+different techniques
+to try to control
+these seizures.
+And in the end,
+what they had to do
+was actually figure out
+where these seizures started
+in the brain and surgically
+remove that part.
+And it turned out that
+part in this patient
+included the hippocampus.
+So they took out the hippocampus
+on both sides of the brain.
+And after the
+surgery, Patient HM
+didn't have seizures anymore.
+Great.
+Wonderful.
+But what they found out is
+that this patient afterwards
+couldn't form any new memories.
+When he had nurses
+come in to visit him
+who visited him every
+day after the surgery,
+every time he met them it
+was like he was meeting them
+for the first time.
+He couldn't store that memory.
+But the really
+interesting thing was
+when they asked him about
+events from his childhood,
+he could still remember those.
+He could remember who the
+president of the United States
+was in his childhood.
+So the memories were stored
+somewhere else in the brain.
+But the ability to
+make the new memories
+was dependent on
+the hippocampus.
+So that's how they
+discovered by accident
+that the hippocampus is the
+part of the brain forming
+new memories.
+Another part of the
+brain you're going
+to hear about a lot, a lot,
+a lot is make the amygdala.
+And the amygdala are those two
+yellow almond-shaped things
+sitting up in the front
+of the hippocampus.
+And as you've
+already heard, these
+are parts of the
+brain that are really
+involved in fear and anxiety.
+So if you remember the
+example that Dr. Sapolsky gave
+on Monday when he was
+talking about scared
+sweat versus exercise sweat
+and how we can actually
+tell whether we're smelling
+scared sweat or exercise sweat,
+one way that they
+see that difference
+is when they look at the brains
+of people who are smelling
+sweat from a scared person,
+the amygdala lights up.
+But when you're
+smelling sweat that
+was given off by somebody
+who was exercising,
+it doesn't light up as much.
+So the amygdala's really
+important for sensing fear.
+And it's important for
+forming anxiety as well.
+So when you look at an angry
+face or a fearful face,
+the amygdala will light up.
+But when you look at a
+happy face, it won't.
+So that's the amygdala.
+You'll hear a lot
+more about it later,
+really important part of the
+brain for fear and anxiety.
+Other parts of the brain you're
+sure to hear tons and tons
+and tons about later on are
+the hypothalamus and pituitary
+gland.
+And these are-- you can think
+of them as hormone central.
+These are the parts
+of the brain that
+control how hormones
+are released
+to the rest of the body, control
+a lot of different behaviors.
+So the hypothalamus sits in
+the center of the brain right
+at the very bottom.
+And the pituitary
+is underneath it
+and secretes a lot
+of those hormones
+out into the bloodstream.
+And it's an old joke
+but one that gets
+repeated over and over again.
+You can think of the
+different types of behaviors
+that the hypothalamus
+controls as four Fs.
+You've got fight.
+You've got flight.
+You've got feeding behavior
+and reproductive behavior.
+So you've got those four Fs of
+what the hypothalamus controls.
+[LAUGHTER]
+Yes.
+Now, you get it.
+Yes.
+So you're going to hear tons
+and tons more about this.
+For now, just know that they
+sit at the bottom of the brain
+and help control a lot
+of these behaviors.
+So what else do we have
+in the nervous system?
+We've got all these
+different parts of the brain.
+But we've also got
+the spinal cord
+coming down from the brain.
+And just like in
+the brain itself,
+the spinal cord is specialized.
+You have parts of the spinal
+cord that send out information.
+And you've got parts
+of the spinal cord that
+receive the information.
+So you've got motor nerves.
+And you've got sensory
+nerves in different parts
+of the spinal cord.
+You've got different parts of
+the spinal cord, of course,
+for your arms and your
+legs, basically what
+you need to know for now
+about the spinal cord.
+You're also going to be hearing
+a lot more in future lectures
+about the peripheral
+nervous system.
+And the peripheral
+nervous system
+has all of the motor nerves
+and sensory nerves that
+are outside of the spinal cord.
+So a lot of the things that
+sense touch information or heat
+or anything else
+out in the periphery
+are part of the
+peripheral nervous system.
+And then, you've
+also got a whole part
+of the peripheral nervous
+system that happens
+pretty much automatically.
+You don't have to
+think about it.
+So you've got nerves that are
+controlling your heartbeat,
+your digestion, your breathing.
+And normally, you
+don't have to think
+about keeping those going.
+So those are another
+part that you'll hear
+a lot more from Dana later on.
+So that's really
+a broad overview
+of the different parts
+of the nervous system
+and what they do.
+So now, we're going to think
+a little bit more closely
+about what's actually
+inside a brain, what
+the individual cells
+are, what they're doing,
+how they make you behave.
+And again, this is not a
+list for you to remember.
+It's just to let you know that
+there are different cell types,
+and they have
+different functions.
+And I'm going to tell you first
+about something that came up
+while I was looking online
+and trying to figure out
+what to say for this lecture.
+And I realize that it's
+illegal in seven states
+to give an introductory
+neuroscience lecture
+and not mention the name
+Santiago Ramon y Cajal.
+So Santiago Ramon y Cajal,
+why is he this god figure
+in neuroscience?
+What did he do?
+So when Santiago
+Roman y Cajal was
+doing most of his scientific
+work at the end of the 1800s,
+mostly in the 1890s,
+the general theory
+about the way the
+brain worked was
+that it wasn't individual
+cells that were
+performing their functions.
+Instead, the brain was
+thought of as this web,
+this interconnected
+web of mush, basically,
+that did all of its
+computational work
+to make you behave.
+People knew that the brain
+was where behavior started
+and where it was controlled.
+But they didn't really
+know what it was
+inside the brain that did that.
+So the prevailing theory
+was that you had this web.
+And rather than just
+take that at face value,
+Ramon y Cajal decided to
+experimentally figure out
+if that was the case.
+So he found this really
+cool technique invented
+by a different guy named Golgi.
+And this technique
+allowed him to take
+small slices of the
+brain and turn about 1%
+of the cells in
+that slice black.
+We still don't
+know how it works.
+But he was able to do it.
+And then, he drew these really,
+really detailed pictures
+of what that looked
+like in the microscope.
+And these images are
+just absolutely gorgeous.
+There's a whole class
+of people that when
+they see these images, tears
+of joy stream down their face.
+They fall to their
+knees weeping, praising
+the gods of neuroscience.
+These are the people who become
+neuroscience graduate students.
+So these cells and these
+pictures that he drew
+showed us that
+there actually are
+individual cells in the brain
+that are doing this work.
+It's not a complete mess.
+It's not a complete web.
+It's actually individual cells.
+And so he drew out these
+beautiful pictures of neurons
+and also all of the other
+cells that are in the brain.
+And I have a good
+friend who studies
+all of these other cells in the
+brain that are not the neurons,
+not the ones that are actually
+doing the computational work.
+And I promised her I'd never
+give an introductory lecture
+without mentioning these.
+So first, I'll start
+out with those cells.
+So 90% of the cells in
+your brain and spinal cord
+are not actually neurons.
+They're called glia.
+And glia basically,
+by definition
+is anything in the
+brain or spinal cord
+that is not a neuron.
+And glia, the word,
+means glue because people
+saw these cells in there and
+thought they were just glue
+sticking the neurons together.
+But it turns out they actually
+do a lot more than that.
+You've got cells called
+astrocytes, which
+are these star-shaped cells.
+And they, in a
+very general sense,
+supply nutrients to
+the neurons and help
+regulate how they fire.
+Then, you've also got these
+cells called oligodendrocytes,
+or Schwann cells.
+Again, long names you
+don't need to memorize.
+But they wrap around
+the wires of neurons
+and make their firing go faster.
+Then, you've got
+microglia, which
+are yet another glial cell
+that are in the brain.
+And they're basically the
+brain's immune system.
+They move around the brain.
+They send out little processes
+out into parts of the brain
+to figure out if the brain is
+getting infected by viruses
+or bacteria or if there
+are any dead cells that
+need to be cleared up.
+And they do all of that work.
+So 90% of your brain is actually
+all of these other cells doing
+this work.
+But what they're
+doing this work for
+is so that you can have
+your neurons working.
+And the neurons are
+what we're going
+to focus on for the next
+10, 15 minutes or so.
+And these are the
+complicated but wonderful
+computational
+units of the brain.
+And in an average
+human brain, you've
+got about 100 billion neurons.
+And each of those has
+about 10,000 connections
+to other neurons.
+And those connections
+are called synapses.
+So if you think
+about that, you've
+got roughly a
+quadrillion synapses
+in your brain, a quadrillion
+connections between neurons.
+And just to give you some
+perspective, the number
+of stars in the
+Milky Way, the number
+of stars that you can see
+out there in our own galaxy
+is about 300 billion.
+So you've got a
+quadrillion synapses
+just sitting there in your
+brain, which is already
+more than 1,000 times more
+than the number of stars
+that are out there in
+the Milky Way galaxy.
+So you've got all of
+these connections packed
+in there in their brain doing
+all of this computational work.
+So how does it actually work?
+So here I'm actually going
+to switch over if I can.
+Great.
+So here we're going to talk
+about the neuron itself
+and what the different
+parts of it are,
+what the different
+parts of it do,
+and how it works,
+how it communicates.
+So this is a very badly
+drawn picture of a neuron.
+But it will give you an
+idea of what a neuron is
+and how it functions.
+So you've got
+different parts of it.
+You've got out here, dendrites.
+And these are what receive
+the information on a neuron.
+They get the information
+from the cell before it
+and pass it on
+down into the cell.
+Down here you've got the soma
+or the cell body of the neuron.
+And importantly, you
+have the nucleus,
+just like you do in
+any other cell that
+has all the DNA in it.
+And then, there's an
+important part down here.
+So you're getting all of
+this input from the dendrites
+from the cells before giving
+you information at the dendrites
+that goes into the cell.
+And somehow the
+cell has to decide
+whether to pass that information
+on to the next cell or not.
+And that happens at this
+specialized part of the cell
+called the axon hillock.
+I guess it's like a hill
+but not quite as big.
+So you have the
+axon hillock there.
+And then down here,
+you have the axon,
+which you can think
+of as the wire that's
+sending the information
+on to the next cell.
+And then down here,
+you have the terminal.
+And this is where the cell
+will send on information
+on to the next neuron.
+So these are the general
+parts of a neuron
+that you'll need to
+think about in terms
+of how neurons communicate.
+And information
+is generally going
+to flow from dendrites
+down to the cell body,
+get summed up at
+the axon hillock.
+The cell will decide
+whether to fire or not
+and send that on
+down to the terminal.
+So that's a basic
+overview of a neuron
+and how those
+different parts work.
+So how does it actually work?
+How does it actually
+send that signal?
+And this is just going to give
+you a really broad overview
+of how a neuron does this.
+So if you think about
+a neuron sitting there
+in the middle of
+the brain, there's
+lots of electrical activity,
+lots of things going on.
+Somehow a neuron if
+it sends a signal
+has to get heard
+above all that noise.
+So the way a neuron
+solves this problem is it
+is either on or completely
+off, completely quiet.
+It's not a system where
+you have a continuum,
+where you have-- where
+the cell is kind of on,
+a little bit more
+on, a little bit more
+on, and then totally on.
+It's not that way.
+Because that wouldn't really get
+heard above all of the noise.
+So what you have is a cell
+that's either on or off.
+And a neuron really
+wants to make sure
+that it stays off until
+it's ready to send a signal.
+So that's how the
+neuron stays quiet.
+And when we talk
+about that in biology,
+we talk about the neuron
+keeping a resting potential,
+a resting quiet
+level of activity.
+So how does a neuron do that?
+So the way that
+neurons communicate
+and the way that they
+send on electrical signals
+is going to be
+through the movement
+of these chemicals called ions.
+For those of you who
+are not science people,
+just think of them
+as charged chemicals.
+We're just going to
+talk about general ions
+for today, which
+are charged atoms.
+So they can have a positive
+charge or a negative charge.
+And we're going to talk about
+mostly positive charges today.
+So the neuron has to keep quiet.
+And the way it does
+that is by keeping
+positive charges, positive
+ions outside of the neurons.
+So you have all of these
+positive ions sitting
+there outside of the neuron.
+And this is how it stays quiet.
+Because the flow of these
+ions is going to be what
+communicates the signal.
+So how does it do that?
+It keeps these ions out of
+the cell by using these pumps.
+So it has pumps
+that will pump out
+positive charges from
+the inside of the cell
+to the outside of the cell.
+So by using those
+pumps, the neuron
+is keeping all of the
+positive charges, all
+of the positive ions mostly
+on the outside of the cell,
+rather than on the inside.
+So that means that
+the net charge
+on the inside of the cell
+is going to be negative.
+So you've got this imbalance.
+And this is how the
+neuron stays quiet,
+how it make sure that
+it is not firing.
+So you've got this cell sitting
+there trying to figure out
+if it's going to fire or not.
+Right now it's quiet.
+How does the whole process
+get started to make it fire?
+So if you have another
+neuron up here--
+and you'll hear a lot more
+about this from Anthony--
+sending out a chemical
+signal, that chemical signal
+is going to get received
+at the dendrites.
+And when that chemical-- called
+a neurotransmitter-- hits
+a particular receptor
+out on the dendrite,
+that receptor is going
+to open up a channel.
+And that channel is going to
+let some of these positive ions
+in, just like receiving email.
+It's receiving a signal.
+So you get these positive
+ions going into the dendrite.
+And you get a change in charge.
+The neuron is now getting
+more positive on the inside.
+Before it was really negative.
+Now, it's getting a
+little less negative.
+Another way to say that is it
+was really polarized before.
+It had a big negative
+charge on the inside.
+And now, it's getting a
+little bit depolarized.
+It's getting some positive
+charge going into it.
+Great.
+So you've got a little
+bit of charge coming in.
+You've got a little
+bit of signal.
+But somehow the neuron has to
+decide, am I going to fire?
+Or am I not?
+It's all or nothing,
+one or the other.
+So you get the signal coming
+in from this dendrite.
+And you're going to get some
+positive charge going in,
+flowing into the neuron.
+And you'll get a little
+bit out in the cell body.
+But from one signal sent,
+you might not get a lot.
+Well, let's say you're
+getting really, really
+frequent chemical
+messages from here,
+getting lots of positive
+charge into the cell.
+Or you're getting several
+different messages
+at the same time, getting
+lots of positive charge
+into the cell.
+Then, you can end up with
+enough positive charge down here
+at the axon hillock to make
+the neuron decide to fire.
+So what is it that
+makes it decide?
+There are more
+channels down here
+that can open up to let
+more positive ions in.
+And the way they make that
+decision is whether there's
+enough positive charge.
+If there's enough positive
+charge, they open up.
+And they allow lots more of
+this positive ion to go in.
+And once that happens,
+it's going to feed forward.
+Right?
+You're going to get more
+positive ion going in.
+You're going to get more
+of these channels opening
+because the positive
+ions are going in.
+And it's going to keep
+going and feed forward.
+And you're going to get the
+neuron sending a signal.
+And the way it does
+that is it keeps
+having positive ions go in
+all the way down the axon,
+all the way down
+to the terminal.
+And then, when you get positive
+ions going into the terminal,
+it's going to tell that
+to go ahead and send
+a chemical message
+on to the next cell
+and start the whole
+process over again.
+But the big message
+from all of this
+is that this decision that's
+made here is all or nothing.
+You've got positive ions
+that are traveling in.
+If they don't get to
+the threshold here,
+if they don't get
+enough of them here
+to make the axon hillock
+decide to let more of them in,
+the cell's going to stay quiet.
+If they do get enough
+in to reach threshold,
+then you're going to get
+lots more pouring in.
+And the cell's going to fire.
+There's no turning back.
+It's going to send the signal
+down its axon to the terminal.
+And you're going to get
+the message sent on.
+And that's called
+an action potential.
+And what happens here is you get
+all this positive charge going
+in.
+You get the cell getting
+to a really positive level
+of charge.
+And then, somehow
+it has to stop.
+So how does it stop?
+You have a number of other
+positive ions on the inside.
+And right after
+this opens and you
+get all of these
+ones pouring in,
+you can get the cell opening
+up these other channels
+to let the positive ions,
+a different kind of them,
+flow out.
+And then, you get restoration
+of the balance and charge.
+And remember, you
+have these pumps
+that continue to send the
+positive ions out of the cell.
+So you get the cell being
+restored to the quiet state
+afterwards where it's negative
+on the inside compared
+to the outside.
+So there you have it.
+You have an all-or-nothing
+action potential.
+You have the cell deciding
+at the axon hillock
+whether it's going
+to fire it or not
+and then sending the
+message on to the next cell.
+So that's a really
+basic understanding
+of how a neuron fires.
+Hopefully, that was basic
+enough that everybody
+could understand it.
+You're going to hear more about
+it later in other lectures.
+But for now, that should give
+you a really basic overview
+of what's going on.
+So take-home messages
+from this first part
+of the lecture, different
+parts of the brain
+do different things.
+As we talked about
+when we were looking
+at the brain and
+spinal cord, you've
+got the different
+parts that function
+for different behaviors.
+You'll hear a lot more
+about that in the future
+as we talk about
+specific behaviors
+and what parts of the
+brain have to do with them.
+You've also got
+different cells that
+are doing different
+functions within the brain.
+You've got neurons.
+You've got glia.
+You've got different
+types of neurons as well.
+You'll hear a lot more
+about how some neurons send
+one type of chemical
+signal, some send another,
+and how that's
+going to be really
+important to different
+behaviors later on.
+You also learned that neurons
+are individual cells making
+this decision.
+They're the functional
+unit of the nervous system,
+as we learned from
+Ramon y Cajal.
+And finally, when they do
+decide to send that signal,
+it's an all-or-nothing process.
+It's an all-or-nothing
+action potential
+that makes the sell send on
+the message to the next one.
+So hopefully, if you
+understood all of that,
+you have a really basic
+understanding of neuroscience.
+We're going to take
+a five minute break.
+And then, we'll move on to
+Anthony's lecture, which
+will talk more about what
+actually happens at the synapse
+as we think about
+applying this to behavior.
+Thanks.
+[SIDE CONVERSATION]
+All right.
+My name is Anthony.
+I am a first year biology
+student, a graduate student
+in the PhD program.
+Right now, I'm just
+wandering from lab
+to lab trying to figure out
+what I want to do research in.
+Again, like Nathan,
+there's going
+to be some topics in here
+that might confuse you.
+And if it is
+confusing, let me know.
+Stop me.
+Ask questions.
+My email is on the
+handout that you
+can download from CourseWorks.
+And after the
+lecture, I'll actually
+write it down on the
+bulletin board right there.
+But feel free to send me
+or Nathan an email anytime
+if you have any questions
+over the lectures today.
+I'm going to start by recapping
+a little bit about what
+Nathan talked about,
+the neuron doctrine.
+So up until the
+late 1800s, neurons
+were all thought to be
+connected by cytoplasm.
+And really the
+concept of a neuron
+as an individual cell, it was
+difficult to conceptualize.
+Because all people were
+really able to observe
+was this mesh-like
+network of interconnecting
+fibers and processes.
+And it wasn't until the
+advance of microscopy
+and staining that people were
+able to suspect that something
+else was going on here,
+that maybe this story
+was a little bit different.
+In 1891, a German anatomist
+named Heinrich Wihelm Gottfried
+von Waldeyer-Hartz--
+[LAUGHTER]
+I practiced that--
+proposed what is now
+referred to as the neuron
+doctrine, which is basically
+that this network was made
+up of individual cells.
+He wasn't unable to
+propose this without work
+done by many others,
+including Santiago Ramon y
+Cajal, god of neuroscience.
+So if you have these separate
+neurons that are separate
+cells, if one is to
+communicate to another,
+it cannot happen by
+electrical means only.
+If you think about it, if this
+communication is to happen,
+it must happen by
+chemical means.
+And so before the events at the
+synapse can really take place,
+I have to introduce
+you-- sort of back up
+and go back to the
+action potential, which
+if you remember, starts
+here at the axon hillock.
+So this is where the decision
+to fire or not fire an action
+potential will be made.
+And once the action
+potential is fired,
+it will travel along
+the length of the axon
+and reach a dead end
+that is conveniently
+called the axon terminal.
+Now, the axon terminal
+is a structure
+at the end of the axon
+that stores large amounts
+of neurotransmitters.
+And these neurotransmitters
+aren't just
+freely floating or diffusing
+around inside the cell.
+They're actually packaged
+in these discrete quantities
+in these membranous spherical
+structures called vesicles.
+And so you'll see those balls
+housing these black dots.
+The balls are the vesicles.
+And the black dots are
+the neurotransmitters.
+OK.
+So when the axon potential
+reaches this axon terminal,
+it will trigger an influx
+of positive charge, which
+will then trigger the
+release of neurotransmitter
+from these vesicles.
+So the vesicles will move to
+the edge of the axon terminal.
+And they'll dump their
+neurotransmitter out.
+So I have to sort of dive into a
+little bit of terminology here.
+We try to avoid that
+with this class.
+But the signaling neuron is
+called the presynaptic neuron.
+The neuron that
+receives the signal
+is called the
+postsynaptic neuron.
+And the junction at
+which these two neurons
+connect and communicate
+is called the synapse.
+So once this neuron is
+bound to the receptor,
+it can trigger one of
+two temporal effects.
+One can be an
+immediate effect, which
+is the opening of
+a channel, which
+will allow ions to jump in,
+which Nathan illustrated
+earlier right here.
+These ions could either
+be positively charged
+or negatively charged.
+If they're positively
+charged, they
+will persuade an
+action potential
+to happen if there are
+enough of these charges.
+If it's a negative
+charge, it might
+act to dissuade an
+action potential to be
+initiated at the axon hillock.
+So that's the immediate effect.
+But an effect that might
+last a little bit longer
+is when a genomic
+effect is induced.
+So a neurotransmitter
+might be released.
+And it might bind to a receptor.
+And this event might
+influence the activation
+of a transcription factor.
+And this transcription factor
+might induce the production
+of more receptor
+channels that might find
+its way onto the dendrite here.
+So if you think about it, if you
+produce more channels or more
+receptors, you can
+make this synapse
+more responsive to the same
+amount of neurotransmitter.
+So that's strengthening
+the synapse.
+And you'll hear,
+definitely, more about that
+later in future lectures.
+So not only can a single neuron
+respond to many different types
+of neurotransmitters,
+could be inhibitory,
+could be excitatory,
+it is also possible
+for a single
+neurotransmitter to have
+an effect on multiple
+neuron types located
+in different areas of the
+brain with different functions.
+And so you might ask yourself,
+how is this possible?
+So we have like 100 billion
+neurons in our brain.
+Why is it that we
+don't have 100 billion
+unique neurotransmitters
+for each brain-- or sorry,
+for each neuron?
+And the concept can
+be sort of related
+to the concept of the alphabet.
+So we only have 26
+letters in our alphabet.
+Yet, we can create an
+infinite number of messages.
+The idea of the brain
+having different functions
+in different areas,
+each of these functions
+are going to be-- they're going
+to have different functions
+because different neural
+networks, different networks
+of neurons are going
+to be responsible
+for these functions.
+And they are actually going
+to, for the most part, have
+a physical separation
+between different areas,
+different neural networks of the
+brain with different functions.
+And so it is possible to use a
+single type of neurotransmitter
+in many areas of the brain with
+different functions because
+of this physical separation.
+Sorry.
+I was opposed to
+put this slide up.
+So we call this
+compartmentalization
+of the brain, many
+different functions
+in many different
+physical areas.
+And so because of this redundant
+use of neurotransmitter,
+you really don't need
+more than a few hundred.
+That's where the
+current estimate lies.
+Not all of them have
+been discovered.
+Quite a few have been.
+But there are still
+a lot out there
+that have yet to be discovered.
+And so this brings me
+to sort of a exercise
+that we could do to help hammer
+in certain-- these properties
+of a neurotransmitter.
+Say you are a scientist.
+And say you are in the
+business of identifying
+novel neurotransmitters.
+And you have this
+putative molecule.
+And you want to prove to
+the scientific community
+that this molecule is
+a neurotransmitter.
+What pieces of
+evidence might you
+need to provide to prove
+that your molecule's
+a neurotransmitter?
+First thing that
+you sort of have
+to do is you have to sort
+of ask yourself, well,
+where are
+neurotransmitters located?
+They are just located
+anywhere in the brain.
+They're located
+in specific areas.
+They're located in
+the axon terminal.
+So you have to prove that it
+localizes in the axon terminal.
+Another thing that
+you might want to ask
+is, what triggers the action
+of a neurotransmitter?
+So you're going to also have
+to demonstrate its release
+following an action potential.
+So if you remember,
+an action potential
+will hit the axon terminal
+and through a series of events
+trigger the release
+of neurotransmitter.
+And lastly-- but this
+is not good enough.
+So you have two pieces
+of evidence so far.
+But you need one more to make
+a pretty strong case for why
+you have a neurotransmitter.
+And this is you have to
+ask the question, what
+is the effect of a
+neurotransmitter?
+And so you also have to prove
+that after a neurotransmitter
+is released and it
+binds to the receptor
+that it induces some
+sort of influx of charge
+in the postsynaptic dendrite.
+And I just missed another slide.
+No I didn't.
+So fortunately for
+us, a lot of this work
+identifying neurotransmitters
+has already been done.
+And there are a few
+notable transmitters,
+neurotransmitters that
+I kind of want to get
+you guys familiarized with.
+And so right now, you
+don't have to memorize
+any of the functions that
+I'm going to talk about.
+So the whole purpose
+is to sort of
+to introduce you to
+some neurotransmitters
+so if you hear about
+them in later lectures,
+it won't be the first
+time you hear about them.
+So one type of neurotransmitter
+is called dopamine.
+And it's most commonly
+associated with the reward
+system, with pleasure.
+But dopamine, like many
+other neurotransmitters,
+has a very diverse
+array of functions.
+It's not just involved
+in reward or pleasure.
+And so just a quick recap.
+How could it have many
+different functions?
+Well, if the brain
+is compartmentalized,
+if these networks are
+physically-- for the most
+part physically
+separated, you can
+have one type of
+neurotransmitter
+with an effect in these
+different areas of the brain.
+Therefore, one type of
+neurotransmitter in an organism
+may have many
+different functions.
+And dopamine is no
+exception to that.
+You have another type
+of neurotransmitter
+called epinephrine.
+And I know everyone in this
+room has heard about it
+in one form or another.
+Another way to-- another word
+for epinephrine is adrenaline.
+And so adrenaline is involved
+in the fight or flight response.
+So if you're-- Nathan also
+talked about this earlier--
+if you come across a risky
+situation or you're feeling
+threatened you can either fight
+off and vanquish your foe.
+Or you can flee, neither
+of which are bad ideas.
+And norepinephrine, which
+you may hear about later
+on in the course, is
+pretty much interchangeable
+with epinephrine.
+They share a very
+similar structure.
+And you don't really
+need to do much to change
+epinephrine to norepinephrine
+and vice versa.
+So another neurotransmitter that
+you might hear about later on
+is serotonin.
+And serotonin again, is one
+of those neurotransmitters
+that has a lot of functions.
+And few of them are
+involved in the regulation
+of sleep, appetite, and mood.
+But certainly it's
+not limited to those.
+Acetylcholine, I know you'll
+hear about it on Friday.
+And so I'll leave that for
+Friday for you to discover.
+GABA is-- and you really can't
+talk about neurotransmitters
+without talking about
+GABA and glutamate.
+So these are the two most common
+neurotransmitters in the brain.
+GABA is the most common
+inhibitory neurotransmitter.
+And glutamate is the most common
+excitatory neurotransmitter.
+And again, these two have
+very diverse functions
+and are involved in
+many different areas.
+So I'm going to, for a brief
+moment, dive into a tangent
+and tell you about the
+neuromuscular junction.
+You cannot have animal
+behavior-- in fact,
+you can't even behave
+unless you are able to move.
+And the basis behind
+movement lies in the muscle,
+in the contraction of muscles.
+So what you're going to see
+here is a similar motif.
+You're going to see a synapse.
+You're going to see
+a neurotransmitter.
+The synapse is going to
+occur on the nerve that
+signals to the muscle.
+It's going to release the
+neurotransmitter, which
+is actually going to be
+oftentimes acetylcholine.
+And it's going to
+bind to receptors
+in the muscle, which is going
+to trigger a contraction.
+And so unlike many neurons
+in the brain, which
+respond to multiple different
+neurotransmitters in general,
+neuromuscular junctions
+only use one type.
+So with that out of
+the way, I'm sort
+of going to dive into
+neuropharmacology.
+So what is neuropharmacology?
+It is the external manipulation
+of synaptic events.
+Why would people want to
+manipulate a synaptic event?
+Well, you can do it
+for research purposes.
+You could manipulate
+the neurotransmitter
+or the receptor
+to figure out more
+about what their functions are.
+Or you could do it to
+correct for disease states.
+We as humans are very interested
+in trying to help people
+who have certain illnesses.
+So the general purpose is
+to increase or decrease
+the strength of communication
+across a synapse.
+So sometimes you can
+do this by faking out
+the postsynaptic neuron.
+You can give it a compound,
+an artificial compound that's
+not seen naturally
+in the body that
+closely resembles something that
+is seen naturally in the body.
+And you'll see a lot
+of hallucinogenics
+that utilize this principle.
+So hallucinogenics, such as
+mescaline, LSD, and psilocybin,
+these interact
+with the serotonin
+receptors because they have very
+similar structure to serotonin.
+And so there are a variety of
+ways that you can strengthen
+the synaptic response.
+One of which is to increase
+the release of neurotransmitter
+from the presynaptic neuron.
+How might you go
+about doing this?
+You could increase the
+synthesis of neurotransmitter.
+You could force
+the release-- you
+could force the released
+neurotransmitter
+to linger in the synapse.
+And there are a variety
+of ways to do this.
+You could block-- wow, I
+just skipped something.
+Oh, don't worry about it.
+OK.
+So you can block
+reuptake or degradation.
+I can talk about it now.
+So when a neurotransmitter
+has done its job,
+has bound to the
+receptor, is used up,
+you can't just leave
+it in the synapse.
+You've got to get
+rid of it somehow.
+Otherwise, it's going to keep
+signaling to the receptors.
+One way to do this is a
+process called reuptake.
+This is essentially,
+the reinsertion
+of a used up
+neurotransmitter back
+into the presynaptic neuron.
+OK.
+And so there are a
+variety of proteins
+that mediate this process.
+You can have protein pumps that
+pump the neurotransmitter back
+into the presynapse.
+You can have-- you're
+going to have proteins
+that are required to repackage
+the neurotransmitters
+in the vesicles.
+And you're going to
+be able to-- you're
+going to have to
+reform these vesicles.
+And so this is called reuptake.
+You can also degrade used
+up neurotransmitters.
+And when you do so, these
+degradation products
+can be detected in certain
+fluids in your body,
+such as cerebral spinal
+fluid or blood or urine.
+And so this is
+important for when
+you want to detect levels
+of neurotransmitter
+when you're trying
+to diagnose diseases.
+So right, so you can force
+the released neurotransmitter
+to linger in the synapse
+by blocking either reuptake
+or degradation.
+You can increase
+neurotransmitter receptor
+activity.
+So if the receptor
+on the postsynapse
+has a certain amount of affinity
+to the neurotransmitter, if you
+are able to find some
+way to make it bind
+more efficiently to
+the neurotransmitter,
+you're able to amplify the
+neurotransmitter signal
+and essentially, strengthen
+that synaptic response.
+So conversely, if you would like
+to weaken synaptic response,
+you could just block any
+of the processes that
+are required to release
+neurotransmitter, that
+are required for
+the neurotransmitter
+to bind to the receptor and
+trigger this influx of charge
+in the dendrite.
+So you can do that by blocking
+neurotransmitter receptors,
+blocking
+neurotransmitter release.
+You can block, or you can
+decrease the receptor affinity.
+So again, we don't
+really want you
+to focus on memorizing really
+the many mechanisms of doing
+this.
+If you do need to know
+it, it will come up later
+on in the course.
+But what this really is--
+the whole point of this
+is to get you thinking about
+the many ways in which you
+can manipulate events that
+take place at the synapse.
+OK.
+So there are a lot of ways
+people can manipulate it.
+So how would you find out more
+about some neuropathology?
+If somebody has
+something wrong with them
+and it's going on
+in their brain,
+it's really difficult to
+make direct measurements
+of neurotransmitters,
+or neurotransmitter
+levels in their brain,
+especially in a live patient.
+These measurements are often
+done in breakdown products,
+breakdown products of
+neurotransmitters in the urine,
+in the blood, or
+cerebral spinal fluid.
+And these are often
+serving as clues.
+These can often serve as clues.
+So if you had a patient with
+Parkinson's and you would like
+to treat that patient
+and alleviate that
+person's symptoms, you might
+find it pretty difficult.
+So Parkinson's- people
+with Parkinson's have
+an insufficient or decreased
+level of dopamine in a certain
+area of their brain that
+controls motor movement.
+And if you were to
+increase, globally increase,
+dopamine levels in the
+brain, you might fix,
+you might alleviate the
+symptoms of Parkinson's.
+But you're going to be
+increasing it everywhere
+else that dopamine has an
+action in, has a function in.
+And so you might change levels
+in the mesolimbic pathway
+from normal to too high
+and induce symptoms
+that resemble schizophrenia.
+And so this really
+harks back on the theme
+that we've been trying to
+tell you that the brain is
+compartmentalized.
+It's got different functions
+in different areas.
+It can have the same
+neurotransmitter
+in these different
+areas functioning.
+And if you were to treat
+some sort of effect
+that you want to fix, you might
+see adverse or deleterious side
+effects in other areas.
+Yeah, so that's pretty
+much all I have.
+So there are a few take home
+messages and important points.
+You have to know that
+this process of axon--
+the process of action
+potential moving along the axon
+and how it influences the
+influx of positive ions
+at the axon terminal, which
+will release neurotransmitter.
+So you have to be familiar
+with that concept.
+You have to understand that
+neurotransmitters after they're
+used up can be
+degraded or recycled
+in a process called reuptake
+and that degraded products can
+be detected in blood, urine,
+and cerebral spinal fluid.
+You also have to understand
+this idea, again,
+of compartmentalization.
+It's very important.
+And that pharmacological
+manipulations,
+you have to be
+careful because things
+could happen that you
+are not expecting,
+especially when something
+is wrong in only one
+area of the brain.
+And with that, you guys are free
+to leave and/or ask questions.
+We do have one more
+thing we wanted to show.
+Oh yes.
+One of the other
+TAs in our class
+last year made an
+absolutely wonderful video
+about the synapse and about the
+synaptic cleft, in particular.
+And we wanted to
+share this with you.
+[VIDEO PLAYBACK]
+[MUSIC PLAYING]
+--[SINGING] HumBio kids,
+put your books down.
+Put your books down.
+And report to the cleft,
+the synaptic cleft.
+I'm B Bobby Voltage
+introducing the Glut-tang Clan.
+-Check out the synaptic cleft.
+Thanks to vesicular trafficking,
+interneuronal signal
+can be transmitted from
+electrical to chemical
+and back again.
+-Hot and turns to
+the land of the nerve
+where firing and wiring
+will occur and will occur.
+will occur.
+Follow me.
+Neurons gotta be ready to
+fire at any opportunity.
+Dendritic input make it hot.
+Make it hot.
+Sum it up in the axon hillock.
+The potential will rise
+to a constant size.
+Shape of action potentials
+ain't no surprise.
+Snap back to the focus of the
+rap, tiny little space aka
+synapse.
+-Boom.
+-Voltage sweeps through
+the end like a broom.
+Calcium rushes in.
+Vesicles go boom.
+-Boom.
+-Exocytosis so exciting.
+ACH bonds light it
+up like lightning.
+Synapse fanatics gather around.
+Questions about the story?
+What?
+-3, 2.
+Hmm.
+Do the transmitters
+always excite?
+-No.
+They can be
+inhibitory, depending
+on whether they're the ions
+of [INAUDIBLE] positive charge
+gone.
+-Only one synapse?
+What if there's more?
+-The hillock will sum it
+up, like I said before.
+The synapse is the location for
+neuron to neuron communication.
+Remember what Russ Fernald said.
+-The mind arises from the brain.
+-Now listen.
+-Open.
+Open.
+Close.
+Close.
+-Check out the synaptic cleft.
+But thanks to
+vesicular trafficking--
+-Ion channels.
+- --interneuronal signals can
+be transmitted from electrical
+to chemical and back again.
+-Ion channels.
+-S to the "ynapse"
+is where things
+act like [INAUDIBLE]
+to chemicals that
+make you relax or collapse.
+The synapse cleft has receptors
+that rock to the sympathetic.
+Ligands [INAUDIBLE]
+by clinics that
+mimic your chemical condition.
+That's a small
+problem for medicine,
+a hundred trillion synapses.
+Drugs screaming--
+-Let us in!
+-The disease is only
+one part of the brain.
+A pill's not a sniper.
+It's a hand grenade.
+It'll act wherever there
+reside effects plus everywhere
+else come side effects.
+Don't want to
+sound like a cynic.
+We've all got a protein
+they call nicotinic.
+It's a receptor that can't
+tell the diff between ACH
+and nicotine.
+-Get a grip.
+-But nicotine leads
+to too much binding.
+ACH receptors get to hiding.
+Neuromuscular junction,
+it can't quite
+function because your
+receptors went out to lunch.
+Now, dopamine's on for
+a [? war ?] prediction.
+But it's down-regulating,
+then you're getting addicted.
+Fixing to kick the habit.
+We're busting synapses.
+How tragic.
+-Synaptic receptors
+getting abducted.
+-A healthy synapse ain't
+nothing to mug with.
+-I hope this rap has
+been instructive.
+-Because a healthy synapse
+ain't nothing to mug with.
+-Open.
+Open.
+Close.
+Close.
+-You don't have to
+leave your [INAUDIBLE].
+[INTERPOSING VOICES]
+-Close.
+Close.
+Open.
+Open.
+Close.
+Close.
+-Ion channels.
+-Cajal, give me some
+more neurons to study.
+Those don't ensure our find.
+-Ion channels.
+-Open.
+Open.
+Close.
+Close.
+Open.
+Open.
+Open.
+Close.
+Close.
+Open.
+Open.
+Close.
+Close.
+-A game of chess is
+like a sword fight.
+[DRAWING A SWORD]
+You must think first
+before you move.
+[MUSIC PLAYING]
+[END PLAYBACK]
+For more, please visit
+us at stanford.edu.

@@ -1,0 +1,2735 @@
+13. Advanced Neurology and Endocrinology
+========================================
+
+[MUSIC PLAYING]
+Stanford University.
+Where have we got to now?
+You guys have all
+the basics in hand
+now for our next two buckets--
+neurobiology and endocrinology.
+What you have now, I hope, is
+a sense of especially the neuro
+as the final common
+funnel out of which
+comes all that behavior
+stuff we've been thinking
+about-- genes-- whether they
+are changing in a static
+and then punctuated way
+or a gradualist way.
+What they code for we
+now know are proteins.
+And in the realm of behavior,
+what that's all about,
+you now know, are enzymes that
+make neurotransmitters, enzymes
+that break them apart, receptors
+for neurotransmitters, the ion
+channels that allow all
+the excitability stuff--
+all of that should be a
+way of conceptualizing
+what all that gene stuff that
+we've had so far funnels into.
+Likewise with the
+endocrinology-- all those ways
+in which reproductive
+status is going
+to change how the
+brain works, all
+of those great evolutionary
+models, blah, blah.
+That's now endocrinology.
+That's now the
+ability of hormones
+to affect the nervous system.
+And what came
+through, hopefully,
+over and over for all of you in
+the lectures over the last week
+are two themes-- lots
+of different ways
+by which the nervous system
+and the endocrine system
+can change its
+function over time.
+And number two, lots
+of different realms
+where there will be
+individual differences--
+all the ways in
+which you will have
+a brain and a bunch
+of glands that
+are different than the
+person sitting next to you.
+And what you should be able
+to piece apart readily by now
+is where some of those
+individual differences
+are coming from in the
+form of genetic influences,
+where some of them are coming
+from environmental ones,
+to begin to take some
+of those if/then clauses
+back in the genetics lectures--
+if it smells like a relative,
+then cooperate with them--
+to begin to imagine now
+how the nervous system,
+how hormones would actually
+translate that stuff
+into this next bucket.
+So this will be our last bucket.
+Today we'll be looking
+at all the ways
+in which everything you
+heard in the last week
+is vastly more complicated.
+And on Friday what
+we will do is focus
+in on the part of the
+nervous system that
+is most pertinent to
+rest of the course.
+Should you ever
+happen by some chance
+to stumble into medical school
+somewhere down the line, when
+they get around to the
+nervous system there,
+you are going to hear about
+the spinal cord endlessly.
+You're going to hear
+about the cerebellum.
+You're going to hear
+about parts of the cortex.
+You are going to
+hear next to nothing
+about the part we'll be
+talking to on Friday.
+And what it's about is
+emotion, and behavior,
+and affect-- a part of the
+brain called the limbic system.
+In medical school, they
+will pound into your head
+over and over and over
+how the spinal cord moves
+different motor systems.
+Because that's 99%
+of what neurology
+can concern itself with.
+Because it at least has a
+fighting chance of doing
+something therapeutic there.
+This is the part
+of the brain that
+is most defining to who we
+are-- personality, temperament,
+all of that.
+And it will be central
+to making sense
+of all of this stuff coming in
+the second half of the course.
+So it's going to be a
+very different domain
+of the nervous system.
+So what today is about
+is taking everything
+you've learned
+over the last week,
+and discovering that the ways
+in which it is tragically
+distortive and not quite right,
+and comes with all of these
+but wait-a-seconds and
+qualifiers, and all
+the ways in which this first
+pass you had in the last week
+sets you up now for
+appreciating an enormously more
+complicated system than
+you've already seen,
+one which generates, thus,
+vastly more possibilities
+of communication, of
+information contained
+within these neural
+pathways, one which generates
+vastly more possibilities
+of individual differences
+and of experience
+leaving its imprint,
+one that generates vastly
+more possibilities for things
+to go really wrong in the
+realms of abnormal behavior.
+OK so a lot of
+what we'll be doing
+is taking what you
+got in the last week
+and seeing where, in fact,
+current research shows that it
+is much, much more complicated.
+OK, first version--
+one of the rules that
+runs through all
+of neurobiology--
+you start learning the
+field and at some point,
+they pull out the
+name of this guy Dale.
+Dale who was the law giver.
+Dale was some
+neurobiologist early
+in the 20th century
+who generated two laws
+that every single
+child was forced
+to learn throughout
+the 1920s and 1930s
+about how the nervous
+system worked.
+Some time later than
+that, Dale's two laws--
+and we will start
+off with one of them.
+And it makes perfect sense
+until you see that, in fact, it
+has no basis in reality.
+Here is Dale's first law,
+which was you got your neuron--
+and you should know
+by now we are dealing
+with our schematic neuron.
+And once we get into
+circuits in more detail,
+we will give up the diamond
+shape on the neuron cell bodies
+and switch over to
+circles, showing
+just how fast evolution can be.
+But we've got the neuron here.
+And what we've got are the
+axon and the axon terminals.
+And what Dale's law number
+two-- and of course, it's
+irritating that we're doing
+number two before number one,
+but tough-- what you've got
+here with Dale's law number
+two is, each neuron has
+one characteristic type
+of neurotransmitter--
+one and only one.
+And that's what it's releasing
+from all of its axon terminals.
+And thus, you could
+categorize any given neuron
+as this is one that
+releases serotonin.
+This one is one that releases
+dopamine, et cetera, et cetera.
+Notice that's a
+world of difference
+as to what types of
+neurotransmitters
+it has receptors for.
+That's something else entirely.
+That's what neurons over
+there it's listening to.
+But any given neuron is
+releasing only one kind
+of neurotransmitter.
+So that one went down
+the tube during the '80s
+with the discovery,
+in fact, that there
+are multiple neurotransmitters
+released by neurons.
+And this was boggling to
+people, and forced people
+to give up on Dale number two.
+And initially, this just seems
+like pointless complication.
+What you wind up
+seeing is it puts
+a lot more potential
+for information
+into the whole business here.
+OK, so here we have our
+archetypal synapse here,
+going from left to
+right as always.
+And we've got the one on the
+left here with its vesicles--
+those little water balloons
+filled with neurotransmitter.
+Along comes the
+action potential.
+As a result, the vesicle
+moves to the cell membrane,
+merges with it, dumps the
+neurotransmitter into there.
+As you might guess, that
+actual process of exocytosis,
+dumping the neurotransmitter,
+is vastly more complicated.
+But this is our general model.
+And what people began to realize
+was that all sorts of neurons,
+all sorts of neurotransmitter
+types, in fact,
+came with two different
+colors of neurotransmitters
+in the vesicles-- came
+with two different kinds.
+Notice this is different
+from in this axon terminal
+you release this type
+of neurotransmitter.
+And in this one, you
+release that type.
+No, every single
+axon terminal would
+contain both of these
+types of neurotransmitters.
+And notice also, it
+would not be one vesicle
+was a blue neurotransmitter
+vesicle and one was a red.
+Each one of them had a
+mixture of the two types.
+What has been found
+is that occurs in lots
+of different types of neurons.
+I believe the record
+is that there are now
+some vesicles that contain
+three different types
+of neurotransmitters.
+So what we've got here
+are two different classes
+of messengers coming out.
+And what you should be
+able to immediately imagine
+is, that's going to
+produce a lot more
+potential for information.
+Two different types
+of messengers-- one
+of the characteristics that
+tends to be the pattern
+is that when you get
+two neurotransmitters
+in the same neuron,
+the same axon
+terminal and the
+same vesicle, they
+tend to be structurally very
+different sorts of classes
+of neurotransmitters.
+One might be a type made from
+a simple single amino acid.
+Another one is somewhat
+of a complicated protein.
+They tend to have fairly
+different structures.
+And what that
+often tells you is,
+they're going to have
+different mechanisms of action.
+They're going to have
+different speeds of action.
+What you wind up seeing
+is very often, when
+two different types
+of neurotransmitters
+are contained in the
+neuron, one of them
+works much more
+rapidly than the other.
+One has a rapid, short-term
+effect-- quickly decrementing.
+The other will have
+a longer effect.
+And by now, you can
+begin to imagine
+what counts as a longer effect.
+You change gene
+transcription in that neuron.
+You change structural
+stuff happening,
+as opposed to the short
+one, where just suddenly
+some little ionic
+excitability change occurs
+in a couple of milliseconds.
+You begin to see this pattern of
+two different ways of coding--
+coding for different
+types of information.
+What we'll see shortly is one
+of the truly bizarre things that
+pops up a lot with these cases
+of multiple neurotransmitters.
+One of them will have receptors
+for it on the neuron itself.
+And we will focus
+on that shortly.
+That actually winds up making
+a fair amount of sense.
+OK, so Dale trashed
+in terms of the notion
+of any given neuron having
+only one neurotransmitter.
+In some types of neurons
+you have, instead, pairs,
+but following the
+same sort of rules.
+And thanks to the typical
+structural difference
+between the pairs of
+neurotransmitters,
+you tend to get different
+sorts of functions.
+You see a similar principle
+over at the endocrine end
+of things-- a world of more than
+one single messenger carrying
+the same message, or the
+same source of information
+carrying multiple messengers.
+Where we see here is what by
+now should be familiar as well,
+here where you got
+your pituitary,
+and you got your
+anterior pituitary,
+which is always facing left.
+And the anterior here, we have
+the glandular cells releasing,
+as you saw the other day, ACTH.
+Lots of this lecture
+is going to be
+about the regulation of the
+adrenal cortical system--
+the glucocorticoid
+system-- because it's
+the best hormone on Earth.
+And I'm willing to prove it.
+But what we have here
+is ACTH coming out.
+And you remember what you
+had the other day, which
+is incorrectly named.
+You've got CRH.
+That's that business about the
+brain as an endocrine gland,
+the brain releasing hormones
+into this little portal
+circulatory system.
+And out comes its characteristic
+pituitary hormone.
+So what you saw the
+other day is CRH
+is the hormone, the
+hypothalamic hormone
+at the base of the
+brain here that's
+released into this local
+circulatory system, which
+stimulates these
+cells to dump ACTH
+into the general circulation.
+And that's the pattern
+you've gotten already
+of neuroendocrine axis.
+The brain releases a hormone
+into the local circulation,
+which stimulates the
+pituitary to release
+a typical hormone in response
+to it, which then goes and does
+something rather
+to a distant gland.
+You've got that one already.
+You have Follicle Stimulating
+Hormone, releasing hormone
+up here, which triggers Follicle
+Stimulating Hormone, which then
+goes does something or other to
+your follicles or to your sperm
+if you don't have
+follicles, and these sort
+of three-step cascades.
+What we see with
+the CRH system here
+is one example of
+how you can also
+have a version of
+multiple messengers.
+Turns out CRH is not the
+only hormone coming out
+of the base of the hypothalamus
+that could release ACTH
+during stress.
+And instead, you've got
+a whole array of these.
+There are neurons in the
+hypothalamus that instead
+release vasopressin into
+the circulation here,
+others that release
+oxytocin, others that release
+norepinephrine, others
+that release epinephrine.
+And collectively,
+what they're doing
+is stimulating the
+release of ACTH.
+You have an entire
+array of these.
+And a huge amount
+of work in the '80s
+went into sorting this out.
+And what's going on here-- what
+you have are stress signatures.
+Different types
+of stressors will
+trigger different orchestrations
+of these ACTH-releasing neurons
+up there-- different
+orchestrations as to which
+hormones bring it about.
+And it will be things like low
+blood pressure or hypotension
+will tend to trigger
+CRH and vasopressin.
+Low blood sugar,
+I think, was CRH
+and epinephrine
+and norepinephrine.
+The whole point is that
+you get a signature up
+at the hypothalamic
+level regulating
+this release of ACTH.
+Why have all these
+different ways of doing it?
+Two advantages--
+one is depending
+on which orchestration of these
+you use, the shape of the ACTH
+secretory curve
+will be different.
+It's the same deal here.
+You use two of these to
+get a short, rapid effect,
+a more prolonged one.
+Here, depending on
+which mixture you have,
+you will have a different
+profile of ACTH secretion.
+That's so you get
+control on that level.
+The other thing is that
+each one of these not only
+helps to release ACTH
+from the pituitary.
+It does other stuff
+down here as well,
+so that you get a way of coding
+under this sort of stressor
+you want to release ACTH and do
+something or other in addition.
+The way you bring it about
+is getting these two.
+With some other
+stressor, you want
+to secrete ACTH, and bring about
+some additional step there.
+And you do it with these
+three-- that sort of thing.
+So you get control over the
+shape of the stress response,
+and to fine tune it there.
+So here we've got this
+completely more complicated
+picture of all these
+different releasers of ACTH.
+In addition, just to make
+things even more complicated,
+there are clearly
+hormones coming in there
+which, instead of releasing
+ACTH from the pituitary,
+they inhibit its release.
+And they release their hormone
+into the circulation also.
+And people have had evidence for
+these corticotropin-inhibiting
+factors for decades and
+decades and decades.
+And people have had an amazingly
+tough time trying to figure out
+what these things actually are.
+The best implicated
+molecule so far
+is a peptide called Delta
+Sleep Inducing Factor.
+Think about that--
+you go to sleep.
+And that's a very good
+time for turning off
+your stress response.
+So that making
+wonderful sense there.
+The main point for
+our purposes is
+you've got
+bi-directional control.
+You've got a bunch
+of hormones that
+stimulate the release of ACTH.
+You've got at least one
+fairly well-implicated
+that inhibits the release.
+There is no way that
+there's not a whole bunch
+of other ones doing the
+same sort of signature
+coding at the inhibitory end.
+And you've got different ways of
+translating different stressors
+into different
+endocrine profiles.
+And of course, what
+that winds up meaning
+is you get stressed-- like
+your big toe is telling you
+you just burned it-- and you
+are going to have projections
+to a different array
+of these than if you
+were getting stressed, you
+were thinking about mortality.
+That's going to be having
+a different projection
+profile onto these neurons.
+What that suggests
+is a huge amount
+of coding information
+going on in the brain
+and the spinal cord producing
+these different arrangements
+of how you dump out ACTH
+and the other hormones.
+OK, so that as a
+first complication
+in these various neural
+and endocrine systems.
+You can actually have multiple
+neurotransmitters coming out
+of the same neuron.
+You can have an array
+of different hormones
+that bring about the
+same general response,
+but they differ in terms
+of fine-tuning the system.
+Next elaboration--
+one now having
+to do with some spatial
+characteristics of how
+these systems work.
+And here we have the
+same exact neuron again.
+And now we deal with
+Dale's law number one,
+which is you know by now you
+get the depolarization here,
+sufficient to get
+to the axon hillock.
+You get your action potential.
+All hell breaks loose-- very
+exciting ionic of events
+of excitation-- all
+or none regenerating
+go shooting down the axon
+to the axon terminals.
+Dale's lawyer number one was you
+get an action potential started
+here, and it is going
+to result in the release
+of neurotransmitter from
+every single axon terminal.
+So Dale's two laws-- an
+action potential causes
+neurotransmitter to be
+released from every single axon
+terminal of a neuron.
+Dale's law number
+two just trashed.
+And it's going to be the same
+neurotransmitter released
+from every single axon terminal.
+And Dale's law number one
+has held reasonably well,
+except for some work by a guy.
+And this is one of these sort
+of mad geniuses of neuroscience,
+a guy at MIT named
+Jerry Lettvin.
+What he did was, as
+far as I can tell,
+he just sat around in a dark,
+sort of abandoned warehouse
+for decades on end.
+And about once every
+decade, he would
+write a paper that would
+transform neuroscience.
+And he actually was like this.
+I met the guy once.
+And it was one of the more
+terrifying experiences I had.
+I was working in
+a lab where I had
+to go get an oscilloscope from
+someplace, and pick up one
+because ours was broken.
+And everybody agreed
+the place to find
+it was in Jerry
+Lettvin's warehouse
+that he lived in, because
+he lived with oscilloscopes.
+And going in there, and it
+was basically pitch dark.
+And there was this
+sweaty, Sydney Greenstreet
+kind of guy sitting there.
+And he was in a ripped t-shirt.
+And he had been in
+there for decades.
+And he was chain smoking
+and sweating in there,
+because it was 150 degrees.
+So he spent a large part of the
+last part of the 20th century
+inside that warehouse
+writing one paper per decade
+that was transforming.
+So this was his
+particular paper.
+And I think this one
+was from the '70s.
+And what he showed was that
+under some circumstances,
+with him lined up with his
+hundreds of oscilloscopes
+proving this, you in fact had a
+violation of Dale's law number
+one, which was you
+can get blockades here
+or there that would
+stop the action
+potential from
+propagating down some
+of the branches of this
+whole axonal treee--
+in other words, a whole
+different domain of controlling
+the flow of information.
+More subtlety
+there-- neurons could
+regulate which of
+their branches actually
+were sending on the message.
+And remarkably little has been
+learned in the years since then
+as to how this works, let alone
+how common a phenomenon it is.
+Most people wound
+up ignoring it.
+What has since been shown
+also is the wave of excitation
+that could come in through
+different dendritic spines
+back at the end-- that there are
+ways in which branch points can
+be sort of blocked on one side
+so that the flow is shunted
+in one direction on the
+branches and not the other.
+This is this whole
+unexplored world
+suggesting there's all
+sorts of regulation going on
+at these branch points.
+It's not simply the
+case, action potential
+and you are going to
+dump neurotransmitter
+from every single axon terminal.
+So down goes Dale
+on that one as well.
+Equivalent over at
+the endocrine end--
+and here we have our
+pituitary, which now no longer
+has a brain connected to it.
+But you've got the
+theme by now, which
+is you've got the
+hypothalamic hormone
+and out comes the
+pituitary hormone.
+And there's a whole bunch of
+different pituitary hormones
+producing the acronym flat
+bread, peg leg, flat, flat peg.
+FLAT PEG-- go to your death
+bed remembering that acronym,
+because it will make
+you happy and fulfilled.
+OK, so here's a bunch
+of pituitary hormones,
+and whatever verkakte acronym
+these guys came up with.
+But what we have here,
+just to make life simpler,
+is we'll focus in
+on four of them.
+FLAT PEG-- so we're
+missing some of them there.
+But we've got growth
+hormone that comes out,
+prolactin ACTH, Follicle
+Stimulating Hormone.
+I'm picking these
+completely randomly.
+OK, in the simplest
+possible of worlds,
+you would have all sorts of
+secretory cells, glandular
+cells, sitting in here.
+And each one of them
+is capable of secreting
+all of those flat bread
+hormones coming out of there.
+It could be doing that.
+And it would simply be choosing
+which as a result of which
+hypothalamic hormone is
+coming down the pike there.
+That's not what you see.
+Instead, you have specialized
+cells within the pituitary.
+There's one type that only
+secretes growth hormone, which
+causes somatic growth, somatic
+body, somatic something
+or other.
+And those are
+called somatotrophs,
+and don't memorize that.
+Ones that only
+secrete prolactin,
+which cause lactation-- these
+are lactotrophs, corticotrophs,
+gonadotrophs,
+something or other.
+So all of these, in fact,
+have specialized cells.
+Within the pituitary,
+there are cells
+that specialize in
+releasing only one
+of these types of hormones.
+So you got into that.
+So what would be the next
+simplest thing going on?
+So here's the growth hormone
+releasing into the pituitary,
+and there is going to be
+the ACTH releasing end.
+No, that's not what you see.
+Instead, there is a mosaic all
+across the pituitary of all
+the different flat bread
+cell-secreting types there,
+all throughout it.
+OK, so that's just this mosaic.
+Good, somebody was sloppy at
+the sort of fetal end gluing it
+all together, and just
+scattered them all over.
+And what winds up
+happening is you
+get local, little
+neighborhood effects.
+For example, here
+we have somatotrophs
+that secrete growth hormone.
+And one is in a FSH
+neighborhood and the other
+is in a prolactin neighborhood.
+And what you see is you throw in
+the hypothalamic hormone, which
+causes growth hormone
+to get secreted.
+And this particular
+cell is going
+to be secreting totally
+different amounts of growth
+hormone than this one will.
+Because it's in a different
+sort of neighborhood.
+And what's the
+implication of that?
+There's all sorts
+of communication
+going on between the individual
+cells in the pituitary.
+And it depends on what
+sort of neighborhood
+each particular
+cell is living in,
+how it is responding to the
+hypothalamic signal coming
+down, wildly complicating.
+What that lets you do
+instead is different areas
+of the hypothalamus will turf
+its hormones to different parts
+of the pituitary where
+its particular cell
+targets will be living
+in different sorts
+of neighborhoods.
+Simply more regulation, more
+complexity going on there.
+Next theme that comes through
+in terms of elaboration--
+we all have the negative
+feedback concept by now
+that came through throughout
+the lectures last week.
+The whole notion
+you get excited.
+You release a neurotransmitter
+into your synapse
+if you're a neuron.
+You've got to do some
+regulation there.
+You have to clean
+up after yourself.
+You remove the neurotransmitter
+from the synapse.
+You break down the
+neurotransmitter.
+You have to finish
+the whole thing.
+You are the endocrine system.
+You are the brain.
+And you have gotten
+it into your head
+that you want your adrenals
+to secrete glucocorticoids.
+And you start that whole
+cascade in which everywhere--
+and you need to know
+when to stop secreting
+those hormones up on top.
+You need negative
+feedback information.
+All of these biological
+systems are characterized
+by that-- you have enzymes
+where this enzyme turns this
+into this.
+And how does it know when
+they should stop doing it?
+When there is so
+much of this stuff
+building up that this
+inhibits its activity.
+You get negative feedback,
+feedback regulation.
+You're making a lot of x.
+And whatever is making it
+has to be able to measure
+the levels of x.
+That is the simple rule of all
+this negative feedback stuff.
+So a first example on the
+neurobiological level-- so
+what we have are what are
+called auto receptors.
+What I inferred before,
+which is this weirdo world
+in which you not only
+will have receptors
+for a neurotransmitter
+exactly where they should
+be on the post-synaptic
+neuron on the other side
+of the synapse, but you will
+have them on the neuron that's
+releasing the neurotransmitter.
+It is an auto receptor.
+It is a receptor
+right there on it.
+What's it doing?
+It's for bookkeeping.
+What you have is
+some sort of rule.
+If the neurotransmitters
+come pouring out of there,
+and most of them go floating
+across-- let's assume
+these are only red
+neurotransmitters here,
+and bind to their
+red receptors there,
+and do their thing
+to the next neuron.
+And just thanks to
+the floating around,
+random life in the Brownian
+synaptic sludge there,
+a certain number of them
+are going to, instead, bind
+to this one.
+And all there has
+to be is some sort
+of rule in this
+pre-synaptic neuron
+that for every time
+one of these hits here,
+it means I've
+released 1,000 copies
+of this neurotransmitter,
+or 1,000 molecules of that.
+And that's how I keep
+track of the numbers.
+And I will have
+a rule that if it
+gets below a certain
+level of my picking
+up this bookkeeping
+signal, that will
+be a signal to start
+making more of the stuff.
+If I'm getting too
+much of a signal,
+decrease the release-- feedback
+regulation along those realms.
+This is where you see
+one of the elaborations
+on this two-neurotransmitter
+business.
+What you very often see is
+one of the neurotransmitters
+will exclusively work on a
+pre-synaptic auto-receptor.
+That one is stuck
+in there merely
+in order to do the bookkeeping.
+You would think neurons
+might have figured out
+a more direct way
+of keeping track,
+like how many
+vesicles they dump.
+But instead, this
+theme is there is
+some pre-synaptic
+auto-receptor, which tells you
+on some statistical basis, every
+time we get buzzed at this end,
+it means we buzz these
+guys 100 zillion times.
+And that's how we keep track
+of how much we want to make--
+negative feedback loops there.
+You then see the
+exact same equivalent
+in endocrine systems, which
+is all this negative feedback
+stuff.
+Something that was
+under-emphasized
+in the endocrine
+lectures last week
+has been this element
+of neuroendocrinology.
+What you mostly
+heard about is what's
+going to be most
+dominating in the classes
+to come, which is hormones
+get into the brain
+and change how you think,
+and feel, and behave,
+and all of that stuff.
+But also, some of the time what
+hormones are doing in the brain
+is letting the brain know
+how much hormones there
+were in the
+circulation, in order
+to do the bookkeeping, the
+negative feedback regulation.
+Your brain decides it wants
+to have this much growth
+hormone in the bloodstream.
+And thus, it releases
+its hypothalamic hormone,
+which goes.
+And all over, the pituitary
+gets those somatotrophs
+to release growth hormone
+and does its thing elsewhere
+in the body.
+And the brain has
+to be measuring
+some consequence of that
+growth hormone doing its thing,
+measuring up there, in
+order to figure out,
+have we gotten where
+we want to yet?
+Same thing with prolactin.
+Same thing with
+every one of those.
+You have to have negative
+feedback regulation.
+So what do you need to
+do to pull that off?
+You need to have a
+part of the brain that
+is sensitive to that hormone
+signal-- sensitive in some sort
+of quantitative way, where
+it can, in effect, count
+how much of the stuff there
+is in the bloodstream using
+the exact same sort of rule.
+If I've had one of those
+hormones in the circulation
+come and bind to
+one of my receptors,
+it means I have released
+100 billion copies of it,
+thanks to my starting
+this whole cascade.
+Did we want 100 billion?
+Did we want 107 billion?
+Do we want 93 billion?
+What do we do now?
+Does that tell us we've
+completed what we want?
+You get this negative
+feedback signal there.
+So the first thing
+you have to have
+is cells-- parts of the
+brain-- that will measure,
+that will be responsive
+to a hormone signal.
+Those cells have to be able
+to have some kind of set point
+rule in there.
+This is the point of
+life that I am at,
+the point of my menstrual cycle.
+This is the point of
+reaching adolescence.
+This is the point of
+am I stressed or not?
+This is the set point.
+This is the amount
+of hormone I would
+like to have in
+the bloodstream--
+this particular type of hormone.
+And what you need to
+then be able to do
+is, if levels have not
+reached that set point yet,
+you send a stimulatory
+signal to the hypothalamus.
+Keep doing what you were doing.
+We need to push the
+levels up higher.
+And if the levels reach
+here or get even higher,
+you need to be able to turn this
+into an inhibitory signal going
+to the hypothalamus.
+So what you see are
+all sorts of regions
+of the brain that are sensitive
+to these various hormones, not
+just in terms of
+hormones affecting
+all the behaviors we're
+going to hear about,
+but also negative feedback
+regulation-- so a way now
+of showing just how much
+more complicated it can be.
+So what would you assume
+is the general rule?
+Here's an example of--
+OK, let's make it simpler.
+OK, so what would
+you expect to see?
+You're able to
+measure CRH coming out
+of the base of the hypothalamus.
+And the deal is something
+stressful occurs,
+and so it's pumping out CRH.
+And at some point, you've
+got as much glucocorticoids
+in the blood stream
+as the brain would
+like for that sort of stressor.
+And that leads to
+the negative feedback
+signal, which stops
+the hypothalamus
+from releasing CRH.
+What measuring is
+the brain doing?
+Most obvious version
+would be what
+the brain does is measure
+how much glucocorticoids
+are in the bloodstream.
+And a simple rule, the
+more glucocorticoids
+there are in the bloodstream,
+the more likely levels
+are to have reached
+the threshold, the set
+point, that you want.
+So the higher the levels, the
+more of a negative feedback
+signal.
+And thus, the less
+CRH being secreted.
+Totally straightforward,
+logical,
+measuring the level of
+hormone in the bloodstream.
+And this is how most endocrine
+negative feedback works.
+Measuring how much
+of the stuff--
+the more stuff there is,
+the greater the likelihood
+that you shut down the system.
+You put in the negative
+feedback signal.
+But in addition, there's
+a whole other domain
+of glucocorticoid negative
+feedback regulation,
+where in this domain,
+what the brain
+is doing is not measuring
+how much glucocorticoids
+there are in the
+bloodstream, but measuring
+the rate of change-- the rate
+at which levels are increasing.
+And that's a totally different
+domain of information there.
+Now what you're
+doing is measuring
+how many units of increase
+per second are you getting.
+And what you've got is
+this bizarre world there,
+where you go from 10
+units of glucocorticoids
+in the bloodstream to
+12 units in one minute.
+And that means the
+same exact thing
+as going from a million
+and 10 units to a million
+and 12 units in the
+same length of time.
+It's not measuring
+absolute levels.
+It's measuring rate of change.
+And the faster the rate of
+change, the less likely CRH
+is to get secreted.
+And it turns out there are some
+domains of stress responses
+where what the brain
+is paying attention to
+is rate of change of
+hormone in the bloodstream.
+There are other circumstances
+where it's paying attention
+to absolute level.
+This tends to be what
+the brain listens
+to very early on in
+a stress response.
+This tends to be the
+more delayed response.
+But totally different dynamics
+there-- cells that measure
+the amount of
+hormone-- that's not
+that hard to imagine-- number
+of receptors, stuff like that.
+Cells that measure
+the rate of change,
+where going from 10 to 12
+is the exact same thing
+as going from a million
+10 to a million 12.
+What is that wiring
+going to be like?
+To this day, nobody has a clue.
+This was first sort of
+figured out in the 1960s.
+An amazing scientist
+up in UCSF named
+Mary Dallman who just sat and
+out of sheer just modeling
+work in terms of
+endocrine systems
+predicted with
+glucocorticoids, there
+are going to be two different
+domains of feedback.
+There is going to be a rapid
+rate-of-change sensitive
+system.
+There is going to be a
+delayed level of hormone
+in the bloodstream system.
+And here's exactly why
+I'm predicting this.
+And she turned out to
+be absolutely right.
+And decades later,
+people still don't fully
+understand how a cell
+measures the rate of change
+of something independent
+of the absolute levels.
+One thing that makes
+life a little bit easier
+is it's different parts
+of the nervous system
+that do each type here.
+The very rapid rate-of-change
+stuff, in fact,
+is not even occurring
+at the brain.
+It's occurring at the
+level of the pituitary.
+And thus, it's not so much
+regulating CRH release,
+but ACTH release.
+OK, complicated-- the
+main point of that
+is, even something
+as logical as how
+do you keep your toilet
+bowl sort of thing
+from overflowing the
+tank in the back there?
+You need a negative
+feedback signal.
+You need a way for
+the toilet bowl tank
+to measure how much water there
+is there, and the flotation
+device, and for that to have
+a set point and a way of then
+transducing, reaching that
+point into putting the lid
+on the top of the pipe
+that's generating the water.
+Totally all these logical
+negative feedback loop stuff,
+and then suddenly, in these
+neuroendocrine systems,
+you get much, much more subtle,
+complicated things going on.
+In some cases, you
+have positive feedback.
+The more of a hormone
+in the bloodstream,
+the more you stimulate
+the system to do more.
+You get that at certain
+points in reproduction--
+reproductive life
+histories where
+you have massive changes
+of estrogen, progesterone.
+And what you have will be
+transient periods where
+you have positive feedback.
+All of these somehow have to
+get translated into how cells
+are working-- very unclear.
+OK, so negative feedback-- the
+next elaboration-- something
+going on at the receptor level.
+It's something known
+as auto-regulation.
+And you could probably
+begin to figure out what
+that one's about.
+And it will make perfect
+sense as follows--
+if somebody screams
+at you all the time,
+you stop listening to them.
+And what you have done is just
+down-regulated your sensitivity
+to this pain-in-the-neck person.
+If they give a
+very large signal,
+you down-regulate your
+sensitivity to the signal.
+If a signal, instead,
+becomes very weak,
+very often you will increase
+the attention you pay to it.
+You are showing auto-regulation.
+Within the realm of
+neuroendocrine stuff,
+you will be changing
+the amount of receptor
+for a neurotransmitter
+or hormone
+as a function of the
+levels in the bloodstream.
+And thus, you have
+this logic-- if you
+get a huge increase in
+the levels of some hormone
+in the blood stream,
+there will be a likelihood
+that various target
+tissues will begin
+to down-regulate the number
+of receptors for that hormone
+or neurotransmitter.
+Conversely, levels go way
+down, they go right up.
+And this is a
+general feature all
+these neural and
+endocrine systems.
+Why is that interesting?
+When this regulatory,
+auto-regulatory stuff
+screws up.
+In principle, it
+should work perfectly.
+OK, for some reason,
+there's a doubling
+of the hormone
+message coming through
+in the bloodstream
+under some circumstance
+where it's going
+on for a long time.
+And that's not right.
+And somebody down at
+some gland down there
+is messing up and drooling
+out way too much hormone.
+So what are we going to do?
+We have no idea
+what's up with them.
+But you've doubled
+the level of hormone.
+Most folks down
+there, OK, let's have
+an auto-regulatory response.
+Let's cut the number
+of our receptors
+in half to compensate.
+You can see in a rough way
+that's going to compensate.
+So massively increase the
+signal thanks to some disease
+state, something weird going on,
+and do a compensatory decrease.
+Have some disease
+or abnormal state
+where levels of some
+hormone or neurotransmitter
+go way down-- what do you do?
+Let's up the amount of receptor
+enough to compensate for it.
+That's great.
+Where problems occur is if you
+don't compensate quite enough,
+or if you overshoot, if you
+begin to get a mismatch.
+And that's where
+you've got problems.
+We will see, as you read
+in the [INAUDIBLE] book--
+with hopefully great detail--
+the chapter on depression,
+that's probably a critical
+thing that's happening.
+Because we'll see with
+depression what's probably
+wrong are levels of a few
+different neurotransmitters--
+serotonin, dopamine,
+norepinephrine.
+All of this is
+going to come soon.
+And all of the standard
+anti-depressant drugs
+change the levels of
+these neurotransmitters
+in the bloodstream.
+And that's great.
+And we know just how it
+works, except there's always
+a problem making sense of that.
+Which is you throw in some of
+these standard drugs-- SSRIs,
+things of that sort-- don't
+worry about the details.
+All of this will come later.
+The main point being that
+these anti-depressant drugs,
+when you throw them
+in, they're changing
+levels of neurotransmitters
+within minutes to hours.
+You get somebody who
+is deeply depressed.
+And you start them off
+on an SSRI like Prozac.
+And they don't start feeling
+better for days to weeks.
+There is some sort of
+lag time going on there.
+And as people have
+sorted it out,
+what the common sort
+of conclusion is,
+these drugs are
+not working so much
+by changing the levels of
+these neurotransmitters.
+What they're really doing
+is by changing the levels,
+they are eventually going to
+cause an auto-regulatory change
+in the number of receptors.
+And these change within
+minutes to hours.
+These change within
+days to weeks.
+And that's what these
+drugs are probably doing.
+We will go through that.
+Just to give you a sense of
+how awful it is going to get,
+there are some reasons
+to think that some
+of these anti-depressant
+drugs work
+not by changing the level so
+much of this neurotransmitter,
+or not so much
+secondarily causing
+an auto-regulatory
+change here, but instead,
+causing an auto-regulatory
+change in these auto-receptors.
+Unbelievably complicated.
+We will come to that.
+For our purposes
+right now, what that
+begins to tell you
+is that certainly,
+the amount of hormone and the
+amount of neurotransmitter
+makes a difference.
+The amount of receptor, as well.
+And have big
+pathological changes
+in the levels of the messengers.
+The body attempts to regulate
+with auto-regulatory changes.
+And a lot of what
+disease is about
+is overshooting
+or undershooting.
+So that's one realm within
+the nervous system--
+neurotransmitters--
+pertinent to depression.
+OK within endocrine
+systems, an equivalent one
+is as follows--
+something that you
+see that goes wrong in
+diabetes-- adult-onset
+diabetes.
+One of the things you have
+is a number of ways things
+can go wrong.
+But what your body
+does is, when there's
+glucose in the bloodstream,
+when you've just
+had a meal, when you
+have all these nutrients
+in the bloodstream,
+your pancreas
+can detect the levels of
+glucose in your bloodstream
+and secretes insulin.
+Sugar shows up in the
+bloodstream-- glucose.
+You secrete insulin.
+And what insulin does
+is tell your fat cells
+to absorb the sugar
+and store it away.
+Great, but you've
+got a problem, which
+is that your fat cells
+are already full.
+Because you are a typical
+Westernized human,
+and you've been
+eating to excess.
+And what you have is fat
+cells that are full up.
+And they stop listening
+to insulin, because they
+can't take it anymore.
+Because they can't take up any
+more stuff and store it away.
+The cells begin to
+be insulin resistant.
+And we'll see in a
+minute how that works.
+So suddenly, you
+have fat cells that
+aren't responding to insulin.
+And what happens is your
+pancreas says, this is crazy.
+We're trying to get rid of the
+sugar from the bloodstream.
+And it's not disappearing.
+The person just ate
+eight Hershey bars,
+and their fat cells
+are already full.
+But we're not clearing the
+sugar out of the bloodstream.
+So let's secrete
+even more insulin.
+And let's secrete
+even more insulin.
+And what happens at the
+fat cells, they say,
+this is ridiculous.
+We're full up.
+Forget it.
+We're not taking up any more
+of these nutrient things.
+And in fact, what
+we're going to do is,
+we're going to decrease
+the number of our insulin
+receptors.
+We're going to down-regulate
+our number of insulin receptors.
+And the pancreas freaks out,
+and secretes even more insulin
+as a result.
+And you down-regulate even more.
+And what you have is
+this downward spiral.
+Because at some
+point, your pancreas
+is working so hard to dump
+these boatloads of insulin
+into the bloodstream that your
+body's paying no attention to,
+that you burn out the
+cells in your pancreas that
+make insulin.
+And now you've got yourself
+a real serious problem.
+What's the key of
+what's gone wrong here?
+Too much nutrients, and
+thus too much insulin.
+And the fat cells
+begin to say, we're
+not going to listen to it.
+And they down-regulate
+receptors.
+More insulin, down-regulate,
+down-regulate-- and this
+is at the core of what
+goes wrong in diabetes.
+So we see these
+auto-regulatory changes.
+And they can emerge slowly.
+They can help explain why
+some of these drugs work.
+Almost certainly,
+they help explain
+what's wrong in some of
+these psychiatric diseases,
+metabolic diseases.
+What's the punchline there?
+Number one, the amount of
+a messenger is important,
+but the sensitivity
+to the messenger
+is at least as important.
+You have as much
+capacity to regulate this
+as this in these
+biological systems,
+and thus you have
+as much potential
+for screwing up at
+this end as screwing up
+with the amount of messenger.
+Yeah, did I see a
+hand up someplace?
+Yes.
+[INAUDIBLE] but wouldn't
+the SSRI example, then,
+be the opposite of what
+you're saying [INAUDIBLE]?
+Because you'd expect
+increasing neurotransmitters
+to eventually cause a
+decrease in receptors.
+So you should see
+that [INAUDIBLE].
+Great, OK.
+Don't listen to
+anything she just said,
+because she's just gotten to an
+incredibly subtle, complicated
+point about how
+this stuff works.
+Go and read, and memorize,
+and recite to your roommates
+the section on the zebra
+chapter about-- the section
+in zebras-- on
+depression, looking
+at the paradoxical things
+where, at the end of the day,
+people are not sure say, an
+SSRI, a selective serotonin
+re-uptake inhibitor.
+What it does is it blocks
+the re-uptake of serotonin.
+And thus, you wind up with more
+serotonin in the bloodstream.
+Somebody feels less depressed.
+I bet their problem was they
+didn't have enough serotonin.
+Work through the logic of all
+this auto-regulatory stuff
+going on.
+And people still
+are not positive
+if the problem with depression
+is too little serotonin or too
+much.
+Because depending on whether
+the auto-regulation partially
+compensates, completely,
+whether it overshoots,
+and whether it's these
+receptors or these,
+will completely determine
+whether the problem
+is too much or too little of a
+neurotransmitter-- incredibly
+complicated, exactly some
+of the complexities there.
+And that is so
+complicated, in fact,
+that it is essential
+that everybody
+stand up now and go to the
+bathroom for five minutes.
+OK, again, back from the
+other [INAUDIBLE] day.
+Your pituitary is
+releasing all sorts
+of different types of
+hormones under the control
+of all sorts of different
+types of hormones
+signaling from the brain.
+What you get is, the
+pituitary is not just
+made up of one type of
+cell that can secrete
+every single type of
+hormone and response
+to each type there of
+messenger from the brain.
+Instead, you've got
+specialized cells.
+You've got types
+of pituitary cells
+that only secrete
+prolactin in response
+to what's happening there,
+types that only secrete ACTH,
+or secrete luteinizing hormone,
+follicle stimulating hormone,
+so on.
+OK, so they're
+specialized cells.
+Rather than having one part
+of the pituitary, which
+is the we're in charge of
+secreting growth hormone
+neighborhood, and one part
+that's the we do prolactin,
+and rather than it being
+broken up like that,
+instead, it's just a mosaic of
+all the different types that
+are scattered throughout there.
+So that would initially just
+seem like sheer sloppiness.
+Embryology-- they didn't
+quite get it together
+to have discrete neighborhoods,
+that sort of thing.
+But it's just scattered there.
+What's interesting
+about that is,
+you will see any given
+cell in the pituitary
+will go about its
+business, which
+is responding to its
+specific hypothalamic signal
+by secreting whichever
+hormone it specializes in.
+Every single cell in
+the pituitary going
+about its business will be
+a little bit more or less
+sensitive to its
+hypothalamic signal,
+depending on what sort of
+neighborhood it's living in,
+depending on which other
+types of these cells
+it's surrounded by.
+So that you will
+get, for example,
+FSH secreting cells,
+when they tend
+to be in a GH
+neighborhood, are far more
+responsive to their
+signal than when
+they're in an ACTH
+neighborhood or one that's
+a hodgepodge of any of these.
+I don't know what the rules are.
+But what you've got
+there are increased
+ways for regulation of
+the amount of secretion
+by determining which way
+you, the hypothalamus,
+turf the signals.
+Are you aiming for these types?
+Or are you aiming
+for these types?
+More regulation that
+way-- how does that work?
+What it has to be is all sorts
+of communication going on
+amongst the various
+pituitary cells.
+So the pituitary is not
+just sitting there passively
+responding to whatever the
+hypothalamus is saying.
+Instead, there's all this local
+regulatory stuff happening.
+One additional thing
+that was asked-- so
+in this case, what
+we go back to is
+that business of the
+more glucocorticoids
+in the bloodstream in this
+boring, level-sensitive domain
+of you're just measuring
+how much of the stuff
+there is in the
+bloodstream, you're
+measuring there--
+some part of the brain
+is measuring the levels
+of glucocorticoids.
+And the part is actually known.
+It's measuring there,
+and it has its rule.
+Once glucocorticoid
+levels get this high,
+I will send an an inhibitory
+signal to those CRH neurons.
+And as a result, they'll
+secrete less CRH.
+And that turns off
+the stress response.
+The more glucocorticoids
+in the bloodstream,
+the more of a negative
+feedback signal.
+What the person brought up was
+the very astute observation
+that wait, what about
+all those other types
+up there-- oxytocin,
+vasopressin, epinephrine?
+What that means is
+there are sensors
+that are talking to each
+one of those types there.
+And the brain at
+any given point,
+depending on the
+stressor, is saying,
+well, we want this
+much CRH, and we
+want this much of vasopressin
+and this much oxytocin.
+And we're going to
+determine it all
+by measuring the level and the
+shape of glucocorticoid levels
+in the bloodstream, so that
+there's feedback going on--
+not just onto the CRH neurons,
+but to all those other types
+of neurons as well-- incredibly
+messy and complicated,
+nonetheless very elegant.
+Pushing on-- next
+version of complications.
+Now what we've got
+is another feature
+of how receptors go
+about their business.
+This general principle
+doesn't apply all the time.
+But in general, more of
+a ligand for a receptor.
+A ligand, for folks
+not familiar with this,
+a neurotransmitter is a
+ligand for a neurotransmitter
+receptor.
+A hormone is a ligand
+for a hormone receptor.
+The ligand is whatever the
+receptor normally binds.
+So this general-- not
+universal, but general-- rule
+of the higher the ligand
+levels, the more likely
+you are to trigger this
+compensatory down-regulation
+to lower the
+levels, all of that.
+Here's another level of
+regulation that can go on.
+So you've got these receptors.
+They are complicated,
+because their job
+is to bind their ligand and
+to then do something or other.
+And the cell, as
+a result, opens up
+some channel that allows
+a change in excitability
+in the neuron,
+that sort of thing.
+These receptors tend
+to be very complicated.
+And what you wind up seeing is,
+in lots of realms of receptors
+for different types of hormones,
+neurotransmitters, et cetera,
+you actually have
+the receptor made up
+of a number of
+different proteins,
+of a complex of proteins.
+So that for example, here
+we have a receptor that's
+binding a ligand that looks like
+that, just like your premolars.
+And what you have
+there is, it's got
+to come up with a complementary
+shape and lock and key,
+blah, blah, all of that.
+And in this particular
+case, this receptor complex
+is made up of three
+different proteins that
+are needed to pull this off--
+three different proteins, three
+different genes--
+a receptor being
+coded for by multiple genes.
+When you get the more
+fancy, complicated receptors
+they tend to be complexes of
+more than one protein forming
+this pattern.
+So you've got multiple genes.
+That's interesting.
+And of course, we're off
+and running with that.
+What that means,
+then, is you've got
+the potential for
+variation, different flavors
+of the different genes,
+more different ways
+that this could appear.
+There's two different
+variants on this gene.
+There's 17 on this one.
+And you just do the
+combinatorial stuff.
+And thus, you've
+got a huge number
+of ways of generating different
+versions of that same receptor,
+which, of course, will work a
+little bit better, or a little
+slower, or a little whatever--
+variation like that.
+Next complexity that
+you get with receptors--
+you can have a
+receptor that's made up
+of three different proteins.
+And there's four
+different genes that
+make proteins that
+can help construct
+one of these receptors.
+So you can make a receptor out
+of proteins 1, 2, 3, or 1, 2,
+4, or 1, 3, 4, or
+off you go with that.
+Or you can make a receptor out
+of three copies of number one,
+or two copies of number two
+and one copy of number four.
+There's these possibilities of
+all these different subunits
+being different--
+variability that way.
+So another realm
+of regulation is
+when cells change the
+subunits on their receptors,
+when cells will cause,
+say, degradation of-- OK,
+so here we've got this
+three-protein receptor complex.
+And there's four
+different proteins
+that potentially plug into it.
+And this version has one
+copy of A, one copy of B,
+and one copy of C.
+Something may happen
+which will cause the neuron
+to degrade the copies of B
+and replace it with
+D, or replace it
+with another copy of A, replace
+all this combinatorial stuff,
+and thus change a little
+bit how well the receptor is
+doing its job.
+And you see these subunit
+changes all over the place.
+One domain, in terms of the
+neurobiology neurotransmitter
+stuff-- aspects of
+glutamate receptors--
+you guys heard something about
+that the other day-- glutamate
+receptor's essential
+for learning,
+very complicated receptors,
+insanely complicated.
+Part of what learning
+appears to be about
+is not only
+increasing the number
+of copies of a certain
+type of glutamate receptor,
+but changing the
+subunit composition,
+and making for a more
+responsive, more excitable
+version of that receptor.
+There's other realms with a
+different type of receptor
+where, in fact, you've got
+an abnormal subunit that's
+not supposed to be there.
+And as a result,
+this now produces
+a cell that is prone
+towards insanely high levels
+of excitation.
+This is a congenital reason
+for causing epilepsy.
+This is one of the genetic
+forms of epilepsy, where you've
+got the wrong subunit winding
+up in another neurotransmitter
+and its receptor.
+All we're seeing here is lots
+of room for more regulation
+here, mixing and matching,
+changing the subunit stuff.
+That's how you begin to do
+that critical principle.
+Remember, all the stuff
+from the basic functioning,
+the flow of information
+from the dendrites
+to the axon hillock--
+what's that all about?
+No single dendritic input is
+enough to trigger an action
+potential.
+Instead, you have to have enough
+of them, enough summation,
+to reach the threshold that the
+axon hillock has to initiate
+the action potential.
+And the threshold
+could change over time.
+Translate that into this.
+What does it mean when an axon
+hillock's threshold is changed?
+Those critical first channels
+that open up-- you've
+changed the subunit composition.
+So that is a theme all
+throughout this world
+of receptorology and channels
+that open and close and stuff,
+where cells can change which
+are the pieces that make it up,
+and change the
+properties subtly.
+Similar theme that could
+come through with hormone
+receptors-- same exact deal.
+A whole bunch of them are
+multi-protein complexes--
+exact same story.
+You can see something a
+little different when you
+have steroid hormone receptors.
+And as we saw the
+other week, remember,
+it's got two domains-- one
+which binds the hormone--
+glucocorticoid, just to pick
+a random steroid or estrogen,
+progesterone, or whatever-- and
+one that binds to the promoter
+element in the DNA.
+We've got our if/then clause.
+If and only if this
+steroid hormone shows up,
+then you go and you
+activate that gene--
+our conditional clause.
+But what turns
+out to be the case
+is all sorts of steroid
+hormone receptors
+have various other proteins
+that they bind there.
+Co-factors is the
+term given for it.
+And you get different arrays
+of co-factors in different cell
+types.
+And as a result, when
+you activate this,
+it will do different things
+in different cell types--
+cell-type specific coding.
+And of course, the
+exact same theme
+here-- under some
+circumstances, cells
+will change which
+cofactors they have
+holding onto those receptors.
+So what we see here are
+these additional layers
+of potential regulation.
+More complexities--
+next one-- now
+we've hurdled past the
+notion of only one type
+of neurotransmitter per neuron.
+We have hurdled past the
+notion of the same action
+potential will be manifest in
+every single axon terminal.
+Now we see all sorts of
+additional information built
+around changing the
+number of receptors,
+changing the composition of
+them, regulating those ways.
+One additional complication
+here with these receptors,
+which is a lot of them can
+bind more than one thing,
+can bind more than one ligand.
+And we see an amazing example
+of this at the neurotransmitter
+end of the world.
+You guys heard about the
+neurotransmitter GABA.
+GABA is the main inhibitory
+neurotransmitter in the brain.
+It is the workhorse
+for doing that.
+The GABA receptor-- no
+surprise-- binds GABA.
+Its ligand is GABA.
+It is found on the
+dendritic spines
+of GABA-responsive neurons.
+And the neurons
+just upstream of it
+will release GABA in response
+to its action potential,
+and just goes about its thing.
+So what does the
+GABA receptor do?
+It binds GABA.
+And when it binds GABA,
+something or other
+happens so that this neuron
+becomes less excitable.
+It's an inhibitory
+neurotransmitter.
+It turns out the GABA receptor
+is insanely complicated.
+It is, instead, a
+receptor complex
+of a whole bunch of
+different proteins.
+And what the GABA
+receptor does is
+it binds some other
+things as well--
+three different classes, all
+of which are very interesting.
+The first class of additional
+things that it binds
+are things called
+major tranquilizers.
+What does the GABA complex bind?
+And here we have
+our GABA receptor.
+And GABA fits right in there.
+And it turns out the
+GABA receptor also
+has another binding site
+here for major tranquilizers.
+What are major tranquilizers?
+Barbiturates-- this is how
+barbiturates work in the brain.
+There are not
+barbiturate receptors.
+They bind to the GABA receptor.
+There is a side complex on it.
+There is a minor binding
+site on the GABA receptor
+for barbiturates.
+OK, so GABA, inhibitory
+neurotransmitter-- when
+barbiturates are around, does
+that increase or decrease
+GABA signaling?
+OK, who says increase?
+Who says decrease?
+Who says, what?
+OK, me, too.
+I wasn't listening either.
+I'll tell you, lurking
+around in the back
+during those TA's
+lectures, you really
+do get a sense of what
+interesting, non-academic
+things are going on
+people's computer screens.
+But I digress.
+So what barbiturates do is they
+make GABA more inhibitory--
+inhibitory enough
+that you keel over.
+And now they can slice
+you open for surgery.
+This is how one of the main
+classes of surgical anesthetics
+work.
+Then there is
+another binding site
+on the GABA receptor complex.
+And what that does is it
+binds the minor tranquilizers.
+And what are those?
+We've heard about those
+a bunch of times already.
+Those are the benzodiazepine,
+the valium, and the librium.
+And they work there as well.
+And we've already
+heard about how
+anxiety disorders
+in some rodent lines
+are related to
+different versions
+of the gene for the
+benzodiazepine receptor.
+We've just defined
+what that gene is.
+That gene codes for one of the
+subunits of this massive GABA
+complex.
+So there's another domain there
+that binds benzodiazepines--
+the minor tranquilizers.
+What do they do?
+They increase the force
+of GABA signaling as well?
+Do they do it as much as
+the major tranquilizers?
+Of course it's not the case,
+because you wouldn't call
+them minor tranquilizers then.
+These guys potentiate GABA
+signaling a moderate amount.
+These guys potentiate
+it enormously.
+So now we have these additional
+factors binding to these GABA
+receptors.
+A third class-- and
+this is, in lots of ways
+the most interesting
+one of all, which
+is an additional
+binding site there.
+That responds to a hormone
+or a derivative of a hormone.
+What is it responding to?
+Derivatives of progesterone.
+Progesterone has a binding
+site on the GABA receptor.
+Progesterone is a
+steroid hormone.
+It's normally doing
+its thing here.
+And now we have, instead, having
+a minor slot there on the side
+there that responds
+to progesterone.
+What does progesterone do?
+It also potentiates
+the effects of GABA.
+What's that about?
+Two implications--
+one is, in the 1950s,
+one of the most common
+surgical anesthetics used
+was a drug called
+Althesin, and it was
+a derivative of progesterone.
+People in the '50s
+would be anesthetized
+with this supposedly
+reproductive steroid hormone,
+because it has this effect
+on the then undiscovered GABA
+receptor.
+It potentiates inhibitory
+GABA signaling.
+That's weird.
+So progesterone--
+clearly, this relationship
+did not evolve so that
+people could do surgery
+on people who didn't want
+to get major tranquilizers,
+and instead deal with
+the progesterone route.
+Where is this relevant?
+It seems to have something to
+do with some of the mood shifts
+over the course of the
+reproductive cycle.
+There are reasons, and
+pretty good evidence
+in lots of domains, where
+perimenstrual syndrome--
+pre-menstrual
+syndrome, PMS-- which
+is more accurately
+called perimenstrual--
+both before and after.
+What that involves,
+clearly in some women,
+is a shortage of
+progesterone having
+some of these minor
+tranquilizing effects
+by way of the GABA
+receptor complex.
+So this is incredibly
+complicated stuff
+going on here, as you can see.
+Final domain-- final
+interesting elaboration,
+which is now bringing in a
+whole additional concept--
+and deserves a board
+all of its own.
+So here we have
+circular neurons.
+And what we've got is, this is
+the neuron we're interested in.
+What's it up to?
+And this is neuron
+A. And just to force
+some cognitive flexibility,
+this is neuron B,
+going in the wrong direction.
+So we've got neuron B releases
+an excitatory neurotransmitter,
+and thus, excites A. OK,
+this is not earth shattering.
+It's probably releasing,
+say, glutamate for example.
+So remember GABA-- that
+inhibitory neurotransmitter
+we just heard about.
+So GABA does inhibitory stuff.
+So maybe there is a GABA neuron
+here sending its projection,
+and this one is inhibitory.
+Notice what we've done by
+turning neurons into spheres.
+We've lost all the
+little dendritic spines.
+So translate that into back to
+what it actually looks like.
+This is just schematic.
+So we've got two inputs.
+We've got an excitatory
+input by way of glutamate.
+We have an inhibitory
+one with GABA.
+What does that imply?
+Dendritic spines in this
+neuron contain both receptors
+for glutamate and
+receptors for GABA.
+That would be straightforward.
+That would be simple,
+if that's how it works.
+That's not what you see.
+Instead, GABA neurons
+never send a projection
+onto what would
+be neuron A. What
+they do is they send a
+projection onto neuron B.
+What's that about?
+What's that about is
+what GABA is doing
+is making this neuron
+less excitable.
+It's working as an
+inhibitory neurotransmitter.
+It's making this
+neuron less excitable.
+What's happening
+here-- this neuron
+has just started
+an action potential
+that's coming down the axon.
+And thanks to a heavy
+GABA signal coming out,
+it silences it.
+It never gets to the end, and
+dumps the neurotransmitter.
+This is totally weird.
+This is completely different
+from all the wiring
+you've seen already.
+What's bizarre about it?
+Number one, this is a
+neuron forming synapses
+not on the dendrites
+of this neuron.
+It's forming a synapse
+on the axon of this.
+And thus, we have what is
+termed an axoaxonic synapse.
+What does that also imply?
+That there have to be GABA
+receptors sitting there
+at the pre-synaptic
+end-- just as
+bizarre as the
+pre-synaptic autoreceptors.
+Remember, those are for
+measuring the amount
+of release-- bookkeeping stuff.
+But here, this is
+perfectly conventional
+neuronal responding
+to a neurotransmitter,
+but coming at the
+completely wrong end
+with this weird
+axoaxonic projection.
+But what's most important here
+is seeing this implication.
+So what is it that
+this neuron does to A?
+What does this GABA neuron
+do to the excitability of A?
+And the answer is,
+it does nothing.
+It has no effect on
+the excitability of A.
+What this GABA neuron does is
+alter the ability of neuron B
+to do something
+to A. This neuron
+has no direct effect here.
+What it does is it modulates
+the activity of this neuron.
+And thus, you have a whole new
+class of type of communication.
+Technically, rather than
+working as a neurotransmitter,
+it would be termed
+GABA typically
+serves a neuromodulatory
+role in the nervous system.
+And that's this wonderful
+conditional clause
+yet again-- yet
+another if/then clause.
+GABA decreases
+excitability if and only
+if this neuron is trying to
+send an excitatory signal.
+All that GABA does is snuff
+out an excitatory signal
+coming down here-- so
+modulation in that regard.
+We've already seen another
+example of that writ small.
+Back to the GABA complex here.
+What do the major
+tranquilizers do there?
+What do barbiturates do?
+They do not make this
+neuron less excitable.
+What they do is, if and only
+if there is GABA coming in,
+it makes the GABA
+work even better.
+The tranquilizers do
+not inhibit the neuron.
+The tranquilizers
+modulate, potentiate,
+the activity of GABA.
+The minor tranquilizers the
+same thing, the progesterone
+the same thing.
+So this is a different
+level of this concept
+of neuromodulation--
+if/then clauses
+all over the place here.
+So if and only if GABA
+is doing its thing,
+any of these minor ligands
+will potentiate it.
+If and only if this neuron
+is trying to stimulate here,
+GABA will have an inhibitory
+effect on the whole system.
+So you see lots and lots
+of this modulatory stuff.
+Final example, seeing the
+same principle of modulation,
+now occurring in an
+endocrine system.
+OK, so now we're measuring
+the amount of ACTH coming out
+of the pituitary,
+and back to that deal
+that we've got all
+these different ways
+in which the brain can
+cause the release of ACTH.
+And starting off, we saw CRH.
+So suppose you throw in some
+CRH on top of the pituitary
+there, inject it
+into the circulation.
+And this much ACTH comes out.
+OK, that's good.
+Now, instead of putting on
+CRH, you put in both CRH
+and vasopressin-- a
+second one of those.
+And what do you see?
+That's perfectly logical.
+You've got two things
+driving ACTH secretion.
+Now you put on vasopressin
+just by itself.
+And what you get is this.
+You get no secretion.
+Does vasopressin stimulate
+the release of ACTH?
+No, it doesn't.
+What vasopressin does
+is it potentiates
+the activity of CRH.
+It modulates CRH's activity.
+Vasopressin does
+nothing by itself.
+If and only if
+there is CRH getting
+to those pituitary
+cells, then vasopressin
+will potentiate its actions.
+All of those other
+releasors-- the vasopressin,
+the oxytocin, epinephrine,
+norepinephrine-- none of them
+are direct releasors
+on their own.
+They all are modulating,
+potentiating CRH's effects.
+So what we've got here
+is this enormous realm
+of complexity of
+all of these if/then
+clauses, various hormones
+that are not directly
+causing anything,
+neurotransmitters that are not
+directly causing anything,
+ligands for receptors
+that are not, either.
+What they're all
+doing is, if and only
+if something else is happening,
+something else is going on,
+there's an additional
+ligand, they
+do their thing-- lots and lots
+of these conditional clauses.
+More complexity there.
+OK, so what does all of
+this get us here at the end?
+Obvious-- lots of
+individual variability,
+lots of ways in which
+these systems are changing
+in response to experience, all
+that subunit changing business.
+Something happens and you
+get rid of one subunit.
+Replace it with another,
+and you've changed
+the excitability of the system.
+All sorts of over and over
+conditional if/then clauses,
+tremendous increase
+in the complexity.
+These themes will come
+through again and again
+in the second half
+of the course.
+So let's stop at this point.
+Are there any questions, since
+this was a major download?
+Check the extended notes.
+Are the extended
+notes posted yet?
+Not yet.
+They will be some time or other.
+OK, any questions?
+OK, so go read those notes
+as soon as they're up.
+For more, please visit
+us at Stanford.edu.

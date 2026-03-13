@@ -1,0 +1,3664 @@
+21. Chaos and Reductionism
+==========================
+
+[MUSIC PLAYING]
+Stanford University.
+And we are not going
+to work our way
+through the behavior on the
+right and march to the left.
+And instead, we'll
+be trying to come up
+with some ideas that are
+going to apply to everything
+we hear about in here.
+And overall, these are probably
+the most difficult lectures
+of the course, the most
+difficult material,
+in part because I'm not sure
+if I completely understand
+what I'm talking about.
+But also because
+this is intrinsically
+some really different ways
+of thinking about things
+in the realm of science.
+And that's one of
+the reasons why
+I forced you guys to
+read this Chaos book.
+And again, as I think I
+mentioned in the first lecture,
+this incites a subset of
+people to passionate enthusiasm
+about the book.
+It incites another small subset
+into just the most greatest
+level of irritation
+that this was assigned.
+And everybody else
+is just vaguely
+puzzled and kind of sort of
+sees the point, but how come?
+This book, when I first read
+it, and so my first introduction
+to the whole field, this
+was like the first book
+I had read where I finished it
+and immediately started over
+again, the first
+one since, like,
+Where the Wild Things Are
+in terms of influence.
+This was an incredibly
+challenging book
+in terms of questioning
+all the ways in which I
+think about sort of
+reductive science.
+And hopefully, it will
+do the same for you.
+And as part of it, posted, there
+is the one and only homework
+assignment in the
+entire course, which,
+just to make things easier, will
+not be collected or looked at.
+But what you should do is there
+is a whole exercise up there
+in generating something that
+are called cellular automata.
+Do not panic yet.
+There's plenty of time to panic.
+Where you will be making
+some of those on your own.
+And all I ask from
+you guys in terms
+of making sense of
+these exercises is
+do not sleep between
+now and Friday.
+Spend all of your time working
+on them, do nothing else.
+Take occasional breaks
+to eat or the bathroom.
+But other than that,
+do nothing but this
+between now and Friday.
+And let's see how everybody
+feels about it on Friday.
+OK.
+So picking up, where we
+need to start off with
+is trying to get a framework for
+the standard Western approach
+to understanding complicated
+systems with scientific bases.
+400 or so AD, Rome falls,
+collapse of the Roman Empire,
+entering an unbelievably dark
+period in terms of ignorance,
+in terms of the Dark
+Ages throughout Europe,
+the level at which
+people did not
+understand how the
+world worked, the level
+at which people had lost
+knowledge from previous times.
+Books were gone.
+Philosophers were gone.
+The level of just isolation,
+intellectual isolation,
+was phenomenal.
+It was during that
+period, it was
+as if 500 years before people
+had known the cure for cancer,
+and for AIDS, and for being
+able to fly on your own,
+and all of that, and somehow
+in the aftermath of the empire
+falling apart, all of
+that knowledge was lost.
+Literacy went down the tubes.
+And this was a period that
+gave rise to words like,
+having an audit, having an
+audit about your finances,
+making an oral argument
+before the judges,
+having hearings about something
+or other before the court.
+Because all of these
+were about speaking,
+about auditory transmission
+of information because nobody
+could read anymore.
+This was a period
+where there was
+no Western European language
+that had the word progress
+or ambition in it.
+These were non-existent
+concepts at the time.
+Utter intellectual isolation,
+utter social isolation,
+during a time the vast
+majority of people
+lived in small villages, where
+you would go 50 miles away
+and people spoke a dialect
+that you could not understand,
+that degree of isolation.
+Estimates are the
+average person never went
+more than 12 to 15
+miles away from where
+they were born in their entire
+life, incredible isolation.
+And incredible
+ignorance ultimately
+about how you explain causality
+in the world because of all
+of the information was gone.
+Then something dramatic
+changed in the year
+1085, which is the first
+European Christian conquest
+of a major Islamic city, a
+major Moorish one in this case,
+Toledo in Spain.
+Spain at the time, which was
+Moorish and known as Alhambra
+at the time, this
+was the first city
+to fall to Christian troops
+since Islam swept in there.
+And this was basically sort
+of a second rate kind of city.
+This was not some
+major center, Toledo.
+But simply by
+European forces having
+captured that city, something
+extraordinary happened, which
+was within that city was a
+library, with more books than
+existed in all of Christian
+Europe put together.
+This simple library in this
+sort out of the way podunk sort
+of the city there
+out in the boondocks,
+one run-of-the-mill library
+there had more cumulative
+information than was available
+to all of Europe at the time.
+And suddenly, Europe got
+to rediscover philosophers,
+Aristotle, Plato, all of that.
+They got to rediscover logic.
+They got to rediscover
+all the great works.
+Suddenly all of
+those flooded back
+into Europe and the
+first beginnings of sort
+of a modern mindset about
+complexity started to emerge.
+People suddenly began to do
+things, like able to think
+transitive and
+with transitivity,
+in a transitive manner, where
+you would see a is bigger
+than b, b is bigger than c.
+And you had this startling
+revolutionary notion,
+which is you now
+can know something
+about the relationship
+between and a and c
+without having to directly
+compare them with each other.
+This was an astonishing sort
+of logical breakthrough.
+Syllogism, syllogism
+suddenly appeared in Europe
+for the first time in
+centuries, the ability
+of people to do
+things like, say,
+if all things that
+glow have fire, then
+stars glow and thus stars have
+fire, syllogistic thinking.
+That had been utterly gone.
+And suddenly, people
+began to think
+about what is, where that
+had been lost for centuries.
+And all of that culminated
+in a certain sort
+of emergence of what we
+would now call science.
+Thomas Aquinas coming
+up with an amazing,
+an amazing quote, that
+summarizes all of what
+was happening at the time.
+He listed three things
+that God could not do.
+The first two were just
+sort of theological stuff.
+God cannot sin.
+God cannot make a
+copy of himself.
+It's the third one that
+was just earth-shaking.
+Third, even God cannot make
+a triangle with more than 180
+degrees.
+And in that one concept,
+Aquinas had just
+said if it comes up against
+sort of the old knowledge
+and science, science wins.
+And that was an absolutely
+landmark moment.
+God could do anything, but
+still can't make a triangle
+with more than 180 degrees.
+This was the beginning of the
+transformation of the world.
+And this immediately had
+impact, all sorts of domains,
+not just this very
+pedestrian one,
+which is if something
+broke you could fix it.
+That was a concept that was
+very, very rare around then.
+But the ability to
+construct events
+by looking at
+overlapping fragments.
+A crime has occurred
+and there is
+no individual who has watched
+the entire crime happen.
+But one person saw what
+happened from point A to C. One
+saw from B to D. One
+for all from C to--
+and suddenly, there
+was this realization
+that you can figure
+out what went on
+by putting these various
+overlapping bits of data
+together, a completely
+revolutionary idea
+and completely transformed
+the notion that how
+do you figure out if
+somebody did a crime prior
+to this period,
+what you would do
+is to throw them in
+the river, for example.
+And if they sank and
+drowned, obviously they
+had done the crime.
+Good luck there.
+In terms of having figured
+that out, good detective work.
+That's how you think
+figured if somebody had
+done something wrong or not.
+You set fire to them.
+And if they burned, oh,
+they were obviously guilty.
+And suddenly this
+concept instead,
+not only using facts, not
+only using observational data,
+but that you could derive
+what occurred without any one
+individual having
+seen the whole thing.
+You can reconstruct
+things with overlapping.
+This was just landmark.
+This just transformed
+everything.
+And somewhere around
+this time began
+to emerge what we
+would recognize
+to be sort of the
+proto-baby steps of what
+would be modern science.
+And in the aftermath of this
+period came what was basically
+the single most
+important concept
+in all of science in
+the last 500 years,
+which is the idea
+of reductionism.
+To find, very
+simply, if you want
+to understand a complex
+system, you break it down
+into its component parts.
+And when you understand
+the individual parts,
+you will be able to
+understand the complex system.
+Reductionism, this is at
+the core of everything
+that we do in science, in
+modern science, centuries worth.
+The notion that
+complicated things
+can be explained by
+looking at their component
+parts, the smaller
+pieces that make them up.
+And what's intrinsic in that
+is the concept of linearity,
+of additivity.
+You got something complex
+and you break it down
+into its component parts.
+And once you figure out how
+those component parts work,
+all you need to do
+is add them together
+and they will increase in their
+complexity in a linear manner
+and you will produce the
+whole complex system.
+This is Westernized
+reductionism.
+And it came with a
+bunch of corollaries,
+that we take for granted by now.
+The first one being,
+in a reductive system
+where the component parts
+and how they worked,
+just add them together.
+And in a straightforward
+way, that
+will produce your
+complex system.
+One sort of
+consequence of that is
+if you know the starting
+state of a system,
+as defined here, if you know
+what the little component
+parts all are, if you
+know the starting state,
+you will have 100%
+predictability
+of what the full complex
+mature system will look like.
+So starting state allows you
+to predict what comes later.
+And related to that, if you
+know the complex system,
+you can figure out what
+was the starting state.
+That there is point
+for point relationship
+between the simple
+building blocks
+and the complex systems
+that come out the other end.
+And this gave rise to
+an extraordinary thing,
+which was the ability
+to extrapolate,
+to be able to see the
+answer to something
+in different iterations,
+and to use the same rules
+and apply them over and over.
+OK, what do I mean by this?
+Suddenly this amazing notion
+that, OK, if x plus y equals z,
+you will then know
+that x plus 1 plus y
+is going to equal z plus 1.
+And x plus 2, all of that.
+And the same exact
+principle would
+hold for some, like, bizarre
+idiot equation or whatever,
+like that.
+It doesn't really matter
+what all of this is.
+You know absolutely beforehand
+simply by this business
+of additivity of component
+parts that whatever this is,
+it's going to equal z plus 1.
+You could come up with
+an answer to something
+without having to go through
+the calculations all over again.
+You could go through
+x plus whatever
+and you know it's going to be
+z plus whatever without having
+to sit there and measure it.
+You could extrapolate.
+You can use reductive
+knowledge, the linearity,
+going from this to this.
+You're still using
+the same rules.
+That allows you to
+go from this to this.
+Applications of it are
+purely reductive linear set
+of systems.
+And this was revolutionary.
+So that's great.
+You don't need to go through all
+the calculations at every step
+of the way to be able to
+know the starting state
+and thus know what the
+mature state is about.
+Look at the mature
+state, you know
+what the starting state was
+point for point to relatedness.
+That's great.
+Finally, another feature
+of reductive systems
+like these is the really
+fancy ones require blueprints.
+What do I mean by blueprints in
+this case that requires already
+a notion of what the mature
+state is supposed to look like?
+Which is intrinsic
+in what I just said,
+if you know the starting state,
+you will know the mature state.
+But the belief that in
+terms of quality control,
+you have to have some
+representation of what
+the mature state is
+supposed to look like,
+a blueprint; in order to know
+if you're doing the right thing,
+feedback along those lines.
+If you're really going to
+do something hard and fancy
+in this reductive
+world, you've got
+to have a road map
+at the beginning.
+You have to have a blueprint.
+You have to have something
+that already shows you
+what the outcome is going
+to be when you apply
+these linear additive rules.
+And the way you
+go about doing it
+is shaped by the blueprint,
+the instructions that
+are intrinsic in this.
+This is everything about
+Westernized reductionism.
+One important additional
+component to it, which is you
+go measure something or other.
+And what's the normal
+temperature in humans, 98.6.
+There's no way you
+take a whole bunch
+of perfectly healthy humans and
+they're all going to have 98.6.
+There is going to
+be 98.6 and there
+will be variability around it.
+And you could express
+that so that you wind up
+having an average of 98.6
+and some sort of term
+that denotes variability.
+There's variability.
+There's different
+values for something
+that winds up averaging
+out to something like this.
+And thus this critical
+question, in a reductive world
+of thinking about science and
+the way fancy things work,
+what do you make of variability?
+What is variability about?
+An intrinsic in this whole world
+of know the starting state,
+you know the mature state;
+you know the mature state,
+you knew how the
+starting state was.
+The rules allow
+you to extrapolate.
+It takes a blueprint.
+Intrinsic in there was
+an absolute clear opinion
+as to what variability is,
+which is to say it's noise.
+It's junk in the system.
+It's a pain in the rear.
+And it's stuff you
+want to get rid of.
+What is intrinsic in this
+whole reductive view is noise
+represents instrument
+error; instrument
+error, instrument in the
+largest metaphorical sense.
+Instrument, somebody's
+observation to machinery.
+Variability represents
+noise, represents the system
+you use to measure
+stuff, to observe stuff
+not working perfectly.
+It represents something
+you want to avoid.
+And what was also intrinsic
+in that inductive view
+is the surest way to avoid that
+is to become more reductive.
+The notion that the closer you
+look to a phenomenon, the more
+detail you see it
+with, the more you
+are looking at a
+more reduced level
+closer to the component
+parts, the closer
+you will be to seeing
+what's actually going on.
+And as you look
+closer and closer,
+variability should disappear.
+Because the variability is
+just noise in the system.
+And if you're trying to measure
+people's body temperature
+by being up in a
+Zeppelin and looking
+at people with your
+sort of binoculars
+and trying to see if
+they're sweating or not
+and come up with
+an estimate then,
+that's going to be a lot
+more variable than if you now
+do something more
+reductive, like put
+your hand on their forehead.
+Oh, do they feel hot or not?
+And thus, there will
+be less variability.
+And even less if you now
+invent yourself a thermometer.
+This whole notion that as
+you get fancier techniques
+for examining a phenomenon,
+as you get techniques that
+allow you to be more
+and more reductive
+and look closer and closer,
+there will be less variability.
+Because sitting way down
+at the bottom of all
+this reductive processes there
+is an iconic, an absolute,
+an idealized norm as
+to what the answer is.
+If you see anybody
+not having 98.6
+it's because there's noise
+in your measurement systems.
+Variability is noise.
+Variability is
+something to get rid of.
+And the way to get
+rid of variability
+is to become more reductive.
+Variability is discrepancy
+from seeing what
+the actual true measure is.
+And that has been
+a driving force
+essentially in all
+of science in terms
+of the notion of inventing
+new ways to look at things.
+More powerful microscopes,
+more powerful ways
+of measuring the levels
+of something or other
+in the bloodstream, all of
+them built around the notion
+that the closer we look
+to the component parts,
+the closer we will be to
+seeing how the system really
+truly works and be able
+to finally see what truly
+is going on without the noise.
+Because all noise
+is is discrepancy
+from what is truly going on.
+So in that view, what
+you, of course, wind up
+having is an extension of that
+in beginning to think about
+how, like, bodies work
+in biology and all that,
+as you begin to look at
+that as an example of a very
+complicated system.
+And, of course,
+what you then have
+in a reductionist view is
+if you want to understand
+how the body works, you need to
+understand how the organs work.
+And if you want to
+understand how organs work,
+you need to understand
+how cells work,
+and cells all the way
+down to molecules,
+all the way down there.
+And the notion that the
+closer you get to all the way
+down there, and once you
+understand things down
+at that level, the
+purer, the more accurate
+your answers will be.
+And all you do then is add
+the pieces together and out
+comes your whole body.
+So where does that
+begin to cause problems?
+The fact that the
+body simply can't
+work that way, a whole bunch
+of realms in which reductionism
+has to fail when you're
+looking at biological systems.
+One example of this,
+the first one, and this
+is immediately jumping
+into neurobiology,
+this was classic work, work done
+by these two neurobiologists.
+Anyone who was in
+BioCore sort of
+went through me haranguing
+about how great these guys were,
+a pair of neuroscientists,
+Hubel and Wiesel,
+absolute giants in the field.
+In the 1950s, up to
+the 1960s, everybody
+thought that they had discovered
+exactly how the cortex worked.
+And what they found was a
+phenomenally clean reductive
+world of how you
+extracted information
+from the visual
+world around you.
+I will spare you the details
+because it's not important.
+But what they
+basically showed was
+you could find individual cells
+in the retina that corresponded
+to individual neurons
+in the simplest
+part of the visual cortex.
+And between them, you had
+simple point for point reductive
+relationships.
+If you stimulated
+this one retinal cell,
+it's associated neuron in
+this part of the cortex
+would get excited and
+have an action potential.
+If you shift your
+electrode over a smidgen
+and stimulate the
+one right next to it,
+the neuron right next to this
+one is going to get stimulated.
+In other words, if you know
+the starting state, which
+receptors in the eye
+have been stimulated,
+you have 100% predictability
+of which neurons appear,
+are going to fire.
+And the converse, know
+which ones fired here.
+And you have
+complete information
+about the starting state.
+And what they did was
+begin to build on that.
+They showed that insofar as
+that first layer of the cortex
+had this one to one
+correspondence with one cell
+here to one cell there, what
+did individual neurons know
+about in this simple part
+of the visual cortex?
+These neurons knew
+how to recognize dots.
+Each neuron could
+recognize a dot
+and one dot only and was the
+only neuron that recognized it.
+This was a point for
+point reductive system.
+And take all those individual
+little neuron component parts,
+each of which then knew
+something about one dot,
+and put them together
+and you could
+begin to get some information
+about what just hit the eye.
+What they then showed was
+the next layer of the cortex.
+And again to simplify
+things as much as possible,
+what they began to
+see was you would now
+stimulate one of
+those retinal cells
+and one neuron in the
+first layer of cortex
+would get excited.
+Nothing would happen
+in the second layer.
+Shift over, stimulate
+the next one over,
+the next one over, nothing in
+the next part of the cortex,
+over and over and over,
+over and over and over,
+and then suddenly one of the
+neurons in the second cortex
+gets excited.
+If and only if you first
+stimulate this photoreceptor,
+followed by this, followed
+by this, followed by this,
+followed by this.
+What does that neuron
+know about, light moving
+in a straight line
+in this direction.
+That part of the cortex
+could extract the information
+from that first layer and
+put them together and get
+different sorts of information.
+And, thus, you would
+have another neuron there
+that would code for an angle
+that was slightly different,
+and another one there.
+And then ones for
+different parts
+of the cortex, different
+parts of the visual system,
+and very long lines or
+very slow moving lights
+or things like that.
+What do neurons in that
+second layer know about?
+They know how to
+recognize straight lines.
+And you could see again,
+this is a reductive system.
+Because you know the wiring
+that goes from one layer,
+from the eye, to this
+layer, to this layer.
+And thus, if you know
+what's going on here,
+you can work backwards and
+know what's happening there
+and what's happening
+in the eye and the same
+with the other direction.
+A point for point
+system, where now you're
+beginning to extract a higher
+level, a hierarchy of analysis,
+but the same exact reductionism.
+And just to then begin to show
+what they then went on to,
+again this is very
+simplified, now
+you begin to get neurons here.
+One of them will
+respond to this line.
+Another will respond
+to this line.
+Another will respond
+to this line.
+If and only if
+these three neurons
+are firing
+simultaneously, one neuron
+in the next layer of the
+visual cortex would fire.
+What do neurons
+there know about?
+Each one knows about a
+curve and one curve only.
+The same exact
+thing again, which
+is point for point reductionism.
+If you want to
+understand the system,
+you need to understand how
+every single neuron is wired
+to every next one in line.
+And once you got that,
+all you need to know
+is what information,
+what activity,
+is happening at any level.
+And you've got 100% knowledge
+of what will be going on here,
+and here, and here, a
+purely reductive system.
+Everybody loved this.
+This was the greatest stuff
+that happened in neurobiology.
+This was arguably the most
+important work in neurobiology
+between, like, 1950, 1975.
+The two of them got
+their Nobel Prize.
+People would have given them
+a dozen if they could of.
+Because what had
+they just solved,
+they just showed how the brain
+processes sensory information,
+how it extracts information
+from the world around
+and turns it into complex
+bits of sensory information.
+Because it was completely
+obvious at this point what
+was going to happen,
+which was above this,
+there would be a
+layer that had neurons
+that could respond to a
+certain number of curves
+simultaneously.
+It can start seeing
+three dimensions.
+And then above that is one
+where the three dimensions
+are changing over time.
+It can detect movement of
+a three-dimensional object.
+And the notion was you
+would be able to just go
+up a layer after layer of
+reductive pointilist wiring
+and way up on top, you would
+have this super-duper layer
+of visual cortical processing.
+And all the way up on
+top, somewhere up there,
+you would now have a neuron that
+knew one thing and one thing
+only, knew how to recognize
+your grandmother's face
+at this angle.
+And the notion would be
+that right next to it
+was another neuron that
+recognized your grandmother's
+face at this angle,
+and then one like this.
+And right behind, with
+the rows of neurons
+recognizing your grandfather.
+And everybody
+decided this is it.
+Just take this world
+of Hubel and Wiesel's
+stepwise extraction of
+information and keep going.
+And that's how the brain
+winds up recognizing faces.
+And meanwhile,
+people subsequently
+showed in the auditory cortex
+that the correspondence
+between one cochlear
+cell, one hair cell there,
+recognizing a single note,
+up to chords, up to OK.
+So now you go up
+enough layers there
+and you will find a layer
+that your single neurons then
+know your grandmother's
+favorite symphony.
+And that's it.
+All the way up, you
+would eventually
+find neurons that were
+specialized in really
+complex sensory information.
+And all you had to
+do was just keep
+going like this in this
+purely reductive way
+and you've got it
+up there on top.
+And people at the
+time actually did
+refer to these as
+grandmother neurons.
+The notion that
+enough layers up here,
+you would get neurons
+that responded to a really
+complex thing and only to that.
+And it was the only neuron
+that responded to that point
+for point, one thing
+and one thing only.
+And that all you needed to
+do was just keep doing this
+and you would eventually
+get neurons that
+recognized your grandmother.
+So right around the time
+that Hubel and Wiesel got
+their third layer here, and
+this took them about 15 years,
+they decided to go
+study something else
+in the visual system.
+And that turned out to be
+at least as interesting
+as this stuff.
+But everybody else
+leapt in at that point,
+to try to find the next
+layer, and the layer,
+and the next layer.
+And Hubel and Wiesel had
+shown a remarkable bit
+of wisdom or
+intuition by bailing
+on the field at that point.
+Because to this
+day, hardly anybody
+has ever shown the existence
+of a grandmother neuron
+all the way down there.
+They simply don't exist.
+OK, that's a lie.
+They do exist.
+But there's very few of them.
+There's sparse coding.
+Occasionally, you find
+neurons that show grandmother
+neuron-like processes,
+neurons, a single neuron that
+will respond to a face
+and only one type of face,
+way up there in many layers
+of visual cortical processing.
+There are some of those.
+And there was a paper in
+Nature some years ago,
+which was one of the weirdest
+papers I have ever seen.
+Really interesting in
+terms of what it showed,
+but weird from the
+standpoint of what
+were these folks thinking
+to actually test this?
+And they were recording
+from the very upper layers
+of visual cortex
+in monkey brains.
+And they found some
+neurons that responded.
+One neuron would respond
+only to a certain human face,
+encoding a
+grandmother-type neuron.
+Here's the bizarre
+thing in that paper.
+What they discovered
+were neurons
+in the brains of
+these rhesus monkeys,
+where there would be a single
+grandmotheresque neuron.
+And what they found
+was a neuron that
+would respond to a picture
+of Jennifer Aniston.
+You think I'm being sarcastic.
+They found a Jennifer
+Aniston neuron,
+which would respond
+to a photograph of her
+at all sorts of different
+angles, a caricature, all
+of that.
+They went and showed the
+grandmother specificity of this
+by showing that-- and this
+is in the paper-- it did not
+respond to Julia Roberts.
+It did not respond to Brad Pitt.
+Brad's very
+meaningfully with that.
+It did not respond to
+Jennifer Aniston and Brad Pitt
+in the same picture.
+And God knows what was going on
+with Angelina Jolie with that.
+OK, that shows
+how bizarre it is.
+The one other thing
+they discovered
+this neuron would respond to was
+a picture of the Sydney Opera
+House.
+What's up with that?
+So this is, to knowledge, almost
+a perfect reductive grandmother
+neuron.
+The bizarre thing being, what
+made these guys figure, I know,
+let's go get a picture
+of Jennifer Aniston
+and show it to the rhesus
+monkey and see what happens?
+Where did that come from?
+I recall, there
+was not a whole lot
+of illuminating information
+in the methods section
+as to where those sort
+of pictures came from.
+But, so there are some these.
+Some of them do exist, cases
+of what people in the field
+call sparse coding, where
+you only need a few neurons
+to recognize some really fancy
+things, like Jennifer Aniston.
+Nonetheless, the vast, vast
+majority of the attempts
+to find grandmother
+neurons failed dismally,
+for a very simple reason.
+OK.
+How many neurons do you need
+where each one knows one dot
+and one dot only?
+You need the exact
+same number of neurons
+as the number of
+photoreceptors in your retina.
+How many neurons do
+you need in this layer
+that turns these into lines?
+Well, you need one
+that's going to respond
+to a line of this
+length, and then one that
+will respond to this length,
+and one of this length,
+and one of that length,
+and the one that's
+a slightly different angle.
+You need, like, 10 times more
+neurons in this layer than this
+to be able to pull
+off that processing.
+How many neurons do
+you need in this layer?
+Like, tenfold, 100-fold
+more than here.
+And how come you don't
+even have the next layer,
+let alone the grandmother
+neurons in these three numbers
+because you run out of neurons.
+There's not enough neurons
+in the brain, let alone
+the visual cortex, to
+process stuff that way.
+You can't have a
+layer above that
+because you've run
+out of neurons.
+In other words, there's not
+enough neurons in the brain
+to do face recognition in
+a point for point reductive
+manner.
+The system breaks
+down because of lack
+of enough numbers of things.
+And what people
+have been doing ever
+since then, what's become
+the dominant sort of approach
+in that field, is an explicitly
+non-reductive approach, which
+is now looking at something
+called neural networks.
+Information, the really
+fancy complex information,
+like what everybody
+else from Friends
+looked like, except
+for the Aniston neuron.
+Really complex
+information is not
+coded for in a single
+protein, a single synapse,
+a single neuron.
+It's coded for in patterns,
+in patterns of activation
+across hundreds,
+thousands of neurons,
+networks that are interacting.
+So you have a complete crashing
+and burning of what up to here
+seemed like the greatest
+demonstration of point
+for point reductive processing
+of sensory information, which
+just led you all the way
+up to grandmother neurons.
+And they basically don't
+exist because you run out
+of neurons at this point.
+You can't solve the problem
+of recognizing faces
+by using reductive
+component partner biology.
+The next domain where
+it falls apart as well.
+OK, what do we have here?
+Either we've got
+a canal on Mars,
+or we've got a frost patten on
+a window, or we've got a tree,
+or we've got a pattern of, like,
+long branching of some sort.
+What do we have?
+We have a bifurcating system.
+And the characteristic
+of a bifurcating system
+is it is scale-free.
+On a certain level, if this is
+what the drainage line looks--
+you know, the Nile emptying out
+into sort of the Mediterranean
+as seen by a satellite.
+And if you're looking
+at the dendrites
+on one single neuron with
+an appropriate microscope,
+if you look at it formally in
+terms of the branching pattern,
+you can't tell which
+one you are looking at.
+The complexity of the
+branching is scale-free.
+So it turns out some of
+the most important things
+we have in our bodies
+are bifurcating systems.
+All the branch points on
+neurons are bifurcating.
+And maybe what we'll post
+is some amazing pictures
+of bifurcating dendritic
+trees of neurons.
+And they're called
+dendritic trees
+because they look
+just like trees.
+And when they get more
+complex for some reason,
+you are said to have increased
+their arborization, using terms
+straight out of treeology, so
+neuronal complexity in terms
+of its branch points.
+Look at the circulatory
+system and it's the same thing
+as a bifurcating system.
+You've got your descending
+aorta, which is ascending here.
+And then it splits into
+two, and splits into two,
+and splits in-- and
+it a tree, bifurcating
+into a whole bunch of little
+capillaries at the end.
+You look at the
+pulmonary system and it
+is the exact same
+bifurcation, coming down
+your trachea, which
+splits into two bronchos,
+and then splits into
+branchioles or whatever.
+And it's the same exact thing.
+So you've got this theme
+of bifurcating systems
+throughout living
+systems in the body.
+And notice the
+difference in scale.
+If this is the blood vessels,
+we are talking about millions
+of cells making up the
+blood vessel walls.
+But here, we are
+seeing potentially
+the exact same
+complexity of branching
+in a neuron that's a single
+cell, independent of scale.
+And you can have just as
+complex branching coming off
+of a single neuron as the
+branching you're getting
+in a gazillion
+different capillaries
+in the tree of
+projections it comes from,
+the same exact
+degree of complexity.
+So now we come to
+the problem here,
+which is so how does
+the body code for that?
+How does the body give
+out the instructions
+as to how to make a
+bifurcating system?
+And this is where you
+immediately run into trouble.
+What's a world we're
+sort of oriented to?
+In a purely reductive
+world, there
+is some sort of set of rules
+telling an aorta, that's
+growing like this, that there
+is some gene or genes which
+specify the point
+where this bifurcates.
+And this bifurcates
+and it's two inches
+in diameter or something.
+Meanwhile, at a
+later point, where
+it's about an inch in
+diameter, it bifurcates.
+It's a different
+gene or set of genes
+that specifies this bifurcation
+and another type of gene that
+specifies the next one.
+And those are obviously going
+to be totally different sorts
+of genes than specifying
+the same branching
+patterns of the neuron.
+This is one cell.
+Here, you're having to
+specify thousands of cells
+and at what point do they
+stop adhering in a certain way
+so you can make a split there.
+And you look at this
+and suddenly you've
+got the same problem,
+which is there's not
+enough genes in the
+genome that exist
+to be able to code this way.
+You can't code for
+bifurcating systems
+in a living organism that covers
+completely different scales.
+From one cell up to
+zillions of cells,
+you can't code for it in a point
+for point reductive way, where
+the points down at the
+bottom, the component parts,
+are individual genes.
+You can't code for
+recognizing your grandmother
+with simple reductive
+component parts of neurons.
+You can't code for the
+bifurcating systems in the body
+because these will bifurcate
+out to millions of capillaries
+and there's only 20,000 genes.
+The reductive approach
+breaks down here as well.
+Reductive point for
+point approaches
+break down when you
+get to the cortex,
+trying to do something fancy,
+like recognizing faces, instead
+of dots.
+And it breaks down when you
+look at bifurcating systems that
+have to have a plan to split,
+and then split, and then split
+a million times to get all
+the capillaries out there.
+You can't code for it
+with a reductive approach.
+If there's not enough neurons,
+there's not enough genes.
+The next way in which
+reductionism fails,
+and the notion that if you
+know the starting state,
+you'll know the complex version
+and the other way around,
+all of that, and we've
+already gotten this.
+We got this back when, in the
+molecular genetics lectures,
+which is the role of
+chance in these systems.
+All of that stuff we heard
+about, about sort of molecules
+vibrating, Brownian motion.
+And what that winds up
+doing is when cells split,
+it's going to be unequal
+distributions of mitochondria.
+It's going to be things of that.
+Sheer chance is
+going to throw off
+your ability to deal with
+a reductive point for point
+system.
+You take identical
+twins and they're
+each at the, like,
+fertilized egg stage.
+And what you know in
+a reductive world is
+when it splits in
+two in this twin,
+and splits in two in
+this twin, this cell
+is going to be identical
+to this one, this one
+identical with this, all the
+way down to single molecules
+because this is a
+reductive world in terms
+of how they split.
+And what we know is by
+the time a cell splits
+for the first
+time, this split is
+going to distribute
+the mitochondria
+between these two
+differently than distributed
+between these two.
+Even at the first
+cell division, chance
+is throwing off this ability
+to know the starting state
+and know what the complex
+system is going to be.
+So reductionism breaks down
+there as well, the fact
+that chance plays a role
+in any of these systems.
+The mitochondria wind
+up dividing unequally,
+the transcription factors.
+You remember all that
+stuff from there.
+The same exact thing
+with transposons,
+with genes jumping around.
+You throw in that
+randomizing chance element
+into there as well.
+You can't take the
+starting states
+and wind up building on it.
+An example in
+behavior, a guy named
+Ivan Chase did this really
+interesting research
+with dominance behaviors,
+the emergence of dominance
+in different species.
+OK.
+So you are going to have a
+colony of, like, 10 fish.
+And what you do initially
+is each one of them
+is in a tank of their own.
+And you set up a
+round-robin tournament.
+You get every possible
+pairing of fish.
+You put them against each other.
+And you see which one is
+dominant of that pair.
+So you've done all of that.
+And you were able to derive
+a dominance hierarchy, where
+the number one fish is
+the one that dominated all
+the other nine in those
+dyadic interactions.
+Number two dominated
+eight of them, so on.
+It is simply a process,
+a syllogistic expansion,
+to be able to then generate
+a dominance hierarchy;
+pure, I know the starting
+state, every single dyad
+and what the outcome was.
+I can now predict what
+the dominance hierarchy
+is going to be when you
+put all the fish together.
+And what he sees, of
+course, is once you actually
+get the fish together
+in a social group,
+there is no
+resemblance whatsoever.
+The dyadic pairing
+dominance outcomes
+has zero predictability over
+what the actual dominance
+hierarchy is going to be like.
+Why should that be?
+Because chance plays
+a role as well.
+You are fish and you've learned
+this transitivity stuff,
+as fish are able to do, at least
+in Professor Fernald's lab.
+And they're able to
+do, if he defeats him
+and he defeats me, I
+better give that guy
+a subordinating gesture.
+We've now just fit together
+two of those pieces,
+establishing the
+dyad beforehand.
+But what if the guy happens
+to be facing the other way
+and doesn't see
+him dominating him?
+And you've just lost the chance.
+Chance interactions wind
+up driving the system.
+Random movement of the animals
+and such winds up meaning
+knowing the starting
+states of the dominance
+relations of every
+single dyad gives you
+zero predictability of
+what the complex system is
+going to look like.
+So what we have
+over and over here
+is, amid this wonderful
+Westernized focus
+on reductionism--
+and this is going
+to tell us exactly how
+complex systems work,
+and the starting
+state, and the form,
+we're seeing here over and
+over in biological systems,
+ranging from behavior of entire
+organisms, down to genes,
+reductive systems break down
+because there's simply not
+enough pieces in
+there to explain
+complex function in a point for
+point reductive component part,
+broken down, add them up
+together afterward way.
+And there's no way
+to deal with the fact
+that chance plays a role
+in biological systems.
+So what have we
+just gotten to here?
+500 years or so into
+this reductive program,
+what we're seeing is if you kind
+of are interested in behavior,
+or the brain, or any of
+that stuff, what you've just
+discovered is the most
+interesting domains
+of brain function, of
+genetic regulation,
+the most interesting
+stuff can't be regulated
+in a classical reductive way.
+It breaks down there.
+It can't be that way.
+It's got to be something else.
+So what this will do
+now is transition us
+into this whole issue
+of chaotic systems.
+What happens when you have a
+system that is not reductive,
+where there is
+non-linear nonadditivity,
+where you suddenly have
+a very different picture?
+If a clock is broken,
+you take the pieces apart
+and you find the one tooth or
+one gear there that's missing
+and you fix that.
+And you now are able to put
+the pieces back together
+in an additive way and you
+will have fixed the clock.
+A clock can be fixed
+using reductive point
+for point knowledge.
+Now, you have a problem
+with something else.
+You have a cloud that doesn't
+rain enough during a drought.
+How are you going to
+figure out what's wrong?
+I know.
+Let's divide the
+cloud in half and then
+get better tools so we can
+divide each half into half,
+and each half into half.
+And eventually, we'll get like
+one molecule worth of cloud
+and a gazillion of them.
+And we understand how
+each one of them works.
+And put them together
+and then we'll
+understand why
+there's a drought.
+It doesn't work that way.
+Reductive approaches can
+be used to fix clocks.
+Reductive approaches can't
+be used to understand
+why clouds don't rain.
+And the whole point of all
+chaos in these lectures
+here is when you look at the
+interesting complex biological
+systems, they're clouds.
+They're not clocks.
+You need a whole different
+explanatory system.
+So let's take a
+five-minute break.
+And we will transition
+to beginning
+to look at what chaoticism
+is about, about this science.
+Showing that
+Westernized reductionism
+is really good for fairly
+uncomplicated systems
+breaking down in
+component parts.
+The whole world of this
+stuff we find interesting,
+it can't work because there's
+not enough component parts.
+There's not a blueprint
+that has enough elements
+in it and because of
+the role of chance.
+And what this
+transitions us into
+are non-linear systems,
+nonadditive systems,
+where you break something
+down to its component parts,
+and you study all these
+pieces, and you put it
+back together again, and
+it's going to be different.
+They've added up differently.
+You understand the starting
+point in the system
+and you are going to have
+no predictability about what
+the complex form is about
+because the pieces don't add up
+in a straight linear manner.
+OK.
+What do I mean by this?
+As we begin to approach
+this, what is chaotism about?
+Here, we have a
+distinctive thing.
+We have a difference between two
+different ways in which things
+can be deterministic.
+Here's a-- no.
+You're just coming up
+with a number series.
+And there's a rule.
+There's a rule which
+determines what
+the next number is going to
+be in the sequence, which
+is just add 1.
+This is a determinist system.
+It is a periodic one, in
+that knowing what the rule is
+and knowing which
+point you're at,
+someone could say
+what's it going
+to be in 15 steps
+down the line there?
+And you don't need to say, well,
+number one is going to be 5,
+number two is going
+to be 6, number-- you
+don't need to do that.
+You've recognized
+a periodicity that
+allows you to predict
+pieces way down
+the line simply by applying
+the same determinist
+rule over and over.
+This would be a system that's
+both determinist and periodic.
+Now, in contrast,
+you can get a system
+which is determinist,
+but aperiodic,
+which is where we're
+heading very quickly.
+You have some system where
+there's a sequence of numbers.
+There's a sequence of places
+on a three-dimensional matrix.
+There's a sequence.
+And there are rules for
+how you go from each step
+to the next one.
+But the thing is, you can't
+just apply the same rule
+over and over.
+You cannot sit here and say,
+if we start at number five,
+and given what the rule is, I
+know what it's going to look
+like 10 of these down.
+The only way to
+know is to see what
+five produces, as the
+first step, what that
+produces as the second step.
+You cannot see periodicity.
+You cannot see
+patterns that repeat.
+The only way to know
+the complex form
+is to go stepwise and apply
+the rule over and over again.
+Because the relationship
+between any one step
+here is going to be
+different from any other one.
+Here, it's always the same.
+Each one is one higher,
+straight-forward, additive.
+You just keep doing it
+over and over again.
+In an aperiodic
+system you have rules.
+It's determinist.
+But the rules are
+such that the spaces,
+the difference with each
+step, is not constant.
+The only way you can know
+what the number is going
+to be like x number
+of rounds down
+is you got to do
+this, and then this,
+and then this, and then this.
+This is an aperiodic system.
+At any given one
+of these points,
+the rules exist for
+you to know what
+the next one is going to be.
+But the rules
+don't exist for you
+to know what the one
+two down is going to be,
+unless you figure
+out what this one is.
+You've got to march through
+in that sort of way.
+It's aperiodic.
+There are no patterns that can
+be used over and over again.
+The third version
+is one that people
+mistake for what I'm
+talking about here, which
+is a system which is
+nondeterminist because there
+is randomness in there.
+And in that one, going from
+this one to the next one,
+there is no rule.
+It's totally random what the
+next number is going to be.
+And the one after that
+is totally random.
+In that one, you have
+no predictability.
+You're going to have to go
+every single step down the line.
+But it's not a
+determinist system.
+There's no set of
+rules that are being
+applied over and over again.
+The nature of this one does
+not specify the nature of that.
+It's not determinist
+in that way.
+That's not what we're going
+to be interested in here,
+where randomness comes in.
+What all of these non-linear
+systems are about,
+these chaotic systems are ones
+where they are determinist.
+There's rules for how you
+go every step along the way.
+But the relationship, given
+any given step, is non-linear.
+They're not identical.
+And thus, the only
+way to know what's
+happening two down
+from here is to know
+what's happening one down,
+the only way to do that.
+And thus by definition, this
+cannot be a system where
+knowing the starting state
+allows you to know the mature
+system.
+Without having to go through
+every single calculation
+and knowing the mature
+state, doesn't tell you
+what the starting
+state was unless you
+are willing to do all the back
+calculations because it's not
+reductive in that sense.
+Where would this begin to
+sort of manifest itself?
+OK.
+Into the Chaos book, and I
+think it was page 27 or so,
+that you get the water wheel
+coming up for the first time.
+And go and look at this
+picture, obsess over it,
+understand what
+that page is about.
+Because it begins to
+show how these properties
+of non-linear aperiodicity wind
+up producing chaotic systems.
+OK.
+So you've got this water wheel.
+And it's got these buckets here.
+And they've got
+holes in the bottom.
+And you can have a very
+simple steady state.
+You just put in a little
+bit of water, such
+that the water is basically,
+as soon as it gets here,
+it's running out.
+It's coming out
+in the same state.
+This never fills.
+The water wheel doesn't turn.
+Now, you begin to fill
+up at a higher rate.
+And what that does is it's
+a little bit asymmetrical.
+This is heavy enough that it now
+begins to push the wheel down.
+And as it's going
+down, this next one
+is getting filled,
+and this next one.
+And all the while,
+it's emptying out.
+So a constant input of water,
+a rate of things emptying,
+the wheel turns.
+It's possible to get a rate
+at which you're pouring water
+into the system, where
+it will do precisely
+that for the rest of time.
+It will turn at a set speed.
+It is a steady state.
+It is in the equilibrium state.
+It is stable such that
+if you sit here right now
+and somebody tells you, in
+a circumstance like this,
+the wheel is turning this
+fast, in this direction,
+with this force,
+you can sit there
+and you can tell them
+thus exactly what it
+will be doing 4,070 years
+from now on Tuesday afternoon.
+It is a periodic system.
+You don't have to
+sit there and go
+through every second between
+now and 4,000 years from now.
+It is steady state.
+And you can apply a periodic--
+there's periodicity.
+There's a reductive
+quality to it.
+Now, what you do is
+you put in the water
+with a little more force.
+And what begins to
+happen is the wheel
+turns faster because
+the wheel is filling up
+with water faster.
+So it's moving this way faster.
+And that's great.
+That's totally logical.
+But at some point,
+if you're doing that,
+there's going to be too
+little time for these buckets
+to empty out.
+They're going to start
+having more water
+when they're coming
+up on this side
+because it's moving fast enough,
+but they are not emptying.
+And at some point, there's going
+to be enough water left here
+that it will suddenly
+change direction.
+OK.
+It's possible, if you get the
+water pressure just right,
+that you can get a steady
+state pattern there.
+It will go around
+three times when you're
+putting water with a speed.
+It will go around three times at
+this speed and with this force.
+And when it has gone
+around 3.73 times,
+it will change
+direction for 1.7 turns.
+And then it will go
+3.7 times around.
+And once again,
+it's a periodicity.
+It's simply a periodicity
+with two components to it,
+two changes of directions.
+The first time,
+you're going this way.
+And, oops, this fills up.
+So you have your first
+change of direction.
+And then, at some
+point, the balance
+is such that you get your
+second change of direction
+and you start the
+process all over again.
+There is a pattern, a
+periodic pattern to it,
+that just happens to
+have two components.
+You've doubled the number
+of components in it
+by putting more
+force in the system.
+But once you
+understand that rule,
+OK, this speed at this rate,
+with this force of water,
+it's going to change
+direction at this point
+for this length of time.
+Then it's going to
+change direction again.
+Knowing that, you can
+now sit here and be
+told exactly how full,
+how fast, with what force.
+And you could now
+tell exactly what
+this water wheel is going to
+be doing 4,700 years from now.
+It is still a reductive
+periodic system.
+Now, you put in the water
+with even more force.
+And what you begin to
+see is, as the wheel
+is moving fast
+enough, it will have
+sort of this first
+spin in this direction
+and then it will
+change direction.
+And because the buckets are now
+emptying out that much slower
+compared to the rate at
+which the water is coming in,
+it will change direction
+once more, and once more
+back this way.
+And you're back to
+your starting point.
+In other words now, we have a
+completely periodic reductive
+system that has four
+components in it,
+four changes of
+directions before you
+get back to exactly the starting
+point and do it all over again.
+You have simply gotten a more
+complex version of a totally
+predictable periodic system.
+And what you see is, as you put
+in more and more water force
+in there, you keep getting
+doublings of your periods.
+You will now get
+spinning, where it
+goes through eight
+changes of directions
+before it starts the exact thing
+over again, and doing that.
+And you can still
+predict 4,000 years
+from now, 1632, all of that.
+And throughout,
+you can be graphing
+on a sort of way
+of representing it.
+This is the simple system here.
+That's the single rotation.
+Here's when you get
+a first doubling.
+Then it does
+something like that.
+Here's when you're--
+you get the point.
+You can represent it that way.
+And you see it is still, you
+let it keep running like this
+and there will be the same
+periodicity, the same pattern,
+that will go over and
+over for the rest of time.
+It's still a reductive
+periodic system.
+It's just gotten
+more complicated.
+And then, somewhere in
+the doubling process,
+something happens.
+And the something
+that happens is
+it becomes a non-linear
+chaotic system.
+As you increase the force
+on the system, the force
+here being the force of
+water coming in there,
+at some point with the
+force of water increasing,
+it's going to stop this
+perfect periodic doubling
+of the components and
+it's going to shift over
+to a chaotic pattern now.
+How do you define that
+as a chaotic pattern?
+It will shift over to
+a pattern of spinning
+this way and then back for
+a while, and going then.
+It will generate a pattern
+which never repeats.
+There's no periodicity anymore.
+It generates a pattern that
+is going to be infinitely
+different along the way.
+Because you're putting that
+much force in the system,
+it has become chaotic.
+And what is obvious here, as
+an implication, is knowing here
+gives you no predictive
+value's ability
+of what's happening
+4,000 years from now.
+The only way to know what's
+happening 4,000 years from now
+is to study what the wheel
+does for 4,000 years.
+You can't sit there and
+recognize a periodicity
+and just do it over
+again and again.
+And what the
+discovery of chaos was
+about was that in structured,
+reductive, linear systems,
+when you increase the
+amount of force on it,
+there is a doubling and
+quadrupling and all of that.
+It just gets more
+complicated and reductive.
+That there is a transition
+point, where it suddenly
+becomes chaotic and the
+pattern never, ever repeats.
+And there is no predictability.
+And sort of the founding
+generation of chaosists,
+this is what they were showing,
+with things like water wheels,
+where you can see
+the exact same thing.
+You have a cylinder.
+And what you're
+applying in here--
+and it's filled with water.
+And you're applying
+heat to the system.
+And what you begin to get
+after awhile is convections
+or whatever.
+Stuff moves.
+And as you heat it even
+more, changes direction.
+It's the same thing.
+And at some point, when
+the heat gets high enough,
+it breaks into boiling.
+It breaks into turbulence.
+It breaks into a chaotic system,
+where there's no periodicity.
+There is no repeating
+of these patterns.
+And an amazing insight by
+one of the first people
+in the field, this guy
+Yorke, was that any time you
+see periodicity
+of an odd number,
+you've just guaranteed that
+you've entered chaotic terrain.
+That, as he called
+it, period three,
+as soon as you're going
+instead of a single period,
+a double, four, eight,
+whatever, as soon
+as you see the first evidence
+assumes any system like this
+begins to have three components
+before the pattern repeats,
+it's about to disappear
+into a chaoticism.
+So this is what a chaotic
+system is about, which
+is you have a starting state.
+And as you increase the
+force on the system,
+the periodicity, the
+predictability, breaks down.
+And eventually, you get
+as the critical thing,
+a pattern which never repeats.
+And thus, the only way to
+know what that pattern will
+be doing x amount of
+time down the line
+is to run the system
+from now until time x.
+There is no
+predictability from here
+as to what's happening at x.
+You gotta sit there
+and march through it
+because it's an aperiodic
+system, rather than one
+like this.
+So what the entire sort of
+starting point for chaosists
+was, that you get these
+nonlinear systems.
+And people had been noting them,
+mathematicians, physicists,
+whatever, in systems like
+that for a long time.
+And the longer they do,
+right around the point
+that things would
+become chaotic,
+they would say, well, this is
+just getting perturbed by now.
+It's not functioning
+properly anymore
+because it's not working in
+a linear, periodic manner.
+Something's wrong with
+the system, something
+along the lines of
+noise and variability.
+We will stop studying
+it up to that point.
+And if you say, we're
+going to stop studying it
+until it gets to that point,
+the last bit of periodicity,
+what do you come away with, a
+very distorted view that all
+the interesting
+things in the world
+work in reductive
+periodic systems.
+Because what you've
+just done is say,
+I'm getting totally
+disturbed by these nonlinear
+chaotic things that
+happen at an extreme.
+So I'm going to decide
+they are just anomalies.
+And we're only going
+to study in this domain
+and reach the conclusion
+that the entire world works
+in this domain.
+Kind of like behavior
+geneticists, who say, oh,
+I want to understand the
+heritability of a trait.
+And I want to understand
+it very cleanly.
+So we're going to study it
+in only one environment.
+Because if you study in
+a bunch of environments,
+it gets noisy, and
+variable, and messy data.
+No, it doesn't.
+It is showing you that
+the heritability is zilch.
+It's showing you that you have
+just artificially excluded
+your ability to see
+what's actually happening.
+And the founding
+generation of the chaosists
+took the stance
+that what you've got
+is all the interesting
+stuff about complex systems
+out there, are all functioning
+out in the chaotic realm.
+And what science has been
+spending forever doing
+is looking the other way and
+pretending it's not there.
+And restricting the
+studying of complex systems
+to just these first
+baby step domains
+of the periodic doubling.
+Most of the world is doing this.
+And most of science has worked
+very, very hard to ignore this.
+So once you get this, you begin
+to get some really interesting
+implications.
+So now you find a way.
+You get one of these
+chaotic systems
+and you first study
+it when it is still
+in the nice straightforward
+periodic way.
+A little bit of
+water is coming in.
+And it's turning like
+this, at a set speed.
+And come back 4,000
+years from now
+and it will still be
+doing it the exact thing.
+It's a great periodic system.
+And you can come up with a
+graph of which direction it's
+turning, would be here or here.
+And how fast, with what
+work force, whatever.
+And you will come up
+with a single dot, which
+represents this rotating in this
+direction, at this set speed.
+And this is this point
+of stability, this point
+of complete predictability.
+A feature of a periodic
+system like this,
+when it's in this boring
+linear reductive way,
+is you can mess with it.
+And after a little
+bit of time, it
+will settle back
+into the same system.
+You briefly hold the water wheel
+and that throws things off.
+And then you let it go and it
+goes back to what it was doing.
+And it will take a
+little bit of time
+for it to go back
+to where it started.
+And a way of viewing
+this graphically
+is it's doing this forever.
+And now, you go mess with it.
+You hold it.
+You turn off the water
+for a second, whatever.
+And for a while, it does
+this, and it does this,
+and does this, and does this.
+And eventually, it gets
+pulled back to this spot.
+It goes back to this point of
+stability, of predictability.
+It is attracted to this point.
+And, thus, the linear systems
+like this have attractors.
+Something where, when
+you mess with it,
+the system will equilibrate
+and go back to where it was,
+attracted to the "real"
+solution to the problem.
+And if you are looking
+at it at any point here,
+and it's not here, because
+it is here instead,
+and it is here instead,
+and here instead,
+all that is noise in the system.
+And you're in the process
+of getting rid of the noise,
+back to the pure, perfect state,
+the pure, perfect description
+of how the system works.
+So now, you look at what's
+going on when instead you've
+got it to the point of
+chaos, a chaotic system.
+And what you see is--
+OK, let's assume that was
+where the attractor was.
+And what you see is
+when you're mapping
+the speed, the direction
+that it's turning,
+the force, all of
+that, it's doing this.
+And it will do this for a
+while, and will do this.
+And it will reach that critical
+point where suddenly it
+changes direction.
+And will do this for
+a while, and then it
+will change direction again,
+and then this, and this.
+And what you have is this
+butterfly wing pattern,
+that became one of the
+iconic images in early chaos.
+What do you have here?
+You've got a description of
+how the system is working now.
+Once it's hit this
+chaotism, it's
+not settling down into
+a repeating pattern.
+The fact that it is never
+here, and staying there,
+that's the business that
+you could never predict.
+It is constantly oscillating.
+It is constantly chaotic.
+So now you ask,
+and you say, well,
+that's pretty strange
+because it's not actually
+touching the spot.
+But it just keeps
+going around it.
+It's clearly pulled to it, but
+in a very different sort of way
+than when you get a perturbation
+and quickly it does this.
+This is being attracted back
+to this pure starting point.
+And here, it never
+actually quite gets there.
+But it's sort of
+being pulled by it.
+What do we have here?
+We have a strange attractor.
+And that was the terminology
+that came into the field.
+A regular old attractor
+is one that will pull down
+to a single stable point.
+This is the predictable,
+utterly predictable, state
+of the system right now.
+A stranger attractor is one
+that has to do with the fact
+that it's going to
+oscillate like this.
+But it's never going to settle
+down into a single point.
+And suddenly, there's a very
+different implication there.
+Because here, when
+you're not yet
+at this spot, what's this spot?
+It's noise.
+Its variability.
+And hang on and it's going to go
+away because it will eventually
+reach the real answer.
+In systems with
+strange attractors,
+what do you make
+of the variability?
+It's not noise.
+It is the phenomenon.
+There is no absolute
+pure answer in there.
+There is not some idealized,
+the real correct answer.
+And you're just
+fluxing around here.
+And if only you had better
+control of the system,
+you would eventually get
+it to look like this.
+This is a myth.
+This is imaginary.
+In complex systems,
+there is no answer
+as to what you are
+supposed to be observing
+and everything else
+is variable noise.
+This is the system itself.
+A critical expansion on that,
+so you're looking at this
+and you're saying,
+OK, what is this?
+This is measuring
+in whatever units
+of time, where the wheel is,
+what direction, what speed, all
+of that.
+It's a whole bunch
+of data points.
+And the data points would
+just keep doing this forever
+and ever, unpredictably.
+Wait a second.
+And you say, at some point
+it's got to cross here,
+this spot here.
+And at some point
+it's circling around
+and will circle and come
+through exactly that point.
+And right now at that point, if
+you apply the same equations,
+the same determinist
+rules, right at that point,
+the next point should be this.
+And the next point
+should be this.
+And what have you just done?
+You're beginning
+to repeat yourself.
+You've just had periodicity.
+Wait, this really isn't chaotic.
+As soon as it hits the
+same point that was there
+previously, it suddenly
+should repeat the pattern
+all over again.
+It's periodic.
+It stopped being
+a chaotic system.
+How can this be?
+Because they've got to
+touch the same points.
+Look at all that.
+And this was the
+next critical concept
+in the field, which is you can
+look at this point and maybe
+its coordinates, 6, 3, in a
+standard graph or whatever.
+And that's what
+the coordinate was
+the first time it was there.
+And now, spinning around, it's
+just come there a second time.
+It's back in the same spot.
+Oh, no, it's repeating.
+It isn't chaotic
+and unpredictable
+and going on for an infinity.
+And it just fell apart.
+It doesn't really work
+this way, until you
+look a little bit closer.
+And you look a
+little bit closer.
+And it turns out
+this is not 6 and 3.
+This coordinate
+was actually 3.7.
+And you look closer here.
+And this one was 3.8.
+In other words, it's not
+really in the exact same spot.
+It never gets to the
+same exact spot again.
+Where is it then?
+Well, we really measured it now.
+And, in fact, both
+of them are 3.7.
+It's the exact same.
+And look a little bit closer,
+an order of magnitude closer,
+and there be it.
+And take it out a
+million decimal places
+and they still look like
+they're in the exact same point,
+a million small places
+out in terms of accuracy.
+And a million and one is where
+they will differ a little bit.
+And thus, they're
+not in the same spot.
+Critical next concept with this,
+which is if that's the case
+and there are a million
+decimal places out there,
+they are differing by one
+decimal place way out there,
+what that means is the
+fact that one of them,
+4,000 digits out there,
+is 8.2-- and notice,
+an 8.3 and a gazillion
+zeroes before that-- that
+means at some point this is
+going to function differently
+than this.
+This will produce a
+different spot than that.
+They won't go to
+the same next place
+because they're actually
+different numbers.
+And if a million digits
+out, that tiny difference,
+will change the functioning of
+that, a million minus 1 digits
+out there, that will
+then potentially
+change the functioning of
+a million minus 2 digits
+out there, all the way up.
+In other words, the consequences
+of this tiny little difference
+gets amplified.
+And this is what's called
+the butterfly effect.
+In the standard sort
+of jargon in the field,
+the butterfly effect is the fact
+that the way a butterfly flaps
+its wings in Korea will change
+the weather system in Indiana.
+And this is absolutely the case.
+Because of these
+butterfly effects,
+the very local consequences
+of something like a butterfly
+flapped its wings versus if
+it hadn't flapped its wings,
+would have you just done to
+air movement on the planet?
+You are a million
+digits out there.
+And you've just changed
+that this very last digit
+went from 3 to 4 because the
+butterfly flapped its wings.
+And that's going to cause
+a difference one digit
+before that, and one digit.
+And these are already
+beginning to differ.
+And by the time it gets
+up to any level higher,
+it's differing enough that the
+next spot will differ as well.
+What are you doing?
+This is why the pattern
+can never repeat
+and why it's good
+to do this instead.
+Because on some level
+of magnification
+in a chaotic system
+like this, you never
+have the exact same location,
+the exact same coordinates,
+occur a second time.
+Somewhere, however number
+of digits out there you
+need to go, the two
+of them will differ.
+And that difference can
+potentially amplify upward
+in a butterfly effect.
+If you do it that
+way, you suddenly
+have a very different view.
+Which is, all the way out, a
+gazillion decimal places out
+there, and they
+differ like this,
+this isn't noise in the system.
+This isn't variability.
+This is intrinsic to the system.
+And the fact that this
+will now expand, amplify
+the consequences, is
+why the whole system
+is unpredictable because
+of these butterfly effects.
+OK.
+Let me just think about-- oh,
+so the critical point here
+is in this strange attractor
+realm, not only is there
+no predictability.
+That's an important point.
+And the closer you
+look, you will still
+see the same degree
+of noise variability.
+Noise is not something
+that goes away.
+But almost philosophically,
+this critical point
+in a system, a linear boring
+system with an attractor,
+this is the answer.
+In chaotic systems,
+there's no real answer.
+And if you're out
+here, it doesn't
+mean that you're not correct,
+you're not quite there.
+There is no there there.
+The notion that there is
+a solution at the center
+is a fabrication of the data
+oscillating around there.
+There is no correct
+idealized answer in there.
+This is the idealized
+answer, which
+is a completely
+unpredictable system.
+OK.
+What's intrinsic in
+this now is the fact
+that even though you now look
+an order of magnitude closer,
+there's still this
+variability stuff, which
+can amplify, as a
+butterfly effect up,
+and make a huge difference.
+And you look an order
+of magnitude closer
+and there's still a
+butterfly effect potentially.
+And it doesn't matter how
+many digits you go down,
+how closely you look, how
+good your reductive tools are,
+the variability is still
+going to exist down there.
+And the way to
+describe this here
+is, thus, this is a
+scale-free system.
+The nature of variability
+is exactly the same
+if you're looking
+at a whole number
+or if you're looking
+at a number taken out
+to three decimal places or
+three googleplex places,
+and that sort of thing.
+That it's independent of
+how many steps down there
+you're examining
+the system, the fact
+that there will
+still be a difference
+and it can still
+butterfly its way up
+to make a difference there,
+means that all of this stuff
+is scale-free.
+It doesn't matter how closely
+you are looking at it.
+In other words, the whole
+reductive philosophy
+of the closer you look,
+the better your measurement
+tools, the more variability
+is going to go away,
+in a scale-free chaotic
+system, regardless
+of what degree of reduction,
+of what degree of detail
+you are looking at the system
+with, the amount of noise
+is going to proportionally
+remain the same
+because it's not noise.
+It is the system.
+So you don't have this reductive
+notion that all we need to do
+is get better tools and
+look closer and closer
+and noise will go away.
+Because it isn't noise.
+This is the phenomenon
+at any scale you look at.
+And this introduces the notion,
+thus, of what a fractal is.
+Because a fractal is a complex
+pattern, a visual pattern,
+an equation that produces a
+pattern, things of that sort,
+where it is scale-free.
+The appearance of it
+is the same no matter
+what scale you look at.
+The complexity of it
+is the same no matter
+how close you look at it.
+The degree of
+variability is the same
+because it's not variability.
+It's intrinsic to the system.
+OK, ways to define a
+fractal, because this has
+becomes sort of a very
+trendy sort of subject.
+And there's a number
+of different ways
+to think about it.
+Most formally, what a
+fractal is is information
+that codes for a pattern.
+Where, for example, it can
+code for a pattern that
+is a line-- a line-- and thus
+is a one-dimensional object.
+But where the line is moving
+around with such complexity,
+with such an infinite amount of
+complexity, because even if you
+look closer, it's going to be
+just as complex, proportionally
+closer and closer.
+In other words, this is going
+to be an infinitely long line
+in a finite space.
+Which begins to make it sound
+kind of more eventually,
+this is more
+beginning to resemble
+a two-dimensional object.
+What a fractal is is some
+object, some property, that's
+a fraction of a dimension.
+If this goes on
+infinitely, it's a line.
+But it's really much
+more than a line.
+But it's not quite
+two-dimensional.
+It's 1.3 dimensions.
+It's a fractal.
+A fractal is a system that has
+fractional dimensions to it,
+where just the infinite
+amount of complexity
+the closer you look, it's
+still going to be like this,
+means that this is a
+line like no other line.
+It's one that's infinitely
+long, packed in a finite space.
+That's more than a line.
+But it's not quite
+a two dimensional.
+It's a fraction.
+It's a fraction of a dimension.
+That's the formal mathematical
+definition of a fractal.
+For our purposes, it's instead,
+as well, no matter how close
+or how far away you look at
+it, the amount of variability
+is the same.
+And thus, we have absolutely
+a classic fractal system
+if these are canals on Mars
+or if these are the dendrites
+of a single neuron.
+No matter what dimension,
+with what resolution
+you are looking at
+it with, the degree
+of complexity, the
+degree of variability,
+remains proportionally constant.
+It's a fractal.
+Bifurcating systems
+are classic fractals.
+And the variability
+within the system
+is constant regardless of
+what scale you are looking at.
+And, thus, is telling
+you the variability
+isn't noise variability.
+It's instead, what the
+system is actually about.
+So I will look here.
+OK.
+So you see these
+fractal properties.
+The circulatory
+system is a fractal
+with roughly the same
+degree of complexity
+as is the pulmonary system
+in its branch points,
+as in the dendrites
+of a single neuron,
+as are the branches of a tree.
+They're all fractals.
+Their complexity,
+their variability,
+is independent of scale.
+This is what you
+begin to see in all
+these physiological
+systems, these fractals that
+have equivalent
+scales of complexity
+at infinitely different,
+vastly different,
+scales of magnification.
+And as a hint of where we're
+heading on Friday, what that
+begins to tell you
+is you can solve
+this problem of coding for these
+vastly bifurcating systems.
+Where this is made
+of a billion cells,
+and this is a single
+cell, you can use
+some are these similar rules.
+And all the rule has
+to be is scale-free.
+We will see exactly what
+I mean by that on Friday.
+But this begins to
+solve the problem of,
+there's not enough
+genes in there.
+And what this
+introduces is the notion
+of there being fractal genes,
+genes that give instructions
+that are independent of scale.
+And we'll see lots more
+about that on Friday.
+So you've got these fractal
+systems all over the place,
+where the point over,
+and over, and over again
+is the variability
+isn't variability noise.
+It is what the
+system is all about.
+There is no absolute state,
+where the closer you get,
+the more it suddenly is going
+to seem clean and nonvariable.
+An example of this,
+an example of this
+in the biological literature.
+And this was actually a study
+I did about 15 years ago,
+with probably the most obsessive
+undergraduate I've met in all
+my years here at Stanford.
+Which was great, because
+the study was only doable
+because he was
+out-of-his-mind obsessive.
+Here's what the study was about.
+I was thinking about, well, all
+of this chaos, fractal stuff,
+amid all of us functioning
+with a standard model
+that, God, if only we
+could measure this down
+to the single cell
+level, then we'd really
+know what's happening, because
+that's going to be so much
+better than blood values,
+because that's noisy working.
+Working with that
+model of the mirror
+reductive you get, the cleaner
+the data are going to be.
+And then, here's this
+whole other world
+of these non-linear
+fractal systems saying,
+it shouldn't work that way.
+So it struck me to do the study.
+And what I wanted
+to do was study
+the data generated in
+the scientific literature
+at different scales
+of reductionism
+and see what happens
+to the variability.
+And the point here was to make
+it as, like, well controlled
+as possible.
+I felt for some subject, that
+was sort of Bio 150 related.
+And came up with the
+notion that won't it
+be interesting to look at what
+are the effects of testosterone
+on behavior?
+Just taking any such sort of
+question out of this course,
+what are the effects?
+And you can answer that
+on the level of societies.
+OK.
+People who are
+agriculturalists tend
+to have different
+testosterone levels
+than hunters, all of that.
+How does that affect
+things like behavior?
+You can ask that on the
+level of a single individual.
+What does a person's
+testosterone levels
+tell you about behavior?
+You can ask on an
+organ system level.
+What's happening
+to blood pressure
+throughout the body
+and cerebral oxygen
+delivery as a
+functioning system,
+down to a single organ,
+what's happening to the brain,
+down to a single
+cell or molecule?
+All the way down, you
+see the logic of it.
+So what we did-- and
+I use "we" in the,
+like, most parasitic way
+possible-- what we did
+was to go to the literature,
+the scientific literature.
+And for a reason, we
+picked the literature, not
+a contemporary one at the time,
+but one that was 10 years old.
+And we looked at every
+journal out there
+that we could come
+up with, that ever
+had papers in the
+realm of-- that
+could be interpreted as
+the effects of testosterone
+on behavior.
+Up from anthropology
+journals, comparisons
+between different
+groups; down to people
+doing X-ray crystallography
+on testosterone receptors.
+And what this mad
+man I had hanging out
+with me at that point did was
+go through every single one
+of those papers.
+And first classify it, is
+this an organismal one?
+Is this a multiorganismal one?
+Is this a cellular, is this
+a subcellular, all of that.
+And then measure how variable
+were the data in that study.
+This was a drag.
+Because what he
+had to do was-- OK.
+So there would be some figure
+in one of these papers,
+looking like this.
+And what this tells you is, for
+this group, here's the average.
+And this is a measure of how
+much variability there was.
+And this tells you
+there was a lot more
+variability in this measure
+than this one, all of that.
+You could come up
+with something--
+and do not worry about
+the details here--
+something called a
+coefficient of variation.
+Which is, you ask how
+much variability is there
+relative to the
+total size of this?
+And thus, what you will get
+is, say, a circumstance,
+if this is 100 units
+high; and in this case,
+this is 10 units high;
+and in this case,
+this is 50 units high.
+In this case, your coefficient
+of variation would be 50%.
+Your variance is half the size
+of the thing you're studying.
+And in this case, the
+coefficient of variation
+would only be 10%.
+It's much less noisy data.
+So what he did with
+his little ruler
+there, in the next 3 and 1/2
+years, with nothing else to do,
+he went through these
+hundreds of papers.
+And for every single figure,
+he measured what was the mean
+and what was the error bar
+in every single figure.
+And, thus, what
+was the coefficient
+of variation for that
+piece of inflow of data,
+for that figure, for
+that entire paper,
+that would have eleventy
+different bars of data
+in there?
+And he's measuring away
+and going mad from this.
+And eventually, what
+he could then do
+was stick in the average
+coefficient of variation
+in all of the papers in
+the organismal category,
+and all the papers in
+the cellular category,
+and all the way down.
+Reductive science,
+what's the prediction?
+As we go from the big
+organismal papers,
+all the way down to the
+subcellular, submolecular ones,
+the noise, the variability,
+the coefficient of variation
+should be decreasing as
+you get more reductive.
+That would be the
+traditional interpretation.
+The chaotic fractal
+interpretation would be,
+it's not noise.
+It's not noise that you want to
+get rid of with better tools.
+It is intrinsic--
+I'm going to leave it
+there-- oscillatory stuff,
+which is the system, rather
+than the discrepancy
+from the system.
+It would predict that the
+relative amount of noise,
+the variability, the
+coefficient of variation,
+shouldn't be trending
+towards decreasing.
+There shouldn't really
+be a relationship
+between what level you
+are examining phenomenon
+and the amount of variability.
+So an insane amount
+of work later,
+this was his, like, what he
+spent the early 1990s on,
+producing this one figure here.
+[LAUGHTER]
+This was it.
+This was it.
+He wept with pride and happiness
+when we finally saw this,
+going from, this
+is the coefficient
+of variation on all the data
+in all the papers that year
+that were at the
+organismal level,
+about an 18% coefficient
+of variation.
+Organ system, single organ,
+multicellular, single cell,
+subcellular, is there a trend
+towards variability decreasing?
+Absolutely not.
+It's not going anywhere.
+It's remaining fairly constant.
+Looking over scales of
+magnifications ranging
+from societies, down
+to crystallography
+on single molecules, the
+data don't get cleaner.
+They don't get less variable.
+Because it's a fractal system.
+One additional
+possibility there was
+that part of what was
+going in was you're
+looking at the entire
+literature in that year.
+And as we all know,
+some of those papers
+are going to be kind of garbage
+and not very good science.
+Maybe that's the
+noise in the system.
+And there's enough noise that
+it swamps every single one
+of these levels.
+Here was the advantage that
+we had been looking at papers
+published 10 years before.
+You could now see how many
+times that paper was cited
+in the subsequent 10 years.
+In other words, you
+could find the papers
+that were considered
+by people in that field
+to be the really good ones,
+versus the ones that were junk.
+Now if we do the whole analysis
+only on the papers that
+were in the top 10
+percentile of influence,
+the best papers in the
+field, and it winds up
+looking exactly like this.
+It's a fractal system.
+As you get closer and
+closer to measuring
+what's really
+happening, wow, down
+to the level of
+single molecules,
+you don't get any cleaner data
+because it's a fractal system.
+It's a chaotic fractal system.
+So that was real interesting.
+What was even more
+interesting was
+after that, when we tried
+to publish the paper.
+So got it together and
+we wrote up this paper.
+And we sent it off to, like,
+one of my favorite neuroscience
+journals.
+And after a couple
+of weeks, the editor
+wrote back, saying this
+is totally cool stuff.
+This is really interesting.
+This has really made
+me rethink some stuff.
+This is very stimulating stuff.
+I don't see what it has to
+do with our journal though.
+So we really can't publish it.
+So then I sent it off to my
+favorite endocrinology journal.
+And two weeks later,
+back comes a letter
+from the editor, saying,
+whoa, totally cool stuff.
+Come over for dinner and bring
+that piece of paper with you.
+But I don't quite see what
+it has to do with our field.
+And marching our
+way up and down,
+all the different
+relevant journals
+in those different
+disciplines, and each time
+they come back saying, whoa,
+isn't that interesting.
+I can't wait to
+tell my friend, who
+is the social anthropologist
+or the x-ray crystallographer.
+But I don't see what it has to
+do with our particular field
+here.
+And we couldn't get it
+published in a journal that
+specialized in any single
+one of these levels.
+So ultimately, we
+published in this journal,
+this sort of philosophical
+proceedings of medicine
+and biology.
+As far as I can tell, I was
+the first person under age 80
+to ever publish a
+paper in that journal.
+[LAUGHTER]
+It's the journal of
+somewhat demented, senile,
+elderly emeritus
+professors, who were now
+writing their philosophical
+pieces because they're not
+generating data any more.
+I broke the age barrier
+on that journal.
+And they published in there.
+And in the years
+since, it has had,
+like, zero impact on the
+literature in terms of anybody
+quoting it, in terms
+of anybody citing it.
+Actually that's not true.
+There's this
+mathematician in Moscow.
+This guy started writing
+to me about two months
+after the paper came out.
+And he basically said, this
+was the most wonderful thing
+he had ever read.
+And I had transformed his
+life, and he loved me.
+And he's been writing about
+once every three weeks since.
+His English is not very good.
+Either he wants to adopt me
+or he wants me to adopt him.
+I'm not quite sure in that.
+[LAUGHTER]
+But as far as saying,
+that's like the only person
+who noticed that
+it there, showing
+this point that this
+is, but what does it
+have to do with our discipline?
+So what we see here is a prelude
+to Friday, what fractals do
+is blow apart the notion
+that get even more
+reductive than they
+were back in the 1500s
+and we'll get better data.
+It doesn't get
+better because it's
+the same degree of variability.
+Because the variability is
+the-- whoa, where did that go?
+The variability is the
+system, rather than
+discrepancy from the system.
+Fractals show that as well.
+What we'll begin
+to see on Friday
+is how you can now
+use fractal systems
+to solve some of those problems
+of not enough neurons, not
+enough genes.
+OK.
+So on first past, what did
+today seem to be about?
+This endless
+trashing of reductive
+science and, you know, that's
+how you fix a broken clock.
+But the world of really
+interesting things
+are like broken clouds and are
+non-linear aperiodic systems,
+that are just as interesting
+and just as complex,
+no matter what scale
+you look at them at.
+Hooray, most of science
+makes no sense whatsoever.
+Hooray for us, we
+are the vanguard.
+OK.
+That's a drag.
+Because that really doesn't
+accomplish a whole lot
+because what there has
+to be is a substitution.
+So where is the
+actual predictability?
+Where is the actual
+insight coming from?
+And that's what
+Friday is about, which
+is this whole field of
+complexity, emergence,
+what we'll look at there.
+But the last point here winds
+up being, OK, OK, terrific.
+You've convinced me.
+You have trashed linear
+additive periodic systems.
+And 500 years' worth
+of books of science
+need to be burned at the stake.
+Is classical reductionism
+good for anything?
+Yes.
+We already know it is.
+It's good for when
+clocks are broken.
+No, no, no.
+I mean is it good for
+anything in the realm of stuff
+that we're interested in,
+in how, like, biology works,
+in how behavior
+works, any of that?
+And what you get is, it's very
+useful and very effective,
+if you're not very picky,
+if you are not very precise.
+An example.
+There's a miserable
+disease out there,
+that's wiping out
+people left and right.
+And it's this viral disease.
+And you're trying to
+figure out how to come up
+with a vaccine for it.
+And you finally come
+up with a vaccine.
+And you start
+distributing it to people.
+And what you see is exactly
+what Jonas Salk saw,
+was that it did wonders
+for preventing polio.
+But one in 560
+kids, instead would
+get a worst case of polio.
+So you could now ask a
+very reductive question,
+which is, is this vaccine,
+what happened in that one kid?
+And what we'll see
+at that level is
+if you're trying to ask
+that, that's not going to be.
+If we understand what
+happened in that one kid,
+we're going have to understand
+their individual cells, all
+the way down, to get
+better and better numbers.
+Because this OK, we've
+just entered the world
+where it's actually a
+nonlinear chaotic system.
+Where's the reductionism useful?
+On the average, it's
+a whole lot better
+that kids got this vaccine than
+they didn't get the vaccine.
+You want reductive classical
+dead-right male reproductive
+predictable science.
+It's if you have a
+community of kids,
+who get injected with this,
+versus a community that
+doesn't, they're
+going to be healthier.
+Don't ask me about one
+particular individual, let
+alone one particular
+individual's immune system.
+The reductionism
+breaks down there.
+But if fancy, satisfying
+science for you counts as,
+do they tend to be healthier
+than them, reduction is great.
+That is sufficient.
+Suppose your question
+is, well, is there
+a certain time of
+the year, what's
+the weather likely going to
+be in January versus in June?
+You're never going to
+have reductive tools that
+can tell you on any particular
+day what the temperature is
+going to be three
+years from now.
+But if all you want to know is,
+in general, it's warmer in June
+than in January, reductive tools
+that exist now are sufficient.
+And when you look at what
+people do in their research,
+in the labs and places
+like this, in my lab,
+all of that, when you sit
+there and you say, whoa,
+we just learned and
+are trying to, like,
+figure out the cure
+of some disease
+by finding the
+mutation, whoa, that's
+really a reductive approach.
+And we just learned
+that's gibberish.
+Whoa, everybody toss
+out what they do.
+It's actually quite
+useful because you're not
+very picky about what
+you want out of it.
+My lab, for example,
+studies what
+happens in brains after
+there's a stroke and trying
+to figure out gene therapy
+stuff that you can do.
+And we can't tell you
+why one rat out of eight
+is not going to be
+helped by this procedure.
+Whereas, three rats are
+wonderful, and so on.
+Oh, I know.
+Let's look at their
+are single molecules.
+That's not going to do it.
+Reductionism breaks apart.
+But it's perfectly fine at
+the level that's useful here,
+which is, on the average,
+is this something
+plausibly that you might want
+to do to humans somewhere
+down the line?
+Most of what the science
+research is about--
+and when you look at
+the labs around here
+and you look at
+the labs you work
+in, if those of you, who are
+lots of you, do research,
+it's reductionism is
+a perfectly good thing
+to use because you're not being
+too picky what-- you do not
+want to come up with
+an explanation for how
+every neuron in every
+developing grasshopper on Earth
+bifurcates.
+At this point, you want to
+know, in general, somewhere
+around hours three
+to four after the egg
+starts or the grasshopper
+parents meet and fall in love,
+or whatever it is,
+that, in general, that's
+when you begin to get
+differentiation here.
+Your science is great.
+So as long as most
+of what we're asking
+is this sort of science,
+where you just kind
+of a need to have a
+general predictive sense,
+reductionism is just fine.
+But nonetheless, underneath
+all of it, when you really
+want to understand the systems,
+it's anything but reductionism.
+And probably the most
+important philosophical point
+is when you look at these
+interesting complex systems,
+there is not a "the answer."
+There is not a "the solution" to
+what is this water wheel going
+to be doing?
+And thus, all of us, who
+are out there, not quite
+matching the perfect
+one, it is not
+that we are being deviating
+from what the real answer, what
+the real norm is supposed to be.
+The variation is what
+it's supposed to be.
+All of the things
+that are interesting,
+when you measure them,
+and they look like this,
+it's not because they
+are failing to be what
+they're supposed to be and
+match the norm, they're--
+For more, please visit
+us at stanford.edu.
