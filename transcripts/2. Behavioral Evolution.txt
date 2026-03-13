@@ -1,0 +1,3827 @@
+2. Behavioral Evolution
+=======================
+
+Stanford University.
+The often asked question, what's
+the difference between Bio 150,
+Bio 250, and-- is
+it Hum Bio 160?
+No difference.
+It's exactly the same.
+So like the same
+requirements, same unit.
+So take whichever one
+makes your life easiest.
+Let's see.
+Any other procedural stuff?
+Well, the answers are back
+from Monday's questionnaire.
+And a variety of
+interesting answers.
+Not surprisingly, given
+the size of a group.
+Why have you taken this course?
+Really want to know about animal
+behavior, but willing to deal
+with humans.
+[LAUGHTER]
+Because I'm substituting it Bio
+43, which I don't want to take.
+My dad used to make me read
+books about human behavior
+and biology as punishment.
+[LAUGHTER]
+That doesn't make any sense.
+I know one of the
+TAs, so I figure
+that guarantees me an A. OK,
+guys, that's in your court.
+One I really liked,
+because I want
+to be a filmmaker after college.
+Yay, interdisciplinary.
+What else?
+My first grade
+teacher is making me.
+Tom McFadden told me to.
+I'm a hyper-oxygenated
+dilettante.
+I wanted to, somewhat
+correctly pointing out,
+why have you taken this class?
+I haven't taken it yet.
+A number of people
+reporting that,
+in fact, that was
+the correct answer.
+And my favorite, why have
+you taken this course?
+Yes.
+[LAUGHTER]
+OK.
+Relevant background,
+relevant background.
+I'm human, I'm human
+and I often behave.
+I'm human and I have biology.
+19 years of being confused
+about human behavior.
+Not really, sort of.
+Seeing crazy behavior as
+an RA in an all frosh dorm.
+And I date a biologist.
+Let's see.
+There was also the
+question on there of,
+did the thing on the board
+look more like an A or a B.
+And just to really
+facilitate that one,
+I forgot to put
+the A and the B up.
+But that taps into a
+cognitive something or other,
+which maybe I'll get
+back to at some point.
+Telephone numbers.
+Reading them off,
+accuracy dramatically
+tanked as soon as
+the three number,
+four number motif
+went down the tubes.
+And when it came back
+briefly, accuracy
+came back a little bit.
+Finally, let's see.
+All of you guys conform to
+a standard frequent gender
+difference.
+Which is everybody was roughly
+equally-- by gender-- roughly
+equally likely to see dependent
+as the opposite of independent.
+A small minority went
+for interdependent.
+However, one finding that
+has come up over and over
+is that far more females are
+interested in peace than males,
+males are more
+interested in justice.
+OK, have you taken the bio core.
+Quote, no way Jose.
+Somebody pointing
+out quite correctly,
+don't settle for
+peace or justice.
+Then of course,
+there was the person
+who responded to that question
+by writing those words are just
+symbols.
+Need to know assumed meaning.
+[LAUGHTER]
+OK.
+There was one questionnaire
+that was carefully
+signed in something
+approaching calligraphy,
+it was so beautiful.
+And was otherwise blank.
+For years running, the subject
+that most people really
+want to hear, and most people
+really don't want to hear,
+is about the biology
+of religiosity.
+And for 22 years running
+now, Stanford students
+are more interested in
+depression than sex.
+[LAUGHTER]
+OK.
+So we start off.
+I keep telling Hennessy about
+this, but nothing gets done.
+We start off.
+We start off, if
+I can open this--
+which is something
+you can do if you have
+a certain type of training.
+If you're some osteologist,
+or whatever these folks are
+called.
+If you are presented
+those two skulls
+and told this one's
+a female, this one's
+a male, you can begin to figure
+out stuff like how heavy,
+how large the body was
+of that individual, what
+diseases they had, had they
+undergone malnutrition,
+had they given birth, a
+lot of times, a few times,
+were they bipedal.
+All sorts of stuff
+you could figure out
+from just looking
+at these skulls.
+What today's lecture,
+and Friday's, is about
+is the fact that with the
+right tools under your belt,
+you could look at
+these two skulls
+and know that information.
+You are a field biologist, and
+you've discovered this brand
+new species.
+And you see that this
+one nurses an infant
+shortly before leaping
+out of the tree,
+leaving only the skull.
+And this one has
+a penis, shortly
+before leaping out of the
+tree and leaving a skull.
+So all you know is this is an
+adult female and an adult male.
+And if you've got the
+right tools there,
+you can figure out who's more
+likely to cheat on the other.
+Is the female more likely to
+mess around, or is the male?
+How high are the
+levels of aggression?
+Does the female tend to have
+twins, or one kid at a time?
+Do females choose males because
+they have good parenting
+skills, or because
+they're big, hunky guys?
+What levels of differences
+in life expectancy?
+Do they live the
+same length of time?
+You would be able to tell
+whether they have the same life
+expectancy or if there's a big
+discrepancy between the two.
+All sorts of stuff
+like that, merely
+by applying a certain
+piece of logic
+that dominates all of this.
+OK, so you're back reading
+those Time Life nature
+books back when, and there
+was always a style of thing
+you would go through.
+Which is they'd
+describe some species
+doing something absolutely
+amazing and unlikely,
+and it goes like this.
+The giraffe, the
+giraffe has a long neck,
+and it obviously has
+to have a big heart
+to pump all that blood up there.
+And you lock up a whole
+bunch of biomechanics people
+with slide rules, and out they
+come out with this prediction
+as to how big the
+giraffe heart should be
+and how thick the walls.
+And you go and you
+measure a giraffe heart,
+and it's exactly what
+the equations predicted.
+And you say, isn't
+nature amazing?
+Or you read about some desert
+rodents that drink once
+every three months, and
+another bunch of folks
+have done math and figured
+out how many miles long
+the renal tubules have to be.
+And somebody goes
+and studies it,
+and it's exactly
+as you expect it.
+Isn't nature wonderful?
+No, nature isn't wonderful.
+You couldn't have
+giraffes unless they
+had hearts that were that big.
+You couldn't have rodents
+living in the desert
+unless they had kidneys that
+worked in a certain way.
+There is an inevitable logic
+about how organisms function,
+how organisms are
+built, how organisms
+have evolved solving this
+problem of optimizing
+the solution.
+And what the next two
+lectures are about is,
+you can take the
+same exact principles
+and apply them to thinking
+about the evolution of behavior.
+The same sort of
+logic where, just
+as you could sit there and,
+with logical principles,
+come to the point of
+saying, a giraffe's heart
+is going to be this big.
+You can go through a
+different realm of logic built
+around evolutionary principles
+and figure out all sorts
+of aspects of social behavior.
+And we already know what's
+involved in, say, optimizing.
+What's the optimal number
+of whatevers in your kidney.
+What's the optimal behavior
+strategy or something.
+All of us, as soon as
+we got some kid sibling,
+learned how to do the optimal
+strategy in tic-tac-toe.
+So that you could never lose,
+and it's totally boring.
+But that's a case of figuring
+out the optimal solution
+to behavior, reaching what is
+called the Nash equilibrium.
+And actually, I have no
+idea what I just said.
+But I like making
+reference to Nash,
+because it makes me feel
+quantitative or something.
+So that is called
+the Nash equilibrium.
+The Nash equilibrium, and
+what the entire point here is,
+the same sort of
+process of figuring out
+what are the rules of
+optimizing tic-tac-toe behavior
+can be built upon the
+principles of evolution
+to figure out all
+sorts of realms
+of optimized social behavior.
+And broadly, this is a field
+that's known as sociobiology,
+emerging in the late
+1970s-- mid 1970s or so.
+And by the late
+1980s, giving birth
+to another discipline known
+as evolutionary psychology.
+The notion that you cannot
+understand behavior,
+and you cannot understand
+internal psychological states,
+outside the context of evolution
+had something to do with
+sculpting those behaviors
+and those psyches.
+So to start off with that, basic
+song and dance about Darwin.
+Just to make sure we're
+up to speed on this.
+Darwin, just to get some
+things out of the way.
+Darwin did not
+discover evolution.
+People knew about
+evolution long before that.
+Darwin came up with the
+notion of a mechanism
+for evolution,
+natural selection.
+And in fact, Darwin is
+the inventor of that.
+There was another guy,
+Alfred Russel Wallace,
+the two of them.
+And, for some reason, Wallace
+has gotten screwed historically
+and Darwin gets
+much more attention.
+But starting off with a
+Darwinian view of how evolution
+works.
+First thing being that
+there is evolution.
+Traits in populations
+change over time.
+Traits can change enough
+that, in fact, you
+will get speciation.
+New species will form.
+And the logic of
+Darwinian evolution
+is built on just a few couple
+of very reasonable steps.
+First one is that there are
+traits that are heritable.
+Traits that could be passed
+on one generation to the next.
+Traits that we
+now can translate,
+in our modern parlance, into
+traits that are genetic.
+And we will see, soon, how
+that's totally not correct
+to have said that.
+But traits that are heritable.
+The next thing is that there is
+variability among those traits.
+There's different ways in
+which this trait can occur,
+and they're all heritable.
+The next critical thing.
+Some versions of those traits
+are more adaptive than others.
+Some versions work
+better for you.
+For example, giraffe
+who wind up with hearts
+the size of, like, a tomato,
+that's not an optimal version.
+Amid the range of
+variability, some
+will carry with them more
+fitness, more adaptiveness,
+than others.
+And that translates
+into another sound bite
+that's got to be gotten rid of.
+All of this is not about
+survival of the most adapted.
+It's about reproduction,
+something we will
+come to over and over again.
+It's about the number
+of copies of genes you
+leave in the next generation.
+So you've got to have
+traits that are heritable.
+There's got to be
+variability in them.
+Some of those traits are
+more adaptive than others.
+Some of those
+traits make it more
+likely that that organism
+passes on copies of its genes
+into the next generation.
+And throw those three pieces
+together, and what you will get
+is evolution in populations.
+Changing frequencies of traits.
+And when you throw in one
+additional piece, which
+is every now and
+then the possibility
+to have a random introduction
+of a new type of trait
+in there-- modern parlance,
+a mutation-- from that,
+you can begin to get actual
+large changes in what
+a population looks like.
+OK, so these are the basic
+building blocks of Darwin.
+And it is easy to apply
+it to giraffes' hearts
+and kidneys of desert rats,
+and everything we think about
+in the world of
+physiology, anatomy,
+in the context of evolution.
+So how do you apply
+it to behavior?
+And the basic notion,
+for folks who've
+come from this
+Darwinian tradition
+into thinking about behavior,
+is you do the exact same thing.
+There are behaviors that are
+heritable, types, traits,
+classes of behaviors.
+They come with a certain degree
+of variation among individuals.
+Some versions of them are
+more adaptive than others.
+Over time, the more
+adaptive versions
+will become more commonplace.
+And every now and then,
+you can have mutations
+that introduce new variability.
+Totally logical,
+absolutely unassailable.
+And what we're going to spend
+an insane amount of time
+in this class on is
+one simple assumption
+in there, which is that certain
+behaviors are heritable.
+That certain behaviors
+have genetic components.
+And as you'll see,
+this one is just
+going to run through
+every lecture wrestling
+with that issue there.
+This is a big incendiary issue
+there as to how genetic--
+and that's not the
+same thing as saying
+how genetically determined--
+how genetic behavior is.
+So that's going to be an
+issue we come back to again
+and again.
+So now, transitioning
+into how you would apply
+these Darwinian principles.
+First thing before
+starting, a caveat.
+You're going to wind up,
+in order to think about all
+of this most efficiently,
+hopefully do some personifying.
+Personifying as in, you'll
+sit around saying, well,
+what would a female
+chimpanzee want
+to do at this point to
+optimize the number of copies
+of her genes in the
+next generation?
+What would this
+brine shrimp want
+to do to deal with this
+environmental stressor?
+What would this cherry tree do?
+They're not planning.
+They're not conscious.
+They're not taking classes
+in evolutionary biology.
+What would this
+organism want to do
+is just a shorthand
+for something sculpted
+by the sort of
+exigencies of evolution,
+and reducing the optimal.
+They want to do this.
+This is just going to be
+a short hand throughout.
+Once you get past
+the apes, nobody
+is wanting to do any of
+these optimization things.
+So just getting that sort of
+terminology out of the way.
+OK, so we start off with
+what's the first building
+block of applying Darwinian
+principles to behavior.
+Something that is absolutely
+critical to emphasize,
+because the first
+thing we all need to do
+is unlearn something we all
+learned back when on all those
+National Geographic specials
+and that would consistently
+teach us something about
+this aspect of evolution,
+and would always
+teach it to us wrong.
+Here's the scenario.
+So you're watching, and there's
+this wildlife documentary.
+It's dawn on the savanna.
+And you see, there's
+a whole bunch lions
+on top of some big
+old dead thing.
+Some buffalo, or something.
+And they're chewing away
+and having a fine time.
+So something happens
+at that point,
+which is, they have to deal
+with how they divvy up the food.
+Or let me give you
+another example.
+Another standard, sort
+of endless vignette
+that comes up in these films.
+Once again, now, you're
+back on the savanna.
+It's not dawn this
+time, but you are
+looking at one of the
+magnificent things
+of the natural world, which
+is the migration of zebras
+throughout East Africa.
+A herd of 2 million of them
+migrate around, following
+a cyclical pattern of rains.
+So they're always going
+where the grass is greener.
+So you've got this wonderful
+herd of 2 million wildebeest,
+and there's a problem.
+Which is, there's some great
+field right in front of them
+full of grass, and
+bummer, there's
+a river in between them
+and the next field.
+And especially a bummer, a
+river teeming with crocodiles
+just ready to grab them.
+So what are the
+wildebeest going to do?
+And according to the
+National Geographic type
+specials we would get,
+out would come a solution.
+There's all the wildebeest
+hemming and hawing
+in this agitated state
+by the edge of the river.
+And suddenly, from
+the back of the crowd,
+comes this elderly wildebeest
+who pushes his way up
+to the front, stands on
+the edge of the river
+and says, I sacrifice
+myself for you,
+meine kinder, and throws
+himself into the river--
+[LAUGHTER]
+--where immediately, the
+crocs get busy eating him up.
+And the other two
+million wildebeest
+could tiptoe around the
+other way across the river,
+and everybody is fine.
+And you're then saying,
+why'd this guy do this?
+Why did this guy fling
+himself into the river?
+And we would get the
+answer at that point.
+The answer that is permeated
+as, like, the worst urban myth
+of evolution.
+Whatever.
+Why did he do that?
+Because animals behave for
+the good of the species.
+This is the notion that has
+to be completely trashed right
+now.
+Animals behaving for
+the good of the species
+really came to the forefront,
+a guy in the early 60s named
+Wynne-Edwards.
+Hyphenated, Wynne-Edwards.
+Some hyphenated Brit zoologist,
+who pushed most strongly
+this notion of
+that animals behave
+for the good of the species.
+He is reviled throughout
+every textbook, Wynne-Edwards
+and group selection.
+That would be the
+term, selection
+for the good of groups,
+for the selection
+for the good of the species.
+Wynne-Edwards and
+group selection.
+I'm sure the guy did all
+sorts of other useful things.
+And anyone who really has any
+depth to them would find out.
+But all I know is that
+the guy is the one who
+came up with group selection.
+Animals behave for the
+good of the species.
+This isn't the case at all.
+Animals behave for passing on
+as many copies of their genes
+as possible.
+And what we'll see
+is, when you start
+looking at the nuances
+of that, sometimes it
+may look like behaving for
+the good of the species.
+But it really isn't the case.
+So animals behave
+in order to maximize
+the number of
+copies of genes they
+leave in the next generation.
+Remember, not survival
+of the fittest,
+reproduction of the fittest.
+So first thing you need to do
+is go back to that vignette
+and saying, so what's up
+with the wildebeest there?
+And what's up with the elderly
+guy who jumps in the river?
+And finally, when you
+look at them long enough
+instead of the camera crew
+showing up for three minutes,
+when you studied
+this closely enough,
+you see something that
+wasn't apparent at first.
+Which is, this
+elderly wildebeest
+is not fighting his
+way through the crowd.
+This guy is being
+pushed from behind.
+[LAUGHTER]
+This guy is being
+pushed from behind,
+because all the other
+ones are saying,
+yeah, get the old
+guy on the river.
+Sacrificing himself, my ass.
+This guy is getting pushed
+in by everybody else.
+He is not sacrificing himself
+for the good of the species.
+He does not like the
+idea of this whatsoever.
+So he gets pushed in
+because the old, weak guy.
+None of this group
+selection stuff.
+What came in by the
+'70s as a replacement,
+a way to think about this,
+is this notion of animals,
+including us, behaving not
+for the good of the species
+or of the group, but to maximize
+the number of copies of genes
+left in the next generation.
+And what you see is three ways
+in which this could occur.
+Three building blocks.
+The first one being known
+as individual selection.
+The first one, built
+around the notion
+that sometimes the
+behavior of an animal
+is meant to optimize the
+number of copies of its genes
+that it leaves in
+the next generation
+by itself reproducing.
+The drive to
+reproduce, the drive
+to leave more copies
+of one's genes.
+This was once summarized
+really sort of tersely as,
+sometimes a chicken is an egg's
+way of making another chicken.
+No, that's backwards.
+Sometimes a chicken is an egg's
+way of making another egg.
+OK, ignore that.
+What the guy said is, sometimes
+a chicken is an egg's way
+of making another egg.
+All this behavior stuff,
+and all this animate social
+interaction, is just
+an epiphenomenon
+to get more copies of the
+genes into the next generation.
+Individual selection, a subset
+of way of thinking about this
+is selfish genes.
+What behavior is
+about is maximizing
+the number of copies of
+genes in the next generation.
+And sometimes the best
+way to do it, sometimes
+the way that animals maximize,
+is to get as many copies
+by way of reproducing
+themselves.
+It's not quite equivalent
+to The Selfish Gene,
+but for our purposes,
+individual selection.
+And this can play out
+in a number of realms.
+And bringing in sort
+of a big dichotomy
+in thinking about
+evolutionary pressures, Darwin
+and the theory of
+natural selection.
+What natural
+selection is about is
+processes bringing about an
+organism who is more adaptive,
+what we just went through.
+Darwin soon recognized there
+was a second realm of selection,
+which he called
+sexual selection.
+And what that one's
+about is, this
+is selecting for
+traits that have
+no value whatsoever in terms of
+survival or anything like that.
+Traits that carry
+no adaptive value,
+but for some random, bizarre
+reason, the opposite sex
+likes folks who look this way.
+So they get to leave more
+copies of their genes.
+And suddenly, you could have
+natural selection bringing
+about big, sharp
+antlers in male moose,
+and they use that for fighting
+off predators or fighting
+with a male.
+That would be natural selection.
+Sexual selection might
+account for the fact
+that the antlers are
+green, paisley patterns all
+over for that.
+And for some reason,
+that looks cool.
+The female moose is,
+and what you wind up
+getting as a mechanism
+for sexual selection
+is, as long as individuals
+prefer to mate with individuals
+with some completely
+arbitrary traits,
+those traits will also
+become more common.
+So this dichotomy
+of natural selection
+for traits driven by
+traits that really do
+aid leaving copies of genes
+outside the realm of just
+sheer sexual preference,
+sexual selection.
+And sometimes they can go in
+absolutely opposite directions.
+You can get some species
+where the female fish
+prefer male fish that have
+very bright coloration.
+And that's advantageous, then,
+to have the bright coloration
+by means of sexual selection.
+But the bright
+coloration makes you
+more likely to get predated
+by some other fish.
+Natural selection pushing
+against bright coloration
+in males.
+Very often, you've got the
+two going against each other,
+having to balance.
+So how would that be
+applied in this realm
+of individual selection?
+This first building block.
+Sometimes an egg-- damn.
+Sometimes a chicken is an egg's
+way of making another egg.
+Sometimes what behavior is
+about is one individual trying
+to maximize the number
+of copies of their genes
+in the next generation.
+A natural selection
+manifestation of it
+being, you're good at
+running away from predators.
+Selection for speed, for certain
+types of muscle metabolism,
+for certain sets of sensory
+systems that will tell you
+there's somebody scary around.
+That would be the realm of that.
+Individual selection, selecting
+the realm of sexual selection
+to have more of whatever those
+traits that are attractive.
+So this first building block,
+it's not group selection.
+It's not behaving for
+the good of the species.
+It's behaving to maximize the
+number of copies of one's genes
+in the next generation.
+And the most
+straightforward way is
+to behave in a way to
+maximize the number of times
+you reproduce yourself.
+Second building
+block, which is, there
+is another way of accomplishing
+the same thing that you just
+did with individual
+selection, as follows.
+One of the things that
+can be relied upon in life
+is that you are related
+to your relatives.
+And what you get is, the
+more closely related you are,
+the more genes you share
+in common with them.
+On a statistical
+level, identical twins
+share 100% of their genes.
+Full siblings, 50%.
+Half siblings, 25%.
+This is exactly
+something that's going
+to be covered in the catch
+up section this week.
+If you're not comfortable with
+this stuff, this sort of thing
+will be reviewed in more detail.
+OK, so the closer a
+relative is to you,
+the more genes they
+share in common with you.
+So suddenly, you've
+got this issue.
+You're an identical twin
+and your identical sibling
+has the same genes that you do.
+Individual selection, you
+will be just as successful
+as passing on copies of your
+genes into the next generation
+if you forgo
+reproducing to make it
+possible for your
+identical twin to do so.
+Because on the level
+of just sheer numbers
+of copies of genes in
+the next generation,
+they are equivalent.
+And sometimes, you will thus get
+behavior which really decreases
+the reproductive
+success of an individual
+in order to enhance the
+success of a relative.
+But you've got a
+constraint there,
+which is, all of
+your relatives don't
+share all your genes with you.
+They have differing
+degrees of relatedness.
+And what that winds up
+producing is another factor,
+another observation.
+One of the great, witty
+geneticists of all time, a guy
+named Haldane who,
+apparently, once in a bar
+was trying to explain
+this principle to somebody
+and came up and
+said, I will gladly
+lay down my life for two
+brothers or eight cousins.
+And that's the math
+of the relatedness.
+You passing on one
+copy of your genes
+to the next generation is, from
+the sheer mathematics of just
+how evolution is going to
+play out over the generations,
+is exactly equivalent as giving
+up your life for eight cousins
+to be able to each pass
+on a copy of their genes.
+Because you share 1/8
+with each of them,
+and it winds up being
+a whole [INAUDIBLE].
+And it's that math.
+And out of that, you
+get something that
+makes perfect sense instantly.
+Which is, evolution selects
+for organisms cooperating
+with their relatives.
+Something along those lines.
+And thus we have this
+second building block
+known as kin selection.
+Inclusive fitness.
+Kin selection.
+First building block, individual
+selection, passing on copies
+of your own genes as a way
+to maximize future success.
+Second version,
+helping out relatives.
+Helping out relatives
+in terms of increasing
+their reproductive success
+with this vicious mathematical
+logic, which is
+one identical twin
+to have two full siblings,
+eight cousins, and so on,
+as a function of
+degree of relatedness.
+And what this begins to
+explain is a whole world
+in animal behavior of animals
+being obsessed with kinship.
+Animals being fully aware of
+who is related to who in what
+sorts of ways.
+Animals being
+utterly aware of you
+cooperate with relatives,
+but as a function of how
+closely related they are.
+Animals put us in Social
+Anthropology, in kinship terms,
+and could you marry the daughter
+of your uncle's third wife
+or whatever, to
+shame in terms of how
+much a lot of social animals
+deal with relatedness.
+So inclusive fitness,
+kin selection.
+Here would be evidence for it.
+Here's one example.
+Very cool study done some years
+back by a couple, Seyfarth
+and Cheney, University
+of Pennsylvania,
+looking at vervet monkeys.
+And these were vervet monkeys
+out in Tanzania, I believe.
+What they did was, a whole
+bunch of these vervet monkeys
+were sitting around.
+And they, the researchers,
+had made really high quality
+recording recordings of
+various vocalizations
+from the monkeys over time.
+So they had the sound of each
+animal giving an alarm call,
+giving a friendly gesture
+call, giving a whatever.
+And what they would then
+do is hide a microphone
+inside some bushes and play
+the sound of one of the infants
+from the group
+giving an alarm call.
+So what does the mother
+of that infant do?
+She instantly gets agitated
+and looks over at the bush.
+That's her child, all of that.
+How to know that everyone
+else in that vervet group
+understands kin selection,
+what does everybody else do?
+They all look at the mother.
+That's whoever's mother,
+what is she going to do next?
+They understand the
+relatedness, and they understand
+what the response will be.
+All the other vervets look
+at the mother at that point.
+Whoa, I'm sure glad that's
+not my kid giving an alarm
+call from the bushes.
+They understand kinship.
+Another version of that
+came out in these studies.
+So you've got two females, each
+of whom has a kid, a daughter,
+whatever.
+And female A and female
+B. And one day, female A
+does something absolutely
+rotten to female B.
+And later that day,
+the child of female B
+is more likely than chance
+to do something rotten
+to the child of
+female A. They're
+keeping track of
+not only revenge,
+but not revenge on
+the individual who
+did something miserable to
+you, but displaced by one
+degree of reproduction.
+Keeping track of kinship.
+Animals can do this.
+All sorts of primate
+species can do this.
+And as we'll see, all sorts of
+other species can do this also.
+There is that caveat again.
+All sorts of other
+species want to figure out
+who their cousins-- they
+don't want to figure out.
+Evolution has
+sculpted an ability
+to optimize behavior
+along lines of relatedness
+in all sorts of species.
+So how would natural
+selection play out
+in this realm of kin
+selection, I will lay down
+my life for eight cousins.
+And that's just sort of
+obvious there by now.
+How would sexual selection
+play out in this realm.
+I am willing to expend
+great amounts of energy
+to convince people that my
+sibling is incredibly hot.
+And with any
+chance, then passing
+on more copies of genes.
+That would be inclusive fitness,
+kin selection in both cases.
+Decreasing your own
+reproductive potential
+by way of being killed by a
+predator to save the 8 cousins,
+or having to spend so much time
+haranguing about your sibling.
+Doings that, in
+order to increase
+the reproductive
+success of relatives,
+where you were willing
+to give up more energy
+and potential on your part,
+the more closely related
+the individual is.
+So you throw those
+two pieces together,
+and you're suddenly
+off and running
+with explaining a lot
+of animal behavior.
+Individual selection,
+none of this
+for the good of the species.
+Maximizing the number of
+copies of your own genes.
+And the easiest way, the
+most straightforward,
+is you yourself
+maximizing reproduction.
+Foundation number two the
+whole thing, kin selection.
+Sometimes the best way of
+leaving more copies of genes
+in the next
+generation is using up
+your own reproductive
+potential foregoing
+to help relatives as a function
+of degree of relatedness.
+OK, that's great.
+So now the third piece, the
+third final building block
+of making sense of social
+behavior in the context
+of real contemporary
+evolutionary theory,
+the third block here.
+Which is, you look at animals
+and they're not all just
+competing with non-relatives.
+Animals forego competition
+at certain points.
+Animals would have
+the potential to be
+aggressive to other animals,
+and they will forego doing so.
+And there's one circumstance
+in which that can happen,
+where you get what is called a
+rock-paper-scissors scenario.
+You've got animals A, B, and
+C. A has a means of damaging B,
+but it costs A. B has
+a means of damaging C,
+but it costs B. C
+can damage A, but it
+costs A. You get the right
+distribution of individuals
+with one of those
+traits in a population,
+and you will reach a
+rock-scissors-paper equilibrium
+where nobody's doing anything
+rotten to each other.
+Great example, totally
+cool example that got
+published some years ago by a
+guy named Brendan Bohannan, who
+was assistant professor in the
+department here at the time.
+He was studying something
+or other about bacteria
+showing a rock-paper-scissors
+circumstance.
+You had three different types,
+three different versions,
+of this bacteria in
+this colony he had made.
+The first one could generate
+a poison, but it cost.
+It had to put the effort
+into making that poison
+and protecting itself from
+that poison, all of that.
+The second type was
+vulnerable to the poison.
+It happened to have some
+transporter on its membrane
+that took up the poison,
+and that was bad news.
+But it had an advantage,
+which is the rest of the time,
+that transporter
+took up more food.
+The third one, the
+good thing going
+for it is that it didn't
+have-- the bad thing
+was, it didn't have poison.
+A good thing going
+for it was it didn't
+have to spend
+energy on a poison,
+and it didn't have
+that transporter.
+So each one of those has a
+strength, each one of those
+has a vulnerability.
+They're like, I don't
+know, Pokemon or something.
+And you put them
+all together there,
+and you get a
+rock-paper-scissors scenario
+where you get equilibrium,
+where they are not
+attacking each other.
+Because note, if I
+am A and I destroy B,
+B's no longer
+wiping out C, who's
+the one who could damage me.
+It's got to come to
+an equilibrium state.
+So you can get the evolution
+of stalemates like that,
+and that's quite
+frequently seen.
+And note here, this
+was the evolution
+of stalemates not in chimps, not
+in cetaceans, but in bacteria.
+What we're going to see
+is bacterial behavior,
+to the extent that this is sort
+of a metaphor for behavior.
+Behavior of all sorts
+of unlikely species
+are subject to these
+same rules of passing
+on copies of your genes.
+These three different
+strains of bacteria
+are competing with each other.
+None of them are behaving for
+the good of the species there
+of the three of them.
+So rock-paper-scissors
+is very cool,
+and you get versions
+of that in humans.
+That's been sort of studied
+quantitatively, all of that.
+But that's not real cooperation.
+That's merely
+everybody realizing
+we have to cut back
+on the competition.
+We have to cut back
+on the aggression.
+Because every time
+I damage whoever,
+I am more vulnerable
+in another realm.
+That's a stalemate.
+That's a truce.
+But you look at animals,
+and in all sorts of realms,
+it's not just
+rock-paper-scissors stalemates
+they're reaching.
+They actually cooperate
+with each other.
+And you look close enough, and
+you see they're not relatives.
+They're not
+relatives, yet you get
+all sorts of
+altruistic behavior,
+and you've got it under
+a whole bunch of domains.
+Because this brings
+up the question,
+why should you
+ever be cooperative
+with another individual if
+you are a social animal.
+At every possibility, you
+should stab them in the back
+and be selfish.
+And the reason why
+that isn't a good idea
+is, there's all sorts
+of circumstances where
+many hands make the task light.
+Or whatever that is, cooperation
+can have synergistic benefits.
+And you see that
+with species that
+are cooperative hunters,
+where they are not necessarily
+relatives.
+They will chase one,
+chasing an animal
+while the other is getting
+ready to cut a corner on it.
+Cooperative behavior, and
+they increase the likelihood
+of them getting a kill.
+Another example of this.
+Research by a guy
+named Mark Hauser
+at Harvard looking
+at rhesus monkeys.
+And what he showed was,
+he would put these monkeys
+in a situation where
+they had access to food.
+They had access to food
+under one circumstance,
+where they could reach for it
+and take it in and share it
+with another monkey.
+Under the other circumstance,
+it required two monkeys
+to get the food in there.
+And what he showed was
+clear cut reciprocity.
+Monkeys who were
+sharing with this guy
+were more likely to
+get shared back with
+and got more cooperation when
+it was a task where two of them
+had to work together
+to get the food.
+One alone wasn't enough.
+Many hands make the task
+lighter under all sorts
+of circumstances.
+Cooperation has a strong
+evolutionary payoff,
+even among non-relatives,
+with a condition.
+Which is, you're not
+putting more into it
+than you are getting.
+That is reciprocal.
+And ' opens up the third
+building block of all of this,
+which is reciprocal altruism.
+Cooperation, altruistic
+behavior among non-relatives,
+but undergoing very
+strict constraints of,
+it's gotta be reciprocated with
+all sorts of rules like that.
+So what does that look like.
+You're going to see
+reciprocal altruism,
+when would you see that.
+What's the immediate
+thing, what sort of species
+would show systems of
+reciprocal cooperation
+among non-relatives.
+They've got to be smart animals.
+They've got to be social.
+They've got to be smart.
+Why do they have to be smart?
+Because they have
+to remember, this
+is the guy who owes me a
+favor from last Thursday.
+They need to be able to
+recognize individuals.
+They have to be long lived
+enough so that there's
+a chance of interacting
+with that individual
+again and establishing
+this reciprocity.
+You would thus
+predict you would see
+systems of reciprocal
+altruism only in long
+lived social vertebrates.
+But you see the exact sorts
+of things in bacteria.
+You see the exact sort
+of things in fungi.
+You see that in all
+sorts of other realms.
+You get social bacteria,
+colonizing bacteria.
+And where what you might
+get are two clonal lines
+that are together.
+In other words, two
+genetically-- two lines,
+each of which is,
+all the bacteria
+have the same genetic makeup.
+So think of it as one individual
+who's just kind of dispersed.
+Another one who's just
+kind of dispersed.
+And they've come
+together in something
+called a fruiting body, which
+is how bacteria reproduce
+or whatever.
+And there's two parts
+to a fruiting body.
+There's one which
+is the stalk, which
+attaches to something or other.
+And then there is the
+part that actually fruits.
+So you want to be in
+the fruiting part,
+because that's the part
+that actually reproduces,
+and the stalk is doing
+all the work there.
+And what you see is
+attempts at cheating.
+Attempts at one of
+these strains trying
+to disproportionately wind
+up in the fruiting part,
+and what you also
+see is, the next time
+around, this other strain
+will not cooperate with it.
+Will not form a social colony.
+So that's getting played off
+at the level of single cell
+organisms forming
+big social colonies.
+Getting played at that level.
+Yes, as we will see,
+reciprocal altruism
+works most readily
+in big, smart, long
+lived social beasts.
+But it can occur in
+all sorts of systems.
+What it's built around is
+reciprocal cooperation.
+And intrinsic in that it
+is another motivation going
+on there.
+Not just to involve the
+reciprocal relationship
+with a non-relative, and
+many hands, and light tasks,
+and all of that.
+But also, whenever
+possible, to cheat.
+To take advantage of
+the other individual.
+And thus, another
+key facet of it
+is to be very good at
+detecting when somebody
+is cheating against you.
+To be vigilant about
+cheating in what
+would otherwise be a stable,
+reciprocal relationship.
+And an awful lot
+of social behavior
+is built around
+animals either trying
+to get away with something
+or spotting somebody else
+doing the same.
+An example of it.
+There is a test that's used
+in evolutionary psychology
+where you are given this
+very complicated story,
+or another version of a
+complicated story, where
+somebody promises if you do
+this, you'll get this reward.
+But if you do that, you're
+going to get this punishment.
+And really complex.
+And one outcome,
+the outcome of it
+is, the person isn't
+supposed to get rewarded.
+But the individual
+decides to reward them.
+Spontaneous act of kindness.
+In another
+circumstance, the person
+is the individual who is
+supposed to get rewarded,
+and instead, they get punished.
+A cheater in that case.
+And amid these
+convoluted stories,
+people are much
+better-- 75% to 25%--
+are much better at detecting
+when cheating has gone
+on in the story than when a
+random act of kindness has gone
+on.
+We are more attuned to
+picking up cheating.
+And remarkably, some
+very subtle studies
+have been done
+with chimps showing
+that chimps have the same bias.
+They are much
+better at picking up
+social interactions involving
+cheating than ones that
+involve spontaneous altruism.
+So you see here, this
+balance between cooperation,
+reciprocal, even
+among non-relatives.
+And that's great,
+but you should cheat
+when you can get away with it.
+But you should be
+vigilant against cheaters.
+And what, of course,
+it comes down to then
+is tic-tac-toe and giraffe
+hearts and all of that.
+What is the optimal strategy
+in a particular social species
+for a particular individual.
+What is the optimal strategy.
+When do you cooperate
+and when do you cheat.
+When do you defect on the
+cooperative relationship
+you've had.
+And this introduces
+us to a whole world
+of mathematics built around
+what is called game theory.
+The notion that there are
+games, formal games, that
+have mathematically
+optimal strategies,
+or multiple strategies,
+multi-equilibrium.
+And a whole world
+of research has
+been built around them in
+terms of when to cooperate
+and when to defect.
+So game theory stuff.
+This was starting off
+in a world of people
+studying economics, and
+negotiation, and diplomacy,
+and all of that.
+And that was a whole world
+built around this logic
+of when do you cooperate,
+when do you cheat.
+And what came out of
+there were all sorts
+of models of how to optimize
+behavior in terms of that.
+And the building block, sort of
+the fruit fly of game theory,
+is a game called the
+prisoner's dilemma.
+Prisoner's dilemma, sort of
+cutting to-- sort of getting
+rid of the details.
+Two individuals are
+prisoners, and they escape,
+and they're both captured.
+And they're
+interrogated separately.
+And both of them refuse to
+talk, that's great for them.
+If they both squeal,
+they both get punished.
+If one of them is able to
+squeal on the other one,
+they get a great reward.
+If the other one--
+what you get formally
+are four possible outcomes.
+Both individuals
+cooperate, both individuals
+cheat against each other,
+individual A cooperates and B
+cheats, individual B
+cooperates and A cheats.
+And what you get in
+prisoner's dilemma
+is a formal payoff for each.
+What gives you the
+greatest payoff, stabbing
+the other guy in the back.
+You cheat and they cooperate.
+You have exploited them, you
+have taken advantage of them,
+isn't that wonderful.
+That's the highest payoff
+in prisoner dilemma games.
+Second highest payoff,
+you both cooperate.
+Third highest payoff--
+which is beginning
+to not count as a payoff, but in
+a lot of the games, this set up
+is the start of
+punishment-- both of you
+cheat on each other.
+Fourth worst possible
+payoff is you're the sucker.
+You cooperate, and
+the other individual
+stabs you in the back.
+So what the prisoner's
+dilemma game
+is set up these circumstances
+where individuals will play
+versions of this against each
+other with varying rewards
+and that sort of thing,
+and parameters that we will
+look at in a lot of detail.
+And seeing when is it
+optimal to cooperate,
+when is it optimal to cheat.
+When would you do this.
+So you've got examples
+of this, and this
+was the building block.
+And what anyone would
+say looking at this is,
+it's obvious.
+What you want to
+do is, in some way,
+rationally maximize your payoff.
+This whole world
+of Homo economists,
+the notion of humans as being
+purely rational decision
+makers.
+And what you begin to see in
+this world of game theory is,
+there is anything
+but that going on.
+Later in the course,
+we're going to see
+something very interesting.
+People playing prisoner's
+dilemma games inside a brain
+scanner, looking at a
+part of the brain that
+has a lot to do with pleasure.
+And what you see
+is, some individuals
+activate that part of the brain
+when they have successfully
+stabbed the other
+guy in the back.
+Some individuals activate it
+when they have both cooperated.
+And there's a big
+gender difference
+as to which circumstance.
+[LAUGHTER]
+So you just guess which
+one is going on there.
+We're going to see
+a number of studies
+like that coming down the line.
+So the question
+becomes, how do you
+optimize prisoner dilemma play?
+And what emerged
+at that time was
+the notion of all sorts of
+theoretical models and stuff.
+And then in the 1970s,
+there was an economist
+at University of Michigan
+named Robert Axelrod who
+revolutionized the entire field.
+What he did was he took
+some paleolithic computer
+and programmed in how the
+prisoner's dilemma would
+be played.
+And he could program in as
+if there were two players.
+And he could program in what
+each one's strategy would be.
+And what he then did was, he
+wrote to all of his buddies
+and all of his mathematician
+friends and prize fighters
+and theologians and serial
+murderers and Nobel Peace Prize
+winners, and in
+each case, explained
+what was up and saying,
+what strategy would you use
+in a prisoner's dilemma game?
+And he gets them all
+back, and he programs
+all these different versions.
+And he runs a round
+robin tournament.
+Every strategy is paired
+against every other strategy
+at one point or other.
+And you look at
+what the payoff is.
+You ask, which is the
+most optimal strategy.
+And out of it,
+shockingly to everyone--
+because this was a computer
+teaching us optimizing
+human behavior-- out of it
+came one simple strategy that
+always out-competed the others.
+This is people sitting
+there, probabilistic ones
+as to when to cooperate, and
+lunar cycles as to what to do.
+The one that always won
+is now called tit for tat.
+You start off cooperating
+in the very first round
+with the individual.
+You cooperate.
+If the individual has cooperated
+with you in that round,
+you cooperate in the next round.
+And you cooperate,
+cooperate, as long
+as the other
+individual cooperates.
+But as soon as there is a round
+where the individual cheats
+against you, you cheat
+against them the next time.
+If they cheated at
+you that time also,
+you cheat against
+them the next time.
+If they go back to
+cooperating, you
+go back to cooperating
+the next time.
+You have this tit
+for tat strategy.
+In the absence of somebody
+stabbing you in the back,
+you will always cooperate.
+And what they found
+was, run these hundreds
+of thousands of versions of
+these round robin tournaments,
+and tit for tat was the
+one that was most optimal,
+to begin to use a
+word that is not just
+going to be a metaphor.
+Tit for tat always drove
+the other strategies
+into extinction.
+And what you wound up seeing
+is this optimized strategy.
+And it was very clear why
+tit for tat worked so well.
+Number one, it was nice.
+You start off cooperating.
+Number two, it retaliates if
+you do something crummy to it.
+Number three, it is forgiving.
+If you go back to cooperating.
+Number four, it's
+clear cut in its play.
+It's not some
+probabilistic thing.
+What you get, then,
+with tit for tat is,
+suppose you're playing three
+rounds with another individual.
+You both cooperate
+the first one,
+you both cooperate the next one.
+You're playing tit
+for tat strategy,
+so you cooperate on this one.
+And they stab you in the back,
+and you can't get back at them,
+because this is the last round.
+What you'll see is, under
+lots of circumstances,
+tit for tat is disadvantageous.
+But what the soundbite is
+about it is, tit for tat
+may lose the battles,
+but it wins all the wars.
+This pattern of being nice,
+but being retaliatory, being
+forgiving, and being
+clear in the rules,
+drives all the other
+strategies into extinction.
+OK, at this point my
+alarm just went off,
+which was to remind
+me to ask somebody
+who is wearing a life vest-- is
+somebody wearing a life vest?
+[INAUDIBLE]
+Over there.
+Where are you?
+She just left.
+She left.
+Isn't that interesting?
+Somebody put me up to
+having to ask this person,
+why are you wearing a life vest?
+And apparently the
+answer she would give
+was going to free all sorts of
+captives in some rebel group
+in Colombia.
+And she fled.
+OK, what that does is--
+[LAUGHTER]
+I don't know what that says
+about reciprocal altruism.
+But what that says also
+is, after I do a summary,
+don't make a move.
+We will have a
+five minute break.
+So what do we have
+at this point,
+we have the first building
+block of optimizing
+the evolution of behavior,
+like optimizing giraffe hearts.
+First piece, you don't behave
+for the good of the species.
+Individual selection,
+passing on as many copies
+of your own genes as possible.
+Sometimes a chicken is an egg's
+way of making another egg,
+he says triumphantly.
+Building block number
+two, kin selection.
+Some of the time, the best way
+to pass on copies of your genes
+is by way of helping relatives.
+Kin selection, with the
+mathematical fierceness
+of degree of
+relatedness driving it.
+Piece three, sometimes
+what's most advantageous
+is to cooperate, even
+with non-relatives,
+but with the rules of
+it has to be reciprocal
+and you have to
+cheat when possible.
+You have to be on
+guard against cheaters.
+And as we've just seen, game
+theory, prisoner's dilemma,
+beginning to formalize
+optimal strategies for that.
+OK, let's take a
+five minute break.
+But promise you will
+come back if you go out,
+and everyone won't wander off.
+Altruism [INAUDIBLE] game
+theory as being a form or way
+to maximize that behavior
+in a very artificial realm,
+but stay tuned.
+Prisoner's dilemma
+as the building block
+of how to do this amid
+lots of other types
+of games that are used.
+But prisoner's dilemma
+is the most basic one.
+And that round robin tournament,
+that computer simulation,
+Axelrod asking all his
+buddies to tell him
+what strategy would you use,
+run them against each other,
+and out comes tit for tat.
+Tit for tat drives all the
+others into extinction.
+However, there is
+a vulnerability
+in tit for tat,
+which is-- OK, so.
+We have the technical way of
+showing prisoner's dilemma
+play.
+And first round, both
+individuals are cooperating.
+Second round, both
+individuals are cooperating.
+Third round, this one
+cheats-- those are fangs.
+This one cheats and
+this one cooperates.
+So the next round, this
+one now cheats and this one
+goes back to cooperating,
+and we've just
+gotten through a scary thing
+that tit for tat solves,
+and it's great.
+Wonderful.
+What if, though, your
+system is not 100% perfect.
+What if there's
+a the possibility
+of a mistake being made, of
+sending the wrong signal.
+What if there's the possibility
+of noise in the communication
+system.
+And at some point,
+an individual who
+does a cooperative
+behavior, thanks to a glitch
+in the system, it is read
+as having been defection.
+So what happens as a result?
+This individual-- forget it.
+OK, what happens as a result.
+The individual who cooperated,
+but somehow the message
+got through as cheating,
+they don't know.
+Something got lost in the wires
+between them in translation.
+The other individual
+was saying whoa,
+that individual
+cheated against me.
+I'm going to cheat
+in the next round.
+So along comes the next
+round, and that individual
+cheats against them.
+This one who's cooperating,
+because they've
+been cooperating all along.
+They don't know
+about this error.
+And they say whoa, that person
+just cheated against me.
+I'm going to cheat
+in the next round.
+So they cheat in the next round.
+This one says whoa, they
+just cheated another time,
+again and again and again.
+And what you get is a seesaw
+pattern for the rest of time.
+You've just wiped out
+50% of the cooperation.
+And what you've got is
+tit for tat strategies
+are vulnerable to signal error.
+That's something that soon
+came out in these studies
+of Axelrod's.
+When I was a kid, there was
+like one of these thriller
+books I remember reading where
+there's a glitch in the system.
+And at the time, the
+mean scary Soviet Union
+launched a missile that--
+no, it was the United States.
+The United States,
+by accident, launched
+a missile, a nuclear weapon,
+where they didn't mean to.
+Some cockroach chewed through
+a wire some place or other.
+And the missile went off, and
+wound up destroying Moscow.
+And oh my god, we had
+a cooperative system
+of mutually restraint of
+aggression, all of that.
+And thanks to a signal
+error, a cheating signal
+was accidentally sent off.
+And how did the book end?
+A tit for tat response.
+In order to avoid
+thermonuclear wasteland,
+the Soviet Union was
+allowed to destroy New York.
+All right, so that
+shows exactly how
+you could then get into
+a see-sawing thing,
+simply by way of if the
+system has any vulnerability
+to signal error.
+So it soon became clear,
+as soon as Axelrod
+began to introduce the
+possibility of signal errors,
+that tit for tat didn't work as
+well as another strategy, one
+that quickly came
+to the forefront.
+And that one-- for
+some strange reason,
+that's the way it's shown.
+That one was called
+forgiving tit for tat.
+What happens with
+forgiving tit for tat?
+The usual rule, like tit
+for tat, if you cooperate,
+if they cooperate,
+you always cooperate.
+If they cheat against you, you
+punish them in the next round.
+Exactly the same
+thing as tit for tat,
+but oh no, what if there's
+a signal error in the system
+and you've gotten caught in
+one of these horrible seesawing
+things.
+What forgiving tit
+for tat does is,
+we'll have a rule, for
+example, that if we
+see saw like this
+five times in a row,
+I will forego cheating
+the next time.
+And instead, I'll cooperate.
+And that will get
+things back on track.
+I am willing to be
+forgiving in one round
+in order to
+re-establish cooperation
+after the signal error came in.
+And that one-- as
+soon as you introduce
+the possibility of signal
+error, that one out-competes
+tit for tat.
+Because it makes perfect sense.
+It's a great way of
+solving that problem.
+So that was terrific.
+Tit for tat with the
+ability to forgive,
+and what you would then see is
+variability, how many of these
+do you need to go through
+before you forgive,
+what's the optimal number
+of see-sawings, all of that.
+So a whole world of optimizing
+how soon you're forgiving.
+Nonetheless, the general
+theme being forgiving tit
+for tat out-competes tit for tat
+when you can have signal error.
+But there is a vulnerability.
+There is a vulnerability
+here to this one, which
+is, you could be exploited.
+If you're playing against,
+for example, a tit for tatter,
+or all sorts of other
+strategies, where
+they don't have forgiving
+strings of defection
+and you do, what's
+going to happen
+is you're going to keep
+going back to cooperating,
+they're going to keep
+stabbing you in your back.
+Forgiving tit for tat is
+vulnerable to exploitation
+playing against
+individual players that
+don't have forgiveness in them.
+So what soon became apparent was
+an even better strategy, which
+is you start off with
+a tit for tat strategy.
+Which is, you are
+punitive, you are
+retaliatory amid being
+forgiving, clear and nice
+initially.
+You are willing to punish, and
+you cannot be exploited in this
+way.
+If and only if you have gone
+whatever number of rounds
+without the other individual
+ever cheating on you, if you've
+gone long enough
+without that happening,
+you switch over to
+forgiving tit for tat.
+What is that?
+That's deciding
+you trust somebody.
+You've had enough
+interactions with them
+that you are willing
+to trust them.
+This is the transition from
+pure rational optimizing
+to switching over, forgiveness
+coming in there protects you
+from signal error.
+And of course, now, a whole
+world of how many rounds do you
+need to do this before
+you switch that as to what
+the optimal deal with that is.
+But again, this is a
+way of transitioning
+to solve the problem
+of signal error,
+but forgiving too readily
+and being taken advantage of.
+Soon, another strategy appeared,
+which was called Pavlov.
+And those of you who
+know Pavlovian psychology
+will see that this, in fact,
+has nothing whatsoever to do
+with Pavlovian psychology, and
+I don't know why they did that.
+But they thought it
+was kind of cool.
+But the rule was
+remember, if you
+stab the other guy in the back,
+you get a bunch of points.
+If you both cooperate, you
+get points, not as many.
+If you both cheat,
+you lose some points.
+If you're taken advantage
+of, you lose a lot of points.
+So two outcomes you gain,
+two outcomes you lose.
+In Pavlov, the simple rule
+is when I do something,
+if I get points, if I get
+some degree of reward,
+I do it again the next time.
+If I get rewarded in either of
+the first two types of payoffs,
+I do the same thing again.
+And the other part, of course,
+is, if I play my strategy
+and I lose one of the
+two bottom outcomes,
+I switch to the other
+strategy the next time.
+And what you see is that
+can establish very good tit
+for tat stuff.
+But if you sit and
+spend hours tonight
+with a long roll of
+toilet paper and playing
+out all the rounds
+of it, you will
+see what Pavlov allows
+you to do is exploit
+somebody else who is forgiving.
+So Pavlov goes along
+just fine with this.
+And as long as Pavlov continues,
+whenever they switch over
+to a forgiving tit
+for tat, Pavlov
+will out-compete them,
+because Pavlov exploits.
+What then emerged was just
+zillions of people studying
+all sorts of games like this.
+There's other ones, ultimatum
+game, there's a trust game.
+It's the same notion
+of business there,
+which is you choose to
+cooperate, you choose to cheat,
+what's the optimal outcome.
+There are mathematically optimal
+outcomes that you can use,
+and you run all of it
+against the computer,
+and you get the optimization
+popping out the other end.
+Wonderful.
+So there's Axelrod and
+his buddies using terms
+like oh, this
+strategy will drive
+the other one into extinction.
+Or this strategy works,
+but if you program in
+that every now and then
+there could be a glitch,
+there can be a mutation,
+this will be-- they're
+using all this biology jargon,
+obviously metaphorically.
+But right around this
+point, the biologists
+look at this, who are
+just beginning to think
+about the social biology stuff.
+Formal patterns of
+optimizing behavior.
+And they say whoa, does
+this apply to the behavior
+of real organisms?
+Because at this point, it's just
+economists and computer types
+and diplomats learning
+when to optimize,
+all that sort of thing.
+Around the time there
+was a paper published,
+somewhat before that.
+This is a name nobody
+is going to know,
+lost in history, a guy
+named Daniel Ellsberg.
+Daniel Ellsberg became
+very famous around 1970,
+by he was working
+in the Pentagon
+and he stole thousands
+of pages of secret files
+there, and gave it
+to the New York Times
+showing how utterly
+corrupt everything that
+went on behind the scenes was
+in getting us into Vietnam.
+Major blowout, all of that.
+He had spent the early part of
+his career perfectly happily
+working in the Pentagon for the
+military as a game theorist.
+As a game theorist coming
+up with optimal patterns.
+And he wrote one paper
+called "The Optimal
+Benefits of Perceived Madness".
+What times do you
+want your opponent
+to think you are
+absolutely out of your mind
+and going to do all
+sorts of crazy stuff,
+and where they
+wind up cooperating
+to keep you from doing that.
+The advantages of
+madness, what's that.
+That's systems where things like
+mutually assured destruction
+doesn't work, because you
+are willing to set it off.
+The advantages of madness.
+This whole world of people
+working on it, mathematicians
+and war strategists.
+And there's the zoologists now
+looking at this saying whoa,
+this is cool.
+I wonder if animals
+behave that way.
+And that's when people, now
+armed with their insights
+into prisoner's dilemma
+and tit for tat,
+all this stuff, started to
+go and study animals out
+in the wild and see, were
+there any examples where
+this happened.
+Yes.
+In all sorts of
+interesting realms.
+First example, vampire bats.
+Vampire bats, we are all
+set up to be creeped out
+by vampire bats.
+But in actuality, when you
+see a vampire bat drinking
+the blood of some
+cow or something,
+you are watching a mommy
+getting food for her babies.
+Because vampire bat
+mothers are not actually
+drinking the blood.
+They're filling up
+this throat sack thing,
+and they go back to the
+nest and they disgorge
+the blood to feed their babies.
+She's just watching
+out for her kids.
+It happens that vampire bats
+have an interesting system
+of reciprocal altruism, which
+is a whole bunch of females
+will share the same nest.
+Will have all their
+kids in there mixed in.
+And these are not
+necessarily related,
+so we've just left the
+world of kin selection.
+They're not necessarily
+related, but they have
+reciprocal altruists system.
+Each female comes in,
+disgorges the blood,
+and feeds everybody's babies.
+And they all feed
+each other's babies,
+and everything is terrific.
+And they have this blood
+vampire commune going there.
+And they've reached a nice
+state of stable cooperation.
+Now, make the bats think
+that one of the females
+is cheating on them.
+Out comes that female flying off
+to find some blood, and instead
+you net her and
+get a hold of her,
+and take some
+syringe full of air
+and pump up the throat
+sack so the throat
+sack is really
+full and distended,
+but there's no blood in there.
+You've just pumped
+air into there.
+And stick her back
+into the nest there.
+And she's just
+sitting there happily,
+and the other
+females are sitting
+saying look at her, look at
+how much blood she's got there.
+I can't believe it, because
+she's not feeding our kids.
+She's cheating on us.
+And the next time
+they go out to feed,
+the other females
+don't feed her kids.
+A tit for tat.
+What you saw here
+is an exact example
+of introducing signal error.
+Signal error, in this case,
+being some grad student
+pumping up the throat
+of some vampire bat
+and showing that they're using
+a version of a tit for tat
+strategy.
+Totally amazing.
+People were blown away by this.
+Another example, fish.
+Stickleback fish who, in the
+world of animals-- you know,
+bats are probably not some of
+the brightest folks around.
+But I don't think sticklebacks
+are within light years of them.
+But stickleback fish can
+do a tit for tat strategy.
+Here's what you do.
+You have a stickleback
+fish in your fish tank,
+and you make the fish
+believe that he's
+being attacked by another fish.
+What do you do?
+You put a mirror up against
+the edge of the tank there.
+So within a very short
+time-- I told you
+they were not that smart.
+So within a very
+short time, he's
+lunging forward at
+this mirrored thing
+and maintaining his
+territory against this guy
+and barely holding on.
+And that other guy is
+just-- he doesn't get tired.
+Thank god I don't get tired.
+And they're just going at it.
+And now make him think he
+has a cooperative partner.
+Put in a second mirror
+that's perpendicular here.
+In other words, he sees
+his reflection there.
+And every time he
+moves forward, the
+sees that one moving
+forward, which is fortunate
+because he's also seeing another
+fish coming from that way.
+And he's sitting there
+saying, this is great.
+I don't know who this guy is,
+but wow, what a team we are.
+[LAUGHTER]
+Doubles, this is great.
+He's in there and the thing
+is, it's funny how those two
+guys are so synchronized.
+But whoa, we're holding
+them off and we're doing it.
+Now make him think his
+cooperating partner is,
+in fact, cheating on him.
+Take the mirror and
+angle it back a little
+bit so the reflection
+is set back some.
+And what he now sees is
+the fish moving forward,
+but not all the way
+up to the wall there.
+The fish is hanging back there.
+The fish is cheating.
+And this stickleback is sitting
+there saying, in effect,
+that son of a bitch.
+I can't believe he's
+doing that to me.
+We've worked together for years.
+I can't believe he's-- oh
+he's pretending to go forward.
+But I see he's not
+really doing that.
+Fortunately, that guy isn't
+coming forward anymore, either.
+Phew.
+But I can't believe
+the guy is cheating.
+And the next time you set up
+this scenario, the next time
+there's a chance the
+stickleback doesn't attack
+its own reflection there.
+It is tit for tatting
+against this guy.
+So here we've managed to
+set up one of these deals
+within one fish and
+carrying it out forever.
+One fish, ultimately with
+some very blistered lips.
+Tit for tat, once again.
+Another example.
+This is the most bizarre
+one I can imagine, and leads
+to all sorts of
+subjects that are going
+to come many lectures from now.
+But there are fish species
+that will change sex.
+And they do it under all sorts
+of strategic circumstances
+that suddenly begin to fit
+into this realm of what
+we've been learning about.
+And you've got one of these
+things called black hamlet
+fish.
+And they can change gender.
+So you'll have a
+pair of them who
+hang out with each other
+of opposite genders,
+and they take turns.
+They flip back and forth.
+For a while, this one's
+female, and for a while,
+this one's female.
+And they go back and
+forth, and that's great.
+But there's an
+inequity there, which
+is that the price
+of reproduction
+is greater for the
+female than for the male.
+As is the case in
+so many species,
+the female doing all
+that egg and ovaduct
+and progesterone stuff,
+or whatever it is.
+And the male's just got to
+come up with some sperm there.
+Doing to reproduction
+as a cooperating pair,
+they're not relatives.
+Reciprocal altruism, maximizing
+each of their reproductions.
+Whoever's the female
+in any given round
+is the one who's paying more.
+What you see are reciprocal
+relationships there
+of the fish using tit for tat.
+If you get one fish that
+begins to cheat and winds up
+being a male too
+much of the time,
+the other fish stops
+cooperating with them.
+Again, tit for tat stuff.
+So people were just blown out
+of the water at this point,
+seeing whoa, forget rational
+human economic thinking,
+all of that.
+You go out into the wild,
+and bats and stickleback fish
+and gender switching
+fish and all of that,
+they're following some of
+the exact same strategies.
+Isn't nature amazing.
+No, nature isn't amazing.
+It's the exact same
+logic as saying
+a giraffe has to
+have a heart that's
+strong enough to
+pump blood to the top
+of the head of a giraffe.
+Or else there
+wouldn't be a giraffe.
+And when you look at this realm,
+it's applying the same notion.
+This same sort of wind tunnel
+of selective optimization
+for behavior-- in this
+case, when to cheat,
+when to cooperate--
+sculpts something
+that is as optimized
+as a giraffe's heart
+being the right size.
+So this made perfect sense.
+Wonderful.
+But then people began to
+look a little bit closer,
+and began to see the very
+distressing real world
+beginning to creep in there.
+Which were exceptions.
+First exception.
+This was done by a guy named
+Craig Packer, University
+of Minnesota, looking
+at lions in East Africa.
+What you get is,
+typically, prides
+are a whole bunch of relatives,
+usually female, sisters,
+nieces, all of that.
+But you will sometimes
+get prides that
+are not of close relatives.
+Nonetheless, they will get
+reciprocal altruistic things
+going on.
+Lions, in this case,
+having the same trick as
+was done on those
+vervet monkeys.
+Researcher putting inside
+the bush there a speaker,
+and playing the sound of like
+400 menacing lions all at once.
+What you're supposed to do
+is freak out at that point.
+And all of you need to very
+carefully approach and see
+what's going on in that bush.
+So what would happen
+in a reciprocal system,
+and everybody does this.
+Or if one time, one
+of them cheats on you,
+you push that one
+forward the next time.
+Or some such thing.
+That's what you would expect.
+But what he would
+begin to notice
+is, in a bunch of these groups,
+there'd be one scaredy cat
+lion, one who habitually
+stayed behind the others
+and who wasn't punished for it.
+So this produced
+this first puzzle
+that oh, sometimes animals
+aren't optimizing tit for tat.
+Sometimes animals haven't read
+Robert Axelrod's landmark 1972
+paper, that sort of thing.
+And what you suddenly
+have is the real world.
+What could be
+possible explanations?
+One thing being, maybe they're
+not really paying attention.
+Maybe they're not
+quite that smart.
+Wait, bacteria are doing
+versions of tit for tat.
+What else could be going on?
+Oh, lions interact
+in other realms.
+Maybe this individual is
+doing very reciprocal stuff,
+forgiving overly altruistic
+stuff in some other realm
+of behavior.
+Maybe this lion eats
+less of the meat
+and backs off earlier,
+or something like that.
+Maybe there's another game
+going on simultaneously.
+And this is introducing
+the real world
+in which it is not
+just two individuals
+sitting there playing prisoner's
+dilemma and optimizing.
+You suddenly begin to get
+real world complexities coming
+in there.
+And by the time we
+get to the lectures,
+way down the line, on
+aggression and cooperation,
+what you'll see is things
+get really complicated
+when you have individuals
+playing games simultaneously.
+The rules that you apply
+to one psychologically
+begin to dribble
+into the other one.
+All sorts of things like that.
+It will get very complicated.
+So a first hint there
+that, in fact, everything
+doesn't work perfectly
+along those lines.
+Here's another version.
+Here's one of the truly
+weird species out there,
+something called
+the naked mole rat.
+If you ever have
+nothing to do and you've
+got Google Image up there, go
+spend the evening looking up
+close up pictures
+of naked mole rats.
+These are the weirdest
+things out there.
+They are the closest
+things among the mammals
+to social insects, in terms
+of how their colonies work.
+They're totally
+bizarre, all of that.
+But they live in these
+big, cooperative colonies
+that are predominately
+underground in Africa.
+And they were discovered, I
+think, only in the 1970s or so.
+And for a while when
+zoologists got together,
+if you were a naked
+mole rat person,
+you were just the
+coolest around.
+And everybody else
+would feel intimidated,
+because you were working on
+the best species out there.
+And you would see these
+big cooperative colonies,
+soon shown to not
+necessarily be of relatives.
+And reciprocity and all
+those sorts of rules.
+But people soon
+began to recognize
+there would be one or two
+animals in each colony that
+weren't doing any work.
+Work digging out
+tunnels, bookkeeping,
+I don't know what naked mole
+rats do in terms of work.
+But there would be a
+few individuals who
+would just be sitting around.
+And they were these big
+old naked mole rats.
+They were much bigger
+than the other ones,
+and they were scarfing
+up food left and right.
+There goes Robert
+Axelrod down the drain.
+There goes all
+that optimization,
+because no one would be
+punishing these guys.
+What's the deal?
+And it took enough watching
+these animals long enough
+to see this notion
+of oh, there's
+another game going
+on in which they
+play a more important role.
+And it is sort of
+dribbling across.
+When the rainy season comes,
+these big naked mole rats
+go up and turn around and they
+plug the entry to the tunnels
+then.
+[LAUGHTER]
+That's what they do.
+And suddenly,
+these guys who have
+been sitting around doing
+no work whatsoever all year
+and eating tons of stuff, they
+suddenly have to now stick
+their rear ends out for
+the coyotes to be around
+or whatever it is
+that predates them.
+What we have is role
+diversification.
+Real animals, real
+organisms, are not just
+playing one formal prisoner's
+dilemma game against each other
+at the same time.
+And by the time we, again,
+get to the later lectures
+on aggression,
+cooperation, all of that,
+we will not only see that things
+get much more complicated when
+you're playing
+simultaneous games,
+when you're playing a game
+against one individual
+while you're playing
+against another one,
+and then against
+triangular circumstances.
+How play differs if you
+know how many rounds
+you are playing against
+the individual versus
+if you have no idea.
+How play differs
+if, when you are
+about to play
+against someone, you
+get to find out what
+their behavior has
+been in the previous trials
+with other individuals.
+In other words, if somebody
+shows up with a reputation,
+we'll see this is a much
+more complicated world
+of playing out these games.
+A much more realistic one.
+So we begin to see a first pass
+at all this optimization stuff,
+and how great that all is.
+One final interesting addition
+to this game theory world
+of thinking about behavior like
+that, which came from a guy
+named James Holland,
+who apparently-- might
+have a different first name.
+But Holland, apparently, as an
+interesting piece in history,
+he's the person first
+person to ever get
+a PhD in Computer Sciences.
+Which I think was in the late
+50s, University of Michigan.
+Apparently, there are realms
+of computer programmers
+who worship this guy.
+And he, like a lot of other
+folks in that business,
+got interested in this
+game theory evolution
+of optimal strategies.
+And he designed ways
+of running all of this.
+And he introduced
+a new ripple, which
+is the possibility of a
+strategy suddenly changing.
+The possibility of a mutation.
+What he could then
+study was mutations,
+how often they were
+adaptive, how often they
+spread throughout the strategy
+there, of individuals playing.
+How often they drove
+the other strategies
+into extinction versus
+ones that were quickly
+driven to extinction themselves.
+More cases where we are
+getting these systems
+where maybe they're not just
+metaphorically using terms
+from biology.
+Maybe they are exactly
+modeling the same thing.
+And we will see more and
+more evidence for that.
+OK, so reciprocal altruism.
+How would that play out in the
+world of natural selection.
+Natural selection,
+cooperative hunting.
+And there's lots of species
+that have cooperative hunting.
+Wild dogs, jackals, some
+other species as well.
+Clearly, that's
+like the definition
+of cooperative hunting,
+of reciprocal altruism,
+if they're not relatives.
+How would sexual
+selection play out
+in the realm of
+reciprocal altruism?
+A little bit less obvious there.
+That would be if you
+and some non-relative
+spent an insane amount
+of energy and time
+making sure you both look really
+good before going to the prom.
+That would be sexual selection
+working on reciprocal altruism
+system.
+So what we have now are
+three building blocks.
+This whole trashing of it's
+not survival of the fittest.
+It's not behaving for
+the good of the species.
+It's not behaving for
+the good of the group.
+But instead, these
+three building
+blocks, the ways to optimize
+as many copies of your genes
+in the next generation
+as possible.
+Way number one,
+individual selection,
+a version of selfish genes.
+Sometimes a chicken is an egg's
+way of making another egg.
+Behavior is just a way of
+getting copies of genes
+into the next generation.
+Piece number two, inclusive
+fitness kin selection.
+That whole business,
+that sometimes the best
+way of passing on copies
+is to help relatives do it.
+And it's a function of
+how related they are.
+The whole world of cooperation
+more among related organisms
+than unrelated ones.
+And as we will see way
+down the line, what
+is very challenging
+in different species
+is, how do you figure out
+who you are related to?
+And humans do it in a very
+unique way that sets them up
+for being exploited in all
+sorts of circumstances that
+begin to explain why culture
+after culture, people
+are really not nice to thems,
+and it flows along those lines.
+This is something we will
+get to in a lot of detail.
+So degree of relatedness,
+a lecture coming.
+How do you tell who
+you're related to.
+But that second
+piece, kin selection.
+Third piece,
+reciprocal altruism.
+You scratch my back and
+I'll scratch your back.
+And whenever possible, you want
+to instead scratch your back,
+and they want to
+make sure you're
+not scratching your back.
+Or whatever cheating counts as.
+But trying to cheat,
+being vigilant against it,
+formal games where you can
+optimize it, very complicated.
+And can you believe it, you
+go out into the real world,
+and you find examples
+of precisely that.
+Optimization with tit for
+tat, isn't nature wonderful.
+It's gotta work that way.
+Then you begin to see how the
+real world is more complicated.
+Multiple roles, naked mole
+rats stuck in plumbing,
+things of that sort.
+These are the principles.
+And what people of this
+school of evolutionary thought
+would say, armed with
+these sorts of principles,
+you could now look at all
+sorts of interesting domains
+of animal behavior
+and understand
+what the behavior is going
+to be like by using these.
+OK, we start with
+the first example.
+Here we return to these guys.
+And we have one species
+here, and knowing
+this guy had a penis
+and this one nursed,
+we've got an adult male
+and an adult female.
+What is it that
+you can conclude?
+In this species, males are
+a lot bigger than females.
+Let's state it here as there's
+a big ratio of males to females.
+Meanwhile in the
+next county, you've
+discovered another species
+where somebody's got a penis
+and somebody else is nursing.
+And their skulls are
+the exact same size.
+Oh, here's a species
+where there's
+no difference in body size
+between males and females.
+Let's begin to see, just
+using the principles
+we've got in hand already, what
+sort of stuff we can predict.
+Starting, which of those
+species-- in one case,
+you have males being a
+lot bigger than females.
+In one case, you've got males
+being the same size as females.
+In which of those species,
+the first one like this,
+or the same size
+ones, which ones
+would you expect to see
+more male aggression?
+First one.
+First one.
+OK, how come?
+Their bodies are built for it.
+Their bodies are built for it.
+Which begins to
+tell you something,
+their bodies are
+built for it, maybe
+because females have
+been selecting for that.
+You will see higher
+levels of aggression
+in species like this, where
+there's a big body size
+difference, and much
+less of it in these guys.
+Next, you now ask how
+much variability is there
+in male reproductive success.
+In one of these
+species, all the males
+have one or two kids
+over their lifetime.
+In another species,
+95% of the reproducing
+is carried out by
+5% of the males.
+A huge variability skew in
+male reproductive success.
+Which species do you
+get the every male has
+a couple of kids, and that's
+about it, and all equally so?
+Which one?
+[INAUDIBLE]
+Second one.
+How come?
+Because these guys are being
+selected for aggression.
+If they're fighting,
+there's going
+to have to be something
+they're fighting for.
+Deferential reproductive access.
+OK, so you see more variability
+in species that look like this.
+Next, females come
+into the equation.
+What do females want?
+What do females want in
+the species on the left
+versus the one on the right?
+The one on the
+right, again, skull's
+the same size, same body size.
+On the left, what
+does the female want?
+[INAUDIBLE]
+What sort of male is the
+female interested in?
+[INAUDIBLE]
+Big.
+Exactly.
+That's exactly the
+driving force on this.
+How come?
+Because she's not going to get
+anything else out of this guy.
+This guy is just going
+to, like-- the present
+is going to be some sperm.
+It might as well be some
+good sperm, some genetically
+well-endowed sperm that makes
+her a big healthy offspring,
+increasing the odds of her
+passing on copies of her genes
+in the next generation.
+What about in this species?
+What's females looking for?
+[INAUDIBLE]
+OK, good.
+Hold on to that for
+a second, and let's
+jump ahead a few lines.
+One of the species,
+males have never
+been known to do the slightest
+affiliative thing with infants.
+They just get irritated and
+harass them and all of that.
+In the other, you
+have soccer dads
+who are doing as much raising
+of the kids as the females are.
+In which species do you get
+lots of male parental behavior?
+Smaller.
+The one on the right.
+OK.
+So lots of male
+parental behavior here.
+Somebody just gave the
+answer here, female choice.
+What would you see
+in this species?
+You want big, muscular guys.
+You want whatever is
+selling that season for what
+counts as a hot male, because
+you want your offspring
+to have those traits.
+And somebody else
+called out here,
+what do females want
+in this category?
+And what was it you said?
+Good personality.
+[LAUGHTER]
+Good personality.
+Yes.
+Able to express emotions.
+[LAUGHTER]
+That, too.
+OK, somebody else
+shouted out something
+that gets at the broader,
+more globally Oprah version.
+OK, somebody shouted out--
+[INAUDIBLE]
+--parental behavior.
+You want a male who is going
+to be competent at raising
+your children.
+What is it that you
+want, really most deeply?
+You want to get the male who
+is the most like a female you
+can get a hold of.
+You don't want some
+big old stupid guy
+with a lot of muscle and canines
+who's wasting energy on stuff
+like that he could be using
+instead on reading Goodnight
+Moon or some such thing.
+What you want
+instead is somebody
+who's as close to a female as
+you can get to without getting
+this lactation stuff.
+Males are chosen who are
+the same size as females.
+So the term given here is
+choosing for paternal behavior,
+parental behavior.
+Parental, let's just
+put that in there.
+And that begins to explain
+the top line, species
+in which there's a lot
+of sexual dimorphism.
+Morphism, shapes of things.
+Sexual dimorphism,
+big difference
+in body size as a
+function of gender.
+And in these sorts
+of species where
+you get male parental
+behavior, not
+much variability in male
+reproductive success,
+low levels of
+aggression, and what
+females want is
+a competent male.
+These are ones where you see low
+degrees of sexual dimorphism.
+So how's a female
+going to figure out
+that this guy is going
+to be a competent parent?
+Once again, we just figured out,
+if he looks kind of like you.
+Because that suggests he hasn't
+wasted health and metabolism
+on stupid, pointless
+muscles when there's
+more important things
+in life for making sure
+your kids have good values.
+What else would the female
+want to know when she's first
+considering mating with a male?
+Is he a nice guy,
+is he sensitive,
+does he express his feelings.
+Is he competent
+at being a parent.
+What do you want the
+individual to do?
+Prove to you that he can
+provide for the kids.
+And suddenly you have a world of
+male birds courting the females
+by bringing them worms.
+Bringing them
+evidence that they are
+able to successfully forage,
+they are able to get food.
+Female choice is built
+around appearance
+and behavioral
+competence at being
+able to be a successful
+parent in order
+to pass on as many
+copies of genes
+to the next generation
+as possible.
+OK, how about life span.
+In which species is there a big
+difference in life expectancy
+as a function of gender?
+First one.
+First one.
+Here you're choosing
+for males to be
+as close to females as possible,
+and thus the physiology.
+Here you've got
+these guys who are
+using huge amounts
+of energy to build up
+all this muscle, which
+takes a lot more work
+to keep in calories.
+And you're more
+vulnerable in famines.
+You've got these males
+with high testosterone,
+which does bad stuff to
+your circulatory system.
+You've got males who, thanks
+to all this aggression,
+are getting more
+injuries, more likely.
+In species in which you have
+a lot of sexual dimorphism
+in body size, you get a lot of
+sexual dimorphism in life span.
+Then you look at these
+guys, and it's basically
+no difference by gender.
+Moving on.
+Considering primates
+that are one
+of these two patterns, in
+which one do you always
+want to give birth to twins,
+in which one do you never
+want to give birth to twins?
+Who gives birth to twins?
+[INAUDIBLE]
+The one of the right, of course.
+How come?
+Because you've got two
+parents on the scene.
+You are not a single mother.
+And you are a single mother
+rhesus monkey or something,
+and you give birth to
+twins, and you do not
+have the remotest
+chance of enough energy,
+enough calories on board, to
+get both of them to survive.
+A twin that is born
+in a species like this
+has the same rate that it occurs
+in humans, about a 1% rate.
+And it is almost inevitable that
+one of them does not survive.
+Meanwhile, there's a whole
+world of primate species
+with this profile where
+the females always twin.
+Finally, you are
+the female and you
+are contemplating
+bailing out on your kids
+and disappearing,
+because there's
+some really hot guy over there
+who you want to mate with.
+And you are trying to
+figure out this strategy.
+So you are going to leave
+and abandon your kids.
+In which species do
+you see that behavior?
+The one on the right.
+The one on the right, because
+you bail out and the male
+is there taking care of them.
+You bail out in here, and you've
+lost your investment and copies
+your genes for the
+next generation.
+You see female cuckoldry,
+this great Victorian term.
+You see females cheating on
+the fathers in this species,
+but not in species like this.
+Because the father is long gone
+and three other counties there,
+courting somebody else.
+And it doesn't
+matter, you're not
+going to get any help from him.
+In primate species
+of this profile,
+you always see twinning.
+And they both survive.
+And what studies have
+shown in these species,
+and we'll get to
+them shortly, is
+after birth, in fact, the males
+are expending more calories
+taking care of the
+offspring, then
+the females go bail out on him
+and go find some other hot guy.
+Which, in your species,
+counts as some guy
+who looks even more like you
+than he does in terms of what
+you want out of the individual.
+So that.
+So what have we done here?
+We've just gone through
+applying these principles
+in this logical
+way, and everybody
+from the very first step was
+getting the right outcome.
+And go, and these are
+exactly the profiles
+you find in certain species.
+Among social mammals,
+these would be referred to
+as a tournament species.
+A tournament species,
+whereas the one on the right
+is referred to as a pair
+bonding, a monogamous species.
+Because in this one,
+males and females
+stay together, because they
+both have equivalent investment
+in taking care of the kids.
+All of that.
+What you have here
+is this contrast
+between tournament species
+and pair bonding species.
+Tournament species,
+these are all the species
+where you get males with
+big, bright plumage.
+These are peacocks,
+these are all those birds
+and fish species where the
+males are all brightly colored.
+What are the females
+choosing for?
+Peacock feathers does not make
+for a good peacock mother.
+Peacock feathers are signs
+of being healthy enough
+that you can waste
+lots of energy
+on these big stupid
+pointless feathers.
+That's a sign of health.
+That's a sign of all I'm getting
+from this peacock is genes,
+I might as well
+go for good ones.
+That's the world
+of peacocks, that's
+the world of chickens
+with pecking orders,
+dominating like that,
+lots of aggression.
+That's the world of primates
+where, as in savanna baboons,
+the male is twice as
+big as the female.
+Tournament species, where a
+lot of passing on of genes
+is decided by male-male
+aggression in the context
+of tournaments producing
+massive amounts of variability
+in reproductive success.
+Where males are being selected
+for being good at this,
+so they sure are being selected
+for having big bodies, which
+winds up meaning
+a shortened life
+span for a bunch of reasons.
+Females are choosing for that.
+These are guys who are
+not using their energy
+on parental behavior,
+thus you do not
+want to have twins if
+you are a female baboon,
+and you do not want to
+bail out on the kids
+because nobody else is
+going to take care of them.
+Go and look at a
+new primate species,
+and see this much of a
+difference in skull size,
+and you'd just be able
+to derive everything
+else about its social behavior.
+Meanwhile, these guys on the
+right, pair bonding species.
+These are found among South
+American monkeys, marmosets,
+tamarins.
+You put up a picture
+of them, which
+I will do if I ever
+master PowerPoint
+in some subsequent
+lecture-- you put up
+a picture of a marmoset
+pair, and you can't tell
+who's the male and the female.
+This is not the world
+of the mandrill baboons,
+with males with big, bright,
+bizarre coloration on the face,
+and with antlers when
+the females don't,
+and that whole world
+of sexual dimorphism.
+You can't tell which
+one is the male
+and which one is the female
+marmoset by looking at them.
+You can't tell by seeing
+how long they live.
+You can't tell by
+how much they're
+taking care of the kids.
+You can't tell in terms of
+their reproductive variability.
+That's a whole different
+world of selection.
+All of the South American
+tamarins and marmosets,
+the females always twin.
+They have a higher
+rate of cuckoldry,
+of abandoning the kids.
+The males take as much
+care, if not more,
+of the kids than
+the female does.
+Very low levels of aggression.
+Same body size, same lifespan.
+All the males have low
+degree of variability.
+How come?
+Because if you're
+some marmoset male,
+you don't want to get 47
+marmoset females pregnant.
+Because you are going to have
+to take care of all the kids.
+Because as we will see way
+down the line in lectures
+on parental behavior,
+the wiring there is such
+is bonding with the offspring
+and taking care of them.
+No wonder among
+species like these,
+you have very low variability.
+All the males reproduce
+once or twice.
+This is the world of 5%
+of the guys accounting
+for 95% of the matings.
+This is totally
+remarkable because again,
+that starting point.
+You start off here,
+and you look at these,
+and oh, you can tell if
+they were bipedal and were
+they diseased or malnourished,
+simply by applying
+these principles of individual
+selection, reciprocity,
+all of that.
+One factoid, you see
+a new primate species,
+and you see one nursing
+and one with a penis,
+and they're the same size or
+there's difference in the size,
+and you already know all
+about their social system.
+Very consistent across birds,
+across fish, across primates.
+Of course, all of
+those, this dichotomy
+between tournament species
+and pair bonding species.
+As we will see
+way down the line,
+among some species,
+types of voles, rodents,
+that are famous in Hallmark
+cards for their pair bonding,
+for their monogamy.
+As we'll see, they're
+not quite as monogamous
+as you would think.
+But nonetheless, a general
+structure like this.
+So, one asks expectedly, where
+do humans fit in on this one?
+Where do humans fit?
+And the answer
+is, complicatedly.
+Are we a tournament species,
+are we a pair bonding species.
+What's up with that?
+What we will see is
+we're kind of in between.
+When you look at the degree
+of sexual dimorphism,
+we are not like baboons, but
+we're sure not like marmosets.
+We're somewhere in the middle.
+Variability is somewhere
+in the middle there.
+I'm not going near that one.
+Life span, the
+dimorphism in lifespan
+tends to be in between.
+Parental behavior and
+likelihood-- all of those,
+you look at a
+number of measures.
+And by next lecture,
+we'll be looking
+at some genetics of what
+a monogamous species
+and tournament
+species look like.
+And we're right in the middle.
+In other words, that explains
+like 90% of literature.
+Because we're not a classic
+tournament species and we're
+not a classic pair bonding one.
+We are terribly confused
+in the middle there.
+And everything about
+anthropology supports that.
+Most people on the
+planet right now
+are in a form of
+monogamous relationships
+in a culture that
+demands monogamy.
+An awful lot of people who are
+in monogamous relationships
+in such cultures aren't really
+in monogamous relationships.
+Traditionally, most cultures on
+this planet allowed polygamy.
+Nonetheless, in most of
+those polygamous cultures,
+the majority of individuals
+were pair bonded and monogamous.
+You get two different
+versions of polygamy
+in different social
+systems of humans.
+One is economic polygamy,
+which is you're basically
+sitting around, and the
+wealthiest guy in the village
+is the one who can have the
+largest number of wives.
+An enormous skew in
+reproductive success
+that's driven by economics.
+The other type is demographic.
+You have a culture
+where, for example, you
+have a warrior class.
+Guys spend 10 years as
+warriors-- worriers, warriors,
+New York City accent.
+As warriors, they don't worry.
+There's no anxiety.
+But they eventually worry
+about getting a wife,
+because by the time they're
+done being a warrior,
+they're like 25.
+And they marry someone
+who's 13, which
+is what you see in a lot
+of traditional cultures
+that follow that pattern.
+And at that point,
+you've got a problem,
+which is an awful lot of
+those guys have been killed
+over the course of 10
+years of being involved
+in high levels of aggression
+and 10 more years of life
+expectancy to catch up with you.
+There's is a shortage of males.
+So you see polygamy there
+driven by demographics,
+and you see polygamy
+driven by economics
+in other types of society.
+So most cultures on this
+planet allow-- traditionally,
+before the
+missionaries got them--
+most cultures on this
+planet allow polygamy.
+Nonetheless, within most
+polygamous cultures,
+the majority of people
+are not polygamous.
+We have one really confused,
+screwed up species here.
+Because we are halfway in
+between in all sorts of these
+measures.
+OK, so what do we
+have next, which
+we will pick up on Friday.
+What we've just
+started with here
+is the first case of using
+all these principles,
+individual selection, kin
+selection, reciprocal altruism,
+to understand all sorts
+of aspects of behavior.
+We will then move
+on to seeing how
+they explain other aspects
+of animal behavior, some ones
+which, if you are behaving for
+the good of the species circa
+1960, there's no explanation
+at all, because you're
+doing things like killing
+other members of your species.
+And then finally,
+we will see how
+this applies to humans and
+some of the witheringly
+appropriate--
+For more, please visit
+us at stanford.edu.
