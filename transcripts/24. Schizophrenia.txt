@@ -1,0 +1,3847 @@
+24. Schizophrenia
+=================
+
+Stanford University.
+Variety of announcements,
+tomorrow, office hours
+are shifted because
+at 4:30, there's
+a really interesting
+lecture over at Clark.
+This guy is one of the
+experts on the whole notion
+that there are brain
+metabolic abnormalities
+in sociopathic humans,
+violent criminals.
+He's got the distinction
+of having the world's only
+portable MRI.
+He has a big old Winnebago
+with an MRI machine.
+And he drives all
+around the country
+from one maximum security
+prison to another,
+trying to look at aspects of
+frontal cortical dysfunction
+in extremely
+violent individuals.
+I have no idea if he's
+a good lecturer or not,
+the material is going to
+be really interesting.
+So that's something
+that probably should
+be caught Friday,
+again, is not going
+to be videotape,
+but just audiotape
+for a number of reasons.
+Finally, over next
+year, I will be doing,
+if anyone is interested,
+some directed readings
+with people that are--
+that will be essentially
+more of an exploration of some
+of the topics in the course
+here.
+So if you are interested, do
+not send me anything whatsoever
+until it's the summer.
+At that point, CV, transcript,
+anything I need to know,
+but it will be posted
+on the coursework,
+so as to more details about it.
+So we pick up with the
+homestretch here of language.
+And what we got to just on
+the edge of two days ago
+is the now begin to look at
+the genetics of language use.
+In general, there's the
+usual types of techniques
+for behavior genetics.
+The first is looking
+for covariance
+of certain language
+abnormalities
+in certain families.
+And the evidence for that is
+clear with Williams syndrome,
+with the selective
+language impairment.
+Those tend to run
+in families and they
+tend to show classical
+Mendelian inheritance,
+very readily thought
+of as genetically
+influenced disorders.
+Then, going to our
+usual deal of looking
+at adopted individuals, twins,
+identical twins separated
+at birth, that
+whole armamentarium
+of behavioral genetics
+stuff, what does that show?
+There's a fair degree
+of heritability
+of things like vocabulary
+complexity, ability to spell,
+skill at phonology,
+things of that sort.
+In general, the
+evidence is pretty
+poor for a strong genetic
+load on dyslexias,
+on learning disorders
+of that type.
+Of course, the
+modern version of it
+all is to start looking
+at the actual genes,
+the molecular biology of
+language disorders, of language
+in general.
+First thing that
+comes up is this gene
+that has been at the center of
+the whole field for years now,
+a gene called FOXP2.
+And it was originally
+identified as having a mutation
+in a family that had a very
+specific linguistic problem
+running through it,
+language generation speech.
+This family had severe
+problems with it,
+classic looking for
+a genetic marker,
+and eventually narrowing
+down to the gene
+itself, turning out to be this
+mysterious gene FOXP2, which
+turned out to be a
+transcription factor,
+and a mutation in
+it in this family.
+What immediately became
+clear is this theme
+over and over again
+with language,
+in so far as there's a
+problem in this family,
+is it at the cognitive
+level of what language
+is about symbolically or is
+it just getting your lips
+and tongues and articulating
+and that much more
+mechanical level.
+It initially looked
+like it was much more
+the latter in this family.
+It is apparently more
+of a mixture of both,
+just to make things
+really confusing.
+What you see is it
+is preferentially
+expressed in that
+part of the brain
+we heard about the other
+day, the basal ganglia.
+That area that's playing a
+role in gesturing when you're
+speaking, playing a
+role in facial prosody,
+that sort of stuff, motoric
+stuff, and the fact that it was
+found so heavily
+expressed in there
+was part of what got people
+to think what's fundamentally
+wrong with this family is motor
+aspects of language production.
+Again, it's gotten
+messier since then
+because these folks
+have a variety
+of cognitive impairments
+in the realm of language.
+So, of course, immediately,
+what we need to be asking
+is what's FOXP2 doing
+in other species.
+Does it occur in other species?
+And it turns out that it
+is all over the place.
+You find FOXP2 in
+birds and mammals
+and all sorts of
+things, large and small.
+It is very, very widespread.
+But, importantly, a
+different version than you
+find in humans.
+It is immensely
+conserved, which is
+to say you see the
+same version of FOXP2
+ranging from apes to birds,
+everything in between.
+Nothing has changed
+with that evolutionarily
+in a long, long time.
+So what does it do?
+A handful of studies in animals
+where the gene has been knocked
+out, it has been removed,
+where you now have
+mice that do not have the gene.
+And what you see is there
+is less of vocalization
+and simpler vocalization.
+And that's back
+to our whole world
+of that subsonic
+vocalizations that you
+can't hear when
+mice are giggling
+and that sort of thing.
+Knock out this gene, and
+there's less vocalizing
+and there's less
+complexity to it.
+So we're just doing something
+or other that looks plausible.
+And it's expressed
+in motoric parts
+of the brain preferentially
+in these other species.
+So this super
+conservative version
+of this gene, everybody
+else has the same version.
+And then you look
+at the human version
+and there's a bunch
+of differences
+and they emerged very
+recently, best estimates
+are the last couple
+of 100,000 years.
+Each one of the
+changes extremely
+positively selected for,
+whatever this gene is about,
+once it sort of went
+on the human path,
+it changed real fast under
+major selective advantageous
+conditions.
+And thus, we've got a
+real different version
+from everyone else.
+The next interesting
+thing about it,
+in so far as it is a
+transcription factor, when
+you look at the genes that
+it regulates-- so this is now
+taking her step further, our
+old genetic network deal,
+when you look downstream,
+what genes it regulates,
+they tend to be
+fairly differentiated
+from other primates and
+to have differentiated
+as a result of
+positive selection.
+So this is a whole
+cluster of genes
+that evolution was doing
+some pretty stringent things
+on in hominids in the last
+couple of 100,000 years.
+Now, what you do is one of the
+all-time cool studies, which
+was last year,
+which you take mice
+and you knock out
+their FOXP2 gene.
+And now, you stick
+in the human version.
+And, amazingly, what happens
+is once these animals mature,
+they speak just
+like Mickey Mouse.
+People were listening.
+What you wind up seeing
+is-- it's probably
+the Disney people probably
+are working on it,
+and that's going to
+be the end of life
+as we know it when they
+let those ones lose.
+What you get when you
+overexpress-- when you express
+the human FOXP2 in
+a mouse is a mouse
+with more vocalizations
+and more complex ones.
+Whoa, that is mighty interesting
+area of lots and lots of work
+these days, trying to figure
+out what this transcription
+factor is about.
+But, clearly, just
+this screaming imprint
+of major league selection
+that has gone on
+for the human version
+and for the genes
+that it regulates,
+fairly recently, it
+is no surprise that this
+gene is central to such
+a different unique
+thing that we're doing.
+More evidence for genetic
+components of the language,
+and this one is a
+very indirect one
+with this totally
+interesting phenomenon that
+has been shown in lots and
+lots of different places
+on the globe.
+So you get some circumstance
+where a whole bunch of people
+are brought together
+from different cultures,
+with different language
+groups, and why they're
+having to deal with each other.
+Classic version is you get,
+for example, slave populations
+brought from different
+places in West Africa
+to some of the
+Caribbean islands.
+You have, on some of
+the Hawaiian Islands,
+early in the last century,
+people from all over Asia
+are brought over to worth
+the plantations there,
+the fields, whatever.
+What you have in
+these cases, there's
+a whole bunch of people
+thrown together who
+have languages from
+every which way
+who don't understand each other.
+And what always
+emerges, what has
+been extremely
+well-documented, is some sort
+of fragmentary
+communication system that
+is made up of bits and pieces
+of all the relevant languages,
+which everybody can kind of
+limp through and begin to be
+understood with each other.
+And what that is wounds up being
+called is a pidgin language.
+Pidgin, very simplistic version
+that shows virtually nothing
+in the way of complex
+grammar, and it's basically
+a vehicle for
+getting individuals
+who almost always,
+in these cases,
+are societally pretty under
+the foot of powers that
+be to deal with each other,
+to work with each other,
+working out this proto
+proto communication system
+with fragments of each language.
+That's not surprising.
+What is totally cool is what
+happens next over the next one
+to two generations, which
+is this pidgin thing,
+this committee glued
+together amalgamation
+of fragments of
+different languages
+within a generation
+or two has evolved
+into a real language,
+which is then
+known as a creole language.
+Creole languages
+are languages that
+are a couple of generations
+descended from pidgin.
+And what you see is it winds
+up being a real language.
+That's fine, that's fine,
+given that, two days ago, we're
+hearing that it was
+possible for kids
+to come up and invent
+Nicaragua in sign language
+within a generation.
+So you start with
+this pidgin thing,
+and within a couple
+of generations,
+it turns into a real
+language, fits the rules,
+grammar, all of that.
+Here is the thing
+that is so interesting
+about this phenomenon, which
+is all of the creoles have
+the same grammatical structure.
+What is that about?
+Creoles from all
+over the planet that
+were built upon all
+sorts of differing
+hodgepodge of the original
+languages in the pidgin, Creole
+languages all have a similar
+grammatical structure.
+Easy explanation, easy
+boring one, which is it's
+very simple grammatical
+structures and this
+is a language that's
+just getting off
+its feet in each case.
+No, in all these cases it
+is grammatical structures
+that are not necessarily
+the simplest.
+It's not just some
+baby step languages.
+It's languages that
+all seem to come up
+with the same graphical
+structures there.
+And what this has given
+rise to is the notion
+that there is a default
+grammar built into humans.
+Let humans go running with
+a whole bunch of fragments
+in different languages
+and, not surprisingly, we
+were able to turn it into
+a real communicative system
+within a generation or two.
+And when pulling
+language out of thin air,
+humans always tend to
+come up with the same sort
+of grammatical structures
+that are not necessarily
+the simplest, argument there
+being there is an innate,
+there is a hard wire, there is
+an ancient pattern of grammar
+that humans use when they
+come up with a language.
+So totally interesting.
+What you find, also,
+with the sign languages,
+as they get invented,
+Nicaraguan sign language,
+it went through a
+first generation
+of being pidgin, and soon
+turned into a signing
+equivalent of creole.
+And it has some of the same
+grammatical structures.
+Even when humans are defaulting
+into a new language that's
+purely gestural, it shows
+some of these constraints
+that you see with
+the creole languages.
+Other features of this
+that come through,
+apparently, there's like
+24 different ways that you
+can put together objects,
+and subjects, and rejects,
+the participles, and whatever
+it is, grammatical structures.
+This guy, Joseph
+Greenberg, linguist,
+who was here at Stanford
+until a few years ago when
+he died, apparently,
+incredible titan in the field,
+he did some of this research.
+There's 24 possible
+different ways
+languages can do this
+object subject business,
+and all across the earth,
+all across the 6000 languages
+there, you only see
+15 of them used.
+And the vast majority
+of grammars on earth
+only use four of them.
+So the argument there
+winds up being this
+is a pretty nonrandom skew.
+Again, we're seeing some kind
+of prepared learning default
+grammars, this very
+imprecise sense of there's
+something genetic
+floating around here.
+So that complementary
+to the whole world
+instead of looking
+at things like FOXP2
+and this mutations, the usual
+two very different approaches.
+That whole pidgin
+to creole transition
+is really, really interesting
+and it really has this feel
+in the undercurrents of it that
+there is a basic human grammar
+that floats around
+there, a notion
+that Chomsky has pushed
+for a long, long time.
+Jumping one box further
+back, ecological factors
+and language.
+I'm going to touch on that only
+briefly, but what you've got
+is something similar to a theme
+we heard a couple of weeks ago,
+which is possibly not something
+we heard a couple weeks ago
+and we'll instead
+hear on Friday.
+But what you see is
+diverse ecosystems,
+very biodiverse ecosystems.
+Rain forest ones,
+for example, produce
+cultures which have a great
+deal of diversity in them.
+What we're going
+to see on Friday,
+the version of
+that, which I'm now
+thinking I did mention before,
+is that polytheistic cultures
+are the things you tend to
+see coming out of rain forest
+settings, that notion that if
+there's hundreds, if there's
+a thousand different types of
+edible plants in your world,
+it doesn't take a great
+leap to decide there's
+a whole lot of different spurred
+things in the world going
+on there.
+Polytheism, a very
+similar theme,
+great work done a few years ago,
+a guy named William Sutherland
+from the University of Dundee,
+I think, where what he showed
+was looking all over
+the planet, looking
+at the biodiversity
+in different regions
+on the planet, the more
+ecological diversity,
+the more linguistic diversity
+you would find in that region.
+The more different
+languages, which, of course,
+thus translates down into
+small groups, small numbers
+of speakers, this is an
+interesting phenomenon,
+which it's not completely clear
+to me what to make of that.
+But ecosystems that
+are very diverse
+generate an abundance
+of theistic notions
+and at above expected
+rates and also produces
+a whole lot more languages,
+something on the diversity
+there.
+What his work then showed
+is about everything else
+I'm going to say in
+this area, which is just
+totally depressing stuff, which
+is linguistic diversity is
+going down the tubes
+faster than biodiversity.
+He shows that the rate
+of language extinction
+proportionately is faster
+than the rate of extinction
+of various species, plants, etc.
+In these rain forest
+ecosystems, totally grim,
+depressing picture.
+What seems to be the case,
+given where things are heading,
+is in the next century,
+in this century,
+90% of Earth's languages
+will go extinct.
+The vast majority of
+humans on this planet
+speak less than 10
+different languages
+out of the 6,000 existing ones.
+How's this for depressing?
+There's a couple of hundred
+different languages that
+are Inuit, and Northwest
+Native American,
+and some other
+population as well.
+And currently, only of
+5% of those languages
+have speakers who
+are not elderly.
+That's real depressing.
+Also, and something that
+strikes me as extraordinary
+is, in each one of those
+cases, somewhere along the way,
+there's going to be
+somebody in old age
+who's the last person on earth
+who understands their language.
+There's not a single
+other person alive
+who will be able to talk in
+their mother tongue with them.
+Language is disappearing
+left and right,
+along with, of course,
+cultural diversity
+going down the
+tubes, the process
+of turning the whole
+world into a lowest
+common denominator of
+McDonald's culture, blah, blah.
+Along with that comes
+a huge, huge loss
+of language diversity.
+Finally, jumping
+to our last box,
+if we're talking about
+ecological factors,
+thinking about
+things like genes,
+thinking about things
+like highly, highly
+driven positive selection
+for genes like FOXP2
+in humans, of course, we have to
+talk about the evolutionary end
+of things.
+So evolution of language
+and humans, general notion
+is click languages, which you
+tend to see in hunter gatherers
+in Africa, that that might
+have been the earliest
+forms, the most ancient
+types of languages on Earth.
+And what you also see is
+hunter gatherers are probably
+the most ancient sort of
+populations of humans that
+live in Africa, with waves
+of agriculturalists coming
+from North Africa, the
+Middle East, at later points,
+pastoralists coming from
+around there as well.
+The original populations in
+Africa were hunter gatherers.
+And they have high frequencies
+of these click languages.
+That might be the starting
+point for human language.
+Interestingly, though, you
+also see click languages
+among a lot of aboriginal
+groups in Australia.
+What does that tell you?
+Those became separately.
+There was a huge gulf
+of time between leaving
+Africa and the first populations
+winding up in Australia,
+convergent evolution.
+For some reason, click languages
+is a very fundamental way
+that people come up with
+communication systems.
+So selection issues
+often run in with
+our social biological notions
+of language advantages,
+it's easy to see what
+the advantages are
+of having a language system.
+It is easier to store,
+to archive, knowledge,
+information.
+It is easier to
+coordinate hunts.
+It is easier to figure out
+what we did the last time there
+was a famine, figuring out
+things like that, all of those
+facilitated by language.
+In the memorable words of
+Steve Pinker from Harvard,
+"Language is how we
+outsmart plants."
+Language allows us to do all
+sorts of organizational stuff.
+Language evolution is
+all about sequence.
+We don't say a words
+simultaneously.
+It's all sequences.
+And a number of
+people have emphasized
+that's what the construction
+of tools are about also.
+The whole process of careful
+logical sequential transitions
+of steps almost certainly
+tool use and language use
+is sequential processes
+emerging in parallel.
+Finally, obviously, you see all
+sorts of room for cooperation
+with kin selection, cooperation
+with reciprocal altruism being
+enhanced with communication.
+But very importantly, for
+our game theory world,
+what language also
+allows you to do
+is lie, that whole
+business from two days ago.
+In human language, there's
+that arbitrariness.
+There's a dissociation between
+the message and the messenger.
+It's not like dogs
+that have to put
+the lid on their fear pheromones
+by tucking their tale.
+What you have is
+the capacity to lie.
+And, of course, running off
+from that, a whole world
+of evolutionary strategizing.
+Pertinent to that, there's a
+huge, huge disproportionate
+share of neurons in the
+motor system devoted
+to facial expressions,
+and mouth coordination,
+and all that kind of world.
+A really good thing
+if you plan to lie
+is to be able to
+have good control
+over your facial expressions.
+Finally, formal
+game theory models
+showing when you have pairs
+of individuals playing
+against each other,
+when you introduce,
+when you allow the
+emergence of communication
+between two of the
+players versus not
+in the other group, you
+immediately, no surprise,
+have been getting
+a big advantage.
+If you allow them
+semanticity, to have words
+that they can communicate,
+that is advantageous,
+that improves outcome.
+Even better is if you allow
+semanticity and structure,
+syntax, grammar, so
+that they can have
+more complex communication.
+All of those wind
+up being things
+that facilitate winning
+in game theory settings.
+Finally, interesting
+parallelism,
+back to that
+biodiversity stuff, which
+is, when you look at all those
+different possible grammatical
+structures, the 24
+of them, 15 of which
+is the total of what
+appears on Earth,
+the rarest of the
+grammatical structures
+are the ones that are
+closest to extinction.
+The rarest not in terms
+of the number of people
+speaking it within a
+population, but the structures
+that have occurred the fewest
+number of times in cultures
+across the planet
+are the ones that
+are in cultures where
+the languages are
+most readily to be a lost,
+some sort of connection there.
+And thus, you've
+got some sort of
+weird grammatical
+imperialism that
+has emerged over the years.
+Again, what strikes me as a
+totally depressing number,
+90% of Earth's languages will
+disappear in the next century.
+So now we jump.
+We jump to our next
+topic, which was
+our first psychiatric disease.
+And to remind you
+from two days ago,
+we're not going to have
+a depression lecture.
+The depression chapter
+in the zebra's book
+will tell all the same stuff in
+much better, more clear terms,
+I say, proving my point.
+And what you should do is
+read it with as much attention
+to it as if it has
+been a lecture subject.
+It is an important
+subject, enough hints.
+So check that one out.
+What we focus on today
+though is schizophrenia.
+And we're going to take
+our same old strategy,
+starting off with what
+is the disease look like.
+And as you will see, all
+sorts of surprises in there,
+and then what goes
+on in the brain
+just before early development,
+prenatal, genes, evolution,
+the whole deal there.
+We know this drill once again.
+So starting off, making
+sense of schizophrenia,
+as a bunch of
+behaviorists, you've
+got a challenge right
+off the bat, which
+is lots of people use the word
+schizophrenic in an every day
+sense that has no
+resemblance whatsoever
+to its actual technical use.
+Schizophrenic, or schizian--
+we all know that one.
+We've thought, my God, I am
+having such a schizi day.
+I overslept, I missed my
+first class, it was terrible.
+I totally screwed up,
+but then I found out
+I got this great
+grade on a midterm,
+but then I had this
+fight with a friend,
+but then in the afternoon,
+and then this crashed,
+and, blah, blah.
+God, what a schizoid
+day I'm having.
+No resemblance to how
+the term's actually used.
+That's not any sort of
+real term in psychiatry.
+Whatever the schizi
+days are that we all
+experience now and
+then, schizophrenia
+is something else.
+On the most technical
+level, schizophrenia
+is a disease of people where,
+when you start talking to them,
+within two or three
+sentences, you
+realize there's something
+strange with their thinking.
+They're not thinking normally.
+They're not
+communicating normally.
+On the most fundamental level,
+that's what the disease is.
+Obviously, far more precise
+than that, schizophrenia,
+disease of thought
+disorder, disease
+of inappropriate
+emotion, disease
+of inappropriate attribution
+of things, and what you'll see
+is this is not just some sort
+of generic craziness in the way
+that that word means
+nothing whatsoever.
+There are typical structures
+to the ways in which things
+are not working right in the
+behavior of schizophrenics,
+which we'll hear about in a bit.
+Part of what begins
+to bring that across
+is the obvious fact
+that there's no way
+that schizophrenia
+is just one disease,
+because there's all
+sorts of subtypes.
+It is a bunch of
+heterogeneous diseases.
+You have a subtype
+paranoid schizophrenia,
+where what it's all about
+is thought disorder built
+around a sense of persecution.
+You have catatonic
+schizophrenia,
+where the person is
+in a frozen state,
+immobile for long
+periods of time.
+You have schizoaffective
+disorders,
+which is kind of a mixture of
+schizophrenia and depression
+disorders.
+It's not just one disease.
+So the whole array of
+behavioral symptoms
+we're going to look at
+now, remember, some of them
+are more common in different
+subtypes than others.
+This is just the
+first broad overpass.
+So beginning to make
+sense of the disease, what
+it is, above all
+else, is a disease
+of cognitive abnormalities, of
+abnormal sequential thought.
+And the term that's given
+for it is loose associations.
+All of us can tell a story where
+we have a pretty good ability
+to put it sequentially and
+have the facts go in a way
+where it will make sense
+to any other listener.
+You do not see this
+in schizophrenics.
+Sequential thinking
+is greatly impaired.
+And instead of having logical
+sequences of information
+that they give, things
+tangent all over the place,
+bouncing around all over,
+where, in retrospect, you
+can kind of see how
+they might have gotten
+from A to Z, although most
+people would have gone
+from A to B at that point,
+the tangential thinking
+being another term for it,
+the loose associations.
+So what do you wind
+up seeing there?
+You get schizophrenics,
+for example,
+who get terribly
+confused in a sentence,
+whether when they are
+hearing about boxers,
+they are unable to keep
+straight within one sentence
+to separate out whether
+they're talking about a dog
+or they're talking
+about an occupation.
+Because they slip back
+and forth between the two.
+Confusion between
+being a caddy, a caddy,
+someone who a golf whatever,
+and a Cadillac, short term
+for that.
+All sorts of ways in
+which they can't hold on
+to the sequential logic.
+And, instead, there's
+just this tangenting,
+getting caught up in
+the loose associations.
+You're talking about a boxer,
+if you were a schizophrenic,
+you were talking about
+a particular boxer,
+you follow that sport
+whatever, and, suddenly,
+you are expressing
+an opinion about how
+that person would do in a
+ring against a St. Bernard.
+And you're often
+talking about dogs
+from there, just getting
+caught by a loose association
+between the sound of the word
+and its multiple meanings,
+going off the tracks on that,
+so the loose associations.
+Next, you have a
+trouble, consistent one,
+with abstraction.
+All of us have a pretty
+good intuitive sense,
+when someone is
+telling us a story,
+is this meant to be
+literal reporting of events
+in a sequential way, is
+this meant to be a parable,
+is this meant to be a
+somewhat secondhand,
+through the grapevine story.
+We have a very good
+sense of how concrete
+or how abstract the information
+that we're getting is.
+Schizophrenics are
+terrible at that.
+They have no intuition to get
+the right level of abstraction.
+And schizophrenics always
+skew in the same direction,
+which is to interpret
+things far more concretely
+than is actually the case.
+And that's the term that's used
+in the business, concreteness
+of thought, which is having a
+lot of trouble doing the more
+abstract process
+of seeing things
+on a metaphorical level,
+things of that sort.
+So here, here's the
+standard sort of test
+you would give to someone if
+you think they're schizophrenic.
+You give them an
+association task.
+And you say something
+like, OK, can you
+tell me what do
+these things have
+in common, an apple, an
+orange, and a banana.
+And they'll say all of them
+are multi-syllabic words.
+You'll say, OK, well,
+that's great, that's true.
+But anything else
+they have in common?
+All of them have letters that
+involved closed loops, just
+getting caught up in the
+most concrete possible level
+of interpretations of it,
+not able to step back and do
+any sort of abstracting.
+You see this in all
+sorts of other ways.
+Therapist role, meet the patient
+and say something like so
+what's on your mind
+today, and they'll
+say my hair in this very
+literal sort of way.
+Or you'll say can I take your
+picture, holding a camera,
+and they'll say, I don't
+have a picture to give you,
+this very literal sense again.
+Or things like you would
+sit down a schizophrenic
+with a piece of paper
+and a pen and say, just
+as part of what
+we're doing here,
+can you write a sentence
+for me, any sentence.
+And then you look
+at what they've
+written which is a sentence
+for me, any sentence.
+And then you say, no,
+no, no, actually, that's
+not what I mean.
+I mean can you come
+up with a sentence.
+And when you've thought of
+that sentence, write it.
+And they'll write the word
+it because they can't get out
+of the concreteness of saying
+could you write a sentence, can
+you write colon a sentence.
+They're caught up in the
+concrete level of that.
+A way that that
+always pops up, one
+of the classic types
+of tests that's done,
+is called proverb tests.
+Proverbs, by definition,
+they are metaphorical.
+They are parables,
+they are abstract.
+And we all know
+intuitively that when
+you're talking about birds
+of a feather flock together,
+you're doing something symbolic
+about the well-known homogamy
+of lips with people who
+they choose to marry
+and the similarities.
+Yes, birds of a
+feather flock together,
+it's talking about like
+tend to assort with like.
+Give proverbs to
+schizophrenics and they
+can't get out of the
+most concrete level
+of interpretation of it.
+So you're sitting down
+and you say, OK, tell me
+what this means.
+A rolling stone gathers no moss.
+And we all know that that's
+people are on the move,
+don't make an
+emotional connections,
+there is a detachment.
+And they're often saying stones,
+stones rolling down hills,
+it's very hard for
+plants to grow on them.
+It's very hard because the
+surface tends to be smooth.
+And then on top of
+it, if it's rolling,
+you've got like this angular
+motion that move to it.
+So it's very hard for
+moss to grow on stones.
+In fact, I don't think
+I've ever seen that happen.
+And I've seen many stones.
+And on the most
+concrete possible level,
+incapable of pulling it back
+to the level of abstraction.
+Consistent, consistent
+feature of this.
+Here, friend of mine
+who's a psychiatrist
+came up with what has to be one
+of the all-time great proverb
+tests for figuring
+out if someone
+has the remotest tendency
+towards schizophrenic
+concreteness.
+There was a abstract
+phrase, a proverb,
+that was very popular, that was
+very prevalent in the United
+States during World War II.
+It was up on posters and all the
+post offices, places like that.
+And it was a way of abstractly
+telling people be careful
+the information you put in
+letters that you are sending
+off to loved ones
+who are off at war
+because it may inadvertently
+wind up in the wrong hands
+and could carry information
+that could be extremely damaging
+to the war effort.
+Do people know what it is?
+Loose lips sink ships,
+loose lips sink ships,
+wonderfully abstract notion.
+Try sitting down a
+schizophrenic and saying
+what does it mean when you
+say loose lips sink ships.
+And, suddenly,
+there's this imagery
+of ships being capsized
+by big lips coming out
+of the water and
+things of that sort
+because it can only be
+dealt with on the very
+concrete level.
+What else?
+More symptomatology, delusions,
+belief in things that cannot
+be, belief in having
+participated in historical
+events that cannot be.
+You're sitting there
+interviewing a schizophrenic
+and they suddenly
+say have you heard
+of the Great Wall of China.
+And you will say, well,
+yes, in fact, I have.
+And they'll say
+my idea, my idea.
+The generals came to
+me at night with a map
+and I said this
+is where it goes.
+This is probably
+not what happened.
+Delusional thought,
+inserting yourself,
+conversations with people
+who no longer exist.
+Related to that is
+the paranoia, which,
+of course, is most florid
+in paranoid schizophrenia,
+but it is a frequent theme.
+What do apples, oranges,
+and bananas have in common?
+They're all wired for sound.
+If the fruit is
+listening to you,
+this makes for a rather
+disquieting life.
+And almost certainly,
+it has something
+to do with if the world is
+making so little sense to you,
+it is a world that
+is very threatening.
+Along with that, most
+famously, perhaps,
+with schizophrenia, is
+you get hallucinations.
+Those are the defining features.
+Somebody is trying to figure
+out if somebody in an emergency
+room has come in with some sort
+of schizophrenic type disorder
+and hear that the
+person is hearing voices
+and that pretty much
+nails down the diagnosis.
+For reasons that are
+very poorly understood,
+the vast majority of
+hallucinations are auditory.
+However, there's all sorts
+of notions with that.
+And one great theory coming from
+our own Patrick House, given
+two years ago, which is you get
+auditory hallucinations more
+often than visual
+ones because we're
+more accustomed to
+visual stuff in the world
+having fragmented visions or
+seeing it across two mirrors,
+reflections, things
+of that sort.
+We are more vulnerable towards
+sounds not making sense.
+Vast majority of
+hallucinations in schizophrenia
+are auditory hallucinations.
+When we see in a little while
+what the neurochemistry is
+of hallucinations, by all
+logic, what they should be
+is just random splatters of
+noise, and random visual dots,
+and all of that.
+Instead, they're structured.
+They have content.
+People hear voices,
+rather than random sound.
+People see very
+structured hallucinations,
+sufficiently so that
+researchers can even do studies
+as to which are the most common
+voices heard by schizophrenics.
+And, no surprise,
+in Western cultures,
+forever and ever, the number
+one voice on the hit parade
+is that of Jesus, the number two
+voice, Satan, the number three,
+typically, whoever
+is the head of state
+in the country at that point.
+It's structure to that extent
+that you can publish papers
+about what the
+hallucinations are like.
+There's all sorts of
+structure underneath.
+It is not just
+disordered thought,
+it's loose associations,
+and tangenting,
+and concreteness, and
+structured hallucinations.
+What else?
+Another feature of the
+schizophrenic symptoms
+is social withdrawal.
+And schizophrenia,
+everybody thinks
+of as a disease of
+abnormal thought,
+it is a disease of abnormal
+social affiliation.
+You look at a-- you
+look at a schizophrenic
+in some village in who
+knows where in the Amazon,
+or in Bloomington, Indiana, and
+this is going to be someone who
+is somewhat ostracized and
+socially disconnected, very
+much alone.
+It is not just the disease
+of disordered thought.
+More and more
+people are realizing
+the core with schizophrenia
+is the disordered thought.
+The standard view
+has always been
+to hone in on the most florid
+feature of the disease.
+Schizophrenia is the disease
+where you hallucinate,
+where you hear voices.
+And the vast majority of the
+neuropharmacology research
+that's been done out
+there on the disease
+is meant to go and cure
+the hallucinations.
+But far less responsive
+to any of the drugs
+are the tangenting
+thought, the concreteness,
+the loose associations.
+More and more
+people are thinking
+that that's really at the core
+of what the disease is about.
+Couple more features
+of it, which
+is the whole world of
+the social withdrawal.
+Apathy, what we're
+beginning to see
+is a dichotomy in the
+business, positive symptoms
+in schizophrenia, paranoia,
+loose thoughts hallucination,
+all of that.
+Negative symptoms
+of schizophrenia,
+the absence of
+social connectedness,
+the absence of affect, a
+very flat expressive style.
+Physiologically,
+you see some damping
+of autonomic nervous systems in
+schizophrenics, so the positive
+and the negative
+symptoms of the disease.
+Last a couple of features
+of it, one is the notion
+that, of course,
+schizophrenia has
+something to do with violence.
+Everybody knows that there is
+the scenario lurking out there
+that occurs endless
+number of times which
+is you have some psychiatrically
+unstable individual turning out
+to have schizophrenia who
+winds up doing something
+horribly violent, the danger
+of schizophrenics cracking
+and going postal.
+And every now and then,
+something like that happens.
+20 years ago, there was
+a horrifying incident
+at Berkeley.
+A student there who was
+schizophrenic and probably
+should not have been there at
+the point because he was not
+well-medicated,
+something cracked and he
+took a bunch of
+Berkeley students,
+women, hostage in
+a bar at Berkeley,
+did all sorts of horrific
+sexually abusive things there
+before he killed himself
+after killing a few of them.
+This is what happens
+when something like that
+occurs with a schizophrenic.
+Oh, my God, so we've
+got all these people
+running around where that
+could be happening any second.
+Schizophrenics are
+far less dangerous
+than are normal
+individuals in society.
+The rates of violence
+are extremely low,
+with one exception,
+which is schizophrenics
+being violent and
+damaging themselves.
+Self-injury, a huge
+feature of schizophrenia,
+part of the delusions, part
+of the thought disorder,
+part of the despair, when
+every now and then your head
+clears enough to see what
+the rest of it is like.
+And there are even
+studies as to which
+are the most popular places
+in the body that are mutilated
+in schizophrenics.
+Genitals are top on the list,
+and going down from there.
+Horrific thing that happened,
+also about 20 years ago,
+Columbia Medical
+School, and this
+was an individual,
+a student there,
+with a history of a lot of
+psychiatric instability,
+and schizophrenia, and somewhat
+well-controlled with meds.
+And somewhere in
+the third year when
+starting the clinical rotations,
+the various stressors of it,
+the person kind of unravelled.
+Probably should not have been
+there in the first place,
+but, nonetheless, had
+a schizophrenic break
+and had withdrawn from med
+school and was sitting at home.
+Part of his paranoia,
+part of his delusions
+were that he was
+satanically possessed.
+And, specifically, the way
+Satan was driving him to madness
+was with obsessive
+sexual thoughts.
+So being a relatively
+well-trained endocrinologist,
+because we know better than
+him at this point how it works,
+he decides how do I make
+those thoughts go away,
+let me get rid of
+my testosterone.
+So he castrated himself.
+But at least being well-trained
+in one domain of endocrinology,
+he knew that other
+fact we've had
+in here which is that
+the adrenal glands also
+make a certain degree
+of testosterone.
+And he proceeded to try to
+adrenalectomize himself.
+He sterilized with some alcohol.
+He made an incision
+with anesthetic.
+He had a mirror
+there, angled to be
+able to see what he was doing.
+And at one point, he hit a blood
+vessel, which started bleeding.
+And he went to the ER at
+Columbia Presbyterian,
+going in there, not saying
+to his former classmates,
+oh, my God, guys, can you
+help me, look what I've done.
+Saying instead, hi, guys, I'm
+trying to take out my adrenals
+and I'm having a
+problem here with it,
+can you give me a hand.
+This is very disordered thought.
+This is a very
+elegant version of it
+schizophrenic self-injury,
+schizophrenic suicide,
+is anything but clean.
+Number one on the list,
+genitals, number two
+for women, female
+schizophrenics, breasts, number
+three, thighs, on it goes.
+This brings up another
+feature of the disease, which
+is, back in the 1960s, when
+all sorts of laudable things
+happened along certain
+cultural lines,
+there amid that was
+one horrifically
+damaging idiotic
+thing that emerged
+in psychiatry at the
+time, which was a minority
+view in psychiatry, a
+lunatic fringe view,
+that, basically,
+schizophrenia is not so bad.
+Schizophrenia has all
+sorts of hidden blessings.
+And soon, it had
+frameworks of things
+like schizophrenia is
+the disease of being
+healthy in a crazy world.
+Schizophrenia is the disease of
+having insights into life that
+other people can't.
+And psychiatrists at
+the time, one of them,
+a man named Ronald
+Laing, who became famous
+for this, for arguing
+it's not a disease,
+we shouldn't be medicating,
+we shouldn't be hospitalizing,
+it's a bunch of blessings.
+And it is even
+continued to this day.
+The quote that I put on the
+top of the handout, Andrew
+Wild, who is one of the gurus of
+sort of complementary medicine,
+and you'll see an absolutely
+ridiculous statement
+there along the lines
+of the hidden blessings
+of schizophrenia.
+There were movies at
+that time, King of Hearts
+was one, very popular
+one about somebody having
+to hide from the police or who
+knows what, and the asylum,
+and eventually releasing
+the schizophrenics who
+were so much saner than
+the other people around,
+and heartwarming.
+And all you need to do is be
+schizophrenic or know someone
+who is or have a family
+member and you will see
+there are no hidden blessings.
+This is not a disease
+of hidden compensations
+and more insight into the world.
+This is one of the most horrific
+ways that biology can go wrong.
+And one of the best
+demonstrations of it
+is half of schizophrenics
+attempt suicide.
+And the more often you
+have periods of remission,
+the more likely you
+are to commit suicide.
+What's the significance of that?
+The more often you
+have periods where
+you're clear-headed enough
+to see what your life is
+like the rest of the
+time, the more likely
+you are to try to kill yourself.
+A disease with no hidden
+blessings whatsoever.
+Other features of it,
+there's an aging component,
+two different forms.
+First one is as schizophrenics
+become older, elderly,
+what you see is the positive
+symptoms tend to disappear.
+The hallucinations get
+damp, the delusions,
+the loose associations, and
+the negative symptomatology
+is what comes to the forefront,
+this world of just flat affect
+and withdrawal.
+The other age feature of
+it we will hear about it
+in a bit, which is
+real defining, which
+is schizophrenia
+is a disease where,
+in the vast majority
+of the sufferers,
+it has late adolescence,
+early adulthood onset.
+It is a disease of
+18 year olds who
+come down with a diagnosis
+for the first time.
+If you make it to age 30
+without schizophrenia,
+you have virtually no
+chance of ever having it.
+It is a disease of
+adolescent onset.
+And this is going
+to fit with two
+things we'll be talking about.
+One is the
+epidemiological evidence
+showing that what
+schizophrenic attacks-- what
+schizophrenic breaks typically
+are at the very beginning
+are in response to
+major stressors.
+These are individuals
+who have always
+been a little bit odd,
+who, in elementary school,
+had imaginary playmates far
+later than most other kids did,
+who had all sorts of
+periods where they seemed
+not to be paying attention and
+lost in their own thoughts, who
+had trouble making
+friends, but they were OK.
+They were sort of hanging on.
+And then it was
+late in high school
+when they had the car accident,
+or the first boyfriend was
+so horrible to them,
+or the parent died,
+or whatever the crisis was,
+and this person who was just
+sort of holding on, that's
+where the dip occurs,
+and that's where it crashes.
+Schizophrenia as an
+adolescent onset disease
+where stress plays a
+major precipitating role.
+The other piece that
+we'll see is the fact
+that schizophrenia almost
+certainly is heavily
+anchored in the frontal cortex.
+Frontal cortex, you
+remember the frontal cortex.
+Frontal cortex, which
+is not fully mature
+until age 25 or so, the last
+big burst of frontal maturation,
+late adolescence
+or early adulthood,
+we'll see there's
+lots of reasons
+to think that schizophrenia
+is a disease where,
+around late adolescence,
+a fragile, vulnerable
+frontal cortex gets kicked
+once too hard with something
+or other.
+And that's one where
+the problems emerge.
+A couple of other
+features, demography
+in every culture ever
+looked at on Earth, 1% to 2%
+of the population
+comes down with it,
+no gender differences,
+no social economic status
+differences in terms of
+who becomes a friend.
+But once you are, there
+is the not very surprising
+downward socioeconomic
+spiral, which
+is, no surprise, people
+who are schizophrenic
+do not make very good CEOs
+of large corporations.
+These are the street people.
+These are the homeless.
+The majority of people living
+on streets in this country
+are individuals who are
+schizophrenic, not alcoholic.
+That is the far more
+common thing that you see.
+So a disease of complete
+collapse into some of the least
+cared for sort of strata
+of society, that is part
+of the demographics as well.
+So that's what the
+disease looks like.
+And if you're really thinking
+about these symptoms,
+at this point, you
+should be jumping out
+of your chair
+because of something
+really disturbing about
+this collection of symptoms.
+So what is schizophrenia?
+It's a disease of
+thinking abnormally.
+This is a disease of thinking
+differently from everyone else.
+This is a disease of thinking,
+in a way, that everyone
+else thinks isn't right.
+And, suddenly, we are skating on
+thin ice of this transitioning
+from a world of neuropsychiatric
+disorders and medicine
+into a world of all sorts
+of hidden agendas of abuse.
+And psychiatry has
+been hand in hand
+in bed with all sorts of
+ideologues over the decades,
+over the years, and willing
+to hand out diagnoses
+of schizophrenia to
+political dissidents,
+to people you want
+to get rid of.
+And this is a totally
+loaded, loaded diagnosis,
+when, most
+fundamentally, this is
+a disease of
+everybody else thinks
+you're not thinking normally.
+Because, some of the
+time, that describes
+a florid psychiatric disease
+that destroys your life.
+And some of the time,
+it describes people
+who are just a pain in the ass.
+And some of the
+time, it describes
+people who are going to
+transform the world by thinking
+differently.
+How can you possibly
+approach this disease
+in an objective way
+rather than it having just
+shot through with ideology?
+And one of the ways in
+which this can happen,
+one of the ways where you
+get some grounding in it
+is to look at what the disease
+appears like in other cultures,
+because you begin to
+see the commonalities.
+And this begins to impress
+you with the notion
+that there is, in fact, a
+core set of dysfunctions
+to the disease.
+So let me tell you
+about the one case
+of cross-cultural schizophrenia
+I have ever been exposed to.
+And I was going to bring
+slides, but I couldn't quite
+figure out how to scan them.
+So maybe eight
+years from now, I'll
+get together for
+that technology.
+But it has to do with the time
+I spent in Africa and my nearest
+neighbors.
+Nearest neighbors there are
+from a tribe called the Maasai.
+These are nomadic pastoralists.
+And these are not
+the folks next door.
+This is as different
+of a culture
+as you could find
+on this planet.
+Men, around puberty,
+boys around puberty
+become warriors, spend the
+next 10 years in their warrior
+clans, as we've heard about,
+pillaging the neighbors,
+getting killed in
+return around age 25.
+As elders, they settle down
+and marry their first wife,
+typically a 13 year old.
+And, well, as soon as
+they can, add on more.
+This is a culture with,
+up until recently,
+a life expectancy in the 30s.
+This is a culture where people
+believe in all sorts of things
+that we would view
+as being paranormal.
+This is a culture in which
+people celebrate events
+by drinking tureens
+of cow blood.
+This is a very different
+bunch of folks.
+Let me tell you about
+the one schizophrenic
+Maasai who I've ever seen.
+And this was about 25 years ago.
+And I was in my camp, which was
+a few miles away from this one
+village where I
+knew a lot of folks,
+and just sitting there
+minding my own business.
+And I had this
+one woman in there
+who was my-- closest friend
+or whatever in the village.
+And I suddenly see
+she is running up
+the mountain with a
+bunch of the other women
+from the village in this
+completely agitated state.
+They come roaring into my camp,
+totally flummoxed and just
+like completely agitated.
+These are people who do not
+get agitated over things very
+readily.
+These are people who,
+as a puberty right,
+have to go out and kill a
+lion or don't come back.
+So when Maasai are getting
+all crazed about something,
+this is something worth
+paying attention to.
+They're totally crazed and
+they're saying somebody
+in the village has done
+something very wrong
+and I need to come
+and help them.
+It turns out what they wanted
+me to do was bring my car.
+That's the way in which I
+was going to be helpful.
+So they impressed
+me into doing this.
+And we all pile into
+the car and started
+driving down and heading
+towards the village.
+And as we're getting
+there, I'm beginning
+to get some information.
+And what I see is
+them telling me
+about a woman in
+the village who's
+done something
+wildly inappropriate
+and they've had it with her.
+Now, I had been around that
+area for about four years,
+at that point, knew most of
+the people in that village.
+And this was someone who
+I had never encountered.
+A-ha, socially isolated,
+living in the back of some hut
+at the far corner of the
+village, a first sort of hint.
+So they're describing
+to me that she has
+done something inappropriate.
+She has killed a goat.
+You don't do that.
+You don't do that
+if you are a woman.
+You don't do that if
+it is not a ceremony.
+You don't do it the
+way she has done it.
+She has grabbed
+somebody's goat and ripped
+its throat open with her teeth
+and was now there with a goat.
+And everybody had
+had it with her.
+So we're driving there
+and I'm listening to this,
+and I'm saying, whoa, this
+sounds like a psychotic break.
+This is going to be cool.
+This is going to be
+really interesting.
+I wonder what it'll be
+like to talk to the family
+and find out what the
+symptoms have been.
+Or I wonder if she's
+going to have any insight.
+It's going to be fascinating
+to talk to her about this.
+So I get into the
+village, and this person
+I was now planning to have some
+good heart to hearts with about
+their tangential thinking, out
+comes this huge naked woman
+with a goat in her mouth by the
+throat, covered in goat blood,
+and goat urine, and goat shit.
+And this woman gives this
+howling yell, charges
+across the village, knocks
+me over, and attempts
+to strangle me.
+I'm a normal kind of
+guy, normal fantasy life.
+Never once in the darkest
+recesses of my mind
+did this strike me as
+something that was appealing.
+I'm lying there,
+she's throttling me.
+I'm thinking this is how
+I'm going to wind up dying.
+My poor parents
+are going to have
+to deal with the stigma of this
+for the rest of their lives,
+that this is-- he's
+done in by someone
+with a goat in her
+mouth, and thinking that.
+So, fortunately, everybody
+else was much more clear-headed
+and they pull her off me.
+And what they proceed to do
+is push her into my Jeep.
+And they pile on top of
+her and they say let's go.
+So I collect myself and leap in
+and we head off driving there.
+And this woman was floridly
+out of control of there.
+But we're driving somewhere.
+Where are we driving?
+We're driving to the nearest
+government clinic, which
+was about 25 miles
+away and consisted
+of a wood shack
+and a nurse there,
+a government nurse, who
+as a result of this three
+weeks of training, gave
+out malarial medication
+for anything you came
+to complain about.
+And what they were
+going to do was
+they wanted to get rid of her.
+So we go driving and we
+eventually get to this clinic.
+Well, what they proceed to
+do is push her into the hut
+and hammer the door closed.
+So I'm sitting
+there, at this point,
+saying, OK, well,
+we've containment.
+So what do we now?
+Do we-- do we talk to her?
+Does the nurse talk to-- do
+we go and get the family?
+What are you-- so I
+turned to my friends
+there and say so
+what do we do now.
+And they say let's get
+the hell out of here,
+showing an important thing.
+Even in a culture as
+different from ours,
+nobody has a whole lot of
+tolerance for the mentally ill.
+Let's get out of here.
+So they persuade me to go.
+We get into the vehicle and
+start the long drive back.
+After a while, the
+car's aired out a bit
+and everybody's
+calming down a bit.
+And I decide this was wonderful.
+What a marvelous
+opportunity to learn
+about some cross-cultural
+psychiatry or whatever.
+So I turned to my friend
+who's sitting next to me there
+and I say so what do you think
+was wrong with that woman.
+And she looks at
+me as I'm an idiot.
+She says she's crazy.
+And I said, well,
+how do you know.
+How do you know?
+And she said she hears voices.
+And I say, ha, you
+guys hear voices.
+Maasai hear voices,
+they do trance dancing
+before they do sort of these
+around the clock cattle runs.
+They hear voices of
+ghosts, that sort of thing.
+I say to her what's the
+big deal, you hear voices.
+And she says, no, no,
+no, it's different.
+Then I say, well, what
+else was she doing wrong.
+And she says she killed a goat.
+And I say you guys kill goats.
+But, again, this
+wasn't how it's done.
+There is an old longstanding
+belief among Maasai men
+that it is very bad luck to
+have women observe eating meat,
+so they get to go off on their
+own and eat all the goat meat.
+And it's done in a
+certain ritualized way.
+You do not kill a goat
+if you are a woman,
+if you are a naked,
+yelling banshee
+of a woman in the middle of the
+village with your bare hands
+and teeth.
+You don't do this.
+So I'm sitting there
+and I'm saying, well,
+do you know this-- it's
+kind of hard for me
+to tell the difference here.
+And she says, in
+the sense, idiot,
+she hears voices
+at the wrong time.
+And that's the core,
+ultimately, of the objectivity
+that's needed in this disease.
+In order to understand what
+counts as abnormal thought,
+you first have
+the huge challenge
+of understanding all
+the different ways
+that normal thought
+can manifest itself.
+And that is a classic problem in
+training psychiatrists sitting
+in some inner city
+clinic recognizing
+that the amount of
+cultural variety there,
+or the different ways in
+which you can be normal,
+is extraordinary and
+extraordinarily challenging
+at times.
+You are on very
+thin ice deciding
+you know what counts
+as abnormal thinking
+before you have
+a very wide sense
+of what can count as normal.
+So now let's take a
+five minute break.
+And all sorts of very
+accomplished artists
+over the years who've turned
+out to be schizophrenic.
+And schizophrenia is not what
+made their creativity possible,
+schizophrenia is what
+destroyed their careers.
+Other question is so what
+happened to that woman.
+And this was shortly before I
+was coming back to the states.
+And it was about nine months
+later that I went back there.
+And some point, when
+seeing my friend,
+saying whatever
+happened to that woman.
+And her response
+was, oh, she died.
+Maasai do not like to
+stay indoors, she died.
+That's all I ever
+found out, once again,
+as different to the culture
+on Earth as you can imagine.
+And they are no more tolerant
+of the mentally ill than we are.
+So now, beginning the
+neurochemistry of it,
+what's going on in
+the brain, what's
+going on with brain chemistry?
+And for decades
+and decades, there
+has been one dominant model
+for schizophrenia, which
+is the dopamine hypothesis,
+the notion that somewhere
+in the brain, stay
+tuned, there is
+an excess of dopamine
+winding up in the synapses.
+What's the evidence for it?
+First off, you do
+things like look
+at levels of dopamine breakdown
+products in the bloodstream,
+in the urine, in the
+cerebral spinal fluid,
+tending to be elevated
+in schizophrenics.
+Next, what you see is
+the most important fact
+which is all of the
+classic drugs that
+work with schizophrenia
+block dopamine receptors.
+Anti-psychotic
+drugs, neuroleptics,
+Haldol, Thorazine, when,
+at some exciting moment
+in the made for TV movie,
+where the person has gone mad
+in the ER and someone
+yells for a syringe,
+they're yelling for a syringe
+of something that will
+block the dopamine receptors.
+If you give schizophrenics
+dopamine or some drug that
+activates dopamine
+receptors, their symptoms
+get worse, which kind
+of makes you wonder who
+approved that kind of study.
+That doesn't sound very logical.
+You look post-mortem at the
+brains of schizophrenics
+and there's elevated levels
+of dopamine receptors
+in the frontal cortex.
+So we have a whole bunch of
+ways that things can go wrong.
+We can have too much
+dopamine coming out,
+for some reason or other.
+We can have too many
+dopamine receptors,
+enhanced sensitivity.
+We know another possible
+way, which is dopamine
+is then broken down
+by this is enzyme.
+And if this enzyme
+isn't working very well,
+levels are going to accumulate.
+And there's a bit of
+evidence of abnormalities
+of this enzyme in
+some individuals.
+So one additional
+interesting piece
+of evidence for this
+dopamine hypothesis,
+which seemed absolutely
+clear by now,
+you have somebody
+who's schizophrenic,
+you give them a drug that
+blocks dopamine receptors
+and thus decreases the
+dopaminergic signaling,
+and they start getting better.
+What's your
+hypothesis have to be?
+I bet you they had
+too much dopamine.
+This is shown in
+another interesting way.
+18 counties over in
+the brain from where
+dopamine's got something
+to do with this,
+dopamine serves another role.
+In a motor system related
+to the basal ganglia, all
+of that, involved in fine motor
+control, a part of the brain
+called the substantia nigra.
+And if you get a little
+bit of damage there,
+I think I mentioned
+a couple extras ago,
+you get the tremor of old age.
+If you get a lot
+of damage there,
+you got yourself
+Parkinson's disease.
+And what occurs
+in Parkinson's is
+90% of the neurons in
+the substantia nigra die.
+And people are even
+beginning to understand why.
+These are dopaminergic neurons.
+Parkinson's is a disease
+of losing all the dopamine
+signaling in this
+part of the brain.
+People began to figure
+this out in the early '60s.
+And out of that came one of
+the first drug treatments
+for any neurological disease.
+What's the strategy?
+These are people
+who have too little
+dopamine in this
+part of the brain.
+Give them replacement dopamine.
+Turns out it's hard to
+get dopamine in the brain,
+so you would give
+people one step earlier
+in the biosynthesis
+a drug called L-DOPA.
+L-DOPA, which then gets
+converted into dopamine,
+and this was miraculous.
+All sorts of people
+who were just
+paralysed with their
+Parkinson's, L-DOPE
+suddenly liberated them.
+There's a movie 15
+years ago or so,
+called Awakenings
+with Robin Williams,
+which was based on a
+book by Oliver Sacks,
+based on his own
+work, which had to do
+with this rare disease that
+emerged after World War I,
+having something to do with
+the influenza pandemic, then
+a post-encephalitic
+paralysis, which became
+known as stiff man syndrome.
+And people who were
+essentially frozen in place,
+and what we now know is it's
+an autoimmune disorder that
+targets something with
+the dopamine system.
+Sacks was a medical resident at
+the time, was-- at that point,
+the L-DOPA stuff was just
+coming out with Parkinson's.
+And Sacks was the one
+who had the insight
+to say I bet the
+stiff man syndrome is
+a case of the most extreme
+severe Parkinson's that you
+could possibly get.
+And, thus, he was the first
+one to try L-DOPA on people
+with the syndrome, and thus
+you had miraculous awakenings,
+people moving voluntarily for
+the first time in decades,
+totally amazing.
+But then, you have a downside.
+And the downside
+that we know sort
+of the structure
+of by now, you've
+got a problem with dopamine
+in the substantia nigra,
+lower than normal levels.
+Everywhere else in the brain,
+you've got normal levels.
+So you're trying to
+fix up this depletion,
+you give the person L-DOPA.
+But you're not spritzing it
+into their substantia nigra,
+you're putting it in their
+stomach or their bloodstream.
+You are raising dopamine
+levels in the substantia nigra
+and things get better,
+but you're also raising it
+everywhere else in the brain.
+And what you wind up seeing
+is if you give a Parkinsonian
+patient too much L-DOPA,
+they become psychotic.
+They are indistinguishable
+from a schizophrenic.
+And what was shown in the
+movie was this character
+played by Robert
+De Niro wound up
+having this florid paranoid
+psychosis from the L-DOPA,
+so, oh, that being
+more evidence,
+you give a drug that
+raises dopamine levels
+throughout the
+brain and somebody
+starts acting schizophrenic.
+You give somebody a drug that
+causes very rapid dumping
+of dopamine, and
+they will transiently
+appear schizophrenic.
+What's the drug?
+That's what amphetamines do.
+And you get somebody coming to
+an ER who is loose associations
+and hallucinating
+delusions and all of that,
+and most clinicians cannot tell
+whether this was somebody with
+an amphetamine psychosis
+or schizophrenia.
+Pump their stomach out.
+If they suddenly start
+making more sense,
+it was probably
+the amphetamines.
+So this being more evidence.
+Now, you should be thinking
+what about the flip side.
+So you have schizophrenics,
+where you give them
+these neuroleptic drugs to
+block dopamine receptors
+in the frontal cortex,
+as it turns out.
+But you're not injecting
+it straight in there,
+you're putting in the guts.
+And, now, you've got
+too much dopamine here.
+You lower its levels,
+but everywhere else it
+gets a little lower than
+normal-- not dopamine levels,
+but dopamine signaling.
+And, suddenly, you should
+generate this prediction
+that if you over
+medicate schizophrenics,
+they should start looking as if
+they have Parkinson's disease.
+And that's exactly
+what you see as well,
+a disorder called tardive
+dyskinesia, kinetics,
+body movement
+dyskinesia, abnormal one.
+And these are individuals
+who look Parkinsonian.
+Go into a state hospital,
+go into the back ward,
+and find somebody
+sitting there who
+is tremoring like this all over
+their body the entire time.
+And that's somebody
+who was going
+to have been taking these
+drugs for 20, 25 years or so.
+So, collectively, this
+winds up telling you
+all these different ways
+of suggesting the problem
+is that there is too much
+dopamine in this disease.
+However, just to
+make life miserable,
+there is at least one
+anti-schizophrenic drug
+out there which what it does is
+it increases dopamine signaling
+and people get better.
+Bummer, nobody knows what to
+make of this at this point.
+So what's the excess
+dopamine doing in there?
+It's not having anything
+to do with movement stuff.
+That's substantia nigra.
+It's not having anything
+to do with pleasure.
+That's dopamine in different
+parts of the brain.
+The best evidence
+is this is dopamine
+functioning in the
+frontal cortex,
+stimulating normal
+executive function.
+And what you've got
+is a frontal cortex
+that is not making a
+whole lot of sense.
+Loose associations,
+that seems to be
+where the dopamine
+problem is played out.
+Next neurotransmitter
+that's been implicated,
+serotonin, look at the chemical
+structure of serotonin,
+and then look at the
+chemical structure of all
+of the major hallucinogens,
+LSD, mescaline, psilocybin,
+they are all structurally
+almost identical.
+And all of those hallucinogens
+fit into serotonin receptors
+and activate them.
+What is a hallucination
+induced by a drug?
+You've got some
+serotonin synapse
+where nothing's happening.
+The pre-synaptic
+neuron hasn't had
+anything interesting
+to say in weeks,
+it hasn't released
+any serotonin.
+But, now, there's something that
+kind of looks like serotonin
+percolating its way into the
+synapse, where it could then
+bind to the serotonin receptors.
+And as far as this
+neuron thinks,
+it just got a
+message from there.
+And it didn't come from there.
+This neuron is hearing voices.
+And the fact that that's how the
+hallucinogens work immediately
+generated all
+sorts of hypotheses
+that there are abnormalities
+in serotonin in schizophrenia
+as well having something to
+do with the hallucinations.
+Next, the
+neurotransmitter glutamate
+has also been implicated.
+What's the evidence there?
+When you take a drug
+that wildly stimulates
+one subtype of
+glutamate receptor,
+you begin to look a bit
+like a schizophrenic.
+What's the drug?
+PCP, angel dust, phencyclidine.
+That stimulates a subtype
+of glutamate receptors.
+And a lot of people
+have argued this
+has enough resemblance to
+what schizophrenia looks like
+that there has to be a
+glutamate problem going on
+in the disease.
+Very, very little
+bits of evidence
+for that, the one thing
+that has been shown in rats
+is when you stimulate
+the brain with PCP,
+what you get is an increased
+levels of receptors
+for serotonin in some
+interesting parts of the brain,
+some kind of connection
+running around there.
+So very, very solid implication
+of dopamine, some serotonin
+thrown in there,
+glutamate, eleventy other
+neurotransmitters that
+people are thinking about,
+but these are the main ones.
+And, overwhelmingly,
+the dominant hypothesis
+remains the dopamine hypothesis.
+What about brain metabolism?
+What's going on in the
+brain, for example,
+during a hallucination?
+And what you essentially
+get is wild activation
+of everywhere in the brain
+and you are hallucinating.
+You get wild activation, people
+who are in imaging studies
+have taken these
+drugs voluntarily,
+you get wild activation
+in the cortex,
+except for, say,
+the first couple
+layers of the visual cortex,
+or the first couple of layers
+of the auditory cortex.
+What's that about?
+The cortex is seeing
+things and hearing things
+that did not come in from
+the outside world, that
+never stimulated the
+primary sensory cortex.
+Otherwise, during
+hallucinations,
+you see extremely high
+levels of metabolism
+throughout the brain.
+The next interesting
+thing in that realm,
+you give schizophrenics
+some standard declarative
+memory tasks and metabolism
+in the hippocampus
+does not increase as much
+as in other individuals.
+So that brings us to structural
+features of the disease.
+Yeah?
+Does the brain--
+while hallucinating,
+does the brain work
+somewhat like when dreaming?
+Good question.
+Does the brain, in terms
+of patterns of activation,
+look somewhat like
+during dreaming?
+Yeah.
+It's not the primary sensory
+cortex regions that activate.
+Frontal cortex is
+relatively quiet.
+And the rest of the
+brain is going like mad,
+and certainly makes sense.
+So structural stuff,
+there's all sorts
+of structural abnormalities in
+the brains of schizophrenics.
+How do you learn this though?
+Very difficult, because, for
+the first couple of decades
+in the field, it was all
+post-mortem analysis, which
+is you take out the
+brain of a schizophrenic
+and you go and
+look at it, and you
+see if there's anything weird.
+So what's the
+problems with that?
+All sorts of things,
+which is to try
+to do post-mortem studies on
+human brains, different brain
+sit for different
+lengths of time
+before they're
+autopsied and removed.
+So that's a huge
+piece of variability.
+Moreover, you can get
+post-mortem artifacts,
+which is to say
+you're pulling out
+the brain and somebody
+squeezes it too hard
+and squishes something
+in here and it's not
+going to look normal afterward,
+reflecting the handling of it.
+And out of that has
+come this whole world
+of neuropsychiatry
+types were what they
+live for are rapid autopsies.
+And a whole bunch
+of medical centers
+have rapid autopsy
+teams connected
+with their Alzheimer's
+folk, connected
+with some of the
+psychiatric diseases,
+where their idea is to
+get in there as fast
+as possible with
+patients who have
+or whose family have
+given permission for that
+and get the brain out
+as fast as you can.
+And I remember, a
+few years ago, I
+was down to Duke
+Medical Center, and they
+had one of these rapid
+autopsy SWAT teams.
+And they were bragging about
+how they were getting brains out
+in under 30 minutes from death.
+So that solves a whole lot
+of the post-mortem rotting
+away lag time.
+So all of those wind
+up being problems.
+More confounds,
+very often you're
+trying to understand the brains
+of schizophrenics who have died
+who are older, who are elderly.
+And the confound there
+is schizophrenics
+have horrible diets.
+You are seeing perhaps
+the brain consequences
+of malnutrition all those
+years, rather than seeing
+the consequences of
+the disease itself.
+Another problem that you've
+got is you get someone
+who's schizophrenic,
+and, almost certainly,
+what they have been doing
+for a long time is taking
+drugs for their schizophrenia.
+And if you see something
+different in the brain,
+maybe it's due to
+the schizophrenia
+or maybe it's due to
+the effect of the drugs.
+And what that has generated
+is the other thing
+that people in this
+business kill for, which
+is unmedicated schizophrenics.
+And researchers
+love these people,
+they can't get enough of them.
+This is the teenager
+who is brought
+in for the first diagnosis.
+And the family is no doubt
+thinking finally we're
+going to get some help.
+And all the researcher
+physician there is thinking
+is they want to
+centrifuge this kid
+and do research
+and find that out,
+getting unmedicated
+schizophrenics.
+Finally, a big boon in the
+field has been brain imaging.
+So instead of trying to figure
+out the normal size of things
+after you've taken
+the brain out,
+you could image
+the brain in situ,
+while the person is still alive.
+So given all of those
+methodological constraints,
+there's a number of
+things that have come up.
+Here's a cross-section
+of the brain,
+although I'm realizing this is
+a cross-section of a rat brain.
+And it also is a amusing face.
+And what you have
+are these things
+that run through the brain
+called the ventricles.
+They are these caverns
+running through, filled
+with cerebral spinal fluid.
+What you see in schizophrenia is
+enlargement of the ventricles.
+So the ventricles enlarge.
+The skull isn't going
+anywhere, and, thus,
+if the ventricles
+are getting bigger,
+something else has to
+be getting smaller.
+There is contraction
+compression of the cortex.
+So you get cortical
+compression in schizophrenics.
+You get it particularly
+so in the frontal cortex.
+A-ha, that's kind
+of interesting.
+Meanwhile, over in the
+hippocampus, what you have,
+normally, are these very
+characteristic cell fields,
+where-- I just drew
+them wrong, where
+neurons that are called
+pyramidal neurons that,
+shockingly, are
+pyramidally shaped.
+And what they have is
+they're organized in layers.
+And they send all
+of their projections
+off to the next cell layer that
+happens to be diamond shaped.
+And that's how it works.
+You look in the brains of
+schizophrenics post-mortem
+and there's fewer
+hippocampal neurons.
+And there's some of them
+are facing the wrong way.
+They've been flipped over.
+They're sending projections
+where they're not supposed to.
+This is not going to make for
+a whole lot of solid sequential
+thought if you've
+got neurons pointing
+in the wrong direction.
+So that's popped up
+in the literature.
+Then, of course,
+frontal cortex, where
+what's been seen as, in
+some studies, fewer neurons,
+in some studies, fewer
+glia, in some studies,
+fewer of both, what you see is,
+also, lower levels of a protein
+called reelin.
+And what reelin has to do
+is with cortical maturation.
+There's lower levels of
+it in the frontal cortex
+of schizophrenics.
+All of this begins to fit
+in this picture of you're
+not getting a normal final
+burst of frontal maturation
+late adolescence,
+early adulthood.
+You're seeing a lot
+of problems there.
+What else?
+You also see a couple
+of other minor things.
+The thalamus tends
+to be atrophied.
+Nobody really knows
+what's going on.
+The sense is
+hippocampus pointing
+in the wrong direction,
+frontal cortex, that's
+getting compressed, because
+it's got fewer neurons perhaps.
+This is not going to
+make for a normal brain.
+So now switching one box
+back, what about the genetics?
+And you'll notice this is
+one of our first topics
+where there's nothing
+been happening here
+in terms of endocrine effects,
+acute releasers not terribly
+pertinent to this field.
+So what about genetics?
+Going back to all of our classic
+behavior genetics approaches,
+this has been the
+psychiatric disease
+where there was
+the first evidence
+for a genetic component to it.
+The twin studies, the
+Kety adoption studies
+that we've heard all about,
+and what they have suggested
+was about 50% heritability
+for schizophrenia.
+And you are all over now
+what heritability means
+and what it doesn't mean.
+What you see within families is
+if you have an individual who
+has schizophrenia and they
+have an identical twin,
+the twin has a 50%
+chance of the disease.
+If they have a full
+sibling, about 25%
+chance of a disease,
+half sibling, about 12%.
+Take a random person off
+the street, 1% to 2%,
+so there is a
+large genetic load.
+What you also see is in a
+higher than expected number
+of close relatives
+of schizophrenics
+are mild versions
+of thought disorder.
+And that's going to
+come in on Friday
+in a very interesting way.
+What this is saying
+right off the bat,
+it is not saying that all
+relatives of schizophrenics
+have these abnormalities,
+but they are occurring
+at a higher than expected rate.
+So that's old classical
+behavior genetics.
+Now, jumping forward a
+decade's worth of technology,
+how about molecular approaches
+the version of just getting
+genetic markers?
+Not identifying the gene itself,
+but you remember this approach
+by now where you are
+finding a stretch of DNA.
+And inside that
+stretch is a gene
+that is very pertinent
+to whatever it is,
+and the folks with the disease
+have a different version
+than the other folks.
+But you don't know what
+the gene is or where it is.
+So using this marker technique,
+some of the first disease gene
+markers came out in the
+mid '80s, late '80s,
+for schizophrenia.
+And these were landmark studies.
+And everybody was incredibly
+excited about them.
+And these were really,
+really important.
+And there was a problem,
+which is somebody
+would isolate a marker
+for schizophrenia
+in an Amish population.
+People love studying the
+Amish for things like this
+because they've
+got big families,
+because they don't have a
+whole lot of substance abuse,
+because they have very
+healthy lifestyles,
+and, most importantly,
+because men, Amish men who
+say they are the father
+of somebody or other
+are probably the father
+of the somebody or other.
+There's not a lot of
+messing around going on.
+And that's kind of helpful.
+You're trying to
+understand genetics.
+And if you don't even have
+the right person pegged
+as the father, that's going
+to make for some messy data.
+People love the Amish, people
+love inbred Icelandic fishing
+villages.
+These are all the
+folks who get studied.
+And in those years,
+out came some
+of the first genetic markers.
+And the problem was
+each of the studies
+was getting a different marker.
+And nobody was coming
+up with any replication,
+a complete
+uninformative mess that
+was a major disappointment
+in the field.
+So very little happened in terms
+of the genetic marker approach.
+So we had to wait another
+decade or two, and, now,
+our current more
+modern version, which
+is forget a genetic marker,
+what about actual genes?
+Are there are genes that
+have been implicated
+in schizophrenia where
+there are abnormalities,
+where there are variances?
+And then it comes from
+two different flavors,
+eight different
+flavors, our usual deal.
+We've already heard
+about one of these,
+which is variance in
+versions of this gene
+coding for this enzyme that
+degrades dopamine carries
+an association
+with schizophrenia.
+Nonetheless, very small effects.
+Interesting finding, and
+this was the last year,
+these were three papers
+back-to-back in science,
+from three different
+groups, all of whom
+used a very
+contemporary technique
+for looking for genes,
+which is a snip analysis.
+And it's really interesting,
+and not in a million years
+could I describe it clearly.
+But using this very
+state of the art thing,
+they all had huge populations
+of schizophrenics,
+thousands of people in
+the study, great studies.
+And the amazing
+thing is they all
+found genetic abnormalities,
+and they all found one in common
+with a huge effect, which
+was very, very reassuring,
+until you looked at
+that the gene, which
+made no sense at all.
+All three of these
+groups, superb scientists,
+reported that, in
+schizophrenia, you
+have a higher than expected
+rate of abnormalities
+in genes of the major
+histocompatibility complex.
+What is that about?
+The human equivalent,
+wait, we're
+back at pheromones, and
+individual signatures,
+and the immune system.
+What is this about?
+Nobody has a clue.
+But a remarkable consistency
+in these three studies,
+they all found abnormalities in
+these major histocompatibility
+genes that have to do with cell
+signatures and immune defenses,
+all of that.
+And these were big effects
+in all three studies.
+All the studies
+were done superbly.
+People are just beginning
+to digest that one.
+Nobody really has
+a very clear idea.
+Some other genes have popped
+up as having mutations
+or a lot of variants, where
+one particular variant is more
+associated with schizophrenia.
+And there's this one gene
+that's been found and replicated
+called DISC1.
+So does DISC1 do?
+Nobody has a clue.
+And just showing how pathetic
+this whole finding is,
+what does DISC,
+D-I-S-C, stand for?
+Disrupted in schizophrenia 1.
+That sure tells you a lot
+about what's going on.
+Well, what happens
+in schizophrenia?
+You have abnormalities
+in genes that
+are abnormal in schizophrenia.
+Let's party.
+So you got DISC1, and people
+trying to figure out it's
+got something to do
+with second messengers.
+Nobody really knows.
+There's not a whole
+lot that has been
+happening in this field
+that counts as progress,
+really frustrating.
+People still need to make
+sense of this finding.
+One area, though, that's
+getting a lot of traction
+in the last few years goes back
+to one of our weird mutations
+from our macroevolution
+type lectures,
+that business of different
+numbers of copies
+of a gene, macro
+mutations on that level,
+transposable events, gene
+duplications, a term we
+got back then is
+copy number variants.
+How many copies of
+particular genes?
+And the one thing
+that seems to be
+consistent is all sorts
+of genes in schizophrenia
+are popping up with abnormal
+numbers of copies of the gene
+rather than abnormalities
+in the gene itself.
+So that's really exciting.
+What's unexciting is
+nobody's replicating
+which the duplications are.
+And most of the genes, nobody
+has a clue what they do.
+People are flailing
+other than seeing
+there's all sorts of different
+genetic abnormalities
+that are popping up.
+How can that be?
+How could they all be
+relevant to this disease?
+Back one hour,
+it's not a disease.
+It's a whole bunch of
+heterogeneous ones,
+and there's going
+to be all sorts
+of different genetic
+components to it.
+Now our next box,
+early experience,
+and what early experience
+immediately translates into
+is parenting style.
+What does schizophrenia have
+to do with parenting style?
+We will see shortly,
+which is my smooth way
+of trying to say that I just
+jumped a paragraph by accident.
+So, of course, of
+course, where we
+begin is looking at the
+role of early stress
+in life, because
+that's obviously
+where you have to begin
+discussing early experience
+in schizophrenia.
+It's that whole
+stress model thing.
+We already heard one version
+of it, the adolescent stressor,
+takes the kid who's just
+barely holding on and dips him
+way down.
+Another version of it
+that should seem plenty
+logical to us by
+now, prenatal stress.
+People who were fetuses
+during the Dutch Hunger Winter
+have a higher than expected
+rate of schizophrenia.
+People who were fetuses
+during a huge famine
+in China, 1959 to 1961, higher
+incidence of schizophrenia.
+Rats, expose them prenatally
+to lots of glucocorticoids,
+and they wind up having
+elevated dopamine levels
+in their frontal cortex.
+Have mechanical trauma at birth,
+birth trauma, brief hypoxia,
+any of those things, increased
+incidence of schizophrenia.
+This is very interesting.
+Back to our business,
+remember, identical twins,
+they can either share
+one single placenta
+or have two of them,
+monochorionic or bichorionic.
+Monochorionic twins are
+more likely to share
+the trait of schizophrenia than
+bichorionic identical twins.
+Fetal environment,
+stuff's going on there.
+What else with that?
+You wind up seeing a lot of
+suggestions of interactions
+between the
+neurochemistry of stress,
+and some of the
+abnormalities here.
+You know how this works.
+Somewhere lurking out
+there is a data set
+that's going to wind
+up looking like this,
+bad version of the gene,
+good version of the gene,
+more and more stressful of
+the developmental environment.
+It hasn't been
+identified yet, but it's
+got to be something like that
+because everything's like that.
+So leading us now obviously
+to discussing parenting style
+and schizophrenia.
+So where does that come in?
+Take the best psychiatrists
+in the field, the titans,
+the grand poobahs
+in 1950, and they
+would know the
+exact answer, which
+is parenting style is the
+cause of schizophrenia.
+Abnormal parenting is the
+cause of schizophrenia.
+And out of this, of course,
+since in those days,
+fathers did no parenting, what
+you were saying is abnormal
+mothering is the cause
+of schizophrenia.
+And the great term
+that was used there
+was schizophrenogenic
+mothering, mothering style
+that generates schizophrenia.
+What was schizophrenogenic
+mothering about?
+Well, it depends on whose
+paper you're reading.
+But, in general,
+what they tended
+to have were elements of
+conflicting emotional messages,
+conflicting, a double
+bind is the phrase
+that always ran through it.
+The mother gets their son
+two ties for his birthday,
+he puts one of them on.
+She says what's the matter,
+you don't like the other tie
+I got you, or, at the
+more fundamental level,
+saying you never say you love
+me, you never say you love me,
+you never say-- I love you.
+How can that mean
+anything to me when I just
+forced you to say that?
+There's no winning.
+And, in that view,
+what schizophrenia
+was about was raising a kid
+with distorted, contradictory,
+fragmented emotional demands
+from the schizophrenogenic
+mother and out
+comes schizophrenia.
+Now, actually, by the early
+'50s, people in the field
+were feeling far more
+broad in their thinking,
+recognizing this
+might be damaging,
+in fact, to women who were
+the mothers of schizophrenics.
+And a much more
+humane model came in,
+which was recognizing the
+possibility that fathers could
+screw kids up in the same way.
+What was more broadly
+called this double bind
+theory of schizophrenia,
+it is caused by parenting.
+It is caused by particular
+parenting style.
+And then, in the early '50s,
+along came the very first drug
+for schizophrenia,
+the neuroleptics,
+the dopamine receptor blockers.
+And over the course
+of the next few years,
+90% of the hospital
+beds in this country
+for psychiatric patients
+were emptied out,
+the first medication
+that effectively
+treated schizophrenia.
+And at that point, if one
+had any sort of capacity
+to face reality, all
+of the proponents
+of schizophrenogenic
+mothering should
+have been shocked and
+stopped in their feet
+at that point, saying, my
+God, what have we done.
+It's a biochemical disorder.
+It is not a disorder of mothers
+who are not competent mothers.
+And it is fascinating to read
+in the leading psychiatry
+journals from that time, you
+would get these editorials
+from grand old men
+in the field, where
+they would be saying I have
+spent my whole life researching
+this disease, I
+have spent my life
+trying to fight this disease,
+which is hell, which tragically
+destroys lives.
+I've been trying to
+do the right thing.
+I have been trying
+to help people.
+Look, what I have done instead.
+This realization that
+ran through the community
+that parenting style has
+nothing to do with it.
+And it's half a century's
+worth of mothers
+bringing in their
+late adolescents
+for the first diagnosis and
+being told, unfortunately,
+it's this nightmare
+of a disease.
+How could this have happened?
+Where does it come from?
+You caused it.
+You caused it with
+your mothering style.
+Endlessly, during the period
+where modern biochemistry
+sweeps into psychiatry,
+over and over,
+there are cases like this,
+where the whole field has
+to stop and say,
+my God, what have
+we done telling
+people they caused it
+through some parenting style,
+something of that sort.
+It's a biochemical disorder.
+So this was a shocking
+finding at the time
+and transformed
+the field in terms
+of schizophrenogenic
+mothering going down
+the sink at that point.
+Nonetheless, there is an
+interesting literature
+showing abnormalities
+or oddities
+in the way communication
+works in the families
+of schizophrenics.
+And this is a field now that's
+called communication deviance.
+What you see is, on the average,
+among first order relatives
+of schizophrenics, parents,
+siblings, immediate family,
+what you see is, on the average,
+an odd communicative style.
+You see a very
+fragmented communicating,
+a very telescoped terse,
+broken phrase sort of style.
+This has been noted very often.
+Again, this is not what is
+seen in every close relative
+of a schizophrenic, but
+higher than an expected rate.
+What you also see is all sorts
+of realms of, in a sense,
+private communication
+between schizophrenics
+and their close families.
+And the way this is
+shown is with things
+like-- this was a
+classic version.
+You take schizophrenics
+and you show them
+a bunch of-- no,
+that's not what you do.
+You give them a
+Rorschach print, one
+of those ink symmetrical
+things that's just
+completely chaotic looking.
+And they look at it
+for a while, and then
+you put it into a stack
+of a dozen other ones,
+and you mix them up.
+And you give them to the
+parents of the individual.
+And the schizophrenic
+or the healthy control
+is now trying to describe to
+the parents which one they
+saw, how to find the
+correct one in there.
+Control healthy
+individuals sitting
+there trying to explain which
+Rorschach block they saw,
+like no accuracy whatsoever.
+The schizophrenic
+starts saying it
+looks like a butterfly
+with a Van Dyke beard
+and ears on fire, and
+the parents pull out
+the right one instantly.
+It works in the
+opposite direction
+as well, where the parents
+are the ones trying
+to describe the Rorschach test.
+It only works within families.
+The parents of the schizophrenic
+are no better at chance
+when doing it with
+someone else's
+child of a schizophrenic.
+There seems to be this going on.
+Logical interpretation,
+this has nothing
+to do with the emergence
+of schizophrenia.
+This is an obvious compensation.
+You have a child, you
+have a sibling who
+is this thought
+disordered, and there's
+going to be a whole lot more
+adventurous communication
+in the family to try
+to compensate for it.
+Few other things in terms of
+early experience, and this
+is a whole other
+domain of the disease,
+which is being exposed to all
+sorts of infectious thingies.
+And this is a really interesting
+provocative literature
+floating around.
+There's a far higher
+than expected chance
+rate of schizophrenics
+whose mothers were exposed
+to a number of different
+viruses in third trimester
+of pregnancy.
+Ah, some sort
+perinatal stressor,
+pathogenic challenge
+to the system.
+And when you look at the
+genomes of schizophrenics,
+they have much higher than
+expected rate of viral DNA
+that has been inserted in there,
+things called retroviruses.
+Technical matters don't matter.
+The main thing is more
+evidence of higher exposure
+to viral pathogens,
+an elevated history
+of neonatal viral infections.
+And then, the
+cruelest one of all,
+which has to do with
+a protozoan parasite,
+not a virus or bacteria,
+but this protozoa
+called Toxoplasma gondii.
+And not Gandhi in the
+Gandhian sense, but probably
+because it's even
+pronounced differently.
+How are you pronouncing
+it these days?
+Gondii.
+Gondii.
+Gondii, because there's
+two Is at the end,
+which the old Mahatma
+never quite came up with.
+But this parasite manages to get
+more Is in there than he did.
+So it's Toxoplasma gondii,
+as everybody knows.
+Toxoplasma is interesting.
+It has this
+interesting life cycle.
+It reproduces in
+the gut of cats.
+It comes out in cat feces,
+feces are eaten by rodents.
+Now in rodents, and toxo's
+evolutionary challenge
+has been to figure
+out how to get
+rodents inside cats stomachs.
+And toxo does this
+amazing thing, which
+my lab is doing some work
+on, including Patrick,
+and looking at the
+thing that toxo does
+is it makes rats begin to like
+the smell of cats, and to go up
+and check it out.
+And soon, you are inside
+the stomach of the cat
+and completing
+toxo's life cycle.
+How it does it is
+incredibly interesting
+and slowly emerging.
+So what's going on
+with toxo in humans,
+people who are
+infected with toxo
+have a higher than expected
+rate of mild neuropsychological
+disinhibition, a
+little bit of problems
+with frontal
+regulation of behavior,
+higher than expected rates
+of serious car accidents,
+higher than expected rates for
+the same degree of depression,
+of attempting suicide, a
+picture of a certain degree
+of impulsivity.
+Not big effects, but,
+nonetheless, it pops up there.
+But parallel with
+that, from day one,
+there's also been a literature
+showing that Toxoplasma
+exposure increases the
+risk of schizophrenia.
+Individuals whose mothers
+were exposed to toxo
+during pregnancy or
+looking at schizophrenics
+and looking in their
+blood and seeing higher
+than anticipated levels of
+antibodies against Toxoplasma,
+evidence of this whole world
+of a connection between cats
+and schizophrenia,
+and all sorts of hints
+there, very, very
+slowly emerging field.
+It is a real finding and it
+is a well-replicated one.
+There's some connection there.
+So where does these genes having
+to do with immune function
+come in?
+Maybe this is
+pertinent to this world
+of viral correlates of
+schizophrenia, parasitic ones.
+Nobody knows.
+Finally, what have we got?
+This challenge that we're going
+to have with-- when you read
+the depression
+chapter, all of that,
+is how do you put
+these pieces together.
+How do you put together
+adolescent stress
+with prenatal viruses
+with enlarged ventricles,
+with funny genetic
+abnormalities here?
+There isn't a very
+good integrated model
+at this point to how to
+put the pieces together.
+The field has not
+gotten that far.
+So we're talking about genetic
+abnormalities, blah, blah,
+all of that.
+And thus, you
+know, our final box
+has to be the evolution
+of schizophrenia.
+Where did schizophrenia
+evolve from?
+First question you would ask
+is, well, do you see something
+like schizophrenia
+in other species.
+And you don't.
+You look at complex
+primates and you
+see things that look
+like depression,
+you see reactive depression,
+you see melancholia,
+you see, in some cases,
+depression so severe
+as to prove fatal.
+You don't see animals
+having to loose associations
+with proverbs, and concrete
+thought, and delusions,
+and hallucinations.
+Animals that start
+acting schizophrenic
+get eaten that evening.
+So there's not a
+whole lot of insight
+from the zoological world.
+There's not any animal
+precedents for schizophrenia.
+So how about in humans?
+How did schizophrenia evolve?
+We are now back to one
+of our first lectures.
+Why did giraffes
+have long necks?
+Because it's a good
+thing that allows
+them to pass on more
+copies of their genes,
+because it's an adaptive trait.
+By the rules of Darwin,
+schizophrenia is maladaptive.
+Schizophrenics have a
+lower reproductive rate
+than their unaffected siblings.
+By the math, that
+is thus a trait
+that should be being
+selected against.
+Yet, schizophrenia persists at
+this 1% to 2% in every culture
+out there.
+Historical records
+indicate things
+that convincingly sound
+like schizophrenia
+have been there forever.
+And, thus, one has to bring up
+the question that always lurks
+in a scenario like this, which
+is are there circumstances
+where schizophrenia is
+in fact adaptive, where
+it is advantageous,
+where it increases
+one's reproductive success.
+The only domain where
+that has had any evidence
+at all in the literature
+is schizophrenics
+appear to have a lower incidence
+of certain types of cancers,
+in particular, lung and
+throat, esophageal cancers.
+And that's after controlling
+for smoking rates, all of that.
+Not a big effect, but
+that causes people
+to mumble something
+about maybe schizophrenia
+was selected for its anti-cancer
+properties in the disease,
+and balanced
+selection, all of that.
+However, there is another
+possible adaptive thing
+that's lurking around
+in there, something
+which causes some
+of these traits
+to not only no longer
+be maladaptive,
+but to be wildly useful
+in certain contexts
+of human society.
+And what you'll see is it's
+not full-blown schizophrenia,
+it's the milder
+versions that you
+see in some of the relatives.
+And thus, just to give you
+a sense of where things
+are heading, we'll talk about
+that on Friday in the lecture
+on--
+For more, please visit
+us at Stanford.edu.
