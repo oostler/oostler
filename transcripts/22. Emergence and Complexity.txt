@@ -1,0 +1,3995 @@
+22. Emergence and Complexity
+============================
+
+Stanford University.
+OK, so we will pick up on
+the one topic that was not
+covered from two days ago
+because you guys needed
+to go play around with these
+cellular automata first.
+So I will work
+with the assumption
+that everybody
+here has now spent
+48 hours playing with those.
+But presumably because
+of the sleep deprivation,
+you've forgotten
+much of it by now.
+So we will cover some of it.
+OK, back to that issue
+of fractals and butterfly
+effects and that whole
+business that, by the time
+you look at chaotic
+systems that are
+determinist but
+aperiodical, that, when
+they seem to be lines
+crossing, getting back
+into the same spot,
+look closely enough
+and they're not going
+to actually be touching.
+And the centerpiece
+of why that matters
+was that whole
+business of, these
+both appear to be the same.
+And take them out
+a decimal place
+and they're actually different.
+And a gazillion
+decimal places out.
+And the entire sort of rationale
+for thinking in that way
+is the notion that a very
+small difference here
+can make a difference
+one step to the left.
+And a million decimal places
+out there, a small difference,
+will make a difference
+one before that.
+In a scale-free way, a fractal,
+this here, a difference here,
+a million decimal places
+out is just as likely
+to have consequences for
+one over as this one for one
+over fractal, scale
+free, all of that.
+But the critical thing
+that is encompassed in this
+is the notion that
+tiny little differences
+can have consequences
+that magnify and magnify
+and amplify into a
+butterfly effect.
+So cellular automata
+are a great way
+of seeing this principle along
+with a number of others that
+are relevant to all of this.
+OK, so we start off
+with the very first one.
+And this is the one
+that you no doubt first
+discovered is a pattern,
+which made you deeply happy.
+And if you follow
+the rules, it was
+starting there-- was this--
+which way is this facing,
+starting at the bottom.
+OK, this is starting
+at the bottom.
+And what you see is
+these very simple rules.
+And out of it emerges a
+whole complex pattern.
+And we'll be seeing
+shortly the features
+of this that perfectly match
+what the requirements are
+for emergent complexity.
+But we'll see as the elements
+are lots of constituents,
+lots of building blocks.
+The building blocks
+being very simple.
+They're binary.
+Either they are
+filled or not filled.
+Extremely simple rules as to
+how the next generation gets
+formed.
+And in terms of the extremely
+simple rules, none of the rules
+have anything to do with other
+than the next generation.
+It is all local rules built
+around what the neighborhood is
+like for each one of these.
+So you put it
+together, and out come
+these very structured
+patterns like these.
+And this is great.
+This is very exciting.
+Except this isn't
+what you usually get.
+In most of these cellular
+automata systems, where
+you start off with an initial
+condition and a simple set
+of local neighbor rules for
+how you get reproduction
+into the next
+generations, in most cases
+the patterns stop after a while.
+In the vast majority,
+they stop, they
+hit a wall, they go extinct.
+Aha.
+Two terms that
+I've already stuck
+in here that are
+biological metaphors
+start to seem less
+metaphorical after a while.
+First off, the notion that
+going from here to here to here
+to here represents
+each next generation.
+And the notion that,
+as we were just now,
+that the vast majority of
+these cellular automata systems
+go extinct.
+They fail after a while.
+So it's a very small subset.
+What you then also
+see is-- in some ways
+the critical point in
+this whole business--
+is the relatively small
+number of starting states
+that succeed produce a
+remarkably small number
+of mature states that all look
+very similar to each other.
+In other words, you can
+start with a whole bunch
+of different conditions,
+and you will wind up
+with a bunch of smaller number
+of stereotypical patterns.
+Half of the cellular
+automata that
+wind up taking
+off look something
+like this with this pattern.
+What are we seeing?
+Convergence.
+Convergence.
+The notion that you can start
+with different forms and they
+will converge over time.
+What's this?
+Well, you just proved you
+look at the mature form
+and you can't know
+the starting state.
+The other thing is, starting
+at the beginning just looking
+at this line,
+there is no way you
+can tell what it's going to look
+like 20 generations from now.
+You've got to march through it.
+In other words,
+the starting state
+gives you no predictive
+power about the mature state.
+This is a nonlinear system.
+The cellular
+automata encapsulates
+this, this business that
+most of these go extinct.
+Only a relatively few number
+of mature forms exist.
+It shows convergence.
+Very different starting
+states can converge
+into the same sort of patterns.
+And minor differences
+in the starting state
+can extend into very
+different consequences.
+It shows, in other
+words, butterfly effects.
+OK, so appreciating this a bit.
+So what we did was then
+go to example number
+two, where we changed
+the starting state
+just a little bit here.
+We shifted around
+some of the boxes.
+And what you see is something
+that looks roughly the same,
+but it's not exactly the same.
+But it's the same
+general feel to it.
+So that's great.
+But then we started an
+exercise of starting off
+with the initial boxes.
+This goes that way.
+The initial boxes evenly spaced
+with one space between them
+and applied the
+rules from there.
+And this is what you get.
+Totally boring, static,
+inorganic, inanimate.
+This is what it does
+for the rest of time.
+What this exercise then
+did, going to number four,
+is what if we now
+spaced two boxes
+between each one of these?
+And here we have an extinction.
+This is one of those
+where it hits a wall,
+and all the next
+lines are empty.
+OK, how about three boxes in
+between the starting states?
+OK, another form of extinction.
+OK, how about four boxes
+between the starting states?
+And suddenly, something
+very dynamic takes off.
+Applying the same rules,
+and all you've done
+is change the spacing
+between the starting states.
+And look at, for one thing, how
+close this was to going extinct
+up there on top, how
+asymmetrical the pattern is
+that comes out.
+And this particular one will
+stay asymmetrical forever.
+And the ways in
+which that generated
+something very unexpected.
+There is no way you
+could sit there a priori
+and say, hm, one box in between
+generates something that
+looks inanimate.
+Two boxes, not going to work.
+Three boxes, yeah.
+Somewhere around four
+boxes in between.
+That's when dynamic
+systems suddenly take off.
+There is no way
+to have known that
+before without marching through
+this and actually seeing.
+Starting state tells you
+nothing about the mature state.
+Then we space it even further.
+And what we get is
+something similar again.
+This one is symmetrical.
+It is somewhat different
+from the previous one,
+but it's the same
+sorts of patterns
+that come up over and over.
+So what we've seen here
+is, by starting state,
+minor differences,
+big divergence
+between going extinct versus
+being a viable pattern.
+Minor differences in starting
+state, big divergence
+between symmetrical and
+asymmetrical patterns.
+Tiny differences,
+butterfly effects.
+OK, next.
+Looking at the consequences here
+of introducing some asymmetry
+from the very beginning.
+The one on the left up on top
+has four boxes and four boxes.
+It has eight boxes.
+The one on top has eight boxes
+on the left, and the one on top
+on the right, just adding in
+one extra box on the side,
+so it's four and five.
+Adding a little asymmetry,
+and what you see
+is a very different pattern.
+And one of the things
+you tend to see
+in these pseudo-animate living
+pattern systems is starting
+states of asymmetry produce
+more dynamic systems,
+more dynamic patterns than
+even symmetrical ones.
+That's one of the only rules
+that comes out of there.
+So we're seeing now minor
+little differences producing
+major different consequences.
+Divergencies, butterfly effects.
+Now showing this
+in a different way.
+And what we've got here are
+four different starting state
+conditions.
+The one on the far
+left is, in fact,
+the one from the previous
+one, the four and four.
+Four different starting
+state conditions
+where they're not enormously
+related to each other.
+The first one against the other
+three, but the other three
+have minor differences.
+And the whole thing
+is, two of these
+are identical after the
+first 20 generations or so.
+This one and this one.
+The two of them are
+identical, and for the rest
+of the universe
+they will produce
+the same identical pattern.
+And looking at the mature
+state, you show up on the scene
+somewhere halfway down, and
+you could never ever know
+what the starting state was.
+Did it start like this or
+did it start like this?
+A convergency here.
+And in this case, it's
+another one of those rules.
+Knowing the starting
+state doesn't allow
+you to predict the mature form.
+Knowing the mature
+form, you don't
+know which particular starting
+state brought it about.
+And the only way
+to figure it out
+is to stepwise go
+through the whole process
+because you can't just
+iterate by a blueprint.
+There is no blueprint.
+Finally, the last
+one was giving you,
+instead of different
+starting boxes
+in each case with the
+same reproduction rule,
+the last one was the
+same starting pattern
+of boxes with
+different, slightly
+different, reproductive rules.
+And what you see here are
+totally different outcomes,
+depending on which variant.
+We have the beloved
+one on the top left.
+And you see here, by slightly
+changing the nearest neighbor
+rules, if and only
+if there is one
+neighbor with this
+property, if and only
+if there's two neighbors.
+And working through
+that way, and you
+see remarkably divergent
+outcomes for one thing.
+You see that the
+majority of them
+produce something very
+boring, either boring extinct
+or boring repetitive in
+a very undynamic way.
+Only a small subset
+produce lively, animated,
+living systems.
+So we're seeing a whole
+bunch of biological metaphors
+here over and over and over,
+which is the starting states.
+You don't know the
+mature, the mature,
+you don't know the
+starting state.
+The generations, very simple
+rules for generations,
+going one to the next.
+What we see also is
+the vast majority
+go extinct and produce,
+either go extinct
+or some repetitive, very boring,
+crystallized type structure.
+A small subset, a
+tiny subset, produce,
+instead, dynamic patterns.
+And knowing what the
+starting state is is not
+going to give you any
+predictability whatsoever of,
+is this going to produce
+a dynamic pattern or not?
+Nor does it allow you to look at
+a bunch of the starting states
+and say, those two
+are going to produce
+the same mature pattern.
+And these are all
+properties of the evolution
+of different living systems.
+So you begin to see,
+OK, cellular automata.
+Do you see some of
+these principles?
+The simplest level out
+there in the natural world
+is looking at all sorts of
+shells, seashells and tortoise
+shells by the seashore
+and whatevers.
+And they all have
+patterning on them
+that is derived from that
+first cellular automata
+rule, producing patterns that
+look a whole lot like these.
+And go online and look for them
+because I didn't get around
+to it in time, but producing
+all sorts of patterns in nature.
+Very common ones.
+What does that tell you?
+Very simple rules for generating
+the same complex patterns
+and different starting
+states, cellular automata
+and properties here.
+Another thing in a
+living biological system
+that begins to suggest this.
+OK, so I do this
+research in East Africa.
+And every now and
+then over the years
+I've gone to this mountain
+called Mount Kenya, which
+is on the equator.
+It's about 17,000 feet.
+It's got glaciers up on top.
+So this is an equatorial
+glacial mountain.
+And you go up to about
+the 15,000-foot zone,
+and there's like--
+it's more land.
+Almost everything is dead
+up there from the cold.
+And there's
+basically only, like,
+four or five different
+types of plants up there.
+Oh, already a very small
+number that survive
+in that environment.
+And each one of them is
+very bizarre and distinctive
+looking.
+There's one of them
+that looks like
+a little, like, rosebud
+thing, except it's
+about 5 feet across.
+And then there's
+another one that
+has sort of a sprouty
+thing like this and then
+a big central cactus-looking
+thing that isn't really cactus.
+So there's a few of
+these really distinctive,
+bizarre-looking plants.
+And in some way or
+other, that's what
+it takes to survive up there.
+So I have this friend who
+does research up in the Andes.
+And he does botany
+stuff up there.
+And he goes into this one range
+there that is on the equator
+and high enough that
+there's glaciers up there.
+Ah, a glacial equatorial
+mountain on the other side
+of the globe.
+So one day I'm sitting
+around and looking
+at some of his pictures there.
+And suddenly I look and say,
+that's the exact same plant.
+That's the big rosebud plant
+that is in Mount Kenya.
+And oh, my god, that's
+the tall sprouty one.
+And say, it's the
+exact same plant.
+How can that plant
+be over there?
+And we go rummage around in
+his botany taxonomy stuff,
+and they are completely
+unrelated plants.
+They are taxonomically of
+no connection whatsoever.
+But what they've done is
+converged onto the same shape.
+And in some mysterious
+way, if you're
+going to be a plant growing
+on the equator at about
+15,000 feet, there's only about
+four or five different ways
+of appearing.
+There is massive convergence.
+And there's only
+four or five ways
+that you can survive an
+environment like that.
+You get organisms in
+very dry environments,
+and there's, like,
+only four or five ways
+that you can go about being
+an organism that's super
+efficient at retaining water.
+And those are the only
+ones you see amongst them.
+Desert animals, and
+completely unrelated ones,
+have converged onto some
+of the same solutions.
+There's only a
+very finite number
+of ways to do legs
+and locomotion.
+Two is good, four, weirdo
+things that fly of six,
+creepy things have eight.
+You don't find seven.
+You don't find three.
+You find some of the solutions
+here are immensely different
+starting states
+and have converged.
+What we see is in these living
+systems over and over stuff
+that look like
+cellular automata,
+where slight differences magnify
+enormously butterfly effects,
+where you are modeling living
+systems in a very real way.
+Most of them go extinct.
+Divergence, convergence.
+And where each one of these
+you get the smaller number,
+reflecting the fact that there's
+only a limited number of ways
+of doing rain forest,
+temperate zone rain forest
+in the Pacific Northwest.
+There's only a
+limited number of ways
+of doing tundra in Miami Beach.
+There's only a limited
+number of ways.
+In all of these,
+this convergence,
+and always reflecting that
+these are cellular automata.
+OK.
+So hopefully you are now
+feeling desperately regretful
+that you didn't spend the
+last few days doing this
+because these are
+so heartwarming.
+If you want to read a book
+that nobody in their right mind
+should read, it's a book by this
+guy named Steve Wolfram, who's
+one of the gods of
+computers and math
+and was one of the sort of
+people who first developed
+cellular automata.
+And by all reports
+probably one of the largest
+egos on the planet.
+And he published a
+book, self-published it,
+a few years ago, which
+he can because he
+is grotesquely wealthy, from
+some of his computer programs.
+And just showing what a
+low-key sort of humble guy
+he is, he called the book
+A New Kind of Science,
+just showing that
+he wasn't just going
+from some little piddly new
+way of viewing the world,
+but here was his
+new type of science.
+And the book is
+about 1,200 pages.
+And I suspect not
+even his mother
+has read the thing it
+is so impenetrable.
+And it sold a gazillion copies.
+And almost all of them are
+sitting in people's garages
+now, weighting down drain pipes
+because no one can actually
+read this thing.
+But an awful lot of
+what the book is about
+are patterns in nature coded
+for by very simple local rules.
+And the simple fact
+of that, you've
+got a lot of very smart people
+doing this cellular automata
+stuff.
+And they can't
+come up with rules
+where you could look at
+something beforehand a priori
+and know this one
+is going to survive,
+this one is going to
+go extinct, those two
+are going to turn
+the same, these two
+that differ by a
+slight smidgen are
+going to turn out to be
+enormously different.
+There's no rules for it.
+And the book has all
+sorts of cool pictures
+of a cellular automata
+looking things out in nature.
+And go buy it for
+somebody's birthday
+and see if they're not grateful
+for the rest of their lives.
+But his whole argument
+there is, these
+show ways in which you can code
+for a lot of the complexity
+in the natural world with
+small numbers of simple rules.
+This whole business
+of emergence.
+This sets us up
+now for beginning
+to look at some of
+the ways in which we
+hit a wall the other day, ways
+in which the reductive model
+of understanding the universe
+stops working after a while.
+One version being the
+problem of not having
+enough numbers of things.
+Not having enough
+neurons to do grandmother
+neurons beyond Jennifer
+Aniston, that whole business
+that you simply
+don't have enough
+neurons to do that beyond just
+the rare ones now and then.
+And what do you get instead?
+What has the solution
+turned out to be?
+This field that people focus
+on now called neural networks.
+And the point of neural networks
+is that information, again,
+is not coded in a single
+molecule, single synapse,
+single neuron, one neuron.
+This neuron knows one
+thing and one thing only,
+which is when there's
+a dot there, instead,
+information is
+coded in networks,
+in patterns of
+neural activation.
+And just to give you
+an example, and this is
+one that's in the Zebra book.
+And anyone who is in
+Biocore I do this one,
+and I do it because
+I at one point
+learned the name of three
+impressionist painters,
+except they're not
+coming to mind right now.
+OK, so you've got two layers.
+Here's what a neural
+network would look like.
+A two-layer one.
+These neurons on the bottom
+are boring, simple, Hubel and
+Wiesel-type neurons
+from the other day,
+where each neuron knows one
+thing and one thing only.
+This one knows how to
+recognize Gauguin paintings,
+this one recognizes Van
+Gogh, and this one Monet.
+OK.
+Each one of them is-- obviously
+there is no Hubel and Wiesel
+neuron on Earth
+that's like that.
+But just for our purposes.
+They now project up
+to this next layer.
+Note this neuron projects
+to one, two, and three.
+This to two, three, and four.
+This to three, four, and five.
+So what does this
+neuron know about?
+This one knows how
+to recognize Gauguin.
+It's only getting
+information from this neuron.
+It's another one of those
+Hubel and Wiesel type,
+I know one fact
+and one fact only.
+This one here is
+another one of those.
+What does this neuron
+know about in the middle?
+That's the neuron that
+knows how to recognize
+Impressionist paintings.
+That's the one that
+says, I can't tell you
+who the artist is, but it's
+one of those Impressionists.
+It's not one of
+those Dutch masters.
+It's an Impressionist painting.
+And this one does it because
+it is getting information that
+is not available to these guys.
+It is getting information
+at the intersection
+of all these specific examples.
+These ones, number
+two and four, those
+are ones that recognize
+Impressionist paintings also,
+but they're not as accurate
+at it as number three
+because they've got less
+examples to work off of.
+This is how a
+network would work.
+And what that suddenly
+begins to explain
+is something about the human
+brain versus a computer.
+Computers are amazing at doing
+sequential analytical stuff.
+Like, you get calculator
+things inside Cheerio boxes
+that can do more things
+than the human brain can
+do computationally.
+But what we can do is
+parallel processing.
+What we can do is patterns,
+resemblances, similarities,
+metaphorical similarities,
+physical similarities.
+And that's why you need
+networks like these.
+You don't need neurons that
+know one fact and one fact only.
+You need neurons
+where each one of them
+is at the intersection of a
+whole bunch of other inputs.
+OK, example.
+So now suppose
+you've got a network.
+There's one neuron
+which fires, and there's
+a whole bunch of neurons sort
+of sending projections into it.
+And this is a neuron
+for remembering
+the name of that guy.
+What was the name of that guy?
+That guy, he was that
+Impressionist painter.
+So suddenly your
+Impressionist painter network
+is activating and
+firing at this neuron.
+So it's sitting there.
+So this is-- now you've got
+your whole Impressionist network
+that's activated.
+What was the name of that guy?
+He was an Impressionist painter.
+He painted women dancers
+a lot of the time.
+So people who painted dancers.
+But it wasn't Degas.
+OK, so your "it's not Degas"
+circuit going in there.
+And what was that guy's name?
+God, I had that seventh
+grade art teacher
+who loved this guy's work.
+If I could remember her name,
+I would remember his name.
+Oh, remember the time
+I was at the museum
+and there was that really cute
+person who seemed to like it
+and I had to pretend
+I liked this guy also
+and it didn't work
+out nonetheless?
+And going through.
+And oh, what's the name?
+There's that stupid pun about
+the guy, he's really short.
+And something about the
+tracks being too loose.
+Ah, Toulous-Lautrec.
+And suddenly it pops
+out there, and you've
+got enough of these
+inputs coming in there.
+And this is tip of
+the tongue wiring.
+This is how you may not
+be able to just remember
+the guy's name.
+Wait, he was the short guy
+with a beard who hung out
+in bars and Parisian bars.
+And here was that
+time in seventh grade.
+And enough of these inputs,
+and suddenly out pops
+the information.
+And what this begins
+to tell you is,
+this is ways of
+getting similarities.
+These are ways of getting
+things that vaguely remind you.
+This is a world where
+humans can now do stuff
+like have a piece of
+music that reminds
+them of a certain
+artist because they
+both have similar coloration.
+And that's something
+that makes sense to us.
+That's something that can
+work because, what you then
+begin to see is, every one
+of these neurons, this one,
+for example,
+Impressionist neurons.
+This one may also be at the
+intersection of another network
+that's going this way,
+a network of French guys
+from the last century.
+And it may be part of
+another network of people
+whose names are
+hard to pronounce
+so you're anxious about
+saying them in a lecture.
+Or the intersection--
+and each one of these
+is going to be an intersection
+of a whole bunch of these.
+All of these networks,
+what does that do?
+That's what you can do
+that a computer can't.
+You see similarities,
+similes, metaphors.
+And somewhere in there you get
+something really important,
+which is the ones, the networks,
+that have wider expanses that
+connect to a broader
+number of neurons
+in a very simple,
+artificial, idiotic way.
+That's kind of what
+creativity would have to be,
+networks that are
+spreading far wider
+than in some other individual.
+It is literally
+making connections
+that neurons in another
+individual does not.
+And suddenly you have
+a world where everyone
+knows this one is a face.
+And it was only a limited
+number of people who ever
+decided that this one's a face.
+And in some level Picasso had
+a different network, a broader
+one, as to what could
+constitute a face.
+A broader network
+in some way is going
+to have to be wiring
+that is more divergent.
+And at the intersection
+of a bunch of networks
+that are acting in
+a convergent way.
+So what's some of the
+evidence that it actually
+does work this way?
+You go and you stick electrodes
+into neurons in the cortex,
+and what you see, if the
+world was entirely made up of,
+like Hubel and Wiesel, one
+piece of knowledge only, what
+you would see is you would find
+neurons that each one responds
+to one single thing.
+All these grandmother neurons.
+And instead, what
+you see by the time
+you get to the interesting
+part of the cortex
+past the first three
+layers of the visual cortex
+and the first three
+layers of the auditory.
+Once you get into
+the 90% that's called
+the associational
+cortex-- and it's
+called that because
+nobody really
+knows what it does--
+then what you see
+are neurons that are
+multimodal in their responses.
+All sorts of things
+stimulate them.
+And here we have a neuron
+that's being stimulated
+by a type of painting, by
+the knowledge of French guys,
+by something phonetic,
+by all sorts--
+and they're multiresponsive.
+So that's what you
+wind up seeing.
+The majority of
+cortical neurons,
+when you record from
+them with an electrode,
+they're not grandmother neurons.
+They're at the intersection
+of a bunch of nets.
+More evidence for this.
+This was-- one of the grand
+poobahs of neuroscience
+around the 1940s or so,
+a guy named Karl Lashley.
+And obviously a
+very different time
+in terms of thinking about
+specification of brain
+function.
+And what he did was a
+very systematic attempt
+to be able to show
+where in the brain
+individual facts were stored.
+And the term for it at the time,
+this jargony term, was engrams.
+He was searching for the
+engram for different facts.
+And what he would
+show was, he would
+destroy parts of the cortex
+in an experimental animal.
+And he couldn't make the
+information disappear.
+He would have to
+destroy broader areas.
+And some of the knowledge,
+some of the memory
+was still in there.
+And he concluded in
+this famous paper
+in the search for the
+engram that, according
+to all the science
+he knew, there
+could be no such
+thing as memory.
+And the reason why
+was he was working
+with a model of being
+able to-- there's
+a single neuron where,
+if I could ablate it,
+I should be able to
+now show in that rat
+that it's just lost the name
+of its kindergarten teacher.
+And instead, you see
+networks going on.
+You see the same thing
+clinically in something
+like people with
+Alzheimer's disease.
+Early on in Alzheimer's, you
+will lose, in these networks,
+you'll lose a neuron here or
+you'll lose a neuron there
+when you're just
+beginning to lose neurons.
+And what you see is,
+clinically, in people
+with Alzheimer's, early on, it's
+not that they forget things.
+It's not that memory is gone.
+It's just harder to get to.
+And you do this with
+all sorts of testing,
+neuropsychological
+testing, where
+you try to give the person
+cues to pull it out.
+Example.
+You're giving somebody,
+potentially with Alzheimer's,
+a classic orientation test.
+You ask them, OK, do you know
+the name of the president?
+OK, they manage to get that.
+Do you know the name
+of the last president?
+No idea.
+So now you give them
+a little bit of cuing.
+OK, let me help
+you a little bit.
+It's a one-syllable word.
+Still not there, even
+though you've now
+activated the one-syllable word
+network, obviously artificial.
+Still can't say.
+OK, let's make it a
+little bit easier.
+It's things you could find
+in a park, in a city park.
+So you're activating that.
+No, still not coming out.
+And then you give even more
+explicit priming there.
+You give them a forced choice
+paradigm, is what it's called.
+OK, so is it President Tree or
+President Shrub or President
+Bench or President Bush?
+Bush, Bush, the kid
+with the father also.
+It's still in there.
+It was still in there.
+It just takes more
+work to pull it out.
+What you're seeing
+there is not the death
+of individual memories.
+You're seeing a weakening
+of a network, a network that
+is now taking stronger priming
+to pull it out of there.
+And just to show how subtle
+network stuff can be,
+here's something that would
+work with a lot of individuals
+with early stage dementias.
+What you do is another
+type of priming.
+So you're eventually
+going to ask
+them the name of the
+previous president.
+And they first come in and
+you say, oh, great to see you.
+Come on in.
+What a beautiful day.
+I walked here by
+way of the park.
+The bushes were so beautiful
+this morning in the park.
+Some of them had flowers,
+some of them didn't.
+But bushes are so nice
+to look at when you're
+walking through a
+park because bushes
+are one of my favorite
+forms of [INAUDIBLE].
+And then five
+minutes later, they
+are more likely to
+remember the name Bush
+out of a whole different realm
+of more subtle networks you're
+tapping into.
+So all of this is the
+beginning of a way
+of solving the problem we
+had the other day of not
+enough neurons for them
+to be grandmother neurons.
+More solutions.
+We then went to our
+next realm of trouble,
+which was the problem of,
+there's not enough genes.
+There's not enough genes
+in that specific realm
+of explaining bifurcations.
+And there can't be a gene
+that specifies, OK, this
+is where you bifurcate if you
+were this particular blood
+vessel and a different gene
+for this particular bronchial
+and a different
+gene for this branch
+of a dendrite and a single--
+it can't work that way.
+There are not enough genes.
+What this introduces
+is the idea of there
+being fractal genes,
+genes whose instructions
+are ones that are scale free.
+What do I mean by this?
+OK, here's what a
+fractal gene might do.
+So we've got a tube.
+And this is a tube that's going
+to be part of a blood vessel
+or a dendrite or a
+lung or whatever.
+We've got a tube.
+And the fractal rule here is,
+grow this tube in distance,
+grow it until it is five
+times longer than it is wide.
+The width, the opening,
+and that's the simple rule.
+And the rule is, when it's grown
+five times longer, bifurcate.
+So what's going to
+happen at that point
+is just gone five times longer.
+And it bifurcates at that point.
+And what you've got is now,
+because this is split in two,
+the cross-section is
+going to be shorter.
+But you apply the same rule.
+Now with the shorter
+cross-section,
+you have the same rule.
+Grow five times the length
+of that cross-section
+until you split.
+And what you wind
+up getting is, this
+is one simple fractal rule
+that will generate the tree
+patterns.
+That the branchings get
+shorter and shorter,
+the distances between
+the branch points
+get shorter and shorter
+because the cross-sections are
+getting-- one simple rule
+and you could generate
+a circulatory system,
+a pulmonary system,
+and a dendritic tree by
+giving a fractal instruction,
+in this case, one
+that is scale free.
+That is, independent of
+what the unit is here.
+And this could work
+within the single neuron
+or within an entire
+circulatory system.
+So all of that's great.
+That's totally hypothetical.
+Ooh, fractal genes.
+Well, you know by now
+that's got to translate
+into a protein in
+some way or other.
+How might this actually
+look in a real system?
+So suppose-- OK, so a
+gene coding for a protein.
+This is one copy of the
+protein, this is another,
+this is another.
+They bind to each other in a
+way so that they form a tube.
+And they bind to
+each other in a way
+that's just pure mechanical
+reality of, these are not
+bits of information,
+these are actual proteins.
+So it's going up
+in the tube there.
+And suppose that the forces
+are, as the tube goes up
+it gets more and more unstable.
+And when the tube
+is high enough,
+it gets unstable
+enough that these bonds
+between the proteins begin to
+weaken, and it begins to split.
+The splitting
+there is a function
+of the length of these.
+So it's split.
+And now the next one
+has half the number
+of proteins in this one, and
+thus it's that much weaker.
+So you only have to go
+a shorter distance now
+before it begins to split.
+This doesn't exist.
+It is no way it's like this.
+But what you could
+begin to see is,
+here's how you could turn a
+scale-free set of instructions
+potentially into what
+it would actually
+look like with mortar and
+bricks in terms of proteins.
+How it might actually work.
+Now the notion of fractal
+genetics, of fractal genes,
+and fractal instructions begins
+to solve another problem,
+and this is that space problem
+of how much stuff can you
+jam into a space.
+Here's the challenge here in
+terms of how dense things are.
+In the body-- amazing factoid--
+there is no cell in your body
+that is more than five cells
+away from a blood vessel.
+OK, you could see why you
+would want to do that.
+But that is not an
+easy thing to pull off.
+How do you do that with
+the circulatory system?
+And amazing other
+factoid to factor in
+with that is, the circulatory
+system comprises less than 5%
+of your body mass.
+How can this be?
+You've got this system
+that's everywhere.
+But it's taking up
+almost no space.
+It's within five cells
+of every cell out there,
+yet it's less than
+5% of the body.
+And, OK, forget it.
+I'm not going to put that up.
+But what this begins to--
+OK, you convinced me.
+So let's do this.
+So what you begin
+to do is transition
+to a world of fractal geometry.
+You've got all your Euclidean
+world of nice, smiley, strange
+things there.
+You've got this
+whole world of shapes
+that are constrained by classic
+Cartesian geometry and all
+of that.
+And what fractal geometry
+generates are objects that
+simply cannot exist.
+Here up on top,
+eventually, you will
+see the first example of this.
+And this is out
+of the Chaos book.
+And this is this cantor set.
+What you do is you
+start with a line.
+Start with a line, and you
+cut out the middle third.
+Now for those
+remaining two ones,
+you cut out the middle third.
+For those remaining four,
+you cut out the middle third.
+And there it is.
+And you just keep doing this
+over and over and over again.
+And what do you do when you
+take it out to infinity?
+What have you generated?
+A set of an infinitely
+large number of objects,
+lines, that take up an
+infinitely small amount
+of space.
+It's not possible for
+that to work, yet,
+as you go more and
+more in that direction,
+you get this
+impossible phenomenon
+of something approaching having
+an infinite number of places
+that something appears while
+taking up almost an infinitely
+small amount of space.
+And what this winds up being is,
+it's not quite a line anymore
+at the bottom, but it's
+kind of more than a dot.
+It's somewhere between
+one and two dimensions.
+It's a fractal.
+Its dimensional
+state is somewhere
+one point something or other.
+It is somewhere between
+dots and a line,
+and it does this
+impossible thing,
+which is it's everywhere
+without taking up any space.
+Or you could then push
+it to the same thing
+in the next dimension.
+And this is this Koch snowflake.
+And it's the same sort of rule.
+You start with the
+triangle there.
+And the rule is, you
+take the middle third
+and you put a little
+triangle out of it.
+And then take the
+middle third of that
+and put a little triangle out.
+And a middle third.
+And you just keep doing it
+forever and ever and ever.
+And you wind up with
+something that is impossible,
+which is an object that has an
+infinite amount of perimeter,
+an infinite amount of surface
+area, within a finite space.
+That's impossible.
+But it begins to approach this.
+And what you see
+here, this is a way
+of just iterating over
+and over and over to jam
+a huge amount of surface
+area into a tiny space.
+And thus it's somewhere but
+different, sort of like a line,
+but it's sort of
+like a plane by then.
+And it's got a
+fractal form somewhere
+between two and three.
+It's got a fractal quality of
+two point something or other.
+It's an impossible
+object that is solving
+this problem of being--
+in another version,
+having surface area everywhere
+without taking up any space
+and being within a finite area.
+Next, finally,
+this Menger sponge,
+which is the same exact concept.
+Again, you start with the
+box up there, or the ring,
+and you take out
+the middle third
+of each of those segments.
+And then you take
+out the middle third
+of each of those segments.
+And if you are doing
+this with what starts off
+as a three-dimensional cube,
+eventually you get something
+that cannot exist, which is an
+object that has an infinitely
+large amount of surface
+area while having no volume.
+That's what it produces
+at the extreme.
+And we got something here
+that's somewhere between two
+different dimensions,
+a fractal again.
+And what you see is, this is
+how the body solves the packing
+problem.
+Because all you need to do is
+make the circulatory system,
+the circulatory system
+some version of this,
+some version of splitting
+the ends of the capillaries
+over and over and over or making
+the lungs, with their surface
+area for exchanging oxygen,
+looking something like this.
+And this is how you
+generate a system that
+is everywhere and taking
+up virtually no space.
+Obviously, it's not
+taken out to infinity.
+But this is how you can have
+a circulatory system that's
+five cells away from
+every cell in the body,
+yet takes up less
+than 5% of the body.
+This is a fractal solution.
+All you do here
+to generate these
+is taking some of
+these qualities
+over and over and
+over and over, and you
+can begin to produce absolutely
+bizarre, impossible things
+in terms of surface area
+and perimeter and volume
+and all of that.
+This is how you can
+use a fractal system
+to solve the packing problem.
+Now of course, as soon
+as you're coming up
+with the notion of something
+like fractal genes,
+you, of course, have to consider
+the possibility of there
+being fractal mutations.
+What would a fractal
+mutation look like?
+And again, most people,
+most geneticists
+and molecular
+people, do not think
+about this in these terms.
+But there are people who do
+who actually talk about things
+like fractal gene mutations.
+What would it look like?
+Suppose you've got a mutation,
+and it produces a protein
+that's slightly different.
+And as a result,
+its got bonds here
+that are slightly weaker
+between different proteins.
+So on a mechanical level,
+what have we just defined?
+This is a tube that's going
+to grow these proteins where
+it's a shorter distance
+before it begins to split.
+Because these bonds between
+them are not as strong.
+There is a mutation
+now where, instead
+of growing five times
+the cross-section, maybe
+you're growing 4.9
+times the cross-section.
+And thanks to that mutation,
+the entire branching system
+is going to be compacted a bit.
+It's not going to
+reach the target cells.
+And these would be
+catastrophic mutations where
+the pulmonary system
+doesn't develop,
+the circulatory system
+doesn't develop.
+And what you would
+see in those cases is,
+the mutation is something
+that has consequences
+that are scale free.
+Another hint when you see some
+fractal gene mutations are
+a small number of
+diseases that they're
+about spatial
+relationships in the body.
+For example, there's a disease
+called Kallmann syndrome, where
+you get stuff that's wrong with
+midline structures in the body.
+Something is wrong
+with the septum
+between the nose, the nostrils.
+Something is wrong
+in the hypothalamus.
+Something is wrong in
+the septum of the heart.
+This is not three
+different mutations.
+This is some sort of
+fractal mutation messing up
+how that embryo did
+symmetry, how the embryo does
+midline structures.
+So you begin to see
+ways here in which
+you can solve this and, within
+the biological metaphor,
+where you could begin to get
+solutions for these problems
+and also mutations that
+can put you up the creek.
+OK.
+So that is another realm
+for beginning to solve this.
+Another domain.
+And here we begin to move
+into the realm of emergence,
+emergent complexity.
+Which we will first look at a
+couple of crude passes at it.
+First, emergence driven
+by biophysical properties.
+And do not freak
+out if you don't
+know what I mean because I have
+no idea what I mean by that.
+So I will explain in
+a more accessible way.
+And this was something that
+was explained endlessly
+by a guy who used
+to be in the bio
+department, a developmental
+botanist named Paul Green, who
+died about 10 years ago
+way too young from cancer.
+He was a really good guy.
+He would give this
+famous lecture
+where he would start
+off and he would
+describe some sort of disk.
+And the point is that the
+disk, the material inside
+was of a softer material than
+the material on the perimeter.
+And he'd be putting
+up math at this point
+that I didn't understand.
+But it was sort of
+a disk like that.
+And then he would show that what
+happens if you heat the system.
+What happens if you put
+heat on a disk like this?
+And what he would
+wind up showing,
+going through agonizing
+amounts of math,
+is that, when you heat a
+system, the only solution
+for this system that's
+trying to respond to the heat
+but in different ways on the
+perimeter versus the inside
+is to come up with a double
+saddle, a double saddle shape.
+And the math proved this.
+And I had no idea what he was
+talking about when you come up
+with a double saddle shape.
+And then what he says
+is, so that's how
+you get a potato chip.
+You take a slice
+of potato, where
+there is more resistance
+on the perimeter
+and less on the inside,
+and you heat it.
+And the only solution
+to the problem
+is to come up with a double
+saddle potato chip shape.
+And if you change the
+outside, the force of it,
+if you take one of
+those great organic,
+"give you the runs"
+type potato chips,
+where it's going to have the
+skin left on the outside,
+it's going to be a somewhat
+different-shaped double saddle.
+Because there's
+only one solution
+mathematically to that.
+And then you sit
+there, and you deal
+with a very simple,
+important fact,
+which is, that slice of
+potato knows no biophysics.
+That slice of potato didn't fit.
+There's no gene that
+instructs potatoes
+to respond to heat in this way.
+This was the inevitable outcome
+of the biophysical properties
+of a slice of potato.
+And what he then shows
+is, in plant systems
+after plant systems,
+they develop
+where two shoots
+come out this way
+and a little higher
+up two shoots
+this way and two this
+way and two this way.
+They're all double saddles.
+And this winds up being
+a mathematical solution
+to a packing problem there.
+When plants are
+growing their stems,
+there is no gene specifying it.
+You don't need
+genetic instructions.
+It is an emergent property
+of the physical constraints
+of the system.
+Another example here that's
+sort of proto-emergent, somewhat
+simpler versions,
+this phenomenon
+of wisdom of the crowd.
+And this is one that
+was first identified
+by Francis Galton, who was
+some relative of Darwin
+and started eugenics and
+was bad news in that regard
+but famous statistician.
+And being an Englishman
+somewhere in the 19th century,
+he spent huge amounts of time
+going to state fairs and county
+fairs or whatever.
+And he was at this
+fair one day where
+they had some oxen up there.
+And they were having a contest
+that, if you could guess
+the exact weight of
+the oxen, you would
+get to milk it or something.
+I don't know what
+the prize would be.
+And there were
+hundreds of farmers
+around filling out
+little pieces of paper
+where they were guessing.
+And what he
+discovered at the end
+was that nobody got
+the answer right.
+Good.
+So the owners of
+this get off easy
+without having to give up
+any of their oxen milk.
+But he then did
+something interesting.
+He collected all the
+little slips of paper,
+and he averaged all of them.
+And it came out to the correct
+weight within an ounce.
+In other words, no
+individual in that group
+had enough knowledge to be
+able to truly accurately tell
+what this thing was.
+But put them
+together in a crowd,
+and out comes the right answer.
+Another version of this.
+And this one is deeply
+important in terms
+of Western
+intellectual tradition.
+Back to-- is that program Who
+Wants to Marry a Millionaire?,
+does that still exist?
+[INAUDIBLE]
+In reruns?
+In-- OK, so it was this one.
+They give you questions,
+and if you answer them
+they give you money
+and it's great.
+And at various points, if you're
+stumped you've got three things
+you could do.
+One is, they could eliminate--
+you've got four choices.
+They can eliminate
+two of them to make
+it a little bit easier for you.
+Another is, you have this
+expert who you can call up.
+And the third option is
+to ask the audience what
+they think is the right answer.
+And all the audience there
+has these little buttons,
+so they can choose A, B, C, or
+D of the multiple choice there.
+And what the logic is supposed
+to be is, cut it down to two.
+Your chances are better
+if you have to guess.
+Talk to your wise expert, who's
+sitting by on the phone there.
+And they're going to be wise
+and be able to hopefully answer
+this question.
+Or ask a whole bunch of people.
+And they would all vote.
+And any smart
+contestant would choose
+whatever the audience chose.
+Because, when the audience
+was asked, 91% of the time
+they got the right answer.
+They got the majority of people
+voting for the right answer.
+And this is more
+wisdom of the crowd.
+And this was a much
+better hit rate
+than whoever the expert was on
+the other side of the phone.
+One person could be
+extremely expert,
+but they're not
+going to be as expert
+as a whole bunch of somewhat
+decent experts thrown together.
+This is the notion behind a
+field called prediction markets
+where what you do is you are
+trying to predict some event.
+For example, the
+Pentagon is very
+interested in using
+prediction markets
+to try to predict where the
+next terrorist attack might be.
+And what you do is you get
+a whole bunch of experts,
+and you ask each of them
+to think about whatever
+the parameters are and take a
+guess as to how long it will
+be before the next one occurs.
+And what you do is,
+you average them up
+and assume there is a wisdom
+of the crowd thing going on.
+And that will give you
+lots of information.
+Great case of this
+a few years ago.
+There was some
+submarine or something
+that sunk somewhere out in
+the Pacific, in the ocean.
+And nobody knew where
+it was, but they kind of
+knew where the last
+sighting, the last recording,
+was from it.
+But they had a whole
+bunch of naval experts.
+And they had all of
+them sort of bone
+up on the knowledge of what was
+the water temperature and wind
+speeds and where they
+were on the last sighting
+and what was on TV
+that day or whatever.
+They got all the
+information, and each one
+made a guess as to where
+it would be on the map.
+And you put them all together.
+And they had guesses
+covering hundreds
+of square miles of ocean floor.
+And they put it all
+together, and they came up
+within 300 yards of
+the right location.
+So what we have over and over
+here is this business of,
+put a lot of somewhat decent
+experts together on a problem,
+and they will be more accurate
+than almost any one single
+amazing expert at it.
+Under a few conditions.
+The collection of these partial
+experts can't be biased.
+Or if they are,
+they all have to be
+biased in a random
+scattering of directions.
+And they need to really
+do be somewhat expert.
+If you get a whole
+bunch of people
+off the subway in
+New York and ask
+them to guess the
+weight of the oxen,
+they are not going to wisdom
+of the crowd their way
+into being able to milk
+the thing afterwards.
+You've got to have people who
+have some experience with it.
+And you wind up seeing
+wisdom of the crowd
+stuff going on in all
+sorts of living systems.
+For example, here
+is an ant colony.
+And here's a dead ant.
+And they're trying to
+get the dead ant back
+to the ant colony.
+And when you look
+at these things,
+they know how to get it, or
+they get some dead beetle
+or something to eat, and
+a whole bunch of ants
+push it over back
+to their colony.
+Oh.
+Does each one of them
+know exactly where
+they should be pushing?
+No.
+What you have
+instead is, each ant
+has somewhat of the
+right idea as to where
+they should be going.
+And there are more ants that
+have a reasonably accurate
+notion, a smaller number
+that are somewhat off,
+and a really small number
+that are way out of whack
+because in general ants
+are kind of experts
+at finding ant colonies.
+They're pretty informed.
+And what you do is you
+put them all together
+and you do this
+vector geometry stuff.
+And it moves perfectly
+in that direction.
+And no single ant knows
+exactly where the colony is.
+You've got a wisdom of the
+crowd thing here going on.
+OK.
+Where are we?
+Five-minute break.
+If you have a chance, could
+you email me that website
+so we could post it
+in the CourseWorks?
+That's great.
+OK, picking up.
+So now we are ready to
+take some of those building
+blocks, wisdom of the crowd
+stuff, biophysical potato
+chips, and begin to
+see it more formally
+in this field of
+emergent complexity.
+What is that about?
+What we've already alluded to.
+It's systems where you have
+a very small number of rules
+for how very large numbers of
+simple participants interact.
+What's that about?
+Here's what emergence is about.
+You take an ant and you
+put it on a table top
+and you watch what
+it's doing and it
+makes no sense whatsoever.
+You take 10 ants and do it and
+none of them make any sense.
+You put 100 and they're
+all scattering around.
+And somewhere around, I don't
+know, 1,000 ants or so, they
+suddenly start making sense.
+And you put in 10,000 or
+100,000 or whatever it is,
+and suddenly, instead of some
+little thing wandering around
+aimlessly, you
+suddenly have a colony
+that can grow fungi and regulate
+the temperature of the colony
+and all these things.
+And suddenly, out of
+these ants emerges
+an incredibly complex, adapted
+system, an adaptive one.
+And the critical point
+there is, no single ant
+knows what the temperature
+should be in the colony.
+Or if this is time
+to go out foraging
+in this direction instead
+of that direction.
+It all emerges out of the
+nature of ant interactions.
+You've got very simple
+constituent parts.
+An ant, much like
+one box that's filled
+in the cellular automata.
+You've got very
+simple rules for how
+they interact with each other.
+Ants have, I don't know,
+maybe 3 and 1/2 rules.
+Don't tell Deborah Gordon
+in the department, who's
+an ant obsessive.
+But that I may be
+inadvertently dissing the ants.
+But they have a small number of
+rules as to how they interact.
+If you bump into an ant and you
+do this with the pheromones,
+you go this way, and
+if you go that way.
+And I'm just making it up.
+They have a small
+number of rules.
+And as long as you've got a lot
+of ants doing this, out of this
+can emerge hugely complex
+adaptive patterns.
+And this is what an
+emergent system is about.
+Simple players, huge
+numbers of them,
+simple nearest neighbor rules.
+And you throw them all together,
+and out comes patterning.
+And there is no single ant that
+knows what the blueprint is,
+and there's no blueprint.
+There is no plan
+anywhere that says
+what the mature form of the
+colony should look like.
+There are no instructions.
+It is bottom-up organization
+rather than top down.
+And you see all sorts
+of versions, then,
+of emergent complexity
+built around, again,
+lots of elements of things
+with a small number of very
+simple rules about how neighbors
+interact with each other.
+We need that board.
+OK.
+Here we have two, four,
+six, eight different cities
+or eight different
+places where ant
+can find good food or
+eight different something
+or others, eight
+different locales.
+And you were trying to
+do something efficient.
+You need to go to each one
+of them to sell your product
+or to see if there's
+good food there or not.
+You need to go to
+all eight of them,
+and you want to do it as
+efficiently as possible.
+You want to find the way to
+have the shortest possible path
+to go to all of these places.
+And this is the classic
+traveling salesman problem.
+And nobody at this
+point can solve it.
+There's no formal
+mathematical solution.
+And by the time you get
+to, like, eight locales,
+there's, like, hundreds of
+billions of different ways
+you can do it.
+So how can-- you can't come
+up with the perfect solution.
+But you could come up with maybe
+kind of a good, decent one.
+There's two ways
+you could do it.
+First is to have an unbelievably
+good computer that just,
+by sheer force, cranks out a
+bazillion different outcomes
+and in each case measures
+how much you're doing it.
+And you can get something
+close to an optimal answer.
+The other way of doing
+it is to have yourself
+some virtual ants in
+something that is now
+called swarm intelligence.
+Here's what you do.
+You need to have two
+generations of ants.
+The first generation,
+you stick them all down,
+different numbers of
+them, and they all
+start off in these
+different cities,
+these different locales.
+And their rule is, each one
+of them goes to another city.
+Each one of them goes
+to another destination.
+But here's the follow-me rule.
+The ants are leaving a pheromone
+trail, pheromone trail,
+and they stick
+their rear end down.
+What is it?
+Head, thorax, abdomen.
+And they stick
+their abdomen down.
+And they've got a
+gland at the bottom
+there, which
+releases a pheromone
+and makes a track, a scent
+track, of the pheromone there.
+And a very simple rule,
+they have a finite amount
+of pheromone in there to expend
+on the entire path they're
+making.
+In other words, the
+shorter the path,
+the thicker the pheromone
+trail is going to be.
+Now what you do is
+deal with the fact
+that the pheromones
+dissipate after a while.
+They evaporate.
+And thus, the thicker
+the path, the longer
+it's going to be there.
+You now take a second
+generation of virtual ants,
+and you throw them in there.
+And what their rule is,
+they wander around randomly.
+And any time they hit
+a pheromone trail,
+they join the trail
+one way or the other,
+and they lay down a
+pheromone trail of their own
+with their abdomen.
+They reinforce the
+markings on this trail.
+And let 10,000
+virtual ants do that
+for a couple of hundred
+thousand rounds of generations,
+and they solve the traveling
+salesman problem for you.
+Because it winds up
+being, the short paths,
+the more efficient ways
+of connecting locales,
+will leave larger,
+thicker trails,
+which are more likely to
+last longer and thus increase
+the odds that an ant
+wandering around randomly
+will bump into it
+and reinforce it.
+And what you see
+is, initially, there
+will be every possible path.
+And as you run
+this over and over,
+it will begin to fade
+out, and out will
+emerge the more efficient ones.
+You can optimize the
+outcome doing it this way,
+just asking virtual
+ants to do it for you.
+And this is exactly how ants
+do it out in the real world.
+When they're foraging
+in different places,
+there is a first wave
+of them that comes out,
+and they go to locales
+leaving scent trails.
+And then there are the
+wanderers that come in,
+and when they hit a
+trail they join it.
+There are now telecommunications
+companies that use swarm
+intelligence to figure out
+what's the shortest length
+of cable they need to use to
+connect up eight different
+states' worth of
+telecommunication towers,
+whatever they're called.
+And they can sit
+there and do math
+till the end of
+the universe trying
+to figure out the cheapest
+way to wire them up.
+Or they can use
+swarm intelligence.
+And that's what a lot of
+them do at this point.
+It works.
+What are the features of it?
+This is not wisdom of the crowd.
+This is not that every ant knows
+a solution to the traveling
+salesman problem, except none of
+them have the perfect solution.
+But put them all
+together, and they all
+get to vote on outcomes.
+The ant don't know from
+traveling salesman problems.
+The ant knows nothing about
+trying to optimize this.
+All the ant knows is one
+of two different rules.
+If I'm walking from one
+of these to one of these,
+the longer I walk, the
+thinner the pheromone trail.
+Or rule number two, if I
+stumble into one of these,
+I join it and put down
+my markings there.
+Two simple rules,
+one very simple type
+of sort of unit of
+information in there, an ant.
+And all you need to do is make
+sure there's enough of them,
+and they solve the
+problem for you.
+This winds up explaining
+another thing.
+How do bees pick a
+new nesting site?
+A bee's nest, a bee's--
+hornet's nest, a bee's nest.
+Every now and then the
+bees need to leave and pick
+a new place to live.
+And how do they figure
+out the good place?
+And there's all sorts of
+criteria of nutrients.
+And so all sorts of bees go
+out there, and what they do
+is they look for food sources.
+And they look for a place
+that will have a lot of food.
+Maybe that's a place to
+go and move the colony.
+So we know already, the bee will
+go out and find its food there,
+its food source.
+It will come back in.
+And here's the colony
+cut in cross-section.
+And what you wind up having
+is this ring of bees.
+Here is the entry.
+And you have the
+bee dancing going on
+that we've heard about in
+the middle of the dance floor
+there.
+And we've already heard it's
+this pattern of this figure
+eight while shaking
+the rear end.
+And we know what
+the information is,
+which is the angle tells the
+direction to go out there.
+And the extent to
+which it's wiggling
+its rear end is how long
+you're supposed to fly for.
+But the final variable is,
+the better the resource,
+the longer you do the dance.
+So you've got bees coming in
+from all over the place that
+have found good
+resources, that have
+found so-so ones, all of that.
+And so there's bees doing
+all this dancing stuff here
+of different durations.
+And the ones who have
+found the good solution
+to where do we want to
+live are dancing longer.
+The ones who have found
+the most efficient path
+are leaving a message longer.
+So now you bring in
+your second generation.
+And the rule is
+among bees, if they
+happen to bump into a bee
+that is doing a dance,
+the bee responds and goes
+where it tells you to go.
+So a bee may randomly sort of
+bump into one of these guys
+and then off it goes.
+Actually, I'm sure it's
+more complicated than this,
+but it's along the
+lines of there's now
+random interactions.
+If one of the peripheral
+bees encounters, bumps into,
+one of these bees
+that has information,
+it joins in in that bee's group.
+And it then goes and
+finds the food resource
+and comes back with
+the information.
+So thus, by definition, if you
+have found a great food source,
+you're going to
+be dancing longer,
+which increases the odds of
+other bees randomly bumping
+into you, which causes them to
+go and find the same great food
+source and come back
+and dance longer.
+And the ones with lousy ones
+are coming in and dancing
+very briefly, and thus
+there is hardly any odds
+of somebody bumping into them.
+And what you begin to
+do is, you suddenly
+optimize where the
+hive is supposed to go.
+Again, it's not
+wisdom of the crowd.
+It is an emergent feature of
+one generation with information
+based on some very simple
+rules, and one information
+that generates
+some random element
+and out comes an ideal solution.
+More versions of this.
+Another domain where some
+very simple rules out of it
+emerges something very
+complex and adaptive.
+OK, so the themes here
+are two generations,
+the more adaptive the
+signal, the stronger it is
+and the longer it lasts.
+And then the
+randomization element.
+Another theme that comes through
+in a lot of emergence, which
+is to have your elements
+in there, your ants,
+your bees, your
+traveling salesmen,
+whatever the constituents are.
+And now what the rules
+are are simple rules
+of attraction and repulsion.
+Which is to say,
+some of the elements
+are attracted to each other,
+and some of the elements
+are repulsed by each other.
+Some are pulled together,
+some are pushed apart
+like, for example, magnets.
+Magnets are polarized
+in the sense
+that magnets only have
+two ways of interacting
+with each other, simple
+nearest neighbor rules.
+They're either
+attracting or repelling,
+depending on the orientation.
+So here's what you do now.
+You take a system and
+something very simple.
+You've got some simulated
+SimCity sort of thing
+where you're letting the
+system run to design a city.
+You want to do your urban
+planning in your city
+that you're going
+to construct there.
+And what you do is,
+you can sit there
+and you can study millions of
+laws about zoning and economics
+and all of that to decide
+something very simple.
+Where are you going to put
+the commercial districts?
+And where are the residential
+districts going to be?
+Or you can have just a small
+number of simple rules.
+Which is, for example,
+if a market appears
+in some place, what it
+attracts is a Starbucks.
+And what it also attracts
+is a clothing store
+or some such thing.
+So a bunch of rules.
+But then you have
+repulsion rules,
+which is, if you
+have a Starbucks,
+it will repulse any
+other Starbucks.
+So the nearest other Starbucks
+can be this far away.
+If you have a
+competitor's market,
+it can't get any
+closer than this.
+That sort of thing, these simple
+attraction/repulsion rules.
+And what you wind
+up getting when
+you run these simulations are
+commercial districts in a city
+where you get clusters of
+commercial sort of places that
+are balanced by
+attraction and repulsion
+where you have thoroughfares
+connecting them.
+And the more elements there
+are in the two neighborhood
+commercial centers, the bigger
+the connection is going to be,
+the bigger the street is, the
+more lanes, the more powerful
+the signal coming through there.
+And you throw it in.
+And out pops an
+urban plan that looks
+exactly like the sort
+of ones that the best
+urban planners come up with.
+And all you need to do instead
+is run these simulations
+with some very simple
+attraction and repulsion rules.
+So you do that, and it winds
+up producing stuff that looks
+like cities.
+You do that with a
+bunch of neurons.
+You take a Petri dish, and
+you throw in a whole bunch
+of individual neurons.
+And they have very simple rules.
+They secrete factors which
+attract some types of neurons.
+And they secrete factors which
+repel other types of neurons.
+And all of them are having
+some very simple rules.
+When I encounter this,
+I grow projections
+towards where it's coming from.
+If I encounter that,
+I grow projections
+in the opposite direction.
+Simple attraction and repulsion.
+And what you do
+is, at this point,
+you throw in a whole bunch
+of neurons, each one where
+you throw into a Petri dish.
+And at the beginning they're
+all scattered evenly all
+over the place.
+And you come back, and you
+come back two days later,
+and it looks just like this.
+You have clusters of
+neurons sending projections,
+and you have all these empty
+residential areas in between.
+And if you just mark this
+in a schematic way, looking
+from above you're not
+going to be able to tell,
+is this the commercial
+districts in a big city?
+Or are these neurons
+growing in a dish?
+And you get areas of nuclei
+of cell bodies and areas
+of projections, and it winds
+up looking exactly like that.
+And amazingly, there was a paper
+in Science earlier this year.
+And it was looking at
+one of these versions,
+again, in this case
+attraction and repulsion
+rules with ants' colonies
+setting up foraging paths.
+And they explicitly
+compared one colony
+to the efficiency of the
+distribution of the train
+stations in the
+Tokyo subway system.
+And what they showed was
+very similar solutions,
+but the ants had gotten
+a more optimal one.
+And the subway system had
+people sitting there salaried
+to figure out the
+best way to do it.
+All the ants had were
+very simple rules
+of, if it's someone from the
+other colony I stay this way,
+if it's someone from
+mine, simple attraction
+and repulsion.
+And out comes something that
+looks like this as well.
+So here you see that happening
+with a remarkably small number
+of rules.
+Now you put it into a really
+interesting context, which
+is something we bumped into back
+when first introducing proteins
+and DNA sequence equals shape
+equals function, all of that.
+Molecules have charges on them.
+Some of them were positively
+charged, some of them
+were negatively.
+Whoa.
+Attraction and repulsion.
+Positively charged
+molecules are attracted
+to negatively charged ones.
+Same charged ones repulse.
+Here we have a system with very
+simple attraction and repulsion
+rules.
+And that's the logic behind,
+when one thinks about it,
+one of the all-time important
+experiments, something
+that was done in the 1950s by a
+pair of scientists, University
+of Chicago, Urey and Miller.
+Here's what they did.
+They took, like, big
+vats of organic soup
+stuff that just had all sorts
+of simple molecules in there.
+Little fragments of carbon,
+carbon, little fragments
+of-- all sorts of inorganic
+molecules in there,
+little ones in there, floating
+around in this organic soup.
+And what they did was they would
+pass electricity through it.
+And they did this
+vast numbers of times.
+And eventually
+what they saw was,
+they would come back and check,
+and these random distribution
+of these things, of
+these little fragments,
+had begun to form amino acids.
+Whoa.
+Metaphor.
+The organic soup, just the
+evenly distributed sort
+of world of potentially
+organic molecules
+in a world in which electricity
+passes through, lightning.
+What had these guys
+just come up with?
+Some in your, like,
+kitchen sink experiment
+of the origins of life.
+And what people have done
+subsequently is show,
+you don't need the catalyst.
+There's a whole
+world of researchers
+who study origin of life.
+And the basic notion is, you
+put in enough simple molecules
+in there that have attraction
+and repulsion rules,
+and you get perturbations
+and spatial distributions
+of certain ways,
+and they will begin
+to form rational
+structures after a while.
+Here's another version of this.
+And I used to do this in
+class, except I can never
+pull this one off, and
+it just became chaotic.
+Kid's toy, you've
+got these magnets.
+You either have-- you
+have magnets like that.
+And then you have
+little metal balls that
+can go onto the magnet here.
+And you've got vast
+numbers of them.
+And you can piece them together.
+Whoa.
+This is starting to look
+kind of familiar here.
+So we have these constituents
+with very simple rules, which
+is the magnets repel each other.
+They bind.
+These things.
+And here's what you would do.
+Here's what I would
+attempt to do.
+First off, I would get
+somebody to show me
+how to get the video thing
+on here to project it.
+But you would put up a whole
+bunch of these magnets in rows,
+not too close to each
+other, nice and symmetrical.
+And what you do then is you take
+a handful of the metal balls
+and fling them in there.
+And if you do that
+400 or 500 times,
+eventually they
+will bounce around.
+And amid all the
+pieces flying, you're
+going to get a pyramidal
+structure like this.
+One of those just like that,
+it's three dimensional,
+you know that.
+You are going to get one of
+those that will simply pop out
+of this because that's the
+nature of potato chips solving
+their math problem
+with double saddles.
+That's the nature of throwing
+a whole bunch of elements
+with simple attraction
+and repulsion rules.
+And given enough chances, throw
+in enough perturbations there,
+and structures will
+begin to emerge.
+And it's the same
+exact principle there,
+these same ones over and over.
+So we've got some very
+simple versions where
+you get emergent complexity.
+One is this version
+of a first generation
+has directed searches
+and the intensity
+of the signal that
+it leaves afterward
+is a function of
+how good of a search
+they've done, random wanderers.
+Then you have the
+attraction/repulsion world
+of putting these together,
+lots of elements.
+And you begin to get
+structures out of it.
+Next version of
+this, or next domain
+of where you begin to see
+the fact that these rules are
+underlying an awful
+lot of things.
+Suppose here you were
+studying earthquakes.
+And apparently there's just,
+like, little earthquakes going
+on 20 times an hour or so
+all down on the Richter
+scale of, you know, one
+quarter or who knows what.
+But you get enough of these,
+you get a huge database,
+and you can begin to graph
+the frequency of Richter 1.0
+earthquakes and how often do you
+get the Richter 2.0 and Richter
+3.0 and all of that.
+And you graph it.
+And it's going to look
+something like this,
+a distribution like
+that, which is obviously
+there's a huge number of
+number one categories.
+And it drops off until the
+extremely rare at this end.
+There's a distribution,
+which mathematically
+can be described, something
+called a power law
+distribution, with a
+certain angle to it.
+OK, so here's the
+relationship between how often
+do you get little teensy
+earthquakes and the big ones.
+Now instead, what you do
+is something much more
+different from that, which
+is, you look at 50,000 people,
+and you look at
+their phone calls
+over the course of the year.
+And you keep track
+of how far the phone
+call was, how distant the
+person is that they called.
+And now you map the distance,
+the very shortest calls,
+the very longest,
+and the frequency.
+And it's the exact same curve.
+It's the same power
+law distribution.
+Next version of it.
+This was a study that was
+done, which was-- I don't quite
+know how these guys did it.
+I always get lost in
+the math on these.
+But in this one,
+what they did was
+they took a whole bunch
+of marked dollar bills,
+and they started in the middle
+of-- I don't know where,
+I think it was at
+Columbia, something--
+and they were
+somehow able to keep
+track of how far the bills
+had traveled a week later.
+And asking, OK,
+how many bills had
+traveled no more than a mile?
+How many five miles?
+And it was the exact same curve.
+And people now have been
+showing this same power law
+distribution.
+Here are some of the things
+that have been shown.
+The number of
+links that websites
+have to other websites.
+The number that
+have only one link.
+Power law distribution.
+Proteins.
+The number of proteins showing
+certain degrees of complexity
+and the numbers dropping
+off with the same power law.
+Here's one which is the
+number of emails somebody
+sends over the
+course of the year.
+This is the one that
+was done at Columbia.
+They got access to
+everybody's email records.
+I don't understand how
+they could have done this.
+But it was a couple of million
+over the course of the year.
+And what they showed was the
+frequency, how many people
+were making this small of
+a number of emails over--
+and the same power law.
+Then there's this
+totally crazy one,
+which is, OK, do you guys know
+the Kevin Bacon, six degrees
+of separation thing there?
+OK.
+Someone went and did
+a study about this
+that they got, like,
+every actor that they
+could find who was in a
+film in the last two years.
+And they got all of
+their filmographies.
+And they generated their Kevin
+Bacon degrees of freedom,
+degrees of--
+Separation.
+Sing it out.
+OK.
+And they figured it out, the
+number for each individual.
+And then they graphed it.
+How many people were six
+degrees of separation away,
+how many were five, so on.
+And it's the same pattern.
+And this one keeps popping
+up, this power law business.
+And what you see intrinsic
+in that is, it's a fractal.
+Because some of the
+time you're talking
+about what's happening with
+the tectonic plates on Earth,
+and some of the time you're
+talking about phone calls,
+and some of the time you're
+talking about how molecules
+interact with each other.
+There's something
+emergent that goes
+on there, which is
+an outcome of some
+of these simple
+attraction/repulsion rules,
+an outcome of simple
+pioneer generation
+and then random movement ones.
+And out come
+structures like these.
+This winds up being applicable
+in a very interesting domain
+biologically.
+OK, so now we go back to the
+traveling salesman problem.
+And we're having now a
+cellular version of it
+in terms of networks.
+You've got a whole
+bunch of nodes here.
+And the choice that
+each node has to make,
+in effect, is how
+many connections it
+will make in the network
+to other nodes and how far
+should those connections be.
+Should it only connect
+with ones way out there?
+What does it want to do?
+That's nonsense.
+In terms of optimizing
+a system, what
+do you want your distribution
+of connections of nodes
+in a network to be?
+What is it you want to optimize?
+You want to get
+a system that has
+very stable, solid interactions
+amongst clusters of nodes
+but nevertheless
+occasionally has
+the capacity to make
+long-distance connections
+there.
+And what you wind up
+seeing is, if you generate
+a power law distribution
+in terms of, OK, all
+of my projections are going
+to be within this distance
+and within this same
+power law distribution
+so that the vast majority
+of the nodes in the network
+are having very
+local connections.
+But still there is a possibility
+now and then of very long ones.
+You get a system that is
+the most optimal for solving
+problems most cheaply, cheaply,
+and whatever the term is there.
+And this solves it for you.
+And then you look at
+brain development.
+So you've got neurons
+forming in the cortex,
+in the fetal cortex,
+and you've got neurons.
+You've got all these nodes.
+And they have to figure out
+how to wire up with each other
+and how to wire up in a
+way that is most efficient.
+What's most efficient
+in order to be
+able to do the sorts of things
+the cortex specializes in?
+And you now begin to look at
+the distribution of projections.
+And it's a power
+law relationship.
+Most neurons in the
+cortex are having
+the vast majority of their
+projections very local.
+But then you have
+ones now and then
+that have moderate ones,
+even rarer ones, that
+have extremely long ones.
+And you look, and this is
+how the cortex is wired up.
+It follows a power
+law distribution.
+And what this
+allows you to do is
+have clusters of stable,
+functional interactions.
+But every now and then, you
+can talk to somebody way
+over at the other end of the
+cortex to see what's happening.
+Interesting finding.
+Autism.
+Autism, people have been looking
+for what's up biologically.
+And the initial
+assumptions would
+be, there's not
+going to be enough
+neurons in some
+part of the brain
+or maybe too many in another.
+What appears to
+be the case so far
+is there's relatively
+normal number
+of neurons in the cortex.
+But then some people started
+studying the projection
+profiles of neurons in
+the cortex of individuals
+with autism post-mortem.
+Very rare to get these.
+And you see a power
+law distribution.
+But it's a different one.
+It's a steeper one.
+What does that mean?
+In the cortex of
+autistic individuals,
+way more of the connections
+are little local ones.
+There's far fewer of
+the long-distance ones.
+There are way more local ones.
+What does that produce?
+Little pockets, little
+modules of function
+that are isolated
+from other ones.
+And that in some ways is
+what's going on functionally
+in someone with autism.
+There is a lack of
+integration of a whole bunch
+of these different
+functions there.
+And that's what happens when you
+have maybe a mutation or maybe
+some epigenetic something
+or other prenatally that
+changes the shape of the
+power law distribution.
+Interesting.
+There's a gender difference
+in the power law distribution
+of wiring in the cortex.
+Which is, in the
+typical female brain,
+if this is the power
+law distribution.
+And in the male brain
+it's a little steeper.
+Male brains are more
+modular in their wiring.
+What's the biggest
+part of the brain?
+OK, we're running
+out of space here.
+There it is.
+There's the brain
+in cross-section.
+And you've got cortex
+here and cortex there.
+And famously, here's
+all the cell bodies.
+And when projections are
+going from one hemisphere
+to the other, it goes across
+this huge bundle of axons
+called the corpus callosum.
+The corpus callosum is
+thicker in women than in men,
+on the average.
+It is thicker in
+females than in males
+because the power
+law pattern is such
+that there are more
+long-distance connections
+in female networks, and thus
+it's a thicker corpus callosum.
+The same thing is playing
+out with connections
+like this, and connections.
+But this is the big honker one.
+You get a thinner
+corpus callosum in men.
+You get an even thinner corpus
+callosum in people with autism.
+Again, that hyper male notion
+there of Baron Cohen's.
+What you have here is a
+perfectly normal number
+of neurons, probably even
+perfectly normal number
+of connections
+between the neurons.
+But they're more
+local, they're more
+isolated in the autistic cortex.
+There's less
+integration of function.
+It's more isolated
+islands of function there.
+OK.
+More examples of
+where you can get
+sort of patterns coming out.
+Another version of it, which
+is bottom-up quality control.
+You start a website, you
+are selling some product,
+you are selling
+books or whatever,
+and you're asking people
+to rate the books.
+And you have a board of experts
+that read all your books,
+and they're editors and they're
+wise and they're learned.
+And they write your book
+reviews and recommend
+which ones should be
+bought and which ones not.
+And you get this very
+successful business
+going so that you're selling
+more and more different
+kinds of books.
+And as a result,
+you need to hire
+more and more of these
+experts to read the books
+and produce their ratings.
+And eventually that just
+becomes too top heavy.
+And what do you do?
+The whole world that
+we completely take for
+granted now, you have bottom-up,
+bottom-up evaluations.
+Everybody rates things.
+And that's the world where you
+punch in a book into Amazon
+or you look at something in
+Netflix and when you return it,
+it will give you, people
+who liked this movie tend
+to like these things as well.
+There are no critics,
+professional critics,
+sitting there doing
+top-down evaluations.
+This is another
+realm of expressing
+attraction and repulsion rules.
+I liked this.
+I didn't like this.
+And all you need to
+do, then, is throw
+in elements of
+randomization, and you've
+got bottom-up quality control.
+And that's a completely
+different way
+of doing these things.
+What's the greatest example
+out there of bottom-up systems
+with quality control?
+Wikipedia.
+Wikipedia does not have
+gray-bearded silverback elders
+there writing up the
+Wikipedia knowledge
+and sending it on
+down to everyone else.
+It is a bottom-up
+self-correcting system.
+It is very easy to make
+fun of some of the stuff
+that winds up in
+Wikipedia, which is, like,
+wildly, insanely wrong.
+But when you get into areas
+that are fairly hard nosed.
+Very interesting study
+about five years ago
+that Nature commissioned, which
+was getting a bunch of experts
+to look at Wikipedia and to look
+at the Encyclopedia Britannica
+and look at the
+hard-nosed facts in there
+about the physical
+sciences, the life sciences.
+And what you got
+was, Wikipedia was
+in hailing distance of the
+Encyclopedia Britannica's
+level of accuracy.
+And that was five years ago.
+And it has five years of
+self-organized correction
+since then.
+This is amazing.
+The Encyclopedia Britannica
+is like written-- there's,
+like, 30, like, elderly, stuffed
+British scholars that they,
+like, have locked
+in a room for years
+who produced the encyclopedia.
+And these are the law
+givers and the knowledge--
+And you just let a
+whole bunch of people
+loose with somewhat
+differing opinions
+about whether Madonna
+was born in 1994 or 1987
+or whatever it is.
+And you throw them
+all together and you
+do wisdom of the crowd stuff.
+And out comes a self-correcting,
+accurate, adaptive system
+with no blueprint, just with
+some very simple local rules.
+Very simple ones, which is
+looking for similar patterns
+shared between
+different individuals,
+and self-correcting.
+Where you get even
+more efficient versions
+of that is with a
+lot of websites,
+where not only does everybody
+get to put in their opinion,
+but people whose
+opinions are better
+rated have more of a voice
+in evaluating somebody else.
+You're putting in
+weighted wisdom
+of the crowd-type
+functions in there,
+and out comes
+incredible accuracy.
+These are great.
+There is one drawback with
+those systems, though, which
+is, with ones like
+Netflix, where it tells you
+you're going to like this if you
+like this, that sort of thing.
+It's a system that is very
+biased towards conformity.
+It's not good at spotting
+outliers and sort of taste
+and such.
+What you really want to
+do in those systems is,
+here are the movies-- of the
+movies that are out right now,
+here are the ones that have
+10% of the people think
+it's the greatest
+movie they've ever seen
+and 10% think it's
+the worst movie.
+That's an interesting
+movie to see.
+That's when you want
+to be able to get
+a way of bottom-up information
+about the extremes.
+Movies that generate
+controversy.
+Everybody's going to
+love whatever it is,
+and that doesn't
+take a whole lot.
+This is a way to break the
+potential for conformity
+in these bottom-up systems.
+Nonetheless, overall it
+winds up solving a problem
+without professional
+critics, without a blueprint,
+without top-down control.
+So how do you wire
+some of these up?
+Back to the cortex.
+And the adult cortex has
+these power law distributions,
+and they're great
+because they optimize.
+They've got lots of stable,
+local communication,
+but there's still
+the ability to do
+creative long-distance
+connections.
+So that's great.
+But how do you get that?
+How does the nervous
+system wire up this way?
+And it does swarm intelligence.
+The developing cortex does a
+swarm intelligence solution.
+When the cortex is
+first developing,
+what you will have is a
+first generation, a pioneer
+generation, a pioneer
+generation of cells.
+The cortex surface, all of
+that, that there is a pioneer
+generation of cells
+that basically grow
+processes up like these.
+And these are called
+radial glial cells.
+What they are, they're the
+ants with the first generation
+of setting down the trail here.
+They're the first
+bees coming in.
+And what you then
+have, the neurons
+are the second-generation
+random wanderers.
+And what they do
+is they come in.
+And as they begin
+to develop, they
+have rules that, when
+they hit a radial glia,
+they grow up along it.
+They migrate along it,
+they throw up connections.
+And you do that with
+enough of the cortex, which
+is hundreds of millions of
+billions of neurons in there,
+and you get optimal
+power law distributions.
+All you need are some
+very simple local rules.
+And out of that emerges
+an optimally wired cortex.
+And it's the same simple
+emergent stuff going on.
+OK.
+So how do we begin to really
+apply this stuff to humans?
+Because it winds up being
+very pertinent and making
+sense of some of the most
+interesting complex things
+about us.
+So what's the difference between
+humans and every other species?
+Nothing all that exciting.
+From a neurobiological
+standpoint,
+you've got this real challenge,
+which is, you look at a neuron
+from a fruit fly
+under a microscope
+and you look at one
+from us and it's
+going to look kind of the same.
+Looking at a single
+neuron, you can't tell
+which species it came from.
+We have the same kind
+of neurotransmitters
+that a worm uses in
+its nervous system.
+We've got the same
+kind of ion channels,
+the same sort of excitability,
+the same action potentials.
+You know, minor
+details are different.
+We have not become
+humans by inventing
+new types of brain cells and new
+types of chemical messengers.
+We have the same basic
+off-the-rack neuron
+that a fly does.
+Oh.
+We have very similar
+basic building blocks.
+What's the
+difference, of course,
+is we've got 100 million
+of them for every neuron
+that you find in a fly brain.
+And out of that comes
+emergent properties.
+Great story.
+Garry KAS-pah-rof,
+kas-PAH-rof, I never
+remember which
+syllable to emphasize.
+Grandmaster Russian, chess
+grandmaster in the '90s.
+And apparently he's rated as one
+of the strongest of all times.
+And he was the
+person who wound up
+participating in this
+really major event, which
+was this tournament with
+this chess-playing computer
+that IBM had built called Deep
+Blue or Big Blue or Old Yeller.
+What was it called?
+Deep Blue, Deep Blue, Deep Blue.
+And they played
+against each other.
+And apparently what happened
+was, in the first game,
+Kasparov won perhaps.
+And the computer was able
+to modify its strategy
+and then proceeded to
+mop the floor with him.
+And this was a landmark
+event in computer science.
+This was the first
+time that a computer
+had beaten a chess grandmaster.
+Amazing event.
+Not surprisingly,
+afterward Kasparov
+is all bummed out and depressed.
+And his friends were trying
+to make him feel better.
+And they go to him and they say,
+look, all you got done in by
+is quantity.
+All you got done
+in by is the fact
+that that computer could
+do a whole lot more
+computations than you could
+in a set amount of time.
+I'm told, apparently
+chess grandmaster types
+can see five, six moves ahead.
+And they can intuit where
+the interesting ones were.
+And Deep Blue could calculate
+every single possible outcome,
+like, seven, eight
+moves in advance.
+And every time, it would
+simply pick the one
+that was the best outcome.
+It was like generating solutions
+to the traveling salesman
+problem.
+Kasparov didn't have a
+chance because the computer
+could simply generate
+enough solutions
+to pick the right one.
+So all of them
+are saying to him,
+you should not be depressed
+because all that computer had
+going for it was quantity.
+And what he said
+in response was,
+yeah, but with enough
+quantity you invent quality.
+And that's the exact
+equivalent of one ant
+makes no sense and 10,000 do.
+That's the exact equivalent,
+with enough of these elements
+here, you optimize.
+We do not have
+fancy neurons that
+are different than
+in any other species.
+We've just got more of them.
+And simple nearest neighbor
+rules, and you throw a million
+of them together and
+you get a fruit fly.
+And you throw 100
+billion of them together
+and you get poetry and you get
+symphonies and you get theology
+and you get all of that.
+And it's the same
+building blocks.
+With enough quantity,
+you invent quality.
+And this is the punch
+line that came out
+of really important
+work a few years ago.
+OK, we're now, what, 10
+years, I think, into having
+the human genome sequenced.
+And about five years ago they
+sequenced the chimp genome.
+Soundbite.
+Everybody learned
+from whenever back
+when is that the human and
+chimp share 98% of its DNA.
+So finally you had these two
+gigantic rolls of print-out.
+And here is the
+entire human genome
+and here's the entire chimp one.
+And somebody could
+finally sit there
+and compare them and compare
+them and see, indeed,
+is it 98% shared?
+And that winds up
+being the answer,
+even though what that number
+actually means is debatable.
+But that brings up the question,
+of course, what's the 2%?
+What's the 2% that differs?
+And what has come out of that
+have been some very interesting
+findings.
+Some that were
+mentioned earlier on,
+which is, they are
+disproportionately
+coding for transcription
+factors and splicing enzymes
+and, OK, that amplification
+of network stuff.
+It is preferentially coding for
+non-coding regions, differing
+but non-- all the
+stuff from back,
+that lecture for getting
+macroevolutionary changes.
+That's how you get a
+different species coming out.
+But how about other
+types of genes?
+What were some of
+the key differences?
+Here was one big difference.
+We have about 1,000 fewer genes
+for our olfactory receptors
+than chimps do.
+They've been inactivated in us.
+They're called
+pseudogenes in us.
+They don't express.
+And that's about half of
+the difference in the genome
+between humans and chimps.
+If you want to turn
+a chimp into a human,
+you're halfway there if you just
+give it a lousy sense of smell.
+That's half the
+genetic differences?
+What other
+differences are there?
+There were ones having to
+do with morphology, bone
+development, probably
+bipedalism versus being
+a partial quadruped.
+There are ones having to do
+with hair development, which
+is why chimps have all the
+hair on them and only those,
+like, disturbing people with
+the hair on their shoulders
+have that much hair.
+So that's-- there's differences
+in some reproductive-related
+genes.
+You don't want to mate
+with them, all of that.
+And then you say,
+where's the genes
+having to do with the brain?
+Are there any differences there?
+And there turned out
+to be very, very few.
+And they turned out to
+be very, very logical.
+The handful that differ
+seem to have something
+to do with cell division.
+Have something to do with how
+many rounds of cell division
+these cells go through.
+And what you have is,
+the human versions
+go through more rounds.
+And calculations have
+been done looking
+at the average number of
+neurons that each progenitor
+cell generates, say, during
+cortical development.
+And if you start with
+the number of neurons
+that you find in a
+rhesus monkey brain
+and have it do three or four
+more rounds of cell division,
+you get a human brain
+in terms of the numbers.
+Qualitatively, it's
+the exact same neurons.
+All that differs is quantity.
+And you put enough
+of these together
+and you go from
+tools, which are meant
+to get little termites
+out, into human technology,
+the difference between us
+and them is one of quantity.
+Throw enough neurons in
+there, and out begins
+emerging all these
+distinctive human things.
+So what does that do?
+That begins to, for
+one thing, underline
+what the main genetics
+are about in terms
+of the genetic differences
+in the brain between us
+and, say, chimps are
+genes that free you
+from genetic influences.
+Because those are not
+specifying what sort of cells
+you generate in larger
+numbers in the brain.
+They're not specifying
+connections.
+They're just specifying
+larger quantity.
+And all this stuff goes to work
+and out comes a human brain
+instead of a chimp one.
+OK, so what does this
+whole subject get us?
+The chaos stuff, the
+complexity emergent stuff.
+What are some of the themes that
+come through with all of it?
+The first one is this
+emphasis on quantity.
+You want to get a very,
+very fancy system.
+You don't necessarily have
+to invent a new type of ant
+or a new type of 0 or
+1 in a binary system
+or a new type of neuron.
+You could do it with quantity.
+You get quality, you get
+excellence, you get complexity,
+you get adaptive optimization
+with huge numbers of elements
+with the very simple rules.
+What's the next theme
+that comes out of it?
+One that is totally
+counterintuitive.
+Once again, like
+this whole subject
+that shoots reductionism
+down the drain,
+totally counterintuitive.
+The simpler the constituent
+parts, the better.
+Fancy, complicated ants that
+are specialized and have
+all sorts of different rules.
+They are not going to
+generate swarm intelligence
+as effectively as do systems
+with the simpler elements.
+The more simple the building
+blocks are, the better.
+Something else that
+is intrinsic to all
+of this, which runs
+counter to all sorts
+of rational intuitions, which
+is more random interactions
+make for better, more
+adaptive networks.
+You want lots of
+random noise thrown
+in there because that's how you
+stumble onto optimal solutions.
+Randomness is a good thing.
+And remember, right at the time
+that we're making new neurons
+in the cortex, that's when you
+induce the transposable events
+in the genome.
+That's where you juggle the
+DNA producing randomness there.
+Randomness is a good thing.
+Randomness adds to the
+excellence of networks
+What else?
+Next thing as a theme
+that comes out of it
+is the power of
+gradients of information.
+Things that guide you,
+you a cell, you an ant,
+you a commercial district.
+Things that can guide
+you towards things,
+things that can
+repel you, gradients
+of attraction and repulsion.
+And that's exactly
+what's going on.
+There is a gradient
+in magnets when
+they're this close and the power
+that they have is dropping off.
+As they move,
+gradients provide a lot
+of the optimization
+in these systems.
+Very, very important as well is
+nearest neighbor interactions.
+These are not just a
+handful of simple rules
+about how you're interacting
+with somebody in Chicago.
+These are all how you
+interact with another ant,
+another bee when you bump
+into it, a glial cell.
+Local interactions
+with simple rules.
+Something else.
+Another one that
+runs totally counter
+to intuition, which
+is generalists
+work better in these
+systems than specialists do.
+Generalists are more
+likely to come up
+with these adaptive outcomes.
+OK, so what does all of
+this mean on a larger level?
+And what I think is
+that this is where
+the complexity of human brains
+and human behaviors come from,
+these emergent properties.
+And this is now a generation
+or two into people
+thinking about this stuff.
+And it is incredibly
+hard to think about.
+And most of the work
+I do and my peers do
+is reductive stuff
+that is very limited.
+And like, I don't
+understand how to think
+about it in this other way.
+And the odds are,
+you guys are not
+going to be good
+enough at it either.
+You're good enough that you were
+a first generation growing up
+that knows, if you
+want to find out
+if you're going to
+like a movie or not,
+you don't need to have
+somebody with expertise
+and a label on their forehead
+and a blueprint and top down.
+You don't need critics anymore.
+You have bottom-up systems.
+You guys who are first
+generation growing up
+thinking in that way.
+What's a consequence of that?
+You are beginning to get
+better at this stuff.
+And my guess is, it's not
+until, like, your grandkids
+that you're going to
+have people thinking
+so much in the emergent
+systems that we're finally
+going to be able to figure
+out what the brain is doing.
+And where you see
+there is all sorts
+of things that can happen.
+If there was more
+bottom-up communication
+in the trenches in
+World War I, they
+would have stopped the war.
+All these emergent
+things bottom up.
+We've now had
+revolutions when Marcos
+was overthrown in
+the Philippines
+back when that was
+basically bloodless.
+When the Czech
+revolution occurred,
+it was called the
+Velvet Revolution
+because there was no violence.
+All they had to do was get
+enough people in the town
+square in the capital
+and paralyze the country,
+and they took it over.
+I will predict that
+within our lifetime
+there is going to
+be a revolution
+in some country at
+some point where nobody
+leaves their living rooms.
+All they do is do
+something online
+with some emergent
+bottom-up thing
+and they collapse the government
+and do it in and no one
+will have to leave their
+living room because it will be
+all emergent things coming up.
+The final couple of points here.
+First one is, all that chaotic,
+strange, attractor stuff, all
+of us spend a lot
+of time thinking
+about how we're not quite
+up to the ideal this or not.
+We're not at the
+ideal appearance.
+We're not at the
+ideal intelligence.
+We're not at the ideal
+choice of perfume.
+We're not at the ideal anything.
+What strange attractors
+and chaos shows
+you is the notion that
+there is an ideal,
+that there is an essentialist
+optimal, whatever, is a myth.
+We are all deviating
+from the optima
+because the optima is just
+an emergent, imaginary thing.
+The other final point is,
+something that you guys are
+going to be much better at
+than any previous generation,
+which, if you grow
+up thinking, when
+I want to find out if
+a movie is good or not,
+I do bottom-up stuff, you
+are growing up with a mindset
+that you don't need blueprints.
+You don't need
+top-down blueprints.
+And implicit in
+that, when you look
+at how you can get complex,
+adaptive, optimized systems
+without blueprints is
+the fact that, if you
+don't need blueprints,
+you don't need somebody
+who makes the blueprints.
+And it will be a lot
+easier to comprehend that
+as being the case.
+You don't have to have a
+source of top-down instruction
+if you don't need a blueprint.
+OK, so I don't know.
+I'm talking about something--
+For more, please visit
+us at stanford.edu.
