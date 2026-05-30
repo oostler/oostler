@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pitch Trainer — Beato Method</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div id="app">
+
+  <header>
+    <div class="logo">
+      <div class="logo-icon">♪</div>
+      Pitch Trainer
+    </div>
+    <nav>
+      <button class="nav-btn" data-section="pitch">Pitch</button>
+      <button class="nav-btn" data-section="intervals">Intervals</button>
+      <button class="nav-btn" data-section="chords">Chords</button>
+      <button class="nav-btn" data-section="degrees">Scale Degrees</button>
+      <button class="nav-btn" data-section="notes">Note ID</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ── PITCH DETECTOR ── -->
+    <section id="pitch" class="section">
+      <div class="section-title">Realtime Pitch Detector</div>
+      <div class="section-subtitle">Sing or play any note — your pitch is detected live using your microphone.</div>
+
+      <div class="card">
+        <div class="pitch-display">
+          <div id="note-big" class="note-big silent">—</div>
+          <div id="note-freq" class="note-freq"></div>
+
+          <div class="cents-meter">
+            <div class="meter-track">
+              <div class="meter-center"></div>
+              <div id="meter-needle" class="meter-needle"></div>
+            </div>
+            <div class="meter-labels">
+              <span>−50¢</span><span>−25¢</span><span>0</span><span>+25¢</span><span>+50¢</span>
+            </div>
+          </div>
+          <div id="cents-value" class="cents-value"></div>
+
+          <br />
+          <button id="mic-btn" class="mic-btn">
+            <span class="dot"></span> Start Mic
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:16px">
+        <div class="prompt-label">Playable Piano — click any key</div>
+        <div id="piano-container" class="piano-wrap"></div>
+      </div>
+
+      <div class="card" style="margin-top:16px">
+        <div class="tip-box" style="margin-bottom:0">
+          <strong>Rick Beato's Tuning Insight:</strong> Green = within ±10 cents (in tune).
+          Amber = sharp (too high). Red = flat (too low).
+          The best way to develop pitch is to <strong>sing along with what you play</strong> —
+          active vocalization builds neural pathways faster than passive listening alone.
+        </div>
+      </div>
+    </section>
+
+    <!-- ── INTERVALS ── -->
+    <section id="intervals" class="section">
+      <div class="section-title">Interval Training</div>
+      <div class="section-subtitle">Beato's method: each interval has a unique emotional character — learn to feel it, not just count semitones.</div>
+
+      <div class="score-row">
+        <div class="score-pill">Score: <span id="interval-score" class="n">0/0 🔥 0</span></div>
+        <select id="interval-level" class="level-select">
+          <option value="beginner">Beginner (m3, M3, P5, 8ve)</option>
+          <option value="intermediate">Intermediate (all up to m6)</option>
+          <option value="advanced">Advanced (all 12)</option>
+        </select>
+        <select id="interval-mode" class="level-select">
+          <option value="both">Mixed (ascending/descending/harmonic)</option>
+          <option value="ascending">Ascending only</option>
+          <option value="descending">Descending only</option>
+          <option value="harmonic">Harmonic only</option>
+        </select>
+      </div>
+
+      <div class="tip-box">
+        <strong>Beato Method:</strong> Don't just count semitones — internalize the <em>color</em> of each interval.
+        A minor 3rd feels melancholic and soft. A tritone is unstable and restless. A perfect 5th is open and powerful.
+        Associate each interval with a song you know deeply.
+      </div>
+
+      <div class="exercise-area">
+        <div class="exercise-prompt">
+          <div class="prompt-label">Listen to the interval <span id="interval-mode-badge" class="play-mode-badge">—</span></div>
+          <button id="interval-play" class="play-btn">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M3 2l11 6-11 6V2z"/></svg>
+            Play Again
+          </button>
+        </div>
+
+        <div id="interval-choices" class="choices"></div>
+
+        <div>
+          <div id="interval-feedback" class="feedback"></div>
+          <button id="interval-next" class="next-btn">Next →</button>
+        </div>
+      </div>
+
+      <!-- Interval reference table -->
+      <div class="card" style="margin-top:24px">
+        <div class="prompt-label" style="margin-bottom:12px">Interval Character Reference (Beato)</div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px">
+          <div class="tip-box" style="margin-bottom:0"><strong>m2 · 1 st</strong> — Sharp dissonance</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>M2 · 2 st</strong> — Mild dissonance</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>m3 · 3 st</strong> — Soft consonance, melancholic</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>M3 · 4 st</strong> — Soft consonance, bright</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>P4 · 5 st</strong> — Consonance (context-dependent)</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>TT · 6 st</strong> — Restless, neutral tension</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>P5 · 7 st</strong> — Open consonance, powerful</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>m6 · 8 st</strong> — Soft consonance, bittersweet</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>M6 · 9 st</strong> — Soft consonance, warm</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>m7 · 10 st</strong> — Tension, wants to resolve</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>M7 · 11 st</strong> — Bright/close dissonance</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>P8 · 12 st</strong> — Perfect consonance, fullness</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CHORDS ── -->
+    <section id="chords" class="section">
+      <div class="section-title">Chord Quality Training</div>
+      <div class="section-subtitle">Develop your "vocabulary of recognized sounds" — hear a chord and immediately feel its quality.</div>
+
+      <div class="score-row">
+        <div class="score-pill">Score: <span id="chord-score" class="n">0/0 🔥 0</span></div>
+        <select id="chord-level" class="level-select">
+          <option value="beginner">Beginner (Major vs Minor)</option>
+          <option value="intermediate">Intermediate (+ dim, aug, sus)</option>
+          <option value="advanced">Advanced (all 7th chords)</option>
+        </select>
+      </div>
+
+      <div class="tip-box">
+        <strong>Beato Method:</strong> A major triad = major 3rd stacked on minor 3rd (bright, open).
+        A minor triad = minor 3rd stacked on major 3rd (darker, introspective).
+        A diminished = two minor thirds stacked (tense, unstable).
+        An augmented = two major thirds (eerie, floating).
+        Listen for the <em>stacking</em> of thirds.
+      </div>
+
+      <div class="exercise-area">
+        <div class="exercise-prompt">
+          <div class="prompt-label">What chord quality do you hear?</div>
+          <button id="chord-play" class="play-btn">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M3 2l11 6-11 6V2z"/></svg>
+            Play Again
+          </button>
+        </div>
+
+        <div id="chord-choices" class="choices"></div>
+
+        <div>
+          <div id="chord-feedback" class="feedback"></div>
+          <button id="chord-next" class="next-btn">Next →</button>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:24px">
+        <div class="prompt-label" style="margin-bottom:12px">Chord Formula Quick Reference</div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px">
+          <div class="tip-box" style="margin-bottom:0"><strong>Major</strong> 1 – 3 – 5 &nbsp; M3+m3</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>Minor</strong> 1 – b3 – 5 &nbsp; m3+M3</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>Diminished</strong> 1 – b3 – b5 &nbsp; m3+m3</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>Augmented</strong> 1 – 3 – #5 &nbsp; M3+M3</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>Sus2</strong> 1 – 2 – 5</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>Sus4</strong> 1 – 4 – 5</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>Maj7</strong> 1 – 3 – 5 – 7</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>Dom7</strong> 1 – 3 – 5 – b7 (tension)</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>Min7</strong> 1 – b3 – 5 – b7</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>Half-Dim</strong> 1 – b3 – b5 – b7</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>Dim7</strong> 1 – b3 – b5 – bb7</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>Min/Maj7</strong> 1 – b3 – 5 – 7</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SCALE DEGREES ── -->
+    <section id="degrees" class="section">
+      <div class="section-title">Scale Degree Training</div>
+      <div class="section-subtitle">Beato's tonal method: a cadence establishes the key, then identify which scale degree you hear.</div>
+
+      <div class="score-row">
+        <div class="score-pill">Score: <span id="deg-score" class="n">0/0 🔥 0</span></div>
+        <select id="deg-level" class="level-select">
+          <option value="beginner">Beginner (1, 2, 3, 5)</option>
+          <option value="intermediate">Intermediate (1–6)</option>
+          <option value="advanced">Advanced (all 7)</option>
+        </select>
+      </div>
+
+      <div class="tip-box">
+        <strong>Beato Method (Movable Do):</strong> Do always = the tonic. Hear the cadence, feel the key center,
+        then sing from the note down (or up) to Do. The distance you travel tells you the degree.
+        <em>Pre-dominant</em> chords contain degree 4 (Fa). <em>Dominant</em> contains degrees 5 and 7.
+        <em>Tonic</em> contains degree 1 (Do).
+      </div>
+
+      <div class="exercise-area">
+        <div class="exercise-prompt">
+          <div class="prompt-label">Cadence plays first — then identify the scale degree</div>
+          <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap">
+            <button id="deg-cadence" class="play-btn">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M3 2l11 6-11 6V2z"/></svg>
+              Replay Cadence
+            </button>
+            <button id="deg-play" class="play-btn">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M3 2l11 6-11 6V2z"/></svg>
+              Replay Note
+            </button>
+          </div>
+        </div>
+
+        <div id="deg-choices" class="choices"></div>
+
+        <div>
+          <div id="deg-feedback" class="feedback"></div>
+          <button id="deg-next" class="next-btn">Next →</button>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:24px">
+        <div class="prompt-label" style="margin-bottom:12px">Scale Degree Reference (Movable Do)</div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px">
+          <div class="tip-box" style="margin-bottom:0"><strong>1 — Do</strong> Tonic · I · home</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>2 — Re</strong> Supertonic · ii · tension</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>3 — Mi</strong> Mediant · iii · color</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>4 — Fa</strong> Subdominant · IV · pre-dominant</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>5 — Sol</strong> Dominant · V · strong pull home</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>6 — La</strong> Submediant · vi · relative minor</div>
+          <div class="tip-box" style="margin-bottom:0"><strong>7 — Ti</strong> Leading Tone · vii° · strongest pull</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── NOTE ID ── -->
+    <section id="notes" class="section">
+      <div class="section-title">Note Recognition</div>
+      <div class="section-subtitle">Beato's 12-reference-song method: each of the 12 chromatic pitches is anchored to a song you know deeply.</div>
+
+      <div class="score-row">
+        <div class="score-pill">Score: <span id="note-score" class="n">0/0 🔥 0</span></div>
+      </div>
+
+      <div class="tip-box">
+        <strong>Rick Beato's 12-Reference-Song Method:</strong> For each of the 12 chromatic notes, memorize one song
+        where that pitch is the <em>very first note</em>. When you hear an unfamiliar pitch, cycle through your references
+        until one matches. This is not perfect pitch — but it provides a fast practical pitch-naming system for adults.
+      </div>
+
+      <div class="exercise-area">
+        <div class="exercise-prompt">
+          <div class="prompt-label">Which note do you hear?</div>
+          <button id="note-play" class="play-btn">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M3 2l11 6-11 6V2z"/></svg>
+            Play Again
+          </button>
+        </div>
+
+        <div id="note-choices" class="choices"></div>
+
+        <div>
+          <div id="note-feedback" class="feedback"></div>
+          <button id="note-next" class="next-btn">Next →</button>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:24px">
+        <div class="prompt-label" style="margin-bottom:12px">All 12 Note References</div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px" id="note-ref-grid"></div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script type="module" src="js/app.js"></script>
+<script type="module">
+  // Build the note reference grid
+  import { PITCH_REFERENCES, NOTE_NAMES, NOTE_NAMES_FLAT } from './js/notes.js';
+  const grid = document.getElementById('note-ref-grid');
+  for (let i = 0; i < 12; i++) {
+    const ref = PITCH_REFERENCES[i];
+    const div = document.createElement('div');
+    div.className = 'tip-box';
+    div.style.marginBottom = '0';
+    div.innerHTML = `<strong>${NOTE_NAMES[i]}${NOTE_NAMES[i] !== NOTE_NAMES_FLAT[i] ? ' / ' + NOTE_NAMES_FLAT[i] : ''}</strong><br/><span style="font-style:italic;font-size:0.78rem">${ref.song}</span>`;
+    grid.appendChild(div);
+  }
+</script>
+</body>
+</html>
