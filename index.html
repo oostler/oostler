@@ -28,9 +28,6 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
 
 /* HOME */
 .home-top{padding:18px 18px 0;display:flex;flex-direction:column;gap:14px}
-.stats{display:flex;justify-content:space-between;align-items:center}
-.stat{display:flex;align-items:center;gap:5px;font-size:0.9rem;font-weight:800}
-.stat .si{font-size:1.1rem}
 .hero{text-align:center;padding:8px 0 0}
 .hero .hlogo{font-size:2.5rem;line-height:1;margin-bottom:4px}
 .hero h1{font-size:1.6rem;font-weight:900;letter-spacing:-0.03em}
@@ -124,9 +121,7 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
 @keyframes popIn{0%{transform:scale(0) rotate(-8deg)}70%{transform:scale(1.12) rotate(2deg)}100%{transform:scale(1) rotate(0)}}
 .comp-title{font-size:1.9rem;font-weight:900;letter-spacing:-.03em;text-align:center}
 .comp-sub{font-size:0.95rem;font-weight:600;color:var(--muted);text-align:center}
-.xp-pill{display:inline-flex;align-items:center;gap:7px;background:var(--gold);color:#7A5800;padding:12px 24px;border-radius:14px;font-size:1.1rem;font-weight:900;box-shadow:0 4px 0 #D4A80040}
-.cgrid{display:grid;grid-template-columns:1fr 1fr;gap:9px;width:100%;max-width:290px}
-.cstat{background:#fff;border-radius:13px;padding:13px;text-align:center;border:2px solid var(--border)}
+.cstat{background:#fff;border-radius:13px;padding:13px;text-align:center;border:2px solid var(--border);width:100%;max-width:290px}
 .cstat .cv{font-size:1.5rem;font-weight:900}
 .cstat .cl{font-size:0.66rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-top:2px}
 .comp-btn{width:100%;max-width:290px;padding:16px;background:var(--green);border:none;border-radius:15px;color:#fff;font-size:1rem;font-weight:800;cursor:pointer;font-family:var(--font);box-shadow:0 5px 0 var(--green-dk)}
@@ -172,10 +167,6 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
 
 <div id="home" class="screen on">
   <div class="home-top">
-    <div class="stats">
-      <div class="stat"><span class="si">&#128293;</span><span id="s-streak">0</span></div>
-      <div class="stat"><span class="si">&#11088;</span><span id="s-xp">0</span><span style="font-size:.73rem;font-weight:600;color:var(--muted);margin-left:2px">XP</span></div>
-    </div>
     <div class="hero"><div class="hlogo">&#127925;</div><h1>Ear Trainer</h1><p>Learn to hear every interval</p></div>
   </div>
   <div class="sec-label">Lessons</div>
@@ -244,11 +235,7 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
   <div id="comp-emoji" class="comp-emoji">&#127942;</div>
   <div class="comp-title">Lesson Complete!</div>
   <div class="comp-sub" id="comp-sub"></div>
-  <div class="xp-pill" id="xp-pill">&#11088; +60 XP</div>
-  <div class="cgrid">
-    <div class="cstat"><div class="cv" id="cv-acc">100%</div><div class="cl">Accuracy</div></div>
-    <div class="cstat"><div class="cv" id="cv-str">&#128293; 1</div><div class="cl">Streak</div></div>
-  </div>
+  <div class="cstat"><div class="cv" id="cv-acc">100%</div><div class="cl">Accuracy</div></div>
   <button class="comp-btn" id="comp-btn">Keep Going</button>
 </div>
 
@@ -278,7 +265,6 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
 
 </div>
 <script>
-// INTERVALS ordered 12 down to 1
 const IV = [
   {st:12,name:'Octave',      abbr:'P8', emoji:'⬆️',color:'#58CC02',
    song:'Somewhere Over the Rainbow',
@@ -318,16 +304,11 @@ const IV = [
    desc:'A half step. The most tense, clashing interval.'}
 ];
 
-// STATE
 const S = {
-  xp:     +(localStorage.getItem('et_xp')    ||0),
-  streak: +(localStorage.getItem('et_streak')||0),
   learned: JSON.parse(localStorage.getItem('et_learned')||'[]'),
   lessonIdx:null, mode:null, quiz:null
 };
 function save(){
-  localStorage.setItem('et_xp',    S.xp);
-  localStorage.setItem('et_streak',S.streak);
   localStorage.setItem('et_learned',JSON.stringify(S.learned));
 }
 
@@ -393,8 +374,6 @@ document.querySelectorAll('.nav-btn').forEach(b=>{
 
 // HOME
 function renderHome(){
-  document.getElementById('s-streak').textContent=S.streak;
-  document.getElementById('s-xp').textContent=S.xp;
   const el=document.getElementById('lesson-cards');
   el.innerHTML='';
   IV.forEach((iv,i)=>{
@@ -413,7 +392,7 @@ function renderHome(){
           '<div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div>'+
         '</div>':'')+
       '</div>'+
-      '<button class="lcard-btn'+(locked?' locked-btn':done?' review-btn':'')+'"'+
+      '<button class="lcard-btn'+(locked?' locked-btn':done?' review-btn':'')+'"+
         (locked?' disabled':'')+' data-i="'+i+'">'+
         (locked?'🔒':done?'Review':'Start')+
       '</button>';
@@ -478,7 +457,7 @@ function renderQ(){
   const q=S.quiz, qq=q.questions[q.idx];
   q.answered=false;
   document.getElementById('hbar-fill').style.width=(q.idx/q.questions.length*100)+'%';
-  document.getElementById('hearts').textContent='❤️'.repeat(q.hearts)+'🖤'.repeat(3-q.hearts);
+  document.getElementById('hearts').textContent='❤️'.repeat(q.hearts)+'👻'.repeat(3-q.hearts);
   document.getElementById('q-play').onclick=()=>playIV(IV[qq.s].st);
   const cw=document.getElementById('choices');
   cw.innerHTML='';
@@ -505,7 +484,7 @@ function onAns(ci){
     if(i===qq.s)b.classList.add('ok');
     else if(i===ci&&!ok)b.classList.add('bad');
   });
-  if(ok){q.correct++;S.xp+=10;playOK();
+  if(ok){q.correct++;playOK();
     document.getElementById('choices').querySelector('.ch.ok').classList.add('pop');
   }else{q.wrong++;q.hearts--;playBad();
     document.getElementById('choices').querySelector('.ch.bad')?.classList.add('shake');
@@ -528,20 +507,16 @@ function advance(){
 }
 function finish(){
   const q=S.quiz,acc=Math.round(q.correct/q.questions.length*100);
-  let bonus=0;
   if(S.mode==='lesson'){
     if(!S.learned.includes(q.lessonIdx))S.learned.push(q.lessonIdx);
-    bonus=q.wrong===0?100:50; S.xp+=bonus; S.streak++;
-  }else{bonus=30;S.xp+=bonus;S.streak++;}
+  }
   save();
   go('complete');
   document.getElementById('comp-emoji').textContent=q.wrong===0?'🏆':'🎉';
   document.getElementById('comp-sub').textContent=S.mode==='lesson'
     ?'You learned the '+IV[q.lessonIdx].name+'!'
     :'Great practice session!';
-  document.getElementById('xp-pill').textContent='⭐ +'+(10*q.correct+bonus)+' XP';
   document.getElementById('cv-acc').textContent=acc+'%';
-  document.getElementById('cv-str').textContent='🔥 '+S.streak;
 }
 document.getElementById('comp-btn').addEventListener('click',()=>{go('home');renderHome();});
 document.getElementById('quiz-x').addEventListener('click',()=>{go('home');renderHome();});
