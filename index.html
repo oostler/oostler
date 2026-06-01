@@ -10,8 +10,7 @@
 :root{
   --green:#58CC02;--green-dk:#49A800;--green-lt:#D7FFB8;
   --red:#FF4B4B;--red-dk:#EA2B2B;--red-lt:#FFDFE0;
-  --gold:#FFD900;--bg:#F7F7F7;--card:#fff;
-  --border:#E5E5E5;--text:#3C3C3C;--muted:#9C9C9C;
+  --bg:#F7F7F7;--card:#fff;--border:#E5E5E5;--text:#3C3C3C;--muted:#9C9C9C;
   --nav-h:68px;--font:'Nunito',system-ui,sans-serif;
 }
 html,body{height:100%;overflow:hidden;background:var(--bg)}
@@ -34,11 +33,12 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
 .hero p{font-size:0.85rem;color:var(--muted);font-weight:600;margin-top:2px}
 .sec-label{font-size:0.68rem;font-weight:900;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);padding:16px 18px 8px}
 .cards{display:flex;flex-direction:column;gap:7px;padding:0 14px}
-.lcard{display:flex;align-items:center;gap:12px;background:var(--card);border:2px solid var(--border);border-radius:16px;padding:13px 13px;cursor:pointer;transition:transform .12s}
-.lcard:active{transform:scale(0.98)}
+.lcard{display:flex;align-items:center;gap:12px;background:var(--card);border:2px solid var(--border);border-radius:16px;padding:13px;transition:transform .12s}
 .lcard.done{border-color:#DAFFC2}
-.lcard.locked{opacity:.4;cursor:default}
-.lcard-icon{width:50px;height:50px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.6rem;flex-shrink:0}
+.lcard.locked{opacity:.4}
+.lcard-icon{width:50px;height:50px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.6rem;flex-shrink:0;background:#E5E5E5}
+.lcard-play{width:50px;height:50px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex-shrink:0;border:none;cursor:pointer;padding-left:3px;transition:transform .1s,box-shadow .1s}
+.lcard-play:active{transform:scale(.88)}
 .lcard-body{flex:1;min-width:0}
 .lcard-name{font-size:0.95rem;font-weight:800;line-height:1.2}
 .lcard-sub{font-size:0.72rem;color:var(--muted);font-weight:600;margin-top:1px}
@@ -86,7 +86,7 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
 .q-play:active{transform:scale(.95)}
 .q-play-lbl{font-size:0.66rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
 .choices-wrap{display:flex;flex-direction:column;gap:8px;width:100%;max-width:360px}
-.ch{display:flex;align-items:center;gap:11px;padding:15px 15px;background:#fff;border:2.5px solid var(--border);border-radius:15px;cursor:pointer;font-family:var(--font);text-align:left;width:100%;transition:border-color .1s,background .1s}
+.ch{display:flex;align-items:center;gap:11px;padding:15px;background:#fff;border:2.5px solid var(--border);border-radius:15px;cursor:pointer;font-family:var(--font);text-align:left;width:100%;transition:border-color .1s,background .1s}
 .ch:active:not(:disabled){transform:scale(.98)}
 .ch .ci{font-size:1.35rem;flex-shrink:0;width:30px;text-align:center}
 .ch .cn{font-size:0.95rem;font-weight:800;display:block;color:var(--text)}
@@ -264,27 +264,28 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
 
 </div>
 <script>
-const IV = [
-  {st:12,name:'Octave',      abbr:'P8', emoji:'⬆️',color:'#58CC02',  song:'Somewhere Over the Rainbow',   desc:'The same note, one octave higher.'},
-  {st:11,name:'Major 7th',   abbr:'M7', emoji:'✨',   color:'#9B59B6',  song:'Bali Ha’i (South Pacific)',  desc:'Almost an octave. Dreamy and unresolved.'},
-  {st:10,name:'Minor 7th',   abbr:'m7', emoji:'🌊',  color:'#3498DB',  song:'Somewhere (West Side Story)',  desc:'Bluesy and longing. Common in jazz and soul.'},
-  {st:9, name:'Major 6th',   abbr:'M6', emoji:'🌅',  color:'#1CB0F6',  song:'My Bonnie Lies Over the Ocean', desc:'Warm and confident. A sweeping upward leap.'},
-  {st:8, name:'Minor 6th',   abbr:'m6', emoji:'🌙',  color:'#8E44AD',  song:'Moon River',                   desc:'Bittersweet and romantic.'},
-  {st:7, name:'Perfect 5th', abbr:'P5', emoji:'⭐',   color:'#E74C3C',  song:'Star Wars main theme',         desc:'Heroic and open. The backbone of harmony.'},
-  {st:6, name:'Tritone',     abbr:'TT', emoji:'⚡',   color:'#666677',  song:'The Simpsons theme',           desc:'Exactly halfway through the octave. Unstable and tense.'},
-  {st:5, name:'Perfect 4th', abbr:'P4', emoji:'💍',  color:'#FF9600',  song:'Here Comes the Bride',         desc:'Solemn and stable. A strong upward step.'},
-  {st:4, name:'Major 3rd',   abbr:'M3', emoji:'☀️',  color:'#F39C12',  song:'When the Saints Go Marching In',desc:'Happy and bright. The sound of a major chord.'},
-  {st:3, name:'Minor 3rd',   abbr:'m3', emoji:'🌧️', color:'#CE82FF', song:'Smoke on the Water',           desc:'Dark and moody. The sound of a minor chord.'},
-  {st:2, name:'Major 2nd',   abbr:'M2', emoji:'👣',  color:'#FF6B6B',  song:'Happy Birthday',               desc:'A whole step. Natural stepwise motion.'},
-  {st:1, name:'Minor 2nd',   abbr:'m2', emoji:'🦈',  color:'#555566',  song:'Jaws theme',                   desc:'A half step. The most tense, clashing interval.'}
+const IV=[
+  {st:12,name:'Octave',      abbr:'P8',emoji:'⬆️',color:'#58CC02',song:'Somewhere Over the Rainbow',  desc:'The same note, one octave higher.'},
+  {st:11,name:'Major 7th',   abbr:'M7',emoji:'✨',  color:'#9B59B6',song:'Bali Ha’i (South Pacific)', desc:'Almost an octave. Dreamy and unresolved.'},
+  {st:10,name:'Minor 7th',   abbr:'m7',emoji:'🌊', color:'#3498DB',song:'Somewhere (West Side Story)', desc:'Bluesy and longing. Common in jazz and soul.'},
+  {st:9, name:'Major 6th',   abbr:'M6',emoji:'🌅', color:'#1CB0F6',song:'My Bonnie Lies Over the Ocean',desc:'Warm and confident. A sweeping upward leap.'},
+  {st:8, name:'Minor 6th',   abbr:'m6',emoji:'🌙', color:'#8E44AD',song:'Moon River',                  desc:'Bittersweet and romantic.'},
+  {st:7, name:'Perfect 5th', abbr:'P5',emoji:'⭐',  color:'#E74C3C',song:'Star Wars main theme',        desc:'Heroic and open. The backbone of harmony.'},
+  {st:6, name:'Tritone',     abbr:'TT',emoji:'⚡',  color:'#666677',song:'The Simpsons theme',          desc:'Exactly halfway through the octave. Unstable and tense.'},
+  {st:5, name:'Perfect 4th', abbr:'P4',emoji:'💍', color:'#FF9600',song:'Here Comes the Bride',        desc:'Solemn and stable. A strong upward step.'},
+  {st:4, name:'Major 3rd',   abbr:'M3',emoji:'☀️', color:'#F39C12',song:'When the Saints Go Marching In',desc:'Happy and bright. The sound of a major chord.'},
+  {st:3, name:'Minor 3rd',   abbr:'m3',emoji:'🌧️',color:'#CE82FF',song:'Smoke on the Water',          desc:'Dark and moody. The sound of a minor chord.'},
+  {st:2, name:'Major 2nd',   abbr:'M2',emoji:'👣', color:'#FF6B6B',song:'Happy Birthday',              desc:'A whole step. Natural stepwise motion.'},
+  {st:1, name:'Minor 2nd',   abbr:'m2',emoji:'🦈', color:'#555566',song:'Jaws theme',                  desc:'A half step. The most tense, clashing interval.'}
 ];
 
-const S = {
-  learned: JSON.parse(localStorage.getItem('et_learned')||'[]'),
-  lessonIdx:null, mode:null, quiz:null
+const S={
+  learned:JSON.parse(localStorage.getItem('et_learned')||'[]'),
+  lessonIdx:null,mode:null,quiz:null
 };
-function save(){ localStorage.setItem('et_learned',JSON.stringify(S.learned)); }
+function save(){localStorage.setItem('et_learned',JSON.stringify(S.learned));}
 
+// AUDIO
 let actx=null,mGain=null;
 function getCtx(){
   if(!actx){actx=new(window.AudioContext||window.webkitAudioContext)();mGain=actx.createGain();mGain.gain.value=0.55;mGain.connect(actx.destination);}
@@ -308,6 +309,7 @@ function playIV(st){const root=48+Math.floor(Math.random()*17);run(ctx=>{_note(c
 function playOK(){run(ctx=>{[60,64,67,72].forEach((m,i)=>_note(ctx,m,.22,.6,i*.07));});}
 function playBad(){run(ctx=>{_note(ctx,60,.3,.45,0);_note(ctx,61,.3,.45,0);});}
 
+// NAVIGATION
 const ALL=['home','learn','quiz','complete','pitch'];
 function go(id){
   ALL.forEach(s=>document.getElementById(s).classList.toggle('on',s===id));
@@ -320,33 +322,62 @@ document.querySelectorAll('.nav-btn').forEach(b=>{
   b.addEventListener('click',()=>{run(()=>{});go(b.dataset.go);if(b.dataset.go==='home')renderHome();});
 });
 
+// HOME — build cards with DOM to avoid string escaping issues
 function renderHome(){
   const el=document.getElementById('lesson-cards');
   el.innerHTML='';
   IV.forEach((iv,i)=>{
     const done=S.learned.includes(i);
     const locked=i>0&&!S.learned.includes(i-1);
-    const div=document.createElement('div');
-    div.className='lcard'+(done?' done':'')+(locked?' locked':'');
-    const ibg=locked?'#E5E5E5':iv.color+'22';
-    const btnClass='lcard-btn'+(locked?' locked-btn':done?' review-btn':'');
-    const btnLabel=locked?'🔒':done?'Review':'Start';
-    div.innerHTML=
-      '<div class="lcard-icon" style="background:'+ibg+'">'+
-        (locked?'🔒':iv.emoji)+'</div>'+
-      '<div class="lcard-body">'+
-        '<div class="lcard-name">'+iv.name+'</div>'+
-        '<div class="lcard-sub">'+iv.st+' semitone'+(iv.st>1?'s':'')+' &middot; '+iv.abbr+'</div>'+
-        (done?'<div class="lcard-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div>':'')+
-      '</div>'+
-      '<button class="'+btnClass+'"'+(locked?' disabled':'')+' data-i="'+i+'">'+btnLabel+'</button>';
-    if(!locked) div.querySelector('.lcard-btn').addEventListener('click',()=>{run(()=>{});openLearn(i);});
-    el.appendChild(div);
+
+    const card=document.createElement('div');
+    card.className='lcard'+(done?' done':'')+(locked?' locked':'');
+
+    // Left icon: play button for unlocked, lock icon for locked
+    if(locked){
+      const icon=document.createElement('div');
+      icon.className='lcard-icon';
+      icon.textContent='🔒';
+      card.appendChild(icon);
+    } else {
+      const pb=document.createElement('button');
+      pb.className='lcard-play';
+      pb.style.background=iv.color+'22';
+      pb.innerHTML='<svg width="20" height="20" viewBox="0 0 24 24" fill="'+iv.color+'"><path d="M8 5v14l11-7z"/></svg>';
+      pb.addEventListener('click',e=>{e.stopPropagation();run(()=>{});playIV(iv.st);});
+      card.appendChild(pb);
+    }
+
+    // Body
+    const body=document.createElement('div');
+    body.className='lcard-body';
+    const nm=document.createElement('div');nm.className='lcard-name';nm.textContent=iv.name;
+    const sub=document.createElement('div');sub.className='lcard-sub';
+    sub.textContent=iv.st+' semitone'+(iv.st>1?'s':'')+' · '+iv.abbr;
+    body.appendChild(nm);body.appendChild(sub);
+    if(done){
+      const dots=document.createElement('div');dots.className='lcard-dots';
+      for(let d=0;d<3;d++){const dot=document.createElement('div');dot.className='dot filled';dots.appendChild(dot);}
+      body.appendChild(dots);
+    }
+    card.appendChild(body);
+
+    // Action button
+    const btn=document.createElement('button');
+    btn.className='lcard-btn'+(locked?' locked-btn':done?' review-btn':'');
+    if(locked){btn.disabled=true;btn.textContent='🔒';}
+    else if(done){btn.textContent='Review';}
+    else{btn.textContent='Start';}
+    btn.addEventListener('click',()=>{if(!locked){run(()=>{});openLearn(i);}});
+    card.appendChild(btn);
+
+    el.appendChild(card);
   });
   document.getElementById('prac-wrap').style.display=S.learned.length>=2?'block':'none';
   document.getElementById('prac-btn').onclick=()=>{run(()=>{});startQuiz('practice',null);};
 }
 
+// LEARN
 function openLearn(i){
   S.lessonIdx=i;
   const iv=IV[i];
@@ -363,17 +394,48 @@ document.getElementById('l-play').addEventListener('click',()=>{if(S.lessonIdx!=
 document.getElementById('learn-x').addEventListener('click',()=>{go('home');renderHome();});
 document.getElementById('l-cta').addEventListener('click',()=>startQuiz('lesson',S.lessonIdx));
 
+// QUIZ
 const Q_LEN=6;
 function shuffle(a){const b=[...a];for(let i=b.length-1;i>0;i--){const j=0|Math.random()*(i+1);[b[i],b[j]]=[b[j],b[i]];}return b;}
-function buildChoices(target){return shuffle([target,...shuffle(IV.map((_,i)=>i).filter(i=>i!==target)).slice(0,3)]);}
+
+// Build the choice pool for a lesson: [current] + [all learned], capped at 4.
+// On first lesson with nothing learned, add one random decoy.
+function lessonChoicePool(lessonIdx){
+  const pool=[...new Set([lessonIdx,...S.learned])];
+  if(pool.length<2){
+    const decoys=IV.map((_,i)=>i).filter(i=>!pool.includes(i));
+    if(decoys.length) pool.push(decoys[0|Math.random()*decoys.length]);
+  }
+  if(pool.length>4){
+    const others=shuffle(pool.filter(i=>i!==lessonIdx));
+    return [lessonIdx,...others.slice(0,3)];
+  }
+  return pool;
+}
+
 function mkQs(mode,lessonIdx){
-  if(mode==='practice'){const pool=S.learned;return Array.from({length:8},()=>{const s=pool[0|Math.random()*pool.length];return{s,choices:buildChoices(s)};});}
+  if(mode==='practice'){
+    const pool=S.learned;
+    return Array.from({length:8},()=>{
+      const s=pool[0|Math.random()*pool.length];
+      const others=shuffle(pool.filter(i=>i!==s));
+      return{s,choices:shuffle([s,...others.slice(0,3)])};
+    });
+  }
+  // Build fixed choice pool for this lesson session
+  const cp=lessonChoicePool(lessonIdx);
+  // Target pool: current lesson + all previously learned
+  const targetPool=[lessonIdx,...S.learned];
   return Array.from({length:Q_LEN},(_,qi)=>{
-    let s=lessonIdx;
-    if(qi>=4&&S.learned.length>0){const pool=[...S.learned,lessonIdx];s=pool[0|Math.random()*pool.length];}
-    return{s,choices:buildChoices(s)};
+    // First 3 questions always test the current lesson;
+    // remaining questions mix in learned intervals too
+    const s=(qi<3||S.learned.length===0)
+      ?lessonIdx
+      :targetPool[0|Math.random()*targetPool.length];
+    return{s,choices:shuffle([...cp])};
   });
 }
+
 function startQuiz(mode,lessonIdx){
   S.mode=mode;
   S.quiz={questions:mkQs(mode,lessonIdx),idx:0,hearts:3,wrong:0,correct:0,lessonIdx,answered:false};
@@ -437,6 +499,7 @@ function finish(){
 document.getElementById('comp-btn').addEventListener('click',()=>{go('home');renderHome();});
 document.getElementById('quiz-x').addEventListener('click',()=>{go('home');renderHome();});
 
+// PITCH DETECTOR
 const NOTES=['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];
 function f2midi(f){return 69+12*Math.log2(f/440);}
 function noteInfo(freq){
@@ -462,7 +525,7 @@ function pitchDetect(buf,sr){
   for(const m of mx){if(ns[m]>=thr){ch=m;break;}}
   if(ch<0)return null;
   let tau=ch;
-  if(tau>0&&tau<n-1){const a=ns[tau-1],bv=ns[tau],cv=ns[tau+1],d=2*(2*bv-a-cv);if(Math.abs(d)>1e-10)tau+=(a-cv)/d;}
+  if(tau>0&&tau<n-1){const av=ns[tau-1],bv=ns[tau],cv=ns[tau+1],d=2*(2*bv-av-cv);if(Math.abs(d)>1e-10)tau+=(av-cv)/d;}
   if(tau<1)return null;
   const freq=sr/tau;
   if(freq<60||freq>2000)return null;
