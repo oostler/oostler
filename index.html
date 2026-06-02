@@ -21,8 +21,8 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
 
 /* nav */
 #nav{display:flex;background:#fff;border-top:2px solid var(--border);height:var(--nav-h);flex-shrink:0}
-.nav-btn{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;border:none;background:none;cursor:pointer;font-family:var(--font);font-size:0.62rem;font-weight:800;color:var(--muted);letter-spacing:0.04em;text-transform:uppercase;padding-bottom:env(safe-area-inset-bottom,0)}
-.nav-btn .ni{font-size:1.5rem;line-height:1}
+.nav-btn{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;border:none;background:none;cursor:pointer;font-family:var(--font);font-size:0.6rem;font-weight:800;color:var(--muted);letter-spacing:0.04em;text-transform:uppercase;padding-bottom:env(safe-area-inset-bottom,0)}
+.nav-btn .ni{font-size:1.4rem;line-height:1}
 .nav-btn.on{color:var(--green)}
 
 /* HOME */
@@ -37,7 +37,7 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
 .lcard.done{border-color:#DAFFC2}
 .lcard.locked{opacity:.4}
 .lcard-icon{width:50px;height:50px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.6rem;flex-shrink:0;background:#E5E5E5}
-.lcard-play{width:50px;height:50px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex-shrink:0;border:none;cursor:pointer;padding-left:3px;transition:transform .1s,box-shadow .1s}
+.lcard-play{width:50px;height:50px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex-shrink:0;border:none;cursor:pointer;padding-left:3px;transition:transform .1s}
 .lcard-play:active{transform:scale(.88)}
 .lcard-body{flex:1;min-width:0}
 .lcard-name{font-size:0.95rem;font-weight:800;line-height:1.2}
@@ -96,7 +96,7 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
 .ch.bad .cn{color:var(--red-dk)}
 .ch:disabled{cursor:default}
 
-/* feedback */
+/* feedback bar */
 .fb-bar{position:fixed;bottom:var(--nav-h);left:0;right:0;max-width:480px;margin:0 auto;padding:15px 16px;transform:translateY(110%);transition:transform .26s cubic-bezier(.34,1.56,.64,1);z-index:40;border-top:3px solid transparent}
 .fb-bar.up{transform:translateY(0)}
 .fb-bar.ok-fb{background:var(--green-lt);border-color:var(--green)}
@@ -144,7 +144,7 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
 .t-needle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:15px;height:15px;border-radius:50%;background:var(--text);transition:left .07s linear}
 .t-needle.in-tune{background:var(--green);box-shadow:0 0 7px rgba(88,204,2,.6)}
 .t-needle.sharp{background:#FF9600}
-.t-needle.flat{background:var(--red)}
+.t-needle.flat{color:var(--red)}
 .t-labels{display:flex;justify-content:space-between;position:absolute;bottom:0;left:0;right:0;font-size:0.6rem;font-family:monospace;color:var(--muted)}
 .cents-lbl{font-size:0.78rem;font-family:monospace;font-weight:700;color:var(--muted);min-height:18px}
 .mic-btn{padding:13px 26px;background:var(--green);border:none;border-radius:13px;color:#fff;font-size:0.92rem;font-weight:800;cursor:pointer;font-family:var(--font);display:inline-flex;align-items:center;gap:7px;box-shadow:0 4px 0 var(--green-dk)}
@@ -155,10 +155,77 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
 @keyframes pdot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.5);opacity:.4}}
 .pitch-tip{font-size:0.8rem;font-weight:600;color:var(--muted);text-align:center;max-width:270px;line-height:1.6}
 
+/* ── LIVE TAB ── */
+#live{flex-direction:column}
+
+/* Picker */
+.live-picker{padding:18px 16px;display:flex;flex-direction:column;gap:12px}
+.live-picker-title{font-size:1.15rem;font-weight:900;letter-spacing:-.02em}
+.live-picker-sub{font-size:0.82rem;font-weight:600;color:var(--muted);margin-top:2px;line-height:1.4}
+.prog-pick-card{background:var(--card);border:2px solid var(--border);border-radius:18px;padding:16px;display:flex;align-items:center;gap:14px;cursor:pointer;transition:transform .12s,border-color .12s}
+.prog-pick-card:active{transform:scale(.98)}
+.prog-pick-card:hover{border-color:var(--green)}
+.ppcard-icon{width:54px;height:54px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.8rem;flex-shrink:0}
+.ppcard-body{flex:1}
+.ppcard-name{font-size:1rem;font-weight:800}
+.ppcard-desc{font-size:0.74rem;font-weight:600;color:var(--muted);margin-top:2px}
+.ppcard-chords{font-size:0.7rem;font-weight:700;color:var(--green);margin-top:4px;font-family:'Courier New',monospace;letter-spacing:.04em}
+.ppcard-go{padding:10px 18px;background:var(--green);border:none;border-radius:11px;color:#fff;font-size:0.82rem;font-weight:800;cursor:pointer;font-family:var(--font);box-shadow:0 3px 0 var(--green-dk);white-space:nowrap;flex-shrink:0}
+.ppcard-go:active{transform:translateY(3px);box-shadow:none}
+
+/* Game */
+.live-game-wrap{display:flex;flex-direction:column;height:100%}
+.live-hdr{display:flex;align-items:center;gap:10px;padding:12px 16px;background:#fff;border-bottom:2px solid var(--border);flex-shrink:0}
+.live-hdr-title{font-size:0.9rem;font-weight:800;flex:1;text-align:center}
+.live-hearts{font-size:0.95rem;white-space:nowrap}
+
+/* Progression chips at top */
+.prog-chips{display:flex;align-items:center;justify-content:center;gap:6px;padding:12px 16px;flex-wrap:wrap;flex-shrink:0}
+.pchip{min-width:38px;padding:5px 10px;border-radius:8px;font-size:0.8rem;font-weight:800;font-family:'Courier New',monospace;text-align:center;background:var(--border);color:var(--muted);border:2px solid transparent;transition:all .2s;flex-shrink:0}
+.pchip.active{background:#1CB0F6;color:#fff;border-color:#1098D6;transform:scale(1.1);box-shadow:0 3px 10px rgba(28,176,246,.35)}
+.pchip.correct{background:var(--green-lt);color:#2A8000;border-color:var(--green)}
+.pchip.wrong{background:var(--red-lt);color:var(--red-dk);border-color:var(--red)}
+.pchip-arrow{color:var(--muted);font-size:0.75rem;font-weight:700}
+
+/* Big chord display */
+.chord-stage{flex:0 0 auto;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:10px 16px 8px;gap:6px}
+.chord-card{width:100%;max-width:320px;background:#fff;border-radius:20px;padding:22px 20px 18px;text-align:center;box-shadow:0 3px 16px rgba(0,0,0,.08);border:3px solid var(--border);transition:border-color .2s,box-shadow .2s;position:relative;overflow:hidden}
+.chord-card.playing{border-color:#1CB0F6;box-shadow:0 4px 20px rgba(28,176,246,.25);animation:chordPop .25s ease}
+.chord-card.correct-flash{border-color:var(--green);box-shadow:0 4px 20px rgba(88,204,2,.3)}
+.chord-card.wrong-flash{border-color:var(--red);box-shadow:0 4px 20px rgba(255,75,75,.3)}
+@keyframes chordPop{0%{transform:scale(.96)}60%{transform:scale(1.02)}100%{transform:scale(1)}}
+.chord-name{font-size:3.8rem;font-weight:900;font-family:'Courier New',monospace;letter-spacing:-.04em;line-height:1}
+.chord-type{font-size:0.78rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:2px}
+.chord-from{font-size:0.8rem;font-weight:700;color:var(--muted);margin-top:6px;min-height:20px}
+
+/* Question area */
+.live-q-area{flex:1;display:flex;flex-direction:column;align-items:center;padding:8px 16px 100px;gap:8px;min-height:0}
+.live-prompt{font-size:0.95rem;font-weight:800;color:var(--muted);text-align:center;min-height:22px}
+.live-choices{display:flex;flex-direction:column;gap:7px;width:100%;max-width:360px}
+
+/* Score bar */
+.live-score-bar{display:flex;align-items:center;justify-content:space-between;padding:8px 16px 0;flex-shrink:0}
+.live-score-val{font-size:1.2rem;font-weight:900;font-family:'Courier New',monospace;color:var(--text)}
+.live-combo{font-size:0.8rem;font-weight:800;color:#FF9600;min-width:50px;text-align:right}
+
+/* Round complete overlay */
+.round-done{position:absolute;inset:0;background:rgba(247,247,247,.97);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:30px;z-index:20;border-radius:inherit}
+.round-done-emoji{font-size:4rem;animation:popIn .4s ease}
+.round-done-title{font-size:1.7rem;font-weight:900;letter-spacing:-.03em;text-align:center}
+.round-done-sub{font-size:0.9rem;font-weight:600;color:var(--muted);text-align:center}
+.round-done-btns{display:flex;gap:10px;width:100%;max-width:280px}
+.rdb{flex:1;padding:14px;border:none;border-radius:13px;font-size:0.9rem;font-weight:800;cursor:pointer;font-family:var(--font)}
+.rdb.primary{background:var(--green);color:#fff;box-shadow:0 4px 0 var(--green-dk)}
+.rdb.primary:active{transform:translateY(4px);box-shadow:none}
+.rdb.secondary{background:#fff;color:var(--text);border:2px solid var(--border)}
+
+/* animations */
 @keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-7px)}40%{transform:translateX(7px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
 .shake{animation:shake .33s ease}
 @keyframes pop{0%{transform:scale(1)}50%{transform:scale(1.05)}100%{transform:scale(1)}}
 .pop{animation:pop .22s ease}
+@keyframes scoreUp{0%{transform:translateY(0);opacity:1}100%{transform:translateY(-30px);opacity:0}}
+.score-pop{position:absolute;top:10px;right:12px;font-size:1rem;font-weight:900;color:var(--green);animation:scoreUp .8s ease forwards;pointer-events:none}
 </style>
 </head>
 <body>
@@ -257,13 +324,65 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
   <p class="pitch-tip">Sing or play into your microphone. Green means in tune (within 10 cents).</p>
 </div>
 
+<!-- LIVE TAB -->
+<div id="live" class="screen">
+  <!-- Picker shown initially -->
+  <div id="live-picker" class="live-picker">
+    <div>
+      <div class="live-picker-title">&#127911; Chord Detective</div>
+      <div class="live-picker-sub">A progression plays. Identify each root movement by ear.</div>
+    </div>
+    <div id="prog-pick-list"></div>
+  </div>
+
+  <!-- Game area (hidden until song chosen) -->
+  <div id="live-game-wrap" class="live-game-wrap" style="display:none;position:relative">
+    <div class="live-hdr">
+      <button class="x-btn" id="live-x">&#10005;</button>
+      <div class="live-hdr-title" id="live-hdr-title"></div>
+      <div class="live-hearts" id="live-hearts">&#10084;&#65039;&#10084;&#65039;&#10084;&#65039;</div>
+    </div>
+    <div class="prog-chips" id="prog-chips"></div>
+    <div class="live-score-bar">
+      <div style="font-size:0.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)">Score</div>
+      <div class="live-combo" id="live-combo"></div>
+    </div>
+    <div style="display:flex;justify-content:center;padding:0 16px 4px">
+      <div class="live-score-val" id="live-score-val">0</div>
+    </div>
+    <div class="chord-stage">
+      <div class="chord-card" id="chord-card">
+        <div class="chord-name" id="chord-name">&mdash;</div>
+        <div class="chord-type" id="chord-type"></div>
+        <div class="chord-from" id="chord-from"></div>
+      </div>
+    </div>
+    <div class="live-q-area">
+      <div class="live-prompt" id="live-prompt"></div>
+      <div class="live-choices" id="live-choices"></div>
+    </div>
+    <!-- Round done overlay -->
+    <div id="round-done" class="round-done" style="display:none">
+      <div class="round-done-emoji" id="rd-emoji">🏆</div>
+      <div class="round-done-title" id="rd-title">Round Complete!</div>
+      <div class="round-done-sub" id="rd-sub"></div>
+      <div class="round-done-btns">
+        <button class="rdb secondary" id="rd-back">Back</button>
+        <button class="rdb primary" id="rd-again">Play Again</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <nav id="nav">
   <button class="nav-btn on" data-go="home"><span class="ni">&#127919;</span>Learn</button>
+  <button class="nav-btn" data-go="live"><span class="ni">&#127911;</span>Live</button>
   <button class="nav-btn" data-go="pitch"><span class="ni">&#127908;</span>Pitch</button>
 </nav>
 
 </div>
 <script>
+// ── INTERVAL DATA ──────────────────────────────────────────────────────────
 const IV=[
   {st:12,name:'Octave',      abbr:'P8',emoji:'⬆️',color:'#58CC02',song:'Somewhere Over the Rainbow',  desc:'The same note, one octave higher.'},
   {st:11,name:'Major 7th',   abbr:'M7',emoji:'✨',  color:'#9B59B6',song:'Bali Ha’i (South Pacific)', desc:'Almost an octave. Dreamy and unresolved.'},
@@ -278,14 +397,63 @@ const IV=[
   {st:2, name:'Major 2nd',   abbr:'M2',emoji:'👣', color:'#FF6B6B',song:'Happy Birthday',              desc:'A whole step. Natural stepwise motion.'},
   {st:1, name:'Minor 2nd',   abbr:'m2',emoji:'🦈', color:'#555566',song:'Jaws theme',                  desc:'A half step. The most tense, clashing interval.'}
 ];
+// Map semitones → IV index
+const ST_TO_IV={};
+IV.forEach((iv,i)=>{ ST_TO_IV[iv.st]=i; });
 
+// ── CHORD PROGRESSIONS ─────────────────────────────────────────────────────
+// Each chord: label, rootSt (semitones from tonic), type string, notes (intervals within chord)
+const PROGS=[
+  {id:'rock',   name:'Classic Rock',  emoji:'🎸', color:'#E74C3C', bpm:72,  rootMidi:60,
+   desc:'The foundation of rock and pop music.',
+   chords:[
+     {label:'C', rootSt:0, type:'major',  notes:[0,4,7]},
+     {label:'F', rootSt:5, type:'major',  notes:[0,4,7]},
+     {label:'G', rootSt:7, type:'major',  notes:[0,4,7]},
+     {label:'C', rootSt:0, type:'major',  notes:[0,4,7]},
+   ]},
+  {id:'fifties',name:'50s Doo-Wop',   emoji:'🎤', color:'#FF9600', bpm:80,  rootMidi:60,
+   desc:'Timeless. Heard in hundreds of hits.',
+   chords:[
+     {label:'C',  rootSt:0, type:'major',  notes:[0,4,7]},
+     {label:'Am', rootSt:9, type:'minor',  notes:[0,3,7]},
+     {label:'F',  rootSt:5, type:'major',  notes:[0,4,7]},
+     {label:'G',  rootSt:7, type:'major',  notes:[0,4,7]},
+   ]},
+  {id:'pop',    name:'Modern Pop',    emoji:'✨',  color:'#9B59B6', bpm:85,  rootMidi:60,
+   desc:'I-V-vi-IV — behind thousands of pop songs.',
+   chords:[
+     {label:'C',  rootSt:0, type:'major',  notes:[0,4,7]},
+     {label:'G',  rootSt:7, type:'major',  notes:[0,4,7]},
+     {label:'Am', rootSt:9, type:'minor',  notes:[0,3,7]},
+     {label:'F',  rootSt:5, type:'major',  notes:[0,4,7]},
+   ]},
+  {id:'blues',  name:'12-Bar Blues',  emoji:'🎷', color:'#3498DB', bpm:68,  rootMidi:60,
+   desc:'The heartbeat of blues, jazz, and rock.',
+   chords:[
+     {label:'C7', rootSt:0, type:'dom 7',  notes:[0,4,7,10]},
+     {label:'C7', rootSt:0, type:'dom 7',  notes:[0,4,7,10]},
+     {label:'C7', rootSt:0, type:'dom 7',  notes:[0,4,7,10]},
+     {label:'C7', rootSt:0, type:'dom 7',  notes:[0,4,7,10]},
+     {label:'F7', rootSt:5, type:'dom 7',  notes:[0,4,7,10]},
+     {label:'F7', rootSt:5, type:'dom 7',  notes:[0,4,7,10]},
+     {label:'C7', rootSt:0, type:'dom 7',  notes:[0,4,7,10]},
+     {label:'C7', rootSt:0, type:'dom 7',  notes:[0,4,7,10]},
+     {label:'G7', rootSt:7, type:'dom 7',  notes:[0,4,7,10]},
+     {label:'F7', rootSt:5, type:'dom 7',  notes:[0,4,7,10]},
+     {label:'C7', rootSt:0, type:'dom 7',  notes:[0,4,7,10]},
+     {label:'G7', rootSt:7, type:'dom 7',  notes:[0,4,7,10]},
+   ]},
+];
+
+// ── APP STATE ──────────────────────────────────────────────────────────────
 const S={
   learned:JSON.parse(localStorage.getItem('et_learned')||'[]'),
-  lessonIdx:null,mode:null,quiz:null
+  lessonIdx:null, mode:null, quiz:null
 };
 function save(){localStorage.setItem('et_learned',JSON.stringify(S.learned));}
 
-// AUDIO
+// ── AUDIO ──────────────────────────────────────────────────────────────────
 let actx=null,mGain=null;
 function getCtx(){
   if(!actx){actx=new(window.AudioContext||window.webkitAudioContext)();mGain=actx.createGain();mGain.gain.value=0.55;mGain.connect(actx.destination);}
@@ -306,63 +474,52 @@ function _note(ctx,midi,dur,vel,delay){
   o1.start(t);o2.start(t);o1.stop(t+d+.32);o2.stop(t+d+.32);
 }
 function playIV(st){const root=48+Math.floor(Math.random()*17);run(ctx=>{_note(ctx,root,1.2,.75,0);_note(ctx,root+st,1.2,.75,1.2);});}
+function playChord(rootMidi,notes,dur){run(ctx=>{notes.forEach((n,i)=>_note(ctx,rootMidi+n,dur,.6,i*.015));});}
 function playOK(){run(ctx=>{[60,64,67,72].forEach((m,i)=>_note(ctx,m,.22,.6,i*.07));});}
 function playBad(){run(ctx=>{_note(ctx,60,.3,.45,0);_note(ctx,61,.3,.45,0);});}
 
-// NAVIGATION
-const ALL=['home','learn','quiz','complete','pitch'];
+// ── NAVIGATION ─────────────────────────────────────────────────────────────
+const ALL_SCREENS=['home','learn','quiz','complete','pitch','live'];
 function go(id){
-  ALL.forEach(s=>document.getElementById(s).classList.toggle('on',s===id));
+  ALL_SCREENS.forEach(s=>document.getElementById(s).classList.toggle('on',s===id));
   document.querySelectorAll('.nav-btn').forEach(b=>b.classList.toggle('on',b.dataset.go===id));
-  const noNav=id==='learn'||id==='quiz'||id==='complete';
+  const noNav=['learn','quiz','complete'].includes(id);
   document.getElementById('nav').style.display=noNav?'none':'flex';
   document.getElementById('fb-bar').style.bottom=noNav?'0':'var(--nav-h)';
 }
 document.querySelectorAll('.nav-btn').forEach(b=>{
-  b.addEventListener('click',()=>{run(()=>{});go(b.dataset.go);if(b.dataset.go==='home')renderHome();});
+  b.addEventListener('click',()=>{
+    run(()=>{});
+    const dest=b.dataset.go;
+    go(dest);
+    if(dest==='home')renderHome();
+    if(dest==='live'){showLivePicker();}
+  });
 });
 
-// HOME — build cards with DOM to avoid string escaping issues
+// ── HOME ───────────────────────────────────────────────────────────────────
 function renderHome(){
   const el=document.getElementById('lesson-cards');
   el.innerHTML='';
   IV.forEach((iv,i)=>{
     const done=S.learned.includes(i);
     const locked=i>0&&!S.learned.includes(i-1);
-
     const card=document.createElement('div');
     card.className='lcard'+(done?' done':'')+(locked?' locked':'');
-
-    // Left icon: play button for unlocked, lock icon for locked
     if(locked){
-      const icon=document.createElement('div');
-      icon.className='lcard-icon';
-      icon.textContent='🔒';
-      card.appendChild(icon);
+      const icon=document.createElement('div');icon.className='lcard-icon';icon.textContent='🔒';card.appendChild(icon);
     } else {
-      const pb=document.createElement('button');
-      pb.className='lcard-play';
-      pb.style.background=iv.color+'22';
+      const pb=document.createElement('button');pb.className='lcard-play';pb.style.background=iv.color+'22';
       pb.innerHTML='<svg width="20" height="20" viewBox="0 0 24 24" fill="'+iv.color+'"><path d="M8 5v14l11-7z"/></svg>';
       pb.addEventListener('click',e=>{e.stopPropagation();run(()=>{});playIV(iv.st);});
       card.appendChild(pb);
     }
-
-    // Body
-    const body=document.createElement('div');
-    body.className='lcard-body';
+    const body=document.createElement('div');body.className='lcard-body';
     const nm=document.createElement('div');nm.className='lcard-name';nm.textContent=iv.name;
-    const sub=document.createElement('div');sub.className='lcard-sub';
-    sub.textContent=iv.st+' semitone'+(iv.st>1?'s':'')+' · '+iv.abbr;
+    const sub=document.createElement('div');sub.className='lcard-sub';sub.textContent=iv.st+' semitone'+(iv.st>1?'s':'')+' · '+iv.abbr;
     body.appendChild(nm);body.appendChild(sub);
-    if(done){
-      const dots=document.createElement('div');dots.className='lcard-dots';
-      for(let d=0;d<3;d++){const dot=document.createElement('div');dot.className='dot filled';dots.appendChild(dot);}
-      body.appendChild(dots);
-    }
+    if(done){const dots=document.createElement('div');dots.className='lcard-dots';for(let d=0;d<3;d++){const dot=document.createElement('div');dot.className='dot filled';dots.appendChild(dot);}body.appendChild(dots);}
     card.appendChild(body);
-
-    // Action button
     const btn=document.createElement('button');
     btn.className='lcard-btn'+(locked?' locked-btn':done?' review-btn':'');
     if(locked){btn.disabled=true;btn.textContent='🔒';}
@@ -370,17 +527,15 @@ function renderHome(){
     else{btn.textContent='Start';}
     btn.addEventListener('click',()=>{if(!locked){run(()=>{});openLearn(i);}});
     card.appendChild(btn);
-
     el.appendChild(card);
   });
   document.getElementById('prac-wrap').style.display=S.learned.length>=2?'block':'none';
   document.getElementById('prac-btn').onclick=()=>{run(()=>{});startQuiz('practice',null);};
 }
 
-// LEARN
+// ── LEARN ──────────────────────────────────────────────────────────────────
 function openLearn(i){
-  S.lessonIdx=i;
-  const iv=IV[i];
+  S.lessonIdx=i;const iv=IV[i];
   document.getElementById('learn-num').textContent='Interval '+(i+1)+' of '+IV.length;
   document.getElementById('l-emoji').textContent=iv.emoji;
   document.getElementById('l-name').textContent=iv.name;
@@ -394,68 +549,41 @@ document.getElementById('l-play').addEventListener('click',()=>{if(S.lessonIdx!=
 document.getElementById('learn-x').addEventListener('click',()=>{go('home');renderHome();});
 document.getElementById('l-cta').addEventListener('click',()=>startQuiz('lesson',S.lessonIdx));
 
-// QUIZ
+// ── QUIZ ───────────────────────────────────────────────────────────────────
 const Q_LEN=6;
 function shuffle(a){const b=[...a];for(let i=b.length-1;i>0;i--){const j=0|Math.random()*(i+1);[b[i],b[j]]=[b[j],b[i]];}return b;}
-
-// Build the choice pool for a lesson: [current] + [all learned], capped at 4.
-// On first lesson with nothing learned, add one random decoy.
 function lessonChoicePool(lessonIdx){
   const pool=[...new Set([lessonIdx,...S.learned])];
-  if(pool.length<2){
-    const decoys=IV.map((_,i)=>i).filter(i=>!pool.includes(i));
-    if(decoys.length) pool.push(decoys[0|Math.random()*decoys.length]);
-  }
-  if(pool.length>4){
-    const others=shuffle(pool.filter(i=>i!==lessonIdx));
-    return [lessonIdx,...others.slice(0,3)];
-  }
+  if(pool.length<2){const d=IV.map((_,i)=>i).filter(i=>!pool.includes(i));if(d.length)pool.push(d[0|Math.random()*d.length]);}
+  if(pool.length>4){const oth=shuffle(pool.filter(i=>i!==lessonIdx));return[lessonIdx,...oth.slice(0,3)];}
   return pool;
 }
-
 function mkQs(mode,lessonIdx){
   if(mode==='practice'){
     const pool=S.learned;
-    return Array.from({length:8},()=>{
-      const s=pool[0|Math.random()*pool.length];
-      const others=shuffle(pool.filter(i=>i!==s));
-      return{s,choices:shuffle([s,...others.slice(0,3)])};
-    });
+    return Array.from({length:8},()=>{const s=pool[0|Math.random()*pool.length];const oth=shuffle(pool.filter(i=>i!==s));return{s,choices:shuffle([s,...oth.slice(0,3)])};});
   }
-  // Build fixed choice pool for this lesson session
   const cp=lessonChoicePool(lessonIdx);
-  // Target pool: current lesson + all previously learned
-  const targetPool=[lessonIdx,...S.learned];
+  const tp=[lessonIdx,...S.learned];
   return Array.from({length:Q_LEN},(_,qi)=>{
-    // First 3 questions always test the current lesson;
-    // remaining questions mix in learned intervals too
-    const s=(qi<3||S.learned.length===0)
-      ?lessonIdx
-      :targetPool[0|Math.random()*targetPool.length];
+    const s=(qi<3||S.learned.length===0)?lessonIdx:tp[0|Math.random()*tp.length];
     return{s,choices:shuffle([...cp])};
   });
 }
-
 function startQuiz(mode,lessonIdx){
-  S.mode=mode;
-  S.quiz={questions:mkQs(mode,lessonIdx),idx:0,hearts:3,wrong:0,correct:0,lessonIdx,answered:false};
-  go('quiz');
-  renderQ();
+  S.mode=mode;S.quiz={questions:mkQs(mode,lessonIdx),idx:0,hearts:3,wrong:0,correct:0,lessonIdx,answered:false};
+  go('quiz');renderQ();
 }
 function renderQ(){
-  const q=S.quiz,qq=q.questions[q.idx];
-  q.answered=false;
+  const q=S.quiz,qq=q.questions[q.idx];q.answered=false;
   document.getElementById('hbar-fill').style.width=(q.idx/q.questions.length*100)+'%';
-  document.getElementById('hearts').textContent='❤️'.repeat(q.hearts)+'👻'.repeat(3-q.hearts);
+  document.getElementById('hearts').textContent='❤️'.repeat(q.hearts)+'🖤'.repeat(3-q.hearts);
   document.getElementById('q-play').onclick=()=>playIV(IV[qq.s].st);
-  const cw=document.getElementById('choices');
-  cw.innerHTML='';
+  const cw=document.getElementById('choices');cw.innerHTML='';
   qq.choices.forEach(ci=>{
-    const iv=IV[ci],btn=document.createElement('button');
-    btn.className='ch';btn.dataset.ci=ci;
+    const iv=IV[ci],btn=document.createElement('button');btn.className='ch';btn.dataset.ci=ci;
     btn.innerHTML='<span class="ci">'+iv.emoji+'</span><span class="cn">'+iv.name+' ('+iv.st+' semitone'+(iv.st>1?'s':'')+')</span>';
-    btn.addEventListener('click',()=>onAns(ci));
-    cw.appendChild(btn);
+    btn.addEventListener('click',()=>onAns(ci));cw.appendChild(btn);
   });
   document.getElementById('fb-bar').classList.remove('up','ok-fb','bad-fb');
   setTimeout(()=>playIV(IV[qq.s].st),450);
@@ -464,34 +592,27 @@ function onAns(ci){
   const q=S.quiz;if(q.answered)return;q.answered=true;
   const qq=q.questions[q.idx],ok=(ci===qq.s);
   document.getElementById('choices').querySelectorAll('.ch').forEach(b=>{
-    b.disabled=true;
-    const i=+b.dataset.ci;
-    if(i===qq.s)b.classList.add('ok');
-    else if(i===ci&&!ok)b.classList.add('bad');
+    b.disabled=true;const i=+b.dataset.ci;
+    if(i===qq.s)b.classList.add('ok');else if(i===ci&&!ok)b.classList.add('bad');
   });
   if(ok){q.correct++;playOK();document.getElementById('choices').querySelector('.ch.ok').classList.add('pop');}
   else{q.wrong++;q.hearts--;playBad();document.getElementById('choices').querySelector('.ch.bad')?.classList.add('shake');}
-  const fb=document.getElementById('fb-bar');
-  fb.classList.remove('ok-fb','bad-fb');
-  fb.classList.add(ok?'ok-fb':'bad-fb');
+  const fb=document.getElementById('fb-bar');fb.classList.remove('ok-fb','bad-fb');fb.classList.add(ok?'ok-fb':'bad-fb');
   document.getElementById('fb-ico').textContent=ok?'✅':'❌';
   document.getElementById('fb-title').textContent=ok?'Correct!':'Correct answer:';
   document.getElementById('fb-sub').textContent=IV[qq.s].name+' ('+IV[qq.s].st+' semitones)'+(IV[qq.s].song?' · '+IV[qq.s].song:'');
   fb.classList.add('up');
 }
-document.getElementById('fb-cont').addEventListener('click',advance);
-function advance(){
+document.getElementById('fb-cont').addEventListener('click',advanceQuiz);
+function advanceQuiz(){
   document.getElementById('fb-bar').classList.remove('up');
-  const q=S.quiz;
-  q.idx++;
-  if(q.idx>=q.questions.length||q.hearts<=0)finish();
-  else renderQ();
+  const q=S.quiz;q.idx++;
+  if(q.idx>=q.questions.length||q.hearts<=0)finishQuiz();else renderQ();
 }
-function finish(){
+function finishQuiz(){
   const q=S.quiz,acc=Math.round(q.correct/q.questions.length*100);
   if(S.mode==='lesson'&&!S.learned.includes(q.lessonIdx))S.learned.push(q.lessonIdx);
-  save();
-  go('complete');
+  save();go('complete');
   document.getElementById('comp-emoji').textContent=q.wrong===0?'🏆':'🎉';
   document.getElementById('comp-sub').textContent=S.mode==='lesson'?'You learned the '+IV[q.lessonIdx].name+'!':'Great practice session!';
   document.getElementById('cv-acc').textContent=acc+'%';
@@ -499,7 +620,238 @@ function finish(){
 document.getElementById('comp-btn').addEventListener('click',()=>{go('home');renderHome();});
 document.getElementById('quiz-x').addEventListener('click',()=>{go('home');renderHome();});
 
-// PITCH DETECTOR
+// ── LIVE GAME ──────────────────────────────────────────────────────────────
+let LG=null; // live game state
+
+function showLivePicker(){
+  document.getElementById('live-picker').style.display='flex';
+  document.getElementById('live-game-wrap').style.display='none';
+  const list=document.getElementById('prog-pick-list');
+  list.innerHTML='';
+  list.style.cssText='display:flex;flex-direction:column;gap:10px';
+  PROGS.forEach(p=>{
+    const card=document.createElement('div');card.className='prog-pick-card';
+    const icon=document.createElement('div');icon.className='ppcard-icon';
+    icon.style.background=p.color+'22';icon.textContent=p.emoji;
+    const body=document.createElement('div');body.className='ppcard-body';
+    const nm=document.createElement('div');nm.className='ppcard-name';nm.textContent=p.name;
+    const desc=document.createElement('div');desc.className='ppcard-desc';desc.textContent=p.desc;
+    const chordStr=p.chords.map(c=>c.label).join(' → ');
+    const ch=document.createElement('div');ch.className='ppcard-chords';ch.textContent=chordStr;
+    body.appendChild(nm);body.appendChild(desc);body.appendChild(ch);
+    const go_btn=document.createElement('button');go_btn.className='ppcard-go';go_btn.textContent='Play';
+    go_btn.addEventListener('click',()=>{run(()=>{});startLiveGame(p.id);});
+    card.appendChild(icon);card.appendChild(body);card.appendChild(go_btn);
+    list.appendChild(card);
+  });
+}
+
+function startLiveGame(progId){
+  const prog=PROGS.find(p=>p.id===progId);
+  LG={prog,chordIdx:0,score:0,hearts:3,combo:0,correct:0,total:0,answered:false,phase:'playing'};
+  document.getElementById('live-picker').style.display='none';
+  document.getElementById('live-game-wrap').style.display='flex';
+  document.getElementById('live-game-wrap').style.flexDirection='column';
+  document.getElementById('live-game-wrap').style.height='100%';
+  document.getElementById('live-hdr-title').textContent=prog.emoji+' '+prog.name;
+  document.getElementById('round-done').style.display='none';
+  renderChips();
+  updateLiveScore();
+  playLiveChord(0);
+}
+
+function renderChips(){
+  const el=document.getElementById('prog-chips');el.innerHTML='';
+  LG.prog.chords.forEach((c,i)=>{
+    if(i>0){const arr=document.createElement('span');arr.className='pchip-arrow';arr.textContent='→';el.appendChild(arr);}
+    const chip=document.createElement('div');chip.className='pchip';chip.id='chip-'+i;chip.textContent=c.label;
+    el.appendChild(chip);
+  });
+  updateChip(0);
+}
+
+function updateChip(idx){
+  LG.prog.chords.forEach((_,i)=>{
+    const chip=document.getElementById('chip-'+i);if(!chip)return;
+    chip.classList.remove('active','correct','wrong');
+    if(i===idx)chip.classList.add('active');
+  });
+}
+
+function markChip(idx,ok){
+  const chip=document.getElementById('chip-'+idx);if(!chip)return;
+  chip.classList.remove('active');chip.classList.add(ok?'correct':'wrong');
+}
+
+function updateLiveScore(){
+  document.getElementById('live-score-val').textContent=LG.score;
+  document.getElementById('live-hearts').textContent='❤️'.repeat(LG.hearts)+'🖤'.repeat(3-LG.hearts);
+  document.getElementById('live-combo').textContent=LG.combo>=2?'🔥 ×'+LG.combo+' combo':'';
+}
+
+function playLiveChord(idx){
+  if(!LG)return;
+  LG.chordIdx=idx;LG.answered=false;LG.phase='playing';
+  const prog=LG.prog;const chord=prog.chords[idx];
+  const rootMidi=prog.rootMidi+chord.st;
+  const beatDur=(60/prog.bpm)*1.8;
+  playChord(rootMidi,chord.notes,beatDur);
+  updateChip(idx);
+  // Show chord card
+  const card=document.getElementById('chord-card');
+  card.classList.remove('correct-flash','wrong-flash');
+  card.classList.add('playing');
+  setTimeout(()=>card.classList.remove('playing'),400);
+  document.getElementById('chord-name').textContent=chord.label;
+  document.getElementById('chord-type').textContent=chord.type;
+  // Show where we came from
+  const fromEl=document.getElementById('chord-from');
+  if(idx===0){fromEl.textContent='Tonic — listen carefully';document.getElementById('live-prompt').textContent='';}
+  else{
+    const prev=prog.chords[idx-1];
+    fromEl.textContent='from '+prev.label+' →';
+  }
+  // Clear choices
+  document.getElementById('live-choices').innerHTML='';
+  document.getElementById('live-prompt').textContent='';
+  // After chord plays, show question
+  const waitMs=(beatDur+0.1)*1000;
+  setTimeout(()=>{
+    if(LG&&LG.chordIdx===idx&&LG.phase==='playing'){
+      if(idx===0){
+        // First chord: no question, wait then advance
+        setTimeout(()=>{if(LG&&LG.phase==='playing')playLiveChord(1);},600);
+      } else {
+        showLiveQuestion(idx);
+      }
+    }
+  },waitMs);
+}
+
+function showLiveQuestion(idx){
+  if(!LG)return;
+  LG.phase='question';
+  const prog=LG.prog;
+  const prevChord=prog.chords[idx-1];
+  const currChord=prog.chords[idx];
+  const intervalSt=(currChord.rootSt-prevChord.rootSt+12)%12;
+  // Store correct answer on LG
+  LG.currentIntervalSt=intervalSt;
+  document.getElementById('live-prompt').textContent=prevChord.label+' → '+currChord.label+': what interval?';
+  // Build choices: correct + 3 distractors
+  const choices=buildLiveChoices(intervalSt);
+  renderLiveChoices(choices,intervalSt);
+}
+
+function buildLiveChoices(correctSt){
+  // All usable intervals (exclude 0 and 12 octave for root movements, use 1-11)
+  // Prefer intervals that appear in the current progression
+  const prog=LG.prog;
+  const progIntervals=new Set();
+  for(let i=1;i<prog.chords.length;i++){
+    progIntervals.add((prog.chords[i].rootSt-prog.chords[i-1].rootSt+12)%12);
+  }
+  // Pool: correct + other prog intervals + fill with nearby
+  let pool=[correctSt];
+  progIntervals.forEach(st=>{if(st!==correctSt&&st>0&&st<12)pool.push(st);});
+  // Fill with nearby intervals if needed
+  if(pool.length<4){
+    const nearby=[1,2,3,4,5,6,7,8,9,10,11].filter(st=>!pool.includes(st));
+    shuffle(nearby).forEach(st=>{if(pool.length<6)pool.push(st);});
+  }
+  // Pick 4: correct + 3 others
+  const others=shuffle(pool.filter(st=>st!==correctSt));
+  return shuffle([correctSt,...others.slice(0,3)]);
+}
+
+function renderLiveChoices(choices,correctSt){
+  const el=document.getElementById('live-choices');el.innerHTML='';
+  choices.forEach(st=>{
+    const ivIdx=ST_TO_IV[st];
+    const iv=ivIdx!==undefined?IV[ivIdx]:null;
+    const btn=document.createElement('button');btn.className='ch';
+    btn.innerHTML='<span class="ci">'+(iv?iv.emoji:'🎵')+'</span>'
+      +'<span class="cn">'+(iv?iv.name:'?')+' ('+st+' semitone'+(st>1?'s':'')+')</span>';
+    btn.addEventListener('click',()=>onLiveAns(st,correctSt));
+    el.appendChild(btn);
+  });
+}
+
+function onLiveAns(chosen,correct){
+  if(!LG||LG.phase!=='question')return;
+  LG.phase='feedback';LG.total++;
+  const ok=(chosen===correct);
+  // Color the buttons
+  document.getElementById('live-choices').querySelectorAll('.ch').forEach(b=>{
+    b.disabled=true;
+    const st=parseInt(b.querySelector('.cn').textContent.match(/\((\d+)/)[1]);
+    if(st===correct)b.classList.add('ok');
+    else if(st===chosen&&!ok)b.classList.add('bad');
+  });
+  const card=document.getElementById('chord-card');
+  if(ok){
+    LG.correct++;LG.combo++;
+    const pts=10*(LG.combo>=3?3:LG.combo>=2?2:1);
+    LG.score+=pts;
+    playOK();
+    card.classList.add('correct-flash');
+    markChip(LG.chordIdx,true);
+    // Floating score popup
+    const pop=document.createElement('div');pop.className='score-pop';pop.textContent='+'+pts;
+    card.appendChild(pop);setTimeout(()=>pop.remove(),900);
+  } else {
+    LG.hearts--;LG.combo=0;
+    playBad();
+    card.classList.add('wrong-flash');
+    markChip(LG.chordIdx,false);
+    const wrongBtn=document.getElementById('live-choices').querySelector('.ch.bad');
+    if(wrongBtn)wrongBtn.classList.add('shake');
+    // Re-play the correct interval sound to teach
+    const correctIvIdx=ST_TO_IV[correct];
+    if(correctIvIdx!==undefined){
+      const rootMidi=LG.prog.rootMidi+LG.prog.chords[LG.chordIdx-1].rootSt;
+      setTimeout(()=>run(ctx=>{_note(ctx,rootMidi,0.8,.6,0);_note(ctx,rootMidi+correct,0.8,.6,0.85);}),400);
+    }
+  }
+  updateLiveScore();
+  // Check hearts
+  if(LG.hearts<=0){
+    setTimeout(()=>showRoundDone(false),1400);
+    return;
+  }
+  // Advance to next chord after delay
+  const nextIdx=LG.chordIdx+1;
+  setTimeout(()=>{
+    if(!LG)return;
+    card.classList.remove('correct-flash','wrong-flash');
+    if(nextIdx>=LG.prog.chords.length){
+      showRoundDone(true);
+    } else {
+      playLiveChord(nextIdx);
+    }
+  },1400);
+}
+
+function showRoundDone(completed){
+  if(!LG)return;
+  const acc=LG.total>0?Math.round(LG.correct/LG.total*100):0;
+  document.getElementById('round-done').style.display='flex';
+  document.getElementById('rd-emoji').textContent=completed?(acc===100?'🏆':'🎉'):'💔';
+  document.getElementById('rd-title').textContent=completed?'Round Complete!':'Out of Hearts';
+  document.getElementById('rd-sub').textContent=LG.correct+'/'+LG.total+' correct · '+acc+'% · Score: '+LG.score;
+}
+
+document.getElementById('rd-again').addEventListener('click',()=>{
+  if(LG){const id=LG.prog.id;LG=null;startLiveGame(id);}
+});
+document.getElementById('rd-back').addEventListener('click',()=>{
+  LG=null;showLivePicker();
+});
+document.getElementById('live-x').addEventListener('click',()=>{
+  LG=null;showLivePicker();
+});
+
+// ── PITCH DETECTOR ─────────────────────────────────────────────────────────
 const NOTES=['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];
 function f2midi(f){return 69+12*Math.log2(f/440);}
 function noteInfo(freq){
@@ -527,8 +879,7 @@ function pitchDetect(buf,sr){
   let tau=ch;
   if(tau>0&&tau<n-1){const av=ns[tau-1],bv=ns[tau],cv=ns[tau+1],d=2*(2*bv-av-cv);if(Math.abs(d)>1e-10)tau+=(av-cv)/d;}
   if(tau<1)return null;
-  const freq=sr/tau;
-  if(freq<60||freq>2000)return null;
+  const freq=sr/tau;if(freq<60||freq>2000)return null;
   return{freq,clarity:ns[ch]};
 }
 let micOn=false,micStream=null,micAn=null,micRaf=null,micSR=44100,smFreq=null;
@@ -541,15 +892,13 @@ async function startMic(){
 }
 function micLoop(){
   if(!micOn)return;
-  const buf=new Float32Array(micAn.fftSize);
-  micAn.getFloatTimeDomainData(buf);
+  const buf=new Float32Array(micAn.fftSize);micAn.getFloatTimeDomainData(buf);
   const res=pitchDetect(buf,micSR);
   if(res){
     if(!smFreq)smFreq=res.freq;else{const r=res.freq/smFreq;smFreq=(r>.83&&r<1.2)?.85*smFreq+.15*res.freq:res.freq;}
     const info=noteInfo(smFreq);
     if(info){
-      const nd=document.getElementById('note-big');
-      nd.textContent=info.note+info.oct;
+      const nd=document.getElementById('note-big');nd.textContent=info.note+info.oct;
       document.getElementById('freq-lbl').textContent=info.freq.toFixed(1)+' Hz';
       const pct=50+(info.cents/100)*50,needle=document.getElementById('t-needle');
       needle.style.left=Math.max(2,Math.min(98,pct))+'%';
@@ -559,12 +908,9 @@ function micLoop(){
     }
   }else{
     smFreq=null;
-    document.getElementById('note-big').textContent='—';
-    document.getElementById('note-big').className='note-big silent';
-    document.getElementById('t-needle').style.left='50%';
-    document.getElementById('t-needle').className='t-needle';
-    document.getElementById('freq-lbl').textContent='';
-    document.getElementById('cents-lbl').textContent='';
+    document.getElementById('note-big').textContent='—';document.getElementById('note-big').className='note-big silent';
+    document.getElementById('t-needle').style.left='50%';document.getElementById('t-needle').className='t-needle';
+    document.getElementById('freq-lbl').textContent='';document.getElementById('cents-lbl').textContent='';
   }
   micRaf=requestAnimationFrame(micLoop);
 }
@@ -575,17 +921,14 @@ document.getElementById('mic-btn').addEventListener('click',async function(){
     try{await startMic();this.classList.add('rec');this.innerHTML='<span class="mic-dot"></span>Stop Listening';}
     catch(e){alert('Microphone access denied.');}
   }else{
-    stopMic();this.classList.remove('rec');
-    this.innerHTML='<span class="mic-dot"></span>Start Listening';
-    document.getElementById('note-big').textContent='—';
-    document.getElementById('note-big').className='note-big silent';
-    document.getElementById('freq-lbl').textContent='';
-    document.getElementById('cents-lbl').textContent='';
-    document.getElementById('t-needle').style.left='50%';
-    document.getElementById('t-needle').className='t-needle';
+    stopMic();this.classList.remove('rec');this.innerHTML='<span class="mic-dot"></span>Start Listening';
+    document.getElementById('note-big').textContent='—';document.getElementById('note-big').className='note-big silent';
+    document.getElementById('freq-lbl').textContent='';document.getElementById('cents-lbl').textContent='';
+    document.getElementById('t-needle').style.left='50%';document.getElementById('t-needle').className='t-needle';
   }
 });
 
+// ── INIT ───────────────────────────────────────────────────────────────────
 renderHome();
 go('home');
 </script>
