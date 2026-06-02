@@ -821,14 +821,17 @@ function onLiveAns(chosen,correct){
     setTimeout(()=>{if(LG)replayCurrentPair();},600);
   }
   updateLiveScore();
-  if(LG.hearts<=0){setTimeout(()=>showRoundDone(false),2200);return;}
+  // On wrong, wait for replay to finish (replay starts at 600ms, plays two chords ~4s)
+  const beatDur=(60/LG.prog.bpm)*1.8;
+  const delay=ok?2000:Math.round(800+(beatDur+0.25)*2*1000+600);
+  if(LG.hearts<=0){setTimeout(()=>showRoundDone(false),delay);return;}
   setTimeout(()=>{
     if(!LG)return;
     card.classList.remove('correct-flash','wrong-flash');
     const nextIdx=LG.pairIdx+1;
     if(nextIdx>=LG.pairs.length){showRoundDone(true);}
     else{LG.pairIdx=nextIdx;playCurrentPair();}
-  },2200);
+  },delay);
 }
 
 function renderChips(){
