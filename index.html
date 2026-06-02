@@ -844,8 +844,10 @@ function renderChips(){
 function updateChip(idx){
   LG.prog.chords.forEach((_,i)=>{
     const chip=document.getElementById('chip-'+i);if(!chip)return;
-    chip.classList.remove('active','correct','wrong');
-    if(i===idx)chip.classList.add('active');
+    chip.classList.remove('active');
+    // Only mark active if this chip hasn't been answered yet
+    if(i===idx&&!chip.classList.contains('correct')&&!chip.classList.contains('wrong'))
+      chip.classList.add('active');
   });
 }
 
