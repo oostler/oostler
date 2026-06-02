@@ -226,6 +226,20 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
 .rdb.primary:active{transform:translateY(4px);box-shadow:none}
 .rdb.secondary{background:#fff;color:var(--text);border:2px solid var(--border)}
 
+/* Mode toggle */
+.mode-toggle{display:flex;background:var(--border);border-radius:12px;padding:3px;gap:0}
+.mode-btn{flex:1;padding:9px 8px;border:none;border-radius:9px;font-size:0.82rem;font-weight:800;cursor:pointer;font-family:var(--font);background:transparent;color:var(--muted);transition:all .15s}
+.mode-btn.on{background:#fff;color:var(--text);box-shadow:0 2px 6px rgba(0,0,0,.1)}
+.mode-hint{font-size:0.74rem;font-weight:600;color:var(--muted);line-height:1.5;text-align:center;min-height:34px;padding:0 4px}
+/* Mystery chips */
+.pchip.mystery{background:var(--bg);color:var(--muted);border-style:dashed;border-color:#ccc;font-style:italic}
+@keyframes chipReveal{0%{transform:scale(1.35);background:#FFD600;color:#222;border-style:solid;border-color:#FFD600}100%{transform:scale(1)}}
+.pchip.revealing{animation:chipReveal .5s ease forwards}
+/* Mystery reveal box */
+.reveal-box{background:var(--green-lt);border:2px solid var(--green);border-radius:14px;padding:12px 16px;text-align:center;width:100%;max-width:280px;display:flex;flex-direction:column;gap:3px}
+.reveal-label{font-size:0.65rem;font-weight:900;text-transform:uppercase;letter-spacing:.1em;color:var(--green)}
+.reveal-chords{font-size:0.95rem;font-weight:900;font-family:'Courier New',monospace;color:var(--text);letter-spacing:.04em}
+.reveal-roman{font-size:0.78rem;font-weight:700;color:#3a9400;letter-spacing:.03em}
 /* animations */
 @keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-7px)}40%{transform:translateX(7px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
 .shake{animation:shake .33s ease}
@@ -336,9 +350,14 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
   <!-- Picker shown initially -->
   <div id="live-picker" class="live-picker">
     <div>
-      <div class="live-picker-title">&#127911; Chord Detective</div>
-      <div class="live-picker-sub">A progression plays. Identify each root movement by ear.</div>
+      <div class="live-picker-title">&#128066; By Ear</div>
+      <div class="live-picker-sub">Hear a progression. Identify the root movements. Transcribe by ear.</div>
     </div>
+    <div class="mode-toggle">
+      <button class="mode-btn on" id="mode-guided">&#127919; Guided</button>
+      <button class="mode-btn" id="mode-mystery">&#128373;&#65039; Mystery</button>
+    </div>
+    <div class="mode-hint" id="mode-hint-text">Chord names shown — focus on hearing the intervals</div>
     <div id="prog-pick-list"></div>
   </div>
 
@@ -375,9 +394,14 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
     </div>
     <!-- Round done overlay -->
     <div id="round-done" class="round-done" style="display:none">
-      <div class="round-done-emoji" id="rd-emoji">🏆</div>
+      <div class="round-done-emoji" id="rd-emoji">&#127942;</div>
       <div class="round-done-title" id="rd-title">Round Complete!</div>
       <div class="round-done-sub" id="rd-sub"></div>
+      <div class="reveal-box" id="rd-reveal" style="display:none">
+        <div class="reveal-label">&#127917; You transcribed by ear</div>
+        <div class="reveal-chords" id="rd-reveal-chords"></div>
+        <div class="reveal-roman" id="rd-reveal-roman"></div>
+      </div>
       <div class="round-done-btns">
         <button class="rdb secondary" id="rd-back">Back</button>
         <button class="rdb primary" id="rd-again">Play Again</button>
@@ -388,7 +412,7 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
 
 <nav id="nav">
   <button class="nav-btn on" data-go="home"><span class="ni">&#127919;</span>Learn</button>
-  <button class="nav-btn" data-go="live"><span class="ni">&#127911;</span>Live</button>
+  <button class="nav-btn" data-go="live"><span class="ni">&#128066;</span>By Ear</button>
   <button class="nav-btn" data-go="pitch"><span class="ni">&#127908;</span>Pitch</button>
 </nav>
 
@@ -632,8 +656,22 @@ function finishQuiz(){
 document.getElementById('comp-btn').addEventListener('click',()=>{go('home');renderHome();});
 document.getElementById('quiz-x').addEventListener('click',()=>{go('home');renderHome();});
 
-// ── LIVE GAME ──────────────────────────────────────────────────────────────
+// ── BY EAR GAME ────────────────────────────────────────────────────────────
 let LG=null;
+let liveMode='guided'; // 'guided' | 'mystery'
+
+document.getElementById('mode-guided').addEventListener('click',()=>setLiveMode('guided'));
+document.getElementById('mode-mystery').addEventListener('click',()=>setLiveMode('mystery'));
+
+function setLiveMode(mode){
+  liveMode=mode;
+  document.getElementById('mode-guided').classList.toggle('on',mode==='guided');
+  document.getElementById('mode-mystery').classList.toggle('on',mode==='mystery');
+  document.getElementById('mode-hint-text').textContent=mode==='guided'
+    ?'Chord names shown — focus on hearing the intervals'
+    :'Chord names hidden — transcribe entirely by ear, then get the reveal!';
+  showLivePicker();
+}
 
 function showLivePicker(){
   document.getElementById('live-picker').style.display='flex';
@@ -647,7 +685,10 @@ function showLivePicker(){
     const body=document.createElement('div');body.className='ppcard-body';
     const nm=document.createElement('div');nm.className='ppcard-name';nm.textContent=p.name;
     const desc=document.createElement('div');desc.className='ppcard-desc';desc.textContent=p.desc;
-    const ch=document.createElement('div');ch.className='ppcard-chords';ch.textContent=p.chords.map(c=>c.label).join(' → ');
+    const labels=p.chords.map(c=>c.label);
+    const display=labels.length>4?labels.slice(0,4).join(' → ')+'…':labels.join(' → ');
+    const ch=document.createElement('div');ch.className='ppcard-chords';
+    ch.textContent=liveMode==='mystery'?'? → ? → ? → ?':display;
     body.appendChild(nm);body.appendChild(desc);body.appendChild(ch);
     const goBtn=document.createElement('button');goBtn.className='ppcard-go';goBtn.textContent='Play';
     goBtn.addEventListener('click',()=>{run(()=>{});startLiveGame(p.id);});
@@ -669,20 +710,25 @@ function buildPairs(prog){
 function startLiveGame(progId){
   const prog=PROGS.find(p=>p.id===progId);
   const pairs=buildPairs(prog);
-  LG={prog,pairs,pairIdx:0,score:0,hearts:3,combo:0,correct:0,total:0,phase:'tonic'};
+  LG={
+    prog,pairs,pairIdx:0,score:0,hearts:3,combo:0,correct:0,total:0,phase:'tonic',
+    mode:liveMode,
+    revealed:prog.chords.map((_,i)=>liveMode==='guided'||i===0)
+  };
   document.getElementById('live-picker').style.display='none';
   document.getElementById('live-game-wrap').style.display='flex';
-  document.getElementById('live-hdr-title').textContent=prog.emoji+' '+prog.name;
+  document.getElementById('live-hdr-title').textContent=prog.emoji+' '+prog.name+(liveMode==='mystery'?' 🕵️':'');
   document.getElementById('round-done').style.display='none';
   document.getElementById('live-replay-btn').style.display='none';
   document.getElementById('live-choices').innerHTML='';
   document.getElementById('live-prompt').textContent='';
   renderChips();
   updateLiveScore();
-  // Establish tonic before first question
-  setChordDisplay(prog.chords[0].label,null,prog.chords[0].type,'Establishing the key...');
+  // Play tonic to establish key
+  setChordDisplay(prog.chords[0].label,null,prog.chords[0].type,
+    liveMode==='mystery'?'Listen — this is where it starts':'Establishing the key...',0,null);
   playChordIdx(0);
-  const tonicMs=Math.max(2000,(60/prog.bpm)*2.2*1000);
+  const tonicMs=Math.max(2200,(60/prog.bpm)*2.2*1000);
   setTimeout(()=>{if(LG)playCurrentPair();},tonicMs);
 }
 
@@ -703,21 +749,18 @@ function playCurrentPair(){
   LG.phase='playing';
   const prog=LG.prog;
   const prev=prog.chords[pair.prevIdx],curr=prog.chords[pair.currIdx];
-  // Show previous chord first
-  setChordDisplay(prev.label,null,prev.type,'Listen...');
+  setChordDisplay(prev.label,null,prev.type,'Listen...',pair.prevIdx,null);
   const card=document.getElementById('chord-card');
   card.classList.remove('correct-flash','wrong-flash');
   card.classList.add('playing');setTimeout(()=>card.classList.remove('playing'),400);
   updateChip(pair.currIdx);
   const beatDur=playChordIdx(pair.prevIdx);
   const stepMs=(beatDur+0.25)*1000;
-  // Then play current chord
   setTimeout(()=>{
     if(!LG||LG.phase!=='playing')return;
-    setChordDisplay(prev.label,curr.label,curr.type,'Now this...');
+    setChordDisplay(prev.label,curr.label,curr.type,'Now this...',pair.prevIdx,pair.currIdx);
     card.classList.add('playing');setTimeout(()=>card.classList.remove('playing'),400);
     playChordIdx(pair.currIdx);
-    // Show question once chord has played
     setTimeout(()=>{
       if(!LG||LG.phase!=='playing')return;
       showLiveQuestion(pair);
@@ -725,19 +768,21 @@ function playCurrentPair(){
   },stepMs);
 }
 
-// Show chord-from-name + arrow + chord-name, or just chord-name for tonic
-function setChordDisplay(prevLabel,currLabel,type,sub){
+function setChordDisplay(prevLabel,currLabel,type,sub,prevIdx,currIdx){
   const fromName=document.getElementById('chord-from-name');
   const fromArrow=document.getElementById('chord-from-arrow');
   const chordName=document.getElementById('chord-name');
-  if(currLabel){
+  const mystery=LG&&LG.mode==='mystery';
+  // In mystery: always show prev (user knows where they came from), hide curr until revealed
+  const showCurr=!mystery||(currIdx!=null&&LG.revealed[currIdx]);
+  if(currLabel!=null){
     fromName.textContent=prevLabel;fromName.classList.add('show');fromArrow.classList.add('show');
-    chordName.textContent=currLabel;
+    chordName.textContent=showCurr?currLabel:'?';
   } else {
     fromName.textContent='';fromName.classList.remove('show');fromArrow.classList.remove('show');
-    chordName.textContent=prevLabel;
+    chordName.textContent=prevLabel; // tonic is always revealed
   }
-  document.getElementById('chord-type').textContent=type||'';
+  document.getElementById('chord-type').textContent=mystery&&currLabel!=null&&!showCurr?'':type||'';
   document.getElementById('chord-sub').textContent=sub||'';
 }
 
@@ -753,7 +798,9 @@ function showLiveQuestion(pair){
   LG.phase='question';
   const prog=LG.prog;
   const prev=prog.chords[pair.prevIdx],curr=prog.chords[pair.currIdx];
-  document.getElementById('live-prompt').textContent=prev.label+' → '+curr.label+': what interval?';
+  const mystery=LG.mode==='mystery';
+  const destLabel=mystery&&!LG.revealed[pair.currIdx]?'?':curr.label;
+  document.getElementById('live-prompt').textContent=prev.label+' → '+destLabel+': what interval?';
   document.getElementById('live-replay-btn').style.display='inline-block';
   renderLiveChoices(buildLiveChoices(pair.st),pair.st);
 }
@@ -803,7 +850,23 @@ function onLiveAns(chosen,correct){
     LG.correct++;LG.combo++;
     const mult=LG.combo>=3?3:LG.combo>=2?2:1;
     const pts=10*mult;LG.score+=pts;
-    playOK();card.classList.add('correct-flash');markChip(pair.currIdx,true);
+    playOK();card.classList.add('correct-flash');
+    // Mystery: reveal the destination chord chip with pop animation
+    if(LG.mode==='mystery'&&!LG.revealed[pair.currIdx]){
+      LG.revealed[pair.currIdx]=true;
+      const chip=document.getElementById('chip-'+pair.currIdx);
+      if(chip){
+        chip.textContent=LG.prog.chords[pair.currIdx].label;
+        chip.classList.remove('mystery');
+        chip.classList.add('revealing');
+        setTimeout(()=>chip.classList.remove('revealing'),600);
+      }
+      // Also reveal the chord card display
+      const prog=LG.prog;
+      setChordDisplay(prog.chords[pair.prevIdx].label,prog.chords[pair.currIdx].label,
+        prog.chords[pair.currIdx].type,'',pair.prevIdx,pair.currIdx);
+    }
+    markChip(pair.currIdx,true);
     document.getElementById('chord-sub').textContent=iv?'✓ '+iv.name+(mult>1?' 🔥 ×'+mult:''):'✓ Correct!';
     // Score popup
     const pop=document.createElement('div');pop.className='score-pop';
@@ -838,7 +901,10 @@ function renderChips(){
   const el=document.getElementById('prog-chips');el.innerHTML='';
   LG.prog.chords.forEach((c,i)=>{
     if(i>0){const arr=document.createElement('span');arr.className='pchip-arrow';arr.textContent='→';el.appendChild(arr);}
-    const chip=document.createElement('div');chip.className='pchip';chip.id='chip-'+i;chip.textContent=c.label;
+    const chip=document.createElement('div');chip.className='pchip';chip.id='chip-'+i;
+    const revealed=LG.revealed[i];
+    chip.textContent=revealed?c.label:'?';
+    if(!revealed)chip.classList.add('mystery');
     el.appendChild(chip);
   });
   updateChip(0);
@@ -872,6 +938,21 @@ function showRoundDone(completed){
   document.getElementById('rd-emoji').textContent=completed?(acc===100?'🏆':'🎉'):'💔';
   document.getElementById('rd-title').textContent=completed?'Round Complete!':'Out of Hearts';
   document.getElementById('rd-sub').textContent=LG.correct+'/'+LG.total+' correct · '+acc+'% · Score: '+LG.score;
+  const revealEl=document.getElementById('rd-reveal');
+  if(LG.mode==='mystery'&&completed){
+    revealEl.style.display='flex';
+    const ROMAN={0:'I',2:'II',4:'III',5:'IV',7:'V',9:'VI',11:'VII'};
+    const ROMANm={0:'i',2:'ii',4:'iii',5:'iv',7:'v',9:'vi',11:'vii°'};
+    const chordStr=LG.prog.chords.map(c=>c.label).join(' → ');
+    const romanStr=LG.prog.chords.map(c=>{
+      const minor=c.type&&c.type.includes('minor');
+      return(minor?ROMANm:ROMAN)[c.rootSt]||'?';
+    }).join(' → ');
+    document.getElementById('rd-reveal-chords').textContent=chordStr;
+    document.getElementById('rd-reveal-roman').textContent=romanStr+' in C';
+  } else {
+    revealEl.style.display='none';
+  }
 }
 
 document.getElementById('rd-again').addEventListener('click',()=>{
