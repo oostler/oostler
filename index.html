@@ -208,6 +208,12 @@ body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:trans
 .live-prompt{font-size:0.95rem;font-weight:800;color:var(--text);text-align:center;min-height:22px}
 .live-replay-btn{padding:8px 18px;border:2px solid var(--border);border-radius:10px;background:#fff;font-size:0.82rem;font-weight:800;cursor:pointer;font-family:var(--font);color:var(--muted)}
 .live-replay-btn:active{border-color:#1CB0F6;color:#1CB0F6;transform:scale(.96)}
+/* NNS choice buttons */
+.nn-ch{justify-content:flex-start;gap:14px;padding:12px 16px}
+.nn-num{font-size:1.8rem;font-weight:900;font-family:'Courier New',monospace;width:44px;text-align:center;flex-shrink:0;line-height:1}
+.nn-right{display:flex;flex-direction:column;gap:2px;flex:1}
+.nn-desc{font-size:0.8rem;font-weight:700;color:var(--muted)}
+.nn-qual{font-size:0.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);opacity:.7}
 .live-choices{display:flex;flex-direction:column;gap:7px;width:100%;max-width:360px}
 
 /* Score bar */
@@ -656,9 +662,17 @@ function finishQuiz(){
 document.getElementById('comp-btn').addEventListener('click',()=>{go('home');renderHome();});
 document.getElementById('quiz-x').addEventListener('click',()=>{go('home');renderHome();});
 
-// ── BY EAR GAME ────────────────────────────────────────────────────────────
+// ── BY EAR — NASHVILLE NUMBER SYSTEM ───────────────────────────────────────
 let LG=null;
-let liveMode='guided'; // 'guided' | 'mystery'
+let liveMode='guided';
+
+// NNS constants
+const ROMAN={0:'I',2:'II',4:'III',5:'IV',7:'V',9:'VI',11:'VII'};
+const ROMANm={0:'i',2:'ii',4:'iii',5:'iv',7:'v',9:'vi',11:'vii°'};
+const NN_DESC={0:'home',2:'whole step',4:'the 3rd',5:'the lift',7:'tension',9:'the 6th',11:'leading'};
+const NOTE_NAMES=['C','C#','D','Eb','E','F','F#','G','Ab','A','Bb','B'];
+const HINT_KEYS=[{n:'G',o:7},{n:'D',o:2},{n:'F',o:5}];
+function getRoman(st,type){return((type&&type.includes('minor'))?ROMANm:ROMAN)[st]||'?';}
 
 document.getElementById('mode-guided').addEventListener('click',()=>setLiveMode('guided'));
 document.getElementById('mode-mystery').addEventListener('click',()=>setLiveMode('mystery'));
@@ -668,8 +682,8 @@ function setLiveMode(mode){
   document.getElementById('mode-guided').classList.toggle('on',mode==='guided');
   document.getElementById('mode-mystery').classList.toggle('on',mode==='mystery');
   document.getElementById('mode-hint-text').textContent=mode==='guided'
-    ?'Chord names shown — focus on hearing the intervals'
-    :'Chord names hidden — transcribe entirely by ear, then get the reveal!';
+    ?'Chord names shown — learn to hear each number relative to the tonic (I)'
+    :'Names hidden — identify each chord by number using your ear alone';
   showLivePicker();
 }
 
@@ -687,8 +701,9 @@ function showLivePicker(){
     const desc=document.createElement('div');desc.className='ppcard-desc';desc.textContent=p.desc;
     const labels=p.chords.map(c=>c.label);
     const display=labels.length>4?labels.slice(0,4).join(' → ')+'…':labels.join(' → ');
+    const romans=[...new Set(p.chords.map(c=>getRoman(c.rootSt,c.type)))].join(' · ');
     const ch=document.createElement('div');ch.className='ppcard-chords';
-    ch.textContent=liveMode==='mystery'?'? → ? → ? → ?':display;
+    ch.textContent=liveMode==='mystery'?romans:display;
     body.appendChild(nm);body.appendChild(desc);body.appendChild(ch);
     const goBtn=document.createElement('button');goBtn.className='ppcard-go';goBtn.textContent='Play';
     goBtn.addEventListener('click',()=>{run(()=>{});startLiveGame(p.id);});
@@ -697,24 +712,22 @@ function showLivePicker(){
   });
 }
 
-// Build question pairs: consecutive chord pairs where the root actually changes
-function buildPairs(prog){
-  const pairs=[];
+// One question per unique chord change from previous; skip consecutive same rootSt
+function buildQuestions(prog){
+  const qs=[];
+  let prevSt=prog.chords[0].rootSt;
   for(let i=1;i<prog.chords.length;i++){
-    const st=(prog.chords[i].rootSt-prog.chords[i-1].rootSt+12)%12;
-    if(st!==0)pairs.push({prevIdx:i-1,currIdx:i,st});
+    const c=prog.chords[i];
+    if(c.rootSt!==prevSt){qs.push({idx:i,rootSt:c.rootSt,type:c.type,label:c.label});prevSt=c.rootSt;}
   }
-  return pairs;
+  return qs;
 }
 
 function startLiveGame(progId){
   const prog=PROGS.find(p=>p.id===progId);
-  const pairs=buildPairs(prog);
-  LG={
-    prog,pairs,pairIdx:0,score:0,hearts:3,combo:0,correct:0,total:0,phase:'tonic',
-    mode:liveMode,
-    revealed:prog.chords.map((_,i)=>liveMode==='guided'||i===0)
-  };
+  const questions=buildQuestions(prog);
+  LG={prog,questions,qIdx:0,score:0,hearts:3,combo:0,correct:0,total:0,phase:'tonic',
+    mode:liveMode,revealed:prog.chords.map((_,i)=>liveMode==='guided'||i===0)};
   document.getElementById('live-picker').style.display='none';
   document.getElementById('live-game-wrap').style.display='flex';
   document.getElementById('live-hdr-title').textContent=prog.emoji+' '+prog.name+(liveMode==='mystery'?' 🕵️':'');
@@ -724,176 +737,162 @@ function startLiveGame(progId){
   document.getElementById('live-prompt').textContent='';
   renderChips();
   updateLiveScore();
-  // Play tonic to establish key
-  setChordDisplay(prog.chords[0].label,null,prog.chords[0].type,
-    liveMode==='mystery'?'Listen — this is where it starts':'Establishing the key...',0,null);
+  // Establish the tonic (I)
+  showChordCard('I',null,'major','I — this is home',false);
   playChordIdx(0);
-  const tonicMs=Math.max(2200,(60/prog.bpm)*2.2*1000);
-  setTimeout(()=>{if(LG)playCurrentPair();},tonicMs);
+  const tonicMs=Math.max(2400,(60/prog.bpm)*2.5*1000);
+  setTimeout(()=>{if(LG)playCurrentQuestion();},tonicMs);
 }
 
-// Play a chord by index — uses rootSt (fixed bug vs old chord.st)
 function playChordIdx(idx){
-  const chord=LG.prog.chords[idx];
-  const rootMidi=LG.prog.rootMidi+chord.rootSt;
+  const c=LG.prog.chords[idx];
+  const rootMidi=LG.prog.rootMidi+c.rootSt;
   const beatDur=(60/LG.prog.bpm)*1.8;
-  playChord(rootMidi,chord.notes,beatDur);
+  playChord(rootMidi,c.notes,beatDur);
   return beatDur;
 }
 
-// Play the current pair's prev→curr chords in sequence, then show question
-function playCurrentPair(){
+// For each question: play I (tonic) → target chord → show "what number?"
+function playCurrentQuestion(){
   if(!LG)return;
-  const pair=LG.pairs[LG.pairIdx];
-  if(!pair){showRoundDone(true);return;}
+  const q=LG.questions[LG.qIdx];
+  if(!q){showRoundDone(true);return;}
   LG.phase='playing';
-  const prog=LG.prog;
-  const prev=prog.chords[pair.prevIdx],curr=prog.chords[pair.currIdx];
-  setChordDisplay(prev.label,null,prev.type,'Listen...',pair.prevIdx,null);
+  const mystery=LG.mode==='mystery';
+  const targetRoman=getRoman(q.rootSt,q.type);
   const card=document.getElementById('chord-card');
   card.classList.remove('correct-flash','wrong-flash');
+  updateChipActive(q.idx);
+  // Play I
+  showChordCard('I',null,'major','',false);
   card.classList.add('playing');setTimeout(()=>card.classList.remove('playing'),400);
-  updateChip(pair.currIdx);
-  const beatDur=playChordIdx(pair.prevIdx);
-  const stepMs=(beatDur+0.25)*1000;
+  const beatDur=playChordIdx(0);
+  const stepMs=(beatDur+0.2)*1000;
+  // Then play target
   setTimeout(()=>{
     if(!LG||LG.phase!=='playing')return;
-    setChordDisplay(prev.label,curr.label,curr.type,'Now this...',pair.prevIdx,pair.currIdx);
+    showChordCard('I',mystery?'?':targetRoman,mystery?'':q.type,mystery?'':'in C: '+q.label,mystery);
     card.classList.add('playing');setTimeout(()=>card.classList.remove('playing'),400);
-    playChordIdx(pair.currIdx);
-    setTimeout(()=>{
-      if(!LG||LG.phase!=='playing')return;
-      showLiveQuestion(pair);
-    },stepMs);
+    playChordIdx(q.idx);
+    setTimeout(()=>{if(!LG||LG.phase!=='playing')return;showNNQuestion(q);},stepMs);
   },stepMs);
 }
 
-function setChordDisplay(prevLabel,currLabel,type,sub,prevIdx,currIdx){
+function showChordCard(fromNum,toNum,type,sub,isMystery){
   const fromName=document.getElementById('chord-from-name');
   const fromArrow=document.getElementById('chord-from-arrow');
   const chordName=document.getElementById('chord-name');
-  const mystery=LG&&LG.mode==='mystery';
-  // In mystery: always show prev (user knows where they came from), hide curr until revealed
-  const showCurr=!mystery||(currIdx!=null&&LG.revealed[currIdx]);
-  if(currLabel!=null){
-    fromName.textContent=prevLabel;fromName.classList.add('show');fromArrow.classList.add('show');
-    chordName.textContent=showCurr?currLabel:'?';
+  if(toNum!=null){
+    fromName.textContent=fromNum;fromName.classList.add('show');fromArrow.classList.add('show');
+    chordName.textContent=toNum;
   } else {
     fromName.textContent='';fromName.classList.remove('show');fromArrow.classList.remove('show');
-    chordName.textContent=prevLabel; // tonic is always revealed
+    chordName.textContent=fromNum;
   }
-  document.getElementById('chord-type').textContent=mystery&&currLabel!=null&&!showCurr?'':type||'';
+  document.getElementById('chord-type').textContent=isMystery?'':type||'';
   document.getElementById('chord-sub').textContent=sub||'';
 }
 
-function replayCurrentPair(){
+function replayCurrentQuestion(){
   if(!LG)return;
-  const pair=LG.pairs[LG.pairIdx];if(!pair)return;
-  const beatDur=playChordIdx(pair.prevIdx);
-  setTimeout(()=>{if(LG)playChordIdx(pair.currIdx);},(beatDur+0.25)*1000);
+  const q=LG.questions[LG.qIdx];if(!q)return;
+  const beatDur=playChordIdx(0);
+  setTimeout(()=>{if(LG)playChordIdx(q.idx);},(beatDur+0.2)*1000);
 }
 
-function showLiveQuestion(pair){
+function showNNQuestion(q){
   if(!LG)return;
   LG.phase='question';
-  const prog=LG.prog;
-  const prev=prog.chords[pair.prevIdx],curr=prog.chords[pair.currIdx];
   const mystery=LG.mode==='mystery';
-  const destLabel=mystery&&!LG.revealed[pair.currIdx]?'?':curr.label;
-  document.getElementById('live-prompt').textContent=prev.label+' → '+destLabel+': what interval?';
+  document.getElementById('live-prompt').textContent=mystery
+    ?'I → ? — what number is this chord?'
+    :'I → '+getRoman(q.rootSt,q.type)+' — which is it?';
   document.getElementById('live-replay-btn').style.display='inline-block';
-  renderLiveChoices(buildLiveChoices(pair.st),pair.st);
+  renderNNChoices(buildNNChoices(q.rootSt),q.rootSt,q.type);
 }
 
-function buildLiveChoices(correctSt){
-  // Start with all intervals that appear in this progression as distractors
-  const progSts=new Set(LG.pairs.map(p=>p.st));
+function buildNNChoices(correctSt){
+  const progSts=new Set(LG.questions.map(q=>q.rootSt));
+  progSts.add(0); // always include tonic as possible distractor
   let pool=[correctSt];
   progSts.forEach(st=>{if(st!==correctSt)pool.push(st);});
-  // Pad to 4 with random intervals from the IV list
-  if(pool.length<4){
-    const extras=shuffle(IV.map(iv=>iv.st).filter(st=>!pool.includes(st)));
-    extras.forEach(st=>{if(pool.length<4)pool.push(st);});
-  }
-  const others=shuffle(pool.filter(st=>st!==correctSt));
-  return shuffle([correctSt,...others.slice(0,3)]);
+  const allSts=[0,2,4,5,7,9,11].filter(st=>!pool.includes(st));
+  shuffle(allSts).forEach(st=>{if(pool.length<4)pool.push(st);});
+  return shuffle([correctSt,...shuffle(pool.filter(st=>st!==correctSt)).slice(0,3)]);
 }
 
-function renderLiveChoices(choices,correctSt){
+function renderNNChoices(choices,correctSt){
   const el=document.getElementById('live-choices');el.innerHTML='';
+  const guided=LG.mode==='guided';
   choices.forEach(st=>{
-    const ivIdx=ST_TO_IV[st];const iv=ivIdx!==undefined?IV[ivIdx]:null;
-    const btn=document.createElement('button');btn.className='ch';
-    btn.innerHTML='<span class="ci">'+(iv?iv.emoji:'🎵')+'</span>'
-      +'<span class="cn">'+(iv?iv.name:'?')+' ('+st+' semitone'+(st>1?'s':'')+')</span>';
-    btn.addEventListener('click',()=>onLiveAns(st,correctSt));
+    const progChord=LG.prog.chords.find(c=>c.rootSt===st);
+    const type=progChord?progChord.type:([0,5,7].includes(st)?'major':'minor');
+    const roman=getRoman(st,type);
+    const desc=NN_DESC[st]||'';
+    const btn=document.createElement('button');btn.className='ch nn-ch';btn.dataset.rootSt=st;
+    btn.innerHTML='<span class="nn-num">'+roman+'</span>'
+      +'<div class="nn-right">'
+        +'<span class="nn-desc">'+desc+(guided?' · <b>'+NOTE_NAMES[st]+'</b>':'')+'</span>'
+        +'<span class="nn-qual">'+type+'</span>'
+      +'</div>';
+    btn.addEventListener('click',()=>onNNAns(st,correctSt));
     el.appendChild(btn);
   });
 }
 
-function onLiveAns(chosen,correct){
+function onNNAns(chosen,correct){
   if(!LG||LG.phase!=='question')return;
   LG.phase='feedback';LG.total++;
   const ok=(chosen===correct);
-  const pair=LG.pairs[LG.pairIdx];
-  // Highlight choices
+  const q=LG.questions[LG.qIdx];
   document.getElementById('live-choices').querySelectorAll('.ch').forEach(b=>{
     b.disabled=true;
-    const st=parseInt(b.querySelector('.cn').textContent.match(/\((\d+)/)[1]);
-    if(st===correct)b.classList.add('ok');
-    else if(st===chosen&&!ok)b.classList.add('bad');
+    const st=parseInt(b.dataset.rootSt);
+    if(st===correct)b.classList.add('ok');else if(st===chosen&&!ok)b.classList.add('bad');
   });
   const card=document.getElementById('chord-card');
   document.getElementById('live-replay-btn').style.display='none';
-  const iv=ST_TO_IV[correct]!==undefined?IV[ST_TO_IV[correct]]:null;
+  const targetRoman=getRoman(q.rootSt,q.type);
   if(ok){
     LG.correct++;LG.combo++;
     const mult=LG.combo>=3?3:LG.combo>=2?2:1;
     const pts=10*mult;LG.score+=pts;
     playOK();card.classList.add('correct-flash');
-    // Mystery: reveal the destination chord chip with pop animation
-    if(LG.mode==='mystery'&&!LG.revealed[pair.currIdx]){
-      LG.revealed[pair.currIdx]=true;
-      const chip=document.getElementById('chip-'+pair.currIdx);
-      if(chip){
-        chip.textContent=LG.prog.chords[pair.currIdx].label;
-        chip.classList.remove('mystery');
-        chip.classList.add('revealing');
-        setTimeout(()=>chip.classList.remove('revealing'),600);
-      }
-      // Also reveal the chord card display
-      const prog=LG.prog;
-      setChordDisplay(prog.chords[pair.prevIdx].label,prog.chords[pair.currIdx].label,
-        prog.chords[pair.currIdx].type,'',pair.prevIdx,pair.currIdx);
+    // Reveal chip in mystery mode
+    if(LG.mode==='mystery'&&!LG.revealed[q.idx]){
+      LG.revealed[q.idx]=true;
+      const chip=document.getElementById('chip-'+q.idx);
+      if(chip){chip.textContent=targetRoman;chip.classList.remove('mystery');
+        chip.classList.add('revealing');setTimeout(()=>chip.classList.remove('revealing'),600);}
     }
-    markChip(pair.currIdx,true);
-    document.getElementById('chord-sub').textContent=iv?'✓ '+iv.name+(mult>1?' 🔥 ×'+mult:''):'✓ Correct!';
-    // Score popup
+    markChip(q.idx,true);
+    // Show transposition hints — the payoff!
+    const transHint=HINT_KEYS.map(k=>'in '+k.n+': '+NOTE_NAMES[(q.rootSt+k.o)%12]).join(' · ');
+    showChordCard('I',targetRoman,q.type,'',false);
+    document.getElementById('chord-sub').textContent='in C: '+q.label+' · '+transHint;
     const pop=document.createElement('div');pop.className='score-pop';
     pop.textContent='+'+pts+(mult>1?' ×'+mult+'!':'');
     card.appendChild(pop);setTimeout(()=>pop.remove(),900);
-    // Reinforce: play the interval as two separate tones so user hears what they identified
-    const rootMidi=LG.prog.rootMidi+LG.prog.chords[pair.prevIdx].rootSt;
-    setTimeout(()=>run(ctx=>{_note(ctx,rootMidi,0.8,.6,0);_note(ctx,rootMidi+correct,0.8,.6,0.9);}),350);
+    // Reinforce sound: I → this chord
+    const rootMidi=LG.prog.rootMidi;
+    setTimeout(()=>run(ctx=>{_note(ctx,rootMidi,0.8,.6,0);_note(ctx,rootMidi+q.rootSt,0.8,.6,0.9);}),400);
   } else {
     LG.hearts--;LG.combo=0;
-    playBad();card.classList.add('wrong-flash');markChip(pair.currIdx,false);
+    playBad();card.classList.add('wrong-flash');markChip(q.idx,false);
     document.getElementById('live-choices').querySelector('.ch.bad')?.classList.add('shake');
-    document.getElementById('chord-sub').textContent=iv?'✗ It was: '+iv.name:'✗ Try again!';
-    // Replay the pair so user can hear the correct movement
-    setTimeout(()=>{if(LG)replayCurrentPair();},600);
+    document.getElementById('chord-sub').textContent='✗ That\'s the '+targetRoman+' — '+q.label+' in C';
+    setTimeout(()=>{if(LG)replayCurrentQuestion();},600);
   }
   updateLiveScore();
-  // On wrong, wait for replay to finish (replay starts at 600ms, plays two chords ~4s)
   const beatDur=(60/LG.prog.bpm)*1.8;
-  const delay=ok?2000:Math.round(800+(beatDur+0.25)*2*1000+600);
+  const delay=ok?2200:Math.round(900+(beatDur+0.2)*2*1000+600);
   if(LG.hearts<=0){setTimeout(()=>showRoundDone(false),delay);return;}
   setTimeout(()=>{
     if(!LG)return;
     card.classList.remove('correct-flash','wrong-flash');
-    const nextIdx=LG.pairIdx+1;
-    if(nextIdx>=LG.pairs.length){showRoundDone(true);}
-    else{LG.pairIdx=nextIdx;playCurrentPair();}
+    const nextIdx=LG.qIdx+1;
+    if(nextIdx>=LG.questions.length){showRoundDone(true);}
+    else{LG.qIdx=nextIdx;playCurrentQuestion();}
   },delay);
 }
 
@@ -903,18 +902,17 @@ function renderChips(){
     if(i>0){const arr=document.createElement('span');arr.className='pchip-arrow';arr.textContent='→';el.appendChild(arr);}
     const chip=document.createElement('div');chip.className='pchip';chip.id='chip-'+i;
     const revealed=LG.revealed[i];
-    chip.textContent=revealed?c.label:'?';
+    chip.textContent=revealed?getRoman(c.rootSt,c.type):'?';
     if(!revealed)chip.classList.add('mystery');
     el.appendChild(chip);
   });
-  updateChip(0);
+  updateChipActive(0);
 }
 
-function updateChip(idx){
+function updateChipActive(idx){
   LG.prog.chords.forEach((_,i)=>{
     const chip=document.getElementById('chip-'+i);if(!chip)return;
     chip.classList.remove('active');
-    // Only mark active if this chip hasn't been answered yet
     if(i===idx&&!chip.classList.contains('correct')&&!chip.classList.contains('wrong'))
       chip.classList.add('active');
   });
@@ -939,17 +937,12 @@ function showRoundDone(completed){
   document.getElementById('rd-title').textContent=completed?'Round Complete!':'Out of Hearts';
   document.getElementById('rd-sub').textContent=LG.correct+'/'+LG.total+' correct · '+acc+'% · Score: '+LG.score;
   const revealEl=document.getElementById('rd-reveal');
-  if(LG.mode==='mystery'&&completed){
+  if(completed){
     revealEl.style.display='flex';
-    const ROMAN={0:'I',2:'II',4:'III',5:'IV',7:'V',9:'VI',11:'VII'};
-    const ROMANm={0:'i',2:'ii',4:'iii',5:'iv',7:'v',9:'vi',11:'vii°'};
-    const chordStr=LG.prog.chords.map(c=>c.label).join(' → ');
-    const romanStr=LG.prog.chords.map(c=>{
-      const minor=c.type&&c.type.includes('minor');
-      return(minor?ROMANm:ROMAN)[c.rootSt]||'?';
-    }).join(' → ');
-    document.getElementById('rd-reveal-chords').textContent=chordStr;
-    document.getElementById('rd-reveal-roman').textContent=romanStr+' in C';
+    const fullRoman=LG.prog.chords.map(c=>getRoman(c.rootSt,c.type)).join(' → ');
+    const fullLetters=LG.prog.chords.map(c=>c.label).join(' → ');
+    document.getElementById('rd-reveal-chords').textContent=fullRoman;
+    document.getElementById('rd-reveal-roman').textContent=fullLetters+' in C major';
   } else {
     revealEl.style.display='none';
   }
@@ -965,8 +958,9 @@ document.getElementById('live-x').addEventListener('click',()=>{
   LG=null;showLivePicker();
 });
 document.getElementById('live-replay-btn').addEventListener('click',()=>{
-  run(()=>{});replayCurrentPair();
+  run(()=>{});replayCurrentQuestion();
 });
+
 
 // ── PITCH DETECTOR ─────────────────────────────────────────────────────────
 const NOTES=['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];
