@@ -403,10 +403,13 @@ svg.ic{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2;strok
       </div>
       <div class="hold-ring" id="hold-ring"></div>
     </div>
-    <button class="btn btn-primary btn-lg" id="sing-mic">
-      <svg class="ic" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
-      <span id="sing-mic-lbl">Start mic</span>
-    </button>
+    <div style="display:flex;gap:8px">
+      <button class="btn btn-primary btn-lg" id="sing-mic">
+        <svg class="ic" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
+        <span id="sing-mic-lbl">Start mic</span>
+      </button>
+      <button class="btn btn-outline btn-lg" id="sing-skip">Skip</button>
+    </div>
     <div class="text-xs muted" style="text-align:center;max-width:280px">Hold the note steady in the green zone for a moment to pass. Humming works fine.</div>
   </div>
 </div>
@@ -708,6 +711,26 @@ function run(fn){
   if(ctx.state==='running')fn(ctx);
   else ctx.resume().then(function(){fn(ctx);}).catch(function(){fn(ctx);});
 }
+/* iOS: unlock web audio on first touch and route past the silent switch */
+var audioUnlocked=false;
+function unlockAudio(){
+  if(audioUnlocked)return;
+  audioUnlocked=true;
+  var ctx=getCtx();
+  if(ctx.state!=='running')ctx.resume().catch(function(){});
+  try{
+    var b=ctx.createBuffer(1,1,22050);
+    var s=ctx.createBufferSource();s.buffer=b;s.connect(ctx.destination);s.start(0);
+  }catch(e){}
+  try{
+    var el=document.createElement('audio');
+    el.setAttribute('playsinline','');
+    el.src='data:audio/wav;base64,UklGRgQCAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YeABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=';
+    el.play().catch(function(){});
+  }catch(e){}
+}
+document.addEventListener('touchend',unlockAudio,{passive:true});
+document.addEventListener('click',unlockAudio);
 function tone(ctx,midi,opt){
   opt=opt||{};
   var f=440*Math.pow(2,(midi-69)/12);
@@ -738,8 +761,8 @@ function playCadenceThen(keyMidi,after,timbre){
   run(function(ctx){
     var step=0.62,dur=0.58;
     chordAt(ctx,keyMidi,[0,4,7],{delay:0,dur:dur,timbre:timbre});
-    chordAt(ctx,keyMidi-7,[5+7,9+7,12+7].map(function(x){return x-7;}),{delay:step,dur:dur,timbre:timbre});
-    chordAt(ctx,keyMidi,[7,11,14],{delay:step*2,dur:dur,timbre:timbre});
+    chordAt(ctx,keyMidi,[0,5,9],{delay:step,dur:dur,timbre:timbre});
+    chordAt(ctx,keyMidi,[-1,2,7],{delay:step*2,dur:dur,timbre:timbre});
     chordAt(ctx,keyMidi,[0,4,7],{delay:step*3,dur:dur*1.1,timbre:timbre});
     if(after)after(ctx,step*4+0.35);
   });
@@ -1292,6 +1315,11 @@ function endSing(){
   SG=null;
   go('done');
 }
+document.getElementById('sing-skip').addEventListener('click',function(){
+  run(function(){});
+  if(!SG)return;
+  SG.active=false;SG.i++;nextSing();
+});
 document.getElementById('sing-x').addEventListener('click',function(){SG=null;stopSingMic();go('home');renderHome();});
 
 /* ================= PLAY (progressions) ================= */
