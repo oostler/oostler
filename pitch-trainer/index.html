@@ -1,308 +1,1367 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pitch Trainer — Beato Method</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"/>
+<meta name="theme-color" content="#6C5CE7"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+<meta name="description" content="Tonic. Train your ears, play anything. Learn intervals, chords and the Nashville Number System in minutes a day."/>
+<title>Tonic · Train your ears</title>
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="24" fill="%236C5CE7"/><ellipse cx="38" cy="68" rx="14" ry="10" fill="white"/><rect x="48" y="22" width="7" height="48" rx="3" fill="white"/><path d="M48 22 q22 4 22 20 q-8 -10 -22 -8 z" fill="white"/></svg>'/>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --brand:#6C5CE7;--brand-dk:#5547C9;--brand-lt:#EEEBFF;
+  --ok:#2EC05E;--ok-dk:#239B4B;--ok-lt:#DDF7E5;
+  --bad:#FF4B4B;--bad-dk:#E03131;--bad-lt:#FFE3E3;
+  --gold:#FFC800;--blue:#1CB0F6;
+  --bg:#F7F7FB;--card:#fff;--border:#E8E7F0;--text:#3C3C46;--muted:#9A98A8;
+  --nav-h:66px;--font:'Nunito',system-ui,sans-serif;
+}
+html,body{height:100%;overflow:hidden;background:var(--bg)}
+body{font-family:var(--font);color:var(--text);-webkit-tap-highlight-color:transparent}
+#root{height:100%;display:flex;flex-direction:column;max-width:480px;margin:0 auto}
+.screen{display:none;flex:1;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;flex-direction:column}
+.screen.on{display:flex}
+button{font-family:var(--font)}
+
+/* ===== NAV ===== */
+#nav{display:flex;background:#fff;border-top:2px solid var(--border);height:var(--nav-h);flex-shrink:0}
+.nav-btn{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;border:none;background:none;cursor:pointer;font-size:0.58rem;font-weight:800;color:var(--muted);letter-spacing:0.05em;text-transform:uppercase;padding-bottom:env(safe-area-inset-bottom,0)}
+.nav-btn svg{width:24px;height:24px;stroke:var(--muted);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.nav-btn.on{color:var(--brand)}
+.nav-btn.on svg{stroke:var(--brand)}
+
+/* ===== HOME ===== */
+.hero{display:flex;align-items:center;gap:12px;padding:20px 20px 6px}
+.hero-logo{width:46px;height:46px;border-radius:13px;background:linear-gradient(135deg,#7C6CF0,#5A48D8);display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 4px 12px rgba(108,92,231,.3)}
+.hero-name{font-size:1.5rem;font-weight:900;letter-spacing:-0.04em;line-height:1}
+.hero-tag{font-size:0.78rem;color:var(--muted);font-weight:700;margin-top:3px}
+.prog-summary{margin:12px 20px 0;background:#fff;border:2px solid var(--border);border-radius:16px;padding:13px 16px}
+.prog-summary-top{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px}
+.prog-summary-lbl{font-size:0.7rem;font-weight:900;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.prog-summary-val{font-size:0.82rem;font-weight:900;color:var(--brand)}
+.prog-track{height:10px;background:var(--border);border-radius:5px;overflow:hidden}
+.prog-fill{height:100%;background:linear-gradient(90deg,#7C6CF0,#5A48D8);border-radius:5px;transition:width .5s ease}
+.mix-card{margin:12px 20px 0;background:linear-gradient(135deg,#7C6CF0,#5A48D8);border-radius:16px;padding:15px 17px;display:flex;align-items:center;gap:12px;color:#fff}
+.mix-card h3{font-size:0.95rem;font-weight:900}
+.mix-card p{font-size:0.74rem;font-weight:600;opacity:.85;margin-top:1px}
+.mix-card .mix-body{flex:1}
+.mix-go{padding:10px 18px;border:none;border-radius:11px;background:#fff;color:var(--brand);font-size:0.82rem;font-weight:900;cursor:pointer;box-shadow:0 3px 0 rgba(0,0,0,.18)}
+.mix-go:active{transform:translateY(3px);box-shadow:none}
+.unit-hdr{display:flex;align-items:center;gap:10px;padding:24px 20px 10px}
+.unit-num{font-size:0.62rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#fff;padding:4px 9px;border-radius:7px}
+.unit-name{font-size:0.95rem;font-weight:900}
+.unit-sub{font-size:0.72rem;font-weight:600;color:var(--muted);width:100%;padding:0 20px 8px;margin-top:-6px}
+.cards{display:flex;flex-direction:column;gap:7px;padding:0 16px}
+.lcard{display:flex;align-items:center;gap:12px;background:var(--card);border:2px solid var(--border);border-radius:16px;padding:12px 13px}
+.lcard.locked{opacity:.45}
+.lcard-icon{width:46px;height:46px;border-radius:13px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;background:var(--border)}
+.lcard-play{width:46px;height:46px;border-radius:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;border:none;cursor:pointer;padding-left:3px;transition:transform .1s}
+.lcard-play:active{transform:scale(.88)}
+.lcard-body{flex:1;min-width:0}
+.lcard-name{font-size:0.92rem;font-weight:800;line-height:1.2}
+.lcard-sub{font-size:0.7rem;color:var(--muted);font-weight:600;margin-top:1px}
+.lcard-acc{font-size:0.66rem;color:var(--ok-dk);font-weight:800;margin-top:2px}
+.lcard-btn{padding:8px 15px;border:none;border-radius:10px;font-size:0.78rem;font-weight:800;cursor:pointer;white-space:nowrap;flex-shrink:0;background:var(--brand);color:#fff;box-shadow:0 3px 0 var(--brand-dk)}
+.lcard-btn:active{transform:translateY(3px);box-shadow:none}
+.lcard-btn.review{background:#fff;color:var(--brand);border:2px solid var(--border);box-shadow:0 3px 0 var(--border)}
+.lcard-btn.lockbtn{background:var(--border);color:var(--muted);box-shadow:none;cursor:default}
+
+/* ===== TEACH ===== */
+.teach-hdr{display:flex;align-items:center;justify-content:space-between;padding:14px 16px}
+.x-btn{width:34px;height:34px;border:none;background:none;font-size:1.15rem;color:var(--muted);cursor:pointer;font-weight:700}
+.teach-kicker{font-size:0.66rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.teach-body{flex:1;display:flex;flex-direction:column;align-items:center;padding:6px 22px 28px;gap:14px}
+.teach-emoji{font-size:3.4rem;line-height:1}
+.teach-title{font-size:1.5rem;font-weight:900;letter-spacing:-.03em;text-align:center}
+.teach-desc{font-size:0.9rem;font-weight:600;color:var(--muted);text-align:center;line-height:1.55;max-width:320px}
+.demo-list{display:flex;flex-direction:column;gap:9px;width:100%;max-width:340px}
+.demo-card{display:flex;align-items:center;gap:12px;background:#fff;border:2px solid var(--border);border-radius:15px;padding:12px 14px}
+.demo-play{width:44px;height:44px;border-radius:50%;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;padding-left:3px;flex-shrink:0;transition:transform .1s}
+.demo-play:active{transform:scale(.88)}
+.demo-name{font-size:0.9rem;font-weight:800}
+.demo-sub{font-size:0.7rem;font-weight:600;color:var(--muted);margin-top:1px}
+.cta{width:100%;max-width:340px;padding:15px;background:var(--brand);border:none;border-radius:15px;color:#fff;font-size:0.95rem;font-weight:900;cursor:pointer;box-shadow:0 4px 0 var(--brand-dk);margin-top:6px}
+.cta:active{transform:translateY(4px);box-shadow:none}
+
+/* ===== QUIZ ===== */
+.quiz-top{display:flex;align-items:center;gap:10px;padding:14px 16px 6px}
+.hbar{flex:1;height:12px;background:var(--border);border-radius:6px;overflow:hidden}
+.hbar-fill{height:100%;background:var(--ok);border-radius:6px;transition:width .35s ease}
+.hearts{font-size:0.85rem;letter-spacing:-1px;white-space:nowrap}
+.quiz-body{flex:1;display:flex;flex-direction:column;align-items:center;padding:14px 18px 120px;gap:14px}
+.q-prompt{font-size:1.05rem;font-weight:900;text-align:center}
+.q-play{width:84px;height:84px;border-radius:50%;background:var(--brand-lt);border:3px solid var(--brand);cursor:pointer;display:flex;align-items:center;justify-content:center;padding-left:4px;transition:transform .1s;box-shadow:0 4px 0 rgba(108,92,231,.25)}
+.q-play:active{transform:scale(.92)}
+.q-play-lbl{font-size:0.7rem;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin-top:-6px}
+.choices-wrap{display:flex;flex-direction:column;gap:8px;width:100%;max-width:360px}
+.ch{display:flex;align-items:center;gap:12px;background:#fff;border:2px solid var(--border);border-bottom-width:4px;border-radius:14px;padding:13px 15px;cursor:pointer;text-align:left;transition:transform .08s}
+.ch:active{transform:scale(.985)}
+.ch:disabled{cursor:default}
+.ch .ci{font-size:1.3rem;flex-shrink:0;width:30px;text-align:center}
+.ch .cn{font-size:0.9rem;font-weight:800}
+.ch .cs{font-size:0.68rem;font-weight:600;color:var(--muted);display:block;margin-top:1px}
+.ch.ok{background:var(--ok-lt);border-color:var(--ok)}
+.ch.bad{background:var(--bad-lt);border-color:var(--bad)}
+@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-7px)}40%{transform:translateX(7px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
+.shake{animation:shake .33s ease}
+@keyframes popk{0%{transform:scale(1)}50%{transform:scale(1.04)}100%{transform:scale(1)}}
+.popk{animation:popk .22s ease}
+
+/* feedback bar */
+.fb-bar{position:fixed;bottom:0;left:0;right:0;max-width:480px;margin:0 auto;padding:15px 16px calc(15px + env(safe-area-inset-bottom,0));transform:translateY(110%);transition:transform .26s cubic-bezier(.34,1.56,.64,1);z-index:40;border-top:3px solid transparent}
+.fb-bar.up{transform:translateY(0)}
+.fb-bar.ok-fb{background:var(--ok-lt);border-color:var(--ok)}
+.fb-bar.bad-fb{background:var(--bad-lt);border-color:var(--bad)}
+.fb-inner{display:flex;align-items:center;gap:10px}
+.fb-ico{font-size:1.5rem;flex-shrink:0}
+.fb-words{flex:1;min-width:0}
+.fb-title{font-size:0.95rem;font-weight:900}
+.fb-bar.ok-fb .fb-title,.fb-bar.ok-fb .fb-sub{color:var(--ok-dk)}
+.fb-bar.bad-fb .fb-title,.fb-bar.bad-fb .fb-sub{color:var(--bad-dk)}
+.fb-sub{font-size:0.74rem;font-weight:600;margin-top:2px;opacity:.9}
+.fb-cont{padding:12px 18px;border:none;border-radius:11px;font-size:0.88rem;font-weight:800;cursor:pointer;white-space:nowrap;flex-shrink:0}
+.fb-bar.ok-fb .fb-cont{background:var(--ok);color:#fff;box-shadow:0 4px 0 var(--ok-dk)}
+.fb-bar.bad-fb .fb-cont{background:var(--bad);color:#fff;box-shadow:0 4px 0 var(--bad-dk)}
+.fb-cont:active{transform:translateY(4px);box-shadow:none!important}
+
+/* ===== COMPLETE ===== */
+#complete{align-items:center;justify-content:center;gap:15px;padding:40px 22px}
+.comp-emoji{font-size:4.6rem;animation:popIn .5s ease .1s both}
+@keyframes popIn{0%{transform:scale(0) rotate(-8deg)}70%{transform:scale(1.12) rotate(2deg)}100%{transform:scale(1) rotate(0)}}
+.comp-title{font-size:1.8rem;font-weight:900;letter-spacing:-.03em;text-align:center}
+.comp-sub{font-size:0.92rem;font-weight:600;color:var(--muted);text-align:center;max-width:300px;line-height:1.5}
+.cstat{background:#fff;border-radius:14px;padding:14px;text-align:center;border:2px solid var(--border);width:100%;max-width:280px}
+.cstat .cv{font-size:1.6rem;font-weight:900;color:var(--brand)}
+.cstat .cl{font-size:0.64rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-top:2px}
+.comp-btn{width:100%;max-width:280px;padding:15px;background:var(--brand);border:none;border-radius:15px;color:#fff;font-size:0.95rem;font-weight:900;cursor:pointer;box-shadow:0 4px 0 var(--brand-dk)}
+.comp-btn:active{transform:translateY(4px);box-shadow:none}
+
+/* ===== BY EAR ===== */
+.be-head{padding:20px 20px 4px}
+.be-title{font-size:1.3rem;font-weight:900;letter-spacing:-.02em}
+.be-sub{font-size:0.8rem;font-weight:600;color:var(--muted);margin-top:3px;line-height:1.45}
+.mode-toggle{display:flex;background:var(--border);border-radius:12px;padding:3px;margin:12px 20px 0}
+.mode-btn{flex:1;padding:9px 8px;border:none;border-radius:9px;font-size:0.8rem;font-weight:800;cursor:pointer;background:transparent;color:var(--muted);transition:all .15s}
+.mode-btn.on{background:#fff;color:var(--text);box-shadow:0 2px 6px rgba(0,0,0,.09)}
+.mode-hint{font-size:0.72rem;font-weight:600;color:var(--muted);line-height:1.5;text-align:center;min-height:32px;padding:6px 26px 0}
+.prog-list{display:flex;flex-direction:column;gap:9px;padding:8px 16px 20px}
+.pp-card{background:#fff;border:2px solid var(--border);border-radius:16px;padding:14px;display:flex;align-items:center;gap:13px}
+.pp-icon{width:50px;height:50px;border-radius:13px;display:flex;align-items:center;justify-content:center;font-size:1.6rem;flex-shrink:0}
+.pp-body{flex:1;min-width:0}
+.pp-name{font-size:0.92rem;font-weight:800}
+.pp-desc{font-size:0.7rem;font-weight:600;color:var(--muted);margin-top:1px}
+.pp-chords{font-size:0.68rem;font-weight:800;color:var(--brand);margin-top:4px;font-family:'Courier New',monospace;letter-spacing:.03em}
+.pp-go{padding:9px 16px;background:var(--brand);border:none;border-radius:10px;color:#fff;font-size:0.78rem;font-weight:800;cursor:pointer;box-shadow:0 3px 0 var(--brand-dk);white-space:nowrap;flex-shrink:0}
+.pp-go:active{transform:translateY(3px);box-shadow:none}
+
+/* by ear game */
+#be-game{display:none;flex-direction:column;height:100%;position:relative}
+.be-hdr{display:flex;align-items:center;gap:10px;padding:12px 16px;background:#fff;border-bottom:2px solid var(--border);flex-shrink:0}
+.be-hdr-title{font-size:0.88rem;font-weight:800;flex:1;text-align:center}
+.be-hearts{font-size:0.85rem;letter-spacing:-1px;white-space:nowrap}
+.chips{display:flex;align-items:center;justify-content:center;gap:5px;padding:12px 14px 4px;flex-wrap:wrap;flex-shrink:0}
+.chip{min-width:36px;padding:5px 9px;border-radius:8px;font-size:0.78rem;font-weight:900;font-family:'Courier New',monospace;text-align:center;background:var(--border);color:var(--muted);border:2px solid transparent;transition:all .2s}
+.chip.active{background:var(--blue);color:#fff;transform:scale(1.12);box-shadow:0 3px 10px rgba(28,176,246,.35)}
+.chip.correct{background:var(--ok-lt);color:var(--ok-dk);border-color:var(--ok)}
+.chip.wrong{background:var(--bad-lt);color:var(--bad-dk);border-color:var(--bad)}
+.chip.mystery{background:var(--bg);border-style:dashed;border-color:#ccc}
+@keyframes chipReveal{0%{transform:scale(1.4);background:var(--gold);color:#222}100%{transform:scale(1)}}
+.chip.revealing{animation:chipReveal .5s ease}
+.chip-arrow{color:var(--muted);font-size:0.72rem;font-weight:700}
+.be-score-row{display:flex;align-items:center;justify-content:space-between;padding:6px 18px 0;flex-shrink:0}
+.be-score{font-size:1.15rem;font-weight:900;font-family:'Courier New',monospace}
+.be-combo{font-size:0.78rem;font-weight:800;color:#FF9600}
+.stage{display:flex;justify-content:center;padding:8px 16px 4px;flex-shrink:0}
+.big-card{width:100%;max-width:330px;background:#fff;border-radius:20px;padding:20px 18px 16px;text-align:center;box-shadow:0 3px 16px rgba(0,0,0,.07);border:3px solid var(--border);transition:border-color .2s;position:relative;overflow:hidden}
+.big-card.playing{border-color:var(--blue);animation:cardPop .25s ease}
+.big-card.correct-flash{border-color:var(--ok)}
+.big-card.wrong-flash{border-color:var(--bad)}
+@keyframes cardPop{0%{transform:scale(.96)}60%{transform:scale(1.02)}100%{transform:scale(1)}}
+.pair-row{display:flex;align-items:center;justify-content:center;gap:10px}
+.from-num{font-size:2.2rem;font-weight:900;font-family:'Courier New',monospace;color:var(--muted);opacity:0;transition:opacity .25s}
+.from-num.show{opacity:1}
+.from-arr{font-size:1.3rem;color:var(--muted);opacity:0;transition:opacity .25s}
+.from-arr.show{opacity:1}
+.to-num{font-size:3.4rem;font-weight:900;font-family:'Courier New',monospace;letter-spacing:-.04em;line-height:1}
+.big-type{font-size:0.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:2px;min-height:16px}
+.big-sub{font-size:0.76rem;font-weight:700;color:var(--muted);margin-top:5px;min-height:19px}
+@keyframes scoreUp{0%{transform:translateY(0);opacity:1}100%{transform:translateY(-30px);opacity:0}}
+.score-pop{position:absolute;top:10px;right:12px;font-size:1rem;font-weight:900;color:var(--ok);animation:scoreUp .8s ease forwards;pointer-events:none}
+.be-q{flex:1;display:flex;flex-direction:column;align-items:center;padding:8px 16px 18px;gap:8px;min-height:0}
+.be-prompt{font-size:0.9rem;font-weight:800;text-align:center;min-height:21px}
+.replay-btn{padding:8px 16px;border:2px solid var(--border);border-radius:10px;background:#fff;font-size:0.78rem;font-weight:800;cursor:pointer;color:var(--muted)}
+.replay-btn:active{border-color:var(--blue);color:var(--blue);transform:scale(.96)}
+.nn-ch{justify-content:flex-start;gap:13px;padding:11px 15px}
+.nn-num{font-size:1.6rem;font-weight:900;font-family:'Courier New',monospace;width:42px;text-align:center;flex-shrink:0;line-height:1}
+.nn-right{display:flex;flex-direction:column;gap:1px;flex:1}
+.nn-desc{font-size:0.76rem;font-weight:700;color:var(--muted)}
+.nn-qual{font-size:0.62rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);opacity:.7}
+.round-done{position:absolute;inset:0;background:rgba(247,247,251,.97);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:13px;padding:30px;z-index:20}
+.rd-emoji{font-size:3.8rem;animation:popIn .4s ease}
+.rd-title{font-size:1.6rem;font-weight:900;letter-spacing:-.03em;text-align:center}
+.rd-sub{font-size:0.88rem;font-weight:600;color:var(--muted);text-align:center}
+.reveal-box{background:var(--ok-lt);border:2px solid var(--ok);border-radius:14px;padding:12px 16px;text-align:center;width:100%;max-width:280px;display:flex;flex-direction:column;gap:3px}
+.reveal-label{font-size:0.62rem;font-weight:900;text-transform:uppercase;letter-spacing:.1em;color:var(--ok-dk)}
+.reveal-main{font-size:0.95rem;font-weight:900;font-family:'Courier New',monospace}
+.reveal-sub{font-size:0.74rem;font-weight:700;color:var(--ok-dk)}
+.rd-btns{display:flex;gap:10px;width:100%;max-width:280px}
+.rdb{flex:1;padding:14px;border:none;border-radius:13px;font-size:0.88rem;font-weight:800;cursor:pointer}
+.rdb.primary{background:var(--brand);color:#fff;box-shadow:0 4px 0 var(--brand-dk)}
+.rdb.primary:active{transform:translateY(4px);box-shadow:none}
+.rdb.secondary{background:#fff;color:var(--text);border:2px solid var(--border)}
+
+/* ===== TUNER ===== */
+#tuner{align-items:center;padding:24px 18px 20px;gap:16px}
+.tuner-title{font-size:1.3rem;font-weight:900;text-align:center;letter-spacing:-.02em}
+.tuner-sub{font-size:0.78rem;font-weight:600;color:var(--muted);text-align:center;margin-top:-10px}
+.tuner-card{background:#fff;border-radius:22px;padding:26px 22px 20px;width:100%;max-width:330px;box-shadow:0 2px 14px rgba(0,0,0,.05);text-align:center;display:flex;flex-direction:column;align-items:center;gap:13px;border:2px solid var(--border)}
+.note-big{font-size:5rem;font-weight:900;font-family:'Courier New',monospace;letter-spacing:-.05em;line-height:1}
+.note-big.silent{color:var(--border)}
+.note-big.in-tune{color:var(--ok)}
+.note-big.sharp{color:#FF9600}
+.note-big.flat{color:var(--bad)}
+.freq-lbl{font-size:0.74rem;font-family:monospace;font-weight:700;color:var(--muted);min-height:17px}
+.t-wrap{position:relative;width:100%;max-width:250px;height:48px}
+.t-track{position:absolute;top:50%;left:0;right:0;height:6px;transform:translateY(-50%);background:var(--border);border-radius:3px}
+.t-zone{position:absolute;top:50%;left:calc(50% - 14px);width:28px;height:11px;transform:translateY(-50%);background:rgba(46,192,94,.2);border-radius:3px}
+.t-center{position:absolute;top:6px;bottom:6px;left:50%;transform:translateX(-50%);width:2px;background:var(--ok)}
+.t-needle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:15px;height:15px;border-radius:50%;background:var(--text);transition:left .07s linear}
+.t-needle.in-tune{background:var(--ok);box-shadow:0 0 7px rgba(46,192,94,.6)}
+.t-needle.sharp{background:#FF9600}
+.t-needle.flat{background:var(--bad)}
+.t-labels{display:flex;justify-content:space-between;position:absolute;bottom:0;left:0;right:0;font-size:0.58rem;font-family:monospace;color:var(--muted)}
+.cents-lbl{font-size:0.76rem;font-family:monospace;font-weight:700;color:var(--muted);min-height:17px}
+.mic-btn{padding:13px 24px;background:var(--brand);border:none;border-radius:13px;color:#fff;font-size:0.9rem;font-weight:800;cursor:pointer;display:inline-flex;align-items:center;gap:7px;box-shadow:0 4px 0 var(--brand-dk)}
+.mic-btn:active{transform:translateY(4px);box-shadow:none}
+.mic-btn.rec{background:var(--bad);box-shadow:0 4px 0 var(--bad-dk)}
+.mic-dot{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.6)}
+.mic-btn.rec .mic-dot{background:#fff;animation:pdot 1s infinite}
+@keyframes pdot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.5);opacity:.4}}
+.string-row{display:flex;gap:7px;justify-content:center;flex-wrap:wrap}
+.str-btn{width:46px;height:46px;border-radius:12px;border:2px solid var(--border);background:#fff;font-size:0.85rem;font-weight:900;cursor:pointer;color:var(--text);display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1}
+.str-btn small{font-size:0.55rem;font-weight:700;color:var(--muted)}
+.str-btn:active{border-color:var(--brand);color:var(--brand);transform:scale(.94)}
+.tuner-tip{font-size:0.76rem;font-weight:600;color:var(--muted);text-align:center;max-width:280px;line-height:1.55}
+</style>
 </head>
 <body>
-<div id="app">
+<div id="root">
 
-  <header>
-    <div class="logo">
-      <div class="logo-icon">♪</div>
-      Pitch Trainer
+<!-- HOME / LEARN PATH -->
+<div id="home" class="screen on">
+  <div class="hero">
+    <div class="hero-logo">
+      <svg width="26" height="26" viewBox="0 0 100 100"><ellipse cx="38" cy="68" rx="14" ry="10" fill="white"/><rect x="48" y="22" width="7" height="48" rx="3" fill="white"/><path d="M48 22 q22 4 22 20 q-8 -10 -22 -8 z" fill="white"/></svg>
     </div>
-    <nav>
-      <button class="nav-btn" data-section="pitch">Pitch</button>
-      <button class="nav-btn" data-section="intervals">Intervals</button>
-      <button class="nav-btn" data-section="chords">Chords</button>
-      <button class="nav-btn" data-section="degrees">Scale Degrees</button>
-      <button class="nav-btn" data-section="notes">Note ID</button>
-    </nav>
-  </header>
-
-  <main>
-
-    <!-- ── PITCH DETECTOR ── -->
-    <section id="pitch" class="section">
-      <div class="section-title">Realtime Pitch Detector</div>
-      <div class="section-subtitle">Sing or play any note — your pitch is detected live using your microphone.</div>
-
-      <div class="card">
-        <div class="pitch-display">
-          <div id="note-big" class="note-big silent">—</div>
-          <div id="note-freq" class="note-freq"></div>
-
-          <div class="cents-meter">
-            <div class="meter-track">
-              <div class="meter-center"></div>
-              <div id="meter-needle" class="meter-needle"></div>
-            </div>
-            <div class="meter-labels">
-              <span>−50¢</span><span>−25¢</span><span>0</span><span>+25¢</span><span>+50¢</span>
-            </div>
-          </div>
-          <div id="cents-value" class="cents-value"></div>
-
-          <br />
-          <button id="mic-btn" class="mic-btn">
-            <span class="dot"></span> Start Mic
-          </button>
-        </div>
-      </div>
-
-      <div class="card" style="margin-top:16px">
-        <div class="prompt-label">Playable Piano — click any key</div>
-        <div id="piano-container" class="piano-wrap"></div>
-      </div>
-
-      <div class="card" style="margin-top:16px">
-        <div class="tip-box" style="margin-bottom:0">
-          <strong>Rick Beato's Tuning Insight:</strong> Green = within ±10 cents (in tune).
-          Amber = sharp (too high). Red = flat (too low).
-          The best way to develop pitch is to <strong>sing along with what you play</strong> —
-          active vocalization builds neural pathways faster than passive listening alone.
-        </div>
-      </div>
-    </section>
-
-    <!-- ── INTERVALS ── -->
-    <section id="intervals" class="section">
-      <div class="section-title">Interval Training</div>
-      <div class="section-subtitle">Beato's method: each interval has a unique emotional character — learn to feel it, not just count semitones.</div>
-
-      <div class="score-row">
-        <div class="score-pill">Score: <span id="interval-score" class="n">0/0 🔥 0</span></div>
-        <select id="interval-level" class="level-select">
-          <option value="beginner">Beginner (m3, M3, P5, 8ve)</option>
-          <option value="intermediate">Intermediate (all up to m6)</option>
-          <option value="advanced">Advanced (all 12)</option>
-        </select>
-        <select id="interval-mode" class="level-select">
-          <option value="both">Mixed (ascending/descending/harmonic)</option>
-          <option value="ascending">Ascending only</option>
-          <option value="descending">Descending only</option>
-          <option value="harmonic">Harmonic only</option>
-        </select>
-      </div>
-
-      <div class="tip-box">
-        <strong>Beato Method:</strong> Don't just count semitones — internalize the <em>color</em> of each interval.
-        A minor 3rd feels melancholic and soft. A tritone is unstable and restless. A perfect 5th is open and powerful.
-        Associate each interval with a song you know deeply.
-      </div>
-
-      <div class="exercise-area">
-        <div class="exercise-prompt">
-          <div class="prompt-label">Listen to the interval <span id="interval-mode-badge" class="play-mode-badge">—</span></div>
-          <button id="interval-play" class="play-btn">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M3 2l11 6-11 6V2z"/></svg>
-            Play Again
-          </button>
-        </div>
-
-        <div id="interval-choices" class="choices"></div>
-
-        <div>
-          <div id="interval-feedback" class="feedback"></div>
-          <button id="interval-next" class="next-btn">Next →</button>
-        </div>
-      </div>
-
-      <!-- Interval reference table -->
-      <div class="card" style="margin-top:24px">
-        <div class="prompt-label" style="margin-bottom:12px">Interval Character Reference (Beato)</div>
-        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px">
-          <div class="tip-box" style="margin-bottom:0"><strong>m2 · 1 st</strong> — Sharp dissonance</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>M2 · 2 st</strong> — Mild dissonance</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>m3 · 3 st</strong> — Soft consonance, melancholic</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>M3 · 4 st</strong> — Soft consonance, bright</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>P4 · 5 st</strong> — Consonance (context-dependent)</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>TT · 6 st</strong> — Restless, neutral tension</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>P5 · 7 st</strong> — Open consonance, powerful</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>m6 · 8 st</strong> — Soft consonance, bittersweet</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>M6 · 9 st</strong> — Soft consonance, warm</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>m7 · 10 st</strong> — Tension, wants to resolve</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>M7 · 11 st</strong> — Bright/close dissonance</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>P8 · 12 st</strong> — Perfect consonance, fullness</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ── CHORDS ── -->
-    <section id="chords" class="section">
-      <div class="section-title">Chord Quality Training</div>
-      <div class="section-subtitle">Develop your "vocabulary of recognized sounds" — hear a chord and immediately feel its quality.</div>
-
-      <div class="score-row">
-        <div class="score-pill">Score: <span id="chord-score" class="n">0/0 🔥 0</span></div>
-        <select id="chord-level" class="level-select">
-          <option value="beginner">Beginner (Major vs Minor)</option>
-          <option value="intermediate">Intermediate (+ dim, aug, sus)</option>
-          <option value="advanced">Advanced (all 7th chords)</option>
-        </select>
-      </div>
-
-      <div class="tip-box">
-        <strong>Beato Method:</strong> A major triad = major 3rd stacked on minor 3rd (bright, open).
-        A minor triad = minor 3rd stacked on major 3rd (darker, introspective).
-        A diminished = two minor thirds stacked (tense, unstable).
-        An augmented = two major thirds (eerie, floating).
-        Listen for the <em>stacking</em> of thirds.
-      </div>
-
-      <div class="exercise-area">
-        <div class="exercise-prompt">
-          <div class="prompt-label">What chord quality do you hear?</div>
-          <button id="chord-play" class="play-btn">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M3 2l11 6-11 6V2z"/></svg>
-            Play Again
-          </button>
-        </div>
-
-        <div id="chord-choices" class="choices"></div>
-
-        <div>
-          <div id="chord-feedback" class="feedback"></div>
-          <button id="chord-next" class="next-btn">Next →</button>
-        </div>
-      </div>
-
-      <div class="card" style="margin-top:24px">
-        <div class="prompt-label" style="margin-bottom:12px">Chord Formula Quick Reference</div>
-        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px">
-          <div class="tip-box" style="margin-bottom:0"><strong>Major</strong> 1 – 3 – 5 &nbsp; M3+m3</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>Minor</strong> 1 – b3 – 5 &nbsp; m3+M3</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>Diminished</strong> 1 – b3 – b5 &nbsp; m3+m3</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>Augmented</strong> 1 – 3 – #5 &nbsp; M3+M3</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>Sus2</strong> 1 – 2 – 5</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>Sus4</strong> 1 – 4 – 5</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>Maj7</strong> 1 – 3 – 5 – 7</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>Dom7</strong> 1 – 3 – 5 – b7 (tension)</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>Min7</strong> 1 – b3 – 5 – b7</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>Half-Dim</strong> 1 – b3 – b5 – b7</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>Dim7</strong> 1 – b3 – b5 – bb7</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>Min/Maj7</strong> 1 – b3 – 5 – 7</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ── SCALE DEGREES ── -->
-    <section id="degrees" class="section">
-      <div class="section-title">Scale Degree Training</div>
-      <div class="section-subtitle">Beato's tonal method: a cadence establishes the key, then identify which scale degree you hear.</div>
-
-      <div class="score-row">
-        <div class="score-pill">Score: <span id="deg-score" class="n">0/0 🔥 0</span></div>
-        <select id="deg-level" class="level-select">
-          <option value="beginner">Beginner (1, 2, 3, 5)</option>
-          <option value="intermediate">Intermediate (1–6)</option>
-          <option value="advanced">Advanced (all 7)</option>
-        </select>
-      </div>
-
-      <div class="tip-box">
-        <strong>Beato Method (Movable Do):</strong> Do always = the tonic. Hear the cadence, feel the key center,
-        then sing from the note down (or up) to Do. The distance you travel tells you the degree.
-        <em>Pre-dominant</em> chords contain degree 4 (Fa). <em>Dominant</em> contains degrees 5 and 7.
-        <em>Tonic</em> contains degree 1 (Do).
-      </div>
-
-      <div class="exercise-area">
-        <div class="exercise-prompt">
-          <div class="prompt-label">Cadence plays first — then identify the scale degree</div>
-          <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap">
-            <button id="deg-cadence" class="play-btn">
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M3 2l11 6-11 6V2z"/></svg>
-              Replay Cadence
-            </button>
-            <button id="deg-play" class="play-btn">
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M3 2l11 6-11 6V2z"/></svg>
-              Replay Note
-            </button>
-          </div>
-        </div>
-
-        <div id="deg-choices" class="choices"></div>
-
-        <div>
-          <div id="deg-feedback" class="feedback"></div>
-          <button id="deg-next" class="next-btn">Next →</button>
-        </div>
-      </div>
-
-      <div class="card" style="margin-top:24px">
-        <div class="prompt-label" style="margin-bottom:12px">Scale Degree Reference (Movable Do)</div>
-        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px">
-          <div class="tip-box" style="margin-bottom:0"><strong>1 — Do</strong> Tonic · I · home</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>2 — Re</strong> Supertonic · ii · tension</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>3 — Mi</strong> Mediant · iii · color</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>4 — Fa</strong> Subdominant · IV · pre-dominant</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>5 — Sol</strong> Dominant · V · strong pull home</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>6 — La</strong> Submediant · vi · relative minor</div>
-          <div class="tip-box" style="margin-bottom:0"><strong>7 — Ti</strong> Leading Tone · vii° · strongest pull</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ── NOTE ID ── -->
-    <section id="notes" class="section">
-      <div class="section-title">Note Recognition</div>
-      <div class="section-subtitle">Beato's 12-reference-song method: each of the 12 chromatic pitches is anchored to a song you know deeply.</div>
-
-      <div class="score-row">
-        <div class="score-pill">Score: <span id="note-score" class="n">0/0 🔥 0</span></div>
-      </div>
-
-      <div class="tip-box">
-        <strong>Rick Beato's 12-Reference-Song Method:</strong> For each of the 12 chromatic notes, memorize one song
-        where that pitch is the <em>very first note</em>. When you hear an unfamiliar pitch, cycle through your references
-        until one matches. This is not perfect pitch — but it provides a fast practical pitch-naming system for adults.
-      </div>
-
-      <div class="exercise-area">
-        <div class="exercise-prompt">
-          <div class="prompt-label">Which note do you hear?</div>
-          <button id="note-play" class="play-btn">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M3 2l11 6-11 6V2z"/></svg>
-            Play Again
-          </button>
-        </div>
-
-        <div id="note-choices" class="choices"></div>
-
-        <div>
-          <div id="note-feedback" class="feedback"></div>
-          <button id="note-next" class="next-btn">Next →</button>
-        </div>
-      </div>
-
-      <div class="card" style="margin-top:24px">
-        <div class="prompt-label" style="margin-bottom:12px">All 12 Note References</div>
-        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px" id="note-ref-grid"></div>
-      </div>
-    </section>
-
-  </main>
+    <div>
+      <div class="hero-name">tonic</div>
+      <div class="hero-tag">Train your ears. Play anything.</div>
+    </div>
+  </div>
+  <div class="prog-summary">
+    <div class="prog-summary-top">
+      <span class="prog-summary-lbl">Your progress</span>
+      <span class="prog-summary-val" id="prog-val">0 / 20</span>
+    </div>
+    <div class="prog-track"><div class="prog-fill" id="prog-fill" style="width:0%"></div></div>
+  </div>
+  <div class="mix-card" id="mix-card" style="display:none">
+    <div class="mix-body">
+      <h3>Daily Mix</h3>
+      <p>Quick review of everything you know</p>
+    </div>
+    <button class="mix-go" id="mix-go">Go</button>
+  </div>
+  <div id="units"></div>
+  <div style="height:24px"></div>
 </div>
 
-<script type="module" src="js/app.js"></script>
-<script type="module">
-  // Build the note reference grid
-  import { PITCH_REFERENCES, NOTE_NAMES, NOTE_NAMES_FLAT } from './js/notes.js';
-  const grid = document.getElementById('note-ref-grid');
-  for (let i = 0; i < 12; i++) {
-    const ref = PITCH_REFERENCES[i];
-    const div = document.createElement('div');
-    div.className = 'tip-box';
-    div.style.marginBottom = '0';
-    div.innerHTML = `<strong>${NOTE_NAMES[i]}${NOTE_NAMES[i] !== NOTE_NAMES_FLAT[i] ? ' / ' + NOTE_NAMES_FLAT[i] : ''}</strong><br/><span style="font-style:italic;font-size:0.78rem">${ref.song}</span>`;
-    grid.appendChild(div);
+<!-- TEACH -->
+<div id="teach" class="screen">
+  <div class="teach-hdr">
+    <button class="x-btn" id="teach-x">&#10005;</button>
+    <span class="teach-kicker" id="teach-kicker"></span>
+    <div style="width:34px"></div>
+  </div>
+  <div class="teach-body">
+    <div class="teach-emoji" id="teach-emoji"></div>
+    <div class="teach-title" id="teach-title"></div>
+    <div class="teach-desc" id="teach-desc"></div>
+    <div class="demo-list" id="demo-list"></div>
+    <button class="cta" id="teach-start">Start</button>
+  </div>
+</div>
+
+<!-- QUIZ -->
+<div id="quiz" class="screen">
+  <div class="quiz-top">
+    <button class="x-btn" id="quiz-x">&#10005;</button>
+    <div class="hbar"><div class="hbar-fill" id="hbar-fill" style="width:0%"></div></div>
+    <div class="hearts" id="hearts"></div>
+  </div>
+  <div class="quiz-body">
+    <div class="q-prompt" id="q-prompt"></div>
+    <button class="q-play" id="q-play">
+      <svg width="34" height="34" viewBox="0 0 24 24" fill="#6C5CE7"><path d="M8 5v14l11-7z"/></svg>
+    </button>
+    <div class="q-play-lbl">Tap to hear again</div>
+    <div class="choices-wrap" id="choices"></div>
+  </div>
+</div>
+
+<div class="fb-bar" id="fb-bar">
+  <div class="fb-inner">
+    <div class="fb-ico" id="fb-ico"></div>
+    <div class="fb-words"><div class="fb-title" id="fb-title"></div><div class="fb-sub" id="fb-sub"></div></div>
+    <button class="fb-cont" id="fb-cont">Continue</button>
+  </div>
+</div>
+
+<!-- COMPLETE -->
+<div id="complete" class="screen">
+  <div id="comp-emoji" class="comp-emoji"></div>
+  <div class="comp-title" id="comp-title"></div>
+  <div class="comp-sub" id="comp-sub"></div>
+  <div class="cstat"><div class="cv" id="cv-acc"></div><div class="cl">Accuracy</div></div>
+  <button class="comp-btn" id="comp-btn">Continue</button>
+</div>
+
+<!-- BY EAR -->
+<div id="byear" class="screen">
+  <div id="be-picker">
+    <div class="be-head">
+      <div class="be-title">Real Progressions</div>
+      <div class="be-sub">Hear the chord changes behind real songs. Name each chord by its number and you can play the song in any key.</div>
+    </div>
+    <div class="mode-toggle">
+      <button class="mode-btn on" id="mode-guided">Guided</button>
+      <button class="mode-btn" id="mode-mystery">Mystery</button>
+    </div>
+    <div class="mode-hint" id="mode-hint"></div>
+    <div class="prog-list" id="prog-list"></div>
+  </div>
+
+  <div id="be-game">
+    <div class="be-hdr">
+      <button class="x-btn" id="be-x">&#10005;</button>
+      <div class="be-hdr-title" id="be-hdr-title"></div>
+      <div class="be-hearts" id="be-hearts"></div>
+    </div>
+    <div class="chips" id="chips"></div>
+    <div class="be-score-row">
+      <div class="be-score" id="be-score">0</div>
+      <div class="be-combo" id="be-combo"></div>
+    </div>
+    <div class="stage">
+      <div class="big-card" id="big-card">
+        <div class="pair-row">
+          <span class="from-num" id="from-num"></span>
+          <span class="from-arr" id="from-arr">&#8594;</span>
+          <span class="to-num" id="to-num">-</span>
+        </div>
+        <div class="big-type" id="big-type"></div>
+        <div class="big-sub" id="big-sub"></div>
+      </div>
+    </div>
+    <div class="be-q">
+      <div class="be-prompt" id="be-prompt"></div>
+      <button class="replay-btn" id="be-replay" style="display:none">&#8617; Hear it again</button>
+      <div class="choices-wrap" id="be-choices"></div>
+    </div>
+    <div class="round-done" id="round-done" style="display:none">
+      <div class="rd-emoji" id="rd-emoji"></div>
+      <div class="rd-title" id="rd-title"></div>
+      <div class="rd-sub" id="rd-sub"></div>
+      <div class="reveal-box" id="rd-reveal" style="display:none">
+        <div class="reveal-label">The progression</div>
+        <div class="reveal-main" id="rd-reveal-main"></div>
+        <div class="reveal-sub" id="rd-reveal-sub"></div>
+      </div>
+      <div class="rd-btns">
+        <button class="rdb secondary" id="rd-back">Back</button>
+        <button class="rdb primary" id="rd-again">Play Again</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TUNER -->
+<div id="tuner" class="screen">
+  <div>
+    <div class="tuner-title">Tuner</div>
+  </div>
+  <div class="tuner-sub">Chromatic tuner with guitar reference tones</div>
+  <div class="tuner-card">
+    <div id="note-big" class="note-big silent">-</div>
+    <div id="freq-lbl" class="freq-lbl"></div>
+    <div class="t-wrap">
+      <div class="t-track"><div class="t-zone"></div><div class="t-center"></div><div id="t-needle" class="t-needle"></div></div>
+      <div class="t-labels"><span>-50&cent;</span><span>0</span><span>+50&cent;</span></div>
+    </div>
+    <div id="cents-lbl" class="cents-lbl"></div>
+    <button id="mic-btn" class="mic-btn"><span class="mic-dot"></span>Start Listening</button>
+  </div>
+  <div class="string-row" id="string-row"></div>
+  <p class="tuner-tip">Tap a string to hear the reference pitch, then tune until the needle sits in the green zone.</p>
+</div>
+
+<nav id="nav">
+  <button class="nav-btn on" data-go="home">
+    <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+    Learn
+  </button>
+  <button class="nav-btn" data-go="byear">
+    <svg viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
+    By Ear
+  </button>
+  <button class="nav-btn" data-go="tuner">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+    Tuner
+  </button>
+</nav>
+
+</div>
+<script>
+'use strict';
+
+/* ================= DATA ================= */
+
+var IV_DATA={
+  1:{name:'Minor 2nd', abbr:'m2', emoji:'🦈', color:'#555566', song:'Jaws theme',                     feel:'A half step. Tense and creeping.'},
+  2:{name:'Major 2nd', abbr:'M2', emoji:'👣', color:'#FF6B6B', song:'Happy Birthday',                 feel:'A whole step. The most natural walk upward.'},
+  3:{name:'Minor 3rd', abbr:'m3', emoji:'🌧️', color:'#CE82FF', song:'Smoke on the Water',             feel:'Dark and moody. The minor chord sound.'},
+  4:{name:'Major 3rd', abbr:'M3', emoji:'☀️', color:'#F39C12', song:'When the Saints Go Marching In', feel:'Bright and happy. The major chord sound.'},
+  5:{name:'Perfect 4th',abbr:'P4',emoji:'💍', color:'#FF9600', song:'Here Comes the Bride',           feel:'Solid and stable. A strong upward step.'},
+  6:{name:'Tritone',   abbr:'TT', emoji:'⚡', color:'#666677', song:'The Simpsons theme',             feel:'Halfway through the octave. Unstable, wants to move.'},
+  7:{name:'Perfect 5th',abbr:'P5',emoji:'⭐', color:'#E74C3C', song:'Star Wars main theme',           feel:'Open and heroic. The backbone of harmony.'},
+  8:{name:'Minor 6th', abbr:'m6', emoji:'🌙', color:'#8E44AD', song:'The Entertainer (bars 1-2)',     feel:'Bittersweet and romantic.'},
+  9:{name:'Major 6th', abbr:'M6', emoji:'🌅', color:'#1CB0F6', song:'My Bonnie Lies Over the Ocean',  feel:'Warm and confident. A sweeping leap.'},
+  10:{name:'Minor 7th',abbr:'m7', emoji:'🌊', color:'#3498DB', song:'Somewhere (West Side Story)',    feel:'Bluesy and longing. At home in soul and jazz.'},
+  11:{name:'Major 7th',abbr:'M7', emoji:'✨', color:'#9B59B6', song:'Take On Me (chorus leap)',       feel:'Almost an octave. Dreamy, unresolved.'},
+  12:{name:'Octave',   abbr:'P8', emoji:'⬆️', color:'#2EC05E', song:'Somewhere Over the Rainbow',     feel:'The same note, higher. Total agreement.'}
+};
+
+var CHORD_DATA={
+  maj: {name:'Major',      emoji:'☀️', color:'#F39C12', notes:[0,4,7],    feel:'Bright, happy, settled.'},
+  min: {name:'Minor',      emoji:'🌧️', color:'#CE82FF', notes:[0,3,7],    feel:'Dark, sad, serious.'},
+  dim: {name:'Diminished', emoji:'🕸️', color:'#666677', notes:[0,3,6],    feel:'Tense and unstable. Wants to resolve.'},
+  dom7:{name:'Dominant 7', emoji:'🎷', color:'#3498DB', notes:[0,4,7,10], feel:'Bluesy with a pull. The blues chord.'},
+  maj7:{name:'Major 7',    emoji:'✨', color:'#9B59B6', notes:[0,4,7,11], feel:'Dreamy and smooth. Jazz and neo soul.'},
+  min7:{name:'Minor 7',    emoji:'🌊', color:'#1CB0F6', notes:[0,3,7,10], feel:'Mellow and soulful.'}
+};
+
+var NASH_DATA={
+  0:{roman:'I',  quality:'maj', desc:'home base',     feel:'Settled. Everything resolves here.'},
+  2:{roman:'ii', quality:'min', desc:'the soft step', feel:'A gentle minor lift. Loves moving to V.'},
+  4:{roman:'iii',quality:'min', desc:'the dreamer',   feel:'Floaty minor color. Less common, very pretty.'},
+  5:{roman:'IV', quality:'maj', desc:'the lift',      feel:'Rises away from home. Open and hopeful.'},
+  7:{roman:'V',  quality:'maj', desc:'the tension',   feel:'Pulls hard back to I. The engine of pop.'},
+  9:{roman:'vi', quality:'min', desc:'the heart',     feel:'The emotional minor chord in every ballad.'}
+};
+var NOTE_NAMES=['C','C#','D','Eb','E','F','F#','G','Ab','A','Bb','B'];
+
+/* Curriculum. kind: pitch | iv-up | iv-down | iv-harm | iv-mix | chord | nash */
+var UNITS=[
+  {name:'First Sounds', color:'#2EC05E', sub:'Tell notes apart, then learn your first intervals', lessons:[
+    {id:'p1', icon:'👂', name:'Higher or Lower', sub:'Two notes, one question', kind:'pitch',
+     teach:{title:'Higher or Lower', emoji:'👂', desc:'Every skill in this app starts here. Two notes play, one after the other. Your only job: was the second one higher or lower?'}},
+    {id:'i1', icon:'⬆️', name:'Octave and Fifth', sub:'The two anchors', kind:'iv-up', items:[12,7],
+     teach:{title:'Octave and Fifth', emoji:'⬆️', desc:'The octave is the same note repeated higher. The perfect fifth is the most stable interval inside it. Learn these two anchors and everything else falls between them.'}},
+    {id:'i2', icon:'💍', name:'The Fourth', sub:'Adds the perfect 4th', kind:'iv-up', items:[5], review:[7,12],
+     teach:{title:'The Perfect 4th', emoji:'💍', desc:'One step below the fifth, with a very different mood. Solid, plain, a little formal. Think of the first two notes of Here Comes the Bride.'}},
+    {id:'i3', icon:'☀️', name:'Happy and Sad', sub:'Major 3rd vs minor 3rd', kind:'iv-up', items:[4,3], review:[5,7],
+     teach:{title:'The Thirds', emoji:'☀️', desc:'This pair decides whether music sounds happy or sad. The major 3rd is bright. The minor 3rd, one semitone smaller, turns the lights down.'}},
+    {id:'i4', icon:'👣', name:'Small Steps', sub:'Major 2nd vs minor 2nd', kind:'iv-up', items:[2,1], review:[3,4],
+     teach:{title:'The Steps', emoji:'👣', desc:'The two smallest intervals. The major 2nd is one natural walking step, like Happy Birthday. The minor 2nd is a half step, the Jaws theme creeping closer.'}},
+    {id:'c1', icon:'🏁', name:'Checkpoint', sub:'Everything so far', kind:'iv-up', items:[1,2,3,4,5,7,12], checkpoint:true}
+  ]},
+  {name:'The Full Map', color:'#1CB0F6', sub:'All twelve intervals, in every direction', lessons:[
+    {id:'i5', icon:'🌅', name:'The Sixths', sub:'Major 6th vs minor 6th', kind:'iv-up', items:[9,8], review:[7,12],
+     teach:{title:'The Sixths', emoji:'🌅', desc:'Big warm leaps. The major 6th sweeps upward with confidence. The minor 6th lands somewhere more bittersweet.'}},
+    {id:'i6', icon:'✨', name:'The Sevenths', sub:'Major 7th vs minor 7th', kind:'iv-up', items:[11,10], review:[9,12],
+     teach:{title:'The Sevenths', emoji:'✨', desc:'Almost an octave but not quite, and that gap is everything. The minor 7th is bluesy. The major 7th is dreamy and tense at once.'}},
+    {id:'i7', icon:'⚡', name:'The Tritone', sub:'The devil in music', kind:'iv-up', items:[6], review:[5,7],
+     teach:{title:'The Tritone', emoji:'⚡', desc:'Exactly halfway through the octave. Medieval monks avoided it. The Simpsons theme embraced it. Once you can hear it, you cannot unhear it.'}},
+    {id:'c2', icon:'🏁', name:'Checkpoint', sub:'All twelve intervals', kind:'iv-up', items:[1,2,3,4,5,6,7,8,9,10,11,12], checkpoint:true},
+    {id:'d1', icon:'⬇️', name:'Going Down', sub:'Intervals falling', kind:'iv-down', items:[12,7,5,4,3],
+     teach:{title:'Going Down', emoji:'⬇️', desc:'Real melodies fall as often as they rise. Same intervals, opposite direction. It feels different at first. Trust your ear.'}},
+    {id:'h1', icon:'🎹', name:'Played Together', sub:'Both notes at once', kind:'iv-harm', items:[12,7,5,4,3,6],
+     teach:{title:'Played Together', emoji:'🎹', desc:'When both notes sound at the same time you hear texture instead of movement. This is how intervals live inside chords.'}},
+    {id:'c3', icon:'🏁', name:'Checkpoint', sub:'Up, down and together', kind:'iv-mix', items:[3,4,5,6,7,12], checkpoint:true}
+  ]},
+  {name:'Chords', color:'#FF9600', sub:'Hear the quality of any chord instantly', lessons:[
+    {id:'ch1', icon:'🌗', name:'Major vs Minor', sub:'The big split', kind:'chord', items:['maj','min'],
+     teach:{title:'Major vs Minor', emoji:'🌗', desc:'Three notes played together make a chord, and one note decides its whole mood. Major sounds bright. Minor sounds dark. This is the most useful split in music.'}},
+    {id:'ch2', icon:'🎷', name:'Seventh Chords', sub:'Dom 7, major 7, minor 7', kind:'chord', items:['dom7','maj7','min7'], review:['maj','min'],
+     teach:{title:'Seventh Chords', emoji:'🎷', desc:'Add a fourth note and chords get personality. Dominant 7 is bluesy. Major 7 is dreamy. Minor 7 is smooth. You hear these in every style.'}},
+    {id:'ch3', icon:'🕸️', name:'Diminished', sub:'The tense one', kind:'chord', items:['dim'], review:['maj','min'],
+     teach:{title:'Diminished', emoji:'🕸️', desc:'Stack two minor 3rds and you get a chord that cannot sit still. Horror scores love it. So does jazz, in smaller doses.'}},
+    {id:'c4', icon:'🏁', name:'Checkpoint', sub:'All six qualities', kind:'chord', items:['maj','min','dim','dom7','maj7','min7'], checkpoint:true}
+  ]},
+  {name:'The Numbers', color:'#6C5CE7', sub:'The Nashville Number System. Hear a chord, know its number, play it in any key', lessons:[
+    {id:'n1', icon:'🏠', name:'I, IV and V', sub:'The three pillars', kind:'nash', items:[0,5,7],
+     teach:{title:'I, IV and V', emoji:'🏠', desc:'Session musicians in Nashville name chords by number instead of letter. I is home. IV is the lift. V is the tension that pulls you back. Thousands of songs use only these three.'}},
+    {id:'n2', icon:'💜', name:'The vi', sub:'The emotional one', kind:'nash', items:[9], review:[0,5,7],
+     teach:{title:'The vi Chord', emoji:'💜', desc:'The minor six is the heart of modern pop. I, V, vi, IV is the most used progression of the last forty years. Learn to spot the vi and you will hear it everywhere.'}},
+    {id:'n3', icon:'🌫️', name:'ii and iii', sub:'The subtle colors', kind:'nash', items:[2,4], review:[0,5,7,9],
+     teach:{title:'ii and iii', emoji:'🌫️', desc:'Two more minor chords round out the family. The ii loves to walk toward V. The iii is rarer and floats. After this you know every common chord by number.'}},
+    {id:'c5', icon:'🏁', name:'Number Master', sub:'All six numbers', kind:'nash', items:[0,2,4,5,7,9], checkpoint:true}
+  ]}
+];
+
+var ALL_LESSONS=[];
+UNITS.forEach(function(u){u.lessons.forEach(function(l){l.unit=u;ALL_LESSONS.push(l);});});
+
+/* Progressions for By Ear */
+var PROGS=[
+  {id:'rock', name:'Classic Rock', emoji:'🎸', color:'#E74C3C', bpm:72, rootMidi:48,
+   desc:'The foundation of rock and country.',
+   chords:[
+     {label:'C',rootSt:0,type:'major',notes:[0,4,7]},
+     {label:'F',rootSt:5,type:'major',notes:[0,4,7]},
+     {label:'G',rootSt:7,type:'major',notes:[0,4,7]},
+     {label:'C',rootSt:0,type:'major',notes:[0,4,7]}]},
+  {id:'pop', name:'Pop Anthem', emoji:'🎤', color:'#6C5CE7', bpm:84, rootMidi:48,
+   desc:'Behind thousands of hits since the 90s.',
+   chords:[
+     {label:'C',rootSt:0,type:'major',notes:[0,4,7]},
+     {label:'G',rootSt:7,type:'major',notes:[0,4,7]},
+     {label:'Am',rootSt:9,type:'minor',notes:[0,3,7]},
+     {label:'F',rootSt:5,type:'major',notes:[0,4,7]}]},
+  {id:'doowop', name:'50s Doo Wop', emoji:'🎙️', color:'#FF9600', bpm:80, rootMidi:48,
+   desc:'Stand By Me, Earth Angel, and hundreds more.',
+   chords:[
+     {label:'C',rootSt:0,type:'major',notes:[0,4,7]},
+     {label:'Am',rootSt:9,type:'minor',notes:[0,3,7]},
+     {label:'F',rootSt:5,type:'major',notes:[0,4,7]},
+     {label:'G',rootSt:7,type:'major',notes:[0,4,7]}]},
+  {id:'sadpop', name:'Sad Pop', emoji:'🌧️', color:'#3498DB', bpm:76, rootMidi:48,
+   desc:'Same four chords, started from the vi.',
+   chords:[
+     {label:'Am',rootSt:9,type:'minor',notes:[0,3,7]},
+     {label:'F',rootSt:5,type:'major',notes:[0,4,7]},
+     {label:'C',rootSt:0,type:'major',notes:[0,4,7]},
+     {label:'G',rootSt:7,type:'major',notes:[0,4,7]}]},
+  {id:'jazz', name:'Jazz Turnaround', emoji:'🎷', color:'#9B59B6', bpm:66, rootMidi:48,
+   desc:'The ii V I, the heart of every standard.',
+   chords:[
+     {label:'Dm7',rootSt:2,type:'minor 7',notes:[0,3,7,10]},
+     {label:'G7',rootSt:7,type:'dom 7',notes:[0,4,7,10]},
+     {label:'Cmaj7',rootSt:0,type:'major 7',notes:[0,4,7,11]},
+     {label:'Cmaj7',rootSt:0,type:'major 7',notes:[0,4,7,11]}]},
+  {id:'blues', name:'12 Bar Blues', emoji:'🎺', color:'#F39C12', bpm:68, rootMidi:48,
+   desc:'The heartbeat of blues and early rock.',
+   chords:[
+     {label:'C7',rootSt:0,type:'dom 7',notes:[0,4,7,10]},
+     {label:'C7',rootSt:0,type:'dom 7',notes:[0,4,7,10]},
+     {label:'F7',rootSt:5,type:'dom 7',notes:[0,4,7,10]},
+     {label:'C7',rootSt:0,type:'dom 7',notes:[0,4,7,10]},
+     {label:'G7',rootSt:7,type:'dom 7',notes:[0,4,7,10]},
+     {label:'F7',rootSt:5,type:'dom 7',notes:[0,4,7,10]},
+     {label:'C7',rootSt:0,type:'dom 7',notes:[0,4,7,10]}]}
+];
+
+var ROMAN={0:'I',2:'II',4:'III',5:'IV',7:'V',9:'VI',11:'VII'};
+var ROMANm={0:'i',2:'ii',4:'iii',5:'iv',7:'v',9:'vi',11:'vii°'};
+function getRoman(st,type){return ((type&&type.indexOf('minor')>=0)?ROMANm:ROMAN)[st]||'?';}
+var HINT_KEYS=[{n:'G',o:7},{n:'D',o:2},{n:'E',o:4}];
+
+/* ================= STATE ================= */
+var P;
+try{P=JSON.parse(localStorage.getItem('tonic_v1')||'{}');}catch(e){P={};}
+if(!P.done)P.done={};
+if(!P.best)P.best={};
+function saveP(){try{localStorage.setItem('tonic_v1',JSON.stringify(P));}catch(e){}}
+function lessonUnlocked(i){return i===0||!!P.done[ALL_LESSONS[i-1].id];}
+function doneCount(){var n=0;ALL_LESSONS.forEach(function(l){if(P.done[l.id])n++;});return n;}
+
+/* ================= AUDIO ================= */
+var actx=null,mGain=null;
+function getCtx(){
+  if(!actx){
+    actx=new (window.AudioContext||window.webkitAudioContext)();
+    mGain=actx.createGain();mGain.gain.value=0.55;mGain.connect(actx.destination);
   }
+  return actx;
+}
+function run(fn){
+  var ctx=getCtx();
+  if(ctx.state==='running'){fn(ctx);}
+  else{ctx.resume().then(function(){fn(ctx);}).catch(function(){fn(ctx);});}
+}
+function _note(ctx,midi,dur,vel,delay){
+  var f=440*Math.pow(2,(midi-69)/12),t=ctx.currentTime+(delay||0);
+  var o1=ctx.createOscillator(),o2=ctx.createOscillator(),g=ctx.createGain(),fl=ctx.createBiquadFilter();
+  o1.type='triangle';o2.type='sine';o1.frequency.value=f;o2.frequency.value=f*2.001;
+  fl.type='lowpass';fl.frequency.value=Math.min(f*9,12000);
+  var v=vel||0.7,d=dur||1.3;
+  g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+0.006);
+  g.gain.exponentialRampToValueAtTime(v*0.2,t+0.28);g.gain.setValueAtTime(v*0.2,t+Math.max(0.29,d-0.28));
+  g.gain.exponentialRampToValueAtTime(0.0001,t+d+0.28);
+  var a=ctx.createGain(),b=ctx.createGain();a.gain.value=0.6;b.gain.value=0.4;
+  o1.connect(a);a.connect(fl);o2.connect(b);b.connect(fl);fl.connect(g);g.connect(mGain);
+  o1.start(t);o2.start(t);o1.stop(t+d+0.32);o2.stop(t+d+0.32);
+}
+function playTwo(m1,m2,gap){run(function(ctx){_note(ctx,m1,1.1,0.75,0);_note(ctx,m2,1.1,0.75,gap||1.05);});}
+function playHarm(m1,m2){run(function(ctx){_note(ctx,m1,1.6,0.62,0);_note(ctx,m2,1.6,0.62,0.02);});}
+function playChordNotes(rootMidi,notes,dur){
+  run(function(ctx){notes.forEach(function(n,i){_note(ctx,rootMidi+n,dur||1.5,0.55,i*0.03);});});
+}
+function playOK(){run(function(ctx){[60,64,67,72].forEach(function(m,i){_note(ctx,m,0.22,0.55,i*0.07);});});}
+function playBad(){run(function(ctx){_note(ctx,60,0.3,0.4,0);_note(ctx,61,0.3,0.4,0);});}
+function rndRoot(lo,hi){return lo+Math.floor(Math.random()*(hi-lo+1));}
+function shuffle(a){var b=a.slice();for(var i=b.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=b[i];b[i]=b[j];b[j]=t;}return b;}
+
+/* ================= NAV ================= */
+var SCREENS=['home','teach','quiz','complete','byear','tuner'];
+function go(id){
+  SCREENS.forEach(function(s){document.getElementById(s).classList.toggle('on',s===id);});
+  document.querySelectorAll('.nav-btn').forEach(function(b){b.classList.toggle('on',b.dataset.go===id);});
+  var hideNav=(id==='teach'||id==='quiz'||id==='complete');
+  document.getElementById('nav').style.display=hideNav?'none':'flex';
+}
+document.querySelectorAll('.nav-btn').forEach(function(b){
+  b.addEventListener('click',function(){
+    run(function(){});
+    go(b.dataset.go);
+    if(b.dataset.go==='home')renderHome();
+    if(b.dataset.go==='byear')showPicker();
+  });
+});
+
+/* ================= HOME ================= */
+function renderHome(){
+  var dc=doneCount();
+  document.getElementById('prog-val').textContent=dc+' / '+ALL_LESSONS.length;
+  document.getElementById('prog-fill').style.width=(dc/ALL_LESSONS.length*100)+'%';
+  document.getElementById('mix-card').style.display=dc>=3?'flex':'none';
+  var wrap=document.getElementById('units');
+  wrap.innerHTML='';
+  var gi=0;
+  UNITS.forEach(function(u,ui){
+    var hdr=document.createElement('div');hdr.className='unit-hdr';
+    var num=document.createElement('span');num.className='unit-num';num.style.background=u.color;num.textContent='Unit '+(ui+1);
+    var nm=document.createElement('span');nm.className='unit-name';nm.textContent=u.name;
+    hdr.appendChild(num);hdr.appendChild(nm);wrap.appendChild(hdr);
+    var sub=document.createElement('div');sub.className='unit-sub';sub.textContent=u.sub;wrap.appendChild(sub);
+    var cards=document.createElement('div');cards.className='cards';
+    u.lessons.forEach(function(l){
+      var idx=gi++;
+      var unlocked=lessonUnlocked(idx);
+      var done=!!P.done[l.id];
+      var card=document.createElement('div');card.className='lcard'+(unlocked?'':' locked');
+      if(unlocked&&l.kind!=='pitch'&&l.items&&l.items.length){
+        var pb=document.createElement('button');pb.className='lcard-play';pb.style.background=u.color+'22';
+        pb.innerHTML='<svg width="18" height="18" viewBox="0 0 24 24" fill="'+u.color+'"><path d="M8 5v14l11-7z"/></svg>';
+        pb.addEventListener('click',function(e){e.stopPropagation();run(function(){});demoLesson(l);});
+        card.appendChild(pb);
+      } else {
+        var ic=document.createElement('div');ic.className='lcard-icon';ic.textContent=unlocked?l.icon:'🔒';card.appendChild(ic);
+      }
+      var body=document.createElement('div');body.className='lcard-body';
+      var nm2=document.createElement('div');nm2.className='lcard-name';nm2.textContent=l.name;
+      var sb=document.createElement('div');sb.className='lcard-sub';sb.textContent=l.sub;
+      body.appendChild(nm2);body.appendChild(sb);
+      if(done&&P.best[l.id]!=null){
+        var acc=document.createElement('div');acc.className='lcard-acc';acc.textContent='Best '+P.best[l.id]+'%';
+        body.appendChild(acc);
+      }
+      card.appendChild(body);
+      var btn=document.createElement('button');
+      btn.className='lcard-btn'+(unlocked?(done?' review':''):' lockbtn');
+      btn.textContent=unlocked?(done?'Review':'Start'):'🔒';
+      if(unlocked){btn.addEventListener('click',function(){run(function(){});openLesson(l);});}
+      else{btn.disabled=true;}
+      card.appendChild(btn);
+      cards.appendChild(card);
+    });
+    wrap.appendChild(cards);
+  });
+}
+function demoLesson(l){
+  var root=rndRoot(50,62);
+  if(l.kind==='chord'){
+    var q=CHORD_DATA[l.items[0]];playChordNotes(root,q.notes,1.4);
+  } else if(l.kind==='nash'){
+    var st=l.items[0];var nd=NASH_DATA[st];
+    playChordNotes(52,CHORD_DATA.maj.notes,1.1);
+    setTimeout(function(){playChordNotes(52+st,CHORD_DATA[nd.quality].notes,1.3);},1200);
+  } else {
+    var st2=l.items[0];
+    if(l.kind==='iv-down')playTwo(root+st2,root);
+    else if(l.kind==='iv-harm')playHarm(root,root+st2);
+    else playTwo(root,root+st2);
+  }
+}
+document.getElementById('mix-go').addEventListener('click',function(){
+  run(function(){});startQuiz(buildMixQuestions(),null,'Daily Mix');
+});
+
+/* ================= TEACH ================= */
+var pendingLesson=null;
+function openLesson(l){
+  pendingLesson=l;
+  if(l.checkpoint||!l.teach){startLesson(l);return;}
+  document.getElementById('teach-kicker').textContent=l.unit.name;
+  document.getElementById('teach-emoji').textContent=l.teach.emoji;
+  document.getElementById('teach-title').textContent=l.teach.title;
+  document.getElementById('teach-desc').textContent=l.teach.desc;
+  var list=document.getElementById('demo-list');list.innerHTML='';
+  (l.items||[]).forEach(function(item){
+    var card=document.createElement('div');card.className='demo-card';
+    var play=document.createElement('button');play.className='demo-play';
+    var nameTxt='',subTxt='',color='#6C5CE7';
+    if(l.kind==='chord'){
+      var cd=CHORD_DATA[item];nameTxt=cd.name;subTxt=cd.feel;color=cd.color;
+      play.addEventListener('click',function(){run(function(){});playChordNotes(rndRoot(50,58),cd.notes,1.5);});
+    } else if(l.kind==='nash'){
+      var nd=NASH_DATA[item];nameTxt=nd.roman+' · '+nd.desc;subTxt=nd.feel;color='#6C5CE7';
+      play.addEventListener('click',function(){
+        run(function(){});
+        playChordNotes(52,CHORD_DATA.maj.notes,1.0);
+        setTimeout(function(){playChordNotes(52+item,CHORD_DATA[nd.quality].notes,1.4);},1150);
+      });
+    } else {
+      var iv=IV_DATA[item];nameTxt=iv.name;subTxt=iv.song?('Sounds like: '+iv.song):iv.feel;color=iv.color;
+      play.addEventListener('click',function(){
+        run(function(){});
+        var r=rndRoot(50,60);
+        if(l.kind==='iv-down')playTwo(r+item,r);
+        else if(l.kind==='iv-harm')playHarm(r,r+item);
+        else playTwo(r,r+item);
+      });
+    }
+    play.style.background=color+'22';
+    play.innerHTML='<svg width="18" height="18" viewBox="0 0 24 24" fill="'+color+'"><path d="M8 5v14l11-7z"/></svg>';
+    var body=document.createElement('div');
+    var n=document.createElement('div');n.className='demo-name';n.textContent=nameTxt;
+    var s=document.createElement('div');s.className='demo-sub';s.textContent=subTxt;
+    body.appendChild(n);body.appendChild(s);
+    card.appendChild(play);card.appendChild(body);
+    list.appendChild(card);
+  });
+  go('teach');
+}
+document.getElementById('teach-x').addEventListener('click',function(){go('home');renderHome();});
+document.getElementById('teach-start').addEventListener('click',function(){run(function(){});if(pendingLesson)startLesson(pendingLesson);});
+
+/* ================= QUESTION GENERATION ================= */
+var Q_LEN=7;
+
+function ivChoiceSet(target,pool){
+  var set=[target];
+  shuffle(pool.filter(function(x){return x!==target;})).forEach(function(x){if(set.length<4)set.push(x);});
+  if(set.length<2){
+    var alts=[12,7,5,4,3,2,1].filter(function(x){return set.indexOf(x)<0;});
+    set.push(alts[0]);
+  }
+  return shuffle(set);
+}
+
+function makeIvQ(st,dir,pool){
+  var root=rndRoot(48,62);
+  var hi=root+st;
+  var playFn;
+  var dirWord;
+  if(dir==='down'){playFn=function(){playTwo(hi,root);};dirWord='falling';}
+  else if(dir==='harm'){playFn=function(){playHarm(root,hi);};dirWord='played together';}
+  else{playFn=function(){playTwo(root,hi);};dirWord='rising';}
+  var iv=IV_DATA[st];
+  return {
+    prompt:'What interval is this? ('+dirWord+')',
+    play:playFn,
+    choices:ivChoiceSet(st,pool).map(function(x){
+      var d=IV_DATA[x];
+      return {key:String(x),label:d.name,sub:x+' semitone'+(x>1?'s':''),emoji:d.emoji};
+    }),
+    answer:String(st),
+    explain:iv.name+' · '+st+' semitone'+(st>1?'s':'')+(iv.song?' · '+iv.song:'')
+  };
+}
+
+function makePitchQ(){
+  var root=rndRoot(50,66);
+  var gap=2+Math.floor(Math.random()*8);
+  var up=Math.random()<0.5;
+  var n2=up?root+gap:root-gap;
+  return {
+    prompt:'Was the second note higher or lower?',
+    play:function(){playTwo(root,n2,0.95);},
+    choices:shuffle([
+      {key:'up',label:'Higher',sub:'the second note rose',emoji:'⬆️'},
+      {key:'down',label:'Lower',sub:'the second note fell',emoji:'⬇️'}
+    ]),
+    answer:up?'up':'down',
+    explain:up?'The second note was higher.':'The second note was lower.'
+  };
+}
+
+function makeChordQ(quality,pool){
+  var root=rndRoot(48,58);
+  var cd=CHORD_DATA[quality];
+  var set=[quality];
+  shuffle(pool.filter(function(x){return x!==quality;})).forEach(function(x){if(set.length<4)set.push(x);});
+  if(set.length<2)set.push(quality==='maj'?'min':'maj');
+  return {
+    prompt:'What kind of chord is this?',
+    play:function(){playChordNotes(root,cd.notes,1.5);},
+    choices:shuffle(set).map(function(x){
+      var d=CHORD_DATA[x];
+      return {key:x,label:d.name,sub:d.feel,emoji:d.emoji};
+    }),
+    answer:quality,
+    explain:cd.name+' · '+cd.feel
+  };
+}
+
+function makeNashQ(st,pool){
+  var key=rndRoot(48,55);
+  var nd=NASH_DATA[st];
+  var set=[st];
+  shuffle(pool.filter(function(x){return x!==st;})).forEach(function(x){if(set.length<4)set.push(x);});
+  if(set.length<2)set.push(st===0?7:0);
+  return {
+    prompt:'You hear I, then a chord. Which number is it?',
+    play:function(){
+      playChordNotes(key,CHORD_DATA.maj.notes,1.0);
+      setTimeout(function(){playChordNotes(key+st,CHORD_DATA[NASH_DATA[st].quality].notes,1.4);},1150);
+    },
+    choices:shuffle(set).map(function(x){
+      var d=NASH_DATA[x];
+      return {key:String(x),label:d.roman,sub:d.desc,emoji:''};
+    }),
+    answer:String(st),
+    explain:nd.roman+' · '+nd.desc+' · in C that is '+NOTE_NAMES[st]
+  };
+}
+
+function buildLessonQuestions(l){
+  var qs=[];
+  var i;
+  if(l.kind==='pitch'){
+    for(i=0;i<Q_LEN;i++)qs.push(makePitchQ());
+    return qs;
+  }
+  var items=l.items||[];
+  var review=l.review||[];
+  var pool=items.concat(review);
+  for(i=0;i<Q_LEN;i++){
+    var fromNew=(i<2)||Math.random()<0.6||review.length===0;
+    var srcArr=fromNew?items:review;
+    var target=srcArr[Math.floor(Math.random()*srcArr.length)];
+    if(l.kind==='chord')qs.push(makeChordQ(target,pool));
+    else if(l.kind==='nash')qs.push(makeNashQ(target,pool));
+    else if(l.kind==='iv-down')qs.push(makeIvQ(target,'down',pool));
+    else if(l.kind==='iv-harm')qs.push(makeIvQ(target,'harm',pool));
+    else if(l.kind==='iv-mix'){
+      var dirs=['up','down','harm'];
+      qs.push(makeIvQ(target,dirs[Math.floor(Math.random()*3)],pool));
+    }
+    else qs.push(makeIvQ(target,'up',pool));
+  }
+  return qs;
+}
+
+function buildMixQuestions(){
+  var doneLessons=ALL_LESSONS.filter(function(l){return P.done[l.id]&&l.kind!=='pitch';});
+  if(!doneLessons.length)doneLessons=ALL_LESSONS.slice(1,2);
+  var qs=[];
+  for(var i=0;i<8;i++){
+    var l=doneLessons[Math.floor(Math.random()*doneLessons.length)];
+    var sub=buildLessonQuestions(l);
+    qs.push(sub[Math.floor(Math.random()*sub.length)]);
+  }
+  return qs;
+}
+
+/* ================= QUIZ ENGINE ================= */
+var QZ=null;
+
+function startLesson(l){
+  startQuiz(buildLessonQuestions(l),l,l.name);
+}
+function startQuiz(questions,lesson,title){
+  QZ={qs:questions,idx:0,hearts:3,correct:0,wrong:0,lesson:lesson,answered:false,title:title};
+  go('quiz');renderQ();
+}
+function renderQ(){
+  var q=QZ.qs[QZ.idx];QZ.answered=false;
+  document.getElementById('hbar-fill').style.width=(QZ.idx/QZ.qs.length*100)+'%';
+  renderHearts();
+  document.getElementById('q-prompt').textContent=q.prompt;
+  document.getElementById('q-play').onclick=function(){run(function(){});q.play();};
+  var cw=document.getElementById('choices');cw.innerHTML='';
+  q.choices.forEach(function(c){
+    var btn=document.createElement('button');btn.className='ch';btn.dataset.key=c.key;
+    var ci=document.createElement('span');ci.className='ci';ci.textContent=c.emoji||'🎵';
+    var body=document.createElement('span');
+    var cn=document.createElement('span');cn.className='cn';cn.textContent=c.label;
+    var cs=document.createElement('span');cs.className='cs';cs.textContent=c.sub||'';
+    body.appendChild(cn);body.appendChild(cs);
+    btn.appendChild(ci);btn.appendChild(body);
+    btn.addEventListener('click',function(){onAns(c.key);});
+    cw.appendChild(btn);
+  });
+  document.getElementById('fb-bar').classList.remove('up','ok-fb','bad-fb');
+  setTimeout(function(){q.play();},420);
+}
+function renderHearts(){
+  var h='';
+  for(var i=0;i<3;i++)h+=(i<QZ.hearts)?'❤️':'🖤';
+  document.getElementById('hearts').textContent=h;
+}
+function onAns(key){
+  if(QZ.answered)return;QZ.answered=true;
+  var q=QZ.qs[QZ.idx];
+  var ok=(key===q.answer);
+  document.getElementById('choices').querySelectorAll('.ch').forEach(function(b){
+    b.disabled=true;
+    if(b.dataset.key===q.answer)b.classList.add('ok');
+    else if(b.dataset.key===key&&!ok)b.classList.add('bad');
+  });
+  if(ok){
+    QZ.correct++;playOK();
+    var okBtn=document.getElementById('choices').querySelector('.ch.ok');
+    if(okBtn)okBtn.classList.add('popk');
+  } else {
+    QZ.wrong++;QZ.hearts--;playBad();renderHearts();
+    var badBtn=document.getElementById('choices').querySelector('.ch.bad');
+    if(badBtn)badBtn.classList.add('shake');
+  }
+  var fb=document.getElementById('fb-bar');
+  fb.classList.remove('ok-fb','bad-fb');fb.classList.add(ok?'ok-fb':'bad-fb');
+  document.getElementById('fb-ico').textContent=ok?'✅':'❌';
+  document.getElementById('fb-title').textContent=ok?'Correct!':'Not quite';
+  document.getElementById('fb-sub').textContent=q.explain;
+  fb.classList.add('up');
+}
+document.getElementById('fb-cont').addEventListener('click',function(){
+  document.getElementById('fb-bar').classList.remove('up');
+  QZ.idx++;
+  if(QZ.idx>=QZ.qs.length||QZ.hearts<=0)finishQuiz();
+  else renderQ();
+});
+document.getElementById('quiz-x').addEventListener('click',function(){
+  document.getElementById('fb-bar').classList.remove('up');
+  go('home');renderHome();
+});
+function finishQuiz(){
+  var total=QZ.qs.length;
+  var acc=Math.round(QZ.correct/total*100);
+  var survived=QZ.hearts>0&&QZ.idx>=total;
+  document.getElementById('fb-bar').classList.remove('up');
+  if(QZ.lesson&&survived){
+    P.done[QZ.lesson.id]=true;
+    if(P.best[QZ.lesson.id]==null||acc>P.best[QZ.lesson.id])P.best[QZ.lesson.id]=acc;
+    saveP();
+  }
+  go('complete');
+  document.getElementById('comp-emoji').textContent=survived?(QZ.wrong===0?'🏆':'🎉'):'💔';
+  document.getElementById('comp-title').textContent=survived?(QZ.lesson?'Lesson complete!':'Nice work!'):'Out of hearts';
+  var subTxt;
+  if(!survived)subTxt='No worries. Hearing takes reps. Run it again and it will click.';
+  else if(QZ.lesson)subTxt=QZ.wrong===0?'Perfect round. Your ears are getting sharp.':'You finished '+QZ.title+'. Keep stacking these.';
+  else subTxt='Daily Mix done. Small sessions, big ears.';
+  document.getElementById('comp-sub').textContent=subTxt;
+  document.getElementById('cv-acc').textContent=acc+'%';
+  document.getElementById('comp-btn').textContent=survived?'Continue':'Try Again';
+  document.getElementById('comp-btn').onclick=function(){
+    run(function(){});
+    if(!survived&&QZ.lesson){startLesson(QZ.lesson);}
+    else{go('home');renderHome();}
+  };
+}
+
+/* ================= BY EAR ================= */
+var LG=null;
+var beMode='guided';
+
+document.getElementById('mode-guided').addEventListener('click',function(){setBeMode('guided');});
+document.getElementById('mode-mystery').addEventListener('click',function(){setBeMode('mystery');});
+function setBeMode(m){
+  beMode=m;
+  document.getElementById('mode-guided').classList.toggle('on',m==='guided');
+  document.getElementById('mode-mystery').classList.toggle('on',m==='mystery');
+  document.getElementById('mode-hint').textContent=m==='guided'
+    ?'Chord names are shown. Focus on connecting each sound to its number.'
+    :'Names are hidden. Work out every chord with your ears alone.';
+  showPicker();
+}
+
+function showPicker(){
+  document.getElementById('be-picker').style.display='block';
+  document.getElementById('be-game').style.display='none';
+  var list=document.getElementById('prog-list');list.innerHTML='';
+  PROGS.forEach(function(p){
+    var card=document.createElement('div');card.className='pp-card';
+    var icon=document.createElement('div');icon.className='pp-icon';icon.style.background=p.color+'22';icon.textContent=p.emoji;
+    var body=document.createElement('div');body.className='pp-body';
+    var nm=document.createElement('div');nm.className='pp-name';nm.textContent=p.name;
+    var ds=document.createElement('div');ds.className='pp-desc';ds.textContent=p.desc;
+    var labels=p.chords.map(function(c){return c.label;});
+    var disp=labels.length>4?labels.slice(0,4).join(' → ')+' …':labels.join(' → ');
+    var romans=p.chords.map(function(c){return getRoman(c.rootSt,c.type);});
+    var rdisp=romans.length>4?romans.slice(0,4).join(' ')+' …':romans.join(' ');
+    var ch=document.createElement('div');ch.className='pp-chords';
+    ch.textContent=beMode==='mystery'?rdisp.replace(/[A-Za-z°ivIV]+/g,'?'):disp;
+    body.appendChild(nm);body.appendChild(ds);body.appendChild(ch);
+    var goBtn=document.createElement('button');goBtn.className='pp-go';goBtn.textContent='Play';
+    goBtn.addEventListener('click',function(){run(function(){});startBeGame(p.id);});
+    card.appendChild(icon);card.appendChild(body);card.appendChild(goBtn);
+    list.appendChild(card);
+  });
+}
+
+function buildBeQuestions(prog){
+  var qs=[];var prevSt=prog.chords[0].rootSt;
+  for(var i=1;i<prog.chords.length;i++){
+    var c=prog.chords[i];
+    if(c.rootSt!==prevSt){qs.push({idx:i,rootSt:c.rootSt,type:c.type,label:c.label});prevSt=c.rootSt;}
+  }
+  return qs;
+}
+
+function startBeGame(progId){
+  var prog=null;
+  PROGS.forEach(function(p){if(p.id===progId)prog=p;});
+  if(!prog)return;
+  var questions=buildBeQuestions(prog);
+  LG={prog:prog,questions:questions,qIdx:0,score:0,hearts:3,combo:0,correct:0,total:0,phase:'tonic',
+      mode:beMode,revealed:prog.chords.map(function(_,i){return beMode==='guided'||i===0;})};
+  document.getElementById('be-picker').style.display='none';
+  document.getElementById('be-game').style.display='flex';
+  document.getElementById('be-hdr-title').textContent=prog.emoji+' '+prog.name;
+  document.getElementById('round-done').style.display='none';
+  document.getElementById('be-replay').style.display='none';
+  document.getElementById('be-choices').innerHTML='';
+  document.getElementById('be-prompt').textContent='';
+  renderBeChips();updateBeScore();
+  showBigCard('I',null,'major','This is home. Get its sound in your ear.');
+  playBeChord(0);
+  var tonicMs=Math.max(2400,(60/prog.bpm)*2.5*1000);
+  setTimeout(function(){if(LG)playBeQuestion();},tonicMs);
+}
+
+function playBeChord(idx){
+  var c=LG.prog.chords[idx];
+  var beatDur=(60/LG.prog.bpm)*1.8;
+  playChordNotes(LG.prog.rootMidi+c.rootSt+12,c.notes,beatDur);
+  return beatDur;
+}
+
+function playBeQuestion(){
+  if(!LG)return;
+  var q=LG.questions[LG.qIdx];
+  if(!q){showRoundDone(true);return;}
+  LG.phase='playing';
+  var mystery=LG.mode==='mystery';
+  var roman=getRoman(q.rootSt,q.type);
+  var card=document.getElementById('big-card');
+  card.classList.remove('correct-flash','wrong-flash');
+  setChipActive(q.idx);
+  showBigCard('I',null,'major','');
+  card.classList.add('playing');setTimeout(function(){card.classList.remove('playing');},400);
+  var beatDur=playBeChord(0);
+  var stepMs=(beatDur+0.2)*1000;
+  setTimeout(function(){
+    if(!LG||LG.phase!=='playing')return;
+    showBigCard('I',mystery?'?':roman,mystery?'':q.type,mystery?'':'in C: '+q.label);
+    card.classList.add('playing');setTimeout(function(){card.classList.remove('playing');},400);
+    playBeChord(q.idx);
+    setTimeout(function(){if(LG&&LG.phase==='playing')showBeQ(q);},stepMs);
+  },stepMs);
+}
+
+function showBigCard(fromTxt,toTxt,type,sub){
+  var fn=document.getElementById('from-num'),fa=document.getElementById('from-arr'),tn=document.getElementById('to-num');
+  if(toTxt!=null){
+    fn.textContent=fromTxt;fn.classList.add('show');fa.classList.add('show');tn.textContent=toTxt;
+  } else {
+    fn.textContent='';fn.classList.remove('show');fa.classList.remove('show');tn.textContent=fromTxt;
+  }
+  document.getElementById('big-type').textContent=type||'';
+  document.getElementById('big-sub').textContent=sub||'';
+}
+
+function replayBe(){
+  if(!LG)return;
+  var q=LG.questions[LG.qIdx];if(!q)return;
+  var beatDur=playBeChord(0);
+  setTimeout(function(){if(LG)playBeChord(q.idx);},(beatDur+0.2)*1000);
+}
+
+function showBeQ(q){
+  if(!LG)return;
+  LG.phase='question';
+  var mystery=LG.mode==='mystery';
+  var roman=getRoman(q.rootSt,q.type);
+  document.getElementById('be-prompt').textContent=mystery?'I then a mystery chord. Which number?':'I then '+roman+'. Lock in the sound. Which number?';
+  document.getElementById('be-replay').style.display='inline-block';
+  var pool=[];
+  LG.questions.forEach(function(x){if(pool.indexOf(x.rootSt)<0)pool.push(x.rootSt);});
+  if(pool.indexOf(0)<0)pool.push(0);
+  [2,4,5,7,9].forEach(function(st){if(pool.length<4&&pool.indexOf(st)<0)pool.push(st);});
+  var set=[q.rootSt];
+  shuffle(pool.filter(function(x){return x!==q.rootSt;})).forEach(function(x){if(set.length<4)set.push(x);});
+  renderBeChoices(shuffle(set),q);
+}
+
+function renderBeChoices(set,q){
+  var el=document.getElementById('be-choices');el.innerHTML='';
+  var guided=LG.mode==='guided';
+  set.forEach(function(st){
+    var progChord=null;
+    LG.prog.chords.forEach(function(c){if(c.rootSt===st)progChord=c;});
+    var type=progChord?progChord.type:(NASH_DATA[st]?(NASH_DATA[st].quality==='min'?'minor':'major'):'major');
+    var roman=getRoman(st,type);
+    var desc=NASH_DATA[st]?NASH_DATA[st].desc:'';
+    var btn=document.createElement('button');btn.className='ch nn-ch';btn.dataset.st=String(st);
+    var num=document.createElement('span');num.className='nn-num';num.textContent=roman;
+    var right=document.createElement('div');right.className='nn-right';
+    var d1=document.createElement('span');d1.className='nn-desc';
+    d1.textContent=desc+(guided?(' · '+NOTE_NAMES[st]+' in C'):'');
+    var d2=document.createElement('span');d2.className='nn-qual';d2.textContent=type;
+    right.appendChild(d1);right.appendChild(d2);
+    btn.appendChild(num);btn.appendChild(right);
+    btn.addEventListener('click',function(){onBeAns(st,q);});
+    el.appendChild(btn);
+  });
+}
+
+function onBeAns(chosen,q){
+  if(!LG||LG.phase!=='question')return;
+  LG.phase='feedback';LG.total++;
+  var ok=(chosen===q.rootSt);
+  document.getElementById('be-choices').querySelectorAll('.ch').forEach(function(b){
+    b.disabled=true;
+    var st=parseInt(b.dataset.st,10);
+    if(st===q.rootSt)b.classList.add('ok');
+    else if(st===chosen&&!ok)b.classList.add('bad');
+  });
+  var card=document.getElementById('big-card');
+  document.getElementById('be-replay').style.display='none';
+  var roman=getRoman(q.rootSt,q.type);
+  if(ok){
+    LG.correct++;LG.combo++;
+    var mult=LG.combo>=3?3:(LG.combo>=2?2:1);
+    var pts=10*mult;LG.score+=pts;
+    playOK();card.classList.add('correct-flash');
+    if(LG.mode==='mystery'&&!LG.revealed[q.idx]){
+      LG.revealed[q.idx]=true;
+      var chip=document.getElementById('chip-'+q.idx);
+      if(chip){chip.textContent=roman;chip.classList.remove('mystery');chip.classList.add('revealing');
+        setTimeout(function(){chip.classList.remove('revealing');},600);}
+    }
+    markBeChip(q.idx,true);
+    showBigCard('I',roman,q.type,'');
+    var hints=HINT_KEYS.map(function(k){return 'in '+k.n+': '+NOTE_NAMES[(q.rootSt+k.o)%12];}).join(' · ');
+    document.getElementById('big-sub').textContent='in C: '+q.label+' · '+hints;
+    var pop=document.createElement('div');pop.className='score-pop';
+    pop.textContent='+'+pts+(mult>1?' x'+mult:'');
+    card.appendChild(pop);setTimeout(function(){pop.remove();},900);
+    var rm=LG.prog.rootMidi+12;
+    setTimeout(function(){run(function(ctx){_note(ctx,rm,0.8,0.6,0);_note(ctx,rm+q.rootSt,0.8,0.6,0.9);});},400);
+  } else {
+    LG.hearts--;LG.combo=0;
+    playBad();card.classList.add('wrong-flash');markBeChip(q.idx,false);
+    var bb=document.getElementById('be-choices').querySelector('.ch.bad');
+    if(bb)bb.classList.add('shake');
+    document.getElementById('big-sub').textContent='It was the '+roman+'. In C: '+q.label+'. Listen again.';
+    setTimeout(function(){if(LG)replayBe();},600);
+  }
+  updateBeScore();
+  var beatDur=(60/LG.prog.bpm)*1.8;
+  var delay=ok?2100:Math.round(900+(beatDur+0.2)*2*1000+600);
+  if(LG.hearts<=0){setTimeout(function(){showRoundDone(false);},delay);return;}
+  setTimeout(function(){
+    if(!LG)return;
+    card.classList.remove('correct-flash','wrong-flash');
+    LG.qIdx++;
+    if(LG.qIdx>=LG.questions.length)showRoundDone(true);
+    else playBeQuestion();
+  },delay);
+}
+
+function renderBeChips(){
+  var el=document.getElementById('chips');el.innerHTML='';
+  LG.prog.chords.forEach(function(c,i){
+    if(i>0){var a=document.createElement('span');a.className='chip-arrow';a.textContent='→';el.appendChild(a);}
+    var chip=document.createElement('div');chip.className='chip';chip.id='chip-'+i;
+    chip.textContent=LG.revealed[i]?getRoman(c.rootSt,c.type):'?';
+    if(!LG.revealed[i])chip.classList.add('mystery');
+    el.appendChild(chip);
+  });
+  setChipActive(0);
+}
+function setChipActive(idx){
+  LG.prog.chords.forEach(function(_,i){
+    var chip=document.getElementById('chip-'+i);if(!chip)return;
+    chip.classList.remove('active');
+    if(i===idx&&!chip.classList.contains('correct')&&!chip.classList.contains('wrong'))chip.classList.add('active');
+  });
+}
+function markBeChip(idx,ok){
+  var chip=document.getElementById('chip-'+idx);if(!chip)return;
+  chip.classList.remove('active');chip.classList.add(ok?'correct':'wrong');
+}
+function updateBeScore(){
+  document.getElementById('be-score').textContent=LG.score;
+  var h='';for(var i=0;i<3;i++)h+=(i<LG.hearts)?'❤️':'🖤';
+  document.getElementById('be-hearts').textContent=h;
+  document.getElementById('be-combo').textContent=LG.combo>=2?'🔥 x'+LG.combo:'';
+}
+function showRoundDone(completed){
+  if(!LG)return;
+  var acc=LG.total>0?Math.round(LG.correct/LG.total*100):0;
+  document.getElementById('round-done').style.display='flex';
+  document.getElementById('rd-emoji').textContent=completed?(acc===100?'🏆':'🎉'):'💔';
+  document.getElementById('rd-title').textContent=completed?'You heard it!':'Out of hearts';
+  document.getElementById('rd-sub').textContent=LG.correct+'/'+LG.total+' correct · '+acc+'% · Score '+LG.score;
+  var rev=document.getElementById('rd-reveal');
+  if(completed){
+    rev.style.display='flex';
+    var romans=LG.prog.chords.map(function(c){return getRoman(c.rootSt,c.type);}).join(' → ');
+    var letters=LG.prog.chords.map(function(c){return c.label;}).join(' → ');
+    document.getElementById('rd-reveal-main').textContent=romans;
+    document.getElementById('rd-reveal-sub').textContent=letters+' in the key of C';
+  } else rev.style.display='none';
+}
+document.getElementById('rd-again').addEventListener('click',function(){
+  if(LG){var id=LG.prog.id;LG=null;run(function(){});startBeGame(id);}
+});
+document.getElementById('rd-back').addEventListener('click',function(){LG=null;showPicker();});
+document.getElementById('be-x').addEventListener('click',function(){LG=null;showPicker();});
+document.getElementById('be-replay').addEventListener('click',function(){run(function(){});replayBe();});
+
+/* ================= TUNER ================= */
+var TNOTES=['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];
+function f2midi(f){return 69+12*Math.log2(f/440);}
+function noteInfo(freq){
+  if(!freq||freq<60||freq>2000)return null;
+  var mf=f2midi(freq),mr=Math.round(mf);
+  return {note:TNOTES[((mr%12)+12)%12],oct:Math.floor(mr/12)-1,cents:Math.round((mf-mr)*100),freq:freq};
+}
+function nsdf(buf){
+  var n=buf.length,res=new Float32Array(n);
+  for(var t=0;t<n;t++){var s1=0,s2=0,c=0;for(var j=0;j<n-t;j++){c+=buf[j]*buf[j+t];s1+=buf[j]*buf[j];s2+=buf[j+t]*buf[j+t];}res[t]=(s1+s2)>0?2*c/(s1+s2):0;}
+  return res;
+}
+function pitchDetect(buf,sr){
+  var rms=0,i;for(i=0;i<buf.length;i++)rms+=buf[i]*buf[i];rms=Math.sqrt(rms/buf.length);
+  if(rms<0.013)return null;
+  var ns=nsdf(buf),mx=[],p=0,n=ns.length;
+  while(p<n-1&&ns[p]>0)p++;
+  while(p<n-1&&ns[p]<=0)p++;
+  while(p<n-1){
+    while(p<n-1&&ns[p]<=ns[p+1])p++;
+    if(p<n-1&&ns[p]>0)mx.push(p);
+    while(p<n-1&&ns[p]>=ns[p+1])p++;
+    p++;
+  }
+  if(!mx.length)return null;
+  var best=mx[0];for(i=0;i<mx.length;i++)if(ns[mx[i]]>ns[best])best=mx[i];
+  if(ns[best]<0.1)return null;
+  var thr=0.8*ns[best],ch=-1;
+  for(i=0;i<mx.length;i++){if(ns[mx[i]]>=thr){ch=mx[i];break;}}
+  if(ch<0)return null;
+  var tau=ch;
+  if(tau>0&&tau<n-1){
+    var av=ns[tau-1],bv=ns[tau],cv=ns[tau+1],dd=2*(2*bv-av-cv);
+    if(Math.abs(dd)>1e-10)tau+=(av-cv)/dd;
+  }
+  if(tau<1)return null;
+  var freq=sr/tau;
+  if(freq<60||freq>2000)return null;
+  return {freq:freq,clarity:ns[ch]};
+}
+var micOn=false,micStream=null,micAn=null,micRaf=null,micSR=44100,smFreq=null;
+function startMic(){
+  var ctx=getCtx();micSR=ctx.sampleRate;
+  return navigator.mediaDevices.getUserMedia({audio:true,video:false}).then(function(stream){
+    micStream=stream;
+    micAn=ctx.createAnalyser();micAn.fftSize=2048;micAn.smoothingTimeConstant=0;
+    ctx.createMediaStreamSource(stream).connect(micAn);
+    micOn=true;micLoop();
+  });
+}
+function micLoop(){
+  if(!micOn)return;
+  var buf=new Float32Array(micAn.fftSize);
+  micAn.getFloatTimeDomainData(buf);
+  var res=pitchDetect(buf,micSR);
+  if(res){
+    if(!smFreq)smFreq=res.freq;
+    else{var r=res.freq/smFreq;smFreq=(r>0.83&&r<1.2)?0.85*smFreq+0.15*res.freq:res.freq;}
+    var info=noteInfo(smFreq);
+    if(info){
+      var nd=document.getElementById('note-big');nd.textContent=info.note+info.oct;
+      document.getElementById('freq-lbl').textContent=info.freq.toFixed(1)+' Hz';
+      var pct=50+(info.cents/100)*50;
+      var needle=document.getElementById('t-needle');
+      needle.style.left=Math.max(2,Math.min(98,pct))+'%';
+      document.getElementById('cents-lbl').textContent=(info.cents>0?'+':'')+info.cents+'c';
+      var ac=Math.abs(info.cents),cls=ac<=10?'in-tune':(info.cents>0?'sharp':'flat');
+      nd.className='note-big '+cls;needle.className='t-needle '+cls;
+    }
+  } else {
+    smFreq=null;
+    resetTunerUI();
+  }
+  micRaf=requestAnimationFrame(micLoop);
+}
+function resetTunerUI(){
+  document.getElementById('note-big').textContent='-';
+  document.getElementById('note-big').className='note-big silent';
+  document.getElementById('t-needle').style.left='50%';
+  document.getElementById('t-needle').className='t-needle';
+  document.getElementById('freq-lbl').textContent='';
+  document.getElementById('cents-lbl').textContent='';
+}
+function stopMic(){
+  micOn=false;
+  if(micRaf)cancelAnimationFrame(micRaf);
+  if(micStream)micStream.getTracks().forEach(function(t){t.stop();});
+  smFreq=null;
+}
+document.getElementById('mic-btn').addEventListener('click',function(){
+  var self=this;
+  run(function(){});
+  if(!micOn){
+    startMic().then(function(){
+      self.classList.add('rec');
+      self.innerHTML='<span class="mic-dot"></span>Stop Listening';
+    }).catch(function(){alert('Microphone access was denied.');});
+  } else {
+    stopMic();
+    self.classList.remove('rec');
+    self.innerHTML='<span class="mic-dot"></span>Start Listening';
+    resetTunerUI();
+  }
+});
+var GTR_STRINGS=[
+  {label:'E',sub:'6th',midi:40},{label:'A',sub:'5th',midi:45},{label:'D',sub:'4th',midi:50},
+  {label:'G',sub:'3rd',midi:55},{label:'B',sub:'2nd',midi:59},{label:'E',sub:'1st',midi:64}
+];
+(function(){
+  var row=document.getElementById('string-row');
+  GTR_STRINGS.forEach(function(s){
+    var b=document.createElement('button');b.className='str-btn';
+    var t=document.createElement('span');t.textContent=s.label;
+    var sm=document.createElement('small');sm.textContent=s.sub;
+    b.appendChild(t);b.appendChild(sm);
+    b.addEventListener('click',function(){run(function(ctx){_note(ctx,s.midi,1.8,0.7,0);});});
+    row.appendChild(b);
+  });
+})();
+
+/* ================= INIT ================= */
+setBeMode('guided');
+renderHome();
+go('home');
 </script>
 </body>
 </html>
