@@ -572,27 +572,34 @@ var NASH={
   4:{roman:'iii',q:'min',desc:'the dreamer'},
   5:{roman:'IV',q:'maj',desc:'the lift'},
   7:{roman:'V',q:'maj',desc:'the tension'},
-  9:{roman:'vi',q:'min',desc:'the heart'}
+  8:{roman:'bVI',q:'maj',desc:'the dark lift'},
+  9:{roman:'vi',q:'min',desc:'the heart'},
+  10:{roman:'bVII',q:'maj',desc:'the back door'}
 };
 var NOTE_NAMES=['C','C#','D','Eb','E','F','F#','G','Ab','A','Bb','B'];
-var ROMAN={0:'I',2:'II',4:'III',5:'IV',7:'V',9:'VI',11:'VII'};
-var ROMANm={0:'i',2:'ii',4:'iii',5:'iv',7:'v',9:'vi',11:'vii'};
+var ROMAN={0:'I',2:'II',3:'bIII',4:'III',5:'IV',7:'V',8:'bVI',9:'VI',10:'bVII',11:'VII'};
+var ROMANm={0:'i',2:'ii',3:'biii',4:'iii',5:'iv',7:'v',8:'bvi',9:'vi',10:'bvii',11:'vii'};
 function getRoman(st,type){return ((type&&type.indexOf('minor')>=0)?ROMANm:ROMAN)[st]||'?';}
 var HINT_KEYS=[{n:'G',o:7},{n:'D',o:2},{n:'E',o:4}];
 
 var PROGS=[
-  {id:'rock',name:'Classic Rock',emoji:'🎸',color:'#fee2e2',bpm:74,rootMidi:48,desc:'I IV V, the foundation of rock and country',
+  {id:'rock',name:'Classic Rock',emoji:'🎸',color:'#fee2e2',bpm:74,rootMidi:48,key:'C',rootPc:0,desc:'I IV V, the foundation of rock and country',
    chords:[{label:'C',rootSt:0,type:'major',notes:[0,4,7]},{label:'F',rootSt:5,type:'major',notes:[0,4,7]},{label:'G',rootSt:7,type:'major',notes:[0,4,7]},{label:'C',rootSt:0,type:'major',notes:[0,4,7]}]},
-  {id:'pop',name:'Pop Anthem',emoji:'🎤',color:'#ecfdf5',bpm:84,rootMidi:48,desc:'I V vi IV, behind a thousand hits',
+  {id:'pop',name:'Pop Anthem',emoji:'🎤',color:'#ecfdf5',bpm:84,rootMidi:48,key:'C',rootPc:0,desc:'I V vi IV, behind a thousand hits',
    chords:[{label:'C',rootSt:0,type:'major',notes:[0,4,7]},{label:'G',rootSt:7,type:'major',notes:[0,4,7]},{label:'Am',rootSt:9,type:'minor',notes:[0,3,7]},{label:'F',rootSt:5,type:'major',notes:[0,4,7]}]},
-  {id:'doowop',name:'50s Doo Wop',emoji:'🎙️',color:'#fffbeb',bpm:80,rootMidi:48,desc:'I vi IV V, Stand By Me and friends',
+  {id:'doowop',name:'50s Doo Wop',emoji:'🎙️',color:'#fffbeb',bpm:80,rootMidi:48,key:'C',rootPc:0,desc:'I vi IV V, Stand By Me and friends',
    chords:[{label:'C',rootSt:0,type:'major',notes:[0,4,7]},{label:'Am',rootSt:9,type:'minor',notes:[0,3,7]},{label:'F',rootSt:5,type:'major',notes:[0,4,7]},{label:'G',rootSt:7,type:'major',notes:[0,4,7]}]},
-  {id:'sadpop',name:'Sad Pop',emoji:'🌧️',color:'#f0f9ff',bpm:76,rootMidi:48,desc:'vi IV I V, the minor-first spin',
+  {id:'sadpop',name:'Sad Pop',emoji:'🌧️',color:'#f0f9ff',bpm:76,rootMidi:48,key:'C',rootPc:0,desc:'vi IV I V, the minor-first spin',
    chords:[{label:'Am',rootSt:9,type:'minor',notes:[0,3,7]},{label:'F',rootSt:5,type:'major',notes:[0,4,7]},{label:'C',rootSt:0,type:'major',notes:[0,4,7]},{label:'G',rootSt:7,type:'major',notes:[0,4,7]}]},
-  {id:'jazz',name:'Jazz Turnaround',emoji:'🎷',color:'#faf5ff',bpm:66,rootMidi:48,desc:'ii V I, the heart of every standard',
+  {id:'jazz',name:'Jazz Turnaround',emoji:'🎷',color:'#faf5ff',bpm:66,rootMidi:48,key:'C',rootPc:0,desc:'ii V I, the heart of every standard',
    chords:[{label:'Dm7',rootSt:2,type:'minor 7',notes:[0,3,7,10]},{label:'G7',rootSt:7,type:'dom 7',notes:[0,4,7,10]},{label:'Cmaj7',rootSt:0,type:'major 7',notes:[0,4,7,11]},{label:'Cmaj7',rootSt:0,type:'major 7',notes:[0,4,7,11]}]},
-  {id:'blues',name:'12 Bar Blues',emoji:'🎺',color:'#fff7ed',bpm:68,rootMidi:48,desc:'All dominant, all attitude',
+  {id:'blues',name:'12 Bar Blues',emoji:'🎺',color:'#fff7ed',bpm:68,rootMidi:48,key:'C',rootPc:0,desc:'All dominant, all attitude',
    chords:[{label:'C7',rootSt:0,type:'dom 7',notes:[0,4,7,10]},{label:'C7',rootSt:0,type:'dom 7',notes:[0,4,7,10]},{label:'F7',rootSt:5,type:'dom 7',notes:[0,4,7,10]},{label:'C7',rootSt:0,type:'dom 7',notes:[0,4,7,10]},{label:'G7',rootSt:7,type:'dom 7',notes:[0,4,7,10]},{label:'F7',rootSt:5,type:'dom 7',notes:[0,4,7,10]},{label:'C7',rootSt:0,type:'dom 7',notes:[0,4,7,10]}]}
+,
+  {id:'mixo',name:'Stadium Rock',emoji:'\u26a1',color:'#fef9c3',bpm:78,rootMidi:48,key:'C',rootPc:0,desc:'I bVII IV, the borrowed chord every arena knows',
+   chords:[{label:'C',rootSt:0,type:'major',notes:[0,4,7]},{label:'Bb',rootSt:10,type:'major',notes:[0,4,7]},{label:'F',rootSt:5,type:'major',notes:[0,4,7]},{label:'C',rootSt:0,type:'major',notes:[0,4,7]}]},
+  {id:'andal',name:'Spanish Minor',emoji:'💃',color:'#ffe4e6',bpm:72,rootMidi:45,key:'Am',rootPc:9,desc:'i bVII bVI V, the Andalusian fall',
+   chords:[{label:'Am',rootSt:0,type:'minor',notes:[0,3,7]},{label:'G',rootSt:10,type:'major',notes:[0,4,7]},{label:'F',rootSt:8,type:'major',notes:[0,4,7]},{label:'E',rootSt:7,type:'major',notes:[0,4,7]},{label:'Am',rootSt:0,type:'minor',notes:[0,3,7]}]}
 ];
 
 /* Skill level definitions */
@@ -1348,7 +1355,7 @@ function showPicker(){
     var romans=p.chords.map(function(c){return getRoman(c.rootSt,c.type);});
     var seq=document.createElement('div');seq.className='prog-seq';
     var seqTxt=romans.length>5?romans.slice(0,5).join(' ')+' ...':romans.join(' ');
-    seq.textContent=beMode==='mystery'?seqTxt.replace(/[IViv]+°?/g,'?'):seqTxt;
+    seq.textContent=beMode==='mystery'?seqTxt.replace(/b?[IViv]+°?/g,'?'):seqTxt;
     main.appendChild(nm);main.appendChild(ds);main.appendChild(seq);
     var btn=document.createElement('button');btn.className='btn btn-primary btn-sm';btn.textContent='Play';
     btn.addEventListener('click',function(){run(function(){});startBe(p.id);});
@@ -1368,7 +1375,7 @@ function startBe(id){
   var prog=null;
   PROGS.forEach(function(p){if(p.id===id)prog=p;});
   if(!prog)return;
-  LG={prog:prog,qs:buildBeQs(prog),qi:0,score:0,lives:3,combo:0,correct:0,total:0,phase:'tonic',
+  LG={prog:prog,tn:getRoman(prog.chords[0].rootSt,prog.chords[0].type),qs:buildBeQs(prog),qi:0,score:0,lives:3,combo:0,correct:0,total:0,phase:'tonic',
       mode:beMode,revealed:prog.chords.map(function(_,i){return beMode==='guided'||i===0;})};
   document.getElementById('be-picker').style.display='none';
   document.getElementById('be-game').style.display='flex';
@@ -1378,7 +1385,7 @@ function startBe(id){
   document.getElementById('be-choices').innerHTML='';
   document.getElementById('be-prompt').textContent='';
   renderChips();updateBeMeta();
-  showBig('I',null,'major','This is home. Let it settle in.');
+  showBig(LG.tn,null,prog.chords[0].type,'This is home. Let it settle in.');
   playBeChord(0);
   setTimeout(function(){if(LG)playBeQ();},Math.max(2400,(60/prog.bpm)*2.5*1000));
 }
@@ -1398,13 +1405,13 @@ function playBeQ(){
   var card=document.getElementById('big-card');
   card.classList.remove('c-ok','c-bad');
   setChipActive(q.idx);
-  showBig('I',null,'major','');
+  showBig(LG.tn,null,LG.prog.chords[0].type,'');
   card.classList.add('playing');setTimeout(function(){card.classList.remove('playing');},400);
   var dur=playBeChord(0);
   var step=(dur+0.2)*1000;
   setTimeout(function(){
     if(!LG||LG.phase!=='playing')return;
-    showBig('I',mystery?'?':roman,mystery?'':q.type,mystery?'':'in C: '+q.label);
+    showBig(LG.tn,mystery?'?':roman,mystery?'':q.type,mystery?'':'in '+LG.prog.key+': '+q.label);
     card.classList.add('playing');setTimeout(function(){card.classList.remove('playing');},400);
     playBeChord(q.idx);
     setTimeout(function(){if(LG&&LG.phase==='playing')showBeChoices(q);},step);
@@ -1429,7 +1436,7 @@ function showBeChoices(q){
   LG.phase='question';
   var mystery=LG.mode==='mystery';
   var roman=getRoman(q.rootSt,q.type);
-  document.getElementById('be-prompt').textContent=mystery?'I, then a mystery chord. Which number?':'I, then '+roman+'. Lock the sound in.';
+  document.getElementById('be-prompt').textContent=mystery?LG.tn+', then a mystery chord. Which number?':LG.tn+', then '+roman+'. Lock the sound in.';
   document.getElementById('be-replay').style.display='inline-flex';
   var pool=[];
   LG.qs.forEach(function(x){if(pool.indexOf(x.rootSt)<0)pool.push(x.rootSt);});
@@ -1450,7 +1457,7 @@ function showBeChoices(q){
     var main=document.createElement('span');main.className='c-main';
     main.textContent=(NASH[st]?NASH[st].desc:'');
     var sub=document.createElement('span');sub.className='c-sub';
-    sub.textContent=type+(LG.mode==='guided'?' · '+NOTE_NAMES[st]+' in C':'');
+    sub.textContent=type+(LG.mode==='guided'?' · '+NOTE_NAMES[(st+LG.prog.rootPc)%12]+' in '+LG.prog.key:'');
     rest.appendChild(main);rest.appendChild(sub);
     inner.appendChild(num);inner.appendChild(rest);
     btn.appendChild(inner);
@@ -1484,16 +1491,17 @@ function onBe(chosen,q){
         setTimeout(function(){chip.classList.remove('revealing');},600);}
     }
     markChip(q.idx,true);
-    showBig('I',roman,q.type,'');
-    var hints=HINT_KEYS.map(function(k){return 'in '+k.n+': '+NOTE_NAMES[(q.rootSt+k.o)%12];}).join(' · ');
-    document.getElementById('big-sub').textContent='in C: '+q.label+' · '+hints;
+    showBig(LG.tn,roman,q.type,'');
+    var sub='in '+LG.prog.key+': '+q.label;
+    if(!LG.prog.rootPc)sub+=' · '+HINT_KEYS.map(function(k){return 'in '+k.n+': '+NOTE_NAMES[(q.rootSt+k.o)%12];}).join(' · ');
+    document.getElementById('big-sub').textContent=sub;
     var pop=document.createElement('div');pop.className='score-pop';
     pop.textContent='+'+pts+(mult>1?' x'+mult:'');
     card.appendChild(pop);setTimeout(function(){pop.remove();},900);
   } else {
     LG.lives--;LG.combo=0;
     playBad();card.classList.add('c-bad');markChip(q.idx,false);
-    document.getElementById('big-sub').textContent='It was the '+roman+'. In C that is '+q.label+'.';
+    document.getElementById('big-sub').textContent='It was the '+roman+'. In '+LG.prog.key+' that is '+q.label+'.';
     setTimeout(function(){if(LG)replayBe();},600);
   }
   updateBeMeta();
@@ -1548,7 +1556,7 @@ function beDone(completed){
   if(completed){
     rev.style.display='block';
     document.getElementById('rd-main').textContent=LG.prog.chords.map(function(c){return getRoman(c.rootSt,c.type);}).join(' › ');
-    document.getElementById('rd-letters').textContent=LG.prog.chords.map(function(c){return c.label;}).join(' › ')+' in the key of C';
+    document.getElementById('rd-letters').textContent=LG.prog.chords.map(function(c){return c.label;}).join(' › ')+' in the key of '+LG.prog.key;
   } else rev.style.display='none';
 }
 document.getElementById('rd-again').addEventListener('click',function(){
