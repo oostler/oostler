@@ -269,13 +269,59 @@ svg.ic{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2;strok
 .str:hover{background:var(--muted)}
 .str:active{transform:scale(.94)}
 .rec-on{background:var(--destructive)!important;color:#fff!important;border-color:transparent!important}
+.unit-head{margin-top:14px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted-foreground)}
+.lesson-row{display:flex;align-items:center;gap:11px;padding:11px 13px;cursor:pointer}
+.lesson-row.locked{opacity:.45;cursor:default}
+.lesson-row.cur{border-color:var(--primary);box-shadow:0 0 0 1px var(--primary)}
+.lesson-ic{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;background:var(--muted);color:var(--muted-foreground)}
+.lesson-row.done .lesson-ic{background:var(--primary-muted);color:var(--primary)}
+.lesson-row.cur .lesson-ic{background:var(--primary);color:#fff}
+.lesson-main{flex:1;min-width:0}
+.lesson-name{font-size:13.5px;font-weight:600}
+.lesson-sub{font-size:11.5px;color:var(--muted-foreground)}
+.teach-row{display:flex;align-items:center;gap:11px;padding:11px 13px}
+.path-progress-label{font-size:12px;color:var(--muted-foreground)}
 </style>
 </head>
 <body>
 <div id="app">
 
 <!-- ============ HOME ============ -->
-<div id="home" class="screen on">
+<div id="path" class="screen on">
+  <div class="home-head">
+    <div class="brand">
+      <div class="brand-logo">
+        <svg width="19" height="19" viewBox="0 0 100 100"><ellipse cx="38" cy="68" rx="14" ry="10" fill="white"/><rect x="48" y="22" width="7" height="48" rx="3" fill="white"/><path d="M48 22 q22 4 22 20 q-8 -10 -22 -8 z" fill="white"/></svg>
+      </div>
+      <div>
+        <div class="brand-name">tonic</div>
+        <div class="brand-tag">relative pitch, for real</div>
+      </div>
+    </div>
+    <div style="display:flex;gap:6px">
+      <span class="badge badge-warn" id="streak-badge2" style="display:none">
+        <svg class="ic" style="width:13px;height:13px" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3 1.072-2.143 .224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+        <span id="streak-n2">0</span>
+      </span>
+    </div>
+  </div>
+  <div class="home-body">
+    <div class="card">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <h3>Your path</h3>
+        <span class="path-progress-label" id="path-count"></span>
+      </div>
+      <div class="progress" style="margin-top:8px"><div id="path-fill" style="width:0%"></div></div>
+    </div>
+    <div class="card" id="path-done-card" style="display:none">
+      <h3>Course complete</h3>
+      <div class="lesson-sub" style="margin-top:4px">You built real relative pitch. Keep it sharp with the daily workout in Practice, and replay any lesson below.</div>
+    </div>
+    <div id="course-list" style="display:flex;flex-direction:column;gap:8px"></div>
+  </div>
+</div>
+
+<div id="home" class="screen">
   <div class="home-head">
     <div class="brand">
       <div class="brand-logo">
@@ -515,10 +561,26 @@ svg.ic{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2;strok
   <div class="text-xs muted" style="text-align:center;max-width:280px">Tap a string for its reference pitch, then tune until the needle sits in the green zone.</div>
 </div>
 
+<div id="teach" class="screen">
+  <div class="round-head">
+    <button class="btn btn-ghost btn-icon" id="teach-x"><svg class="ic" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+    <span class="round-title" id="teach-title"></span>
+  </div>
+  <div class="home-body">
+    <div class="text-sm muted" id="teach-blurb" style="text-align:center"></div>
+    <div id="teach-list" style="display:flex;flex-direction:column;gap:8px"></div>
+    <button class="btn btn-primary btn-lg btn-block" id="teach-go" style="margin-top:6px">Start lesson</button>
+  </div>
+</div>
+
 <nav id="nav">
-  <button class="nav-btn on" data-go="home">
-    <svg viewBox="0 0 24 24"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>
-    Home
+  <button class="nav-btn on" data-go="path">
+    <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+    Learn
+  </button>
+  <button class="nav-btn" data-go="home">
+    <svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+    Practice
   </button>
   <button class="nav-btn" data-go="play">
     <svg viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
@@ -645,6 +707,7 @@ if(!ST.items)ST.items={};
 if(!ST.levels)ST.levels={deg:0,iv:0,ch:0};
 if(!ST.streak)ST.streak={count:0,last:''};
 if(ST.intro==null)ST.intro=false;
+if(ST.path==null)ST.path=0;
 if(!ST.days)ST.days=[];
 function save(){try{localStorage.setItem('tonic_v2',JSON.stringify(ST));}catch(e){}}
 
@@ -781,11 +844,11 @@ function shuffle(a){var b=a.slice();for(var i=b.length-1;i>0;i--){var j=Math.flo
 function pickTimbre(){return Math.random()<0.3?'saw':'tri';}
 
 /* ================= NAV ================= */
-var SCREENS=['home','round','dict','sing','done','play','tuner'];
+var SCREENS=['path','teach','home','round','dict','sing','done','play','tuner'];
 function go(id){
   SCREENS.forEach(function(s){document.getElementById(s).classList.toggle('on',s===id);});
   document.querySelectorAll('.nav-btn').forEach(function(b){b.classList.toggle('on',b.dataset.go===id);});
-  var hideNav=(id==='round'||id==='dict'||id==='sing'||id==='done');
+  var hideNav=(id==='round'||id==='dict'||id==='sing'||id==='done'||id==='teach');
   document.getElementById('nav').style.display=hideNav?'none':'flex';
   if(id!=='sing')stopSingMic();
 }
@@ -794,6 +857,7 @@ document.querySelectorAll('.nav-btn').forEach(function(b){
     run(function(){});
     go(b.dataset.go);
     if(b.dataset.go==='home')renderHome();
+    if(b.dataset.go==='path')renderPath();
     if(b.dataset.go==='play')showPicker();
   });
 });
@@ -908,6 +972,7 @@ function targetedGen(ids){
 var R=null;
 
 function startRound(opts){
+  PATHCTX=opts.path||null;
   R={title:opts.title,gen:opts.gen,n:opts.n||10,i:0,correct:0,skill:opts.skill||null,q:null,locked:false};
   document.getElementById('round-title').textContent=R.title;
   go('round');
@@ -970,7 +1035,9 @@ document.getElementById('fb-next').addEventListener('click',function(){
   nextQ();
 });
 document.getElementById('round-x').addEventListener('click',function(){
-  hideFb();R=null;go('home');renderHome();
+  hideFb();R=null;
+  if(PATHCTX){PATHCTX=null;go('path');renderPath();}
+  else{go('home');renderHome();}
 });
 function endRound(){
   hideFb();
@@ -981,11 +1048,15 @@ function endRound(){
   var accEl=document.getElementById('done-acc');
   accEl.textContent=acc+'%';
   accEl.className='done-acc '+(acc>=80?'good':acc>=55?'mid':'low');
-  document.getElementById('done-sub').textContent=
+  var passNote='';
+  if(PATHCTX&&acc>=70&&PATHCTX.idx===ST.path){ST.path++;save();passNote=' Lesson complete.';}
+  else if(PATHCTX&&acc<70&&PATHCTX.idx===ST.path)passNote=' Score 70% to finish this lesson.';
+  donePathReturn=!!PATHCTX;
+  document.getElementById('done-sub').textContent=(
     acc===100?'Perfect round.':
     acc>=80?'Strong ears today.':
     acc>=55?'Solid. The misses are how you grow.':
-    'Tough one. Same round again and it will feel easier.';
+    'Tough one. Same round again and it will feel easier.')+passNote;
   document.getElementById('done-c').textContent=R.correct;
   document.getElementById('done-w').textContent=R.n-R.correct;
   var lv=document.getElementById('lvlup');
@@ -994,14 +1065,17 @@ function endRound(){
     var names=leveled.map(function(s){return SKILLS[s].name+' level '+(ST.levels[s]+1);}).join(', ');
     document.getElementById('lvlup-txt').textContent='Level up: '+names;
   } else lv.style.display='none';
-  var savedR=R;R=null;
+  var savedR=R,savedP=PATHCTX;R=null;
   document.getElementById('done-again').onclick=function(){
     run(function(){});
-    startRound({title:savedR.title,gen:savedR.gen,n:savedR.n,skill:savedR.skill});
+    startRound({title:savedR.title,gen:savedR.gen,n:savedR.n,skill:savedR.skill,path:savedP});
   };
   go('done');
 }
-document.getElementById('done-home').addEventListener('click',function(){go('home');renderHome();});
+document.getElementById('done-home').addEventListener('click',function(){
+  if(donePathReturn){donePathReturn=false;PATHCTX=null;go('path');renderPath();}
+  else{go('home');renderHome();}
+});
 
 /* ================= HOME ================= */
 var SKILL_ICONS={
@@ -1112,10 +1186,12 @@ document.getElementById('workout-go').addEventListener('click',function(){
 
 /* ================= DICTATION ================= */
 var DT=null;
-function startDict(){
+function startDict(opts){
+  opts=opts||{};
+  PATHCTX=opts.path||null;
   var lvl=SKILLS.deg.levels[ST.levels.deg];
-  var noteCount=ST.levels.deg>=2?4:3;
-  DT={items:lvl.items,n:5,i:0,noteCount:noteCount,correctRounds:0,seq:[],input:[],key:0,checked:false};
+  var noteCount=opts.notes||(ST.levels.deg>=2?4:3);
+  DT={items:opts.items||lvl.items,n:opts.n||5,i:0,noteCount:noteCount,correctRounds:0,seq:[],input:[],key:0,checked:false};
   go('dict');
   nextDict();
 }
@@ -1194,21 +1270,32 @@ function endDict(){
   var accEl=document.getElementById('done-acc');
   accEl.textContent=acc+'%';
   accEl.className='done-acc '+(acc>=80?'good':acc>=55?'mid':'low');
-  document.getElementById('done-sub').textContent=DT.correctRounds+' of '+DT.n+' phrases transcribed';
+  var passNote='';
+  if(PATHCTX&&DT.correctRounds>=Math.ceil(DT.n/2)&&PATHCTX.idx===ST.path){ST.path++;save();passNote=' Lesson complete.';}
+  else if(PATHCTX&&PATHCTX.idx===ST.path)passNote=' Get half right to finish this lesson.';
+  donePathReturn=!!PATHCTX;
+  document.getElementById('done-sub').textContent=DT.correctRounds+' of '+DT.n+' phrases transcribed.'+passNote;
   document.getElementById('done-c').textContent=DT.correctRounds;
   document.getElementById('done-w').textContent=DT.n-DT.correctRounds;
   document.getElementById('lvlup').style.display='none';
-  document.getElementById('done-again').onclick=function(){run(function(){});startDict();};
+  var savedP=PATHCTX,savedO={items:DT.items,notes:DT.noteCount,n:DT.n};
+  document.getElementById('done-again').onclick=function(){run(function(){});startDict({items:savedO.items,notes:savedO.notes,n:savedO.n,path:savedP});};
   DT=null;
   go('done');
 }
-document.getElementById('dict-x').addEventListener('click',function(){DT=null;go('home');renderHome();});
+document.getElementById('dict-x').addEventListener('click',function(){
+  DT=null;
+  if(PATHCTX){PATHCTX=null;go('path');renderPath();}
+  else{go('home');renderHome();}
+});
 
 /* ================= SING ================= */
 var SG=null,sgStream=null,sgAn=null,sgRaf=null,sgOn=false;
-function startSing(){
+function startSing(opts){
+  opts=opts||{};
+  PATHCTX=opts.path||null;
   var lvl=SKILLS.deg.levels[ST.levels.deg];
-  SG={items:lvl.items,n:5,i:0,passed:0,root:0,target:0,hold:0,active:false};
+  SG={items:opts.items||lvl.items,n:opts.n||5,i:0,passed:0,root:0,target:0,hold:0,active:false};
   go('sing');
   nextSing();
 }
@@ -1314,11 +1401,15 @@ function endSing(){
   var accEl=document.getElementById('done-acc');
   accEl.textContent=acc+'%';
   accEl.className='done-acc '+(acc>=80?'good':acc>=55?'mid':'low');
-  document.getElementById('done-sub').textContent='Singing is the deepest form of ear training. Keep at it.';
+  var passNote='';
+  if(PATHCTX&&PATHCTX.idx===ST.path){ST.path++;save();passNote=' Lesson complete.';}
+  donePathReturn=!!PATHCTX;
+  document.getElementById('done-sub').textContent='Singing is the deepest form of ear training. Keep at it.'+passNote;
   document.getElementById('done-c').textContent=SG.passed;
   document.getElementById('done-w').textContent=SG.n-SG.passed;
   document.getElementById('lvlup').style.display='none';
-  document.getElementById('done-again').onclick=function(){run(function(){});startSing();};
+  var savedP=PATHCTX,savedO={items:SG.items,n:SG.n};
+  document.getElementById('done-again').onclick=function(){run(function(){});startSing({items:savedO.items,n:savedO.n,path:savedP});};
   SG=null;
   go('done');
 }
@@ -1327,7 +1418,11 @@ document.getElementById('sing-skip').addEventListener('click',function(){
   if(!SG)return;
   SG.active=false;SG.i++;nextSing();
 });
-document.getElementById('sing-x').addEventListener('click',function(){SG=null;stopSingMic();go('home');renderHome();});
+document.getElementById('sing-x').addEventListener('click',function(){
+  SG=null;stopSingMic();
+  if(PATHCTX){PATHCTX=null;go('path');renderPath();}
+  else{go('home');renderHome();}
+});
 
 /* ================= PLAY (progressions) ================= */
 var LG=null,beMode='guided';
@@ -1371,7 +1466,8 @@ function buildBeQs(prog){
   }
   return qs;
 }
-function startBe(id){
+function startBe(id,pathCtx){
+  PATHCTX=pathCtx||null;
   var prog=null;
   PROGS.forEach(function(p){if(p.id===id)prog=p;});
   if(!prog)return;
@@ -1548,10 +1644,12 @@ function beDone(completed){
   if(!LG)return;
   bumpStreak();
   var acc=LG.total>0?Math.round(LG.correct/LG.total*100):0;
+  var passNote='';
+  if(PATHCTX&&completed&&acc>=60&&PATHCTX.idx===ST.path){ST.path++;save();passNote=' \u00b7 Lesson complete';}
   document.getElementById('rd-overlay').style.display='flex';
   document.getElementById('rd-emoji').textContent=completed?(acc===100?'🏆':'🎉'):'💤';
   document.getElementById('rd-title').textContent=completed?'You heard it':'Out of tries';
-  document.getElementById('rd-sub').textContent=LG.correct+' of '+LG.total+' · '+acc+'% · score '+LG.score;
+  document.getElementById('rd-sub').textContent=LG.correct+' of '+LG.total+' · '+acc+'% · score '+LG.score+passNote;
   var rev=document.getElementById('rd-reveal');
   if(completed){
     rev.style.display='block';
@@ -1560,10 +1658,18 @@ function beDone(completed){
   } else rev.style.display='none';
 }
 document.getElementById('rd-again').addEventListener('click',function(){
-  if(LG){var id=LG.prog.id;LG=null;run(function(){});startBe(id);}
+  if(LG){var id=LG.prog.id;LG=null;run(function(){});startBe(id,PATHCTX);}
 });
-document.getElementById('rd-back').addEventListener('click',function(){LG=null;showPicker();});
-document.getElementById('be-x').addEventListener('click',function(){LG=null;showPicker();});
+document.getElementById('rd-back').addEventListener('click',function(){
+  LG=null;
+  if(PATHCTX){PATHCTX=null;go('path');renderPath();}
+  else showPicker();
+});
+document.getElementById('be-x').addEventListener('click',function(){
+  LG=null;
+  if(PATHCTX){PATHCTX=null;go('path');renderPath();}
+  else showPicker();
+});
 
 /* ================= PITCH DETECTION (shared) ================= */
 function pitchDetect(buf,sr){
@@ -1678,10 +1784,150 @@ document.getElementById('mic-btn').addEventListener('click',function(){
   });
 })();
 
+/* ================= LEARNING PATH ================= */
+var PATHCTX=null,donePathReturn=false;
+var COURSE=[
+ {name:'The home sound',lessons:[
+   {t:'deg',title:'Meet do, mi, sol',items:[1,3,5],teach:[1,3,5],n:8},
+   {t:'deg',title:'Anchor drill',items:[1,3,5],n:10},
+   {t:'sing',title:'Sing the anchors',items:[1,3,5],n:3}
+ ]},
+ {name:'Filling the scale',lessons:[
+   {t:'deg',title:'The leaning tones',items:[1,2,3,5,7],teach:[2,7],n:10},
+   {t:'dict',title:'First melodies',items:[1,2,3,5],notes:3,n:4},
+   {t:'deg',title:'The full scale',items:[1,2,3,4,5,6,7],teach:[4,6],n:10},
+   {t:'dict',title:'Melodies II',items:[1,2,3,4,5,6,7],notes:3,n:4},
+   {t:'sing',title:'Sing the scale',items:[1,2,3,4,5,6,7],n:3}
+ ]},
+ {name:'Intervals',lessons:[
+   {t:'iv',title:'Meet the intervals',items:[3,4,5,7,12],dirs:['u'],teach:[3,4,5,7,12],n:8},
+   {t:'iv',title:'All twelve, rising',items:[1,2,3,4,5,6,7,8,9,10,11,12],dirs:['u'],teach:[1,2,6,8,9,10,11],n:10},
+   {t:'iv',title:'Coming down',items:[3,4,5,7,9,12],dirs:['u','d'],n:10},
+   {t:'iv',title:'Every direction',items:[1,2,3,4,5,6,7,8,9,10,11,12],dirs:['u','d','h'],n:12}
+ ]},
+ {name:'Chords',lessons:[
+   {t:'ch',title:'Major and minor',items:['maj','min'],teach:['maj','min'],n:8},
+   {t:'ch',title:'The strange triads',items:['maj','min','dim','aug'],teach:['dim','aug'],n:10},
+   {t:'ch',title:'Seventh chords',items:['maj','min','dom7','maj7','min7'],teach:['dom7','maj7','min7'],n:10},
+   {t:'ch',title:'The full deck',items:['maj','min','dim','aug','dom7','maj7','min7','m7b5'],teach:['m7b5'],n:12}
+ ]},
+ {name:'Real music',lessons:[
+   {t:'prog',title:'Classic Rock',prog:'rock',mode:'guided'},
+   {t:'prog',title:'Pop Anthem',prog:'pop',mode:'guided'},
+   {t:'prog',title:'Mystery: 50s Doo Wop',prog:'doowop',mode:'mystery'},
+   {t:'prog',title:'Jazz Turnaround',prog:'jazz',mode:'guided'}
+ ]},
+ {name:'Advanced ears',lessons:[
+   {t:'deg',title:'Wide register',items:[1,2,3,4,5,6,7],wide:true,n:10},
+   {t:'prog',title:'Stadium Rock',prog:'mixo',mode:'guided'},
+   {t:'prog',title:'Spanish Minor',prog:'andal',mode:'guided'},
+   {t:'dict',title:'Long melodies',items:[1,2,3,4,5,6,7],notes:4,n:5},
+   {t:'prog',title:'Mystery: Sad Pop',prog:'sadpop',mode:'mystery'},
+   {t:'prog',title:'Mystery: 12 Bar Blues',prog:'blues',mode:'mystery'}
+ ]}
+];
+var LESSONS=[];
+COURSE.forEach(function(u){u.lessons.forEach(function(L){LESSONS.push(L);});});
+function lessonSub(L){
+  if(L.t==='deg')return (L.wide?'Scale degrees, any octave':'Scale degrees')+' \u00b7 '+L.n+' questions';
+  if(L.t==='iv')return 'Intervals \u00b7 '+L.n+' questions';
+  if(L.t==='ch')return 'Chord quality \u00b7 '+L.n+' questions';
+  if(L.t==='dict')return 'Dictation \u00b7 '+L.n+' phrases';
+  if(L.t==='sing')return 'Singing \u00b7 '+L.n+' notes';
+  return 'Progression \u00b7 '+(L.mode==='mystery'?'numbers hidden':'numbers shown');
+}
+function renderPath(){
+  var sb=document.getElementById('streak-badge2');
+  if(ST.streak.count>0){sb.style.display='inline-flex';document.getElementById('streak-n2').textContent=ST.streak.count;}
+  else sb.style.display='none';
+  document.getElementById('path-count').textContent=Math.min(ST.path,LESSONS.length)+' of '+LESSONS.length+' lessons';
+  document.getElementById('path-fill').style.width=Math.min(100,Math.round(ST.path/LESSONS.length*100))+'%';
+  document.getElementById('path-done-card').style.display=ST.path>=LESSONS.length?'block':'none';
+  var list=document.getElementById('course-list');list.innerHTML='';
+  var idx=0;
+  COURSE.forEach(function(u){
+    var h=document.createElement('div');h.className='unit-head';h.textContent=u.name;list.appendChild(h);
+    u.lessons.forEach(function(L){
+      var i=idx++;
+      var st=i<ST.path?'done':i===ST.path?'cur':'locked';
+      var row=document.createElement('div');row.className='card lesson-row '+st;
+      var ic=document.createElement('div');ic.className='lesson-ic';
+      ic.innerHTML=st==='done'
+        ?'<svg class="ic" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>'
+        :st==='cur'
+        ?'<svg class="ic" viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3" fill="currentColor" stroke="none"/></svg>'
+        :'<svg class="ic" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>';
+      var main=document.createElement('div');main.className='lesson-main';
+      var nm=document.createElement('div');nm.className='lesson-name';nm.textContent=L.title;
+      var sub=document.createElement('div');sub.className='lesson-sub';sub.textContent=lessonSub(L);
+      main.appendChild(nm);main.appendChild(sub);
+      row.appendChild(ic);row.appendChild(main);
+      if(st!=='locked')row.addEventListener('click',function(){startLesson(i);});
+      list.appendChild(row);
+    });
+  });
+}
+function startLesson(i){
+  var L=LESSONS[i];if(!L||i>ST.path)return;
+  run(function(){});
+  var ctx={idx:i};
+  if(L.teach){showTeach(L,ctx);return;}
+  launchLesson(L,ctx);
+}
+function launchLesson(L,ctx){
+  if(L.t==='deg')startRound({title:L.title,gen:function(){return degQuestion(L.items,!!L.wide);},n:L.n,skill:'deg',path:ctx});
+  else if(L.t==='iv')startRound({title:L.title,gen:function(){return ivQuestion(L.items,L.dirs);},n:L.n,skill:'iv',path:ctx});
+  else if(L.t==='ch')startRound({title:L.title,gen:function(){return chQuestion(L.items);},n:L.n,skill:'ch',path:ctx});
+  else if(L.t==='dict')startDict({items:L.items,notes:L.notes,n:L.n,path:ctx});
+  else if(L.t==='sing')startSing({items:L.items,n:L.n,path:ctx});
+  else if(L.t==='prog'){setBeMode(L.mode);go('play');startBe(L.prog,ctx);}
+}
+function teachPlay(L,item){
+  if(L.t==='deg')playCadenceThen(50,function(ctx,at){tone(ctx,50+12+DEG_ST[item],{delay:at,dur:1.25,vel:0.75});});
+  else if(L.t==='iv')run(function(ctx){tone(ctx,55,{dur:1,vel:0.75});tone(ctx,55+item,{delay:1,dur:1,vel:0.75});});
+  else run(function(ctx){chordAt(ctx,50,CH_DATA[item].notes,{dur:1.6,vel:0.55});});
+}
+function teachName(L,item){
+  if(L.t==='deg')return 'Degree '+item+' ('+DEG_SOL[item]+')';
+  if(L.t==='iv')return IV_DATA[item].name;
+  return CH_DATA[item].name;
+}
+function teachDesc(L,item){
+  if(L.t==='deg')return DEG_FEEL[item];
+  if(L.t==='iv')return 'like '+IV_DATA[item].song;
+  return CH_DATA[item].feel;
+}
+var TEACHCTX=null;
+function showTeach(L,ctx){
+  TEACHCTX={L:L,ctx:ctx};
+  document.getElementById('teach-title').textContent=L.title;
+  document.getElementById('teach-blurb').textContent='New sounds. Tap each one a few times before you start.';
+  var list=document.getElementById('teach-list');list.innerHTML='';
+  L.teach.forEach(function(item){
+    var row=document.createElement('div');row.className='card teach-row';
+    var main=document.createElement('div');main.style.flex='1';
+    var nm=document.createElement('div');nm.className='lesson-name';nm.textContent=teachName(L,item);
+    var ds=document.createElement('div');ds.className='lesson-sub';ds.textContent=teachDesc(L,item);
+    main.appendChild(nm);main.appendChild(ds);
+    var b=document.createElement('button');b.className='btn btn-outline btn-icon';
+    b.innerHTML='<svg class="ic" viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3" fill="currentColor" stroke="none"/></svg>';
+    b.addEventListener('click',function(){run(function(){});teachPlay(L,item);});
+    row.appendChild(main);row.appendChild(b);
+    list.appendChild(row);
+  });
+  go('teach');
+}
+document.getElementById('teach-go').addEventListener('click',function(){
+  run(function(){});
+  if(TEACHCTX)launchLesson(TEACHCTX.L,TEACHCTX.ctx);
+});
+document.getElementById('teach-x').addEventListener('click',function(){TEACHCTX=null;go('path');renderPath();});
+
 /* ================= INIT ================= */
 setBeMode('guided');
 renderHome();
-go('home');
+renderPath();
+go('path');
 </script>
 </body>
 </html>
