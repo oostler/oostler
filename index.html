@@ -418,7 +418,7 @@ svg.ic{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2;strok
   <div class="round-body" style="padding-bottom:30px">
     <div class="q-prompt">Tap the degrees you hear</div>
     <button class="q-play" id="dict-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button>
-    <div class="q-play-lbl">cadence, then the melody</div>
+    <div class="q-play-lbl">the key chords first, then the melody</div>
     <div class="slots" id="slots"></div>
     <div class="deg-pad" id="dict-pad"></div>
     <div style="display:flex;gap:8px">
@@ -829,24 +829,52 @@ function unlockAudio(){
 }
 document.addEventListener('touchend',unlockAudio,{passive:true});
 document.addEventListener('click',unlockAudio);
+/* plucked string via Karplus-Strong, rendered once per note and cached */
+var PLUCK_CACHE={};
+function pluckBuffer(ctx,midi){
+  var key=midi+'@'+ctx.sampleRate;
+  if(PLUCK_CACHE[key])return PLUCK_CACHE[key];
+  var sr=ctx.sampleRate;
+  var f=440*Math.pow(2,(midi-69)/12);
+  var len=Math.floor(sr*2.4);
+  var buf=ctx.createBuffer(1,len,sr);
+  var out=buf.getChannelData(0);
+  var N=Math.max(2,Math.round(sr/f));
+  var ring=new Float32Array(N);
+  var last=0,i;
+  for(i=0;i<N;i++){
+    var w=Math.random()*2-1;
+    last=0.55*w+0.45*last;
+    ring[i]=last;
+  }
+  var pp=Math.max(1,Math.floor(N/2.4));
+  for(i=0;i<N;i++)ring[i]-=0.5*ring[(i+pp)%N];
+  var idx=0,rho=0.9965;
+  for(var j=0;j<len;j++){
+    var cur=ring[idx];
+    out[j]=cur;
+    ring[idx]=rho*0.5*(cur+ring[(idx+1)%N]);
+    idx=(idx+1)%N;
+  }
+  /* loop period is N-0.5 samples; correct to true pitch via playback rate */
+  var entry={buf:buf,rate:f/(sr/(N-0.5))};
+  PLUCK_CACHE[key]=entry;
+  return entry;
+}
 function tone(ctx,midi,opt){
   opt=opt||{};
-  var f=440*Math.pow(2,(midi-69)/12);
   var t=ctx.currentTime+(opt.delay||0);
   var dur=opt.dur||1.2,vel=opt.vel||0.7;
-  var o1=ctx.createOscillator(),o2=ctx.createOscillator(),g=ctx.createGain(),fl=ctx.createBiquadFilter();
-  o1.type=opt.timbre==='saw'?'sawtooth':'triangle';
-  o2.type='sine';
-  o1.frequency.value=f;o2.frequency.value=f*2.001;
-  fl.type='lowpass';fl.frequency.value=Math.min(f*(opt.timbre==='saw'?5:9),11000);
-  g.gain.setValueAtTime(0,t);
-  g.gain.linearRampToValueAtTime(vel,t+0.007);
-  g.gain.exponentialRampToValueAtTime(vel*0.22,t+0.3);
-  g.gain.setValueAtTime(vel*0.22,t+Math.max(0.31,dur-0.25));
-  g.gain.exponentialRampToValueAtTime(0.0001,t+dur+0.25);
-  var a=ctx.createGain(),b=ctx.createGain();a.gain.value=0.62;b.gain.value=0.38;
-  o1.connect(a);a.connect(fl);o2.connect(b);b.connect(fl);fl.connect(g);g.connect(mGain);
-  o1.start(t);o2.start(t);o1.stop(t+dur+0.3);o2.stop(t+dur+0.3);
+  var src=ctx.createBufferSource();
+  var pb=pluckBuffer(ctx,Math.round(midi));
+  src.buffer=pb.buf;
+  src.playbackRate.value=pb.rate;
+  var g=ctx.createGain();
+  g.gain.setValueAtTime(vel*1.15,t);
+  g.gain.setValueAtTime(vel*1.15,t+Math.max(0.05,dur-0.1));
+  g.gain.exponentialRampToValueAtTime(0.0001,t+dur+0.35);
+  src.connect(g);g.connect(mGain);
+  src.start(t);src.stop(t+dur+0.4);
 }
 function chordAt(ctx,rootMidi,iv,opt){
   opt=opt||{};
@@ -936,10 +964,10 @@ function ivQuestion(items,dirs){
     prompt:'Name the interval ('+dirWord+')',
     play:playFn,
     choices:shuffle(set).map(function(x){
-      return {key:String(x),label:IV_DATA[x].name,sub:x+' semitone'+(x>1?'s':'')};
+      return {key:String(x),label:IV_DATA[x].name,sub:x+' fret'+(x>1?'s':'')};
     }),
     answer:String(st),
-    explain:IV_DATA[st].name+' · '+st+' semitone'+(st>1?'s':'')+' · like '+IV_DATA[st].song
+    explain:IV_DATA[st].name+' · '+st+' fret'+(st>1?'s':'')+' up the string · like '+IV_DATA[st].song
   };
 }
 
