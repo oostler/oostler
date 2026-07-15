@@ -373,7 +373,9 @@ function getCtx(){
     actx=new (window.AudioContext||window.webkitAudioContext)();
     mGain=actx.createGain();
     mGain.gain.value=(ST.set.vol/100)*0.9;
-    mGain.connect(actx.destination);
+    var comp=actx.createDynamicsCompressor();
+    comp.threshold.value=-12;comp.knee.value=18;comp.ratio.value=12;comp.attack.value=0.003;comp.release.value=0.25;
+    mGain.connect(comp);comp.connect(actx.destination);
   }
   return actx;
 }
@@ -398,6 +400,22 @@ function unlockAudio(){
 }
 document.addEventListener('touchend',unlockAudio,{passive:true});
 document.addEventListener('click',unlockAudio);
+/* playback bus: new stimuli fade out whatever is still ringing */
+var BUS=null;
+function bus(ctx){
+  if(!BUS){BUS=ctx.createGain();BUS.gain.value=1;BUS.connect(mGain);}
+  return BUS;
+}
+function cut(){
+  if(!BUS||!actx)return;
+  var old=BUS,t=actx.currentTime;
+  try{
+    old.gain.setValueAtTime(old.gain.value,t);
+    old.gain.linearRampToValueAtTime(0,t+0.07);
+  }catch(e){}
+  setTimeout(function(){try{old.disconnect();}catch(e){}},200);
+  BUS=null;
+}
 /* Karplus-Strong plucked string, pitch corrected, cached per note */
 var PLUCK={};
 function pluck(ctx,midi){
@@ -411,9 +429,13 @@ function pluck(ctx,midi){
   var N=Math.max(2,Math.round(sr/f));
   var ring=new Float32Array(N);
   var last=0,i;
-  for(i=0;i<N;i++){var w=Math.random()*2-1;last=0.55*w+0.45*last;ring[i]=last;}
+  for(i=0;i<N;i++){var w=Math.random()*2-1;last=0.42*w+0.58*last;ring[i]=last;}
   var pp=Math.max(1,Math.floor(N/2.4));
   for(i=0;i<N;i++)ring[i]-=0.5*ring[(i+pp)%N];
+  var mean=0;
+  for(i=0;i<N;i++)mean+=ring[i];
+  mean/=N;
+  for(i=0;i<N;i++)ring[i]-=mean;
   var idx=0,rho=0.9965;
   for(var j=0;j<len;j++){
     var cur=ring[idx];
@@ -421,6 +443,9 @@ function pluck(ctx,midi){
     ring[idx]=rho*0.5*(cur+ring[(idx+1)%N]);
     idx=(idx+1)%N;
   }
+  var peak=0;
+  for(var p=0;p<len;p++){var ab=Math.abs(out[p]);if(ab>peak)peak=ab;}
+  if(peak>0){var sc=0.9/peak;for(var p2=0;p2<len;p2++)out[p2]*=sc;}
   var entry={buf:buf,rate:f/(sr/(N-0.5))};
   PLUCK[key]=entry;
   return entry;
@@ -436,7 +461,7 @@ function note(ctx,midi,opt){
   g.gain.setValueAtTime(vel*1.1,t);
   g.gain.setValueAtTime(vel*1.1,t+Math.max(0.05,dur-0.1));
   g.gain.exponentialRampToValueAtTime(0.0001,t+dur+0.35);
-  src.connect(g);g.connect(mGain);
+  src.connect(g);g.connect(bus(ctx));
   src.start(t);src.stop(t+dur+0.4);
 }
 /* real guitar voicings */
@@ -475,6 +500,7 @@ function cadence(ctx,keyN,opt){
 }
 /* context question audio: cadence, pause, 1 -> target */
 function playContext(keyN,targetNum){
+  cut();
   run(function(ctx){
     var at=cadence(ctx,keyN);
     at+=0.5;
@@ -482,6 +508,7 @@ function playContext(keyN,targetNum){
   });
 }
 function playResolve(keyN,fromNum){
+  cut();
   run(function(ctx){
     chordSeq(ctx,[numChord(keyN,fromNum),numChord(keyN,'1')],{step:0.95,vel:0.46,dur:1.4});
   });
@@ -492,6 +519,7 @@ function playLoop(keyN,nums,opt){
   var bpm=opt.bpm||90,beats=opt.beats||4;
   var step=(60/bpm)*beats;
   var times=[];
+  cut();
   run(function(ctx){
     var at=opt.cadence!==false?cadence(ctx,keyN)+0.6:0;
     nums.forEach(function(nu,i){
@@ -514,6 +542,7 @@ function keyRootMidi(keyN){
 }
 function playMelody(keyN,degs,opt){
   opt=opt||{};
+  cut();
   run(function(ctx){
     var at=opt.cadence!==false?cadence(ctx,keyN)+0.5:0;
     degs.forEach(function(d,i){
@@ -522,6 +551,7 @@ function playMelody(keyN,degs,opt){
   });
 }
 function playNotes(midis,step){
+  cut();
   run(function(ctx){
     midis.forEach(function(m,i){note(ctx,m,{delay:i*(step||0.9),dur:0.85,vel:0.7});});
   });
@@ -639,8 +669,8 @@ function genHome(spec){
     var unresolved=body.concat([numChord(keyN,pick(['5','4']))]);
     var A=resolvedFirst?resolved:unresolved;
     var B=resolvedFirst?unresolved:resolved;
-    var playA=function(){run(function(ctx){chordSeq(ctx,A,{step:0.72});});};
-    var playB=function(){run(function(ctx){chordSeq(ctx,B,{step:0.72});});};
+    var playA=function(){cut();run(function(ctx){chordSeq(ctx,A,{step:0.72});});};
+    var playB=function(){cut();run(function(ctx){chordSeq(ctx,B,{step:0.72});});};
     return {
       skill:'home',spec:spec,model:'choices',
       prompt:'Listen to both endings. Which one sounds finished?',
@@ -658,12 +688,12 @@ function genHome(spec){
     var other=pick(['4','5']);
     var homeFirst=Math.random()<0.5;
     var cA=homeFirst?'1':other,cB=homeFirst?other:'1';
-    var pA=function(){run(function(ctx){strum(ctx,numChord(keyN,cA),{dur:1.6,vel:0.46});});};
-    var pB=function(){run(function(ctx){strum(ctx,numChord(keyN,cB),{dur:1.6,vel:0.46});});};
+    var pA=function(){cut();run(function(ctx){strum(ctx,numChord(keyN,cA),{dur:1.6,vel:0.46});});};
+    var pB=function(){cut();run(function(ctx){strum(ctx,numChord(keyN,cB),{dur:1.6,vel:0.46});});};
     return {
       skill:'home',spec:spec,model:'choices',
       prompt:'Which chord sounds like home?',
-      play:function(){run(function(ctx){var at=cadence(ctx,keyN)+0.6;strum(ctx,numChord(keyN,cA),{delay:at,dur:1.3,vel:0.46});strum(ctx,numChord(keyN,cB),{delay:at+1.5,dur:1.3,vel:0.46});});},
+      play:function(){cut();run(function(ctx){var at=cadence(ctx,keyN)+0.6;strum(ctx,numChord(keyN,cA),{delay:at,dur:1.3,vel:0.46});strum(ctx,numChord(keyN,cB),{delay:at+1.5,dur:1.3,vel:0.46});});},
       playLabel:'the key, then chord A and chord B',
       choices:[{key:'A',label:'Chord A',play:pA},{key:'B',label:'Chord B',play:pB}],
       correct:homeFirst?'A':'B',
@@ -678,7 +708,7 @@ function genHome(spec){
   var mid=randChart(spec.k==='hold'?4:3,{pool:['1','4','5'],repeats:false});
   var seq=mid.concat([endsHome?'1':pick(['4','5'])]);
   var names=seq.map(function(x){return numChord(keyN,x);});
-  var pl=function(){run(function(ctx){var at=cadence(ctx,keyN)+0.5;chordSeq(ctx,names,{delay:at,step:0.72});});};
+  var pl=function(){cut();run(function(ctx){var at=cadence(ctx,keyN)+0.5;chordSeq(ctx,names,{delay:at,step:0.72});});};
   return {
     skill:'home',spec:spec,model:'choices',
     prompt:spec.k==='hold'?'Keep hold of 1 while the chords move. Does it end back home?':'Does this progression return to 1 at the end?',
@@ -700,9 +730,9 @@ function genMM(spec){
     var pair=pick(MM_PAIRS);
     var isMaj=Math.random()<0.5;
     var name=isMaj?pair[0]:pair[1];
-    var pl=function(){run(function(ctx){strum(ctx,name,{dur:1.8,vel:0.46});setTimeout(function(){run(function(c2){strum(c2,name,{dur:1.8,vel:0.46});});},1400);});};
-    var pMaj=function(){run(function(ctx){strum(ctx,pair[0],{dur:1.7,vel:0.46});});};
-    var pMin=function(){run(function(ctx){strum(ctx,pair[1],{dur:1.7,vel:0.46});});};
+    var pl=function(){cut();run(function(ctx){strum(ctx,name,{dur:1.6,vel:0.46});strum(ctx,name,{delay:1.5,dur:1.8,vel:0.46});});};
+    var pMaj=function(){cut();run(function(ctx){strum(ctx,pair[0],{dur:1.7,vel:0.46});});};
+    var pMin=function(){cut();run(function(ctx){strum(ctx,pair[1],{dur:1.7,vel:0.46});});};
     return {
       skill:'majmin',spec:spec,model:'choices',
       prompt:kind==='one'?'This is the 1 chord of a song. Is it major or minor?':'Is this chord major or minor?',
@@ -721,7 +751,7 @@ function genMM(spec){
   var minRoot=pick(['Am','Em','Dm']);
   var minLoops={Am:['Am','G','F','Am'],Em:['Em','D','C','Em'],Dm:['Dm','C','Bb','Dm']};
   var names2=isMajor?['1','5','4','1'].map(function(x){return numChord(majKey,x);}):minLoops[minRoot];
-  var pl2=function(){run(function(ctx){chordSeq(ctx,names2,{step:0.75});});};
+  var pl2=function(){cut();run(function(ctx){chordSeq(ctx,names2,{step:0.75});});};
   return {
     skill:'majmin',spec:spec,model:'choices',
     prompt:kind==='find'?'Find home first. Is this song major or minor?':'Is this progression in a major key or a minor key?',
@@ -751,7 +781,7 @@ function genNum(spec){
     fbOk:{text:'Correct. That was '+target+'. Hear how it settles back to 1.',play:function(){playResolve(keyN,target);}},
     fbBad:{text:'That was '+target+', not the one you picked. Compare them from 1.',
       btns:pool.filter(function(n){return true;}).slice(0,3).map(function(n){
-        return {label:'Hear '+n,fn:function(){run(function(ctx){chordSeq(ctx,[numChord(keyN,'1'),numChord(keyN,n)],{step:0.95,vel:0.46});});}};
+        return {label:'Hear '+n,fn:function(){cut();run(function(ctx){chordSeq(ctx,[numChord(keyN,'1'),numChord(keyN,n)],{step:0.95,vel:0.46});});}};
       })},
     guidedText:'After the key is set, this move goes from 1 to '+target+'. '+NUM_FEEL[target].charAt(0).toUpperCase()+NUM_FEEL[target].slice(1)+'.'
   };
@@ -762,9 +792,9 @@ function genPair(spec){
   var a=spec.a||'5',keyN=randKey();
   var fwd=Math.random()<0.5;
   var seq=fwd?[a,'1']:['1',a];
-  var pl=function(){run(function(ctx){var at=cadence(ctx,keyN)+0.5;chordSeq(ctx,seq.map(function(x){return numChord(keyN,x);}),{delay:at,step:0.95,vel:0.46});});};
-  var p1=function(){run(function(ctx){chordSeq(ctx,[numChord(keyN,a),numChord(keyN,'1')],{step:0.95,vel:0.46});});};
-  var p2=function(){run(function(ctx){chordSeq(ctx,[numChord(keyN,'1'),numChord(keyN,a)],{step:0.95,vel:0.46});});};
+  var pl=function(){cut();run(function(ctx){var at=cadence(ctx,keyN)+0.5;chordSeq(ctx,seq.map(function(x){return numChord(keyN,x);}),{delay:at,step:0.95,vel:0.46});});};
+  var p1=function(){cut();run(function(ctx){chordSeq(ctx,[numChord(keyN,a),numChord(keyN,'1')],{step:0.95,vel:0.46});});};
+  var p2=function(){cut();run(function(ctx){chordSeq(ctx,[numChord(keyN,'1'),numChord(keyN,a)],{step:0.95,vel:0.46});});};
   return {
     skill:'num',spec:spec,model:'choices',
     prompt:'Which move did you hear?',
@@ -1346,6 +1376,7 @@ function answer(key){
     RUN.extra++;
     document.getElementById('les-count').textContent=(RUN.i+1)+'/'+RUN.steps.length;
   }
+  cut();
   if(ok)playGood();else playBadS();
   if(Q.fret){
     var body=document.getElementById('les-body');
@@ -1558,7 +1589,7 @@ function renderProfile(){
     ST.set.vol=parseInt(vol.value,10);save();
     if(mGain)mGain.gain.value=(ST.set.vol/100)*0.9;
   };
-  vol.onchange=function(){run(function(ctx){strum(ctx,'G',{dur:1.2,vel:0.45});});};
+  vol.onchange=function(){cut();run(function(ctx){strum(ctx,'G',{dur:1.2,vel:0.45});});};
   var lf=document.getElementById('set-lefty');
   lf.checked=!!ST.set.lefty;
   lf.onchange=function(){ST.set.lefty=lf.checked;save();};
