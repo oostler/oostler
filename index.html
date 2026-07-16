@@ -380,10 +380,13 @@ function getCtx(){
   }
   return actx;
 }
+var GEN=0;
 function run(fn){
+  var g=GEN;
   var ctx=getCtx();
-  if(ctx.state==='running')fn(ctx);
-  else ctx.resume().then(function(){fn(ctx);}).catch(function(){fn(ctx);});
+  var wrapped=function(){if(g===GEN)fn(ctx);};
+  if(ctx.state==='running')wrapped();
+  else ctx.resume().then(wrapped).catch(wrapped);
 }
 var audioUnlocked=false;
 function unlockAudio(){
@@ -409,13 +412,14 @@ function bus(ctx){
   return BUS;
 }
 function cut(){
+  GEN++;
   if(!BUS||!actx)return;
   var old=BUS,t=actx.currentTime;
   try{
     old.gain.setValueAtTime(old.gain.value,t);
-    old.gain.linearRampToValueAtTime(0,t+0.07);
+    old.gain.linearRampToValueAtTime(0,t+0.1);
   }catch(e){}
-  setTimeout(function(){try{old.disconnect();}catch(e){}},200);
+  setTimeout(function(){try{old.disconnect();}catch(e){}},450);
   BUS=null;
 }
 /* real guitar samples (FluidR3 clean electric via guitar.js), decoded once */
@@ -1547,31 +1551,30 @@ function renderLearn(){
     var doneCount=Math.max(0,Math.min(ST.cur-start,u.lessons.length));
     var st=doneCount>=u.lessons.length?'done':(ui===curUnit?'cur':(ui===curUnit+1?'next':'locked'));
     var row=document.createElement('div');
-    row.className='unit-row '+(st==='done'?'done':st==='cur'?'cur':st==='locked'?'locked':'');
+    row.className='unit-row '+(st==='done'?'done':st==='cur'?'cur':'');
+    if(st==='locked')row.style.opacity='.72';
     var ic=document.createElement('div');ic.className='unit-ic';
     ic.textContent=st==='done'?'✓':st==='cur'?'●':st==='next'?'○':'🔒';
     var main=document.createElement('div');main.className='grow';
-    var nm=document.createElement('div');nm.className='unit-name';nm.textContent=u.name;
+    var nm=document.createElement('div');nm.className='unit-name';nm.textContent='Unit '+(ui+1)+' · '+u.name;
     var sub=document.createElement('div');sub.className='unit-sub';
-    sub.textContent=st==='locked'||st==='next'?u.goal:doneCount+' of '+u.lessons.length+' lessons';
+    sub.textContent=st==='locked'||st==='next'?u.goal+' · '+u.lessons.length+' lessons':doneCount+' of '+u.lessons.length+' lessons';
     main.appendChild(nm);main.appendChild(sub);
     row.appendChild(ic);row.appendChild(main);
     var wrap=document.createElement('div');
     wrap.appendChild(row);
-    if(st==='done'||st==='cur'){
-      var ll=document.createElement('div');ll.className='lesson-list';ll.style.display='none';
-      u.lessons.forEach(function(L,li){
-        var gi=start+li;
-        var item=document.createElement('div');item.className='lesson-item';
-        var mark=gi<ST.cur?'✓':(gi===ST.cur?'●':'🔒');
-        item.innerHTML='<span class="st">'+mark+'</span><span>'+L.t+'</span>';
-        if(gi<=ST.cur)item.addEventListener('click',function(){run(function(){});startLesson(gi);});
-        else item.style.opacity='.5';
-        ll.appendChild(item);
-      });
-      wrap.appendChild(ll);
-      row.addEventListener('click',function(){ll.style.display=ll.style.display==='none'?'flex':'none';});
-    }
+    var ll=document.createElement('div');ll.className='lesson-list';ll.style.display='none';
+    u.lessons.forEach(function(L,li){
+      var gi=start+li;
+      var item=document.createElement('div');item.className='lesson-item';
+      var mark=gi<ST.cur?'✓':(gi===ST.cur?'●':'🔒');
+      item.innerHTML='<span class="st">'+mark+'</span><span>'+L.t+'</span>';
+      if(gi<=ST.cur)item.addEventListener('click',function(){run(function(){});startLesson(gi);});
+      else item.style.opacity='.55';
+      ll.appendChild(item);
+    });
+    wrap.appendChild(ll);
+    row.addEventListener('click',function(){ll.style.display=ll.style.display==='none'?'flex':'none';});
     list.appendChild(wrap);
   });
   document.getElementById('hero-go').onclick=function(){
