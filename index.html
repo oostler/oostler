@@ -286,6 +286,7 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 var ST;
 try{ST=JSON.parse(localStorage.getItem('tonic_v3')||'{}');}catch(e){ST={};}
 if(ST.cur==null)ST.cur=0;
+if(!ST.doneL)ST.doneL={};
 if(!ST.streak)ST.streak={count:0,longest:0,last:''};
 if(!ST.skills)ST.skills={};
 if(!ST.mistakes)ST.mistakes=[];
@@ -517,7 +518,7 @@ var VOIC={
   'C':[48,52,55,60,64],'D':[50,57,62,66],'E':[40,47,52,56,59,64],'F':[41,48,53,57,60,65],
   'G':[43,47,50,55,59,67],'A':[45,52,57,61,64],'Bb':[46,53,58,62,65],'B':[47,54,59,63,66],
   'Am':[45,52,57,60,64],'Bm':[47,54,59,62,66],'C#m':[49,56,61,64,68],'Dm':[50,57,62,65],
-  'Em':[40,47,52,55,59,64],'F#m':[42,49,54,57,61,66],'Gm':[43,50,55,58,65]
+  'Em':[40,47,52,55,59,64],'F#m':[42,49,54,57,61,66],'Gm':[43,50,55,58,62,67]
 };
 function strum(ctx,name,opt){
   opt=opt||{};
@@ -585,8 +586,7 @@ function playLoop(keyN,nums,opt){
 var DEGOFF={1:0,2:2,3:4,4:5,5:7};
 function keyRootMidi(keyN){
   var k=null;KEYS.forEach(function(x){if(x.n===keyN)k=x;});
-  var m=52+k.pc;if(m>59)m-=12;
-  return m;
+  return 48+k.pc;
 }
 function playMelody(keyN,degs,opt){
   opt=opt||{};
@@ -712,9 +712,11 @@ function genHome(spec){
   var keyN=randKey();
   if(kind==='resolved'){
     var resolvedFirst=Math.random()<0.5;
-    var body=['1','4','5'].map(function(x){return numChord(keyN,x);});
+    var shape=pick([['1','4','5'],['1','5','4']]);
+    var body=shape.map(function(x){return numChord(keyN,x);});
     var resolved=body.concat([numChord(keyN,'1')]);
-    var unresolved=body.concat([numChord(keyN,pick(['5','4']))]);
+    var unresEnd=shape[2]==='5'?'4':'5';
+    var unresolved=body.concat([numChord(keyN,unresEnd)]);
     var A=resolvedFirst?resolved:unresolved;
     var B=resolvedFirst?unresolved:resolved;
     var playA=function(){cut();run(function(ctx){chordSeq(ctx,A,{step:0.72});});};
@@ -754,7 +756,10 @@ function genHome(spec){
   /* returns / hold: does it end home */
   var endsHome=Math.random()<0.5;
   var mid=randChart(spec.k==='hold'?4:3,{pool:['1','4','5'],repeats:false});
-  var seq=mid.concat([endsHome?'1':pick(['4','5'])]);
+  var lastMid=mid[mid.length-1];
+  var awayEnd=lastMid==='5'?'4':lastMid==='4'?'5':pick(['4','5']);
+  var seq=mid.concat([endsHome?(lastMid==='1'?pick(['4','5']):'1'):awayEnd]);
+  if(seq[seq.length-1]==='1'&&!endsHome)endsHome=true;
   var names=seq.map(function(x){return numChord(keyN,x);});
   var pl=function(){cut();run(function(ctx){var at=cadence(ctx,keyN)+0.5;chordSeq(ctx,names,{delay:at,step:0.72});});};
   return {
@@ -826,9 +831,11 @@ function genNum(spec){
     play:pl,playLabel:'the key, then 1 and the mystery chord',
     choices:pool.map(function(n){return {key:n,label:n,sub:NUM_FEEL[n]};}),
     correct:target,
-    fbOk:{text:'Correct. That was '+target+'. Hear how it settles back to 1.',play:function(){playResolve(keyN,target);}},
+    fbOk:target==='1'
+      ?{text:'Correct. It stayed home on 1. No pull anywhere.'}
+      :{text:'Correct. That was '+target+'. Hear how it settles back to 1.',play:function(){playResolve(keyN,target);}},
     fbBad:{text:'That was '+target+', not the one you picked. Compare them from 1.',
-      btns:pool.filter(function(n){return true;}).slice(0,3).map(function(n){
+      btns:[target].concat(pool.filter(function(n){return n!==target;})).slice(0,3).map(function(n){
         return {label:'Hear '+n,fn:function(){cut();run(function(ctx){chordSeq(ctx,[numChord(keyN,'1'),numChord(keyN,n)],{step:0.95,vel:0.46});});}};
       })},
     guidedText:'After the key is set, this move goes from 1 to '+target+'. '+NUM_FEEL[target].charAt(0).toUpperCase()+NUM_FEEL[target].slice(1)+'.'
@@ -920,10 +927,10 @@ function genFill(spec){
 /* --- tap when chords change --- */
 function genTap(spec){
   var keyN=randKey();
-  var seq=randChart(4,{pool:['1','4','5','6m'],repeats:false});
+  var seq=randChart(4,{pool:['1','4','5','6m'],repeats:true});
   var bpm=88,beats=4,step=(60/bpm)*beats;
   var changes=[];
-  for(var i=1;i<seq.length;i++)changes.push(i*step);
+  for(var i=1;i<seq.length;i++)if(seq[i]!==seq[i-1])changes.push(i*step);
   var startMs=null;
   var pl=function(){
     startMs=performance.now();
@@ -1068,7 +1075,7 @@ function genMel(spec){
     do{dd=pick(pool2);}while(i2>0&&dd===degs[i2-1]&&Math.random()<0.6);
     degs.push(dd);
   }
-  if(degs.indexOf(1)<0)degs[n-1]=1;
+  if(degs.indexOf(1)<0)degs[rnd(0,n-1)]=1;
   var pl4=function(){playMelody(keyN,degs);};
   return {
     skill:'mel',spec:spec,model:'tiles',
@@ -1225,11 +1232,17 @@ var SKILLS_LIST=[
  {id:'names',name:'Numbers and chords',defSpec:{g:'names',dir:'mix'}},
  {id:'mel',name:'Melodies',defSpec:{g:'mel',k:'mix'}}
 ];
-function skillFirstLesson(id){
-  for(var i=0;i<LESSONS.length;i++)if(LESSONS[i].skill===id)return i;
-  return 0;
+(function(){
+  if(ST.cur>0&&Object.keys(ST.doneL).length===0){
+    for(var i=0;i<ST.cur&&i<LESSONS.length;i++)ST.doneL[i]=1;
+    save();
+  }
+})();
+function firstIncomplete(){
+  for(var i=0;i<LESSONS.length;i++)if(!ST.doneL[i])return i;
+  return LESSONS.length;
 }
-function skillUnlocked(id){return ST.cur>skillFirstLesson(id);}
+function skillUnlocked(id){return true;}
 /* ================= RUNNER ================= */
 var RUN=null,Q=null,fbTimer=null,apTimer=null;
 function go(id){
@@ -1240,6 +1253,7 @@ function go(id){
 }
 function startLesson(idx){
   var L=LESSONS[idx];if(!L)return;
+  RUN=null;
   var steps=[{kind:'explain',les:L}];
   if(L.guided)steps.push({kind:'q',spec:L.guided,guided:true});
   (L.drill||[]).forEach(function(s){steps.push({kind:'q',spec:s});});
@@ -1472,7 +1486,7 @@ function finish(){
   var acc=RUN.total?Math.round(RUN.correct/RUN.total*100):100;
   var hadStreak=ST.streak.last===todayStr();
   bumpStreak();
-  if(RUN.isLesson&&RUN.lessonIdx===ST.cur){ST.cur++;save();}
+  if(RUN.isLesson){ST.doneL[RUN.lessonIdx]=1;ST.cur=firstIncomplete();save();}
   var body=document.getElementById('les-body');
   body.innerHTML='';
   var face=document.createElement('div');face.className='done-face';face.textContent=acc>=90?'🎸':acc>=60?'👏':'💪';
@@ -1508,7 +1522,7 @@ function reviewSpecs(){
     var acc=recentAcc(s.id);
     if(acc!=null&&acc<0.7&&skillUnlocked(s.id))specs.push(s.defSpec);
   });
-  var lesIdx=Math.max(0,Math.min(ST.cur,LESSONS.length-1));
+  var lesIdx=Math.max(0,Math.min(firstIncomplete(),LESSONS.length-1));
   var recentSkill=LESSONS[lesIdx].skill;
   var recentDef=null;
   SKILLS_LIST.forEach(function(s){if(s.id===recentSkill)recentDef=s.defSpec;});
@@ -1522,14 +1536,16 @@ function renderLearn(){
   document.getElementById('streak-n').textContent=ST.streak.count;
   document.getElementById('today-chip').textContent=(ST.streak.last===todayStr()?'1':'0')+'/1 today';
   var hero=document.getElementById('hero');
-  var done=ST.cur>=LESSONS.length;
+  var fi=firstIncomplete();
+  ST.cur=fi;
+  var done=fi>=LESSONS.length;
   if(done){
     document.getElementById('hero-title').textContent='Course complete';
     document.getElementById('hero-obj').textContent='Keep your ears sharp with the daily review in Practice.';
     document.getElementById('hero-time').textContent='';
     document.getElementById('hero-go').textContent='GO TO PRACTICE';
   } else {
-    var L=LESSONS[ST.cur];
+    var L=LESSONS[fi];
     document.getElementById('hero-title').textContent=L.t;
     document.getElementById('hero-obj').textContent=L.o;
     document.getElementById('hero-time').textContent='About 3 minutes';
@@ -1537,40 +1553,33 @@ function renderLearn(){
   }
   var list=document.getElementById('unit-list');
   list.innerHTML='';
-  var idx=0,curUnit=-1;
-  UNITS.forEach(function(u,ui){
-    var start=idx,end=idx+u.lessons.length;
-    if(ST.cur>=start&&ST.cur<end)curUnit=ui;
-    idx=end;
-  });
-  if(curUnit<0)curUnit=UNITS.length;
-  idx=0;
+  var idx=0;
   UNITS.forEach(function(u,ui){
     var start=idx;
     idx+=u.lessons.length;
-    var doneCount=Math.max(0,Math.min(ST.cur-start,u.lessons.length));
-    var st=doneCount>=u.lessons.length?'done':(ui===curUnit?'cur':(ui===curUnit+1?'next':'locked'));
+    var doneCount=0;
+    u.lessons.forEach(function(_,li){if(ST.doneL[start+li])doneCount++;});
+    var isCur=fi>=start&&fi<start+u.lessons.length;
+    var st=doneCount>=u.lessons.length?'done':(isCur?'cur':'open');
     var row=document.createElement('div');
     row.className='unit-row '+(st==='done'?'done':st==='cur'?'cur':'');
-    if(st==='locked')row.style.opacity='.72';
     var ic=document.createElement('div');ic.className='unit-ic';
-    ic.textContent=st==='done'?'✓':st==='cur'?'●':st==='next'?'○':'🔒';
+    ic.textContent=st==='done'?'✓':st==='cur'?'●':'○';
     var main=document.createElement('div');main.className='grow';
     var nm=document.createElement('div');nm.className='unit-name';nm.textContent='Unit '+(ui+1)+' · '+u.name;
     var sub=document.createElement('div');sub.className='unit-sub';
-    sub.textContent=st==='locked'||st==='next'?u.goal+' · '+u.lessons.length+' lessons':doneCount+' of '+u.lessons.length+' lessons';
+    sub.textContent=doneCount+' of '+u.lessons.length+' lessons · '+u.goal;
     main.appendChild(nm);main.appendChild(sub);
     row.appendChild(ic);row.appendChild(main);
     var wrap=document.createElement('div');
     wrap.appendChild(row);
-    var ll=document.createElement('div');ll.className='lesson-list';ll.style.display='none';
+    var ll=document.createElement('div');ll.className='lesson-list';ll.style.display=isCur?'flex':'none';
     u.lessons.forEach(function(L,li){
       var gi=start+li;
       var item=document.createElement('div');item.className='lesson-item';
-      var mark=gi<ST.cur?'✓':(gi===ST.cur?'●':'🔒');
+      var mark=ST.doneL[gi]?'✓':(gi===fi?'●':'○');
       item.innerHTML='<span class="st">'+mark+'</span><span>'+L.t+'</span>';
-      if(gi<=ST.cur)item.addEventListener('click',function(){run(function(){});startLesson(gi);});
-      else item.style.opacity='.55';
+      item.addEventListener('click',function(){run(function(){});startLesson(gi);});
       ll.appendChild(item);
     });
     wrap.appendChild(ll);
@@ -1579,8 +1588,8 @@ function renderLearn(){
   });
   document.getElementById('hero-go').onclick=function(){
     run(function(){});
-    if(ST.cur>=LESSONS.length)go('practice');
-    else startLesson(ST.cur);
+    if(firstIncomplete()>=LESSONS.length)go('practice');
+    else startLesson(firstIncomplete());
   };
 }
 function renderPractice(){
@@ -1603,10 +1612,10 @@ function renderPractice(){
   grid.innerHTML='';
   SKILLS_LIST.forEach(function(s){
     var unlocked=skillUnlocked(s.id);
-    var t=document.createElement('div');t.className='skill-tile'+(unlocked?'':' locked');
+    var t=document.createElement('div');t.className='skill-tile';
     var acc=recentAcc(s.id);
     t.innerHTML='<span class="nm">'+s.name+'</span><span class="ac">'+
-      (unlocked?(acc!=null?Math.round(acc*100)+'% recently':'Not practiced yet'):'Locked, keep learning')+'</span>';
+      (acc!=null?Math.round(acc*100)+'% recently':'Not practiced yet')+'</span>';
     if(unlocked)t.addEventListener('click',function(){
       run(function(){});
       startRound(s.name,[s.defSpec,s.defSpec,s.defSpec,s.defSpec,s.defSpec],'practice');
@@ -1621,7 +1630,7 @@ document.getElementById('review-go').addEventListener('click',function(){
 function renderProfile(){
   document.getElementById('p-streak').textContent=ST.streak.count;
   document.getElementById('p-longest').textContent=ST.streak.longest;
-  document.getElementById('p-lessons').textContent=Math.min(ST.cur,LESSONS.length);
+  document.getElementById('p-lessons').textContent=Object.keys(ST.doneL).length;
   document.getElementById('p-charted').textContent=ST.charted;
   var box=document.getElementById('p-skills');
   box.innerHTML='';
