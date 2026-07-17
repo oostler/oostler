@@ -183,36 +183,35 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .km-card:active{transform:translateY(2px);border-bottom-width:2px;margin-bottom:2px}
 .km-card .km-emoji{font-size:20px}
 .km-card .km-sub{font-size:11.5px;font-weight:600;color:var(--muted)}
-.path{position:relative;padding:4px 0 24px}
-.unit-banner{background:linear-gradient(135deg,#2563eb,#3b82f6);color:#fff;border-radius:18px;padding:14px 16px;
-  margin:22px 0 4px;box-shadow:0 5px 0 #1e40af}
-.unit-banner:first-child{margin-top:8px}
-.unit-banner .ub-top{font-size:10px;font-weight:800;letter-spacing:.11em;text-transform:uppercase;color:#bfdbfe}
+.path{position:relative;padding:0 0 44px}
+.unit-sec{position:relative}
+.unit-banner{position:sticky;top:50px;z-index:8;color:#fff;border-radius:16px;padding:13px 16px;margin:12px 0 2px;box-shadow:0 4px 0 var(--ubd)}
+.unit-banner .ub-top{font-size:10px;font-weight:800;letter-spacing:.11em;text-transform:uppercase;opacity:.85}
 .unit-banner h3{color:#fff;font-size:15.5px;margin-top:1px}
-.unit-banner .ub-goal{color:#dbeafe;font-size:12px;margin-top:2px}
-.unit-banner .ub-prog{margin-top:9px;height:7px;background:rgba(255,255,255,.25);border-radius:99px;overflow:hidden}
+.unit-banner .ub-goal{color:#fff;opacity:.88;font-size:12px;margin-top:2px}
+.unit-banner .ub-prog{margin-top:9px;height:7px;background:rgba(255,255,255,.3);border-radius:99px;overflow:hidden}
 .unit-banner .ub-prog>div{height:100%;background:#fff;border-radius:99px;transition:width .3s}
-.unit-nodes{position:relative;padding:26px 0 6px}
-.unit-nodes:before{content:'';position:absolute;left:50%;top:6px;bottom:6px;width:4px;transform:translateX(-50%);
-  background:repeating-linear-gradient(var(--border),var(--border) 7px,transparent 7px,transparent 14px);z-index:0;border-radius:4px}
-.node-wrap{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;gap:5px;padding:21px 0}
-.node{width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;
-  border:none;font-size:27px;font-family:inherit;transition:transform .08s;position:relative}
-.node:active{transform:translateY(3px)}
-.node.done{background:var(--blue);box-shadow:0 5px 0 var(--blue-press);color:#fff}
-.node.done:active{box-shadow:0 2px 0 var(--blue-press)}
-.node.cur{background:#fff;box-shadow:0 5px 0 var(--blue-press),0 0 0 4px var(--blue);color:var(--blue);animation:bob 1.7s ease-in-out infinite}
-.node.future{background:#e6ecf5;box-shadow:0 5px 0 #cbd5e1}
-.node.future.future-op{opacity:.75}
-.node svg{width:28px;height:28px;fill:#fff}
-.node-cap{font-size:11px;font-weight:700;color:var(--muted);text-align:center;max-width:150px;line-height:1.22;background:var(--bg);padding:2px 8px;border-radius:8px;position:relative;z-index:1}
-.node.cur~.node-cap,.node-wrap.cur .node-cap{color:var(--blue);font-weight:800}
-.start-bubble{position:absolute;top:-33px;left:50%;transform:translateX(-50%);background:#fff;color:var(--blue);
-  font-weight:800;font-size:11px;letter-spacing:.07em;padding:5px 12px;border-radius:11px;box-shadow:0 3px 0 var(--blue-press);white-space:nowrap;z-index:3}
-.start-bubble:after{content:'';position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);
-  border:6px solid transparent;border-top-color:#fff;border-bottom:0}
+.unit-banner .ub-badge{display:inline-flex;align-items:center;gap:5px;background:rgba(255,255,255,.22);color:#fff;font-size:11px;font-weight:800;border-radius:99px;padding:3px 10px;margin-top:8px}
+.unit-nodes{position:relative;padding:20px 0 8px;z-index:1}
+.node-wrap{position:relative;display:flex;flex-direction:column;align-items:center;gap:8px;padding:16px 0}
+.node{width:68px;height:68px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;border:none;font-family:inherit;transition:transform .08s;position:relative}
+.node:active{transform:translateY(4px)}
+.node.done{background:var(--nc);box-shadow:0 6px 0 var(--nd)}
+.node.future{background:var(--nc);box-shadow:0 6px 0 var(--nd);filter:saturate(.4) brightness(1.28) opacity(.85)}
+.node.done:active,.node.future:active{box-shadow:0 2px 0 var(--nd)}
+.node.cur{background:#fff;box-shadow:0 6px 0 var(--nd),0 0 0 4px var(--nc);animation:bob 1.7s ease-in-out infinite}
+.node svg{width:32px;height:32px}
+.node.done svg,.node.future svg{fill:#fff;stroke:#fff}
+.node.cur svg{fill:var(--nc);stroke:var(--nc)}
+.node-cap{font-size:11.5px;font-weight:800;color:var(--muted);text-align:center;max-width:150px;line-height:1.2}
+.node.cur-cap{color:var(--fg)}
+.start-bubble{position:absolute;top:-31px;left:50%;transform:translateX(-50%);background:#fff;color:var(--nc);font-weight:800;font-size:11px;letter-spacing:.07em;padding:5px 12px;border-radius:11px;box-shadow:0 3px 0 var(--nd);white-space:nowrap;z-index:3}
+.start-bubble:after{content:'';position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);border:6px solid transparent;border-top-color:#fff;border-bottom:0}
 @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
-.unit-done-badge{display:inline-flex;align-items:center;gap:5px;background:rgba(255,255,255,.2);color:#fff;font-size:11px;font-weight:800;border-radius:99px;padding:3px 10px;margin-top:8px}
+.unit-trophy{display:flex;flex-direction:column;align-items:center;gap:7px;padding:6px 0 2px}
+.unit-trophy .tnode{width:74px;height:74px;border-radius:22px;display:flex;align-items:center;justify-content:center;background:var(--nc);box-shadow:0 6px 0 var(--nd);cursor:pointer}
+.unit-trophy .tnode svg{width:38px;height:38px;fill:#fff}
+.unit-trophy.locked .tnode{filter:saturate(.4) brightness(1.28) opacity(.85)}
 .read-card{background:var(--blue-mist);border:2px solid var(--blue-soft);border-radius:var(--r);padding:18px;font-size:15px;line-height:1.5}
 .read-h{font-size:19px;font-weight:800;text-align:center;margin-top:8px}
 .read-demo{display:inline-flex;align-items:center;gap:8px;background:var(--blue);color:#fff;border:none;border-bottom:4px solid var(--blue-press);border-radius:13px;padding:11px 18px;font-family:inherit;font-weight:800;font-size:14px;cursor:pointer;margin:2px auto}
@@ -221,6 +220,30 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .read-dots{display:flex;gap:6px;justify-content:center;margin-top:4px}
 .read-dots span{width:7px;height:7px;border-radius:50%;background:var(--border)}
 .read-dots span.on{background:var(--blue)}
+.lp-stats{position:sticky;top:0;z-index:20;background:var(--bg);display:flex;align-items:center;gap:16px;padding:12px 4px 8px}
+.brand-mini{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#2563eb,#3b82f6);display:flex;align-items:center;justify-content:center;box-shadow:0 2px 0 #1e40af;flex-shrink:0}
+.brand-mini svg{width:16px;height:16px;fill:#fff}
+.spill{display:inline-flex;align-items:center;gap:6px;font-weight:800;font-size:15.5px}
+.spill svg{width:20px;height:20px}
+.spill.streak{color:#f59e0b}
+.spill.xp{color:#2563eb}
+.lp-km{margin-left:auto;width:40px;height:40px;border-radius:12px;background:var(--card);border:2px solid var(--border);border-bottom-width:4px;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:19px}
+.lp-km:active{transform:translateY(2px);border-bottom-width:2px}
+.emap{margin-top:10px}
+.emap-tog{display:flex;gap:8px;margin-bottom:10px}
+.emap-tog button{flex:1;padding:8px 0;border:2px solid var(--border);border-bottom-width:3px;border-radius:11px;background:var(--card);font-family:inherit;font-weight:800;font-size:13px;color:var(--fg);cursor:pointer}
+.emap-tog button.on{background:var(--blue);border-color:var(--blue-press);color:#fff}
+.emap-keys{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:10px}
+.emap-keys button{padding:7px 0;border:2px solid var(--border);border-radius:10px;background:var(--card);font-family:inherit;font-weight:800;font-size:12.5px;color:var(--fg);cursor:pointer}
+.emap-keys button.on{background:var(--blue);border-color:var(--blue-press);color:#fff}
+.emap-seat{display:flex;align-items:center;gap:11px;background:var(--card);border:2px solid var(--border);border-bottom-width:3px;border-radius:13px;padding:9px 12px;cursor:pointer;margin-bottom:6px}
+.emap-seat:active{transform:translateY(2px);border-bottom-width:1px}
+.emap-seat.home{border-color:var(--blue);background:var(--blue-mist)}
+.emap-seat .es-num{font-size:18px;font-weight:800;width:40px;color:var(--blue)}
+.emap-seat .es-tag{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;border-radius:99px;padding:3px 8px}
+.es-tag.mj{background:var(--warn-soft);color:#92400e}.es-tag.mn{background:#ede9fe;color:#6d28d9}.es-tag.dm{background:var(--bad-soft);color:var(--bad)}
+.emap-seat .es-name{margin-left:auto;font-weight:800;font-size:15px}
+.emap-note{font-size:11.5px;color:var(--muted);text-align:center;margin-top:8px}
 </style>
 </head>
 <body>
@@ -228,17 +251,13 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 
 <!-- ============ LEARN ============ -->
 <div id="learn" class="screen on">
-  <div class="pad">
-    <div class="row">
-      <div class="brand-row">
-        <div class="brand-mark"><svg viewBox="0 0 100 100"><ellipse cx="38" cy="68" rx="15" ry="11"/><rect x="48" y="20" width="8" height="50" rx="4"/><path d="M48 20 q24 5 24 22 q-9 -11 -24 -9 z"/></svg></div>
-        <span class="brand-name">tonic</span>
-      </div>
-      <div class="grow"></div>
-      <span class="streak-chip" id="streak-chip">🔥 <span id="streak-n">0</span></span>
-      <span class="today-chip" id="today-chip">0/1 today</span>
+  <div class="pad" style="padding-top:0">
+    <div class="lp-stats">
+      <div class="brand-mini"><svg viewBox="0 0 100 100"><ellipse cx="38" cy="68" rx="15" ry="11"/><rect x="48" y="20" width="8" height="50" rx="4"/><path d="M48 20 q24 5 24 22 q-9 -11 -24 -9 z"/></svg></div>
+      <span class="spill streak"><svg viewBox="0 0 24 24"><path d="M12 2c1 3 4 4.5 4 8a4 4 0 0 1-8 0c0-1 .3-1.8.8-2.5C9 9 8 10.5 8 12.5a4 4 0 0 0 8 0c0-3.5-2-5.5-4-10.5z" fill="#f59e0b"/></svg><span id="streak-n">0</span></span>
+      <span class="spill xp"><svg viewBox="0 0 24 24"><path d="M12 2 3 7v10l9 5 9-5V7z" fill="#3b82f6"/><path d="M12 2 3 7l9 5 9-5z" fill="#60a5fa"/></svg><span id="xp-n">0</span></span>
+      <button class="lp-km" id="kmap-open" title="Key map">🗺️</button>
     </div>
-    <button class="km-card" id="kmap-open"><span class="km-emoji">🗺️</span><span class="grow" style="text-align:left"><span>Key map</span><span class="km-sub" style="display:block">Every chord in every key, tap to hear</span></span><span style="color:var(--muted)">›</span></button>
     <div class="path" id="path"></div>
   </div>
 </div>
@@ -270,6 +289,7 @@ input[type=range]{width:100%;accent-color:var(--blue)}
       <div class="stat"><div class="v" id="p-longest">0</div><div class="l">longest streak</div></div>
       <div class="stat"><div class="v" id="p-lessons">0</div><div class="l">lessons completed</div></div>
       <div class="stat"><div class="v" id="p-charted">0</div><div class="l">progressions charted</div></div>
+      <div class="stat"><div class="v" id="p-xp">0</div><div class="l">total XP</div></div>
     </div>
     <div class="card">
       <h3>Accuracy by skill</h3>
@@ -365,6 +385,7 @@ try{ST=JSON.parse(localStorage.getItem('tonic_v3')||'{}');}catch(e){ST={};}
 if(ST.cur==null)ST.cur=0;
 if(!ST.doneL)ST.doneL={};
 if(!ST.streak)ST.streak={count:0,longest:0,last:''};
+if(ST.xp==null)ST.xp=0;
 if(!ST.skills)ST.skills={};
 if(!ST.mistakes)ST.mistakes=[];
 if(!ST.days)ST.days=[];
@@ -1452,7 +1473,7 @@ var UNITS=[
   {intro:true,t:'What a key is',o:'The family every song lives in',skill:'intro',pages:[
     {h:'A key is a family of chords',b:'A song does not use random chords. It draws from one <b>key</b>, a small family of chords that belong together and sound at home with each other.'},
     {h:'One chord is home',b:'Inside that family, one chord feels like rest, the place the music wants to return to. We call it <b>home</b>, or <b>1</b>. Everything else is heard in relation to it. Listen: this ends by landing on home.',demo:'home'},
-    {h:'You already feel it',b:'When a song sounds finished, it has arrived home. When it sounds like it wants to keep going, it has not. That pull is the thing your ear will learn to follow.'}
+    {h:'A whole family, one home',b:'Here is a real key laid out. The top row, 1, is home; the rest are its family. Tap any chord to hear it against home. Do not worry about the numbers yet, just hear how they all belong together.',map:true}
   ]},
   {intro:true,t:'Major and minor',o:'The two families of home',skill:'intro',pages:[
     {h:'Two flavors of home',b:'Home can be <b>bright</b> or <b>dark</b>. A bright home means the song is in a <b>major</b> key. A dark home means a <b>minor</b> key. Same idea, two moods.',demo:'majmin'},
@@ -1462,7 +1483,7 @@ var UNITS=[
   {intro:true,t:'The number system',o:'Why numbers beat letters',skill:'intro',pages:[
     {h:'Chords as numbers',b:'Instead of letters, we name chords by their <b>number</b> counted from home. In a major key the common chords are <b>1, 4, 5</b> and the minor <b>6m</b>. This is the <b>Nashville number system</b>.'},
     {h:'The same numbers fit every key',b:'The magic: the numbers never change. <b>1 5 6m 4</b> is the same shape in every key. In G it is G D Em C. In C it is C G Am F. Learn the numbers once and you can play a song in any key.',demo:'nashville'},
-    {h:'See the whole map any time',b:'The <b>Key map</b> button at the top shows every chord in every key, major or minor, and you can tap any of them to hear it. Keep it handy. Now, let us open your ear.'}
+    {h:'The whole map, right here',b:'Here is every chord in a key, laid out as numbers. Switch between <b>major</b> and <b>minor</b>, change the key, and tap any seat to hear it after home. The number map button up top opens this any time. Now, let us open your ear.',map:true}
   ]}
  ]},
  /* ---------- PART 1: OPEN THE EAR ---------- */
@@ -1704,6 +1725,28 @@ function firstIncomplete(){
   return LESSONS.length;
 }
 function skillUnlocked(id){return true;}
+var UNIT_PAL=[
+ {c:'#2563eb',d:'#1e40af'},{c:'#0ea5e9',d:'#0369a1'},{c:'#8b5cf6',d:'#6d28d9'},
+ {c:'#f59e0b',d:'#b45309'},{c:'#10b981',d:'#047857'},{c:'#ec4899',d:'#be185d'},
+ {c:'#06b6d4',d:'#0e7490'},{c:'#f97316',d:'#c2410c'},{c:'#6366f1',d:'#4338ca'},
+ {c:'#eab308',d:'#a16207'},{c:'#a855f7',d:'#7e22ce'},{c:'#14b8a6',d:'#0f766e'},
+ {c:'#ef4444',d:'#b91c1c'},{c:'#3b82f6',d:'#1d4ed8'},{c:'#22c55e',d:'#15803d'}
+];
+function unitPal(ui){return UNIT_PAL[ui%UNIT_PAL.length];}
+var NODE_ICON={
+ intro:'<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" fill="none" stroke-width="2.1"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" fill="none" stroke-width="2.1" stroke-linejoin="round"/>',
+ home:'<path d="M3 11.5 12 3l9 8.5" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.5 10v10h4v-6h5v6h4V10" fill="none" stroke-width="2.4" stroke-linejoin="round"/>',
+ majmin:'<circle cx="12" cy="12" r="9" fill="none" stroke-width="2.2"/><path d="M12 3a9 9 0 0 0 0 18z"/>',
+ num:'<path d="M4 13a8 8 0 0 1 16 0v4a2 2 0 0 1-2 2h-2v-6h4" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 19H6a2 2 0 0 1-2-2v-4h4z" stroke-width="2.2" stroke-linejoin="round"/>',
+ prog:'<rect x="3" y="10" width="3.4" height="10" rx="1.4"/><rect x="10.3" y="4" width="3.4" height="16" rx="1.4"/><rect x="17.6" y="13" width="3.4" height="7" rx="1.4"/>',
+ names:'<path d="M4 8h10M9 4v4M7 8s-1 6-5 8M9 8s2 5 6 7" fill="none" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 20l4-9 4 9M15.5 17h5" fill="none" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>',
+ minor:'<path d="M21 12.8A8.5 8.5 0 1 1 11.2 3.2 6.6 6.6 0 0 0 21 12.8z"/>',
+ col:'<path d="M12 3a9 9 0 0 0 0 18c1.4 0 2-1 2-2 0-1.3-1-1.6-1-2.6 0-.8.7-1.4 1.6-1.4H17a4 4 0 0 0 4-4c0-4.4-4-8-9-8z" fill="none" stroke-width="2.1" stroke-linejoin="round"/><circle cx="7.5" cy="12" r="1.3"/><circle cx="10" cy="7.5" r="1.3"/><circle cx="15" cy="7.5" r="1.3"/>',
+ mel:'<path d="M9 18V5l11-2v13" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/>',
+ star:'<path d="m12 3 2.6 5.9 6.4.6-4.8 4.3 1.4 6.3L12 17.8 6.4 20.4l1.4-6.3L3 9.8l6.4-.6z"/>'
+};
+function nodeIcon(skill){return '<svg viewBox="0 0 24 24">'+(NODE_ICON[skill]||NODE_ICON.star)+'</svg>';}
+var TROPHY_SVG='<svg viewBox="0 0 24 24"><path d="M7 4h10v3a5 5 0 0 1-10 0zM5 5H3v2a3 3 0 0 0 3 3M19 5h2v2a3 3 0 0 1-3 3M9 13h6l-1 4h-4zM8 21h8v-2H8z"/></svg>';
 var SKILL_EMOJI={intro:'📖',home:'🏠',majmin:'🌗',num:'🔢',prog:'🎼',names:'🔤',minor:'🌙',col:'🎨',mel:'🎵'};
 function playDemo(id){
   cut();
@@ -1711,6 +1754,44 @@ function playDemo(id){
   else if(id==='home')run(function(ctx){chordSeq(ctx,['G','Em','C','D','G'],{step:0.62,vel:0.42});});
   else if(id==='majmin')run(function(ctx){strum(ctx,'G',{dur:1.7,vel:0.46});strum(ctx,'Gm',{delay:1.7,dur:1.9,vel:0.46});});
   else if(id==='nashville')run(function(ctx){chordSeq(ctx,['G','D','Em','C'],{step:0.62,vel:0.42});});
+}
+function embedKeyMap(container){
+  var st={mode:'maj',majKey:'G',minKey:'Am'};
+  function draw(){
+    container.innerHTML='';
+    var tog=document.createElement('div');tog.className='emap-tog';
+    [['maj','Major key'],['min','Minor key']].forEach(function(m){
+      var b=document.createElement('button');b.className=st.mode===m[0]?'on':'';b.textContent=m[1];
+      b.addEventListener('click',function(){run(function(){});st.mode=m[0];draw();});
+      tog.appendChild(b);
+    });
+    container.appendChild(tog);
+    var isMin=st.mode==='min';
+    var keys=isMin?MKEYS:KEYS;var cur=isMin?st.minKey:st.majKey;
+    var kg=document.createElement('div');kg.className='emap-keys';
+    keys.forEach(function(k){
+      var b=document.createElement('button');b.className=k.n===cur?'on':'';b.textContent=isMin?k.disp:k.n;
+      b.addEventListener('click',function(){run(function(){});if(isMin)st.minKey=k.n;else st.majKey=k.n;draw();});
+      kg.appendChild(b);
+    });
+    container.appendChild(kg);
+    var kk=null;keys.forEach(function(k){if(k.n===cur)kk=k;});
+    var seats=isMin?KM_MIN_SEATS:KM_MAJ_SEATS;
+    seats.forEach(function(seat,si){
+      var row=document.createElement('div');row.className='emap-seat'+(si===0?' home':'');
+      var num=document.createElement('span');num.className='es-num';num.textContent=seat.n;
+      var tag=document.createElement('span');tag.className='es-tag '+(seat.q==='maj'?'mj':seat.q==='min'?'mn':'dm');
+      tag.textContent=seat.q==='maj'?'major':seat.q==='min'?'minor':'dim';
+      var nm=document.createElement('span');nm.className='es-name';nm.textContent=seatChordName(kk.pc,seat);
+      row.appendChild(num);row.appendChild(tag);row.appendChild(nm);
+      row.addEventListener('click',function(){seatPlay(kk.pc,seat,seats[0]);});
+      container.appendChild(row);
+    });
+    var note=document.createElement('div');note.className='emap-note';
+    note.textContent=isMin?'Home is 1m. The same six seats appear in every minor key.':'Home is 1. The same seven seats appear in every major key. Tap any seat to hear it after home.';
+    container.appendChild(note);
+  }
+  draw();
 }
 /* ================= RUNNER ================= */
 var RUN=null,Q=null,fbTimer=null,apTimer=null;
@@ -1771,6 +1852,11 @@ function renderRead(body,s){
     body.appendChild(c);body.appendChild(wrap);
   } else {
     body.appendChild(c);
+  }
+  if(p.map){
+    var mapc=document.createElement('div');mapc.className='emap';
+    body.appendChild(mapc);
+    embedKeyMap(mapc);
   }
   var dots=document.createElement('div');dots.className='read-dots';
   for(var i=0;i<s.total;i++){var d=document.createElement('span');if(i<=s.idx)d.className='on';dots.appendChild(d);}
@@ -1987,10 +2073,13 @@ function finish(){
   var acc=RUN.total?Math.round(RUN.correct/RUN.total*100):100;
   var hadStreak=ST.streak.last===todayStr();
   bumpStreak();
-  if(RUN.isLesson){ST.doneL[RUN.lessonIdx]=1;ST.cur=firstIncomplete();save();}
+  var isIntro=RUN.intro;
+  var xpGain=isIntro?5:(10+RUN.correct*2);
+  ST.xp+=xpGain;
+  if(RUN.isLesson){ST.doneL[RUN.lessonIdx]=1;ST.cur=firstIncomplete();}
+  save();
   var body=document.getElementById('les-body');
   body.innerHTML='';
-  var isIntro=RUN.intro;
   var face=document.createElement('div');face.className='done-face';face.textContent=isIntro?'✅':acc>=90?'🎸':acc>=60?'👏':'💪';
   var a=document.createElement('div');a.className='done-acc';
   if(isIntro)a.style.display='none';else a.textContent=acc+'%';
@@ -2007,7 +2096,10 @@ function finish(){
     go(from);
     renderAll();
   });
-  body.appendChild(face);body.appendChild(a);body.appendChild(n);body.appendChild(b);
+  var xpc=document.createElement('div');
+  xpc.style.cssText='display:flex;justify-content:center;gap:8px;margin-top:14px';
+  xpc.innerHTML='<span class="spill xp" style="background:var(--blue-mist);padding:7px 14px;border-radius:12px"><svg viewBox="0 0 24 24"><path d="M12 2 3 7v10l9 5 9-5V7z" fill="#3b82f6"/><path d="M12 2 3 7l9 5 9-5z" fill="#60a5fa"/></svg>+'+xpGain+' XP</span>'+(!hadStreak?'<span class="spill streak" style="background:var(--warn-soft);padding:7px 14px;border-radius:12px"><svg viewBox="0 0 24 24"><path d="M12 2c1 3 4 4.5 4 8a4 4 0 0 1-8 0c0-1 .3-1.8.8-2.5C9 9 8 10.5 8 12.5a4 4 0 0 0 8 0c0-3.5-2-5.5-4-10.5z" fill="#f59e0b"/></svg>Day '+ST.streak.count+'</span>':'');
+  body.appendChild(face);body.appendChild(a);body.appendChild(n);body.appendChild(xpc);body.appendChild(b);
   document.getElementById('les-bar').style.width='100%';
 }
 document.getElementById('les-x').addEventListener('click',function(){
@@ -2118,7 +2210,7 @@ document.getElementById('km-min').addEventListener('click',function(){KM_MODE='m
 
 function renderLearn(){
   document.getElementById('streak-n').textContent=ST.streak.count;
-  document.getElementById('today-chip').textContent=(ST.streak.last===todayStr()?'1':'0')+'/1 today';
+  document.getElementById('xp-n').textContent=ST.xp;
   var fi=firstIncomplete();
   ST.cur=fi;
   var path=document.getElementById('path');
@@ -2128,24 +2220,27 @@ function renderLearn(){
   UNITS.forEach(function(u,ui){
     var start=idx;
     idx+=u.lessons.length;
+    var pal=unitPal(ui);
     var doneCount=0;
     u.lessons.forEach(function(_,li){if(ST.doneL[start+li])doneCount++;});
     var unitDone=doneCount>=u.lessons.length;
-    /* unit banner */
+    var sec=document.createElement('div');sec.className='unit-sec';
+    /* sticky banner */
     var ban=document.createElement('div');ban.className='unit-banner';
-    var top=document.createElement('div');top.className='ub-top';top.textContent=(u.intro?'':'Unit '+(ui)+' · ')+u.part;
+    ban.style.background=pal.c;ban.style.setProperty('--ubd',pal.d);
+    var top=document.createElement('div');top.className='ub-top';top.textContent=(u.intro?'WELCOME':'UNIT '+ui+' · '+u.part.toUpperCase());
     var h=document.createElement('h3');h.textContent=u.name;
     var goal=document.createElement('div');goal.className='ub-goal';goal.textContent=u.goal;
     ban.appendChild(top);ban.appendChild(h);ban.appendChild(goal);
     if(unitDone){
-      var bd=document.createElement('div');bd.className='unit-done-badge';bd.textContent='✓ Complete';ban.appendChild(bd);
+      var bd=document.createElement('div');bd.className='ub-badge';bd.textContent='✓ Complete';ban.appendChild(bd);
     } else {
       var pr=document.createElement('div');pr.className='ub-prog';
       var pf=document.createElement('div');pf.style.width=Math.round(doneCount/u.lessons.length*100)+'%';
       pr.appendChild(pf);ban.appendChild(pr);
     }
-    path.appendChild(ban);
-    /* node column */
+    sec.appendChild(ban);
+    /* nodes */
     var col=document.createElement('div');col.className='unit-nodes';
     u.lessons.forEach(function(L,li){
       var gi=start+li;
@@ -2153,31 +2248,37 @@ function renderLearn(){
       var isCur=gi===fi;
       var state=done?'done':isCur?'cur':'future';
       var wrap=document.createElement('div');wrap.className='node-wrap';
-      var off=Math.round(Math.sin(li*0.95)*46);
-      wrap.style.marginLeft=(off*2)+'px';
+      var off=Math.round(Math.sin(li*0.95)*40)*2;
+      wrap.style.marginLeft=off+'px';
       var node=document.createElement('button');
-      node.className='node '+state+(state==='future'?' future-op':'');
-      if(done){
-        node.innerHTML='<svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-      } else if(isCur){
+      node.className='node '+state;
+      node.style.setProperty('--nc',pal.c);node.style.setProperty('--nd',pal.d);
+      node.innerHTML=done
+        ?'<svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+        :nodeIcon(L.skill);
+      if(isCur){
         var bub=document.createElement('div');bub.className='start-bubble';bub.textContent='START';node.appendChild(bub);
-        var em=document.createElement('span');em.textContent=SKILL_EMOJI[L.skill]||'🎧';node.appendChild(em);
         curNodeEl=wrap;
-      } else {
-        node.textContent=SKILL_EMOJI[L.skill]||'🎧';
       }
       node.addEventListener('click',function(){run(function(){});startLesson(gi);});
-      var cap=document.createElement('div');cap.className='node-cap';cap.textContent=L.t;
-      if(isCur)cap.style.color='var(--blue)',cap.style.fontWeight='800';
+      var cap=document.createElement('div');cap.className='node-cap'+(isCur?' cur-cap':'');cap.textContent=L.t;
       wrap.appendChild(node);wrap.appendChild(cap);
       col.appendChild(wrap);
     });
-    path.appendChild(col);
+    /* trophy finale */
+    var tw=document.createElement('div');tw.className='unit-trophy'+(unitDone?'':' locked');
+    var tn=document.createElement('div');tn.className='tnode';tn.style.setProperty('--nc',pal.c);tn.style.setProperty('--nd',pal.d);
+    tn.innerHTML=TROPHY_SVG;
+    var tc=document.createElement('div');tc.className='node-cap';tc.textContent=unitDone?'Unit complete':'Finish the unit';
+    tw.appendChild(tn);tw.appendChild(tc);
+    col.appendChild(tw);
+    sec.appendChild(col);
+    path.appendChild(sec);
   });
   if(fi>=LESSONS.length){
-    var done=document.createElement('div');done.className='unit-banner';done.style.background='linear-gradient(135deg,#16a34a,#22c55e)';done.style.boxShadow='0 5px 0 #15803d';
-    done.innerHTML='<div class="ub-top" style="color:#dcfce7">You did it</div><h3>Course complete</h3><div class="ub-goal" style="color:#dcfce7">Keep your ears sharp with the daily review in Practice.</div>';
-    path.appendChild(done);
+    var doneb=document.createElement('div');doneb.className='unit-banner';doneb.style.background='#22c55e';doneb.style.setProperty('--ubd','#15803d');
+    doneb.innerHTML='<div class="ub-top">You did it</div><h3>Course complete</h3><div class="ub-goal">Keep your ears sharp with the daily review in Practice.</div>';
+    path.appendChild(doneb);
   }
   if(curNodeEl&&fi>0){
     setTimeout(function(){try{curNodeEl.scrollIntoView({block:'center'});}catch(e){}},30);
@@ -2223,6 +2324,7 @@ function renderProfile(){
   document.getElementById('p-longest').textContent=ST.streak.longest;
   document.getElementById('p-lessons').textContent=Object.keys(ST.doneL).length;
   document.getElementById('p-charted').textContent=ST.charted;
+  document.getElementById('p-xp').textContent=ST.xp;
   var box=document.getElementById('p-skills');
   box.innerHTML='';
   SKILLS_LIST.forEach(function(s){
