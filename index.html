@@ -177,6 +177,50 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .mode-tog{display:flex;gap:8px}
 .mode-tog .btn{flex:1}
 .mode-tog .btn.on{background:var(--blue);border-color:var(--blue-press);color:#fff}
+.lp-head{display:flex;align-items:center;gap:9px;padding:2px 0 4px}
+.streak-chip{margin-left:auto}
+.km-card{display:flex;align-items:center;gap:10px;background:var(--card);border:2px solid var(--border);border-bottom-width:4px;border-radius:16px;padding:11px 14px;cursor:pointer;font-weight:800;font-size:14px;width:100%;font-family:inherit;color:var(--fg)}
+.km-card:active{transform:translateY(2px);border-bottom-width:2px;margin-bottom:2px}
+.km-card .km-emoji{font-size:20px}
+.km-card .km-sub{font-size:11.5px;font-weight:600;color:var(--muted)}
+.path{position:relative;padding:4px 0 24px}
+.unit-banner{background:linear-gradient(135deg,#2563eb,#3b82f6);color:#fff;border-radius:18px;padding:14px 16px;
+  margin:22px 0 4px;box-shadow:0 5px 0 #1e40af}
+.unit-banner:first-child{margin-top:8px}
+.unit-banner .ub-top{font-size:10px;font-weight:800;letter-spacing:.11em;text-transform:uppercase;color:#bfdbfe}
+.unit-banner h3{color:#fff;font-size:15.5px;margin-top:1px}
+.unit-banner .ub-goal{color:#dbeafe;font-size:12px;margin-top:2px}
+.unit-banner .ub-prog{margin-top:9px;height:7px;background:rgba(255,255,255,.25);border-radius:99px;overflow:hidden}
+.unit-banner .ub-prog>div{height:100%;background:#fff;border-radius:99px;transition:width .3s}
+.unit-nodes{position:relative;padding:26px 0 6px}
+.unit-nodes:before{content:'';position:absolute;left:50%;top:6px;bottom:6px;width:4px;transform:translateX(-50%);
+  background:repeating-linear-gradient(var(--border),var(--border) 7px,transparent 7px,transparent 14px);z-index:0;border-radius:4px}
+.node-wrap{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;gap:5px;padding:21px 0}
+.node{width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;
+  border:none;font-size:27px;font-family:inherit;transition:transform .08s;position:relative}
+.node:active{transform:translateY(3px)}
+.node.done{background:var(--blue);box-shadow:0 5px 0 var(--blue-press);color:#fff}
+.node.done:active{box-shadow:0 2px 0 var(--blue-press)}
+.node.cur{background:#fff;box-shadow:0 5px 0 var(--blue-press),0 0 0 4px var(--blue);color:var(--blue);animation:bob 1.7s ease-in-out infinite}
+.node.future{background:#e6ecf5;box-shadow:0 5px 0 #cbd5e1}
+.node.future.future-op{opacity:.75}
+.node svg{width:28px;height:28px;fill:#fff}
+.node-cap{font-size:11px;font-weight:700;color:var(--muted);text-align:center;max-width:150px;line-height:1.22;background:var(--bg);padding:2px 8px;border-radius:8px;position:relative;z-index:1}
+.node.cur~.node-cap,.node-wrap.cur .node-cap{color:var(--blue);font-weight:800}
+.start-bubble{position:absolute;top:-33px;left:50%;transform:translateX(-50%);background:#fff;color:var(--blue);
+  font-weight:800;font-size:11px;letter-spacing:.07em;padding:5px 12px;border-radius:11px;box-shadow:0 3px 0 var(--blue-press);white-space:nowrap;z-index:3}
+.start-bubble:after{content:'';position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);
+  border:6px solid transparent;border-top-color:#fff;border-bottom:0}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.unit-done-badge{display:inline-flex;align-items:center;gap:5px;background:rgba(255,255,255,.2);color:#fff;font-size:11px;font-weight:800;border-radius:99px;padding:3px 10px;margin-top:8px}
+.read-card{background:var(--blue-mist);border:2px solid var(--blue-soft);border-radius:var(--r);padding:18px;font-size:15px;line-height:1.5}
+.read-h{font-size:19px;font-weight:800;text-align:center;margin-top:8px}
+.read-demo{display:inline-flex;align-items:center;gap:8px;background:var(--blue);color:#fff;border:none;border-bottom:4px solid var(--blue-press);border-radius:13px;padding:11px 18px;font-family:inherit;font-weight:800;font-size:14px;cursor:pointer;margin:2px auto}
+.read-demo:active{transform:translateY(2px);border-bottom-width:2px}
+.read-demo svg{width:16px;height:16px;fill:#fff}
+.read-dots{display:flex;gap:6px;justify-content:center;margin-top:4px}
+.read-dots span{width:7px;height:7px;border-radius:50%;background:var(--border)}
+.read-dots span.on{background:var(--blue)}
 </style>
 </head>
 <body>
@@ -194,15 +238,8 @@ input[type=range]{width:100%;accent-color:var(--blue)}
       <span class="streak-chip" id="streak-chip">🔥 <span id="streak-n">0</span></span>
       <span class="today-chip" id="today-chip">0/1 today</span>
     </div>
-    <div class="hero" id="hero">
-      <div class="tiny" style="color:#bfdbfe;font-weight:800;letter-spacing:.06em">CONTINUE LEARNING</div>
-      <h2 id="hero-title"></h2>
-      <div class="obj" id="hero-obj"></div>
-      <div class="time" id="hero-time">About 3 minutes</div>
-      <button class="btn btn-big" id="hero-go">CONTINUE</button>
-    </div>
-    <button class="btn btn-block" id="kmap-open">🗺️ Key map · every chord in every key</button>
-    <div id="unit-list" style="display:flex;flex-direction:column;gap:9px"></div>
+    <button class="km-card" id="kmap-open"><span class="km-emoji">🗺️</span><span class="grow" style="text-align:left"><span>Key map</span><span class="km-sub" style="display:block">Every chord in every key, tap to hear</span></span><span style="color:var(--muted)">›</span></button>
+    <div class="path" id="path"></div>
   </div>
 </div>
 
@@ -327,12 +364,6 @@ var ST;
 try{ST=JSON.parse(localStorage.getItem('tonic_v3')||'{}');}catch(e){ST={};}
 if(ST.cur==null)ST.cur=0;
 if(!ST.doneL)ST.doneL={};
-if(ST.pathV!==2){
-  var _n=Object.keys(ST.doneL).length;
-  ST.doneL={};
-  for(var _i=0;_i<_n;_i++)ST.doneL[_i]=1;
-  ST.pathV=2;
-}
 if(!ST.streak)ST.streak={count:0,longest:0,last:''};
 if(!ST.skills)ST.skills={};
 if(!ST.mistakes)ST.mistakes=[];
@@ -1411,6 +1442,29 @@ function genMel(spec){
 }
 /* ================= CURRICULUM ================= */
 var UNITS=[
+ /* ---------- PART 0: WELCOME ---------- */
+ {part:'Welcome',name:'Start here',goal:'What you will learn, and the ideas behind it',intro:true,lessons:[
+  {intro:true,t:'What you will be able to do',o:'The promise of this app',skill:'intro',pages:[
+    {h:'You are going to learn songs by ear',b:'Right now, learning a song means searching for the chords online. By the end of this, you will hear a song and work out its chords yourself. Give your ear the key and two listens, and you will know the whole progression.'},
+    {h:'The whole method, in one breath',b:'Every song has a home chord. Find home, decide if it sounds <b>bright (major)</b> or <b>dark (minor)</b>, then hear every other chord as a <b>number</b> counted from home. Numbers become real chords the moment you pick a key.',demo:'cadence'},
+    {h:'A few minutes is enough',b:'Each lesson takes two to five minutes. A little every day beats an hour once a week, because your ear learns by returning often. Headphones or a quiet room help a lot.'}
+  ]},
+  {intro:true,t:'What a key is',o:'The family every song lives in',skill:'intro',pages:[
+    {h:'A key is a family of chords',b:'A song does not use random chords. It draws from one <b>key</b>, a small family of chords that belong together and sound at home with each other.'},
+    {h:'One chord is home',b:'Inside that family, one chord feels like rest, the place the music wants to return to. We call it <b>home</b>, or <b>1</b>. Everything else is heard in relation to it. Listen: this ends by landing on home.',demo:'home'},
+    {h:'You already feel it',b:'When a song sounds finished, it has arrived home. When it sounds like it wants to keep going, it has not. That pull is the thing your ear will learn to follow.'}
+  ]},
+  {intro:true,t:'Major and minor',o:'The two families of home',skill:'intro',pages:[
+    {h:'Two flavors of home',b:'Home can be <b>bright</b> or <b>dark</b>. A bright home means the song is in a <b>major</b> key. A dark home means a <b>minor</b> key. Same idea, two moods.',demo:'majmin'},
+    {h:'This is the first fork',b:'Almost every song is one or the other. Your very first listening question is always the same: is home bright or dark? That answer tells you which map of numbers to use.'},
+    {h:'Home is always 1',b:'Whether a song is major or minor, home is still called 1. You never have to rename it. You just count from home, in whichever family you are in.'}
+  ]},
+  {intro:true,t:'The number system',o:'Why numbers beat letters',skill:'intro',pages:[
+    {h:'Chords as numbers',b:'Instead of letters, we name chords by their <b>number</b> counted from home. In a major key the common chords are <b>1, 4, 5</b> and the minor <b>6m</b>. This is the <b>Nashville number system</b>.'},
+    {h:'The same numbers fit every key',b:'The magic: the numbers never change. <b>1 5 6m 4</b> is the same shape in every key. In G it is G D Em C. In C it is C G Am F. Learn the numbers once and you can play a song in any key.',demo:'nashville'},
+    {h:'See the whole map any time',b:'The <b>Key map</b> button at the top shows every chord in every key, major or minor, and you can tap any of them to hear it. Keep it handy. Now, let us open your ear.'}
+  ]}
+ ]},
  /* ---------- PART 1: OPEN THE EAR ---------- */
  {part:'Open the ear',name:'Find home',goal:'Identify 1, the tonal centre',lessons:[
   {t:'Resolved or unresolved',o:'Tell a finished ending from a hanging one',
@@ -1633,10 +1687,16 @@ var SKILLS_LIST=[
  {id:'col',name:'Chord colors',defSpec:{g:'col',k:'mix'}},
  {id:'mel',name:'Melodies',defSpec:{g:'mel',k:'mix'}}
 ];
+var INTRO_COUNT=0;UNITS.forEach(function(u){if(u.intro)INTRO_COUNT+=u.lessons.length;});
 (function(){
-  if(ST.cur>0&&Object.keys(ST.doneL).length===0){
-    for(var i=0;i<ST.cur&&i<LESSONS.length;i++)ST.doneL[i]=1;
-    save();
+  if(ST.pathV!==3){
+    var m=Object.keys(ST.doneL).length; /* prior pathV made these sequential */
+    ST.doneL={};
+    if(m>0){ /* returning user: they already know the concepts, keep them past intro */
+      for(var i=0;i<INTRO_COUNT;i++)ST.doneL[i]=1;
+      for(var j=0;j<m;j++)ST.doneL[INTRO_COUNT+j]=1;
+    }
+    ST.pathV=3;save();
   }
 })();
 function firstIncomplete(){
@@ -1644,6 +1704,14 @@ function firstIncomplete(){
   return LESSONS.length;
 }
 function skillUnlocked(id){return true;}
+var SKILL_EMOJI={intro:'📖',home:'🏠',majmin:'🌗',num:'🔢',prog:'🎼',names:'🔤',minor:'🌙',col:'🎨',mel:'🎵'};
+function playDemo(id){
+  cut();
+  if(id==='cadence')run(function(ctx){chordSeq(ctx,['G','C','D','G'],{step:0.6,vel:0.4});});
+  else if(id==='home')run(function(ctx){chordSeq(ctx,['G','Em','C','D','G'],{step:0.62,vel:0.42});});
+  else if(id==='majmin')run(function(ctx){strum(ctx,'G',{dur:1.7,vel:0.46});strum(ctx,'Gm',{delay:1.7,dur:1.9,vel:0.46});});
+  else if(id==='nashville')run(function(ctx){chordSeq(ctx,['G','D','Em','C'],{step:0.62,vel:0.42});});
+}
 /* ================= RUNNER ================= */
 var RUN=null,Q=null,fbTimer=null,apTimer=null;
 function go(id){
@@ -1655,11 +1723,17 @@ function go(id){
 function startLesson(idx){
   var L=LESSONS[idx];if(!L)return;
   RUN=null;
-  var steps=[{kind:'explain',les:L}];
-  if(L.guided)steps.push({kind:'q',spec:L.guided,guided:true});
-  (L.drill||[]).forEach(function(s){steps.push({kind:'q',spec:s});});
-  if(L.apply)steps.push({kind:'q',spec:L.apply});
-  RUN={title:L.t,steps:steps,i:0,correct:0,total:0,isLesson:true,lessonIdx:idx,extra:0,from:'learn'};
+  var steps;
+  if(L.intro){
+    steps=L.pages.map(function(p,i){return {kind:'read',page:p,idx:i,total:L.pages.length,title:L.t};});
+    RUN={title:L.t,steps:steps,i:0,correct:0,total:0,isLesson:true,intro:true,lessonIdx:idx,extra:0,from:'learn'};
+  } else {
+    steps=[{kind:'explain',les:L}];
+    if(L.guided)steps.push({kind:'q',spec:L.guided,guided:true});
+    (L.drill||[]).forEach(function(s){steps.push({kind:'q',spec:s});});
+    if(L.apply)steps.push({kind:'q',spec:L.apply});
+    RUN={title:L.t,steps:steps,i:0,correct:0,total:0,isLesson:true,lessonIdx:idx,extra:0,from:'learn'};
+  }
   go('lesson');
   step();
 }
@@ -1680,7 +1754,33 @@ function step(){
   var body=document.getElementById('les-body');
   body.innerHTML='';
   if(s.kind==='explain')renderExplain(body,s.les);
+  else if(s.kind==='read')renderRead(body,s);
   else renderQ(body,s);
+}
+function renderRead(body,s){
+  var p=s.page;
+  var h=document.createElement('div');h.className='read-h';h.innerHTML=termify(p.h);
+  var c=document.createElement('div');c.className='read-card';c.innerHTML=termify(p.b);
+  body.appendChild(h);
+  if(p.demo){
+    var db=document.createElement('button');db.className='read-demo';
+    db.innerHTML='<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> Hear it';
+    db.style.display='flex';
+    db.addEventListener('click',function(){run(function(){});playDemo(p.demo);});
+    var wrap=document.createElement('div');wrap.style.cssText='display:flex;justify-content:center';wrap.appendChild(db);
+    body.appendChild(c);body.appendChild(wrap);
+  } else {
+    body.appendChild(c);
+  }
+  var dots=document.createElement('div');dots.className='read-dots';
+  for(var i=0;i<s.total;i++){var d=document.createElement('span');if(i<=s.idx)d.className='on';dots.appendChild(d);}
+  body.appendChild(dots);
+  var last=s.idx===s.total-1;
+  var b=document.createElement('button');b.className='btn btn-blue btn-big btn-block';b.textContent=last?'Got it':'Continue';
+  b.addEventListener('click',function(){run(function(){});RUN.i++;step();});
+  body.appendChild(b);
+  bindTerms(h);bindTerms(c);
+  if(p.demo)setTimeout(function(){playDemo(p.demo);},350);
 }
 function renderExplain(body,L){
   var h=document.createElement('h1');h.textContent=L.t;h.style.textAlign='center';h.style.marginTop='16px';
@@ -1890,12 +1990,16 @@ function finish(){
   if(RUN.isLesson){ST.doneL[RUN.lessonIdx]=1;ST.cur=firstIncomplete();save();}
   var body=document.getElementById('les-body');
   body.innerHTML='';
-  var face=document.createElement('div');face.className='done-face';face.textContent=acc>=90?'🎸':acc>=60?'👏':'💪';
-  var a=document.createElement('div');a.className='done-acc';a.textContent=acc+'%';
+  var isIntro=RUN.intro;
+  var face=document.createElement('div');face.className='done-face';face.textContent=isIntro?'✅':acc>=90?'🎸':acc>=60?'👏':'💪';
+  var a=document.createElement('div');a.className='done-acc';
+  if(isIntro)a.style.display='none';else a.textContent=acc+'%';
   var n=document.createElement('div');n.className='done-note';
-  n.textContent=(RUN.isLesson?'Lesson complete. ':'Review complete. ')+
-    (acc===100?'Perfect.':acc>=70?'Strong ears.':'The misses will come back around until they stick.')+
-    (!hadStreak?' Streak extended.':'');
+  n.textContent=isIntro
+    ?('Got it. '+(!hadStreak?'Streak extended.':'On to the next one.'))
+    :((RUN.isLesson?'Lesson complete. ':'Review complete. ')+
+      (acc===100?'Perfect.':acc>=70?'Strong ears.':'The misses will come back around until they stick.')+
+      (!hadStreak?' Streak extended.':''));
   var b=document.createElement('button');b.className='btn btn-blue btn-big btn-block';b.style.marginTop='18px';b.textContent='Continue';
   var from=RUN.from;
   b.addEventListener('click',function(){
@@ -2015,67 +2119,69 @@ document.getElementById('km-min').addEventListener('click',function(){KM_MODE='m
 function renderLearn(){
   document.getElementById('streak-n').textContent=ST.streak.count;
   document.getElementById('today-chip').textContent=(ST.streak.last===todayStr()?'1':'0')+'/1 today';
-  var hero=document.getElementById('hero');
   var fi=firstIncomplete();
   ST.cur=fi;
-  var done=fi>=LESSONS.length;
-  if(done){
-    document.getElementById('hero-title').textContent='Course complete';
-    document.getElementById('hero-obj').textContent='Keep your ears sharp with the daily review in Practice.';
-    document.getElementById('hero-time').textContent='';
-    document.getElementById('hero-go').textContent='GO TO PRACTICE';
-  } else {
-    var L=LESSONS[fi];
-    document.getElementById('hero-title').textContent=L.t;
-    document.getElementById('hero-obj').textContent=L.o;
-    document.getElementById('hero-time').textContent='About 3 minutes';
-    document.getElementById('hero-go').textContent='CONTINUE';
-  }
-  var list=document.getElementById('unit-list');
-  list.innerHTML='';
-  var idx=0,lastPart=null;
+  var path=document.getElementById('path');
+  path.innerHTML='';
+  var idx=0;
+  var curNodeEl=null;
   UNITS.forEach(function(u,ui){
-    if(u.part!==lastPart){
-      lastPart=u.part;
-      var ph=document.createElement('div');ph.className='part-head';ph.textContent=u.part;
-      list.appendChild(ph);
-    }
     var start=idx;
     idx+=u.lessons.length;
     var doneCount=0;
     u.lessons.forEach(function(_,li){if(ST.doneL[start+li])doneCount++;});
-    var isCur=fi>=start&&fi<start+u.lessons.length;
-    var st=doneCount>=u.lessons.length?'done':(isCur?'cur':'open');
-    var row=document.createElement('div');
-    row.className='unit-row '+(st==='done'?'done':st==='cur'?'cur':'');
-    var ic=document.createElement('div');ic.className='unit-ic';
-    ic.textContent=st==='done'?'✓':st==='cur'?'●':'○';
-    var main=document.createElement('div');main.className='grow';
-    var nm=document.createElement('div');nm.className='unit-name';nm.textContent='Unit '+(ui+1)+' · '+u.name;
-    var sub=document.createElement('div');sub.className='unit-sub';
-    sub.textContent=doneCount+' of '+u.lessons.length+' lessons · '+u.goal;
-    main.appendChild(nm);main.appendChild(sub);
-    row.appendChild(ic);row.appendChild(main);
-    var wrap=document.createElement('div');
-    wrap.appendChild(row);
-    var ll=document.createElement('div');ll.className='lesson-list';ll.style.display=isCur?'flex':'none';
+    var unitDone=doneCount>=u.lessons.length;
+    /* unit banner */
+    var ban=document.createElement('div');ban.className='unit-banner';
+    var top=document.createElement('div');top.className='ub-top';top.textContent=(u.intro?'':'Unit '+(ui)+' · ')+u.part;
+    var h=document.createElement('h3');h.textContent=u.name;
+    var goal=document.createElement('div');goal.className='ub-goal';goal.textContent=u.goal;
+    ban.appendChild(top);ban.appendChild(h);ban.appendChild(goal);
+    if(unitDone){
+      var bd=document.createElement('div');bd.className='unit-done-badge';bd.textContent='✓ Complete';ban.appendChild(bd);
+    } else {
+      var pr=document.createElement('div');pr.className='ub-prog';
+      var pf=document.createElement('div');pf.style.width=Math.round(doneCount/u.lessons.length*100)+'%';
+      pr.appendChild(pf);ban.appendChild(pr);
+    }
+    path.appendChild(ban);
+    /* node column */
+    var col=document.createElement('div');col.className='unit-nodes';
     u.lessons.forEach(function(L,li){
       var gi=start+li;
-      var item=document.createElement('div');item.className='lesson-item';
-      var mark=ST.doneL[gi]?'✓':(gi===fi?'●':'○');
-      item.innerHTML='<span class="st">'+mark+'</span><span>'+L.t+'</span>';
-      item.addEventListener('click',function(){run(function(){});startLesson(gi);});
-      ll.appendChild(item);
+      var done=!!ST.doneL[gi];
+      var isCur=gi===fi;
+      var state=done?'done':isCur?'cur':'future';
+      var wrap=document.createElement('div');wrap.className='node-wrap';
+      var off=Math.round(Math.sin(li*0.95)*46);
+      wrap.style.marginLeft=(off*2)+'px';
+      var node=document.createElement('button');
+      node.className='node '+state+(state==='future'?' future-op':'');
+      if(done){
+        node.innerHTML='<svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+      } else if(isCur){
+        var bub=document.createElement('div');bub.className='start-bubble';bub.textContent='START';node.appendChild(bub);
+        var em=document.createElement('span');em.textContent=SKILL_EMOJI[L.skill]||'🎧';node.appendChild(em);
+        curNodeEl=wrap;
+      } else {
+        node.textContent=SKILL_EMOJI[L.skill]||'🎧';
+      }
+      node.addEventListener('click',function(){run(function(){});startLesson(gi);});
+      var cap=document.createElement('div');cap.className='node-cap';cap.textContent=L.t;
+      if(isCur)cap.style.color='var(--blue)',cap.style.fontWeight='800';
+      wrap.appendChild(node);wrap.appendChild(cap);
+      col.appendChild(wrap);
     });
-    wrap.appendChild(ll);
-    row.addEventListener('click',function(){ll.style.display=ll.style.display==='none'?'flex':'none';});
-    list.appendChild(wrap);
+    path.appendChild(col);
   });
-  document.getElementById('hero-go').onclick=function(){
-    run(function(){});
-    if(firstIncomplete()>=LESSONS.length)go('practice');
-    else startLesson(firstIncomplete());
-  };
+  if(fi>=LESSONS.length){
+    var done=document.createElement('div');done.className='unit-banner';done.style.background='linear-gradient(135deg,#16a34a,#22c55e)';done.style.boxShadow='0 5px 0 #15803d';
+    done.innerHTML='<div class="ub-top" style="color:#dcfce7">You did it</div><h3>Course complete</h3><div class="ub-goal" style="color:#dcfce7">Keep your ears sharp with the daily review in Practice.</div>';
+    path.appendChild(done);
+  }
+  if(curNodeEl&&fi>0){
+    setTimeout(function(){try{curNodeEl.scrollIntoView({block:'center'});}catch(e){}},30);
+  }
 }
 function renderPractice(){
   var weak=SKILLS_LIST.filter(function(s){
