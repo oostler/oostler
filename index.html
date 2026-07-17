@@ -159,6 +159,24 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .weak-item:last-child{border-bottom:none}
 .weak-item b{font-weight:800}
 .weak-item .pc{color:var(--bad);font-weight:800}
+.part-head{margin-top:16px;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--blue);display:flex;align-items:center;gap:8px}
+.part-head:before,.part-head:after{content:'';height:2px;background:var(--blue-soft);flex:1;border-radius:2px}
+.brand-row{display:flex;align-items:center;gap:9px}
+.brand-mark{width:34px;height:34px;border-radius:11px;background:linear-gradient(135deg,#2563eb,#3b82f6);display:flex;align-items:center;justify-content:center;box-shadow:0 3px 0 #1e40af;flex-shrink:0}
+.brand-mark svg{width:19px;height:19px;fill:#fff}
+.brand-name{font-size:19px;font-weight:800;color:var(--blue);letter-spacing:-.02em}
+.seat-row{display:flex;align-items:center;gap:12px;background:var(--card);border:2px solid var(--border);border-bottom-width:4px;border-radius:var(--r);padding:11px 14px;cursor:pointer}
+.seat-row:active{transform:translateY(2px);border-bottom-width:2px;margin-bottom:2px}
+.seat-row.home{border-color:var(--blue);background:var(--blue-mist)}
+.seat-num{font-size:20px;font-weight:800;width:46px;color:var(--blue)}
+.seat-tag{font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;border-radius:99px;padding:3px 9px}
+.seat-tag.mj{background:var(--warn-soft);color:#92400e}
+.seat-tag.mn{background:#ede9fe;color:#6d28d9}
+.seat-tag.dm{background:var(--bad-soft);color:var(--bad)}
+.seat-name{margin-left:auto;font-weight:800;font-size:16px}
+.mode-tog{display:flex;gap:8px}
+.mode-tog .btn{flex:1}
+.mode-tog .btn.on{background:var(--blue);border-color:var(--blue-press);color:#fff}
 </style>
 </head>
 <body>
@@ -168,8 +186,12 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 <div id="learn" class="screen on">
   <div class="pad">
     <div class="row">
-      <span class="streak-chip" id="streak-chip">🔥 <span id="streak-n">0</span></span>
+      <div class="brand-row">
+        <div class="brand-mark"><svg viewBox="0 0 100 100"><ellipse cx="38" cy="68" rx="15" ry="11"/><rect x="48" y="20" width="8" height="50" rx="4"/><path d="M48 20 q24 5 24 22 q-9 -11 -24 -9 z"/></svg></div>
+        <span class="brand-name">tonic</span>
+      </div>
       <div class="grow"></div>
+      <span class="streak-chip" id="streak-chip">🔥 <span id="streak-n">0</span></span>
       <span class="today-chip" id="today-chip">0/1 today</span>
     </div>
     <div class="hero" id="hero">
@@ -179,6 +201,7 @@ input[type=range]{width:100%;accent-color:var(--blue)}
       <div class="time" id="hero-time">About 3 minutes</div>
       <button class="btn btn-big" id="hero-go">CONTINUE</button>
     </div>
+    <button class="btn btn-block" id="kmap-open">🗺️ Key map · every chord in every key</button>
     <div id="unit-list" style="display:flex;flex-direction:column;gap:9px"></div>
   </div>
 </div>
@@ -238,6 +261,23 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 </div>
 
 <!-- ============ LESSON RUNTIME ============ -->
+<div id="kmap" class="screen">
+  <div class="les-head">
+    <button class="x-btn" id="kmap-x"><svg viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg></button>
+    <h2 style="flex:1">Key map</h2>
+  </div>
+  <div class="pad" style="padding-top:4px">
+    <div class="small muted" style="text-align:center">Every key has the same seats with the same qualities. Home is always 1. Tap a seat to hear it after home.</div>
+    <div class="mode-tog">
+      <button class="btn btn-sm on" id="km-maj">Major map</button>
+      <button class="btn btn-sm" id="km-min">Minor map</button>
+    </div>
+    <div class="key-grid" id="km-keys"></div>
+    <div id="km-seats" style="display:flex;flex-direction:column;gap:8px"></div>
+    <div class="tiny muted" style="text-align:center" id="km-note"></div>
+  </div>
+</div>
+
 <div id="lesson" class="screen">
   <div class="les-head">
     <button class="x-btn" id="les-x"><svg viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
@@ -287,6 +327,12 @@ var ST;
 try{ST=JSON.parse(localStorage.getItem('tonic_v3')||'{}');}catch(e){ST={};}
 if(ST.cur==null)ST.cur=0;
 if(!ST.doneL)ST.doneL={};
+if(ST.pathV!==2){
+  var _n=Object.keys(ST.doneL).length;
+  ST.doneL={};
+  for(var _i=0;_i<_n;_i++)ST.doneL[_i]=1;
+  ST.pathV=2;
+}
 if(!ST.streak)ST.streak={count:0,longest:0,last:''};
 if(!ST.skills)ST.skills={};
 if(!ST.mistakes)ST.mistakes=[];
@@ -340,7 +386,16 @@ var GLOSS={
   'cadence':'A short chord sequence, like 1 4 5 1, that establishes where home is so your ear knows the key.',
   'resolve':'When tension releases by returning to the home chord. The 5 to 1 move is the strongest resolution in music.',
   'interval':'The distance between two notes. On guitar, one fret equals one semitone, so a distance of 7 frets up one string is a perfect fifth.',
-  'progression':'A repeating sequence of chords, the harmonic loop a song is built on.'
+  'progression':'A repeating sequence of chords, the harmonic loop a song is built on.',
+  'minor key':'A key whose home chord is minor. Home is written 1m, and everything is still counted from home. The common seats are 1m, 3, 4m, 5, 6 and 7.',
+  '1m':'The home chord of a minor key. Dark, but still completely at rest. In A minor, the 1m chord is Am.',
+  '2m':'The minor chord one step above home in a major key. It loves to set up the 5. In G, the 2m is Am.',
+  '3m':'The minor chord on the third step of a major key, the rarest of the three minors. In G, the 3m is Bm.',
+  'sus':'A chord that swaps its middle note for a neighbor, so it is neither major nor minor. It hangs in the air until it resolves.',
+  'dominant 7':'A major chord with one extra note that makes it lean forward. Written 7, like G7. The 5 chord of a key loves this color.',
+  'major 7':'A major chord with a soft added note that floats instead of pulling. Written maj7, like Cmaj7.',
+  'minor 7':'A minor chord with the edge sanded off, smoother and jazzier. Written m7, like Am7.',
+  'diminished':'The rarest chord quality, tense and unstable, built entirely of small gaps. It almost always wants to move immediately.'
 };
 function termify(text){
   var keys=Object.keys(GLOSS).sort(function(a,b){return b.length-a.length;});
@@ -518,11 +573,27 @@ var VOIC={
   'C':[48,52,55,60,64],'D':[50,57,62,66],'E':[40,47,52,56,59,64],'F':[41,48,53,57,60,65],
   'G':[43,47,50,55,59,67],'A':[45,52,57,61,64],'Bb':[46,53,58,62,65],'B':[47,54,59,63,66],
   'Am':[45,52,57,60,64],'Bm':[47,54,59,62,66],'C#m':[49,56,61,64,68],'Dm':[50,57,62,65],
-  'Em':[40,47,52,55,59,64],'F#m':[42,49,54,57,61,66],'Gm':[43,50,55,58,62,67]
+  'Em':[40,47,52,55,59,64],'F#m':[42,49,54,57,61,66],'Gm':[43,50,55,58,62,67],'G#m':[44,51,56,59,63,68]
 };
+var CVOIC={
+  'Asus4':[45,52,57,62,64],'Asus2':[45,52,57,59,64],'A7':[45,52,55,61,64],'Amaj7':[45,52,56,61,64],'Am7':[45,52,55,60,64],
+  'Dsus4':[50,57,62,67],'Dsus2':[50,57,62,64],'D7':[50,57,60,66],'Dmaj7':[50,57,61,66],'Dm7':[50,57,60,65],
+  'Esus4':[40,47,52,57,59,64],'E7':[40,47,50,56,59,64],'Emaj7':[40,47,51,56,59],'Em7':[40,47,52,55,62,64],
+  'G7':[43,47,50,55,59,65],'Gmaj7':[43,47,50,55,59,66],'Gsus4':[43,48,50,55,60,67],
+  'C7':[48,55,58,64,67],'Cmaj7':[48,52,55,59,64],'Csus4':[48,53,55,60,65],
+  'B7':[47,51,57,59,66],'Fmaj7':[41,48,53,57,60,64],
+  'Bdim':[47,53,59,62],'Ddim':[50,56,62,65],'Adim':[45,51,57,60],
+  'A5':[45,52,57],'E5':[40,47,52],'G5':[43,50,55]
+};
+function strumMidis(ctx,arr,opt){
+  opt=opt||{};
+  arr.forEach(function(m,i){
+    note(ctx,m,{delay:(opt.delay||0)+i*0.022,dur:opt.dur||1.5,vel:(opt.vel||0.42)*(1-i*0.03)});
+  });
+}
 function strum(ctx,name,opt){
   opt=opt||{};
-  var v=VOIC[name];
+  var v=VOIC[name]||CVOIC[name];
   if(!v)return;
   v.forEach(function(m,i){
     note(ctx,m,{delay:(opt.delay||0)+i*0.022,dur:opt.dur||1.5,vel:(opt.vel||0.42)*(1-i*0.03)});
@@ -530,13 +601,28 @@ function strum(ctx,name,opt){
 }
 /* music data */
 var KEYS=[{n:'C',pc:0},{n:'G',pc:7},{n:'D',pc:2},{n:'A',pc:9},{n:'E',pc:4},{n:'F',pc:5}];
+var MKEYS=[{n:'Am',pc:9,disp:'A minor'},{n:'Em',pc:4,disp:'E minor'},{n:'Dm',pc:2,disp:'D minor'}];
 var PCN=['C','C#','D','Eb','E','F','F#','G','G#','A','Bb','B'];
-var NUMS={'1':{off:0,m:false},'4':{off:5,m:false},'5':{off:7,m:false},'6m':{off:9,m:true}};
+var NUMS={'1':{off:0,m:false},'2m':{off:2,m:true},'3m':{off:4,m:true},'4':{off:5,m:false},'5':{off:7,m:false},'6m':{off:9,m:true}};
+var MNUMS={'1m':{off:0,m:true},'3':{off:3,m:false},'4m':{off:5,m:true},'5':{off:7,m:false},'5m':{off:7,m:true},'6':{off:8,m:false},'7':{off:10,m:false}};
 function numChord(keyN,num){
   var k=null;KEYS.forEach(function(x){if(x.n===keyN)k=x;});
   var d=NUMS[num];
   return PCN[(k.pc+d.off)%12]+(d.m?'m':'');
 }
+function mNumChord(keyN,num){
+  var k=null;MKEYS.forEach(function(x){if(x.n===keyN)k=x;});
+  var d=MNUMS[num];
+  return PCN[(k.pc+d.off)%12]+(d.m?'m':'');
+}
+function chordOf(mode,keyN,num){return mode==='min'?mNumChord(keyN,num):numChord(keyN,num);}
+function keyDisp(mode,keyN){
+  if(mode!=='min')return keyN;
+  var d=keyN;MKEYS.forEach(function(x){if(x.n===keyN)d=x.disp;});
+  return d;
+}
+function homeNum(mode){return mode==='min'?'1m':'1';}
+function cadSeq(mode){return mode==='min'?['1m','4m','5','1m']:['1','4','5','1'];}
 function chordSeq(ctx,names,opt){
   opt=opt||{};
   var step=opt.step||0.8,dur=opt.dur||step*0.92;
@@ -548,18 +634,24 @@ function cadence(ctx,keyN,opt){
   return chordSeq(ctx,['1','4','5','1'].map(function(x){return numChord(keyN,x);}),{delay:opt.delay||0,step:0.55,vel:0.36});
 }
 /* context question audio: cadence, pause, 1 -> target */
-function playContext(keyN,targetNum){
+function cadenceMode(ctx,mode,keyN,opt){
+  opt=opt||{};
+  return chordSeq(ctx,cadSeq(mode).map(function(x){return chordOf(mode,keyN,x);}),{delay:opt.delay||0,step:0.55,vel:0.36});
+}
+function playContext(keyN,targetNum,mode){
+  mode=mode||'maj';
   cut();
   run(function(ctx){
-    var at=cadence(ctx,keyN);
+    var at=cadenceMode(ctx,mode,keyN);
     at+=0.5;
-    chordSeq(ctx,[numChord(keyN,'1'),numChord(keyN,targetNum)],{delay:at,step:1.0,vel:0.46});
+    chordSeq(ctx,[chordOf(mode,keyN,homeNum(mode)),chordOf(mode,keyN,targetNum)],{delay:at,step:1.0,vel:0.46});
   });
 }
-function playResolve(keyN,fromNum){
+function playResolve(keyN,fromNum,mode){
+  mode=mode||'maj';
   cut();
   run(function(ctx){
-    chordSeq(ctx,[numChord(keyN,fromNum),numChord(keyN,'1')],{step:0.95,vel:0.46,dur:1.4});
+    chordSeq(ctx,[chordOf(mode,keyN,fromNum),chordOf(mode,keyN,homeNum(mode))],{step:0.95,vel:0.46,dur:1.4});
   });
 }
 /* progression loop; returns chord change offsets in seconds */
@@ -568,15 +660,16 @@ function playLoop(keyN,nums,opt){
   var bpm=opt.bpm||90,beats=opt.beats||4;
   var step=(60/bpm)*beats;
   var times=[];
+  var mode=opt.mode||'maj';
   cut();
   run(function(ctx){
-    var at=opt.cadence!==false?cadence(ctx,keyN)+0.6:0;
+    var at=opt.cadence!==false?cadenceMode(ctx,mode,keyN)+0.6:0;
     nums.forEach(function(nu,i){
       var t=at+i*step;
       times.push(t);
-      strum(ctx,numChord(keyN,nu),{delay:t,dur:Math.min(step*0.95,2.2),vel:0.44});
+      strum(ctx,chordOf(mode,keyN,nu),{delay:t,dur:Math.min(step*0.95,2.2),vel:0.44});
       if(beats>=4){
-        strum(ctx,numChord(keyN,nu),{delay:t+step/2,dur:step*0.45,vel:0.22});
+        strum(ctx,chordOf(mode,keyN,nu),{delay:t+step/2,dur:step*0.45,vel:0.22});
       }
     });
   });
@@ -663,7 +756,7 @@ function renderFret(el,keyPc,emph){
 }
 
 /* ================= GENERATORS ================= */
-var LAST_CHART=null;
+var LAST_CHART=null,LAST_MODE='maj';
 function randKey(){return pick(KEYS).n;}
 function randChart(n,opts){
   opts=opts||{};
@@ -676,7 +769,7 @@ function randChart(n,opts){
       do{c=pick(pool);}while(!opts.repeats&&c===prev);
       seq.push(c);prev=c;
     }
-    if(seq.indexOf('1')<0)continue;
+    if(seq.indexOf(opts.home||'1')<0)continue;
     if(opts.unfamiliar&&famous.indexOf(seq.join(','))>=0)continue;
     if(opts.needRepeat){
       var hasRep=false;
@@ -703,75 +796,81 @@ function genQ(spec){
   if(g==='tap')return genTap(spec);
   if(g==='names')return genNames(spec);
   if(g==='mel')return genMel(spec);
+  if(g==='col')return genCol(spec);
+  if(g==='rel')return genRel(spec);
   return genNum({g:'num',pool:['4','5']});
 }
 
 /* --- Exercise 1: Find home --- */
 function genHome(spec){
+  var mode=spec.mode||'maj';
   var kind=spec.k==='mix'?pick(['resolved','which','returns']):spec.k;
-  var keyN=randKey();
+  var keyN=mode==='min'?pick(MKEYS).n:randKey();
+  var NC=function(n){return chordOf(mode,keyN,n);};
+  var HOME=homeNum(mode);
+  var AWAY=mode==='min'?['6','7']:['4','5'];
+  var POOL=mode==='min'?['1m','4m','5','6','7']:['1','4','5'];
   if(kind==='resolved'){
     var resolvedFirst=Math.random()<0.5;
-    var shape=pick([['1','4','5'],['1','5','4']]);
-    var body=shape.map(function(x){return numChord(keyN,x);});
-    var resolved=body.concat([numChord(keyN,'1')]);
-    var unresEnd=shape[2]==='5'?'4':'5';
-    var unresolved=body.concat([numChord(keyN,unresEnd)]);
+    var shape=mode==='min'?pick([['1m','6','7'],['1m','4m','5']]):pick([['1','4','5'],['1','5','4']]);
+    var body=shape.map(NC);
+    var resolved=body.concat([NC(HOME)]);
+    var unresEnd=shape[2]===AWAY[1]?AWAY[0]:AWAY[1];
+    var unresolved=body.concat([NC(unresEnd)]);
     var A=resolvedFirst?resolved:unresolved;
     var B=resolvedFirst?unresolved:resolved;
     var playA=function(){cut();run(function(ctx){chordSeq(ctx,A,{step:0.72});});};
     var playB=function(){cut();run(function(ctx){chordSeq(ctx,B,{step:0.72});});};
     return {
-      skill:'home',spec:spec,model:'choices',
+      skill:spec.skill||'home',spec:spec,model:'choices',
       prompt:'Listen to both endings. Which one sounds finished?',
-      play:function(){run(function(ctx){var at=chordSeq(ctx,A,{step:0.72});chordSeq(ctx,B,{delay:at+1.0,step:0.72});});},
+      play:function(){cut();run(function(ctx){var at=chordSeq(ctx,A,{step:0.72});chordSeq(ctx,B,{delay:at+1.0,step:0.72});});},
       playLabel:'hear A, then B',
       choices:[{key:'A',label:'Ending A',play:playA},{key:'B',label:'Ending B',play:playB}],
       correct:resolvedFirst?'A':'B',
-      fbOk:{text:'Right. It landed back on the home chord, so it feels resolved.',play:playResolve.bind(null,keyN,'5')},
-      fbBad:{text:'The finished one lands on home, the 1 chord. Compare them again.',
+      fbOk:{text:'Right. It landed back on the home chord, so it feels resolved.'},
+      fbBad:{text:'The finished one lands on home, the '+HOME+' chord. Compare them again.',
         btns:[{label:'Hear A',fn:playA},{label:'Hear B',fn:playB}]},
-      guidedText:'This progression ends back on 1, the home chord. Hear how it feels finished.'
+      guidedText:'This progression ends back on '+HOME+', the home chord. Hear how it feels finished.'
     };
   }
   if(kind==='which'){
-    var other=pick(['4','5']);
+    var other=pick(AWAY);
     var homeFirst=Math.random()<0.5;
-    var cA=homeFirst?'1':other,cB=homeFirst?other:'1';
-    var pA=function(){cut();run(function(ctx){strum(ctx,numChord(keyN,cA),{dur:1.6,vel:0.46});});};
-    var pB=function(){cut();run(function(ctx){strum(ctx,numChord(keyN,cB),{dur:1.6,vel:0.46});});};
+    var cA=homeFirst?HOME:other,cB=homeFirst?other:HOME;
+    var pA=function(){cut();run(function(ctx){strum(ctx,NC(cA),{dur:1.6,vel:0.46});});};
+    var pB=function(){cut();run(function(ctx){strum(ctx,NC(cB),{dur:1.6,vel:0.46});});};
     return {
-      skill:'home',spec:spec,model:'choices',
+      skill:spec.skill||'home',spec:spec,model:'choices',
       prompt:'Which chord sounds like home?',
-      play:function(){cut();run(function(ctx){var at=cadence(ctx,keyN)+0.6;strum(ctx,numChord(keyN,cA),{delay:at,dur:1.3,vel:0.46});strum(ctx,numChord(keyN,cB),{delay:at+1.5,dur:1.3,vel:0.46});});},
+      play:function(){cut();run(function(ctx){var at=cadenceMode(ctx,mode,keyN)+0.6;strum(ctx,NC(cA),{delay:at,dur:1.3,vel:0.46});strum(ctx,NC(cB),{delay:at+1.5,dur:1.3,vel:0.46});});},
       playLabel:'the key, then chord A and chord B',
       choices:[{key:'A',label:'Chord A',play:pA},{key:'B',label:'Chord B',play:pB}],
       correct:homeFirst?'A':'B',
-      fbOk:{text:'Yes. That chord is 1, the tonic. Everything else pulls toward it.'},
+      fbOk:{text:'Yes. That chord is '+HOME+', the tonic. Everything else pulls toward it.'},
       fbBad:{text:'Home is the chord that feels settled, with no pull anywhere else.',
         btns:[{label:'Hear A',fn:pA},{label:'Hear B',fn:pB}]},
-      guidedText:'One of these two chords is 1, home. It is the one that feels at rest.'
+      guidedText:'One of these two chords is '+HOME+', home. It is the one that feels at rest.'
     };
   }
-  /* returns / hold: does it end home */
   var endsHome=Math.random()<0.5;
-  var mid=randChart(spec.k==='hold'?4:3,{pool:['1','4','5'],repeats:false});
+  var mid=randChart(spec.k==='hold'?4:3,{pool:POOL,repeats:false,home:HOME});
   var lastMid=mid[mid.length-1];
-  var awayEnd=lastMid==='5'?'4':lastMid==='4'?'5':pick(['4','5']);
-  var seq=mid.concat([endsHome?(lastMid==='1'?pick(['4','5']):'1'):awayEnd]);
-  if(seq[seq.length-1]==='1'&&!endsHome)endsHome=true;
-  var names=seq.map(function(x){return numChord(keyN,x);});
-  var pl=function(){cut();run(function(ctx){var at=cadence(ctx,keyN)+0.5;chordSeq(ctx,names,{delay:at,step:0.72});});};
+  var awayEnd=lastMid===AWAY[1]?AWAY[0]:lastMid===AWAY[0]?AWAY[1]:pick(AWAY);
+  var seq=mid.concat([endsHome?(lastMid===HOME?pick(AWAY):HOME):awayEnd]);
+  if(seq[seq.length-1]===HOME&&!endsHome)endsHome=true;
+  var names=seq.map(NC);
+  var pl=function(){cut();run(function(ctx){var at=cadenceMode(ctx,mode,keyN)+0.5;chordSeq(ctx,names,{delay:at,step:0.72});});};
   return {
-    skill:'home',spec:spec,model:'choices',
-    prompt:spec.k==='hold'?'Keep hold of 1 while the chords move. Does it end back home?':'Does this progression return to 1 at the end?',
+    skill:spec.skill||'home',spec:spec,model:'choices',
+    prompt:spec.k==='hold'?'Keep hold of '+HOME+' while the chords move. Does it end back home?':'Does this progression return to '+HOME+' at the end?',
     play:pl,playLabel:'the key first, then the progression',
-    choices:mkChoices([{key:'y',label:'Yes, it ends on 1'},{key:'n',label:'No, it ends somewhere else'}]),
+    choices:mkChoices([{key:'y',label:'Yes, it ends on '+HOME},{key:'n',label:'No, it ends somewhere else'}]),
     correct:endsHome?'y':'n',
     fbOk:{text:endsHome?'Right. That last chord was home.':'Right. It stopped away from home, so it feels suspended.'},
-    fbBad:{text:endsHome?'It did come home. Listen for the feeling of rest on the last chord.':'It never resolved. The last chord was still pulling toward 1.',
+    fbBad:{text:endsHome?'It did come home. Listen for the feeling of rest on the last chord.':'It never resolved. The last chord was still pulling toward '+HOME+'.',
       btns:[{label:'Hear it again',fn:pl}]},
-    guidedText:'Hold the sound of 1 in your head while the other chords move around it.'
+    guidedText:'Hold the sound of '+HOME+' in your head while the other chords move around it.'
   };
 }
 
@@ -819,26 +918,29 @@ function genMM(spec){
 }
 
 /* --- Exercise 3: Identify the number --- */
-var NUM_FEEL={'1':'home, at rest','4':'movement away from home','5':'tension pulling toward home','6m':'the minor heart of the key'};
+var NUM_FEEL={'1':'home, at rest','2m':'the soft setup','3m':'the dreamer','4':'movement away from home','5':'tension pulling toward home','6m':'the minor heart of the key',
+'1m':'home, dark and settled','3':'the bright cousin of home','4m':'movement away, darker','5m':'the minor five, softer pull','6':'the bright lift','7':'the bright doorway back home'};
 function genNum(spec){
+  var mode=spec.mode||'maj';
   var pool=spec.pool||['4','5'];
-  var keyN=randKey();
+  var keyN=mode==='min'?pick(MKEYS).n:randKey();
+  var HOME=homeNum(mode);
   var target=pick(pool);
-  var pl=function(){playContext(keyN,target);};
+  var pl=function(){playContext(keyN,target,mode);};
   return {
-    skill:'num',spec:spec,model:'choices',
+    skill:spec.skill||(mode==='min'?'minor':'num'),spec:spec,model:'choices',
     prompt:'Where did the progression move?',
-    play:pl,playLabel:'the key, then 1 and the mystery chord',
+    play:pl,playLabel:'the key, then '+HOME+' and the mystery chord',
     choices:pool.map(function(n){return {key:n,label:n,sub:NUM_FEEL[n]};}),
     correct:target,
-    fbOk:target==='1'
-      ?{text:'Correct. It stayed home on 1. No pull anywhere.'}
-      :{text:'Correct. That was '+target+'. Hear how it settles back to 1.',play:function(){playResolve(keyN,target);}},
-    fbBad:{text:'That was '+target+', not the one you picked. Compare them from 1.',
+    fbOk:target===HOME
+      ?{text:'Correct. It stayed home on '+HOME+'. No pull anywhere.'}
+      :{text:'Correct. That was '+target+'. Hear how it settles back to '+HOME+'.',play:function(){playResolve(keyN,target,mode);}},
+    fbBad:{text:'That was '+target+', not the one you picked. Compare them from '+HOME+'.',
       btns:[target].concat(pool.filter(function(n){return n!==target;})).slice(0,3).map(function(n){
-        return {label:'Hear '+n,fn:function(){cut();run(function(ctx){chordSeq(ctx,[numChord(keyN,'1'),numChord(keyN,n)],{step:0.95,vel:0.46});});}};
+        return {label:'Hear '+n,fn:function(){cut();run(function(ctx){chordSeq(ctx,[chordOf(mode,keyN,HOME),chordOf(mode,keyN,n)],{step:0.95,vel:0.46});});}};
       })},
-    guidedText:'After the key is set, this move goes from 1 to '+target+'. '+NUM_FEEL[target].charAt(0).toUpperCase()+NUM_FEEL[target].slice(1)+'.'
+    guidedText:'After the key is set, this move goes from '+HOME+' to '+target+'. '+NUM_FEEL[target].charAt(0).toUpperCase()+NUM_FEEL[target].slice(1)+'.'
   };
 }
 
@@ -864,35 +966,40 @@ function genPair(spec){
 
 /* --- seq: which order was that --- */
 function genSeq(spec){
+  var mode=spec.mode||'maj';
   var orders=spec.orders;
   var ci=Math.floor(Math.random()*orders.length);
-  var keyN=randKey();
-  var pl=function(){playLoop(keyN,orders[ci],{bpm:96,beats:2});};
+  var keyN=mode==='min'?pick(MKEYS).n:randKey();
+  var pl=function(){playLoop(keyN,orders[ci],{bpm:96,beats:2,mode:mode});};
   return {
-    skill:spec.skill||'num',spec:spec,model:'choices',
+    skill:spec.skill||(mode==='min'?'minor':'num'),spec:spec,model:'choices',
     prompt:'Which order did the chords come in?',
     play:pl,playLabel:'the key first, then the loop',
     choices:orders.map(function(o,i){return {key:String(i),label:seqLabel(o)};}),
     correct:String(ci),
     fbOk:{text:'Correct. That was '+seqLabel(orders[ci])+'.'},
-    fbBad:{text:'It was '+seqLabel(orders[ci])+'. Hear it once more and follow each move from 1.',
+    fbBad:{text:'It was '+seqLabel(orders[ci])+'. Hear it once more and follow each move from '+homeNum(mode)+'.',
       btns:[{label:'Hear it again',fn:pl}]},
     guidedText:'This loop is '+seqLabel(orders[ci])+'. Follow it chord by chord.'
   };
 }
+
 /* --- Exercise 4: Chart the loop (tiles) --- */
 function genChart(spec){
+  var mode=spec.mode||'maj';
   var n=spec.n||4;
-  var keyN=randKey();
-  var seq=randChart(n,{pool:spec.pool||['1','4','5','6m'],unfamiliar:!!spec.unfamiliar,repeats:!!spec.repeats,needRepeat:!!spec.needRepeat});
+  var keyN=mode==='min'?pick(MKEYS).n:randKey();
+  var pool=spec.pool||(mode==='min'?['1m','4m','5','6','7']:['1','4','5','6m']);
+  var seq=randChart(n,{pool:pool,unfamiliar:!!spec.unfamiliar,repeats:!!spec.repeats,needRepeat:!!spec.needRepeat,home:homeNum(mode)});
   LAST_CHART=seq.slice();
+  LAST_MODE=mode;
   var bpm=spec.bpm||92,beats=spec.beats||2;
-  var pl=function(){playLoop(keyN,seq,{bpm:bpm,beats:beats});};
+  var pl=function(){playLoop(keyN,seq,{bpm:bpm,beats:beats,mode:mode});};
   return {
-    skill:'prog',spec:spec,model:'tiles',
+    skill:spec.skill||(mode==='min'?'minor':'prog'),spec:spec,model:'tiles',
     prompt:'Chart the loop. Arrange the numbers you hear.',
     play:pl,playLabel:'the key first, then the loop',
-    tiles:{palette:spec.pool||['1','4','5','6m'],n:n},
+    tiles:{palette:pool,n:n},
     correct:seq,
     isChart:true,
     fbOk:{text:'Charted. '+seqLabel(seq)+'. You could now play this in any key.'},
@@ -904,18 +1011,21 @@ function genChart(spec){
 
 /* --- Exercise 5: Fill the missing chord --- */
 function genFill(spec){
-  var keyN=randKey();
-  var seq=randChart(4,{pool:['1','4','5','6m']});
+  var mode=spec.mode||'maj';
+  var keyN=mode==='min'?pick(MKEYS).n:randKey();
+  var pool=spec.pool||(mode==='min'?['1m','4m','5','6','7']:['1','4','5','6m']);
+  var seq=randChart(4,{pool:pool,home:homeNum(mode)});
   LAST_CHART=seq.slice();
+  LAST_MODE=mode;
   var hide=rnd(1,3);
   var shown=seq.map(function(x,i){return i===hide?'?':x;});
-  var pl=function(){playLoop(keyN,seq,{bpm:92,beats:2});};
+  var pl=function(){playLoop(keyN,seq,{bpm:92,beats:2,mode:mode});};
   return {
-    skill:'prog',spec:spec,model:'choices',
+    skill:spec.skill||(mode==='min'?'minor':'prog'),spec:spec,model:'choices',
     prompt:'Fill in the missing chord.',
-    chart:shown.join(' → '),
+    chart:shown.join(' \u2192 '),
     play:pl,playLabel:'the key first, then the full loop',
-    choices:['1','4','5','6m'].map(function(x){return {key:x,label:x,sub:NUM_FEEL[x]};}),
+    choices:pool.map(function(x){return {key:x,label:x,sub:NUM_FEEL[x]};}),
     correct:seq[hide],
     fbOk:{text:'Correct. The full chart is '+seqLabel(seq)+'.'},
     fbBad:{text:'It was '+seq[hide]+'. The full chart is '+seqLabel(seq)+'.',
@@ -926,8 +1036,10 @@ function genFill(spec){
 
 /* --- tap when chords change --- */
 function genTap(spec){
-  var keyN=randKey();
-  var seq=randChart(4,{pool:['1','4','5','6m'],repeats:true});
+  var mode=spec.mode||'maj';
+  var keyN=mode==='min'?pick(MKEYS).n:randKey();
+  var pool=mode==='min'?['1m','4m','5','6','7']:['1','4','5','6m'];
+  var seq=randChart(4,{pool:pool,repeats:true,home:homeNum(mode)});
   var bpm=88,beats=4,step=(60/bpm)*beats;
   var changes=[];
   for(var i=1;i<seq.length;i++)if(seq[i]!==seq[i-1])changes.push(i*step);
@@ -936,18 +1048,18 @@ function genTap(spec){
     startMs=performance.now();
     var cadLen=4*0.55+0.6;
     startMs+=cadLen*1000;
-    playLoop(keyN,seq,{bpm:bpm,beats:beats});
+    playLoop(keyN,seq,{bpm:bpm,beats:beats,mode:mode});
   };
   return {
-    skill:'prog',spec:spec,model:'tap',
+    skill:spec.skill||(mode==='min'?'minor':'prog'),spec:spec,model:'tap',
     prompt:'Tap the button each time the chord changes.',
     play:pl,playLabel:'the key first, then a slow loop',
     tap:{changes:changes,getStart:function(){return startMs;},total:seq.length*step},
     correct:changes.length,
-    fbOk:{text:'Good ears. '+changes.length+' changes, right on time.'},
-    fbBad:{text:'There were '+changes.length+' chord changes. Listen for the moment the harmony shifts.',
+    fbOk:{text:'Good ears. '+changes.length+' change'+(changes.length===1?'':'s')+', right on time.'},
+    fbBad:{text:'There '+(changes.length===1?'was':'were')+' '+changes.length+' chord change'+(changes.length===1?'':'s')+'. Listen for the moment the harmony shifts.',
       btns:[{label:'Hear it again',fn:pl}]},
-    guidedText:'This loop changes chords '+changes.length+' times after it starts. Feel each shift.'
+    guidedText:'This loop changes chords '+changes.length+' time'+(changes.length===1?'':'s')+' after it starts. Feel each shift.'
   };
 }
 
@@ -970,39 +1082,246 @@ function seqVariants(seq,pool){
   return out;
 }
 function genNames(spec){
+  var mode=spec.mode||'maj';
   var dir=spec.dir==='mix'?pick(['fwd','rev']):(spec.dir||'fwd');
-  var keyN=spec.key||randKey();
-  var seq=(spec.useLast&&LAST_CHART)?LAST_CHART.slice():randChart(4,{pool:['1','4','5','6m'],unfamiliar:true});
-  var chordNames=seq.map(function(x){return numChord(keyN,x);});
-  var pl=function(){playLoop(keyN,seq,{bpm:96,beats:2,cadence:false});};
+  var keyN=spec.key||(mode==='min'?pick(MKEYS).n:randKey());
+  var pool=spec.pool||(mode==='min'?['1m','4m','5','6','7']:['1','4','5','6m']);
+  var seq=(spec.useLast&&LAST_CHART&&LAST_MODE===mode)?LAST_CHART.slice():randChart(4,{pool:pool,unfamiliar:mode!=='min',home:homeNum(mode)});
+  var chordNames=seq.map(function(x){return chordOf(mode,keyN,x);});
+  var disp=keyDisp(mode,keyN);
+  var pl=function(){playLoop(keyN,seq,{bpm:96,beats:2,cadence:false,mode:mode});};
   if(dir==='fwd'){
-    var opts=seqVariants(seq,['1','4','5','6m']).map(function(s){
-      return s.split(' ').map(function(x){return numChord(keyN,x);}).join(' ');
+    var opts=seqVariants(seq,pool).map(function(s){
+      return s.split(' ').map(function(x){return chordOf(mode,keyN,x);}).join(' ');
     });
     var correct=chordNames.join(' ');
     return {
-      skill:'names',spec:spec,model:'choices',
-      prompt:'Key of '+keyN+'. The chart is '+seqLabel(seq)+'. Which chords do you play?',
+      skill:spec.skill||(mode==='min'?'minor':'names'),spec:spec,model:'choices',
+      prompt:'Key of '+disp+'. The chart is '+seqLabel(seq)+'. Which chords do you play?',
       play:pl,playLabel:'hear the loop',
       choices:shuffle(opts).map(function(o){return {key:o,label:o};}),
       correct:correct,
-      fbOk:{text:'Right. In '+keyN+', '+seqLabel(seq)+' is '+correct+'. Same numbers, any key.'},
-      fbBad:{text:'In '+keyN+' the answer is '+correct+'. Count each number up from '+keyN+'.',
+      fbOk:{text:'Right. In '+disp+', '+seqLabel(seq)+' is '+correct+'. Same numbers, any key.'},
+      fbBad:{text:'In '+disp+' the answer is '+correct+'. Count each number up from home.',
         btns:[{label:'Hear it',fn:pl}]},
-      guidedText:'In the key of '+keyN+', the chart '+seqLabel(seq)+' becomes '+correct+'.'
+      guidedText:'In the key of '+disp+', the chart '+seqLabel(seq)+' becomes '+correct+'.'
     };
   }
-  var opts2=seqVariants(seq,['1','4','5','6m']);
+  var opts2=seqVariants(seq,pool);
   return {
-    skill:'names',spec:spec,model:'choices',
-    prompt:'Key of '+keyN+'. You play '+chordNames.join(' ')+'. What is the chart?',
+    skill:spec.skill||(mode==='min'?'minor':'names'),spec:spec,model:'choices',
+    prompt:'Key of '+disp+'. You play '+chordNames.join(' ')+'. What is the chart?',
     play:pl,playLabel:'hear the loop',
     choices:shuffle(opts2).map(function(o){return {key:o,label:o};}),
     correct:seq.join(' '),
-    fbOk:{text:'Right. '+chordNames.join(' ')+' in '+keyN+' is '+seqLabel(seq)+'.'},
-    fbBad:{text:'It charts as '+seqLabel(seq)+'. Measure each chord against '+keyN+', the 1.',
+    fbOk:{text:'Right. '+chordNames.join(' ')+' in '+disp+' is '+seqLabel(seq)+'.'},
+    fbBad:{text:'It charts as '+seqLabel(seq)+'. Measure each chord against home.',
       btns:[{label:'Hear it',fn:pl}]},
-    guidedText:'In '+keyN+', the chords '+chordNames.join(' ')+' chart as '+seqLabel(seq)+'.'
+    guidedText:'In '+disp+', the chords '+chordNames.join(' ')+' chart as '+seqLabel(seq)+'.'
+  };
+}
+
+/* --- relative-major footnote: same loop, two charts --- */
+var REL_PAIRS=[
+  {min:['1m','6','7'],maj:['6m','4','5']},
+  {min:['1m','4m','7'],maj:['6m','2m','5']},
+  {min:['1m','3','6'],maj:['6m','1','4']},
+  {min:['1m','6','3','7'],maj:['6m','4','1','5']}
+];
+function genRel(spec){
+  var pair=pick(REL_PAIRS);
+  var mk=pick(MKEYS);
+  var majKeyN=PCN[(mk.pc+3)%12];
+  var toMaj=Math.random()<0.5;
+  var qSeq=toMaj?pair.min:pair.maj;
+  var ansSeq=toMaj?pair.maj:pair.min;
+  var wrongs=REL_PAIRS.filter(function(p){return p!==pair&&p.min.length===pair.min.length;});
+  var opts=shuffle([ansSeq.join(' ')].concat(shuffle(wrongs).slice(0,2).map(function(p){return (toMaj?p.maj:p.min).join(' ');})));
+  var pl=function(){playLoop(mk.n,pair.min,{bpm:96,beats:2,mode:'min'});};
+  return {
+    skill:'minor',spec:spec,model:'choices',
+    prompt:toMaj
+      ?'In '+mk.disp+' this loop charts as '+pair.min.join(' ')+'. Some pros chart it inside '+majKeyN+' major instead. What would they write?'
+      :'Inside '+majKeyN+' major a pro chart says '+pair.maj.join(' ')+'. As a '+mk.disp+' chart, what is it?',
+    play:pl,playLabel:'hear the loop',
+    choices:opts.map(function(o){return {key:o,label:o};}),
+    correct:ansSeq.join(' '),
+    fbOk:{text:'Right. Same music, two spellings. You never need the shortcut, but now you can read it.'},
+    fbBad:{text:'It maps seat for seat: home 1m sits on the 6m of the relative major. The answer is '+ansSeq.join(' ')+'.',
+      btns:[{label:'Hear it',fn:pl}]},
+    guidedText:'One loop, two charts: '+pair.min.join(' ')+' in '+mk.disp+' is the same music as '+pair.maj.join(' ')+' in '+majKeyN+' major.'
+  };
+}
+
+/* --- Exercise 8: chord colors --- */
+var COL_SETS={
+  sus:[{r:'A',opts:['A','Asus4','Asus2']},{r:'D',opts:['D','Dsus4','Dsus2']},{r:'E',opts:['E','Esus4']},{r:'C',opts:['C','Csus4']},{r:'G',opts:['G','Gsus4']}],
+  dom7:[['A','A7'],['D','D7'],['E','E7'],['G','G7'],['C','C7']],
+  maj7:[['A','Amaj7','A7'],['D','Dmaj7','D7'],['C','Cmaj7','C7'],['G','Gmaj7','G7'],['E','Emaj7','E7']],
+  m7:[['Am','Am7'],['Dm','Dm7'],['Em','Em7']],
+  dim:[['A','Am','Adim'],['D','Dm','Ddim'],['B','Bm','Bdim']]
+};
+var COL_LBL={plain:'Plain major',sus4:'Sus4',sus2:'Sus2',dom7:'Dominant 7',maj7:'Major 7',min:'Minor',m7:'Minor 7',dim:'Diminished'};
+function colChoice(k,sub){return {key:k,label:COL_LBL[k],sub:sub};}
+function playPair(a,b){cut();run(function(ctx){strum(ctx,a,{dur:1.5,vel:0.46});strum(ctx,b,{delay:1.6,dur:1.7,vel:0.46});});}
+function playOne(n){cut();run(function(ctx){strum(ctx,n,{dur:1.8,vel:0.46});strum(ctx,n,{delay:1.5,dur:1.8,vel:0.46});});}
+function genCol(spec){
+  var kind=spec.k==='mix'?pick(['sus','dom7','maj7','m7','mix5']):spec.k;
+  if(kind==='sus'){
+    var set=pick(COL_SETS.sus);
+    var name=pick(set.opts);
+    var which=name===set.r?'plain':(name.indexOf('sus4')>0?'sus4':'sus2');
+    var keys=['plain'].concat(set.opts.length>2?['sus4','sus2']:['sus4']);
+    return {
+      skill:'col',spec:spec,model:'choices',
+      prompt:'Plain, or hanging on a sus?',
+      play:function(){playOne(name);},playLabel:'the chord, twice',
+      choices:keys.map(function(k){return colChoice(k,k==='plain'?'settled':'suspended, wants to land');}),
+      correct:which,
+      fbOk:which==='plain'?{text:'Right, plain major. Settled.'}:{text:'Right, a '+COL_LBL[which]+'. Hear it land.',play:function(){playPair(name,set.r);}},
+      fbBad:{text:'That was '+COL_LBL[which]+'. Compare the hang and the landing.',
+        btns:[{label:'Hear sus',fn:function(){playOne(set.opts[1]);}},{label:'Hear plain',fn:function(){playOne(set.r);}}]},
+      guidedText:'A sus chord swaps its middle note for a neighbor, so it hangs. Hear '+set.r+'sus4 melt into '+set.r+'.'
+    };
+  }
+  if(kind==='dom7'){
+    var p=pick(COL_SETS.dom7);
+    var isSeven=Math.random()<0.5;
+    var nm=isSeven?p[1]:p[0];
+    return {
+      skill:'col',spec:spec,model:'choices',
+      prompt:'Plain major, or a dominant 7?',
+      play:function(){playOne(nm);},playLabel:'the chord, twice',
+      choices:[colChoice('plain','settled'),colChoice('dom7','leaning forward')],
+      correct:isSeven?'dom7':'plain',
+      fbOk:{text:isSeven?'Yes. That extra note makes it lean.':'Yes, plain and settled.'},
+      fbBad:{text:'Compare them on the same root.',
+        btns:[{label:'Hear plain',fn:function(){playOne(p[0]);}},{label:'Hear the 7',fn:function(){playOne(p[1]);}}]},
+      guidedText:'Same root, one added note. '+p[0]+' sits still, '+p[1]+' leans forward.'
+    };
+  }
+  if(kind==='maj7'){
+    var t=pick(COL_SETS.maj7);
+    var three=spec.three;
+    var poolK=three?['plain','maj7','dom7']:['maj7','dom7'];
+    var pickIdx=three?rnd(0,2):rnd(1,2);
+    var nm2=t[pickIdx];
+    var which2=pickIdx===0?'plain':pickIdx===1?'maj7':'dom7';
+    return {
+      skill:'col',spec:spec,model:'choices',
+      prompt:three?'Plain, major 7, or dominant 7?':'Major 7 or dominant 7?',
+      play:function(){playOne(nm2);},playLabel:'the chord, twice',
+      choices:poolK.map(function(k){return colChoice(k,k==='maj7'?'floats':k==='dom7'?'pulls':'settled');}),
+      correct:which2,
+      fbOk:{text:'Right. The '+COL_LBL[which2]+' '+(which2==='maj7'?'floats.':which2==='dom7'?'pulls.':'sits still.')},
+      fbBad:{text:'That was the '+COL_LBL[which2]+'. One floats, one pulls.',
+        btns:[{label:'Hear maj7',fn:function(){playOne(t[1]);}},{label:'Hear dom7',fn:function(){playOne(t[2]);}}]},
+      guidedText:'Same root, opposite moods: '+t[1]+' floats, '+t[2]+' pulls.'
+    };
+  }
+  if(kind==='m7'){
+    var q=pick(COL_SETS.m7);
+    var soft=Math.random()<0.5;
+    var nm3=soft?q[1]:q[0];
+    return {
+      skill:'col',spec:spec,model:'choices',
+      prompt:'Plain minor, or a minor 7?',
+      play:function(){playOne(nm3);},playLabel:'the chord, twice',
+      choices:[colChoice('min','dark, plain'),colChoice('m7','dark, softened')],
+      correct:soft?'m7':'min',
+      fbOk:{text:soft?'Yes. The edge is sanded off.':'Yes, plain minor.'},
+      fbBad:{text:'Compare them on the same root.',
+        btns:[{label:'Hear minor',fn:function(){playOne(q[0]);}},{label:'Hear m7',fn:function(){playOne(q[1]);}}]},
+      guidedText:'Minor with one soft added note. '+q[0]+' is plain, '+q[1]+' is smoother.'
+    };
+  }
+  if(kind==='dim'){
+    var d=pick(COL_SETS.dim);
+    var di=rnd(0,2);
+    var nm4=d[di];
+    var which4=di===0?'plain':di===1?'min':'dim';
+    return {
+      skill:'col',spec:spec,model:'choices',
+      prompt:'Major, minor, or diminished?',
+      play:function(){playOne(nm4);},playLabel:'the chord, twice',
+      choices:[colChoice('plain','bright'),colChoice('min','dark'),colChoice('dim','tense and unstable')],
+      correct:which4,
+      fbOk:{text:'Correct.'},
+      fbBad:{text:'That was '+COL_LBL[which4]+'. The diminished chord is the squeezed, restless one.',
+        btns:[{label:'Hear dim',fn:function(){playOne(d[2]);}},{label:'Hear minor',fn:function(){playOne(d[1]);}}]},
+      guidedText:'Three flavors of the same root. The diminished one cannot sit still. A power chord, by the way, has no middle note at all, so it is neither major nor minor.'
+    };
+  }
+  if(kind==='mix5'){
+    var roots={A:['A','Am','A7','Amaj7','Am7'],D:['D','Dm','D7','Dmaj7','Dm7'],E:['E','Em','E7','Emaj7','Em7']};
+    var rk=pick(['A','D','E']);
+    var list=roots[rk];
+    var qi=rnd(0,4);
+    var whichs=['plain','min','dom7','maj7','m7'];
+    return {
+      skill:'col',spec:spec,model:'choices',
+      prompt:'Name the quality.',
+      play:function(){playOne(list[qi]);},playLabel:'the chord, twice',
+      choices:whichs.map(function(k){return colChoice(k);}),
+      correct:whichs[qi],
+      fbOk:{text:'Correct. '+list[qi]+'.'},
+      fbBad:{text:'That was '+COL_LBL[whichs[qi]]+' ('+list[qi]+').',
+        btns:[{label:'Hear it again',fn:function(){playOne(list[qi]);}}]},
+      guidedText:'Five qualities on one root. Learn the feel of each.'
+    };
+  }
+  if(kind==='ctx'){
+    var cfg=pick([
+      {key:'G',seat:'5',plain:'D',color:'D7',cname:'dom7',prompt:'The 5 chord in this loop: plain, or a dominant 7?'},
+      {key:'C',seat:'5',plain:'G',color:'G7',cname:'dom7',prompt:'The 5 chord in this loop: plain, or a dominant 7?'},
+      {key:'D',seat:'5',plain:'A',color:'A7',cname:'dom7',prompt:'The 5 chord in this loop: plain, or a dominant 7?'},
+      {key:'G',seat:'1',plain:'G',color:'Gmaj7',cname:'maj7',prompt:'The 1 chord in this loop: plain, or a major 7?'},
+      {key:'C',seat:'1',plain:'C',color:'Cmaj7',cname:'maj7',prompt:'The 1 chord in this loop: plain, or a major 7?'}
+    ]);
+    var colored=Math.random()<0.5;
+    var loop=['1','4','5','1'];
+    var pl2=function(){
+      cut();
+      run(function(ctx){
+        var names=loop.map(function(nu){
+          var base=numChord(cfg.key,nu);
+          return (nu===cfg.seat&&colored)?cfg.color:base;
+        });
+        chordSeq(ctx,names,{step:0.85,vel:0.44});
+      });
+    };
+    return {
+      skill:'col',spec:spec,model:'choices',
+      prompt:cfg.prompt,
+      play:pl2,playLabel:'the loop, in '+cfg.key,
+      choices:[colChoice('plain','no color'),colChoice(cfg.cname,cfg.cname==='dom7'?'leaning':'floating')],
+      correct:colored?cfg.cname:'plain',
+      fbOk:{text:colored?'Yes, the '+cfg.seat+' wore its '+COL_LBL[cfg.cname]+' jacket.':'Yes, plain.'},
+      fbBad:{text:'Compare the two versions of the '+cfg.seat+'.',
+        btns:[{label:'Hear plain',fn:function(){playOne(cfg.plain);}},{label:'Hear colored',fn:function(){playOne(cfg.color);}}]},
+      guidedText:'Real songs color their seats: the 5 loves a dominant 7, the 1 loves a major 7.'
+    };
+  }
+  /* iiv: the jazz turnaround */
+  var setKey=pick([{k:'C',jazz:['Dm7','G7','Cmaj7'],plain:['Dm','G','C'],four:['F','G','C']},{k:'G',jazz:['Am7','D7','Gmaj7'],plain:['Am','D','G'],four:['C','D','G']}]);
+  var variant=pick(['jazz','plain','four']);
+  var seqs={jazz:setKey.jazz,plain:setKey.plain,four:setKey.four};
+  var pl3=function(){cut();run(function(ctx){chordSeq(ctx,seqs[variant],{step:0.9,vel:0.45});});};
+  return {
+    skill:'col',spec:spec,model:'choices',
+    prompt:'Which did you hear?',
+    play:pl3,playLabel:'three chords, in '+setKey.k,
+    choices:[
+      {key:'jazz',label:'The jazz turnaround',sub:'2m7 57 1maj7, every seat colored'},
+      {key:'plain',label:'Plain 2m 5 1',sub:'same seats, no color'},
+      {key:'four',label:'4 5 1',sub:'a different road home'}
+    ],
+    correct:variant,
+    fbOk:{text:variant==='jazz'?'Yes. Every layer colored: 2m7, 57, 1maj7.':'Correct.'},
+    fbBad:{text:'Compare them.',
+      btns:[{label:'Hear the turnaround',fn:function(){cut();run(function(ctx){chordSeq(ctx,setKey.jazz,{step:0.9,vel:0.45});});}},
+            {label:'Hear plain 2m 5 1',fn:function(){cut();run(function(ctx){chordSeq(ctx,setKey.plain,{step:0.9,vel:0.45});});}}]},
+    guidedText:'The ii-V-I with color: '+setKey.jazz.join(' ')+'. The most played chain in jazz.'
   };
 }
 
@@ -1092,7 +1411,8 @@ function genMel(spec){
 }
 /* ================= CURRICULUM ================= */
 var UNITS=[
- {name:'Find home',goal:'Identify 1, the tonal centre',lessons:[
+ /* ---------- PART 1: OPEN THE EAR ---------- */
+ {part:'Open the ear',name:'Find home',goal:'Identify 1, the tonal centre',lessons:[
   {t:'Resolved or unresolved',o:'Tell a finished ending from a hanging one',
    e:'Every song orbits one special chord called home, the 1 or tonic. When a progression lands on it, the music feels finished.',
    skill:'home',guided:{g:'home',k:'resolved'},drill:[{g:'home',k:'resolved'},{g:'home',k:'resolved'},{g:'home',k:'resolved'}],apply:{g:'home',k:'which'}},
@@ -1106,23 +1426,24 @@ var UNITS=[
    e:'The strongest ear skill is holding the sound of 1 while everything else moves around it.',
    skill:'home',guided:{g:'home',k:'hold'},drill:[{g:'home',k:'hold'},{g:'home',k:'hold'},{g:'home',k:'hold'}],apply:{g:'home',k:'mix'}}
  ]},
- {name:'Major or minor',goal:'Hear the tonality of the home chord',lessons:[
+ {part:'Open the ear',name:'Bright or dark',goal:'The fork: this decides which map you use',lessons:[
   {t:'Major versus minor chord',o:'Tell the two basic chord flavors apart',
    e:'A major chord sounds bright and settled. A minor chord drops its middle note one fret and turns dark.',
    skill:'majmin',guided:{g:'mm',k:'chord'},drill:[{g:'mm',k:'chord'},{g:'mm',k:'chord'},{g:'mm',k:'chord'},{g:'mm',k:'chord'}],apply:{g:'mm',k:'chord'}},
   {t:'Major 1 versus minor 1',o:'Judge the home chord itself',
-   e:'The flavor of the 1 chord sets the mood of the whole song.',
+   e:'The flavor of the home chord sets the mood of the whole song.',
    skill:'majmin',guided:{g:'mm',k:'one'},drill:[{g:'mm',k:'one'},{g:'mm',k:'one'},{g:'mm',k:'one'}],apply:{g:'mm',k:'prog'}},
-  {t:'Major key or minor key',o:'Hear tonality from a whole progression',
-   e:'A progression is in a major key when its home chord is major, and a minor key when home is minor.',
+  {t:'Major song or minor song',o:'Hear tonality from a whole progression',
+   e:'A song is in a major key when it keeps returning to a bright home, and a minor key when home is dark.',
    skill:'majmin',guided:{g:'mm',k:'prog'},drill:[{g:'mm',k:'prog'},{g:'mm',k:'prog'},{g:'mm',k:'prog'}],apply:{g:'mm',k:'find'}},
-  {t:'Find home, then judge it',o:'Combine both skills in one listen',
-   e:'First locate home, then ask one question: bright or dark?',
+  {t:'Find home, then judge it',o:'The full listening rule',
+   e:'Find home, then ask one question: bright or dark? Bright means the major map. Dark means the minor map. Home is always 1.',
    skill:'majmin',guided:{g:'mm',k:'find'},drill:[{g:'mm',k:'find'},{g:'mm',k:'find'},{g:'mm',k:'find'}],apply:{g:'mm',k:'mix'}}
  ]},
- {name:'Hear 1, 4 and 5',goal:'Recognize the three main chord functions',lessons:[
+ /* ---------- PART 2: THE MAJOR MAP ---------- */
+ {part:'The major map',name:'Meet the major map',goal:'The big three: 1, 4 and 5',lessons:[
   {t:'1 versus 5',o:'Home against tension',
-   e:'The 5 chord creates tension that pulls toward home. The 1 is the release.',
+   e:'Every major key has seven seats, and the quality pattern never changes: 1 major, 2 minor, 3 minor, 4 major, 5 major, 6 minor, 7 diminished. Open the Key map any time to see and hear them all. Today: the 5, tension pulling home.',
    skill:'num',guided:{g:'num',pool:['1','5']},drill:[{g:'num',pool:['1','5']},{g:'num',pool:['1','5']},{g:'num',pool:['1','5']}],apply:{g:'num',pool:['1','5']}},
   {t:'1 versus 4',o:'Home against movement',
    e:'The 4 chord feels like stepping away from home without real tension.',
@@ -1133,16 +1454,27 @@ var UNITS=[
   {t:'Hear 5 to 1',o:'Learn the sound of resolution',
    e:'The move from 5 to 1 is the strongest resolution in music. Learn it in both directions.',
    skill:'num',guided:{g:'pair',a:'5'},drill:[{g:'pair',a:'5'},{g:'pair',a:'5'},{g:'pair',a:'4'}],apply:{g:'pair',a:'5'}},
-  {t:'Hear 1 4 5 1',o:'Follow a full classic loop',
-   e:'Now follow a whole journey: out to 4, up to 5, and home.',
-   skill:'num',guided:{g:'seq',orders:[['1','4','5','1'],['1','5','4','1']]},drill:[{g:'seq',orders:[['1','4','5','1'],['1','5','4','1']]},{g:'seq',orders:[['1','4','5','1'],['1','5','4','1']]},{g:'seq',orders:[['1','4','5','1'],['1','5','4','1']]}],apply:{g:'seq',orders:[['1','4','5','1'],['1','5','4','1']]}},
-  {t:'Hear 1 5 4 1',o:'The reversed journey',
-   e:'Flipping 4 and 5 changes the story. Tension first, then the calm step home.',
-   skill:'num',guided:{g:'seq',orders:[['1','5','4','1'],['1','4','5','1']]},drill:[{g:'seq',orders:[['1','5','4','1'],['1','4','5','1']]},{g:'seq',orders:[['1','5','4','1'],['1','4','5','1']]},{g:'seq',orders:[['1','5','4','1'],['1','4','5','1']]}],apply:{g:'num',pool:['1','4','5']}}
+  {t:'Follow whole journeys',o:'Hear 1-4-5-1 and 1-5-4-1',
+   e:'Now follow a whole trip: out, up, and home. Flipping the middle changes the story.',
+   skill:'num',guided:{g:'seq',orders:[['1','4','5','1'],['1','5','4','1']]},drill:[{g:'seq',orders:[['1','4','5','1'],['1','5','4','1']]},{g:'seq',orders:[['1','4','5','1'],['1','5','4','1']]},{g:'seq',orders:[['1','4','5','1'],['1','5','4','1']]}],apply:{g:'seq',orders:[['1','4','5','1'],['1','5','4','1']]}}
  ]},
- {name:'Add 6m',goal:'Recognize the minor heart of major keys',lessons:[
+ {part:'The major map',name:'First charts',goal:'Start charting with the chords you have',lessons:[
+  {t:'Tap the changes',o:'Feel where the harmony moves',
+   e:'Before you can name chords you must feel where they change. Tap every change.',
+   skill:'prog',guided:{g:'tap'},drill:[{g:'tap'},{g:'tap'},{g:'tap'}],apply:{g:'tap'}},
+  {t:'Chart three chords',o:'Arrange your first chart',
+   e:'A chart is the progression written as numbers. Arrange the tiles in the order you hear.',
+   skill:'prog',guided:{g:'chart',n:3,pool:['1','4','5']},drill:[{g:'chart',n:3,pool:['1','4','5']},{g:'chart',n:3,pool:['1','4','5']},{g:'chart',n:3,pool:['1','4','5']}],apply:{g:'chart',n:4,pool:['1','4','5']}},
+  {t:'Fill in the missing chord',o:'Complete a partial chart',
+   e:'Real charting often means catching the one chord you missed.',
+   skill:'prog',guided:{g:'fill',pool:['1','4','5']},drill:[{g:'fill',pool:['1','4','5']},{g:'fill',pool:['1','4','5']},{g:'fill',pool:['1','4','5']}],apply:{g:'fill',pool:['1','4','5']}},
+  {t:'Repeated chords',o:'Hear when a chord stays',
+   e:'Progressions repeat chords more than you expect. A chord that stays is part of the chart too.',
+   skill:'prog',guided:{g:'chart',n:4,pool:['1','4','5'],repeats:true,needRepeat:true},drill:[{g:'chart',n:4,pool:['1','4','5'],repeats:true,needRepeat:true},{g:'chart',n:4,pool:['1','4','5'],repeats:true,needRepeat:true},{g:'chart',n:4,pool:['1','4','5'],repeats:true,needRepeat:true}],apply:{g:'chart',n:4,pool:['1','4','5'],repeats:true,needRepeat:true}}
+ ]},
+ {part:'The major map',name:'The heart chord: 6m',goal:'The minor heart of major songs',lessons:[
   {t:'1 versus 6m',o:'Home against its shadow',
-   e:'The 6m chord is the most common minor chord in major-key music. It shares notes with 1 but turns the light down.',
+   e:'The 6m is the most common minor chord in major-key music. It shares notes with 1 but turns the light down.',
    skill:'num',guided:{g:'num',pool:['1','6m']},drill:[{g:'num',pool:['1','6m']},{g:'num',pool:['1','6m']},{g:'num',pool:['1','6m']}],apply:{g:'num',pool:['1','6m']}},
   {t:'4 versus 6m',o:'Two kinds of leaving home',
    e:'4 steps away brightly. 6m steps away into shade. Learn to tell those moves apart.',
@@ -1150,40 +1482,17 @@ var UNITS=[
   {t:'All four functions',o:'1, 4, 5 and 6m in one exercise',
    e:'These four chords cover most popular music. Name any of them after one listen.',
    skill:'num',guided:{g:'num',pool:['1','4','5','6m']},drill:[{g:'num',pool:['1','4','5','6m']},{g:'num',pool:['1','4','5','6m']},{g:'num',pool:['1','4','5','6m']},{g:'num',pool:['1','4','5','6m']}],apply:{g:'num',pool:['1','4','5','6m']}},
-  {t:'Hear 1 5 6m 4',o:'The most famous loop in pop',
+  {t:'Hear 1-5-6m-4',o:'The most famous loop in pop',
    e:'This four-chord loop is behind hundreds of hits. Learn its shape by ear.',
-   skill:'num',guided:{g:'seq',skill:'prog',orders:[['1','5','6m','4'],['1','4','6m','5'],['1','5','4','6m']]},drill:[{g:'seq',skill:'prog',orders:[['1','5','6m','4'],['1','4','6m','5'],['1','5','4','6m']]},{g:'seq',skill:'prog',orders:[['1','5','6m','4'],['1','4','6m','5'],['1','5','4','6m']]},{g:'seq',skill:'prog',orders:[['1','5','6m','4'],['1','4','6m','5'],['1','5','4','6m']]}],apply:{g:'seq',skill:'prog',orders:[['1','5','6m','4'],['1','4','6m','5'],['1','5','4','6m']]}},
-  {t:'Hear 6m 4 1 5',o:'The same chords, started from the shadow',
+   skill:'prog',guided:{g:'seq',skill:'prog',orders:[['1','5','6m','4'],['1','4','6m','5'],['1','5','4','6m']]},drill:[{g:'seq',skill:'prog',orders:[['1','5','6m','4'],['1','4','6m','5'],['1','5','4','6m']]},{g:'seq',skill:'prog',orders:[['1','5','6m','4'],['1','4','6m','5'],['1','5','4','6m']]},{g:'seq',skill:'prog',orders:[['1','5','6m','4'],['1','4','6m','5'],['1','5','4','6m']]}],apply:{g:'seq',skill:'prog',orders:[['1','5','6m','4'],['1','4','6m','5'],['1','5','4','6m']]}},
+  {t:'Hear 6m-4-1-5',o:'The same chords, started from the shadow',
    e:'Start the famous loop on 6m and the whole mood changes, even though the chords are identical.',
-   skill:'num',guided:{g:'seq',skill:'prog',orders:[['6m','4','1','5'],['6m','1','4','5'],['4','6m','1','5']]},drill:[{g:'seq',skill:'prog',orders:[['6m','4','1','5'],['6m','1','4','5'],['4','6m','1','5']]},{g:'seq',skill:'prog',orders:[['6m','4','1','5'],['6m','1','4','5'],['4','6m','1','5']]},{g:'seq',skill:'prog',orders:[['6m','4','1','5'],['6m','1','4','5'],['4','6m','1','5']]}],apply:{g:'seq',skill:'prog',orders:[['6m','4','1','5'],['6m','1','4','5'],['4','6m','1','5']]}},
+   skill:'prog',guided:{g:'seq',skill:'prog',orders:[['6m','4','1','5'],['6m','1','4','5'],['4','6m','1','5']]},drill:[{g:'seq',skill:'prog',orders:[['6m','4','1','5'],['6m','1','4','5'],['4','6m','1','5']]},{g:'seq',skill:'prog',orders:[['6m','4','1','5'],['6m','1','4','5'],['4','6m','1','5']]},{g:'seq',skill:'prog',orders:[['6m','4','1','5'],['6m','1','4','5'],['4','6m','1','5']]}],apply:{g:'seq',skill:'prog',orders:[['6m','4','1','5'],['6m','1','4','5'],['4','6m','1','5']]}},
   {t:'Unfamiliar combinations',o:'Hear function, not memorized loops',
    e:'These loops are generated fresh so you cannot lean on famous songs. Pure function hearing.',
    skill:'prog',guided:{g:'chart',n:4,unfamiliar:true},drill:[{g:'chart',n:4,unfamiliar:true},{g:'chart',n:4,unfamiliar:true},{g:'chart',n:4,unfamiliar:true}],apply:{g:'chart',n:4,unfamiliar:true}}
  ]},
- {name:'Chart progressions',goal:'Turn hearing into a usable Nashville chart',lessons:[
-  {t:'Chart three chords',o:'Arrange your first chart',
-   e:'A chart is the progression written as numbers. Arrange the tiles in the order you hear.',
-   skill:'prog',guided:{g:'chart',n:3,pool:['1','4','5']},drill:[{g:'chart',n:3,pool:['1','4','5']},{g:'chart',n:3,pool:['1','4','5']},{g:'chart',n:3,pool:['1','4','5']}],apply:{g:'chart',n:3,pool:['1','4','5','6m']}},
-  {t:'Chart four chords',o:'Full four-chord charts',
-   e:'Four chords is the standard pop loop length. Chart the whole thing.',
-   skill:'prog',guided:{g:'chart',n:4},drill:[{g:'chart',n:4},{g:'chart',n:4},{g:'chart',n:4}],apply:{g:'chart',n:4,unfamiliar:true}},
-  {t:'Fill in the missing chord',o:'Complete a partial chart',
-   e:'Real charting often means catching the one chord you missed.',
-   skill:'prog',guided:{g:'fill'},drill:[{g:'fill'},{g:'fill'},{g:'fill'}],apply:{g:'fill'}},
-  {t:'Repeated chords',o:'Hear when a chord stays',
-   e:'Progressions repeat chords more than you expect. A chord that stays is part of the chart too.',
-   skill:'prog',guided:{g:'chart',n:4,repeats:true,needRepeat:true},drill:[{g:'chart',n:4,repeats:true,needRepeat:true},{g:'chart',n:4,repeats:true,needRepeat:true},{g:'chart',n:4,repeats:true,needRepeat:true}],apply:{g:'chart',n:4,repeats:true,needRepeat:true}},
-  {t:'Tap the changes',o:'Feel exactly when the harmony moves',
-   e:'Before you can name chords you must feel where they change. Tap every change.',
-   skill:'prog',guided:{g:'tap'},drill:[{g:'tap'},{g:'tap'},{g:'tap'}],apply:{g:'tap'}},
-  {t:'Chart a four-bar loop',o:'Chart at real song speed',
-   e:'Four bars, one chord each, at song tempo. This is the real thing.',
-   skill:'prog',guided:{g:'chart',n:4,beats:4,bpm:88,unfamiliar:true},drill:[{g:'chart',n:4,beats:4,bpm:88,unfamiliar:true},{g:'chart',n:4,beats:4,bpm:88,unfamiliar:true},{g:'chart',n:4,beats:4,bpm:88,unfamiliar:true}],apply:{g:'chart',n:4,beats:4,bpm:88,unfamiliar:true}},
-  {t:'Chart an eight-bar loop',o:'Longer form, same method',
-   e:'Eight chords with repeats. Chunk it into two halves and chart each.',
-   skill:'prog',guided:{g:'chart',n:8,repeats:true},drill:[{g:'chart',n:8,repeats:true},{g:'chart',n:8,repeats:true}],apply:{g:'chart',n:8,repeats:true}}
- ]},
- {name:'Numbers and chord names',goal:'Translate charts into playable chords in any key',lessons:[
+ {part:'The major map',name:'Your first keys',goal:'Numbers become playable chords',lessons:[
   {t:'Numbers to chords',o:'From chart to chord names',
    e:'Given the key, every number becomes one exact chord. In G, the chart 1 5 6m 4 is G D Em C.',
    skill:'names',guided:{g:'names',dir:'fwd'},drill:[{g:'names',dir:'fwd'},{g:'names',dir:'fwd'},{g:'names',dir:'fwd'}],apply:{g:'names',dir:'fwd'}},
@@ -1192,22 +1501,112 @@ var UNITS=[
    skill:'names',guided:{g:'names',dir:'rev'},drill:[{g:'names',dir:'rev'},{g:'names',dir:'rev'},{g:'names',dir:'rev'}],apply:{g:'names',dir:'rev'}},
   {t:'All six keys',o:'Translate freely in C, G, D, A, E and F',
    e:'The numbers never change. Only the letters do. Work across all six launch keys.',
-   skill:'names',guided:{g:'names',dir:'mix'},drill:[{g:'names',dir:'mix'},{g:'names',dir:'mix'},{g:'names',dir:'mix'},{g:'names',dir:'mix'}],apply:{g:'names',dir:'mix'}},
-  {t:'The full challenge',o:'Hear a new loop, chart it, and play it in two keys',
-   e:'Everything at once: find home, judge the tonality, tap the changes, chart the loop, then convert it to two different keys.',
+   skill:'names',guided:{g:'names',dir:'mix'},drill:[{g:'names',dir:'mix'},{g:'names',dir:'mix'},{g:'names',dir:'mix'},{g:'names',dir:'mix'}],apply:{g:'names',dir:'mix'}}
+ ]},
+ {part:'The major map',name:'The other minors: 2m and 3m',goal:'Complete the major map',lessons:[
+  {t:'Meet the 2m',o:'The soft setup chord',
+   e:'The 2m sits one step above home and moves away like the 4 does, but with a darker color. In G, the 2m is Am.',
+   skill:'num',guided:{g:'num',pool:['1','2m','4']},drill:[{g:'num',pool:['1','2m']},{g:'num',pool:['2m','4']},{g:'num',pool:['1','2m','4']}],apply:{g:'num',pool:['1','2m','4','5']}},
+  {t:'Meet the 3m',o:'The dreamer',
+   e:'The 3m is the rarest of the three minors, halfway between home and the 6m. In G, the 3m is Bm.',
+   skill:'num',guided:{g:'num',pool:['1','3m','6m']},drill:[{g:'num',pool:['1','3m']},{g:'num',pool:['3m','6m']},{g:'num',pool:['1','3m','6m']}],apply:{g:'num',pool:['1','3m','6m']}},
+  {t:'The three minors',o:'2m, 3m and 6m, told apart cold',
+   e:'Every major key has exactly three minor chords. Telling them apart is what separates guessing from mapping. There is also a seventh seat, the diminished chord, so rare in charts that you can just wave at it for now.',
+   skill:'num',guided:{g:'num',pool:['2m','3m','6m']},drill:[{g:'num',pool:['2m','3m','6m']},{g:'num',pool:['2m','3m','6m']},{g:'num',pool:['2m','3m','6m']},{g:'num',pool:['2m','3m','6m']}],apply:{g:'num',pool:['1','2m','3m','4','5','6m']}},
+  {t:'The 2m-5-1 move',o:'The two-stage pull home',
+   e:'The 2m sets up the 5, and the 5 resolves to 1. A two-stage pull home, everywhere in music.',
+   skill:'num',guided:{g:'seq',orders:[['2m','5','1'],['4','5','1'],['6m','5','1']]},drill:[{g:'seq',orders:[['2m','5','1'],['4','5','1'],['6m','5','1']]},{g:'seq',orders:[['2m','5','1'],['4','5','1'],['6m','5','1']]},{g:'seq',orders:[['2m','5','1'],['4','5','1'],['6m','5','1']]}],apply:{g:'num',pool:['1','2m','3m','4','5','6m']}}
+ ]},
+ {part:'The major map',name:'Big charts',goal:'Chart at full size and real speed',lessons:[
+  {t:'Chart the full map',o:'Six-chord palette, unfamiliar loops',
+   e:'Same charting skill, bigger palette. Every seat of the map is in play now.',
+   skill:'prog',guided:{g:'chart',n:4,pool:['1','2m','3m','4','5','6m'],unfamiliar:true},drill:[{g:'chart',n:4,pool:['1','2m','3m','4','5','6m'],unfamiliar:true},{g:'chart',n:4,pool:['1','2m','3m','4','5','6m'],unfamiliar:true},{g:'chart',n:4,pool:['1','2m','3m','4','5','6m'],unfamiliar:true}],apply:{g:'fill',pool:['1','2m','3m','4','5','6m']}},
+  {t:'Chart a four-bar loop',o:'Chart at song tempo',
+   e:'Four bars, one chord each, at song tempo. This is the real thing.',
+   skill:'prog',guided:{g:'chart',n:4,beats:4,bpm:88,unfamiliar:true},drill:[{g:'chart',n:4,beats:4,bpm:88,unfamiliar:true},{g:'chart',n:4,beats:4,bpm:88,unfamiliar:true},{g:'chart',n:4,beats:4,bpm:88,unfamiliar:true}],apply:{g:'chart',n:4,beats:4,bpm:88,unfamiliar:true}},
+  {t:'Chart an eight-bar loop',o:'Longer form, same method',
+   e:'Eight chords with repeats. Chunk it into two halves and chart each.',
+   skill:'prog',guided:{g:'chart',n:8,repeats:true},drill:[{g:'chart',n:8,repeats:true},{g:'chart',n:8,repeats:true}],apply:{g:'chart',n:8,repeats:true}},
+  {t:'Translate the full map',o:'2m and 3m in every key',
+   e:'In G, the 2m is Am and the 3m is Bm. Translate charts that use every seat.',
+   skill:'names',guided:{g:'names',dir:'mix',pool:['1','2m','3m','4','5','6m']},drill:[{g:'names',dir:'fwd',pool:['1','2m','3m','4','5','6m']},{g:'names',dir:'rev',pool:['1','2m','3m','4','5','6m']},{g:'names',dir:'mix',pool:['1','2m','3m','4','5','6m']}],apply:{g:'names',dir:'mix',pool:['1','2m','3m','4','5','6m']}}
+ ]},
+ {part:'The major map',name:'The major challenge',goal:'Everything at once',lessons:[
+  {t:'The major challenge',o:'Hear a new loop, chart it, play it in two keys',
+   e:'Everything at once: find home, confirm it is bright, tap the changes, chart the loop, then convert it to two different keys.',
    skill:'names',
    drill:[{g:'home',k:'which'},{g:'mm',k:'find'},{g:'tap'},{g:'chart',n:4,unfamiliar:true},{g:'names',dir:'fwd',useLast:true,key:'G'},{g:'names',dir:'fwd',useLast:true,key:'A'}]}
  ]},
- {name:'Short melodies',goal:'Start learning riffs and melodies by ear',lessons:[
+ /* ---------- PART 3: THE MINOR MAP ---------- */
+ {part:'The minor map',name:'Meet the minor map',goal:'Dark home, same method, new map',lessons:[
+  {t:'Home is dark now',o:'Find the 1m',
+   e:'A minor key works exactly like a major key: there is a home chord and everything counts from it. Home is just dark now, and we write it 1m. The minor map seats are 1m, 3, 4m, 5, 6 and 7.',
+   skill:'minor',guided:{g:'home',k:'which',mode:'min',skill:'minor'},drill:[{g:'home',k:'which',mode:'min',skill:'minor'},{g:'home',k:'which',mode:'min',skill:'minor'},{g:'home',k:'returns',mode:'min',skill:'minor'}],apply:{g:'home',k:'returns',mode:'min',skill:'minor'}},
+  {t:'The 6 and the 7',o:'The two bright neighbors',
+   e:'The 6 and 7 are the bright major chords of a minor key, the Am-F-G sound in half of rock and pop.',
+   skill:'minor',guided:{g:'num',mode:'min',pool:['1m','6','7']},drill:[{g:'num',mode:'min',pool:['1m','6']},{g:'num',mode:'min',pool:['6','7']},{g:'num',mode:'min',pool:['1m','6','7']}],apply:{g:'num',mode:'min',pool:['1m','6','7']}},
+  {t:'The 4m and the 5',o:'The darker departure, and the 5 with two jackets',
+   e:'The 4m steps away into deeper shade. The 5 is naturally minor here, but real songs usually make it major so it pulls home harder.',
+   skill:'minor',guided:{g:'num',mode:'min',pool:['1m','4m','5']},drill:[{g:'num',mode:'min',pool:['1m','4m']},{g:'num',mode:'min',pool:['4m','5']},{g:'num',mode:'min',pool:['5','5m']}],apply:{g:'num',mode:'min',pool:['1m','4m','5']}},
+  {t:'The 3, and the full map',o:'The bright cousin, then everything',
+   e:'The 3 is the bright lift of the minor map. With it you have every common seat.',
+   skill:'minor',guided:{g:'num',mode:'min',pool:['1m','3','6']},drill:[{g:'num',mode:'min',pool:['1m','3','6']},{g:'num',mode:'min',pool:['1m','3','4m','6']},{g:'num',mode:'min',pool:['1m','3','4m','5','6','7']}],apply:{g:'num',mode:'min',pool:['1m','3','4m','5','6','7']}}
+ ]},
+ {part:'The minor map',name:'Chart the minor map',goal:'Chart and translate minor songs',lessons:[
+  {t:'Chart minor loops',o:'Same tiles, minor palette',
+   e:'Chart minor progressions exactly the way you chart major ones. Home is 1m.',
+   skill:'minor',guided:{g:'chart',mode:'min',n:4},drill:[{g:'chart',mode:'min',n:4},{g:'chart',mode:'min',n:4},{g:'chart',mode:'min',n:4}],apply:{g:'chart',mode:'min',n:4}},
+  {t:'The Andalusian fall',o:'The famous minor staircase',
+   e:'1m-7-6-5 walks down from home and lands on the door back in. Flamenco, rock and roll, and everything between.',
+   skill:'minor',guided:{g:'seq',mode:'min',orders:[['1m','7','6','5'],['1m','6','7','5'],['1m','7','5','6']]},drill:[{g:'seq',mode:'min',orders:[['1m','7','6','5'],['1m','6','7','5'],['1m','7','5','6']]},{g:'seq',mode:'min',orders:[['1m','7','6','5'],['1m','6','7','5'],['1m','7','5','6']]},{g:'seq',mode:'min',orders:[['1m','7','6','5'],['1m','6','7','5'],['1m','7','5','6']]}],apply:{g:'chart',mode:'min',n:4}},
+  {t:'Minor keys by name',o:'Translate in A minor, E minor and D minor',
+   e:'In A minor, 1m-6-7 is Am-F-G. Same translation skill, minor map.',
+   skill:'minor',guided:{g:'names',mode:'min',dir:'fwd'},drill:[{g:'names',mode:'min',dir:'fwd'},{g:'names',mode:'min',dir:'rev'},{g:'names',mode:'min',dir:'mix'}],apply:{g:'names',mode:'min',dir:'mix'}},
+  {t:'The minor challenge',o:'Hear, chart and convert a minor song',
+   e:'The full chain on the dark map: find home, tap the changes, chart the loop, name the chords.',
+   skill:'minor',
+   drill:[{g:'home',k:'which',mode:'min',skill:'minor'},{g:'tap',mode:'min'},{g:'chart',mode:'min',n:4},{g:'names',mode:'min',dir:'fwd',useLast:true}]},
+  {t:'The relative-major shortcut',o:'Optional: how some pros spell minor songs',
+   e:'Every minor key shares its chords with one major key. Some Nashville charts use that shortcut and write a minor song inside its relative major, with home spelled 6m. You never need this, but now you can read it.',
+   skill:'minor',guided:{g:'rel'},drill:[{g:'rel'},{g:'rel'}],apply:{g:'rel'}}
+ ]},
+ /* ---------- PART 4: CHORD COLORS ---------- */
+ {part:'Chord colors',name:'Colors',goal:'Hear the flavor, not just the seat',lessons:[
+  {t:'Sus chords',o:'The hanging sound every guitarist plays',
+   e:'A sus chord swaps its middle note for a neighbor, so it is neither major nor minor. It hangs, then lands.',
+   skill:'col',guided:{g:'col',k:'sus'},drill:[{g:'col',k:'sus'},{g:'col',k:'sus'},{g:'col',k:'sus'},{g:'col',k:'sus'}],apply:{g:'col',k:'sus'}},
+  {t:'The dominant 7',o:'Major with a lean',
+   e:'Add one note to a major chord and it stops sitting still. The dominant 7 leans forward.',
+   skill:'col',guided:{g:'col',k:'dom7'},drill:[{g:'col',k:'dom7'},{g:'col',k:'dom7'},{g:'col',k:'dom7'}],apply:{g:'col',k:'dom7'}},
+  {t:'The major 7',o:'Floats where the dom7 pulls',
+   e:'The maj7 floats and the dom7 pulls. Same root, opposite mood, and mixing them up is the most common quality mistake there is.',
+   skill:'col',guided:{g:'col',k:'maj7'},drill:[{g:'col',k:'maj7'},{g:'col',k:'maj7'},{g:'col',k:'maj7',three:true}],apply:{g:'col',k:'maj7',three:true}},
+  {t:'The minor 7',o:'Minor, softened',
+   e:'The m7 is a minor chord with the edge sanded off. Smoother, jazzier, everywhere in soul.',
+   skill:'col',guided:{g:'col',k:'m7'},drill:[{g:'col',k:'m7'},{g:'col',k:'m7'},{g:'col',k:'mix5'}],apply:{g:'col',k:'mix5'}},
+  {t:'The diminished chord',o:'Tense, unstable, rare',
+   e:'The diminished chord is built entirely of small gaps and cannot sit still. You will meet it rarely, but you should know its face. Its opposite is the power chord, which has no middle note at all and no quality.',
+   skill:'col',guided:{g:'col',k:'dim'},drill:[{g:'col',k:'dim'},{g:'col',k:'dim'},{g:'col',k:'dim'}],apply:{g:'col',k:'mix5'}},
+  {t:'Color in context',o:'Hear quality inside a progression',
+   e:'Qualities are not random. The 5 loves to be a dominant 7, and the 1 loves a major 7.',
+   skill:'col',guided:{g:'col',k:'ctx'},drill:[{g:'col',k:'ctx'},{g:'col',k:'ctx'},{g:'col',k:'ctx'},{g:'col',k:'ctx'}],apply:{g:'col',k:'ctx'}},
+  {t:'The jazz turnaround',o:'Every layer heard',
+   e:'The 2m7-57-1maj7 is the most played chord chain in jazz. Now you can hear every layer of it.',
+   skill:'col',guided:{g:'col',k:'iiv'},drill:[{g:'col',k:'iiv'},{g:'col',k:'iiv'},{g:'col',k:'iiv'}],apply:{g:'col',k:'iiv'}}
+ ]},
+ /* ---------- PART 5: MELODIES ---------- */
+ {part:'Melodies',name:'Melody basics',goal:'A different muscle: single notes',lessons:[
   {t:'Higher, lower, or the same',o:'Hear melodic direction',
    e:'Melody hearing starts with direction. Up, down, or repeated.',
    skill:'mel',guided:{g:'mel',k:'hilo'},drill:[{g:'mel',k:'hilo'},{g:'mel',k:'hilo'},{g:'mel',k:'hilo'},{g:'mel',k:'hilo'}],apply:{g:'mel',k:'hilo'}},
-  {t:'Notes 1, 3 and 5',o:'The anchor notes of the scale',
+  {t:'The anchor notes 1, 3 and 5',o:'The skeleton of the key',
    e:'The notes 1, 3 and 5 are the skeleton of the key. Name them after one listen.',
    skill:'mel',guided:{g:'mel',k:'deg',pool:[1,3,5]},drill:[{g:'mel',k:'deg',pool:[1,3,5]},{g:'mel',k:'deg',pool:[1,3,5]},{g:'mel',k:'deg',pool:[1,3,5]}],apply:{g:'mel',k:'deg',pool:[1,3,5]}},
-  {t:'Add 2 and 4',o:'Fill in the steps between anchors',
+  {t:'Add 2 and 4',o:'The stepping stones',
    e:'2 and 4 are stepping stones between the anchor notes.',
-   skill:'mel',guided:{g:'mel',k:'deg',pool:[1,2,3,4,5]},drill:[{g:'mel',k:'deg',pool:[1,2,3,4,5]},{g:'mel',k:'deg',pool:[1,2,3,4,5]},{g:'mel',k:'deg',pool:[1,2,3,4,5]}],apply:{g:'mel',k:'deg',pool:[1,2,3,4,5]}},
+   skill:'mel',guided:{g:'mel',k:'deg',pool:[1,2,3,4,5]},drill:[{g:'mel',k:'deg',pool:[1,2,3,4,5]},{g:'mel',k:'deg',pool:[1,2,3,4,5]},{g:'mel',k:'deg',pool:[1,2,3,4,5]}],apply:{g:'mel',k:'deg',pool:[1,2,3,4,5]}}
+ ]},
+ {part:'Melodies',name:'Riffs by ear',goal:'Real lines under your fingers',lessons:[
   {t:'Rebuild three notes',o:'Your first melody by ear',
    e:'Hear a three-note line and rebuild it from scale numbers.',
    skill:'mel',guided:{g:'mel',k:'build',n:3},drill:[{g:'mel',k:'build',n:3},{g:'mel',k:'build',n:3},{g:'mel',k:'build',n:3}],apply:{g:'mel',k:'build',n:3}},
@@ -1217,9 +1616,9 @@ var UNITS=[
   {t:'The gap between notes',o:'Intervals as fret distances',
    e:'On guitar, every interval is a fret count. Hear the gap, know the slide.',
    skill:'mel',guided:{g:'mel',k:'iv'},drill:[{g:'mel',k:'iv'},{g:'mel',k:'iv'},{g:'mel',k:'iv'},{g:'mel',k:'iv'}],apply:{g:'mel',k:'iv'}},
-  {t:'Numbers on the fretboard',o:'See every melody under your fingers',
+  {t:'Numbers on the fretboard',o:'See every line under your fingers',
    e:'Every melody you chart lives on the fretboard. Rebuild a line, then study where it sits.',
-   skill:'mel',guided:{g:'mel',k:'build',n:3},drill:[{g:'mel',k:'build',n:3},{g:'mel',k:'build',n:4,pool:[1,2,3,4,5]}],apply:{g:'mel',k:'build',n:5}}
+   skill:'mel',guided:{g:'mel',k:'build',n:3},drill:[{g:'mel',k:'build',n:4,pool:[1,2,3,4,5]},{g:'mel',k:'build',n:5}],apply:{g:'mel',k:'build',n:5}}
  ]}
 ];
 var LESSONS=[];
@@ -1227,9 +1626,11 @@ UNITS.forEach(function(u,ui){u.lessons.forEach(function(L){L.unit=ui;LESSONS.pus
 var SKILLS_LIST=[
  {id:'home',name:'Home',defSpec:{g:'home',k:'mix'}},
  {id:'majmin',name:'Major or minor',defSpec:{g:'mm',k:'mix'}},
- {id:'num',name:'Chord numbers',defSpec:{g:'num',pool:['1','4','5','6m']}},
+ {id:'num',name:'Chord numbers',defSpec:{g:'num',pool:['1','2m','3m','4','5','6m']}},
  {id:'prog',name:'Progressions',defSpec:{g:'chart',n:4,unfamiliar:true}},
  {id:'names',name:'Numbers and chords',defSpec:{g:'names',dir:'mix'}},
+ {id:'minor',name:'Minor keys',defSpec:{g:'num',mode:'min',pool:['1m','3','4m','5','6','7']}},
+ {id:'col',name:'Chord colors',defSpec:{g:'col',k:'mix'}},
  {id:'mel',name:'Melodies',defSpec:{g:'mel',k:'mix'}}
 ];
 (function(){
@@ -1246,8 +1647,8 @@ function skillUnlocked(id){return true;}
 /* ================= RUNNER ================= */
 var RUN=null,Q=null,fbTimer=null,apTimer=null;
 function go(id){
-  ['learn','practice','profile','lesson'].forEach(function(s){document.getElementById(s).classList.toggle('on',s===id);});
-  document.querySelector('nav').style.display=(id==='lesson')?'none':'flex';
+  ['learn','practice','profile','lesson','kmap'].forEach(function(s){document.getElementById(s).classList.toggle('on',s===id);});
+  document.querySelector('nav').style.display=(id==='lesson'||id==='kmap')?'none':'flex';
   document.querySelectorAll('.nav-btn').forEach(function(b){b.classList.toggle('on',b.dataset.go===id);});
   hideFb();
 }
@@ -1532,6 +1933,85 @@ function reviewSpecs(){
   return shuffle(specs).slice(0,5);
 }
 /* ================= SCREENS ================= */
+var KM_MODE='maj',KM_KEY='G',KM_MKEY='Am';
+var KM_MAJ_SEATS=[
+  {n:'1',off:0,q:'maj'},{n:'2m',off:2,q:'min'},{n:'3m',off:4,q:'min'},{n:'4',off:5,q:'maj'},
+  {n:'5',off:7,q:'maj'},{n:'6m',off:9,q:'min'},{n:'7\u00b0',off:11,q:'dim'}
+];
+var KM_MIN_SEATS=[
+  {n:'1m',off:0,q:'min'},{n:'3',off:3,q:'maj'},{n:'4m',off:5,q:'min'},
+  {n:'5',off:7,q:'maj',note:'borrowed major'},{n:'6',off:8,q:'maj'},{n:'7',off:10,q:'maj'}
+];
+function seatChordName(pc,seat){
+  var sfx=seat.q==='min'?'m':seat.q==='dim'?'\u00b0':'';
+  return PCN[(pc+seat.off)%12]+sfx;
+}
+function seatMidis(pc,seat){
+  var root=45+(((pc+seat.off)-45)%12+12)%12;
+  if(root<43)root+=12;
+  var iv=seat.q==='min'?[0,3,7,12]:seat.q==='dim'?[0,3,6,12]:[0,4,7,12];
+  return iv.map(function(x){return root+x;});
+}
+function seatPlay(pc,seat,homeSeat){
+  cut();
+  run(function(ctx){
+    var homeName=seatChordName(pc,homeSeat).replace('\u00b0','');
+    var seatName=seatChordName(pc,seat).replace('\u00b0','');
+    var homeV=VOIC[homeName],seatV=VOIC[seatName]||CVOIC[seatName];
+    if(homeV)strum(ctx,homeName,{dur:1.0,vel:0.4});
+    else strumMidis(ctx,seatMidis(pc,homeSeat),{dur:1.0,vel:0.4});
+    if(seatV)strum(ctx,seatName,{delay:1.15,dur:1.8,vel:0.46});
+    else strumMidis(ctx,seatMidis(pc,seat),{delay:1.15,dur:1.8,vel:0.46});
+  });
+}
+function renderKmap(){
+  var isMin=KM_MODE==='min';
+  document.getElementById('km-maj').classList.toggle('on',!isMin);
+  document.getElementById('km-min').classList.toggle('on',isMin);
+  var kg=document.getElementById('km-keys');kg.innerHTML='';
+  var keys=isMin?MKEYS:KEYS;
+  var cur=isMin?KM_MKEY:KM_KEY;
+  keys.forEach(function(k){
+    var b=document.createElement('button');
+    b.className='key-btn'+(k.n===cur?' on':'');
+    b.textContent=isMin?k.disp:k.n;
+    b.addEventListener('click',function(){
+      run(function(){});
+      if(isMin)KM_MKEY=k.n;else KM_KEY=k.n;
+      renderKmap();
+    });
+    kg.appendChild(b);
+  });
+  var kk=null;
+  keys.forEach(function(k){if(k.n===cur)kk=k;});
+  var seats=isMin?KM_MIN_SEATS:KM_MAJ_SEATS;
+  var box=document.getElementById('km-seats');box.innerHTML='';
+  seats.forEach(function(seat,si){
+    var row=document.createElement('div');
+    row.className='seat-row'+(si===0?' home':'');
+    var num=document.createElement('span');num.className='seat-num';num.textContent=seat.n;
+    var tag=document.createElement('span');
+    tag.className='seat-tag '+(seat.q==='maj'?'mj':seat.q==='min'?'mn':'dm');
+    tag.textContent=seat.q==='maj'?'major':seat.q==='min'?'minor':'dim';
+    var nm=document.createElement('span');nm.className='seat-name';nm.textContent=seatChordName(kk.pc,seat);
+    row.appendChild(num);row.appendChild(tag);
+    if(seat.note){
+      var sn=document.createElement('span');sn.className='tiny muted';sn.textContent=seat.note;
+      row.appendChild(sn);
+    }
+    row.appendChild(nm);
+    row.addEventListener('click',function(){seatPlay(kk.pc,seat,seats[0]);});
+    box.appendChild(row);
+  });
+  document.getElementById('km-note').textContent=isMin
+    ?'Same pattern in every minor key. The 5 is naturally minor but usually played major to pull home.'
+    :'Same pattern in every major key. The 7\u00b0 seat is real but rare; charts mostly ignore it.';
+}
+document.getElementById('kmap-open').addEventListener('click',function(){run(function(){});renderKmap();go('kmap');});
+document.getElementById('kmap-x').addEventListener('click',function(){go('learn');renderLearn();});
+document.getElementById('km-maj').addEventListener('click',function(){KM_MODE='maj';renderKmap();});
+document.getElementById('km-min').addEventListener('click',function(){KM_MODE='min';renderKmap();});
+
 function renderLearn(){
   document.getElementById('streak-n').textContent=ST.streak.count;
   document.getElementById('today-chip').textContent=(ST.streak.last===todayStr()?'1':'0')+'/1 today';
@@ -1553,8 +2033,13 @@ function renderLearn(){
   }
   var list=document.getElementById('unit-list');
   list.innerHTML='';
-  var idx=0;
+  var idx=0,lastPart=null;
   UNITS.forEach(function(u,ui){
+    if(u.part!==lastPart){
+      lastPart=u.part;
+      var ph=document.createElement('div');ph.className='part-head';ph.textContent=u.part;
+      list.appendChild(ph);
+    }
     var start=idx;
     idx+=u.lessons.length;
     var doneCount=0;
