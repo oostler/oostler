@@ -205,6 +205,8 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .node.locked svg{fill:#94a3b8;stroke:#94a3b8}
 .node.done:active,.node.future:active{box-shadow:0 2px 0 var(--nd)}
 .node.cur{background:#fff;box-shadow:0 6px 0 var(--nd),0 0 0 4px var(--nc);animation:bob 1.7s ease-in-out infinite}
+.node.cur:after{content:'';position:absolute;inset:-4px;border-radius:50%;border:4px solid var(--nc);animation:pulse 1.8s ease-out infinite;pointer-events:none;z-index:-1}
+@keyframes pulse{0%{transform:scale(1);opacity:.65}70%{opacity:0}100%{transform:scale(1.55);opacity:0}}
 .node svg{width:32px;height:32px}
 .node.done svg,.node.future svg{fill:#fff;stroke:#fff}
 .node.cur svg{fill:var(--nc);stroke:var(--nc)}
@@ -2286,6 +2288,7 @@ function renderLearn(){
     var sec=document.createElement('div');sec.className='unit-sec';
     /* in-flow divider announcing the unit */
     var dv=document.createElement('div');dv.className='unit-divider'+(ui===0?' first':'');
+    dv.style.setProperty('--dvc',unitPal(ui).c);
     var dvs=document.createElement('span');dvs.textContent=u.name;
     dv.appendChild(dvs);sec.appendChild(dv);
     /* nodes */
