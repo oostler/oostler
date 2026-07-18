@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
 <meta name="theme-color" content="#2563eb">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
 <title>Tonic - Hear the numbers</title>
 <style>
 :root{
@@ -14,7 +17,7 @@
 }
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{height:100%}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+body{font-family:'Nunito',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
   background:var(--bg);color:var(--fg);font-size:15px;line-height:1.45;
   -webkit-font-smoothing:antialiased;overscroll-behavior:none}
 #app{max-width:480px;margin:0 auto;min-height:100%;display:flex;flex-direction:column;position:relative}
@@ -253,6 +256,56 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .es-tag.mj{background:var(--warn-soft);color:#92400e}.es-tag.mn{background:#ede9fe;color:#6d28d9}.es-tag.dm{background:var(--bad-soft);color:var(--bad)}
 .emap-seat .es-name{margin-left:auto;font-weight:800;font-size:15px}
 .emap-note{font-size:11.5px;color:var(--muted);text-align:center;margin-top:8px}
+/* ===== motion & polish ===== */
+.screen.on{animation:screenIn .22s ease}
+@keyframes screenIn{from{opacity:.45;transform:translateY(7px)}to{opacity:1;transform:none}}
+#lesson{position:relative;overflow:hidden}
+#les-body.anim>*{animation:rise .34s cubic-bezier(.22,1,.36,1) both}
+#les-body.anim>*:nth-child(2){animation-delay:.05s}
+#les-body.anim>*:nth-child(3){animation-delay:.1s}
+#les-body.anim>*:nth-child(4){animation-delay:.15s}
+#les-body.anim>*:nth-child(5){animation-delay:.2s}
+#les-body.anim>*:nth-child(6){animation-delay:.25s}
+#les-body.anim>*:nth-child(7){animation-delay:.3s}
+#les-body.anim>*:nth-child(8){animation-delay:.35s}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.play-big{animation:breathe 2.6s ease-in-out infinite}
+@keyframes breathe{0%,100%{box-shadow:0 0 0 0 rgba(37,99,235,.32)}55%{box-shadow:0 0 0 13px rgba(37,99,235,0)}}
+.fb{transition:transform .3s cubic-bezier(.3,1.35,.6,1)}
+.done-face{animation:popIn .5s cubic-bezier(.34,1.56,.64,1) both}
+.done-acc{animation:popIn .5s .1s cubic-bezier(.34,1.56,.64,1) both}
+@keyframes popIn{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:scale(1)}}
+.confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:5}
+.confetti i{position:absolute;top:-14px;width:9px;height:14px;opacity:0;animation:cfall linear forwards}
+@keyframes cfall{0%{opacity:1;transform:translateY(0) rotate(0)}100%{opacity:1;transform:translateY(78vh) rotate(560deg)}}
+/* nav */
+.nav-btn .nico{width:46px;height:30px;border-radius:12px;display:flex;align-items:center;justify-content:center;transition:background .15s}
+.nav-btn.on .nico{background:var(--blue-mist)}
+.nav-btn svg{width:23px;height:23px;fill:currentColor;stroke:none}
+/* practice */
+.review-hero{background:linear-gradient(135deg,#2563eb,#6366f1);border:none;border-radius:20px;padding:18px 16px;color:#fff;box-shadow:0 5px 0 #1e40af}
+.review-hero h2{color:#fff}
+.review-hero .rh-sub{color:#dbeafe;font-size:13px;margin-top:2px}
+.review-hero .btn{margin-top:13px;width:100%;background:#fff;color:var(--blue);border-color:#bfdbfe;letter-spacing:.04em}
+.skill-tile{flex-direction:row;align-items:center;gap:11px}
+.skill-ic{width:42px;height:42px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 0 rgba(0,0,0,.14)}
+.skill-ic svg{width:22px;height:22px;fill:#fff;stroke:#fff}
+/* profile stats */
+.stat .sic{display:flex;justify-content:center;margin-bottom:5px}
+.stat .sic svg{width:22px;height:22px}
+/* welcome overlay */
+.hello{position:fixed;inset:0;z-index:100;background:linear-gradient(160deg,#2563eb,#4f46e5 60%,#7c3aed);display:flex;align-items:center;justify-content:center;padding:26px}
+.hello-in{max-width:340px;width:100%;text-align:center;color:#fff;animation:rise .5s cubic-bezier(.22,1,.36,1) both}
+.hello-mark{width:92px;height:92px;border-radius:28px;background:rgba(255,255,255,.16);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;animation:popIn .55s cubic-bezier(.34,1.56,.64,1) both}
+.hello-mark svg{width:52px;height:52px;fill:#fff}
+.hello-in h1{font-size:38px;font-weight:900;letter-spacing:-.02em}
+.hello-tag{font-size:16.5px;color:#dbeafe;margin-top:4px;font-weight:700}
+.hello-pts{margin:24px 0 26px;display:flex;flex-direction:column;gap:12px;text-align:left}
+.hello-pt{display:flex;align-items:center;gap:11px;background:rgba(255,255,255,.13);border-radius:14px;padding:11px 13px;font-weight:700;font-size:14px}
+.hello-pt .hp-ic{font-size:20px}
+.hello-cta{width:100%;padding:15px;border:none;border-bottom:4px solid #cbd5e1;border-radius:16px;background:#fff;color:var(--blue);font-family:inherit;font-weight:900;font-size:16px;letter-spacing:.05em;cursor:pointer}
+.hello-cta:active{transform:translateY(2px);border-bottom-width:2px}
+.hello-skip{margin-top:12px;background:none;border:none;color:#c7d2fe;font-family:inherit;font-weight:700;font-size:13px;cursor:pointer;width:100%}
 </style>
 </head>
 <body>
@@ -269,7 +322,7 @@ input[type=range]{width:100%;accent-color:var(--blue)}
       <span class="spill xp">
         <svg viewBox="0 0 24 24"><path d="M13.7 1.8 4 13.4a1 1 0 0 0 .77 1.64H10l-1.4 6.5a.8.8 0 0 0 1.44.6l9.2-11.7a1 1 0 0 0-.79-1.62H13.4l1.7-6.2a.85.85 0 0 0-1.4-.82z" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1" stroke-linejoin="round"/></svg>
         <span id="xp-n">0</span></span>
-      <button class="lp-km" id="kmap-open" title="Key map">🗺️</button>
+      <button class="lp-km" id="kmap-open" title="Key map"><svg viewBox="0 0 24 24" style="width:21px;height:21px;fill:#3b82f6"><path d="M9 2.6 4 4.4a1.5 1.5 0 0 0-1 1.4v13.9a1 1 0 0 0 1.34.94L9 18.9l6 2.3 5-1.8a1.5 1.5 0 0 0 1-1.4V4.06a1 1 0 0 0-1.34-.94L15 4.9zm6 4.1v11.9l-6-2.3V4.4z"/></svg></button>
     </div>
     <div class="lp-header" id="lp-header">
       <div class="ub-top" id="lph-top"></div>
@@ -285,10 +338,11 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 <div id="practice" class="screen">
   <div class="pad">
     <h1>Practice</h1>
-    <div class="card" style="border-color:var(--blue-soft);background:var(--blue-mist)">
+    <div class="small muted" style="margin-top:-8px">Keep every skill sharp with quick reviews</div>
+    <div class="review-hero">
       <h2>Recommended review</h2>
-      <div class="small muted" style="margin-top:2px">5 questions · About 2 minutes</div>
-      <button class="btn btn-blue btn-block" style="margin-top:12px" id="review-go">START REVIEW</button>
+      <div class="rh-sub">5 questions picked from your mistakes · About 2 minutes</div>
+      <button class="btn btn-block" id="review-go">START REVIEW</button>
     </div>
     <div class="card" id="weak-card" style="display:none">
       <h3>Weak skills</h3>
@@ -304,11 +358,11 @@ input[type=range]{width:100%;accent-color:var(--blue)}
   <div class="pad">
     <h1>Profile</h1>
     <div class="stat-grid">
-      <div class="stat"><div class="v" id="p-streak">0</div><div class="l">current streak</div></div>
-      <div class="stat"><div class="v" id="p-longest">0</div><div class="l">longest streak</div></div>
-      <div class="stat"><div class="v" id="p-lessons">0</div><div class="l">lessons completed</div></div>
-      <div class="stat"><div class="v" id="p-charted">0</div><div class="l">progressions charted</div></div>
-      <div class="stat"><div class="v" id="p-xp">0</div><div class="l">total XP</div></div>
+      <div class="stat"><div class="sic"><svg viewBox="0 0 24 24"><path d="M13.4 1.6c.7 3.4-1.5 5-2.9 6.7-1.4 1.7-2.6 3.2-2.6 5.7a6.1 6.1 0 0 0 12.2.3c.2-3.3-1.8-5.3-3-7-1-1.5-1.2-3-3.7-5.7z" fill="#fb923c"/><path d="M13.6 12.3c.4 1.7-1 2.4-1 3.7a2.4 2.4 0 0 0 4.8.1c.1-1.6-1-2.5-1.7-3.6-.5.9-1.1 1.3-2.1.1z" fill="#fde047"/></svg></div><div class="v" id="p-streak">0</div><div class="l">current streak</div></div>
+      <div class="stat"><div class="sic"><svg viewBox="0 0 24 24" fill="#f59e0b"><path d="M7 4h10v3a5 5 0 0 1-10 0zM5 5H3v2a3 3 0 0 0 3 3M19 5h2v2a3 3 0 0 1-3 3M9 13h6l-1 4h-4zM8 21h8v-2H8z"/></svg></div><div class="v" id="p-longest">0</div><div class="l">longest streak</div></div>
+      <div class="stat"><div class="sic"><svg viewBox="0 0 24 24" fill="#10b981"><circle cx="12" cy="12" r="10" opacity=".18"/><path d="M17.4 8.6 10.6 15.4 6.8 11.6l1.7-1.7 2.1 2.1 5.1-5.1z"/></svg></div><div class="v" id="p-lessons">0</div><div class="l">lessons completed</div></div>
+      <div class="stat"><div class="sic"><svg viewBox="0 0 24 24" fill="#14b8a6"><rect x="3" y="11" width="3.6" height="9" rx="1.4"/><rect x="10.2" y="5" width="3.6" height="15" rx="1.4"/><rect x="17.4" y="14" width="3.6" height="6" rx="1.4"/></svg></div><div class="v" id="p-charted">0</div><div class="l">progressions charted</div></div>
+      <div class="stat"><div class="sic"><svg viewBox="0 0 24 24"><path d="M13.7 1.8 4 13.4a1 1 0 0 0 .77 1.64H10l-1.4 6.5a.8.8 0 0 0 1.44.6l9.2-11.7a1 1 0 0 0-.79-1.62H13.4l1.7-6.2a.85.85 0 0 0-1.4-.82z" fill="#3b82f6"/></svg></div><div class="v" id="p-xp">0</div><div class="l">total XP</div></div>
     </div>
     <div class="card">
       <h3>Accuracy by skill</h3>
@@ -379,17 +433,32 @@ input[type=range]{width:100%;accent-color:var(--blue)}
   </div>
 </div>
 
+<div class="hello" id="hello" style="display:none">
+  <div class="hello-in">
+    <div class="hello-mark"><svg viewBox="0 0 100 100"><ellipse cx="38" cy="68" rx="15" ry="11"/><rect x="48" y="20" width="8" height="50" rx="4"/><path d="M48 20 q24 5 24 22 q-9 -11 -24 -9 z"/></svg></div>
+    <h1>tonic</h1>
+    <div class="hello-tag">Learn songs by ear</div>
+    <div class="hello-pts">
+      <div class="hello-pt"><span class="hp-ic">🎸</span><span>Hear real guitar chords and name them by number</span></div>
+      <div class="hello-pt"><span class="hp-ic">🗺️</span><span>One method that works in every key, major or minor</span></div>
+      <div class="hello-pt"><span class="hp-ic">⚡</span><span>A few minutes a day. Streaks and XP keep you honest</span></div>
+    </div>
+    <button class="hello-cta" id="hello-go">GET STARTED</button>
+    <button class="hello-skip" id="hello-skip">I already know my way around</button>
+  </div>
+</div>
+
 <nav>
   <button class="nav-btn on" data-go="learn">
-    <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+    <span class="nico"><svg viewBox="0 0 24 24"><path d="M12 2.8 3.6 9.9a1.2 1.2 0 0 0-.42.9V20a1.7 1.7 0 0 0 1.7 1.7h4.3v-5.6a1.5 1.5 0 0 1 1.5-1.5h2.64a1.5 1.5 0 0 1 1.5 1.5v5.6h4.3A1.7 1.7 0 0 0 20.82 20v-9.2a1.2 1.2 0 0 0-.42-.9z"/></svg></span>
     Learn
   </button>
   <button class="nav-btn" data-go="practice">
-    <svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+    <span class="nico"><svg viewBox="0 0 24 24"><rect x="1.6" y="9.2" width="2.8" height="5.6" rx="1.2"/><rect x="5" y="6.6" width="3.2" height="10.8" rx="1.5"/><rect x="15.8" y="6.6" width="3.2" height="10.8" rx="1.5"/><rect x="19.6" y="9.2" width="2.8" height="5.6" rx="1.2"/><rect x="8.6" y="10.5" width="6.8" height="3" rx="1.3"/></svg></span>
     Practice
   </button>
   <button class="nav-btn" data-go="profile">
-    <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+    <span class="nico"><svg viewBox="0 0 24 24"><circle cx="12" cy="7.3" r="4.3"/><path d="M12 13.5c-4.7 0-8.2 2.6-8.2 6.1A1.7 1.7 0 0 0 5.5 21.3h13a1.7 1.7 0 0 0 1.7-1.7c0-3.5-3.5-6.1-8.2-6.1z"/></svg></span>
     Profile
   </button>
 </nav>
@@ -405,6 +474,7 @@ if(ST.cur==null)ST.cur=0;
 if(!ST.doneL)ST.doneL={};
 if(!ST.streak)ST.streak={count:0,longest:0,last:''};
 if(ST.xp==null)ST.xp=0;
+if(ST.hello==null)ST.hello=false;
 if(!ST.skills)ST.skills={};
 if(!ST.mistakes)ST.mistakes=[];
 if(!ST.days)ST.days=[];
@@ -1854,6 +1924,9 @@ function step(){
   document.getElementById('les-count').textContent=(RUN.i+1)+'/'+RUN.steps.length;
   var body=document.getElementById('les-body');
   body.innerHTML='';
+  body.classList.remove('anim');
+  void body.offsetWidth;
+  body.classList.add('anim');
   if(s.kind==='explain')renderExplain(body,s.les);
   else if(s.kind==='read')renderRead(body,s);
   else renderQ(body,s);
@@ -2086,6 +2159,32 @@ function showFb(ok){
   if(ok&&Q.fbOk.play){var fp=Q.fbOk.play;fbTimer=setTimeout(function(){fp();},500);}
 }
 function hideFb(){document.getElementById('fb').classList.remove('up');}
+function confettiBurst(){
+  var host=document.getElementById('lesson');
+  var colors=['#3b82f6','#8b5cf6','#f59e0b','#10b981','#ec4899','#f43f5e','#facc15'];
+  var wrap=document.createElement('div');wrap.className='confetti';
+  for(var i=0;i<30;i++){
+    var p=document.createElement('i');
+    p.style.left=(4+Math.random()*92)+'%';
+    p.style.background=colors[i%colors.length];
+    p.style.animationDelay=(Math.random()*0.3)+'s';
+    p.style.animationDuration=(0.95+Math.random()*0.8)+'s';
+    if(Math.random()<0.4)p.style.borderRadius='50%';
+    wrap.appendChild(p);
+  }
+  host.appendChild(wrap);
+  setTimeout(function(){try{wrap.remove();}catch(e){}},2400);
+}
+function countUpXp(el,to){
+  var t0=null;
+  function frame(t){
+    if(t0==null)t0=t;
+    var p=Math.min(1,(t-t0)/650);
+    el.textContent='+'+Math.round(to*(0.5-Math.cos(Math.PI*p)/2))+' XP';
+    if(p<1)requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+}
 function finish(){
   clearTimeout(fbTimer);clearTimeout(apTimer);
   cut();
@@ -2118,7 +2217,10 @@ function finish(){
   });
   var xpc=document.createElement('div');
   xpc.style.cssText='display:flex;justify-content:center;gap:8px;margin-top:14px';
-  xpc.innerHTML='<span class="spill xp" style="background:var(--blue-mist);padding:7px 14px;border-radius:12px"><svg viewBox="0 0 24 24"><path d="M12 2 3 7v10l9 5 9-5V7z" fill="#3b82f6"/><path d="M12 2 3 7l9 5 9-5z" fill="#60a5fa"/></svg>+'+xpGain+' XP</span>'+(!hadStreak?'<span class="spill streak" style="background:var(--warn-soft);padding:7px 14px;border-radius:12px"><svg viewBox="0 0 24 24"><path d="M12 2c1 3 4 4.5 4 8a4 4 0 0 1-8 0c0-1 .3-1.8.8-2.5C9 9 8 10.5 8 12.5a4 4 0 0 0 8 0c0-3.5-2-5.5-4-10.5z" fill="#f59e0b"/></svg>Day '+ST.streak.count+'</span>':'');
+  xpc.innerHTML='<span class="spill xp" style="background:var(--blue-mist);padding:8px 15px;border-radius:13px"><svg viewBox="0 0 24 24" style="width:20px;height:20px"><path d="M13.7 1.8 4 13.4a1 1 0 0 0 .77 1.64H10l-1.4 6.5a.8.8 0 0 0 1.44.6l9.2-11.7a1 1 0 0 0-.79-1.62H13.4l1.7-6.2a.85.85 0 0 0-1.4-.82z" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1" stroke-linejoin="round"/></svg><span id="xp-count">+0 XP</span></span>'+
+    (!hadStreak?'<span class="spill streak" style="background:var(--warn-soft);padding:8px 15px;border-radius:13px"><svg viewBox="0 0 24 24" style="width:20px;height:20px"><path d="M13.4 1.6c.7 3.4-1.5 5-2.9 6.7-1.4 1.7-2.6 3.2-2.6 5.7a6.1 6.1 0 0 0 12.2.3c.2-3.3-1.8-5.3-3-7-1-1.5-1.2-3-3.7-5.7z" fill="#fb923c"/><path d="M13.6 12.3c.4 1.7-1 2.4-1 3.7a2.4 2.4 0 0 0 4.8.1c.1-1.6-1-2.5-1.7-3.6-.5.9-1.1 1.3-2.1.1z" fill="#fde047"/></svg>Day '+ST.streak.count+'</span>':'');
+  setTimeout(function(){var xc=document.getElementById('xp-count');if(xc)countUpXp(xc,xpGain);},200);
+  if(!isIntro&&acc>=70)confettiBurst();
   body.appendChild(face);body.appendChild(a);body.appendChild(n);body.appendChild(xpc);body.appendChild(b);
   document.getElementById('les-bar').style.width='100%';
 }
@@ -2361,12 +2463,14 @@ function renderPractice(){
   } else wc.style.display='none';
   var grid=document.getElementById('skill-grid');
   grid.innerHTML='';
+  var SKILL_COLOR={home:'#3b82f6',majmin:'#8b5cf6',num:'#f59e0b',prog:'#14b8a6',names:'#6366f1',minor:'#a855f7',col:'#ec4899',mel:'#10b981'};
   SKILLS_LIST.forEach(function(s){
     var unlocked=skillUnlocked(s.id);
     var t=document.createElement('div');t.className='skill-tile';
     var acc=recentAcc(s.id);
-    t.innerHTML='<span class="nm">'+s.name+'</span><span class="ac">'+
-      (acc!=null?Math.round(acc*100)+'% recently':'Not practiced yet')+'</span>';
+    t.innerHTML='<span class="skill-ic" style="background:'+(SKILL_COLOR[s.id]||'#3b82f6')+'">'+nodeIcon(s.id)+'</span>'+
+      '<span style="display:flex;flex-direction:column;gap:2px;min-width:0"><span class="nm">'+s.name+'</span><span class="ac">'+
+      (acc!=null?Math.round(acc*100)+'% recently':'Not practiced yet')+'</span></span>';
     if(unlocked)t.addEventListener('click',function(){
       run(function(){});
       startRound(s.name,[s.defSpec,s.defSpec,s.defSpec,s.defSpec,s.defSpec],'practice');
@@ -2425,6 +2529,17 @@ document.querySelectorAll('.nav-btn').forEach(function(b){
 /* ================= INIT ================= */
 renderAll();
 go('learn');
+(function(){
+  var h=document.getElementById('hello');
+  if(!ST.hello){h.style.display='flex';}
+  function dismiss(startFirst){
+    ST.hello=true;save();
+    h.style.display='none';
+    if(startFirst){run(function(){});startLesson(firstIncomplete());}
+  }
+  document.getElementById('hello-go').addEventListener('click',function(){dismiss(true);});
+  document.getElementById('hello-skip').addEventListener('click',function(){dismiss(false);});
+})();
 </script>
 </body>
 </html>
