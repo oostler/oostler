@@ -185,19 +185,24 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .km-card .km-sub{font-size:11.5px;font-weight:600;color:var(--muted)}
 .path{position:relative;padding:0 0 44px}
 .unit-sec{position:relative}
-.unit-banner{position:sticky;top:50px;z-index:8;color:#fff;border-radius:16px;padding:13px 16px;margin:12px 0 2px;box-shadow:0 4px 0 var(--ubd)}
-.unit-banner .ub-top{font-size:10px;font-weight:800;letter-spacing:.11em;text-transform:uppercase;opacity:.85}
-.unit-banner h3{color:#fff;font-size:15.5px;margin-top:1px}
-.unit-banner .ub-goal{color:#fff;opacity:.88;font-size:12px;margin-top:2px}
-.unit-banner .ub-prog{margin-top:9px;height:7px;background:rgba(255,255,255,.3);border-radius:99px;overflow:hidden}
-.unit-banner .ub-prog>div{height:100%;background:#fff;border-radius:99px;transition:width .3s}
-.unit-banner .ub-badge{display:inline-flex;align-items:center;gap:5px;background:rgba(255,255,255,.22);color:#fff;font-size:11px;font-weight:800;border-radius:99px;padding:3px 10px;margin-top:8px}
-.unit-nodes{position:relative;padding:20px 0 8px;z-index:1}
-.node-wrap{position:relative;display:flex;flex-direction:column;align-items:center;gap:8px;padding:16px 0}
+.lp-header{position:sticky;top:64px;z-index:9;color:#fff;border-radius:16px;padding:13px 16px;margin:0 0 6px;box-shadow:0 4px 0 var(--lphd);transition:background-color .35s ease,box-shadow .35s ease}
+.lp-header .ub-top{font-size:10px;font-weight:800;letter-spacing:.11em;text-transform:uppercase;opacity:.85}
+.lp-header h3{color:#fff;font-size:15.5px;margin-top:1px}
+.lp-header .ub-goal{color:#fff;opacity:.88;font-size:12px;margin-top:2px}
+.lp-header .ub-prog{margin-top:9px;height:7px;background:rgba(255,255,255,.3);border-radius:99px;overflow:hidden}
+.lp-header .ub-prog>div{height:100%;background:#fff;border-radius:99px;transition:width .3s}
+.unit-divider{display:flex;align-items:center;gap:12px;margin:30px 6px 2px;color:var(--dvc,#94a3b8)}
+.unit-divider:before,.unit-divider:after{content:'';height:2px;flex:1;background:currentColor;opacity:.32;border-radius:2px}
+.unit-divider span{font-size:11px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;white-space:nowrap;color:var(--dvc,#94a3b8)}
+.unit-divider.first{display:none}
+.unit-nodes{position:relative;padding:30px 0 10px;z-index:1}
+.node-wrap{position:relative;display:flex;flex-direction:column;align-items:center;gap:8px;padding:17px 0;scroll-margin-top:150px}
 .node{width:68px;height:68px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;border:none;font-family:inherit;transition:transform .08s;position:relative}
 .node:active{transform:translateY(4px)}
 .node.done{background:var(--nc);box-shadow:0 6px 0 var(--nd)}
 .node.future{background:var(--nc);box-shadow:0 6px 0 var(--nd);filter:saturate(.4) brightness(1.28) opacity(.85)}
+.node.locked{background:#e2e8f0;box-shadow:0 6px 0 #cbd5e1}
+.node.locked svg{fill:#94a3b8;stroke:#94a3b8}
 .node.done:active,.node.future:active{box-shadow:0 2px 0 var(--nd)}
 .node.cur{background:#fff;box-shadow:0 6px 0 var(--nd),0 0 0 4px var(--nc);animation:bob 1.7s ease-in-out infinite}
 .node svg{width:32px;height:32px}
@@ -211,7 +216,9 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .unit-trophy{display:flex;flex-direction:column;align-items:center;gap:7px;padding:6px 0 2px}
 .unit-trophy .tnode{width:74px;height:74px;border-radius:22px;display:flex;align-items:center;justify-content:center;background:var(--nc);box-shadow:0 6px 0 var(--nd);cursor:pointer}
 .unit-trophy .tnode svg{width:38px;height:38px;fill:#fff}
-.unit-trophy.locked .tnode{filter:saturate(.4) brightness(1.28) opacity(.85)}
+.unit-trophy.dim .tnode{filter:saturate(.45) brightness(1.25) opacity(.9)}
+.unit-trophy.grey .tnode{background:#e2e8f0;box-shadow:0 6px 0 #cbd5e1}
+.unit-trophy.grey .tnode svg{fill:#94a3b8}
 .read-card{background:var(--blue-mist);border:2px solid var(--blue-soft);border-radius:var(--r);padding:18px;font-size:15px;line-height:1.5}
 .read-h{font-size:19px;font-weight:800;text-align:center;margin-top:8px}
 .read-demo{display:inline-flex;align-items:center;gap:8px;background:var(--blue);color:#fff;border:none;border-bottom:4px solid var(--blue-press);border-radius:13px;padding:11px 18px;font-family:inherit;font-weight:800;font-size:14px;cursor:pointer;margin:2px auto}
@@ -220,7 +227,7 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .read-dots{display:flex;gap:6px;justify-content:center;margin-top:4px}
 .read-dots span{width:7px;height:7px;border-radius:50%;background:var(--border)}
 .read-dots span.on{background:var(--blue)}
-.lp-stats{position:sticky;top:0;z-index:20;background:var(--bg);display:flex;align-items:center;gap:16px;padding:12px 4px 8px}
+.lp-stats{position:sticky;top:0;z-index:30;background:var(--bg);display:flex;align-items:center;gap:16px;padding:12px 4px 10px;min-height:54px}
 .brand-mini{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#2563eb,#3b82f6);display:flex;align-items:center;justify-content:center;box-shadow:0 2px 0 #1e40af;flex-shrink:0}
 .brand-mini svg{width:16px;height:16px;fill:#fff}
 .spill{display:inline-flex;align-items:center;gap:6px;font-weight:800;font-size:15.5px}
@@ -254,9 +261,19 @@ input[type=range]{width:100%;accent-color:var(--blue)}
   <div class="pad" style="padding-top:0">
     <div class="lp-stats">
       <div class="brand-mini"><svg viewBox="0 0 100 100"><ellipse cx="38" cy="68" rx="15" ry="11"/><rect x="48" y="20" width="8" height="50" rx="4"/><path d="M48 20 q24 5 24 22 q-9 -11 -24 -9 z"/></svg></div>
-      <span class="spill streak"><svg viewBox="0 0 24 24"><path d="M12 2c1 3 4 4.5 4 8a4 4 0 0 1-8 0c0-1 .3-1.8.8-2.5C9 9 8 10.5 8 12.5a4 4 0 0 0 8 0c0-3.5-2-5.5-4-10.5z" fill="#f59e0b"/></svg><span id="streak-n">0</span></span>
-      <span class="spill xp"><svg viewBox="0 0 24 24"><path d="M12 2 3 7v10l9 5 9-5V7z" fill="#3b82f6"/><path d="M12 2 3 7l9 5 9-5z" fill="#60a5fa"/></svg><span id="xp-n">0</span></span>
+      <span class="spill streak">
+        <svg viewBox="0 0 24 24"><path d="M13.4 1.6c.7 3.4-1.5 5-2.9 6.7-1.4 1.7-2.6 3.2-2.6 5.7a6.1 6.1 0 0 0 12.2.3c.2-3.3-1.8-5.3-3-7-1-1.5-1.2-3-3.7-5.7z" fill="#fb923c"/><path d="M13 2c.6 4-2.4 5.2-3.9 7.4A6.3 6.3 0 0 0 8 13.7 5 5 0 0 0 18 14c.2-2.6-1.3-4.2-2.4-5.8-.9 1.3-1.7 1.9-2.8 1.4 1.2-1.9 1.5-4.4.2-7.6z" fill="#f97316"/><path d="M13.6 12.3c.4 1.7-1 2.4-1 3.7a2.4 2.4 0 0 0 4.8.1c.1-1.6-1-2.5-1.7-3.6-.5.9-1.1 1.3-2.1.1z" fill="#fde047"/></svg>
+        <span id="streak-n">0</span></span>
+      <span class="spill xp">
+        <svg viewBox="0 0 24 24"><path d="M13.7 1.8 4 13.4a1 1 0 0 0 .77 1.64H10l-1.4 6.5a.8.8 0 0 0 1.44.6l9.2-11.7a1 1 0 0 0-.79-1.62H13.4l1.7-6.2a.85.85 0 0 0-1.4-.82z" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1" stroke-linejoin="round"/></svg>
+        <span id="xp-n">0</span></span>
       <button class="lp-km" id="kmap-open" title="Key map">🗺️</button>
+    </div>
+    <div class="lp-header" id="lp-header">
+      <div class="ub-top" id="lph-top"></div>
+      <h3 id="lph-name"></h3>
+      <div class="ub-goal" id="lph-goal"></div>
+      <div class="ub-prog"><div id="lph-prog" style="width:0%"></div></div>
     </div>
     <div class="path" id="path"></div>
   </div>
@@ -1726,12 +1743,13 @@ function firstIncomplete(){
 }
 function skillUnlocked(id){return true;}
 var UNIT_PAL=[
- {c:'#2563eb',d:'#1e40af'},{c:'#0ea5e9',d:'#0369a1'},{c:'#8b5cf6',d:'#6d28d9'},
- {c:'#f59e0b',d:'#b45309'},{c:'#10b981',d:'#047857'},{c:'#ec4899',d:'#be185d'},
- {c:'#06b6d4',d:'#0e7490'},{c:'#f97316',d:'#c2410c'},{c:'#6366f1',d:'#4338ca'},
- {c:'#eab308',d:'#a16207'},{c:'#a855f7',d:'#7e22ce'},{c:'#14b8a6',d:'#0f766e'},
- {c:'#ef4444',d:'#b91c1c'},{c:'#3b82f6',d:'#1d4ed8'},{c:'#22c55e',d:'#15803d'}
+ {c:'#3b82f6',d:'#1d4ed8'},{c:'#8b5cf6',d:'#6d28d9'},{c:'#14b8a6',d:'#0f766e'},
+ {c:'#f43f5e',d:'#be123c'},{c:'#f59e0b',d:'#b45309'},{c:'#6366f1',d:'#4338ca'},
+ {c:'#10b981',d:'#047857'},{c:'#ec4899',d:'#be185d'},{c:'#06b6d4',d:'#0e7490'},
+ {c:'#a855f7',d:'#7e22ce'},{c:'#f97316',d:'#c2410c'},{c:'#0ea5e9',d:'#0369a1'},
+ {c:'#22c55e',d:'#15803d'},{c:'#d946ef',d:'#a21caf'},{c:'#eab308',d:'#a16207'}
 ];
+var GREY_PAL={c:'#cbd5e1',d:'#94a3b8'};
 function unitPal(ui){return UNIT_PAL[ui%UNIT_PAL.length];}
 var NODE_ICON={
  intro:'<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" fill="none" stroke-width="2.1"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" fill="none" stroke-width="2.1" stroke-linejoin="round"/>',
@@ -2208,6 +2226,37 @@ document.getElementById('kmap-x').addEventListener('click',function(){go('learn'
 document.getElementById('km-maj').addEventListener('click',function(){KM_MODE='maj';renderKmap();});
 document.getElementById('km-min').addEventListener('click',function(){KM_MODE='min';renderKmap();});
 
+var UNIT_META=[];
+function applyHeader(ui){
+  var m=UNIT_META[ui];if(!m)return;
+  var hd=document.getElementById('lp-header');
+  hd.style.background=m.c;hd.style.setProperty('--lphd',m.d);
+  document.getElementById('lph-top').textContent=m.top;
+  document.getElementById('lph-name').textContent=m.name;
+  document.getElementById('lph-goal').textContent=m.goal;
+  document.getElementById('lph-prog').style.width=m.prog+'%';
+}
+var _curHeaderUi=-1;
+function updateStickyHeader(){
+  var hd=document.getElementById('lp-header');
+  if(!hd)return;
+  var hb=hd.getBoundingClientRect().bottom;
+  var secs=document.querySelectorAll('#path .unit-sec');
+  var cur=0;
+  for(var i=0;i<secs.length;i++){
+    if(secs[i].getBoundingClientRect().top<=hb+6)cur=i;else break;
+  }
+  if(cur!==_curHeaderUi){_curHeaderUi=cur;applyHeader(cur);}
+}
+var _scrollBound=false;
+function bindHeaderScroll(){
+  if(_scrollBound)return;_scrollBound=true;
+  var ticking=false;
+  window.addEventListener('scroll',function(){
+    if(ticking)return;ticking=true;
+    requestAnimationFrame(function(){updateStickyHeader();ticking=false;});
+  },{passive:true});
+}
 function renderLearn(){
   document.getElementById('streak-n').textContent=ST.streak.count;
   document.getElementById('xp-n').textContent=ST.xp;
@@ -2215,38 +2264,37 @@ function renderLearn(){
   ST.cur=fi;
   var path=document.getElementById('path');
   path.innerHTML='';
+  UNIT_META=[];
   var idx=0;
   var curNodeEl=null;
   UNITS.forEach(function(u,ui){
     var start=idx;
     idx+=u.lessons.length;
-    var pal=unitPal(ui);
+    var reached=start<=fi;
+    var greyUnit=!reached;
+    var pal=reached?unitPal(ui):GREY_PAL;
     var doneCount=0;
     u.lessons.forEach(function(_,li){if(ST.doneL[start+li])doneCount++;});
     var unitDone=doneCount>=u.lessons.length;
+    var hpal=unitPal(ui);
+    UNIT_META.push({
+      c:hpal.c,d:hpal.d,
+      top:u.intro?'WELCOME':'UNIT '+ui+' · '+u.part.toUpperCase(),
+      name:u.name,goal:u.goal,
+      prog:Math.round(doneCount/u.lessons.length*100)
+    });
     var sec=document.createElement('div');sec.className='unit-sec';
-    /* sticky banner */
-    var ban=document.createElement('div');ban.className='unit-banner';
-    ban.style.background=pal.c;ban.style.setProperty('--ubd',pal.d);
-    var top=document.createElement('div');top.className='ub-top';top.textContent=(u.intro?'WELCOME':'UNIT '+ui+' · '+u.part.toUpperCase());
-    var h=document.createElement('h3');h.textContent=u.name;
-    var goal=document.createElement('div');goal.className='ub-goal';goal.textContent=u.goal;
-    ban.appendChild(top);ban.appendChild(h);ban.appendChild(goal);
-    if(unitDone){
-      var bd=document.createElement('div');bd.className='ub-badge';bd.textContent='✓ Complete';ban.appendChild(bd);
-    } else {
-      var pr=document.createElement('div');pr.className='ub-prog';
-      var pf=document.createElement('div');pf.style.width=Math.round(doneCount/u.lessons.length*100)+'%';
-      pr.appendChild(pf);ban.appendChild(pr);
-    }
-    sec.appendChild(ban);
+    /* in-flow divider announcing the unit */
+    var dv=document.createElement('div');dv.className='unit-divider'+(ui===0?' first':'');
+    var dvs=document.createElement('span');dvs.textContent=u.name;
+    dv.appendChild(dvs);sec.appendChild(dv);
     /* nodes */
     var col=document.createElement('div');col.className='unit-nodes';
     u.lessons.forEach(function(L,li){
       var gi=start+li;
       var done=!!ST.doneL[gi];
       var isCur=gi===fi;
-      var state=done?'done':isCur?'cur':'future';
+      var state=done?'done':isCur?'cur':(greyUnit?'locked':'future');
       var wrap=document.createElement('div');wrap.className='node-wrap';
       var off=Math.round(Math.sin(li*0.95)*40)*2;
       wrap.style.marginLeft=off+'px';
@@ -2266,7 +2314,7 @@ function renderLearn(){
       col.appendChild(wrap);
     });
     /* trophy finale */
-    var tw=document.createElement('div');tw.className='unit-trophy'+(unitDone?'':' locked');
+    var tw=document.createElement('div');tw.className='unit-trophy'+(unitDone?'':greyUnit?' grey':' dim');
     var tn=document.createElement('div');tn.className='tnode';tn.style.setProperty('--nc',pal.c);tn.style.setProperty('--nd',pal.d);
     tn.innerHTML=TROPHY_SVG;
     var tc=document.createElement('div');tc.className='node-cap';tc.textContent=unitDone?'Unit complete':'Finish the unit';
@@ -2276,12 +2324,20 @@ function renderLearn(){
     path.appendChild(sec);
   });
   if(fi>=LESSONS.length){
-    var doneb=document.createElement('div');doneb.className='unit-banner';doneb.style.background='#22c55e';doneb.style.setProperty('--ubd','#15803d');
-    doneb.innerHTML='<div class="ub-top">You did it</div><h3>Course complete</h3><div class="ub-goal">Keep your ears sharp with the daily review in Practice.</div>';
+    UNIT_META.push({c:'#22c55e',d:'#15803d',top:'YOU DID IT',name:'Course complete',goal:'Keep sharp with the daily review in Practice.',prog:100});
+    var doneb=document.createElement('div');doneb.className='unit-sec';
+    doneb.innerHTML='<div class="unit-divider" style="--dvc:#22c55e"><span>Course complete</span></div>';
     path.appendChild(doneb);
   }
+  /* set header to the unit containing the current lesson */
+  var curUnit=0,acc=0;
+  for(var ui2=0;ui2<UNITS.length;ui2++){var n=UNITS[ui2].lessons.length;if(fi<acc+n){curUnit=ui2;break;}acc+=n;curUnit=ui2;}
+  _curHeaderUi=curUnit;applyHeader(curUnit);
+  bindHeaderScroll();
   if(curNodeEl&&fi>0){
-    setTimeout(function(){try{curNodeEl.scrollIntoView({block:'center'});}catch(e){}},30);
+    setTimeout(function(){try{curNodeEl.scrollIntoView({block:'center'});setTimeout(updateStickyHeader,60);}catch(e){}},30);
+  } else {
+    setTimeout(updateStickyHeader,60);
   }
 }
 function renderPractice(){
