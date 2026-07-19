@@ -172,7 +172,7 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .seat-row:active{transform:translateY(2px);border-bottom-width:2px;margin-bottom:2px}
 .seat-row.home{border-color:var(--blue);background:var(--blue-mist)}
 .seat-num{font-size:20px;font-weight:800;width:46px;color:var(--blue)}
-.seat-tag{font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;border-radius:99px;padding:3px 9px}
+.seat-tag{font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;border-radius:99px;padding:5px 12px;white-space:nowrap;flex-shrink:0}
 .seat-tag.mj{background:var(--warn-soft);color:#92400e}
 .seat-tag.mn{background:#ede9fe;color:#6d28d9}
 .seat-tag.dm{background:var(--bad-soft);color:var(--bad)}
@@ -206,14 +206,14 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .node.locked{background:#e5e9f0;box-shadow:0 7px 0 #cdd4de}
 .node.locked svg{fill:#a6b1c2;stroke:#a6b1c2}
 .node.locked:before{background:linear-gradient(118deg,rgba(255,255,255,0) 32%,rgba(255,255,255,.45) 32%,rgba(255,255,255,.45) 52%,rgba(255,255,255,0) 52%)}
-.node.cur{width:88px;height:74px;animation:bob 1.7s ease-in-out infinite}
-.node.cur:after{content:'';position:absolute;inset:-5px;border-radius:50%;border:4px solid var(--nc);opacity:.6;animation:pulse 1.8s ease-out infinite;pointer-events:none}
-@keyframes pulse{0%{transform:scale(1);opacity:.55}70%{opacity:0}100%{transform:scale(1.45);opacity:0}}
+.node.cur{width:88px;height:74px}
+.node.cur:after{content:'';position:absolute;left:50%;top:50%;width:calc(100% + 12px);height:calc(100% + 12px);border-radius:50%;border:4px solid var(--nc);animation:pulse 1.8s ease-out infinite;pointer-events:none}
+@keyframes pulse{0%{transform:translate(-50%,-50%) scale(1);opacity:.55}70%{opacity:.06}100%{transform:translate(-50%,-50%) scale(1.42);opacity:0}}
 .node svg{width:34px;height:34px;filter:drop-shadow(0 1.5px 0 rgba(0,0,0,.14))}
 .node svg,.node.cur svg{fill:#fff;stroke:#fff}
 .node.just{animation:justPop .55s cubic-bezier(.34,1.56,.64,1)}
 @keyframes justPop{0%{transform:scale(.6)}60%{transform:scale(1.14)}100%{transform:scale(1)}}
-.start-bubble{position:absolute;top:-36px;left:50%;transform:translateX(-50%);background:#fff;color:var(--nc);font-weight:900;font-size:12px;letter-spacing:.09em;padding:6px 14px;border-radius:12px;box-shadow:0 3px 0 rgba(148,163,184,.55);white-space:nowrap;z-index:3;animation:bob 1.7s ease-in-out infinite}
+.start-bubble{position:absolute;top:-36px;left:50%;transform:translateX(-50%);background:#fff;color:var(--nc);font-weight:900;font-size:12px;letter-spacing:.09em;padding:6px 14px;border-radius:12px;box-shadow:0 3px 0 rgba(148,163,184,.55);white-space:nowrap;z-index:3}
 .start-bubble:after{content:'';position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);border:6px solid transparent;border-top-color:#fff;border-bottom:0}
 @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
 .unit-trophy{display:flex;flex-direction:column;align-items:center;gap:7px;padding:12px 0 4px}
@@ -245,13 +245,13 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .emap-tog button{flex:1;padding:8px 0;border:2px solid var(--border);border-bottom-width:3px;border-radius:11px;background:var(--card);font-family:inherit;font-weight:800;font-size:13px;color:var(--fg);cursor:pointer}
 .emap-tog button.on{background:var(--blue);border-color:var(--blue-press);color:#fff}
 .emap-keys{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:10px}
-.emap-keys button{padding:7px 0;border:2px solid var(--border);border-radius:10px;background:var(--card);font-family:inherit;font-weight:800;font-size:12.5px;color:var(--fg);cursor:pointer}
+.emap-keys button{padding:10px 4px;border:2px solid var(--border);border-radius:11px;background:var(--card);font-family:inherit;font-weight:800;font-size:11.5px;color:var(--fg);cursor:pointer;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .emap-keys button.on{background:var(--blue);border-color:var(--blue-press);color:#fff}
 .emap-seat{display:flex;align-items:center;gap:11px;background:var(--card);border:2px solid var(--border);border-bottom-width:3px;border-radius:13px;padding:9px 12px;cursor:pointer;margin-bottom:6px}
 .emap-seat:active{transform:translateY(2px);border-bottom-width:1px}
 .emap-seat.home{border-color:var(--blue);background:var(--blue-mist)}
 .emap-seat .es-num{font-size:18px;font-weight:800;width:40px;color:var(--blue)}
-.emap-seat .es-tag{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;border-radius:99px;padding:3px 8px}
+.emap-seat .es-tag{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;border-radius:99px;padding:5px 11px;white-space:nowrap;flex-shrink:0}
 .es-tag.mj{background:var(--warn-soft);color:#92400e}.es-tag.mn{background:#ede9fe;color:#6d28d9}.es-tag.dm{background:var(--bad-soft);color:var(--bad)}
 .emap-seat .es-name{margin-left:auto;font-weight:800;font-size:15px}
 .emap-note{font-size:11.5px;color:var(--muted);text-align:center;margin-top:8px}
@@ -335,6 +335,23 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .gig-stars svg{width:44px;height:44px}
 .gact{display:flex;align-items:center;gap:9px;background:var(--card);border:2px solid var(--border);border-radius:13px;padding:9px 13px;font-weight:700;font-size:13.5px}
 .gact .ga-mark{margin-left:auto;font-weight:900}
+.key-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}
+.key-btn{padding:11px 4px;border:2px solid var(--border);border-bottom-width:3px;border-radius:12px;background:var(--card);font-family:inherit;font-size:12px;font-weight:800;color:var(--fg);cursor:pointer;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.key-btn.on{background:var(--blue);border-color:var(--blue-press);color:#fff}
+.shop-bal{display:flex;align-items:center;justify-content:center;gap:8px;font-weight:900;font-size:19px;color:#b45309;background:#fef3c7;border-radius:14px;padding:11px}
+.shop-bal svg{width:24px;height:24px}
+.gcard{display:flex;align-items:center;gap:13px;background:var(--card);border:2px solid var(--border);border-bottom-width:4px;border-radius:18px;padding:13px 15px}
+.gcard.equipped{border-color:var(--blue);background:var(--blue-mist)}
+.gcard .g-em{width:52px;height:52px;border-radius:16px;background:linear-gradient(135deg,#eef2f7,#e2e8f0);display:flex;align-items:center;justify-content:center;font-size:27px;flex-shrink:0;box-shadow:inset 0 -3px 0 rgba(0,0,0,.06)}
+.gcard .g-n{font-weight:800;font-size:14.5px}
+.gcard .g-d{font-size:11.5px;color:var(--muted)}
+.gbuy{margin-left:auto;flex-shrink:0;border:none;border-bottom:3px solid;border-radius:12px;padding:9px 13px;font-family:inherit;font-weight:800;font-size:12.5px;cursor:pointer;display:flex;align-items:center;gap:5px;white-space:nowrap}
+.gbuy.buy{background:#fbbf24;border-color:#d97706;color:#78350f}
+.gbuy.cant{background:#f1f5f9;border-color:#cbd5e1;color:#94a3b8;pointer-events:none}
+.gbuy.own{background:var(--card);border-color:var(--border);color:var(--blue);border-width:2px;border-bottom-width:3px}
+.gbuy.equipped{background:var(--blue);border-color:var(--blue-press);color:#fff;pointer-events:none}
+.gbuy:active{transform:translateY(2px);border-bottom-width:1px}
+.gbuy svg{width:15px;height:15px}
 </style>
 </head>
 <body>
@@ -348,8 +365,8 @@ input[type=range]{width:100%;accent-color:var(--blue)}
       <span class="spill streak">
         <svg viewBox="0 0 24 24"><path d="M13.4 1.6c.7 3.4-1.5 5-2.9 6.7-1.4 1.7-2.6 3.2-2.6 5.7a6.1 6.1 0 0 0 12.2.3c.2-3.3-1.8-5.3-3-7-1-1.5-1.2-3-3.7-5.7z" fill="#fb923c"/><path d="M13 2c.6 4-2.4 5.2-3.9 7.4A6.3 6.3 0 0 0 8 13.7 5 5 0 0 0 18 14c.2-2.6-1.3-4.2-2.4-5.8-.9 1.3-1.7 1.9-2.8 1.4 1.2-1.9 1.5-4.4.2-7.6z" fill="#f97316"/><path d="M13.6 12.3c.4 1.7-1 2.4-1 3.7a2.4 2.4 0 0 0 4.8.1c.1-1.6-1-2.5-1.7-3.6-.5.9-1.1 1.3-2.1.1z" fill="#fde047"/></svg>
         <span id="streak-n">0</span></span>
-      <span class="spill xp">
-        <svg viewBox="0 0 24 24"><path d="M13.7 1.8 4 13.4a1 1 0 0 0 .77 1.64H10l-1.4 6.5a.8.8 0 0 0 1.44.6l9.2-11.7a1 1 0 0 0-.79-1.62H13.4l1.7-6.2a.85.85 0 0 0-1.4-.82z" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1" stroke-linejoin="round"/></svg>
+      <span class="spill xp" id="coin-pill" style="cursor:pointer" title="Guitar shop">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#fbbf24" stroke="#d97706" stroke-width="1.6"/><circle cx="12" cy="12" r="6.6" fill="none" stroke="#d97706" stroke-width="1.2" opacity=".5"/><path d="M13.8 7.6v5.4a2.1 2.1 0 1 1-1.3-1.94V9.2l-2.5.55V8.2l3.8-.85z" fill="#92400e"/></svg>
         <span id="xp-n">0</span></span>
       <button class="lp-km" id="kmap-open" title="Key map"><svg viewBox="0 0 24 24" style="width:21px;height:21px;fill:#3b82f6"><path d="M9 2.6 4 4.4a1.5 1.5 0 0 0-1 1.4v13.9a1 1 0 0 0 1.34.94L9 18.9l6 2.3 5-1.8a1.5 1.5 0 0 0 1-1.4V4.06a1 1 0 0 0-1.34-.94L15 4.9zm6 4.1v11.9l-6-2.3V4.4z"/></svg></button>
     </div>
@@ -391,12 +408,21 @@ input[type=range]{width:100%;accent-color:var(--blue)}
       <div class="stat"><div class="sic"><svg viewBox="0 0 24 24" fill="#f59e0b"><path d="M7 4h10v3a5 5 0 0 1-10 0zM5 5H3v2a3 3 0 0 0 3 3M19 5h2v2a3 3 0 0 1-3 3M9 13h6l-1 4h-4zM8 21h8v-2H8z"/></svg></div><div class="v" id="p-longest">0</div><div class="l">longest streak</div></div>
       <div class="stat"><div class="sic"><svg viewBox="0 0 24 24" fill="#10b981"><circle cx="12" cy="12" r="10" opacity=".18"/><path d="M17.4 8.6 10.6 15.4 6.8 11.6l1.7-1.7 2.1 2.1 5.1-5.1z"/></svg></div><div class="v" id="p-lessons">0</div><div class="l">lessons completed</div></div>
       <div class="stat"><div class="sic"><svg viewBox="0 0 24 24" fill="#14b8a6"><rect x="3" y="11" width="3.6" height="9" rx="1.4"/><rect x="10.2" y="5" width="3.6" height="15" rx="1.4"/><rect x="17.4" y="14" width="3.6" height="6" rx="1.4"/></svg></div><div class="v" id="p-charted">0</div><div class="l">progressions charted</div></div>
-      <div class="stat"><div class="sic"><svg viewBox="0 0 24 24"><path d="M13.7 1.8 4 13.4a1 1 0 0 0 .77 1.64H10l-1.4 6.5a.8.8 0 0 0 1.44.6l9.2-11.7a1 1 0 0 0-.79-1.62H13.4l1.7-6.2a.85.85 0 0 0-1.4-.82z" fill="#3b82f6"/></svg></div><div class="v" id="p-xp">0</div><div class="l">total XP</div></div>
+      <div class="stat"><div class="sic"><svg viewBox="0 0 24 24"><path d="M13.7 1.8 4 13.4a1 1 0 0 0 .77 1.64H10l-1.4 6.5a.8.8 0 0 0 1.44.6l9.2-11.7a1 1 0 0 0-.79-1.62H13.4l1.7-6.2a.85.85 0 0 0-1.4-.82z" fill="#3b82f6"/></svg></div><div class="v" id="p-xp">0</div><div class="l">coins earned</div></div>
       <div class="stat"><div class="sic"><svg viewBox="0 0 24 24" fill="#8b5cf6"><path d="M12 2a3.2 3.2 0 0 0-3.2 3.2v5a3.2 3.2 0 0 0 6.4 0v-5A3.2 3.2 0 0 0 12 2zM6 10.5a.85.85 0 0 1 1.7.05 4.3 4.3 0 0 0 8.6 0 .85.85 0 0 1 1.7-.05 6 6 0 0 1-5.15 6v1.8h2.1a.85.85 0 0 1 0 1.7h-5.9a.85.85 0 0 1 0-1.7h2.1v-1.8a6 6 0 0 1-5.15-6z"/></svg></div><div class="v" id="p-gigs">0</div><div class="l">gigs played</div></div>
     </div>
     <div class="card">
       <h3>Accuracy by skill</h3>
       <div id="p-skills" style="margin-top:8px;display:flex;flex-direction:column;gap:9px"></div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="grow">
+          <h3>Guitar shop</h3>
+          <div class="tiny muted" id="p-axe" style="margin-top:2px"></div>
+        </div>
+        <button class="btn btn-sm btn-blue" id="shop-open">Visit</button>
+      </div>
     </div>
     <div class="card">
       <h3>Settings</h3>
@@ -438,6 +464,18 @@ input[type=range]{width:100%;accent-color:var(--blue)}
   </div>
 </div>
 
+<div id="store" class="screen">
+  <div class="pad">
+    <div class="row">
+      <button class="x-btn" id="store-x"><svg viewBox="0 0 24 24"><path d="m15 18-6-6 6-6" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg></button>
+      <h1 style="flex:1">Guitar shop</h1>
+    </div>
+    <div class="shop-bal"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#fbbf24" stroke="#d97706" stroke-width="1.6"/><path d="M13.8 7.6v5.4a2.1 2.1 0 1 1-1.3-1.94V9.2l-2.5.55V8.2l3.8-.85z" fill="#92400e"/></svg><span id="shop-coins">0</span> coins</div>
+    <div class="small muted" style="text-align:center;margin-top:-4px">Earn coins from lessons, reviews and gigs. Your equipped guitar walks on stage with you.</div>
+    <div id="shop-list" style="display:flex;flex-direction:column;gap:10px"></div>
+  </div>
+</div>
+
 <div id="gig" class="screen">
   <div class="pad" id="gig-body"></div>
 </div>
@@ -475,7 +513,7 @@ input[type=range]{width:100%;accent-color:var(--blue)}
     <div class="hello-pts">
       <div class="hello-pt"><span class="hp-ic">🎸</span><span>Hear a real band, find the key, chart the chords by number</span></div>
       <div class="hello-pt"><span class="hp-ic">🗺️</span><span>One method for every song, major or minor, any key</span></div>
-      <div class="hello-pt"><span class="hp-ic">⚡</span><span>A few minutes a day. Streaks and XP keep you honest</span></div>
+      <div class="hello-pt"><span class="hp-ic">⚡</span><span>A few minutes a day. Earn coins, keep the streak, buy guitars</span></div>
     </div>
     <button class="hello-cta" id="hello-go">SEE WHERE I STAND</button>
     <div class="gig-note" style="color:#c7d2fe;margin-top:9px">Five quick questions, one from each skill</div>
@@ -515,6 +553,20 @@ if(!ST.streak)ST.streak={count:0,longest:0,last:''};
 if(ST.xp==null)ST.xp=0;
 if(ST.hello==null)ST.hello=false;
 if(ST.gigs==null)ST.gigs=0;
+if(ST.coins==null)ST.coins=(ST.xp||0);
+if(!ST.gigBest)ST.gigBest={};
+if(!ST.guitars)ST.guitars=['starter'];
+if(!ST.axe)ST.axe='starter';
+var GUITARS=[
+ {id:'starter',n:'Pawn Shop Special',em:'🎸',price:0,d:'Where every legend starts'},
+ {id:'surf',n:'Surf Green S-Type',em:'🏄',price:150,d:'Bright, springy, beach-ready'},
+ {id:'tele',n:'Butterscotch T-Style',em:'🤠',price:250,d:'Twang for days'},
+ {id:'lp',n:'Sunburst Single-Cut',em:'🌅',price:400,d:'Thick, warm, legendary'},
+ {id:'sg',n:'Cherry Devil Horns',em:'😈',price:550,d:'Fast neck, loud attitude'},
+ {id:'dove',n:'White Dove Acoustic',em:'🕊️',price:700,d:'Campfire royalty'},
+ {id:'v',n:'Lightning V',em:'⚡',price:900,d:'Pointy. Very pointy.'},
+ {id:'dragon',n:'Double-Neck Dragon',em:'🐉',price:1500,d:'For the eight-minute epics'}
+];
 if(!ST.skills)ST.skills={};
 if(!ST.mistakes)ST.mistakes=[];
 if(!ST.days)ST.days=[];
@@ -823,9 +875,22 @@ function playContext(keyN,targetNum,mode){
   mode=mode||'maj';
   cut();
   run(function(ctx){
-    var at=cadenceMode(ctx,mode,keyN);
-    at+=0.5;
-    chordSeq(ctx,[chordOf(mode,keyN,homeNum(mode)),chordOf(mode,keyN,targetNum)],{delay:at,step:1.0,vel:0.46});
+    chordSeq(ctx,[chordOf(mode,keyN,homeNum(mode)),chordOf(mode,keyN,targetNum)],{step:1.0,vel:0.46});
+  });
+}
+function playKeyHint(mode,keyN){
+  cut();
+  run(function(ctx){
+    var seats=mode==='min'?KM_MIN_SEATS:KM_MAJ_SEATS;
+    var kk=null;
+    (mode==='min'?MKEYS:KEYS).forEach(function(k){if(k.n===keyN)kk=k;});
+    if(!kk)return;
+    seats.forEach(function(seat,i){
+      var name=seatChordName(kk.pc,seat).replace('°','');
+      var t=ctx.currentTime+i*0.7;
+      if(VOIC[name]||CVOIC[name])strumAt(ctx,name,t,false,0.4,0.66);
+      else strumMidis(ctx,seatMidis(kk.pc,seat),{delay:t-ctx.currentTime,dur:0.66,vel:0.38});
+    });
   });
 }
 function playResolve(keyN,fromNum,mode){
@@ -844,7 +909,7 @@ function playLoop(keyN,nums,opt){
   var mode=opt.mode||'maj';
   cut();
   run(function(ctx){
-    var at=opt.cadence!==false?cadenceMode(ctx,mode,keyN)+0.6:0;
+    var at=opt.cadence===true?cadenceMode(ctx,mode,keyN)+0.6:0;
     nums.forEach(function(nu,i){
       var t=at+i*step;
       times.push(t);
@@ -866,9 +931,10 @@ function playMelody(keyN,degs,opt){
   opt=opt||{};
   cut();
   run(function(ctx){
-    var at=opt.cadence!==false?cadence(ctx,keyN)+0.5:0;
+    var root=keyRootMidi(keyN)+12;
+    note(ctx,root,{dur:0.8,vel:0.72});
     degs.forEach(function(d,i){
-      note(ctx,keyRootMidi(keyN)+12+DEGOFF[d],{delay:at+i*0.75,dur:0.7,vel:0.7});
+      note(ctx,root+DEGOFF[d],{delay:1.0+i*0.75,dur:0.7,vel:0.7});
     });
   });
 }
@@ -1025,7 +1091,7 @@ function genHome(spec){
       skill:spec.skill||'home',spec:spec,model:'choices',
       prompt:'Which chord sounds like home?',
       play:function(){cut();run(function(ctx){var at=cadenceMode(ctx,mode,keyN)+0.6;strum(ctx,NC(cA),{delay:at,dur:1.3,vel:0.46});strum(ctx,NC(cB),{delay:at+1.5,dur:1.3,vel:0.46});});},
-      playLabel:'the key, then chord A and chord B',
+      playLabel:'the song, then chord A and chord B',
       choices:[{key:'A',label:'Chord A',play:pA},{key:'B',label:'Chord B',play:pB}],
       correct:homeFirst?'A':'B',
       fbOk:{text:'Yes. That chord is '+HOME+', the tonic. Everything else pulls toward it.'},
@@ -1041,11 +1107,11 @@ function genHome(spec){
   var seq=mid.concat([endsHome?(lastMid===HOME?pick(AWAY):HOME):awayEnd]);
   if(seq[seq.length-1]===HOME&&!endsHome)endsHome=true;
   var names=seq.map(NC);
-  var pl=function(){cut();run(function(ctx){var at=cadenceMode(ctx,mode,keyN)+0.5;chordSeq(ctx,names,{delay:at,step:0.72});});};
+  var pl=function(){cut();run(function(ctx){chordSeq(ctx,names,{step:0.72});});};
   return {
-    skill:spec.skill||'home',spec:spec,model:'choices',
+    skill:spec.skill||'home',spec:spec,model:'choices',hint:{mode:mode,keyN:keyN},
     prompt:spec.k==='hold'?'Keep hold of '+HOME+' while the chords move. Does it end back home?':'Does this progression return to '+HOME+' at the end?',
-    play:pl,playLabel:'the key first, then the progression',
+    play:pl,playLabel:'the progression',
     choices:mkChoices([{key:'y',label:'Yes, it ends on '+HOME},{key:'n',label:'No, it ends somewhere else'}]),
     correct:endsHome?'y':'n',
     fbOk:{text:endsHome?'Right. That last chord was home.':'Right. It stopped away from home, so it feels suspended.'},
@@ -1109,9 +1175,9 @@ function genNum(spec){
   var target=pick(pool);
   var pl=function(){playContext(keyN,target,mode);};
   return {
-    skill:spec.skill||(mode==='min'?'minor':'num'),spec:spec,model:'choices',
+    skill:spec.skill||(mode==='min'?'minor':'num'),spec:spec,model:'choices',hint:{mode:mode,keyN:keyN},
     prompt:'Where did the progression move?',
-    play:pl,playLabel:'the key, then '+HOME+' and the mystery chord',
+    play:pl,playLabel:HOME+' first, then the mystery chord',
     choices:pool.map(function(n){return {key:n,label:n,sub:NUM_FEEL[n]};}),
     correct:target,
     fbOk:target===HOME
@@ -1130,13 +1196,13 @@ function genPair(spec){
   var a=spec.a||'5',keyN=randKey();
   var fwd=Math.random()<0.5;
   var seq=fwd?[a,'1']:['1',a];
-  var pl=function(){cut();run(function(ctx){var at=cadence(ctx,keyN)+0.5;chordSeq(ctx,seq.map(function(x){return numChord(keyN,x);}),{delay:at,step:0.95,vel:0.46});});};
+  var pl=function(){cut();run(function(ctx){chordSeq(ctx,seq.map(function(x){return numChord(keyN,x);}),{step:0.95,vel:0.46});});};
   var p1=function(){cut();run(function(ctx){chordSeq(ctx,[numChord(keyN,a),numChord(keyN,'1')],{step:0.95,vel:0.46});});};
   var p2=function(){cut();run(function(ctx){chordSeq(ctx,[numChord(keyN,'1'),numChord(keyN,a)],{step:0.95,vel:0.46});});};
   return {
-    skill:'num',spec:spec,model:'choices',
+    skill:'num',spec:spec,model:'choices',hint:{mode:'maj',keyN:keyN},
     prompt:'Which move did you hear?',
-    play:pl,playLabel:'the key first, then two chords',
+    play:pl,playLabel:'two chords',
     choices:mkChoices([{key:'f',label:a+' → 1',sub:'tension resolving home'},{key:'b',label:'1 → '+a,sub:'leaving home'}]),
     correct:fwd?'f':'b',
     fbOk:{text:fwd?'Yes. Tension, then release onto home. That is the strongest resolution there is.':'Yes. It left home and stayed hanging on '+a+'.'},
@@ -1153,9 +1219,9 @@ function genSeq(spec){
   var keyN=mode==='min'?pick(MKEYS).n:randKey();
   var pl=function(){playLoop(keyN,orders[ci],{bpm:96,beats:2,mode:mode});};
   return {
-    skill:spec.skill||(mode==='min'?'minor':'num'),spec:spec,model:'choices',
+    skill:spec.skill||(mode==='min'?'minor':'num'),spec:spec,model:'choices',hint:{mode:mode,keyN:keyN},
     prompt:'Which order did the chords come in?',
-    play:pl,playLabel:'the key first, then the loop',
+    play:pl,playLabel:'the loop',
     choices:orders.map(function(o,i){return {key:String(i),label:seqLabel(o)};}),
     correct:String(ci),
     fbOk:{text:'Correct. That was '+seqLabel(orders[ci])+'.'},
@@ -1177,9 +1243,9 @@ function genChart(spec){
   var bpm=spec.bpm||92,beats=spec.beats||2;
   var pl=function(){playLoop(keyN,seq,{bpm:bpm,beats:beats,mode:mode});};
   return {
-    skill:spec.skill||(mode==='min'?'minor':'prog'),spec:spec,model:'tiles',
+    skill:spec.skill||(mode==='min'?'minor':'prog'),spec:spec,model:'tiles',hint:{mode:mode,keyN:keyN},
     prompt:'Chart the loop. Arrange the numbers you hear.',
-    play:pl,playLabel:'the key first, then the loop',
+    play:pl,playLabel:'the loop',
     tiles:{palette:pool,n:n},
     correct:seq,
     isChart:true,
@@ -1202,10 +1268,10 @@ function genFill(spec){
   var shown=seq.map(function(x,i){return i===hide?'?':x;});
   var pl=function(){playLoop(keyN,seq,{bpm:92,beats:2,mode:mode});};
   return {
-    skill:spec.skill||(mode==='min'?'minor':'prog'),spec:spec,model:'choices',
+    skill:spec.skill||(mode==='min'?'minor':'prog'),spec:spec,model:'choices',hint:{mode:mode,keyN:keyN},
     prompt:'Fill in the missing chord.',
     chart:shown.join(' \u2192 '),
-    play:pl,playLabel:'the key first, then the full loop',
+    play:pl,playLabel:'the full loop',
     choices:pool.map(function(x){return {key:x,label:x,sub:NUM_FEEL[x]};}),
     correct:seq[hide],
     fbOk:{text:'Correct. The full chart is '+seqLabel(seq)+'.'},
@@ -1227,14 +1293,12 @@ function genTap(spec){
   var startMs=null;
   var pl=function(){
     startMs=performance.now();
-    var cadLen=4*0.55+0.6;
-    startMs+=cadLen*1000;
     playLoop(keyN,seq,{bpm:bpm,beats:beats,mode:mode});
   };
   return {
-    skill:spec.skill||(mode==='min'?'minor':'prog'),spec:spec,model:'tap',
+    skill:spec.skill||(mode==='min'?'minor':'prog'),spec:spec,model:'tap',hint:{mode:mode,keyN:keyN},
     prompt:'Tap the button each time the chord changes.',
-    play:pl,playLabel:'the key first, then a slow loop',
+    play:pl,playLabel:'a slow loop',
     tap:{changes:changes,getStart:function(){return startMs;},total:seq.length*step},
     correct:changes.length,
     fbOk:{text:'Good ears. '+changes.length+' change'+(changes.length===1?'':'s')+', right on time.'},
@@ -1277,7 +1341,7 @@ function genNames(spec){
     });
     var correct=chordNames.join(' ');
     return {
-      skill:spec.skill||(mode==='min'?'minor':'names'),spec:spec,model:'choices',
+      skill:spec.skill||(mode==='min'?'minor':'names'),spec:spec,model:'choices',hint:{mode:mode,keyN:keyN},
       prompt:'Key of '+disp+'. The chart is '+seqLabel(seq)+'. Which chords do you play?',
       play:pl,playLabel:'hear the loop',
       choices:shuffle(opts).map(function(o){return {key:o,label:o};}),
@@ -1290,7 +1354,7 @@ function genNames(spec){
   }
   var opts2=seqVariants(seq,pool);
   return {
-    skill:spec.skill||(mode==='min'?'minor':'names'),spec:spec,model:'choices',
+    skill:spec.skill||(mode==='min'?'minor':'names'),spec:spec,model:'choices',hint:{mode:mode,keyN:keyN},
     prompt:'Key of '+disp+'. You play '+chordNames.join(' ')+'. What is the chart?',
     play:pl,playLabel:'hear the loop',
     choices:shuffle(opts2).map(function(o){return {key:o,label:o};}),
@@ -1534,9 +1598,9 @@ function genMel(spec){
     var d=pick(pool);
     var pl2=function(){playMelody(keyN,[d]);};
     return {
-      skill:'mel',spec:spec,model:'choices',
-      prompt:'The key is set, then one note plays. Which number is it?',
-      play:pl2,playLabel:'the key first, then the note',
+      skill:'mel',spec:spec,model:'choices',hint:{mode:'maj',keyN:keyN},
+      prompt:'You hear home, then one note. Which number is it?',
+      play:pl2,playLabel:'the home note, then the mystery note',
       choices:pool.map(function(x){return {key:String(x),label:String(x)};}),
       correct:String(d),
       fbOk:{text:'Correct. That was '+d+'.'},
@@ -1578,9 +1642,9 @@ function genMel(spec){
   if(degs.indexOf(1)<0)degs[rnd(0,n-1)]=1;
   var pl4=function(){playMelody(keyN,degs);};
   return {
-    skill:'mel',spec:spec,model:'tiles',
+    skill:'mel',spec:spec,model:'tiles',hint:{mode:'maj',keyN:keyN},
     prompt:'Rebuild the melody with scale numbers.',
-    play:pl4,playLabel:'the key first, then the melody',
+    play:pl4,playLabel:'the home note, then the melody',
     tiles:{palette:pool2.map(String),n:n},
     correct:degs.map(String),
     fbOk:{text:'That is the line. '+degs.join(' ')+'. Here it is on the fretboard.'},
@@ -1932,7 +1996,7 @@ function embedKeyMap(container){
 var RUN=null,Q=null,fbTimer=null,apTimer=null;
 function go(id){
   if(id!=='gig'&&typeof gigLeave==='function')gigLeave();
-  ['learn','gig','practice','profile','lesson','kmap'].forEach(function(s){document.getElementById(s).classList.toggle('on',s===id);});
+  ['learn','gig','practice','profile','lesson','kmap','store'].forEach(function(s){document.getElementById(s).classList.toggle('on',s===id);});
   document.querySelector('nav').style.display=(id==='lesson'||id==='kmap')?'none':'flex';
   document.querySelectorAll('.nav-btn').forEach(function(b){b.classList.toggle('on',b.dataset.go===id);});
   hideFb();
@@ -2053,6 +2117,13 @@ function renderQ(body,s){
   if(Q.model==='choices')renderChoices(body);
   else if(Q.model==='tiles')renderTiles(body);
   else if(Q.model==='tap')renderTap(body);
+  if(Q.hint){
+    var hb=document.createElement('button');hb.className='cheat-btn';
+    hb.innerHTML='🔑 Hear the key (chords 1 to 7)';
+    hb.style.marginTop='4px';
+    hb.addEventListener('click',function(){run(function(){});if(Q&&Q.hint)playKeyHint(Q.hint.mode,Q.hint.keyN);});
+    body.appendChild(hb);
+  }
   apTimer=setTimeout(function(){if(Q&&!Q._locked)Q.play();},450);
 }
 function renderChoices(body){
@@ -2226,7 +2297,7 @@ function countUpXp(el,to){
   function frame(t){
     if(t0==null)t0=t;
     var p=Math.min(1,(t-t0)/650);
-    el.textContent='+'+Math.round(to*(0.5-Math.cos(Math.PI*p)/2))+' XP';
+    el.textContent='+'+Math.round(to*(0.5-Math.cos(Math.PI*p)/2))+' coins';
     if(p<1)requestAnimationFrame(frame);
   }
   requestAnimationFrame(frame);
@@ -2241,7 +2312,7 @@ function finish(){
   var isIntro=RUN.intro;
   var isPlace=RUN.place;
   var xpGain=isIntro?5:(10+RUN.correct*2);
-  ST.xp+=xpGain;
+  ST.coins+=xpGain;
   if(RUN.isLesson){ST.doneL[RUN.lessonIdx]=1;ST.cur=firstIncomplete();LAST_DONE=RUN.lessonIdx;}
   save();
   var body=document.getElementById('les-body');
@@ -2266,7 +2337,7 @@ function finish(){
   });
   var xpc=document.createElement('div');
   xpc.style.cssText='display:flex;justify-content:center;gap:8px;margin-top:14px';
-  xpc.innerHTML='<span class="spill xp" style="background:var(--blue-mist);padding:8px 15px;border-radius:13px"><svg viewBox="0 0 24 24" style="width:20px;height:20px"><path d="M13.7 1.8 4 13.4a1 1 0 0 0 .77 1.64H10l-1.4 6.5a.8.8 0 0 0 1.44.6l9.2-11.7a1 1 0 0 0-.79-1.62H13.4l1.7-6.2a.85.85 0 0 0-1.4-.82z" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1" stroke-linejoin="round"/></svg><span id="xp-count">+0 XP</span></span>'+
+  xpc.innerHTML='<span class="spill xp" style="background:#fef3c7;padding:8px 15px;border-radius:13px;color:#b45309"><svg viewBox="0 0 24 24" style="width:20px;height:20px"><circle cx="12" cy="12" r="10" fill="#fbbf24" stroke="#d97706" stroke-width="1.6"/><path d="M13.8 7.6v5.4a2.1 2.1 0 1 1-1.3-1.94V9.2l-2.5.55V8.2l3.8-.85z" fill="#92400e"/></svg><span id="xp-count">+0</span></span>'+
     (!hadStreak?'<span class="spill streak" style="background:var(--warn-soft);padding:8px 15px;border-radius:13px"><svg viewBox="0 0 24 24" style="width:20px;height:20px"><path d="M13.4 1.6c.7 3.4-1.5 5-2.9 6.7-1.4 1.7-2.6 3.2-2.6 5.7a6.1 6.1 0 0 0 12.2.3c.2-3.3-1.8-5.3-3-7-1-1.5-1.2-3-3.7-5.7z" fill="#fb923c"/><path d="M13.6 12.3c.4 1.7-1 2.4-1 3.7a2.4 2.4 0 0 0 4.8.1c.1-1.6-1-2.5-1.7-3.6-.5.9-1.1 1.3-2.1.1z" fill="#fde047"/></svg>Day '+ST.streak.count+'</span>':'');
   setTimeout(function(){var xc=document.getElementById('xp-count');if(xc)countUpXp(xc,xpGain);},200);
   if(!isIntro&&acc>=70)confettiBurst();
@@ -2322,13 +2393,9 @@ function seatMidis(pc,seat){
 function seatPlay(pc,seat,homeSeat){
   cut();
   run(function(ctx){
-    var homeName=seatChordName(pc,homeSeat).replace('\u00b0','');
     var seatName=seatChordName(pc,seat).replace('\u00b0','');
-    var homeV=VOIC[homeName],seatV=VOIC[seatName]||CVOIC[seatName];
-    if(homeV)strum(ctx,homeName,{dur:1.0,vel:0.4});
-    else strumMidis(ctx,seatMidis(pc,homeSeat),{dur:1.0,vel:0.4});
-    if(seatV)strum(ctx,seatName,{delay:1.15,dur:1.8,vel:0.46});
-    else strumMidis(ctx,seatMidis(pc,seat),{delay:1.15,dur:1.8,vel:0.46});
+    if(VOIC[seatName]||CVOIC[seatName])strum(ctx,seatName,{dur:1.8,vel:0.46});
+    else strumMidis(ctx,seatMidis(pc,seat),{dur:1.8,vel:0.44});
   });
 }
 function renderKmap(){
@@ -2426,9 +2493,9 @@ function strumAt(ctx,name,t,up,vel,dur){
   });
 }
 var GIG_TIERS=[
- {n:'Open mic',d:'Major keys · 1, 4, 5 and 6m',em:'🎫',bg:'#dbeafe',pool:['1','4','5','6m'],modes:['maj'],bpm:[84,96]},
- {n:'Bar band',d:'Adds 2m and 3m · wider tempos',em:'🍺',bg:'#fef3c7',pool:['1','2m','3m','4','5','6m'],modes:['maj'],bpm:[74,106]},
- {n:'Session pro',d:'Minor keys join the setlist',em:'🎧',bg:'#ede9fe',pool:['1','2m','3m','4','5','6m'],minPool:['1m','4m','5','6','7'],modes:['maj','min'],bpm:[70,110]}
+ {n:'Garage Jam',d:'Four sunny chords, easy tempo. Every legend starts here.',em:'🎸',bg:'#dbeafe',pool:['1','4','5','6m'],modes:['maj'],bpm:[84,96]},
+ {n:'Club Night',d:'Moodier chords, trickier changes, a crowd to win over.',em:'🌃',bg:'#ede9fe',pool:['1','2m','3m','4','5','6m'],modes:['maj'],bpm:[74,106]},
+ {n:'Arena Tour',d:'Minor keys, big lights, no safety net.',em:'🏟️',bg:'#fef3c7',pool:['1','2m','3m','4','5','6m'],minPool:['1m','4m','5','6','7'],modes:['maj','min'],bpm:[70,110]}
 ];
 var GIG=null;
 function gigClearTimers(){
@@ -2506,23 +2573,67 @@ function playKeyCheat(){
   });
 }
 function gigBody(){return document.getElementById('gig-body');}
+var COIN_SVG='<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#fbbf24" stroke="#d97706" stroke-width="1.6"/><path d="M13.8 7.6v5.4a2.1 2.1 0 1 1-1.3-1.94V9.2l-2.5.55V8.2l3.8-.85z" fill="#92400e"/></svg>';
+function renderStore(){
+  document.getElementById('shop-coins').textContent=ST.coins;
+  var list=document.getElementById('shop-list');
+  list.innerHTML='';
+  GUITARS.forEach(function(g){
+    var owned=ST.guitars.indexOf(g.id)>=0;
+    var equipped=ST.axe===g.id;
+    var card=document.createElement('div');card.className='gcard'+(equipped?' equipped':'');
+    var btn;
+    if(equipped)btn='<button class="gbuy equipped">ON STAGE</button>';
+    else if(owned)btn='<button class="gbuy own" data-act="equip" data-id="'+g.id+'">EQUIP</button>';
+    else if(ST.coins>=g.price)btn='<button class="gbuy buy" data-act="buy" data-id="'+g.id+'">'+COIN_SVG+g.price+'</button>';
+    else btn='<button class="gbuy cant">'+COIN_SVG+g.price+'</button>';
+    card.innerHTML='<span class="g-em">'+g.em+'</span><span class="grow"><span class="g-n" style="display:block">'+g.n+'</span><span class="g-d">'+g.d+'</span></span>'+btn;
+    list.appendChild(card);
+  });
+  list.querySelectorAll('.gbuy[data-act]').forEach(function(bt){
+    bt.addEventListener('click',function(){
+      run(function(){});
+      var g=GUITARS.filter(function(x){return x.id===bt.dataset.id;})[0];
+      if(!g)return;
+      if(bt.dataset.act==='buy'){
+        if(ST.coins<g.price)return;
+        ST.coins-=g.price;
+        ST.guitars.push(g.id);
+        ST.axe=g.id;
+        playGood();
+      } else {
+        ST.axe=g.id;
+        playGood();
+      }
+      save();
+      renderStore();
+    });
+  });
+}
+document.getElementById('store-x').addEventListener('click',function(){go('profile');renderAll();});
+document.getElementById('coin-pill').addEventListener('click',function(){run(function(){});renderStore();go('store');});
 function renderGigHome(){
   if(GIG)return;
   var b=gigBody();
   b.innerHTML='';
   var hero=document.createElement('div');hero.className='gig-hero';
-  hero.innerHTML='<h2>The Gig</h2><div class="gh-sub">A band starts playing. No count-in, no reference. Find home, chart the song, and name the chords before your entrance.</div>';
+  var axe=GUITARS.filter(function(g){return g.id===ST.axe;})[0]||GUITARS[0];
+  hero.innerHTML='<h2>The Gig</h2><div class="gh-sub">The band is already playing. Walk on, find the key, own the song.</div>'+
+    '<div class="gh-sub" style="margin-top:8px;font-weight:800">'+axe.em+' On stage tonight: '+axe.n+'</div>';
   b.appendChild(hero);
-  var h3=document.createElement('h2');h3.textContent='Pick your stage';h3.style.marginTop='4px';
+  var h3=document.createElement('h2');h3.textContent='Choose your stage';h3.style.marginTop='4px';
   b.appendChild(h3);
   GIG_TIERS.forEach(function(t,i){
+    var best=(ST.gigBest&&ST.gigBest[i])||0;
+    var starsHtml='';
+    for(var si=0;si<3;si++)starsHtml+='<span style="color:'+(si<best?'#f59e0b':'#e2e8f0')+'">★</span>';
     var bt=document.createElement('button');bt.className='gig-tier';
-    bt.innerHTML='<span class="gt-ic" style="background:'+t.bg+'">'+t.em+'</span><span><span class="gt-n" style="display:block">'+t.n+'</span><span class="gt-d">'+t.d+'</span></span>';
+    bt.innerHTML='<span class="gt-ic" style="background:'+t.bg+'">'+t.em+'</span><span class="grow"><span class="gt-n" style="display:block">'+t.n+'</span><span class="gt-d">'+t.d+'</span></span><span style="font-size:15px;letter-spacing:1px;white-space:nowrap">'+starsHtml+'</span>';
     bt.addEventListener('click',function(){run(function(){});gigStart(i);});
     b.appendChild(bt);
   });
   var st=document.createElement('div');st.className='gig-note';
-  st.textContent=(ST.gigs||0)+' gig'+(ST.gigs===1?'':'s')+' played';
+  st.textContent=(ST.gigs||0)+' gig'+(ST.gigs===1?'':'s')+' played · earn coins for every show';
   b.appendChild(st);
 }
 function gigBars(showNums,clickable){
@@ -2733,7 +2844,8 @@ function gigResults(){
   var score=checks.filter(function(c){return c[1];}).length;
   var stars=score>=4?3:score===3?2:score===2?1:0;
   var xp=30+stars*6;
-  ST.xp+=xp;ST.gigs++;
+  ST.coins+=xp;ST.gigs++;
+  if(!ST.gigBest[GIG.song.tier]||stars>ST.gigBest[GIG.song.tier])ST.gigBest[GIG.song.tier]=stars;
   var hadStreak=ST.streak.last===todayStr();
   bumpStreak();
   record('prog',GIG.chartOk,{g:'chart',n:4,unfamiliar:true,mode:GIG.song.mode});
@@ -2752,7 +2864,7 @@ function gigResults(){
   });
   var xpc=document.createElement('div');
   xpc.style.cssText='display:flex;justify-content:center;gap:8px;margin-top:8px';
-  xpc.innerHTML='<span class="spill xp" style="background:var(--blue-mist);padding:8px 15px;border-radius:13px"><svg viewBox="0 0 24 24" style="width:20px;height:20px"><path d="M13.7 1.8 4 13.4a1 1 0 0 0 .77 1.64H10l-1.4 6.5a.8.8 0 0 0 1.44.6l9.2-11.7a1 1 0 0 0-.79-1.62H13.4l1.7-6.2a.85.85 0 0 0-1.4-.82z" fill="#3b82f6"/></svg>+'+xp+' XP</span>'+
+  xpc.innerHTML='<span class="spill xp" style="background:#fef3c7;padding:8px 15px;border-radius:13px;color:#b45309"><svg viewBox="0 0 24 24" style="width:20px;height:20px"><circle cx="12" cy="12" r="10" fill="#fbbf24" stroke="#d97706" stroke-width="1.6"/><path d="M13.8 7.6v5.4a2.1 2.1 0 1 1-1.3-1.94V9.2l-2.5.55V8.2l3.8-.85z" fill="#92400e"/></svg>+'+xp+' coins</span>'+
     (!hadStreak?'<span class="spill streak" style="background:var(--warn-soft);padding:8px 15px;border-radius:13px">Day '+ST.streak.count+'</span>':'');
   b.appendChild(xpc);
   var again=document.createElement('button');again.className='btn btn-blue btn-big btn-block';again.style.marginTop='12px';again.textContent='Another gig';
@@ -2810,7 +2922,7 @@ function bindHeaderScroll(){
 }
 function renderLearn(){
   document.getElementById('streak-n').textContent=ST.streak.count;
-  document.getElementById('xp-n').textContent=ST.xp;
+  document.getElementById('xp-n').textContent=ST.coins;
   var fi=firstIncomplete();
   ST.cur=fi;
   var path=document.getElementById('path');
@@ -2930,8 +3042,10 @@ function renderProfile(){
   document.getElementById('p-longest').textContent=ST.streak.longest;
   document.getElementById('p-lessons').textContent=Object.keys(ST.doneL).length;
   document.getElementById('p-charted').textContent=ST.charted;
-  document.getElementById('p-xp').textContent=ST.xp;
+  document.getElementById('p-xp').textContent=ST.coins;
   document.getElementById('p-gigs').textContent=ST.gigs||0;
+  var axe=GUITARS.filter(function(g){return g.id===ST.axe;})[0]||GUITARS[0];
+  document.getElementById('p-axe').textContent=axe.em+' On stage: '+axe.n;
   var box=document.getElementById('p-skills');
   box.innerHTML='';
   SKILLS_LIST.forEach(function(s){
@@ -2956,6 +3070,7 @@ function renderProfile(){
   lf.checked=!!ST.set.lefty;
   lf.onchange=function(){ST.set.lefty=lf.checked;save();};
 }
+document.getElementById('shop-open').addEventListener('click',function(){run(function(){});renderStore();go('store');});
 document.getElementById('set-reset').addEventListener('click',function(){
   if(confirm('Reset all progress on this device?')){
     localStorage.removeItem('tonic_v3');
