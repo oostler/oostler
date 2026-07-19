@@ -921,10 +921,7 @@ function playKeyHint(mode,keyN){
     (mode==='min'?MKEYS:KEYS).forEach(function(k){if(k.n===keyN)kk=k;});
     if(!kk)return;
     seats.forEach(function(seat,i){
-      var name=seatChordName(kk.pc,seat).replace('°','');
-      var t=ctx.currentTime+i*0.7;
-      if(VOIC[name]||CVOIC[name])strumAt(ctx,name,t,false,0.4,0.66);
-      else strumMidis(ctx,seatMidis(kk.pc,seat),{delay:t-ctx.currentTime,dur:0.66,vel:0.38});
+      strumMidis(ctx,seatMidis(kk.pc,seat),{delay:i*0.7,dur:0.66,vel:0.42});
     });
   });
 }
@@ -2022,7 +2019,7 @@ function embedKeyMap(container){
       container.appendChild(row);
     });
     var note=document.createElement('div');note.className='emap-note';
-    note.textContent=isMin?'Home is 1m. The same six seats appear in every minor key.':'Home is 1. The same seven seats appear in every major key. Tap any seat to hear it after home.';
+    note.textContent=isMin?'Home is still 1, written 1m because it is a minor chord. Same six seats in every minor key.':'Home is 1. The same seven seats appear in every major key. Tap any seat to hear it.';
     container.appendChild(note);
   }
   draw();
@@ -2420,17 +2417,16 @@ function seatChordName(pc,seat){
   return PCN[(pc+seat.off)%12]+sfx;
 }
 function seatMidis(pc,seat){
-  var root=45+(((pc+seat.off)-45)%12+12)%12;
-  if(root<43)root+=12;
+  var base=48+pc;
+  if(base>55)base-=12;
+  var root=base+seat.off;
   var iv=seat.q==='min'?[0,3,7,12]:seat.q==='dim'?[0,3,6,12]:[0,4,7,12];
   return iv.map(function(x){return root+x;});
 }
 function seatPlay(pc,seat,homeSeat){
   cut();
   run(function(ctx){
-    var seatName=seatChordName(pc,seat).replace('\u00b0','');
-    if(VOIC[seatName]||CVOIC[seatName])strum(ctx,seatName,{dur:1.8,vel:0.46});
-    else strumMidis(ctx,seatMidis(pc,seat),{dur:1.8,vel:0.44});
+    strumMidis(ctx,seatMidis(pc,seat),{dur:1.8,vel:0.46});
   });
 }
 function renderKmap(){
@@ -2473,7 +2469,7 @@ function renderKmap(){
     box.appendChild(row);
   });
   document.getElementById('km-note').textContent=isMin
-    ?'Same pattern in every minor key. The 5 is naturally minor but usually played major to pull home.'
+    ?'Home is still 1, written 1m because it is minor. The 5 is naturally minor but usually played major to pull home.'
     :'Same pattern in every major key. The 7\u00b0 seat is real but rare; charts mostly ignore it.';
 }
 document.getElementById('kmap-open').addEventListener('click',function(){run(function(){});renderKmap();go('kmap');});
@@ -2594,10 +2590,7 @@ function playKeyCheat(){
     var kk=null;
     (s.mode==='min'?MKEYS:KEYS).forEach(function(k){if(k.n===s.keyN)kk=k;});
     seats.forEach(function(seat,i){
-      var name=seatChordName(kk.pc,seat).replace('\u00b0','');
-      var t=ctx.currentTime+i*0.72;
-      if(VOIC[name]||CVOIC[name])strumAt(ctx,name,t,false,0.4,0.68);
-      else strumMidis(ctx,seatMidis(kk.pc,seat),{delay:t-ctx.currentTime,dur:0.68,vel:0.38});
+      strumMidis(ctx,seatMidis(kk.pc,seat),{delay:i*0.72,dur:0.68,vel:0.42});
       (function(idx){
         GIG.timers.push(setTimeout(function(){
           if(!GIG)return;
