@@ -352,6 +352,41 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .gbuy.equipped{background:var(--blue);border-color:var(--blue-press);color:#fff;pointer-events:none}
 .gbuy:active{transform:translateY(2px);border-bottom-width:1px}
 .gbuy svg{width:15px;height:15px}
+/* ===== game mode ===== */
+#gig.live{background:linear-gradient(165deg,#0f172a,#1e1b4b 55%,#312e81);min-height:100vh}
+#gig.live .pad{color:#e2e8f0}
+#gig.live .gig-q{color:#fff}
+#gig.live .gig-note{color:#94a3b8}
+#gig.live .x-btn{color:#94a3b8}
+#gig.live .gbar{background:#1e293b;border-color:#334155;color:#94a3b8}
+#gig.live .gbar.live{border-color:#60a5fa;color:#93c5fd;box-shadow:0 0 0 3px rgba(96,165,250,.25),0 0 18px rgba(96,165,250,.35)}
+#gig.live .gbar.pick{border-color:#60a5fa;background:#1e3a8a;color:#bfdbfe}
+#gig.live .gbar.gb-ok{border-color:#22c55e;background:#052e16;color:#4ade80}
+#gig.live .gbar.gb-bad{border-color:#ef4444;background:#450a0a;color:#f87171}
+#gig.live .choice{background:#1e293b;border-color:#334155;color:#e2e8f0}
+#gig.live .choice .sub{color:#94a3b8}
+#gig.live .choice.is-ok{background:#052e16;border-color:#22c55e;color:#4ade80}
+#gig.live .choice.is-bad{background:#450a0a;border-color:#ef4444;color:#f87171}
+#gig.live .tile{background:#1e293b;border-color:#334155;color:#e2e8f0}
+#gig.live .btn{background:#1e293b;border-color:#334155;color:#e2e8f0}
+#gig.live .btn-blue{background:var(--blue);border-color:var(--blue-press);color:#fff}
+#gig.live .btn-ok{background:var(--ok);border-color:#15803d;color:#fff}
+#gig.live .cheat-btn{background:rgba(124,58,237,.16);border-color:#6d28d9;color:#c4b5fd}
+#gig.live .gact{background:#1e293b;border-color:#334155;color:#e2e8f0}
+#gig.live .play-lbl{color:#94a3b8}
+.ghud{display:flex;align-items:center;gap:10px}
+.ghud .glevel{font-size:11px;font-weight:900;letter-spacing:.1em;color:#93c5fd;background:rgba(59,130,246,.15);border:1.5px solid rgba(96,165,250,.4);border-radius:99px;padding:4px 11px;white-space:nowrap}
+.gdots{display:flex;gap:6px;margin-left:auto}
+.gdots span{width:9px;height:9px;border-radius:50%;background:#334155}
+.gdots span.on{background:#60a5fa;box-shadow:0 0 8px rgba(96,165,250,.7)}
+.gdots span.did{background:#22c55e}
+.gtimer{height:9px;border-radius:99px;background:#1e293b;overflow:hidden;margin-top:10px}
+.gtimer>div{height:100%;border-radius:99px;background:#22c55e;width:100%;transition:width .12s linear,background .3s}
+.gtitle{font-size:19px;font-weight:900;color:#fff;margin-top:12px}
+.gsub{font-size:13px;color:#94a3b8;margin-top:2px}
+.diff-dot{width:12px;height:12px;border-radius:50%;display:inline-block;flex-shrink:0}
+@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
+#gig.live .shake{animation:shake .35s}
 </style>
 </head>
 <body>
@@ -2493,15 +2528,18 @@ function strumAt(ctx,name,t,up,vel,dur){
   });
 }
 var GIG_TIERS=[
- {n:'Garage Jam',d:'Four sunny chords, easy tempo. Every legend starts here.',em:'🎸',bg:'#dbeafe',pool:['1','4','5','6m'],modes:['maj'],bpm:[84,96]},
- {n:'Club Night',d:'Moodier chords, trickier changes, a crowd to win over.',em:'🌃',bg:'#ede9fe',pool:['1','2m','3m','4','5','6m'],modes:['maj'],bpm:[74,106]},
- {n:'Arena Tour',d:'Minor keys, big lights, no safety net.',em:'🏟️',bg:'#fef3c7',pool:['1','2m','3m','4','5','6m'],minPool:['1m','4m','5','6','7'],modes:['maj','min'],bpm:[70,110]}
+ {n:'Level 1',sub:'Easy',dot:'#22c55e',d:'1, 4, 5 and 6m · major keys · a relaxed clock',pool:['1','4','5','6m'],modes:['maj'],bpm:[84,96],times:[50,70,40]},
+ {n:'Level 2',sub:'Medium',dot:'#f59e0b',d:'Adds 2m and 3m · wider tempos · a faster clock',pool:['1','2m','3m','4','5','6m'],modes:['maj'],bpm:[74,106],times:[40,55,30]},
+ {n:'Level 3',sub:'Hard',dot:'#ef4444',d:'Minor keys · every chord · the clock is not your friend',pool:['1','2m','3m','4','5','6m'],minPool:['1m','4m','5','6','7'],modes:['maj','min'],bpm:[70,110],times:[32,45,25]}
 ];
 var GIG=null;
 function gigClearTimers(){
   if(GIG&&GIG.timers){GIG.timers.forEach(function(t){clearTimeout(t);});GIG.timers=[];}
 }
 function gigLeave(){
+  if(GIG&&GIG.tInt)clearInterval(GIG.tInt);
+  document.getElementById('gig').classList.remove('live');
+  document.querySelector('nav').style.display='flex';
   if(!GIG)return;
   gigClearTimers();
   cut();
@@ -2621,14 +2659,16 @@ function renderGigHome(){
   hero.innerHTML='<h2>The Gig</h2><div class="gh-sub">The band is already playing. Walk on, find the key, own the song.</div>'+
     '<div class="gh-sub" style="margin-top:8px;font-weight:800">'+axe.em+' On stage tonight: '+axe.n+'</div>';
   b.appendChild(hero);
-  var h3=document.createElement('h2');h3.textContent='Choose your stage';h3.style.marginTop='4px';
+  var h3=document.createElement('h2');h3.textContent='Pick a level';h3.style.marginTop='4px';
   b.appendChild(h3);
   GIG_TIERS.forEach(function(t,i){
     var best=(ST.gigBest&&ST.gigBest[i])||0;
     var starsHtml='';
     for(var si=0;si<3;si++)starsHtml+='<span style="color:'+(si<best?'#f59e0b':'#e2e8f0')+'">★</span>';
     var bt=document.createElement('button');bt.className='gig-tier';
-    bt.innerHTML='<span class="gt-ic" style="background:'+t.bg+'">'+t.em+'</span><span class="grow"><span class="gt-n" style="display:block">'+t.n+'</span><span class="gt-d">'+t.d+'</span></span><span style="font-size:15px;letter-spacing:1px;white-space:nowrap">'+starsHtml+'</span>';
+    bt.innerHTML='<span class="gt-ic" style="background:'+t.dot+'22"><span class="diff-dot" style="background:'+t.dot+'"></span></span>'+
+      '<span class="grow"><span class="gt-n" style="display:block">'+t.n+' · '+t.sub+'</span><span class="gt-d">'+t.d+'</span></span>'+
+      '<span style="font-size:15px;letter-spacing:1px;white-space:nowrap">'+starsHtml+'</span>';
     bt.addEventListener('click',function(){run(function(){});gigStart(i);});
     b.appendChild(bt);
   });
@@ -2660,17 +2700,61 @@ function gigCheatUI(){
   box.appendChild(btn);box.appendChild(chips);
   return box;
 }
-function gigHead(title,sub){
+function gigHead(title,sub,act){
   var b=gigBody();
   b.innerHTML='';
-  var row=document.createElement('div');row.className='row';
+  var hud=document.createElement('div');hud.className='ghud';
   var x=document.createElement('button');x.className='x-btn';
   x.innerHTML='<svg viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>';
   x.addEventListener('click',function(){gigLeave();renderGigHome();});
-  var t=document.createElement('div');t.innerHTML='<div style="font-weight:900;font-size:16px">'+title+'</div><div class="gig-note" style="text-align:left">'+sub+'</div>';
-  row.appendChild(x);row.appendChild(t);
-  b.appendChild(row);
+  hud.appendChild(x);
+  var lv=document.createElement('span');lv.className='glevel';
+  lv.textContent=GIG?GIG_TIERS[GIG.song.tier].n.toUpperCase()+' · '+GIG_TIERS[GIG.song.tier].sub.toUpperCase():'';
+  hud.appendChild(lv);
+  var dots=document.createElement('div');dots.className='gdots';
+  for(var i=1;i<=3;i++){
+    var d=document.createElement('span');
+    if(act&&i<act)d.className='did';
+    else if(act&&i===act)d.className='on';
+    dots.appendChild(d);
+  }
+  hud.appendChild(dots);
+  b.appendChild(hud);
+  if(act){
+    var tm=document.createElement('div');tm.className='gtimer';
+    tm.innerHTML='<div id="gtimer-fill"></div>';
+    b.appendChild(tm);
+  }
+  var tt=document.createElement('div');tt.className='gtitle';tt.textContent=title;
+  var ss=document.createElement('div');ss.className='gsub';ss.textContent=sub;
+  b.appendChild(tt);b.appendChild(ss);
   return b;
+}
+function gigTimerStart(secs,onExpire){
+  if(!GIG)return;
+  if(GIG.tInt)clearInterval(GIG.tInt);
+  GIG.tEnd=performance.now()+secs*1000;
+  GIG.tTotal=secs*1000;
+  GIG.tInt=setInterval(function(){
+    if(!GIG){return;}
+    var rem=GIG.tEnd-performance.now();
+    var el=document.getElementById('gtimer-fill');
+    if(el){
+      var p=Math.max(0,rem/GIG.tTotal);
+      el.style.width=(p*100)+'%';
+      el.style.background=p>.5?'#22c55e':p>.25?'#f59e0b':'#ef4444';
+    }
+    if(rem<=0){
+      clearInterval(GIG.tInt);GIG.tInt=null;
+      if(onExpire)onExpire();
+    }
+  },100);
+}
+function gigTimerStop(){
+  if(!GIG)return;
+  if(GIG.tInt){clearInterval(GIG.tInt);GIG.tInt=null;}
+  var rem=Math.max(0,(GIG.tEnd||performance.now())-performance.now());
+  GIG.remSum=(GIG.remSum||0)+rem/1000;
 }
 function gigPlayBtn(label,passes){
   var pb=document.createElement('button');pb.className='play-big';
@@ -2682,12 +2766,24 @@ function gigPlayBtn(label,passes){
   return w;
 }
 function gigStart(ti){
-  GIG={song:gigNewSong(ti),phase:1,timers:[],plays:0,homeOk:false,mmOk:false,chartOk:false,namesOk:false,onBarPick:null};
+  GIG={song:gigNewSong(ti),phase:1,timers:[],plays:0,remSum:0,homeOk:false,mmOk:false,chartOk:false,namesOk:false,onBarPick:null,tInt:null};
+  document.getElementById('gig').classList.add('live');
+  document.querySelector('nav').style.display='none';
+  window.scrollTo(0,0);
   gigPhase1();
   setTimeout(function(){if(GIG)playBand(2,gigLive,function(){gigLive(-1);});},500);
 }
 function gigPhase1(){
-  var b=gigHead('Act 1 · Find the one','The band is playing. Which bar feels like home?');
+  var b=gigHead('Find the one','The band is playing. Which bar feels like home?',1);
+  gigTimerStart(GIG_TIERS[GIG.song.tier].times[0],function(){
+    if(!GIG||GIG.phase!==1)return;
+    if(!GIG.homeDone){GIG.homeDone=true;GIG.homeOk=false;GIG.onBarPick=null;}
+    if(!GIG.mmDone){GIG.mmDone=true;GIG.mmOk=false;}
+    playBadS();
+    var q=gigBody().querySelector('.gig-q');
+    if(q)q.textContent='Time! The clock got that one.';
+    setTimeout(function(){if(GIG){gigClearTimers();cut();gigPhase2();}},900);
+  });
   b.appendChild(gigPlayBtn('play the song · loops twice',2));
   var bars=gigBars(false,true);
   b.appendChild(bars);
@@ -2721,6 +2817,7 @@ function gigPhase1(){
           else if(key===o[0])cc.classList.add('is-bad');
         });
         if(GIG.mmOk)playGood();else playBadS();
+        gigTimerStop();
         var nx=document.createElement('button');nx.className='btn btn-blue btn-big btn-block';nx.textContent='Chart it';
         nx.style.marginTop='10px';
         nx.addEventListener('click',function(){run(function(){});gigClearTimers();cut();gigPhase2();});
@@ -2733,7 +2830,15 @@ function gigPhase1(){
   };
 }
 function gigPhase2(){
-  var b=gigHead('Act 2 · Chart it','Arrange the numbers. Home is marked for you.');
+  GIG.phase=2;
+  var b=gigHead('Chart it','Arrange the numbers you hear.',2);
+  gigTimerStart(GIG_TIERS[GIG.song.tier].times[1],function(){
+    if(!GIG||GIG.phase!==2)return;
+    GIG.chartOk=false;
+    playBadS();
+    var host=gigBody();host.classList.add('shake');
+    setTimeout(function(){if(GIG){gigClearTimers();cut();gigPhase3();}},900);
+  });
   b.appendChild(gigPlayBtn('play the song again',1));
   var HOME=homeNum(GIG.song.mode);
   var pool=GIG.song.mode==='min'?['1m','4m','5','6','7']:GIG_TIERS[GIG.song.tier].pool;
@@ -2758,6 +2863,7 @@ function gigPhase2(){
       run(function(){});
       picked.push(t);paint();
       if(picked.length===seqTruth.length){
+        gigTimerStop();
         GIG.chartOk=JSON.stringify(picked)===JSON.stringify(seqTruth);
         if(GIG.chartOk){ST.charted++;save();}
         slots.querySelectorAll('.gbar').forEach(function(s,i){
@@ -2785,7 +2891,14 @@ function gigPhase2(){
   b.appendChild(note);
 }
 function gigPhase3(){
-  var b=gigHead('Act 3 · Name the chords','The singer leans over.');
+  GIG.phase=3;
+  var b=gigHead('Name the chords','The singer leans over with the key.',3);
+  gigTimerStart(GIG_TIERS[GIG.song.tier].times[2],function(){
+    if(!GIG||GIG.phase!==3)return;
+    GIG.namesOk=GIG.namesOk||false;
+    if(!GIG.namesDone){GIG.namesDone=true;playBadS();}
+    setTimeout(function(){if(GIG){gigClearTimers();cut();gigReveal();}},700);
+  });
   var s=GIG.song;
   var disp=keyDisp(s.mode,s.keyN);
   var q=document.createElement('div');q.className='gig-q';
@@ -2802,6 +2915,7 @@ function gigPhase3(){
     var c=document.createElement('button');c.className='choice';c.innerHTML='<span>'+o+'</span>';
     c.addEventListener('click',function(){
       if(GIG.namesDone)return;
+      gigTimerStop();
       GIG.namesDone=true;
       GIG.namesOk=o===correct;
       ch.querySelectorAll('.choice').forEach(function(cc){
@@ -2821,6 +2935,7 @@ function gigPhase3(){
   b.appendChild(gigCheatUI());
 }
 function gigReveal(){
+  if(GIG.tInt){clearInterval(GIG.tInt);GIG.tInt=null;}
   var s=GIG.song;
   var b=gigHead('The show','Chords on the board. Play along in your head.');
   var names=s.seq.map(function(x){return chordOf(s.mode,s.keyN,x);});
@@ -2843,7 +2958,8 @@ function gigResults(){
   var checks=[['Found home',GIG.homeOk],['Bright or dark',GIG.mmOk],['The chart',GIG.chartOk],['The chords',GIG.namesOk]];
   var score=checks.filter(function(c){return c[1];}).length;
   var stars=score>=4?3:score===3?2:score===2?1:0;
-  var xp=30+stars*6;
+  var bonus=Math.min(15,Math.round((GIG.remSum||0)/6));
+  var xp=30+stars*6+bonus;
   ST.coins+=xp;ST.gigs++;
   if(!ST.gigBest[GIG.song.tier]||stars>ST.gigBest[GIG.song.tier])ST.gigBest[GIG.song.tier]=stars;
   var hadStreak=ST.streak.last===todayStr();
@@ -2852,6 +2968,11 @@ function gigResults(){
   record('names',GIG.namesOk,{g:'names',dir:'fwd',mode:GIG.song.mode});
   save();
   var b=gigHead('Encore','How the night went');
+  if(bonus>0){
+    var bn=document.createElement('div');bn.className='gig-note';
+    bn.textContent='Speed bonus: +'+bonus+' coins for beating the clock';
+    b.appendChild(bn);
+  }
   var starRow=document.createElement('div');starRow.className='gig-stars';
   for(var i=0;i<3;i++){
     starRow.innerHTML+='<svg viewBox="0 0 24 24"><path d="M12 2.4l2.85 5.9 6.45.85-4.7 4.5 1.15 6.4L12 17l-5.75 3.05 1.15-6.4-4.7-4.5 6.45-.85z" fill="'+(i<stars?'#f59e0b':'#e2e8f0')+'"/></svg>';
