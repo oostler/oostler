@@ -324,8 +324,10 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .gbar.gb-ok{border-color:var(--ok);background:var(--ok-soft);color:#15803d}
 .gbar.gb-bad{border-color:var(--bad);background:var(--bad-soft);color:var(--bad);animation:shk .3s}
 .gbar.named{font-size:14px}
-.cheat-btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:11px;border:2px dashed #c4b5fd;border-radius:14px;background:#f5f3ff;color:#6d28d9;font-family:inherit;font-weight:800;font-size:13.5px;cursor:pointer}
-.cheat-btn:active{transform:translateY(1px)}
+.cheat-wrap{display:flex;justify-content:center}
+.cheat-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 15px;border:2px solid var(--border);border-bottom-width:3px;border-radius:99px;background:var(--card);color:var(--muted);font-family:inherit;font-weight:800;font-size:12px;cursor:pointer;letter-spacing:.02em}
+.cheat-btn svg{width:14px;height:14px;fill:currentColor}
+.cheat-btn:active{transform:translateY(1px);border-bottom-width:2px}
 .cheat-chips{display:flex;gap:5px;justify-content:center;margin-top:8px}
 .cheat-chips span{width:26px;height:26px;border-radius:50%;background:#ede9fe;color:#7c3aed;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;transition:all .12s}
 .cheat-chips span.lit{background:#7c3aed;color:#fff;transform:scale(1.15)}
@@ -352,41 +354,22 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .gbuy.equipped{background:var(--blue);border-color:var(--blue-press);color:#fff;pointer-events:none}
 .gbuy:active{transform:translateY(2px);border-bottom-width:1px}
 .gbuy svg{width:15px;height:15px}
-/* ===== game mode ===== */
-#gig.live{background:linear-gradient(165deg,#0f172a,#1e1b4b 55%,#312e81);min-height:100vh}
-#gig.live .pad{color:#e2e8f0}
-#gig.live .gig-q{color:#fff}
-#gig.live .gig-note{color:#94a3b8}
-#gig.live .x-btn{color:#94a3b8}
-#gig.live .gbar{background:#1e293b;border-color:#334155;color:#94a3b8}
-#gig.live .gbar.live{border-color:#60a5fa;color:#93c5fd;box-shadow:0 0 0 3px rgba(96,165,250,.25),0 0 18px rgba(96,165,250,.35)}
-#gig.live .gbar.pick{border-color:#60a5fa;background:#1e3a8a;color:#bfdbfe}
-#gig.live .gbar.gb-ok{border-color:#22c55e;background:#052e16;color:#4ade80}
-#gig.live .gbar.gb-bad{border-color:#ef4444;background:#450a0a;color:#f87171}
-#gig.live .choice{background:#1e293b;border-color:#334155;color:#e2e8f0}
-#gig.live .choice .sub{color:#94a3b8}
-#gig.live .choice.is-ok{background:#052e16;border-color:#22c55e;color:#4ade80}
-#gig.live .choice.is-bad{background:#450a0a;border-color:#ef4444;color:#f87171}
-#gig.live .tile{background:#1e293b;border-color:#334155;color:#e2e8f0}
-#gig.live .btn{background:#1e293b;border-color:#334155;color:#e2e8f0}
-#gig.live .btn-blue{background:var(--blue);border-color:var(--blue-press);color:#fff}
-#gig.live .btn-ok{background:var(--ok);border-color:#15803d;color:#fff}
-#gig.live .cheat-btn{background:rgba(124,58,237,.16);border-color:#6d28d9;color:#c4b5fd}
-#gig.live .gact{background:#1e293b;border-color:#334155;color:#e2e8f0}
-#gig.live .play-lbl{color:#94a3b8}
+/* ===== game mode (light) ===== */
 .ghud{display:flex;align-items:center;gap:10px}
-.ghud .glevel{font-size:11px;font-weight:900;letter-spacing:.1em;color:#93c5fd;background:rgba(59,130,246,.15);border:1.5px solid rgba(96,165,250,.4);border-radius:99px;padding:4px 11px;white-space:nowrap}
+.ghud .glevel{font-size:11px;font-weight:900;letter-spacing:.1em;color:var(--blue);background:var(--blue-mist);border:1.5px solid var(--blue-soft);border-radius:99px;padding:4px 11px;white-space:nowrap}
 .gdots{display:flex;gap:6px;margin-left:auto}
-.gdots span{width:9px;height:9px;border-radius:50%;background:#334155}
-.gdots span.on{background:#60a5fa;box-shadow:0 0 8px rgba(96,165,250,.7)}
-.gdots span.did{background:#22c55e}
-.gtimer{height:9px;border-radius:99px;background:#1e293b;overflow:hidden;margin-top:10px}
+.gdots span{width:9px;height:9px;border-radius:50%;background:#cbd5e1}
+.gdots span.on{background:var(--blue);box-shadow:0 0 0 3px var(--blue-mist)}
+.gdots span.did{background:var(--ok)}
+.gtimer{height:9px;border-radius:99px;background:#e2e8f0;overflow:hidden;margin-top:10px}
 .gtimer>div{height:100%;border-radius:99px;background:#22c55e;width:100%;transition:width .12s linear,background .3s}
-.gtitle{font-size:19px;font-weight:900;color:#fff;margin-top:12px}
-.gsub{font-size:13px;color:#94a3b8;margin-top:2px}
+.gtimer.urgent>div{animation:urgFlash .5s steps(2) infinite}
+@keyframes urgFlash{50%{opacity:.4}}
+.gtitle{font-size:19px;font-weight:900;color:var(--fg);margin-top:12px}
+.gsub{font-size:13px;color:var(--muted);margin-top:2px}
 .diff-dot{width:12px;height:12px;border-radius:50%;display:inline-block;flex-shrink:0}
 @keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
-#gig.live .shake{animation:shake .35s}
+.shake{animation:shake .35s}
 </style>
 </head>
 <body>
@@ -2150,11 +2133,13 @@ function renderQ(body,s){
   else if(Q.model==='tiles')renderTiles(body);
   else if(Q.model==='tap')renderTap(body);
   if(Q.hint){
+    var hw=document.createElement('div');hw.className='cheat-wrap';
     var hb=document.createElement('button');hb.className='cheat-btn';
-    hb.innerHTML='🔑 Hear the key (chords 1 to 7)';
-    hb.style.marginTop='4px';
+    hb.innerHTML='<svg viewBox="0 0 24 24"><path d="M21 10h-8.35A5.99 5.99 0 0 0 2 12a6 6 0 0 0 10.65 2H15v2h2v-2h2v3h2v-5zM8 14a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg>Key hint';
+    hb.title='Plays every chord of the key, 1 to 7';
     hb.addEventListener('click',function(){run(function(){});if(Q&&Q.hint)playKeyHint(Q.hint.mode,Q.hint.keyN);});
-    body.appendChild(hb);
+    hw.appendChild(hb);
+    body.appendChild(hw);
   }
   apTimer=setTimeout(function(){if(Q&&!Q._locked)Q.play();},450);
 }
@@ -2534,7 +2519,6 @@ function gigClearTimers(){
 }
 function gigLeave(){
   if(GIG&&GIG.tInt)clearInterval(GIG.tInt);
-  document.getElementById('gig').classList.remove('live');
   document.querySelector('nav').style.display='flex';
   if(!GIG)return;
   gigClearTimers();
@@ -2683,9 +2667,10 @@ function gigLive(bi){
   document.querySelectorAll('.gbar').forEach(function(b,i){b.classList.toggle('live',i===bi);});
 }
 function gigCheatUI(){
-  var box=document.createElement('div');
+  var box=document.createElement('div');box.style.textAlign='center';
   var btn=document.createElement('button');btn.className='cheat-btn';
-  btn.innerHTML='🔑 Play the key (chords 1 to 7)';
+  btn.innerHTML='<svg viewBox="0 0 24 24"><path d="M21 10h-8.35A5.99 5.99 0 0 0 2 12a6 6 0 0 0 10.65 2H15v2h2v-2h2v3h2v-5zM8 14a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg>Key hint';
+  btn.title='Plays every chord of the key, 1 to 7';
   btn.addEventListener('click',function(){run(function(){});playKeyCheat();});
   var chips=document.createElement('div');chips.className='cheat-chips';
   var seats=GIG.song.mode==='min'?KM_MIN_SEATS:KM_MAJ_SEATS;
@@ -2723,11 +2708,64 @@ function gigHead(title,sub,act){
   b.appendChild(tt);b.appendChild(ss);
   return b;
 }
+function warnBeep(){
+  run(function(ctx){
+    [0,0.2].forEach(function(d){
+      var o=ctx.createOscillator(),g=ctx.createGain();
+      o.type='sine';o.frequency.value=1350;
+      var t=ctx.currentTime+d;
+      g.gain.setValueAtTime(0.22,t);
+      g.gain.exponentialRampToValueAtTime(0.001,t+0.09);
+      o.connect(g);g.connect(bus(ctx));
+      o.start(t);o.stop(t+0.1);
+    });
+  });
+}
+function failBuzz(){
+  run(function(ctx){
+    var o=ctx.createOscillator(),g=ctx.createGain();
+    o.type='sawtooth';
+    o.frequency.setValueAtTime(200,ctx.currentTime);
+    o.frequency.exponentialRampToValueAtTime(85,ctx.currentTime+0.55);
+    g.gain.setValueAtTime(0.22,ctx.currentTime);
+    g.gain.exponentialRampToValueAtTime(0.001,ctx.currentTime+0.6);
+    o.connect(g);g.connect(bus(ctx));
+    o.start();o.stop(ctx.currentTime+0.65);
+  });
+}
+function gigFail(){
+  if(!GIG)return;
+  if(GIG.tInt){clearInterval(GIG.tInt);GIG.tInt=null;}
+  gigClearTimers();
+  cut();
+  failBuzz();
+  ST.gigs++;save();
+  var s=GIG.song;
+  var names=s.seq.map(function(x){return chordOf(s.mode,s.keyN,x);});
+  var b=gigHead('Time is up','The band played on without you.');
+  var face=document.createElement('div');face.className='done-face';face.textContent='⏰';
+  b.appendChild(face);
+  var rv=document.createElement('div');rv.className='gact';
+  rv.innerHTML='<span>It was '+seqLabel(s.seq)+' in '+keyDisp(s.mode,s.keyN)+'</span><span class="ga-mark">'+names.join(' ')+'</span>';
+  b.appendChild(rv);
+  var note=document.createElement('div');note.className='gig-note';
+  note.textContent='No stars, no coins. The clock shows no mercy.';
+  b.appendChild(note);
+  var ti=s.tier;
+  var again=document.createElement('button');again.className='btn btn-blue btn-big btn-block';again.style.marginTop='12px';again.textContent='Try again';
+  again.addEventListener('click',function(){run(function(){});GIG=null;gigStart(ti);});
+  var back=document.createElement('button');back.className='btn btn-ghost btn-block';back.textContent='Back to the stage door';
+  back.addEventListener('click',function(){gigLeave();renderGigHome();});
+  b.appendChild(again);b.appendChild(back);
+  GIG.done=true;GIG.failed=true;
+}
 function gigTimerStart(secs,onExpire){
   if(!GIG)return;
   if(GIG.tInt)clearInterval(GIG.tInt);
   GIG.tEnd=performance.now()+secs*1000;
   GIG.tTotal=secs*1000;
+  GIG.warned=false;
+  var warnMs=Math.min(10,Math.max(5,secs*0.3))*1000;
   GIG.tInt=setInterval(function(){
     if(!GIG){return;}
     var rem=GIG.tEnd-performance.now();
@@ -2736,6 +2774,12 @@ function gigTimerStart(secs,onExpire){
       var p=Math.max(0,rem/GIG.tTotal);
       el.style.width=(p*100)+'%';
       el.style.background=p>.5?'#22c55e':p>.25?'#f59e0b':'#ef4444';
+    }
+    if(!GIG.warned&&rem<=warnMs){
+      GIG.warned=true;
+      warnBeep();
+      var tm=el&&el.parentNode;
+      if(tm)tm.classList.add('urgent');
     }
     if(rem<=0){
       clearInterval(GIG.tInt);GIG.tInt=null;
@@ -2760,7 +2804,6 @@ function gigPlayBtn(label,passes){
 }
 function gigStart(ti){
   GIG={song:gigNewSong(ti),phase:1,timers:[],plays:0,remSum:0,homeOk:false,mmOk:false,chartOk:false,namesOk:false,onBarPick:null,tInt:null};
-  document.getElementById('gig').classList.add('live');
   document.querySelector('nav').style.display='none';
   window.scrollTo(0,0);
   gigPhase1();
@@ -2770,12 +2813,7 @@ function gigPhase1(){
   var b=gigHead('Find the one','The band is playing. Which bar feels like home?',1);
   gigTimerStart(GIG_TIERS[GIG.song.tier].times[0],function(){
     if(!GIG||GIG.phase!==1)return;
-    if(!GIG.homeDone){GIG.homeDone=true;GIG.homeOk=false;GIG.onBarPick=null;}
-    if(!GIG.mmDone){GIG.mmDone=true;GIG.mmOk=false;}
-    playBadS();
-    var q=gigBody().querySelector('.gig-q');
-    if(q)q.textContent='Time! The clock got that one.';
-    setTimeout(function(){if(GIG){gigClearTimers();cut();gigPhase2();}},900);
+    gigFail();
   });
   b.appendChild(gigPlayBtn('play the song · loops twice',2));
   var bars=gigBars(false,true);
@@ -2827,10 +2865,7 @@ function gigPhase2(){
   var b=gigHead('Chart it','Arrange the numbers you hear.',2);
   gigTimerStart(GIG_TIERS[GIG.song.tier].times[1],function(){
     if(!GIG||GIG.phase!==2)return;
-    GIG.chartOk=false;
-    playBadS();
-    var host=gigBody();host.classList.add('shake');
-    setTimeout(function(){if(GIG){gigClearTimers();cut();gigPhase3();}},900);
+    gigFail();
   });
   b.appendChild(gigPlayBtn('play the song again',1));
   var HOME=homeNum(GIG.song.mode);
@@ -2879,18 +2914,14 @@ function gigPhase2(){
   clr.addEventListener('click',function(){if(picked.length<seqTruth.length){picked=[];paint();}});
   b.appendChild(clr);
   b.appendChild(gigCheatUI());
-  var note=document.createElement('div');note.className='gig-note';
-  note.textContent='Stuck? The key button plays every chord of the key in order. It costs nothing but pride.';
-  b.appendChild(note);
+
 }
 function gigPhase3(){
   GIG.phase=3;
   var b=gigHead('Name the chords','The singer leans over with the key.',3);
   gigTimerStart(GIG_TIERS[GIG.song.tier].times[2],function(){
     if(!GIG||GIG.phase!==3)return;
-    GIG.namesOk=GIG.namesOk||false;
-    if(!GIG.namesDone){GIG.namesDone=true;playBadS();}
-    setTimeout(function(){if(GIG){gigClearTimers();cut();gigReveal();}},700);
+    gigFail();
   });
   var s=GIG.song;
   var disp=keyDisp(s.mode,s.keyN);
