@@ -807,8 +807,12 @@ document.getElementById('sheet-wrap').addEventListener('click',function(e){if(e.
 
 /* ================= AUDIO: guitar sampler ================= */
 var actx=null,mGain=null;
+/* iOS: play through the silent/mute switch by declaring a 'playback' audio session */
+function iosPlayback(){try{if(navigator.audioSession)navigator.audioSession.type='playback';}catch(e){}}
+iosPlayback();
 function getCtx(){
   if(!actx){
+    iosPlayback();
     actx=new (window.AudioContext||window.webkitAudioContext)();
     mGain=actx.createGain();
     mGain.gain.value=(ST.set.vol/100)*0.9;
@@ -827,16 +831,20 @@ function run(fn){
   else ctx.resume().then(wrapped).catch(wrapped);
 }
 var audioUnlocked=false;
+var _silentEl=null;
 function unlockAudio(){
+  iosPlayback();
   if(audioUnlocked)return;
   audioUnlocked=true;
   var ctx=getCtx();
   loadSamples();
   if(ctx.state!=='running')ctx.resume().catch(function(){});
   try{var b=ctx.createBuffer(1,1,22050);var s=ctx.createBufferSource();s.buffer=b;s.connect(ctx.destination);s.start(0);}catch(e){}
+  /* older iOS (<16.4, no AudioSession API): a looping silent element keeps the session in playback mode so Web Audio ignores the mute switch */
   try{
     var el=document.createElement('audio');
     el.setAttribute('playsinline','');
+    el.loop=true;_silentEl=el;
     el.src='data:audio/wav;base64,UklGRgQCAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YeABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA';
     el.play().catch(function(){});
   }catch(e){}
