@@ -832,6 +832,7 @@ function run(fn){
 }
 var audioUnlocked=false;
 var _silentEl=null;
+var IS_IOS=/iP(hone|od|ad)/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&(navigator.maxTouchPoints||0)>1);
 function unlockAudio(){
   iosPlayback();
   if(audioUnlocked)return;
@@ -840,8 +841,9 @@ function unlockAudio(){
   loadSamples();
   if(ctx.state!=='running')ctx.resume().catch(function(){});
   try{var b=ctx.createBuffer(1,1,22050);var s=ctx.createBufferSource();s.buffer=b;s.connect(ctx.destination);s.start(0);}catch(e){}
-  /* older iOS (<16.4, no AudioSession API): a looping silent element keeps the session in playback mode so Web Audio ignores the mute switch */
-  try{
+  /* Only pre-16.4 iOS (no AudioSession API) needs the silent-loop trick to play through the mute switch.
+     On desktop it does nothing useful and the loop restarts cause an audible low thump, so gate it strictly. */
+  if(IS_IOS && !navigator.audioSession)try{
     var el=document.createElement('audio');
     el.setAttribute('playsinline','');
     el.loop=true;_silentEl=el;
