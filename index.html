@@ -383,8 +383,8 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .char-svg{width:132px;height:132px;position:relative}
 .char-body{animation:charBob 2.9s ease-in-out infinite;transform-origin:110px 130px}
 @keyframes charBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
-.char-strum{animation:charStrum 1s ease-in-out infinite;transform-origin:126px 118px}
-@keyframes charStrum{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(7deg)}}
+.char-strum{animation:charStrum .9s ease-in-out infinite;transform-origin:90px 112px}
+@keyframes charStrum{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
 .pc-info{flex:1;min-width:0}
 .pc-name{font-size:11px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--blue)}
 .pc-axe{font-weight:900;font-size:16px;margin:2px 0 3px;color:var(--fg)}
@@ -709,11 +709,13 @@ function characterSVG(id){
       '<path d="M84 60 Q86 34 110 34 Q134 34 136 60 Q126 50 110 51 Q94 50 84 60 Z" fill="#3a2a1c"/>'+
       '<circle cx="100" cy="66" r="2.6" fill="#2a2320"/><circle cx="120" cy="66" r="2.6" fill="#2a2320"/>'+
       '<path d="M102 76 Q110 82 118 76" stroke="#93603a" stroke-width="2.4" fill="none" stroke-linecap="round"/>'+
-      /* fretting arm reaching to neck (upper-left) */
-      '<path d="M84 116 Q64 108 50 86" stroke="#f0c9a0" stroke-width="11" fill="none" stroke-linecap="round"/>'+
     '</g>'+
     '<g class="char-gtr" transform="translate(150 78) rotate(52) scale(0.62)">'+guitarInner(id)+'</g>'+
-    '<g class="char-strum"><path d="M136 118 Q160 128 150 150" stroke="#f0c9a0" stroke-width="11" fill="none" stroke-linecap="round"/><circle cx="150" cy="150" r="7" fill="#f0c9a0"/></g>'+
+    /* fretting hand grips the neck up to the right (static) */
+    '<path d="M122 108 Q144 112 152 128" stroke="#f0c9a0" stroke-width="11" fill="none" stroke-linecap="round"/>'+
+    '<circle cx="152" cy="129" r="7.5" fill="#f0c9a0"/>'+
+    /* strumming hand rests over the guitar body and strums across the strings */
+    '<g class="char-strum"><path d="M90 112 Q90 138 104 155" stroke="#f0c9a0" stroke-width="11" fill="none" stroke-linecap="round"/><circle cx="104" cy="156" r="7.5" fill="#f0c9a0"/></g>'+
   '</svg>';
 }
 if(!ST.skills)ST.skills={};
@@ -1186,6 +1188,12 @@ function randChart(n,opts){
       seq.push(c);prev=c;
     }
     if(seq.indexOf(opts.home||'1')<0)continue;
+    if(opts.startHome){
+      /* rotate the loop so it begins on home: charts are then unambiguous (no valid rotation gets marked wrong) */
+      var hi=seq.indexOf(opts.home||'1');
+      if(hi>0)seq=seq.slice(hi).concat(seq.slice(0,hi));
+      if(!opts.repeats){var adj=false;for(var k=1;k<seq.length;k++)if(seq[k]===seq[k-1])adj=true;if(adj)continue;}
+    }
     if(opts.unfamiliar&&famous.indexOf(seq.join(','))>=0)continue;
     if(opts.needRepeat){
       var hasRep=false;
@@ -1406,7 +1414,7 @@ function genChart(spec){
   var n=spec.n||4;
   var keyN=mode==='min'?pick(MKEYS).n:randKey();
   var pool=spec.pool||(mode==='min'?['1m','4m','5','6','7']:['1','4','5','6m']);
-  var seq=randChart(n,{pool:pool,unfamiliar:!!spec.unfamiliar,repeats:!!spec.repeats,needRepeat:!!spec.needRepeat,home:homeNum(mode)});
+  var seq=randChart(n,{pool:pool,unfamiliar:!!spec.unfamiliar,repeats:!!spec.repeats,needRepeat:!!spec.needRepeat,home:homeNum(mode),startHome:true});
   LAST_CHART=seq.slice();
   LAST_MODE=mode;
   var bpm=spec.bpm||92,beats=spec.beats||2;
@@ -1896,9 +1904,9 @@ var UNITS=[
    skill:'num',guided:{g:'seq',orders:[['1','4','5','1'],['1','5','4','1']]},drill:[{g:'seq',orders:[['1','4','5','1'],['1','5','4','1']]},{g:'seq',orders:[['1','4','5','1'],['1','5','4','1']]},{g:'seq',orders:[['1','4','5','1'],['1','5','4','1']]}],apply:{g:'seq',orders:[['1','4','5','1'],['1','5','4','1']]}}
  ]},
  {part:'The major map',name:'First charts',goal:'Start charting with the chords you have',lessons:[
-  {t:'Tap the changes',o:'Feel where the harmony moves',
-   e:'Before you can name chords you must feel where they change. Tap every change.',
-   skill:'prog',guided:{g:'tap'},drill:[{g:'tap'},{g:'tap'},{g:'tap'}],apply:{g:'tap'}},
+  {t:'When home comes back',o:'Feel the loop turn over',
+   e:'Most progressions are short loops that keep returning home. Spot the moment the music lands back on 1 and the whole shape clicks into place.',
+   skill:'prog',guided:{g:'home',k:'returns'},drill:[{g:'home',k:'returns'},{g:'home',k:'returns'},{g:'home',k:'returns'}],apply:{g:'home',k:'returns'}},
   {t:'Chart three chords',o:'Arrange your first chart',
    e:'A chart is the progression written as numbers. Arrange the tiles in the order you hear.',
    skill:'prog',guided:{g:'chart',n:3,pool:['1','4','5']},drill:[{g:'chart',n:3,pool:['1','4','5']},{g:'chart',n:3,pool:['1','4','5']},{g:'chart',n:3,pool:['1','4','5']}],apply:{g:'chart',n:4,pool:['1','4','5']}},
@@ -1970,9 +1978,9 @@ var UNITS=[
  ]},
  {part:'The major map',name:'The major challenge',goal:'Everything at once',lessons:[
   {t:'The major challenge',o:'Hear a new loop, chart it, play it in two keys',
-   e:'Everything at once: find home, confirm it is bright, tap the changes, chart the loop, then convert it to two different keys.',
+   e:'Everything at once: find home, confirm it is bright, chart the loop, then convert it to two different keys.',
    skill:'names',
-   drill:[{g:'home',k:'which'},{g:'mm',k:'find'},{g:'tap'},{g:'chart',n:4,unfamiliar:true},{g:'names',dir:'fwd',useLast:true,key:'G'},{g:'names',dir:'fwd',useLast:true,key:'A'}]}
+   drill:[{g:'home',k:'which'},{g:'mm',k:'find'},{g:'chart',n:4,unfamiliar:true},{g:'names',dir:'fwd',useLast:true,key:'G'},{g:'names',dir:'fwd',useLast:true,key:'A'}]}
  ]},
  /* ---------- PART 3: THE MINOR MAP ---------- */
  {part:'The minor map',name:'Meet the minor map',goal:'Dark home, same method, new map',lessons:[
@@ -2000,9 +2008,9 @@ var UNITS=[
    e:'In A minor, 1m-6-7 is Am-F-G. Same translation skill, minor map.',
    skill:'minor',guided:{g:'names',mode:'min',dir:'fwd'},drill:[{g:'names',mode:'min',dir:'fwd'},{g:'names',mode:'min',dir:'rev'},{g:'names',mode:'min',dir:'mix'}],apply:{g:'names',mode:'min',dir:'mix'}},
   {t:'The minor challenge',o:'Hear, chart and convert a minor song',
-   e:'The full chain on the dark map: find home, tap the changes, chart the loop, name the chords.',
+   e:'The full chain on the dark map: find home, chart the loop, name the chords.',
    skill:'minor',
-   drill:[{g:'home',k:'which',mode:'min',skill:'minor'},{g:'tap',mode:'min'},{g:'chart',mode:'min',n:4},{g:'names',mode:'min',dir:'fwd',useLast:true}]},
+   drill:[{g:'home',k:'which',mode:'min',skill:'minor'},{g:'chart',mode:'min',n:4},{g:'names',mode:'min',dir:'fwd',useLast:true}]},
   {t:'The relative-major shortcut',o:'Optional: how some pros spell minor songs',
    e:'Every minor key shares its chords with one major key. Some Nashville charts use that shortcut and write a minor song inside its relative major, with home spelled 6m. You never need this, but now you can read it.',
    skill:'minor',guided:{g:'rel'},drill:[{g:'rel'},{g:'rel'}],apply:{g:'rel'}}
