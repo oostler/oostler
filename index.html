@@ -48,8 +48,8 @@ h3{font-size:14px;font-weight:700}
 .streak-chip{display:inline-flex;align-items:center;gap:5px;background:var(--warn-soft);color:#92400e;
   border-radius:999px;padding:5px 12px;font-weight:800;font-size:13px}
 .today-chip{font-size:12.5px;font-weight:700;color:var(--muted)}
-.hero{background:linear-gradient(135deg,#2563eb,#3b82f6);border:none;color:#fff;border-radius:22px;padding:20px 18px;
-  box-shadow:0 6px 0 #1e40af}
+.hero{background:linear-gradient(140deg,#60a5fa,var(--blue) 72%);border:none;color:#fff;border-radius:22px;padding:20px 18px;
+  box-shadow:0 6px 0 var(--blue-press)}
 .hero h2{color:#fff;font-size:18px}
 .hero .obj{color:#dbeafe;font-size:13.5px;margin-top:4px}
 .hero .time{color:#bfdbfe;font-size:12px;margin-top:2px}
@@ -165,7 +165,7 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .part-head{margin-top:16px;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--blue);display:flex;align-items:center;gap:8px}
 .part-head:before,.part-head:after{content:'';height:2px;background:var(--blue-soft);flex:1;border-radius:2px}
 .brand-row{display:flex;align-items:center;gap:9px}
-.brand-mark{width:34px;height:34px;border-radius:11px;background:linear-gradient(135deg,#2563eb,#3b82f6);display:flex;align-items:center;justify-content:center;box-shadow:0 3px 0 #1e40af;flex-shrink:0}
+.brand-mark{width:34px;height:34px;border-radius:11px;background:linear-gradient(135deg,var(--blue),var(--blue-dk));display:flex;align-items:center;justify-content:center;box-shadow:0 3px 0 #1e40af;flex-shrink:0}
 .brand-mark svg{width:19px;height:19px;fill:#fff}
 .brand-name{font-size:19px;font-weight:800;color:var(--blue);letter-spacing:-.02em}
 .seat-row{display:flex;align-items:center;gap:12px;background:var(--card);border:2px solid var(--border);border-bottom-width:4px;border-radius:var(--r);padding:11px 14px;cursor:pointer}
@@ -232,7 +232,7 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .read-dots span{width:7px;height:7px;border-radius:50%;background:var(--border)}
 .read-dots span.on{background:var(--blue)}
 .lp-stats{position:sticky;top:0;z-index:30;background:var(--bg);display:flex;align-items:center;gap:16px;padding:12px 4px 14px;min-height:58px}
-.brand-mini{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#2563eb,#3b82f6);display:flex;align-items:center;justify-content:center;box-shadow:0 2px 0 #1e40af;flex-shrink:0}
+.brand-mini{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--blue),var(--blue-dk));display:flex;align-items:center;justify-content:center;box-shadow:0 2px 0 #1e40af;flex-shrink:0}
 .brand-mini svg{width:16px;height:16px;fill:#fff}
 .spill{display:inline-flex;align-items:center;gap:6px;font-weight:800;font-size:15.5px}
 .spill svg{width:20px;height:20px}
@@ -377,9 +377,9 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .gcard .g-n{font-weight:800;font-size:14.5px;display:block}
 .gcard .g-d{font-size:11.5px;color:var(--muted);display:block;margin-top:1px}
 /* player card + character */
-.player-card{display:flex;align-items:center;gap:8px;background:linear-gradient(145deg,#eff5ff,#dbe8ff);border:2px solid #c7dbff;border-radius:22px;padding:12px 16px 12px 8px;overflow:hidden}
+.player-card{display:flex;align-items:center;gap:8px;background:var(--card);border:2px solid var(--border);border-radius:var(--r);padding:12px 16px 12px 8px;overflow:hidden}
 .pc-stage{width:132px;height:132px;flex-shrink:0;position:relative;display:flex;align-items:flex-end;justify-content:center}
-.pc-stage:before{content:'';position:absolute;top:8px;left:50%;transform:translateX(-50%);width:96px;height:96px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.7),transparent 66%)}
+.pc-stage:before{content:'';position:absolute;top:8px;left:50%;transform:translateX(-50%);width:100px;height:100px;border-radius:50%;background:radial-gradient(circle,var(--blue-soft),transparent 68%)}
 .char-svg{width:132px;height:132px;position:relative}
 .char-body{animation:charBob 2.9s ease-in-out infinite;transform-origin:110px 130px}
 @keyframes charBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
@@ -975,19 +975,27 @@ var CVOIC={
   'Bdim':[47,53,59,62],'Ddim':[50,56,62,65],'Adim':[45,51,57,60],
   'A5':[45,52,57],'E5':[40,47,52],'G5':[43,50,55]
 };
-function strumMidis(ctx,arr,opt){
+/* humanize: a person never plays on a perfect grid. tiny timing + dynamics variance = musical, not robotic */
+function hTime(a){return (a==null?0.007:a)*(Math.random()*2-1);}
+function strumArr(ctx,arr,opt){
   opt=opt||{};
-  arr.forEach(function(m,i){
-    note(ctx,m,{delay:(opt.delay||0)+i*0.022,dur:opt.dur||1.5,vel:(opt.vel||0.42)*(1-i*0.03)});
+  var up=opt.up;
+  var seq=up?arr.slice().reverse():arr;
+  var t0=(opt.delay||0)+hTime(0.008);            /* whole strum sits a hair ahead or behind the beat */
+  var spread=opt.spread||0.022;
+  seq.forEach(function(m,i){
+    var vel=(opt.vel||0.42)*(1-i*0.03)*(0.88+Math.random()*0.22);  /* each string dug in a little differently */
+    if(up)vel*=0.82;                              /* upstrokes are lighter */
+    note(ctx,m,{delay:t0,dur:opt.dur||1.5,vel:vel});
+    t0+=spread*(0.68+Math.random()*0.7);          /* uneven gaps between strings */
   });
 }
+function strumMidis(ctx,arr,opt){strumArr(ctx,arr,opt);}
 function strum(ctx,name,opt){
   opt=opt||{};
   var v=VOIC[name]||CVOIC[name];
   if(!v)return;
-  v.forEach(function(m,i){
-    note(ctx,m,{delay:(opt.delay||0)+i*0.022,dur:opt.dur||1.5,vel:(opt.vel||0.42)*(1-i*0.03)});
-  });
+  strumArr(ctx,v,opt);
 }
 /* music data */
 var KEYS=[{n:'C',pc:0},{n:'G',pc:7},{n:'D',pc:2},{n:'A',pc:9},{n:'E',pc:4},{n:'F',pc:5}];
@@ -1016,7 +1024,11 @@ function cadSeq(mode){return mode==='min'?['1m','4m','5','1m']:['1','4','5','1']
 function chordSeq(ctx,names,opt){
   opt=opt||{};
   var step=opt.step||0.8,dur=opt.dur||step*0.92;
-  names.forEach(function(n,i){strum(ctx,n,{delay:(opt.delay||0)+i*step,dur:dur,vel:opt.vel||0.42});});
+  names.forEach(function(n,i){
+    var human=i===0?0:hTime(0.013);                       /* first chord dead on, the rest breathe */
+    var accent=(i===0?1.05:0.97)*(0.95+Math.random()*0.1);/* gentle dynamic shape */
+    strum(ctx,n,{delay:(opt.delay||0)+i*step+human,dur:dur,vel:(opt.vel||0.42)*accent});
+  });
   return (opt.delay||0)+names.length*step;
 }
 function cadence(ctx,keyN,opt){
@@ -1067,9 +1079,10 @@ function playLoop(keyN,nums,opt){
     nums.forEach(function(nu,i){
       var t=at+i*step;
       times.push(t);
-      strum(ctx,chordOf(mode,keyN,nu),{delay:t,dur:Math.min(step*0.95,2.2),vel:0.44});
+      strum(ctx,chordOf(mode,keyN,nu),{delay:t+(i===0?0:hTime(0.01)),dur:Math.min(step*0.95,2.2),vel:0.44*(0.96+Math.random()*0.08)});
       if(beats>=4){
-        strum(ctx,chordOf(mode,keyN,nu),{delay:t+step/2,dur:step*0.45,vel:0.22});
+        /* the '&' lands a touch late as a lighter upstroke -> a little swing/groove */
+        strum(ctx,chordOf(mode,keyN,nu),{delay:t+step*0.52,dur:step*0.45,vel:0.2,up:true});
       }
     });
   });
@@ -1088,7 +1101,7 @@ function playMelody(keyN,degs,opt){
     var root=keyRootMidi(keyN)+12;
     note(ctx,root,{dur:0.8,vel:0.72});
     degs.forEach(function(d,i){
-      note(ctx,root+DEGOFF[d],{delay:1.0+i*0.75,dur:0.7,vel:0.7});
+      note(ctx,root+DEGOFF[d],{delay:1.0+i*0.75+hTime(0.014),dur:0.7,vel:0.7*(0.9+Math.random()*0.16)});
     });
   });
 }
@@ -2643,8 +2656,11 @@ function strumAt(ctx,name,t,up,vel,dur){
   var v=VOIC[name]||CVOIC[name];
   if(!v)return;
   var arr=up?v.slice(-4).reverse():v;
+  var base=(t-ctx.currentTime)+hTime(0.006);      /* the band pushes and pulls a little too */
+  var off=0;
   arr.forEach(function(m,i){
-    note(ctx,m,{delay:(t-ctx.currentTime)+i*(up?0.014:0.02),dur:dur,vel:vel*(1-i*0.04)});
+    note(ctx,m,{delay:base+off,dur:dur,vel:vel*(1-i*0.04)*(0.9+Math.random()*0.18)});
+    off+=(up?0.014:0.02)*(0.7+Math.random()*0.6);
   });
 }
 var GIG_TIERS=[
