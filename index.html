@@ -282,7 +282,7 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .nav-btn.on .nico{background:var(--blue-mist)}
 .nav-btn svg{width:23px;height:23px;fill:currentColor;stroke:none}
 /* practice */
-.review-hero{background:linear-gradient(135deg,#2563eb,#6366f1);border:none;border-radius:20px;padding:18px 16px;color:#fff;box-shadow:0 5px 0 #1e40af}
+.review-hero{background:linear-gradient(140deg,#60a5fa,var(--blue) 72%);border:none;border-radius:20px;padding:18px 16px;color:#fff;box-shadow:0 5px 0 var(--blue-press)}
 .review-hero h2{color:#fff}
 .review-hero .rh-sub{color:#dbeafe;font-size:13px;margin-top:2px}
 .review-hero .btn{margin-top:13px;width:100%;background:#fff;color:var(--blue);border-color:#bfdbfe;letter-spacing:.04em}
@@ -386,7 +386,7 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .char-strum{animation:charStrum 1s ease-in-out infinite;transform-origin:126px 118px}
 @keyframes charStrum{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(7deg)}}
 .pc-info{flex:1;min-width:0}
-.pc-name{font-size:11px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:#3b6fd4}
+.pc-name{font-size:11px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--blue)}
 .pc-axe{font-weight:900;font-size:16px;margin:2px 0 3px;color:var(--fg)}
 .pc-rar{display:inline-block;font-size:9.5px;font-weight:900;letter-spacing:.07em;text-transform:uppercase;padding:2px 8px;border-radius:99px;margin-bottom:9px}
 .gbuy{margin-left:auto;flex-shrink:0;border:none;border-bottom:3px solid;border-radius:12px;padding:9px 13px;font-family:inherit;font-weight:800;font-size:12.5px;cursor:pointer;display:flex;align-items:center;gap:5px;white-space:nowrap}
@@ -3319,12 +3319,12 @@ function renderPractice(){
   } else wc.style.display='none';
   var grid=document.getElementById('skill-grid');
   grid.innerHTML='';
-  var SKILL_COLOR={home:'#3b82f6',majmin:'#8b5cf6',num:'#f59e0b',prog:'#14b8a6',names:'#6366f1',minor:'#a855f7',col:'#ec4899',mel:'#10b981'};
+  var SKILL_COLOR={home:'#2563eb',majmin:'#8b5cf6',num:'#f59e0b',prog:'#14b8a6',names:'#6366f1',minor:'#a855f7',col:'#ec4899',mel:'#10b981'};
   SKILLS_LIST.forEach(function(s){
     var unlocked=skillUnlocked(s.id);
     var t=document.createElement('div');t.className='skill-tile';
     var acc=recentAcc(s.id);
-    t.innerHTML='<span class="skill-ic" style="background:'+(SKILL_COLOR[s.id]||'#3b82f6')+'">'+nodeIcon(s.id)+'</span>'+
+    t.innerHTML='<span class="skill-ic" style="background:'+(SKILL_COLOR[s.id]||'var(--blue)')+'">'+nodeIcon(s.id)+'</span>'+
       '<span style="display:flex;flex-direction:column;gap:2px;min-width:0"><span class="nm">'+s.name+'</span><span class="ac">'+
       (acc!=null?Math.round(acc*100)+'% recently':'Not practiced yet')+'</span></span>';
     if(unlocked)t.addEventListener('click',function(){
