@@ -2154,7 +2154,7 @@ function embedKeyMap(container){
       container.appendChild(row);
     });
     var note=document.createElement('div');note.className='emap-note';
-    note.textContent=isMin?'Home is still 1, written 1m because it is a minor chord. Same six seats in every minor key.':'Home is 1. The same seven seats appear in every major key. Tap any seat to hear it.';
+    note.textContent=isMin?'Home is still 1, written 1m because it is a minor chord. The same seven seats appear in every minor key.':'Home is 1. The same seven seats appear in every major key. Tap any seat to hear it.';
     container.appendChild(note);
   }
   draw();
@@ -2546,7 +2546,7 @@ var KM_MAJ_SEATS=[
   {n:'5',off:7,q:'maj'},{n:'6m',off:9,q:'min'},{n:'7\u00b0',off:11,q:'dim'}
 ];
 var KM_MIN_SEATS=[
-  {n:'1m',off:0,q:'min'},{n:'3',off:3,q:'maj'},{n:'4m',off:5,q:'min'},
+  {n:'1m',off:0,q:'min'},{n:'2°',off:2,q:'dim'},{n:'3',off:3,q:'maj'},{n:'4m',off:5,q:'min'},
   {n:'5',off:7,q:'maj',note:'borrowed major'},{n:'6',off:8,q:'maj'},{n:'7',off:10,q:'maj'}
 ];
 function seatChordName(pc,seat){
@@ -2606,7 +2606,7 @@ function renderKmap(){
     box.appendChild(row);
   });
   document.getElementById('km-note').textContent=isMin
-    ?'Home is still 1, written 1m because it is minor. The 5 is naturally minor but usually played major to pull home.'
+    ?'Home is still 1, written 1m because it is minor. The 2° is real but rare, and the 5 is naturally minor but usually played major to pull home.'
     :'Same pattern in every major key. The 7\u00b0 seat is real but rare; charts mostly ignore it.';
 }
 document.getElementById('kmap-open').addEventListener('click',function(){run(function(){});renderKmap();go('kmap');});
