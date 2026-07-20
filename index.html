@@ -367,11 +367,28 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .key-btn.on{background:var(--blue);border-color:var(--blue-press);color:#fff}
 .shop-bal{display:flex;align-items:center;justify-content:center;gap:8px;font-weight:900;font-size:19px;color:#b45309;background:#fef3c7;border-radius:14px;padding:11px}
 .shop-bal svg{width:24px;height:24px}
-.gcard{display:flex;align-items:center;gap:13px;background:var(--card);border:2px solid var(--border);border-bottom-width:4px;border-radius:18px;padding:13px 15px}
+.gcard{display:flex;align-items:center;gap:13px;background:var(--card);border:2px solid var(--border);border-bottom-width:4px;border-radius:18px;padding:12px 14px}
 .gcard.equipped{border-color:var(--blue);background:var(--blue-mist)}
-.gcard .g-em{width:52px;height:52px;border-radius:16px;background:linear-gradient(135deg,#eef2f7,#e2e8f0);display:flex;align-items:center;justify-content:center;font-size:27px;flex-shrink:0;box-shadow:inset 0 -3px 0 rgba(0,0,0,.06)}
-.gcard .g-n{font-weight:800;font-size:14.5px}
-.gcard .g-d{font-size:11.5px;color:var(--muted)}
+.gcard .g-thumb{width:58px;height:82px;border-radius:14px;background:#eef2f7;background:radial-gradient(ellipse at 50% 34%,color-mix(in srgb,var(--rc) 20%,#f1f5f9),#eef2f7 72%);display:flex;align-items:center;justify-content:center;flex-shrink:0;overflow:hidden;box-shadow:inset 0 -3px 0 rgba(0,0,0,.05)}
+.gcard .g-thumb .gsvg{width:100%;height:100%;animation:gtrFloat 3.8s ease-in-out infinite}
+.gcard:nth-child(even) .g-thumb .gsvg{animation-delay:-1.4s}
+@keyframes gtrFloat{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-3px) rotate(2deg)}}
+.gcard .g-rar{display:inline-block;font-size:9.5px;font-weight:900;letter-spacing:.07em;text-transform:uppercase;padding:2px 7px;border-radius:99px;margin-bottom:3px}
+.gcard .g-n{font-weight:800;font-size:14.5px;display:block}
+.gcard .g-d{font-size:11.5px;color:var(--muted);display:block;margin-top:1px}
+/* player card + character */
+.player-card{display:flex;align-items:center;gap:8px;background:linear-gradient(145deg,#eff5ff,#dbe8ff);border:2px solid #c7dbff;border-radius:22px;padding:12px 16px 12px 8px;overflow:hidden}
+.pc-stage{width:132px;height:132px;flex-shrink:0;position:relative;display:flex;align-items:flex-end;justify-content:center}
+.pc-stage:before{content:'';position:absolute;top:8px;left:50%;transform:translateX(-50%);width:96px;height:96px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.7),transparent 66%)}
+.char-svg{width:132px;height:132px;position:relative}
+.char-body{animation:charBob 2.9s ease-in-out infinite;transform-origin:110px 130px}
+@keyframes charBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+.char-strum{animation:charStrum 1s ease-in-out infinite;transform-origin:126px 118px}
+@keyframes charStrum{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(7deg)}}
+.pc-info{flex:1;min-width:0}
+.pc-name{font-size:11px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:#3b6fd4}
+.pc-axe{font-weight:900;font-size:16px;margin:2px 0 3px;color:var(--fg)}
+.pc-rar{display:inline-block;font-size:9.5px;font-weight:900;letter-spacing:.07em;text-transform:uppercase;padding:2px 8px;border-radius:99px;margin-bottom:9px}
 .gbuy{margin-left:auto;flex-shrink:0;border:none;border-bottom:3px solid;border-radius:12px;padding:9px 13px;font-family:inherit;font-weight:800;font-size:12.5px;cursor:pointer;display:flex;align-items:center;gap:5px;white-space:nowrap}
 .gbuy.buy{background:#fbbf24;border-color:#d97706;color:#78350f}
 .gbuy.cant{background:#f1f5f9;border-color:#cbd5e1;color:#94a3b8;pointer-events:none}
@@ -451,6 +468,15 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 <div id="profile" class="screen">
   <div class="pad">
     <h1>Profile</h1>
+    <div class="player-card">
+      <div class="pc-stage" id="p-char"></div>
+      <div class="pc-info">
+        <div class="pc-name">Your rig</div>
+        <div class="pc-axe" id="p-axe">Pawn Shop Special</div>
+        <div class="pc-rar" id="p-rar">Common</div>
+        <button class="btn btn-sm btn-blue" id="shop-open">Guitar shop</button>
+      </div>
+    </div>
     <div class="stat-grid">
       <div class="stat"><div class="sic"><svg viewBox="0 0 24 24"><path d="M13.4 1.6c.7 3.4-1.5 5-2.9 6.7-1.4 1.7-2.6 3.2-2.6 5.7a6.1 6.1 0 0 0 12.2.3c.2-3.3-1.8-5.3-3-7-1-1.5-1.2-3-3.7-5.7z" fill="#fb923c"/><path d="M13.6 12.3c.4 1.7-1 2.4-1 3.7a2.4 2.4 0 0 0 4.8.1c.1-1.6-1-2.5-1.7-3.6-.5.9-1.1 1.3-2.1.1z" fill="#fde047"/></svg></div><div class="v" id="p-streak">0</div><div class="l">current streak</div></div>
       <div class="stat"><div class="sic"><svg viewBox="0 0 24 24" fill="#f59e0b"><path d="M7 4h10v3a5 5 0 0 1-10 0zM5 5H3v2a3 3 0 0 0 3 3M19 5h2v2a3 3 0 0 1-3 3M9 13h6l-1 4h-4zM8 21h8v-2H8z"/></svg></div><div class="v" id="p-longest">0</div><div class="l">longest streak</div></div>
@@ -462,15 +488,6 @@ input[type=range]{width:100%;accent-color:var(--blue)}
     <div class="card">
       <h3>Accuracy by skill</h3>
       <div id="p-skills" style="margin-top:8px;display:flex;flex-direction:column;gap:9px"></div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="grow">
-          <h3>Guitar shop</h3>
-          <div class="tiny muted" id="p-axe" style="margin-top:2px"></div>
-        </div>
-        <button class="btn btn-sm btn-blue" id="shop-open">Visit</button>
-      </div>
     </div>
     <div class="card">
       <h3>Settings</h3>
@@ -605,16 +622,100 @@ if(ST.coins==null)ST.coins=(ST.xp||0);
 if(!ST.gigBest)ST.gigBest={};
 if(!ST.guitars)ST.guitars=['starter'];
 if(!ST.axe)ST.axe='starter';
+var RARITY={common:{n:'Common',c:'#94a3b8'},rare:{n:'Rare',c:'#2563eb'},epic:{n:'Epic',c:'#8b5cf6'},legendary:{n:'Legendary',c:'#f59e0b'}};
 var GUITARS=[
- {id:'starter',n:'Pawn Shop Special',em:'🎸',price:0,d:'Where every legend starts'},
- {id:'surf',n:'Surf Green S-Type',em:'🏄',price:150,d:'Bright, springy, beach-ready'},
- {id:'tele',n:'Butterscotch T-Style',em:'🤠',price:250,d:'Twang for days'},
- {id:'lp',n:'Sunburst Single-Cut',em:'🌅',price:400,d:'Thick, warm, legendary'},
- {id:'sg',n:'Cherry Devil Horns',em:'😈',price:550,d:'Fast neck, loud attitude'},
- {id:'dove',n:'White Dove Acoustic',em:'🕊️',price:700,d:'Campfire royalty'},
- {id:'v',n:'Lightning V',em:'⚡',price:900,d:'Pointy. Very pointy.'},
- {id:'dragon',n:'Double-Neck Dragon',em:'🐉',price:1500,d:'For the eight-minute epics'}
+ {id:'starter',n:'Pawn Shop Special',price:0,rarity:'common',d:'Beat-up, honest, where every legend starts'},
+ {id:'strat',n:'Blackout S-Type',price:200,rarity:'rare',d:'The most-played shape on Earth'},
+ {id:'tele',n:'Butterscotch Blonde',price:350,rarity:'rare',d:'The twang that built rock and roll'},
+ {id:'sg',n:'Devil-Horn SG',price:550,rarity:'rare',d:'Thin, fast, and very loud'},
+ {id:'es335',n:'Cherry Semi-Hollow',price:850,rarity:'epic',d:'Warm and woody, sings the blues'},
+ {id:'goldtop',n:'Goldtop Single-Cut',price:1100,rarity:'epic',d:'Gold finish, thick humbucker tone'},
+ {id:'rick',n:'Fireglo Jangle',price:1450,rarity:'epic',d:'The chime behind the British invasion'},
+ {id:'flyingv',n:'Lightning V',price:1900,rarity:'legendary',d:'Pointy. Very pointy.'},
+ {id:'burst',n:"'59 Cherry Burst",price:2600,rarity:'legendary',d:'The holy grail. Almost priceless.'},
+ {id:'dragon',n:'Double-Neck Dragon',price:3200,rarity:'legendary',d:'For the eight-minute epics'}
 ];
+/* ---- guitar illustrations (inline SVG, viewBox 0 0 100 268) ---- */
+function gPegs(hs){var s='',i;if(hs==='gib'){for(i=0;i<3;i++){s+='<circle cx="40" cy="'+(20+i*9)+'" r="2.3" fill="#e6e9ee"/><circle cx="60" cy="'+(20+i*9)+'" r="2.3" fill="#e6e9ee"/>';}}else{for(i=0;i<6;i++){s+='<circle cx="40" cy="'+(15+i*6)+'" r="2" fill="#e6e9ee"/>';}}return s;}
+function gNeck(hs,fb,wood){fb=fb||'#3a2416';wood=wood||'#e6bd7d';
+  var head=hs==='gib'?'<path d="M44 54 Q40 30 41 20 Q42 10 50 9 Q58 10 59 20 Q60 30 56 54 Z" fill="#241a12"/>':'<path d="M43 53 L41 14 Q41 8 47 8 L55 8 Q58 8 58 14 L57 53 Z" fill="'+wood+'"/>';
+  var frets='';for(var i=1;i<=7;i++){var y=52+i*13;frets+='<line x1="43.5" y1="'+y+'" x2="56.5" y2="'+y+'" stroke="#c3b58f" stroke-width="0.7"/>';}
+  return head+gPegs(hs)+'<rect x="43" y="52" width="14" height="99" rx="1.5" fill="'+fb+'"/>'+frets+'<circle cx="50" cy="91" r="1.5" fill="#cdbf9a"/><circle cx="50" cy="117" r="1.5" fill="#cdbf9a"/><rect x="42" y="50.5" width="16" height="3" rx="1" fill="#efe9db"/>';}
+function gStrings(by){var s='';for(var i=0;i<6;i++){var x=45.6+i*1.76;s+='<line x1="'+x+'" y1="12" x2="'+x+'" y2="'+by+'" stroke="#cfd3db" stroke-width="'+(0.45+i*0.05)+'"/>';}return s;}
+function gPups(cx,ys,col){var s='';ys.forEach(function(y){s+='<rect x="'+(cx-11)+'" y="'+y+'" width="22" height="7" rx="2.5" fill="'+(col||'#1c1c22')+'"/>';});return s;}
+function gKnobs(pts,col){var s='';pts.forEach(function(p){s+='<circle cx="'+p[0]+'" cy="'+p[1]+'" r="3" fill="'+(col||'#e9e2cf')+'" stroke="rgba(0,0,0,.15)" stroke-width="0.8"/>';});return s;}
+function gBridge(y,col){return '<rect x="40" y="'+y+'" width="20" height="6" rx="1.5" fill="'+(col||'#c9ccd2')+'"/>';}
+var GBODY={
+ starter:function(){return gNeck('fender','#4a3320','#c9a877')+
+  '<path d="M50 141 C40 140 34 145 33 153 C28 155 22 162 22 176 C22 202 34 256 50 256 C66 256 78 202 78 176 C78 160 72 151 60 147 C56 143 54 142 50 141 Z" fill="#a9803f"/>'+
+  '<path d="M50 141 C40 140 34 145 33 153 C28 155 22 162 22 176 C22 190 26 210 32 228 C30 200 34 168 50 156 C66 168 70 200 68 228 C74 210 78 190 78 176 C78 160 72 151 60 147 C56 143 54 142 50 141 Z" fill="#0000000f"/>'+
+  gPups(50,[178],'#2b2b30')+gKnobs([[62,206],[66,214]])+gBridge(196,'#8a8d94')+gStrings(196);},
+ strat:function(){return gNeck('fender','#d8b271','#efc98a')+
+  '<path d="M50 140 C43 138 39 142 37 148 C36 153 33 157 28 158 C20 159 16 168 18 180 C19 196 26 212 33 226 C39 240 44 256 50 256 C56 256 61 240 67 226 C74 212 81 196 82 180 C84 168 80 159 72 158 C67 157 64 153 63 148 C61 142 57 138 50 140 Z" fill="#17171b"/>'+
+  '<path d="M52 150 C46 149 43 152 42 158 C36 160 33 168 35 178 C37 196 44 214 52 216 C60 214 60 200 62 188 C63 176 62 160 58 154 C56 151 55 150 52 150 Z" fill="#f3efe4"/>'+
+  gPups(51,[168,182,196],'#111')+gKnobs([[60,206],[64,214]])+gBridge(200,'#cfd2d8')+gStrings(206);},
+ tele:function(){return gNeck('fender','#d8b271','#efc98a')+
+  '<path d="M50 140 C40 139 34 144 33 152 C28 153 22 160 22 174 C22 200 34 258 50 258 C66 258 78 200 78 174 C78 158 72 150 60 146 C56 143 54 141 50 140 Z" fill="#e0a94b"/>'+
+  '<path d="M40 152 C33 154 26 162 26 176 C26 200 35 244 46 254 L52 254 C46 236 42 200 44 176 C45 162 46 156 50 152 Z" fill="#1b1b1f"/>'+
+  gPups(50,[200],'#111')+'<rect x="39" y="176" width="22" height="9" rx="2" fill="#d7d9de"/>'+gKnobs([[64,210],[64,220]],'#20211f')+gBridge(196,'#d7d9de')+gStrings(196);},
+ sg:function(){return gNeck('gib','#2e1c10')+
+  '<path d="M50 146 C43 145 38 149 36 150 C29 148 22 149 20 156 C18 163 24 167 30 168 C24 176 21 190 25 204 C30 228 40 256 50 256 C60 256 70 228 75 204 C79 190 76 176 70 168 C76 167 82 163 80 156 C78 149 71 148 64 150 C62 149 57 145 50 146 Z" fill="#b31421"/>'+
+  gPups(50,[176,192],'#141414')+gKnobs([[63,210],[66,218],[60,218]],'#1c1c1c')+gBridge(204,'#d9b96a')+gStrings(206);},
+ es335:function(){return gNeck('gib','#2e1c10')+
+  '<path d="M50 138 C40 137 33 141 31 149 C25 151 19 158 19 170 C19 178 23 184 29 187 C24 193 21 205 25 216 C30 233 40 254 50 254 C60 254 70 233 75 216 C79 205 76 193 71 187 C77 184 81 178 81 170 C81 158 75 151 69 149 C67 141 60 137 50 138 Z" fill="#8a1f26"/>'+
+  '<path d="M50 150 C42 149 36 152 34 158 M50 150 C58 149 64 152 66 158" stroke="#3a0d10" stroke-width="1" fill="none"/>'+
+  '<path d="M37 176 q-3 4 0 10 q3 -1 3 -6 q0 -4 -3 -4z" fill="#2a0a0d"/><path d="M63 176 q3 4 0 10 q-3 -1 -3 -6 q0 -4 3 -4z" fill="#2a0a0d"/>'+
+  gPups(50,[182,198],'#1a1a1a')+gKnobs([[64,214],[68,222],[60,222]],'#e9d9a8')+gBridge(210,'#d9b96a')+gStrings(210);},
+ goldtop:function(){return gNeck('gib','#2e1c10')+
+  '<path d="M50 139 C39 138 32 143 31 152 C25 154 20 162 20 176 C20 202 33 256 50 256 C67 256 80 202 80 176 C80 160 73 150 61 147 C57 143 55 141 50 139 Z" fill="#d4af37"/>'+
+  '<path d="M50 139 C39 138 32 143 31 152 C25 154 20 162 20 176 C20 190 24 210 30 228 C29 202 33 170 50 158 C67 170 71 202 70 228 C76 210 80 190 80 176 C80 160 73 150 61 147 C57 143 55 141 50 139 Z" fill="#00000012"/>'+
+  gPups(50,[176,196],'#e6d28a')+gKnobs([[64,214],[68,222],[60,222]],'#e9d9a8')+gBridge(208,'#e6cf8a')+gStrings(208);},
+ rick:function(){return gNeck('fender','#3a2416','#c98f5a')+
+  '<path d="M52 140 C44 138 40 143 39 150 C33 152 27 157 27 168 C27 178 32 183 38 185 C32 191 28 203 31 215 C35 233 45 254 55 252 C65 250 72 231 73 216 C74 205 70 194 64 190 C70 186 74 178 73 168 C72 157 66 152 60 150 C59 143 59 141 52 140 Z" fill="#c23b17"/>'+
+  '<path d="M52 140 C44 138 40 143 39 150 C33 152 27 157 27 168 C27 173 29 177 32 180 C36 168 44 160 55 158 C63 165 66 178 66 190 C70 186 74 178 73 168 C72 157 66 152 60 150 C59 143 59 141 52 140 Z" fill="#ffffff22"/>'+
+  gPups(52,[184,198],'#20120a')+gKnobs([[64,210],[68,218]],'#20120a')+gBridge(206,'#d7d9de')+gStrings(206);},
+ flyingv:function(){return gNeck('gib','#2e1c10')+
+  '<path d="M50 150 L34 158 L20 252 L50 214 L80 252 L66 158 Z" fill="#1a1a1e"/>'+
+  '<path d="M50 158 L40 162 L30 236 L50 210 Z" fill="#ffffff10"/>'+
+  gPups(50,[176,192],'#e7e7ea')+gKnobs([[57,206],[61,214]],'#e9e2cf')+'<rect x="42" y="202" width="16" height="5" rx="1.5" fill="#d7d9de"/>'+gStrings(204);},
+ burst:function(){return gNeck('gib','#2e1c10')+
+  '<defs><radialGradient id="brst" cx="50%" cy="46%" r="60%"><stop offset="0%" stop-color="#f2c14e"/><stop offset="46%" stop-color="#e07b2a"/><stop offset="100%" stop-color="#8a1f12"/></radialGradient></defs>'+
+  '<path d="M50 139 C39 138 32 143 31 152 C25 154 20 162 20 176 C20 202 33 256 50 256 C67 256 80 202 80 176 C80 160 73 150 61 147 C57 143 55 141 50 139 Z" fill="url(#brst)"/>'+
+  '<path d="M34 150 C40 172 40 210 46 244 C40 210 42 172 50 156 C58 172 60 210 54 244 C60 210 60 172 66 150" stroke="#00000018" stroke-width="1.4" fill="none"/>'+
+  gPups(50,[176,196],'#e6d28a')+gKnobs([[64,214],[68,222],[60,222]],'#e9d9a8')+gBridge(208,'#e6cf8a')+gStrings(208);},
+ dragon:function(){var s='';
+  /* wide cherry double-cut body */
+  s+='<path d="M50 150 C40 148 34 150 30 150 C20 149 12 152 12 160 C12 168 20 171 28 170 C22 180 18 196 22 212 C28 236 40 260 50 260 C60 260 72 236 78 212 C82 196 78 180 72 170 C80 171 88 168 88 160 C88 152 80 149 70 150 C66 150 60 148 50 150 Z" fill="#9a121d"/>';
+  /* main neck (center) */
+  s+='<g>'+gNeck('gib','#2e1c10')+'</g>';
+  /* second (12-string) neck, left & shorter */
+  s+='<g transform="translate(-22,26) scale(0.86)"><path d="M44 54 Q40 30 41 20 Q42 12 50 12 Q58 12 59 20 Q60 30 56 54 Z" fill="#241a12"/><rect x="43" y="52" width="14" height="99" rx="1.5" fill="#2e1c10"/></g>';
+  s+=gPups(50,[184,200],'#e6d28a')+gKnobs([[64,216],[68,224]],'#e9d9a8')+gBridge(210,'#e6cf8a');
+  for(var i=0;i<6;i++){var x=45.6+i*1.76;s+='<line x1="'+x+'" y1="12" x2="'+x+'" y2="210" stroke="#cfd3db" stroke-width="0.6"/>';}
+  for(var j=0;j<6;j++){var x2=20+j*1.5;s+='<line x1="'+x2+'" y1="38" x2="'+x2+'" y2="150" stroke="#cfd3db" stroke-width="0.45"/>';}
+  return s;}
+};
+function guitarInner(id){return (GBODY[id]||GBODY.starter)();}
+function guitarSVG(id,cls){return '<svg viewBox="0 0 100 268" class="'+(cls||'gsvg')+'" aria-hidden="true">'+guitarInner(id)+'</svg>';}
+function characterSVG(id){
+  return '<svg viewBox="0 0 220 210" class="char-svg" aria-hidden="true">'+
+    '<ellipse cx="110" cy="196" rx="52" ry="9" fill="rgba(15,23,42,.10)"/>'+
+    '<g class="char-body">'+
+      '<rect x="86" y="150" width="16" height="42" rx="7" fill="#334155"/><rect x="118" y="150" width="16" height="42" rx="7" fill="#334155"/>'+
+      '<rect x="83" y="188" width="22" height="10" rx="4" fill="#1e293b"/><rect x="115" y="188" width="22" height="10" rx="4" fill="#1e293b"/>'+
+      '<path d="M78 108 Q78 92 110 92 Q142 92 142 108 L138 158 Q110 168 82 158 Z" fill="#2563eb"/>'+
+      '<path d="M96 94 h28 v10 q-14 8 -28 0 Z" fill="#1d4ed8"/>'+
+      '<circle cx="110" cy="66" r="27" fill="#f0c9a0"/>'+
+      '<path d="M84 60 Q86 34 110 34 Q134 34 136 60 Q126 50 110 51 Q94 50 84 60 Z" fill="#3a2a1c"/>'+
+      '<circle cx="100" cy="66" r="2.6" fill="#2a2320"/><circle cx="120" cy="66" r="2.6" fill="#2a2320"/>'+
+      '<path d="M102 76 Q110 82 118 76" stroke="#93603a" stroke-width="2.4" fill="none" stroke-linecap="round"/>'+
+      /* fretting arm reaching to neck (upper-left) */
+      '<path d="M84 116 Q64 108 50 86" stroke="#f0c9a0" stroke-width="11" fill="none" stroke-linecap="round"/>'+
+    '</g>'+
+    '<g class="char-gtr" transform="translate(150 78) rotate(52) scale(0.62)">'+guitarInner(id)+'</g>'+
+    '<g class="char-strum"><path d="M136 118 Q160 128 150 150" stroke="#f0c9a0" stroke-width="11" fill="none" stroke-linecap="round"/><circle cx="150" cy="150" r="7" fill="#f0c9a0"/></g>'+
+  '</svg>';
+}
 if(!ST.skills)ST.skills={};
 if(!ST.mistakes)ST.mistakes=[];
 if(!ST.days)ST.days=[];
@@ -2626,13 +2727,16 @@ function renderStore(){
   GUITARS.forEach(function(g){
     var owned=ST.guitars.indexOf(g.id)>=0;
     var equipped=ST.axe===g.id;
+    var rar=RARITY[g.rarity]||RARITY.common;
     var card=document.createElement('div');card.className='gcard'+(equipped?' equipped':'');
     var btn;
     if(equipped)btn='<button class="gbuy equipped">IN USE</button>';
     else if(owned)btn='<button class="gbuy own" data-act="equip" data-id="'+g.id+'">EQUIP</button>';
     else if(ST.coins>=g.price)btn='<button class="gbuy buy" data-act="buy" data-id="'+g.id+'">'+COIN_SVG+g.price+'</button>';
     else btn='<button class="gbuy cant">'+COIN_SVG+g.price+'</button>';
-    card.innerHTML='<span class="g-em">'+g.em+'</span><span class="grow"><span class="g-n" style="display:block">'+g.n+'</span><span class="g-d">'+g.d+'</span></span>'+btn;
+    card.innerHTML='<span class="g-thumb" style="--rc:'+rar.c+'">'+guitarSVG(g.id)+'</span>'+
+      '<span class="grow"><span class="g-rar" style="color:'+rar.c+';background:'+rar.c+'1c">'+rar.n+'</span>'+
+      '<span class="g-n">'+g.n+'</span><span class="g-d">'+g.d+'</span></span>'+btn;
     list.appendChild(card);
   });
   list.querySelectorAll('.gbuy[data-act]').forEach(function(bt){
@@ -3234,7 +3338,10 @@ function renderProfile(){
   document.getElementById('p-xp').textContent=ST.coins;
   document.getElementById('p-gigs').textContent=ST.gigs||0;
   var axe=GUITARS.filter(function(g){return g.id===ST.axe;})[0]||GUITARS[0];
-  document.getElementById('p-axe').textContent=axe.em+' Equipped: '+axe.n;
+  var rar=RARITY[axe.rarity]||RARITY.common;
+  document.getElementById('p-char').innerHTML=characterSVG(axe.id);
+  document.getElementById('p-axe').textContent=axe.n;
+  var pr=document.getElementById('p-rar');pr.textContent=rar.n;pr.style.color=rar.c;pr.style.background=rar.c+'1c';
   var box=document.getElementById('p-skills');
   box.innerHTML='';
   SKILLS_LIST.forEach(function(s){
