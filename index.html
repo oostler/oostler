@@ -322,13 +322,24 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .mode-card:active{transform:translateY(2px);border-bottom-width:2px;margin-bottom:2px}
 .mc-ic{width:52px;height:52px;border-radius:16px;background:var(--mc);box-shadow:inset 0 -3px 0 rgba(0,0,0,.15);display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .mc-ic svg{width:27px;height:27px;fill:#fff}
-.mc-n{font-weight:900;font-size:16px;display:block}
-.mc-d{font-size:12px;color:var(--muted);line-height:1.35}
-.mc-stars{display:flex;gap:1px;flex-shrink:0}
-.mc-stars svg{width:17px;height:17px}
+.mc-n{font-weight:900;font-size:16px;display:block;margin-bottom:2px}
+.mc-d{font-size:12px;color:var(--muted);line-height:1.35;display:block}
+.mc-best{display:inline-flex;align-items:center;gap:4px;margin-top:7px;font-size:11px;font-weight:800;color:#15803d;background:var(--ok-soft);border-radius:99px;padding:3px 9px}
+.mc-best svg{width:12px;height:12px;fill:#16a34a}
+.diff-meter{display:flex;align-items:flex-end;gap:3px;height:24px;flex-shrink:0}
+.diff-meter i{width:6px;border-radius:2px;background:#e2e8f0}
+.diff-meter i.f{background:var(--dm)}
+.diff-meter i:nth-child(1){height:42%}
+.diff-meter i:nth-child(2){height:70%}
+.diff-meter i:nth-child(3){height:100%}
 .gres{background:var(--card);border:2px solid var(--border);border-radius:16px;padding:2px 14px;display:flex;flex-direction:column}
-.gres .gact{border:none;border-radius:0;padding:10px 0}
+.gres .gact{border:none;border-radius:0;padding:11px 0;background:none}
 .gres .gact+.gact{border-top:1.5px solid var(--border)}
+.res-stats{display:flex;gap:11px}
+.rstat{flex:1;border:2px solid var(--rc);border-radius:16px;overflow:hidden;text-align:center;background:var(--card)}
+.rs-h{background:var(--rc);color:#fff;font-size:10.5px;font-weight:900;letter-spacing:.09em;padding:5px 3px}
+.rs-v{padding:11px 4px;font-size:22px;font-weight:900;color:var(--rc);display:flex;align-items:center;justify-content:center;gap:4px}
+.rs-v svg{width:19px;height:19px}
 .gbars{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin:6px 0}
 .gbars.eight{grid-template-columns:repeat(4,1fr)}
 .gbar{height:64px;border-radius:15px;background:var(--card);border:2.5px solid var(--border);display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:900;font-size:16px;cursor:pointer;font-family:inherit;color:var(--muted);gap:2px;transition:transform .1s}
@@ -379,8 +390,13 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .gtimer>div{height:100%;border-radius:99px;background:#22c55e;width:100%;transition:width .12s linear,background .3s}
 .gtimer.urgent>div{animation:urgFlash .5s steps(2) infinite}
 @keyframes urgFlash{50%{opacity:.4}}
-.gtitle{font-size:19px;font-weight:900;color:var(--fg);margin-top:12px}
-.gsub{font-size:13px;color:var(--muted);margin-top:2px}
+.gtitle{font-size:22px;font-weight:900;color:var(--fg);margin-top:14px}
+.gsub{font-size:13.5px;color:var(--muted);margin-top:3px}
+#gig{padding-bottom:0}
+#gig-body{flex:1;min-height:100%}
+.gig-stage{flex:1;display:flex;flex-direction:column;justify-content:center;gap:15px;padding:14px 0}
+.gig-foot{display:flex;flex-direction:column;gap:2px;padding:10px 0 calc(14px + env(safe-area-inset-bottom))}
+.gig-foot .btn{margin:0}
 .diff-dot{width:12px;height:12px;border-radius:50%;display:inline-block;flex-shrink:0}
 @keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
 .shake{animation:shake .35s}
@@ -2641,11 +2657,11 @@ function renderStore(){
 }
 document.getElementById('store-x').addEventListener('click',function(){go('profile');renderAll();});
 document.getElementById('coin-pill').addEventListener('click',function(){run(function(){});renderStore();go('store');});
-function starSVG(fill){return '<svg viewBox="0 0 24 24"><path d="M12 2.4l2.85 5.9 6.45.85-4.7 4.5 1.15 6.4L12 17l-5.75 3.05 1.15-6.4-4.7-4.5 6.45-.85z" fill="'+fill+'"/></svg>';}
 function renderGigHome(){
   if(GIG)return;
   var b=gigBody();
   b.innerHTML='';
+  b.style.gap='14px';b.style.justifyContent='';
   var hero=document.createElement('div');hero.className='play-hero';
   hero.innerHTML='<h2>Song Challenge</h2><div class="ph-sub">Listen to a band play. Work out the progression, then name every chord.</div>'+
     '<div class="ph-steps">'+
@@ -2653,22 +2669,24 @@ function renderGigHome(){
     '<div class="ph-step"><b>2</b>Chart it</div>'+
     '<div class="ph-step"><b>3</b>Name chords</div></div>';
   b.appendChild(hero);
-  var totBest=0;GIG_TIERS.forEach(function(t,i){totBest+=(ST.gigBest&&ST.gigBest[i])||0;});
   var stats=document.createElement('div');stats.className='play-stats';stats.style.margin='2px 0';
   stats.innerHTML='<div class="pstat"><div class="v">'+(ST.gigs||0)+'</div><div class="l">Played</div></div>'+
-    '<div class="pstat"><div class="v">'+totBest+'<span style="color:#f59e0b">★</span></div><div class="l">Best stars</div></div>'+
-    '<div class="pstat"><div class="v">'+(ST.charted||0)+'</div><div class="l">Charted</div></div>';
+    '<div class="pstat"><div class="v">'+(ST.charted||0)+'</div><div class="l">Charted</div></div>'+
+    '<div class="pstat"><div class="v">'+(ST.coins||0)+'</div><div class="l">Coins</div></div>';
   b.appendChild(stats);
   var h3=document.createElement('h2');h3.textContent='Choose a difficulty';h3.style.margin='6px 2px 0';h3.style.fontSize='16px';
   b.appendChild(h3);
+  var check='<svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>';
   GIG_TIERS.forEach(function(t,i){
-    var best=(ST.gigBest&&ST.gigBest[i])||0;
-    var starsHtml='';
-    for(var si=0;si<3;si++)starsHtml+=starSVG(si<best?'#f59e0b':'#e2e8f0');
+    var best=(ST.gigBest&&ST.gigBest[i]);
+    var level=i+1;
+    var meter='';
+    for(var mi=0;mi<3;mi++)meter+='<i class="'+(mi<level?'f':'')+'"></i>';
+    var bestBadge=(best!=null)?'<span class="mc-best">'+(best===4?check+'Aced':'Best '+best+'/4')+'</span>':'';
     var bt=document.createElement('button');bt.className='mode-card';
     bt.innerHTML='<span class="mc-ic" style="--mc:'+t.mc+'"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>'+
-      '<span class="grow"><span class="mc-n">'+t.n+'</span><span class="mc-d">'+t.d+'</span></span>'+
-      '<span class="mc-stars">'+starsHtml+'</span>';
+      '<span class="grow"><span class="mc-n">'+t.n+'</span><span class="mc-d">'+t.d+'</span>'+bestBadge+'</span>'+
+      '<span class="diff-meter" style="--dm:'+t.dot+'">'+meter+'</span>';
     bt.addEventListener('click',function(){run(function(){});gigStart(i);});
     b.appendChild(bt);
   });
@@ -2701,6 +2719,7 @@ function gigCheatUI(){
 function gigHead(title,sub,act){
   var b=gigBody();
   b.innerHTML='';
+  b.style.gap='0';
   var hud=document.createElement('div');hud.className='ghud';
   var x=document.createElement('button');x.className='x-btn';
   x.innerHTML='<svg viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>';
@@ -2726,8 +2745,15 @@ function gigHead(title,sub,act){
   var tt=document.createElement('div');tt.className='gtitle';tt.textContent=title;
   var ss=document.createElement('div');ss.className='gsub';ss.textContent=sub;
   b.appendChild(tt);b.appendChild(ss);
-  return b;
+  var stage=document.createElement('div');stage.className='gig-stage';
+  b.appendChild(stage);
+  var foot=document.createElement('div');foot.className='gig-foot';
+  b.appendChild(foot);
+  _gigFoot=foot;
+  return stage;
 }
+var _gigFoot=null;
+function gigFoot(){return _gigFoot;}
 function warnBeep(){
   run(function(ctx){
     [0,0.2].forEach(function(d){
@@ -2769,14 +2795,15 @@ function gigFail(){
   rv.innerHTML='<span>It was '+seqLabel(s.seq)+' in '+keyDisp(s.mode,s.keyN)+'</span><span class="ga-mark">'+names.join(' ')+'</span>';
   b.appendChild(rv);
   var note=document.createElement('div');note.className='gig-note';
-  note.textContent='No stars this round. Try a slower difficulty or run it back.';
+  note.textContent='No reward this round. Try a slower difficulty or run it back.';
   b.appendChild(note);
   var ti=s.tier;
-  var again=document.createElement('button');again.className='btn btn-blue btn-big btn-block';again.style.marginTop='12px';again.textContent='Try again';
+  var foot=gigFoot();
+  var again=document.createElement('button');again.className='btn btn-blue btn-big btn-block';again.textContent='Try again';
   again.addEventListener('click',function(){run(function(){});GIG=null;gigStart(ti);});
   var back=document.createElement('button');back.className='btn btn-ghost btn-block';back.textContent='Choose difficulty';
   back.addEventListener('click',function(){gigLeave();renderGigHome();});
-  b.appendChild(again);b.appendChild(back);
+  foot.appendChild(again);foot.appendChild(back);
   GIG.done=true;GIG.failed=true;
 }
 function gigTimerStart(secs,onExpire){
@@ -2870,9 +2897,8 @@ function gigPhase1(){
         if(GIG.mmOk)playGood();else playBadS();
         gigTimerStop();
         var nx=document.createElement('button');nx.className='btn btn-blue btn-big btn-block';nx.textContent='Chart it';
-        nx.style.marginTop='10px';
         nx.addEventListener('click',function(){run(function(){});gigClearTimers();cut();gigPhase2();});
-        b.appendChild(nx);
+        gigFoot().appendChild(nx);
       });
       ch.appendChild(c);
     });
@@ -2921,9 +2947,8 @@ function gigPhase2(){
         });
         if(GIG.chartOk)playGood();else playBadS();
         var nx=document.createElement('button');nx.className='btn btn-blue btn-big btn-block';nx.textContent='Get the key';
-        nx.style.marginTop='10px';
         nx.addEventListener('click',function(){run(function(){});gigClearTimers();cut();gigPhase3();});
-        b.appendChild(nx);
+        gigFoot().appendChild(nx);
       }
     });
     pal.appendChild(bt);
@@ -2969,9 +2994,8 @@ function gigPhase3(){
       });
       if(GIG.namesOk)playGood();else playBadS();
       var nx=document.createElement('button');nx.className='btn btn-ok btn-big btn-block';nx.textContent='See the reveal';
-      nx.style.marginTop='10px';
       nx.addEventListener('click',function(){run(function(){});gigClearTimers();cut();gigReveal();});
-      b.appendChild(nx);
+      gigFoot().appendChild(nx);
     });
     ch.appendChild(c);
   });
@@ -2999,24 +3023,26 @@ function gigReveal(){
   });
 }
 function gigResults(){
-  var checks=[['Found home',GIG.homeOk],['Bright or dark',GIG.mmOk],['The chart',GIG.chartOk],['The chords',GIG.namesOk]];
+  var checks=[['Found home',GIG.homeOk],['Bright or dark',GIG.mmOk],['Charted the numbers',GIG.chartOk],['Named the chords',GIG.namesOk]];
   var score=checks.filter(function(c){return c[1];}).length;
-  var stars=score>=4?3:score===3?2:score===2?1:0;
   var bonus=Math.min(15,Math.round((GIG.remSum||0)/6));
-  var xp=30+stars*6+bonus;
-  ST.coins+=xp;ST.gigs++;
-  if(!ST.gigBest[GIG.song.tier]||stars>ST.gigBest[GIG.song.tier])ST.gigBest[GIG.song.tier]=stars;
+  var reward=30+score*6+bonus;
+  ST.coins+=reward;ST.gigs++;
+  if(!ST.gigBest[GIG.song.tier]||score>ST.gigBest[GIG.song.tier])ST.gigBest[GIG.song.tier]=score;
   var hadStreak=ST.streak.last===todayStr();
   bumpStreak();
   record('prog',GIG.chartOk,{g:'chart',n:4,unfamiliar:true,mode:GIG.song.mode});
   record('names',GIG.namesOk,{g:'names',dir:'fwd',mode:GIG.song.mode});
   save();
-  var b=gigHead('Results',stars===3?'Flawless. Nailed every step.':stars>=1?'Nice work. Keep sharpening.':'Not this time. Run it back.');
-  var starRow=document.createElement('div');starRow.className='gig-stars';
-  for(var i=0;i<3;i++){
-    starRow.innerHTML+='<svg viewBox="0 0 24 24"><path d="M12 2.4l2.85 5.9 6.45.85-4.7 4.5 1.15 6.4L12 17l-5.75 3.05 1.15-6.4-4.7-4.5 6.45-.85z" fill="'+(i<stars?'#f59e0b':'#e2e8f0')+'"/></svg>';
-  }
-  b.appendChild(starRow);
+  var perfect=score===4;
+  var b=gigHead(perfect?'Perfect!':score>=2?'Nice work':'Keep going',
+    perfect?'You nailed every step of the song.':score>=2?'Getting sharper. Run it again to ace it.':'Every play makes your ear stronger.');
+  var sc=perfect?'var(--ok)':score>=2?'#f59e0b':'var(--bad)';
+  var stats=document.createElement('div');stats.className='res-stats';
+  stats.innerHTML='<div class="rstat" style="--rc:'+sc+'"><div class="rs-h">SCORE</div><div class="rs-v">'+score+'/4</div></div>'+
+    '<div class="rstat" style="--rc:#d97706"><div class="rs-h">COINS</div><div class="rs-v"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#fbbf24" stroke="#d97706" stroke-width="1.6"/><path d="M13.8 7.6v5.4a2.1 2.1 0 1 1-1.3-1.94V9.2l-2.5.55V8.2l3.8-.85z" fill="#92400e"/></svg>+'+reward+'</div></div>'+
+    (bonus>0?'<div class="rstat" style="--rc:var(--blue)"><div class="rs-h">SPEED</div><div class="rs-v">+'+bonus+'</div></div>':'');
+  b.appendChild(stats);
   var res=document.createElement('div');res.className='gres';
   checks.forEach(function(c){
     var row=document.createElement('div');row.className='gact';
@@ -3024,23 +3050,19 @@ function gigResults(){
     res.appendChild(row);
   });
   b.appendChild(res);
-  if(bonus>0){
-    var bn=document.createElement('div');bn.className='gig-note';bn.style.marginTop='8px';
-    bn.textContent='Speed bonus: +'+bonus+' coins for beating the clock';
-    b.appendChild(bn);
+  if(!hadStreak){
+    var sk=document.createElement('div');sk.className='gig-note';sk.style.fontWeight='800';sk.style.color='#f59e0b';
+    sk.innerHTML='🔥 Day '+ST.streak.count+' streak';
+    b.appendChild(sk);
   }
-  var xpc=document.createElement('div');
-  xpc.style.cssText='display:flex;justify-content:center;gap:8px;margin-top:8px';
-  xpc.innerHTML='<span class="spill xp" style="background:#fef3c7;padding:8px 15px;border-radius:13px;color:#b45309"><svg viewBox="0 0 24 24" style="width:20px;height:20px"><circle cx="12" cy="12" r="10" fill="#fbbf24" stroke="#d97706" stroke-width="1.6"/><path d="M13.8 7.6v5.4a2.1 2.1 0 1 1-1.3-1.94V9.2l-2.5.55V8.2l3.8-.85z" fill="#92400e"/></svg>+'+xp+' coins</span>'+
-    (!hadStreak?'<span class="spill streak" style="background:var(--warn-soft);padding:8px 15px;border-radius:13px">Day '+ST.streak.count+'</span>':'');
-  b.appendChild(xpc);
-  var again=document.createElement('button');again.className='btn btn-blue btn-big btn-block';again.style.marginTop='12px';again.textContent='Play again';
+  var foot=gigFoot();
+  var again=document.createElement('button');again.className='btn btn-blue btn-big btn-block';again.textContent='Play again';
   var ti=GIG.song.tier;
   again.addEventListener('click',function(){run(function(){});GIG=null;gigStart(ti);});
   var back=document.createElement('button');back.className='btn btn-ghost btn-block';back.textContent='Choose difficulty';
   back.addEventListener('click',function(){gigLeave();renderGigHome();});
-  b.appendChild(again);b.appendChild(back);
-  if(stars>=2){var host=document.getElementById('gig');host.style.position='relative';host.style.overflow='hidden';
+  foot.appendChild(again);foot.appendChild(back);
+  if(score>=3){var host=document.getElementById('gig');host.style.position='relative';host.style.overflow='hidden';
     var colors=['#3b82f6','#8b5cf6','#f59e0b','#10b981','#ec4899'];
     var wrap=document.createElement('div');wrap.className='confetti';
     for(var ci=0;ci<26;ci++){
