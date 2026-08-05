@@ -177,6 +177,9 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .seat-tag.mn{background:#ede9fe;color:#6d28d9}
 .seat-tag.dm{background:var(--bad-soft);color:var(--bad)}
 .seat-name{margin-left:auto;font-weight:800;font-size:16px}
+.seat-right{margin-left:auto;display:flex;flex-direction:column;align-items:flex-end;gap:1px}
+.seat-right .seat-name{margin-left:0}
+.seat-mode{font-size:9.5px;font-weight:800;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
 .mode-tog{display:flex;gap:8px}
 .mode-tog .btn{flex:1}
 .mode-tog .btn.on{background:var(--blue);border-color:var(--blue-press);color:#fff}
@@ -254,6 +257,9 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .emap-seat .es-tag{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;border-radius:99px;padding:5px 11px;white-space:nowrap;flex-shrink:0}
 .es-tag.mj{background:var(--warn-soft);color:#92400e}.es-tag.mn{background:#ede9fe;color:#6d28d9}.es-tag.dm{background:var(--bad-soft);color:var(--bad)}
 .emap-seat .es-name{margin-left:auto;font-weight:800;font-size:15px}
+.es-right{margin-left:auto;display:flex;flex-direction:column;align-items:flex-end;gap:1px}
+.es-right .es-name{margin-left:0}
+.es-mode{font-size:9px;font-weight:800;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
 .emap-note{font-size:11.5px;color:var(--muted);text-align:center;margin-top:8px}
 /* ===== motion & polish ===== */
 .screen.on{animation:screenIn .22s ease}
@@ -771,7 +777,15 @@ var GLOSS={
   'resolve':'When tension releases by returning to the home chord. The 5 to 1 move is the strongest resolution in music.',
   'interval':'The distance between two notes. On guitar, one fret equals one semitone, so a distance of 7 frets up one string is a perfect fifth.',
   'progression':'A repeating sequence of chords, the harmonic loop a song is built on.',
-  'minor key':'A key whose home chord is minor. Home is written 1m, and everything is still counted from home. The common seats are 1m, 3, 4m, 5, 6 and 7.',
+  'minor key':'A key whose home chord is minor. Home is written 1m, and everything is still counted from home. Its seven seats are 1m, 2°, 3, 4m, 5, 6 and 7 — the 5 is naturally minor, but songs usually raise it to major to pull home.',
+  'mode':'Which seat of the family takes the turn as home. Home on the 1 sounds major (Ionian); the same family with home on the 6m sounds minor (Aeolian). Seven seats, seven modes, one family.',
+  'Ionian':'The mode with home on the 1. Plain major, the default bright sound of pop.',
+  'Dorian':'The mode with home on the 2m. Minor, but with a hopeful lift. Santana and funk live here.',
+  'Phrygian':'The mode with home on the 3m. The darkest common minor, with a Spanish edge.',
+  'Lydian':'The mode with home on the 4. Major with one raised note that makes it float and dream.',
+  'Mixolydian':'The mode with home on the 5. Major with a relaxed, bluesy lean — the dominant flavor.',
+  'Aeolian':'The mode with home on the 6m. Plain natural minor: the standard dark key.',
+  'Locrian':'The mode with home on the 7°. Tense and unstable; almost never a real home.',
   '1m':'The home chord of a minor key. Dark, but still completely at rest. In A minor, the 1m chord is Am.',
   '2m':'The minor chord one step above home in a major key. It loves to set up the 5. In G, the 2m is Am.',
   '3m':'The minor chord on the third step of a major key, the rarest of the three minors. In G, the 3m is Bm.',
@@ -787,9 +801,21 @@ function termify(text){
   keys.forEach(function(k){
     if(done[k.toLowerCase()])return;
     var re=new RegExp('\\b('+k.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')\\b','i');
-    if(re.test(text)){
-      text=text.replace(re,'<span class="term" data-term="'+k+'">$1</span>');
+    /* match only in text outside tags and outside existing term spans */
+    var parts=text.split(/(<[^>]+>)/);
+    var inTerm=0;
+    for(var i=0;i<parts.length;i++){
+      var p=parts[i];
+      if(p.charAt(0)==='<'){
+        if(p.indexOf('class="term"')>-1)inTerm++;
+        else if(inTerm&&p==='</span>')inTerm--;
+        continue;
+      }
+      if(inTerm||!re.test(p))continue;
+      parts[i]=p.replace(re,'<span class="term" data-term="'+k+'">$1</span>');
+      text=parts.join('');
       done[k.toLowerCase()]=1;
+      break;
     }
   });
   return text;
@@ -1956,7 +1982,7 @@ var UNITS=[
    e:'The 3m is the rarest of the three minors, halfway between home and the 6m. In G, the 3m is Bm.',
    skill:'num',guided:{g:'num',pool:['1','3m','6m']},drill:[{g:'num',pool:['1','3m']},{g:'num',pool:['3m','6m']},{g:'num',pool:['1','3m','6m']}],apply:{g:'num',pool:['1','3m','6m']}},
   {t:'The three minors',o:'2m, 3m and 6m, told apart cold',
-   e:'Every major key has exactly three minor chords. Telling them apart is what separates guessing from mapping. There is also a seventh seat, the diminished chord, so rare in charts that you can just wave at it for now.',
+   e:'Every major key has exactly three minor chords: the 2m, 3m and 6m. Telling them apart is what separates guessing from mapping. There is also a seventh seat, the 7°, a tense diminished chord so rare in charts that you can just wave at it for now.',
    skill:'num',guided:{g:'num',pool:['2m','3m','6m']},drill:[{g:'num',pool:['2m','3m','6m']},{g:'num',pool:['2m','3m','6m']},{g:'num',pool:['2m','3m','6m']},{g:'num',pool:['2m','3m','6m']}],apply:{g:'num',pool:['1','2m','3m','4','5','6m']}},
   {t:'The 2m-5-1 move',o:'The two-stage pull home',
    e:'The 2m sets up the 5, and the 5 resolves to 1. A two-stage pull home, everywhere in music.',
@@ -2064,6 +2090,15 @@ var UNITS=[
   {t:'Numbers on the fretboard',o:'See every line under your fingers',
    e:'Every melody you chart lives on the fretboard. Rebuild a line, then study where it sits.',
    skill:'mel',guided:{g:'mel',k:'build',n:3},drill:[{g:'mel',k:'build',n:4,pool:[1,2,3,4,5]},{g:'mel',k:'build',n:5}],apply:{g:'mel',k:'build',n:5}}
+ ]},
+ /* ---------- PART 6: THEORY CORNER ---------- */
+ {part:'Theory corner',name:'The seven modes',goal:'Optional: the names behind the sounds',lessons:[
+  {intro:true,t:'The seven modes',o:'One family, seven homes',skill:'intro',pages:[
+    {h:'You already know two modes',b:'Remember the relative-major shortcut: a minor key and its relative major share the same seven chords. Same family, different <b>home</b>. That is the whole secret of modes: when the same family changes its home, the sound changes its name. Listen — the same chords, ending first on a bright home, then on a dark one.',demo:'modes'},
+    {h:'Seven seats, seven names',b:'Any seat can take a turn as home. Home on the 1 is called <b>Ionian</b> — that is just plain major. Home on the 6m is <b>Aeolian</b> — that is natural minor. The other five seats have Greek names too. Here is the family resolving to the 2m instead: minor, but with a hopeful lift. That sound is called <b>Dorian</b>.',demo:'dorian'},
+    {h:'Bright homes and dark homes',b:'You never have to spell a mode to use your method. The names just explain what you can already hear: three seats make a <b>bright</b> home (1, 4, 5 — and the 5 leans forward, which is why it loves a dominant 7), three make a <b>dark</b> home (2m, 3m, 6m), and the 7° is too wobbly to be home at all. Two plain majors, one leaning major, three minors, one diminished: seven flavors, one family.'},
+    {h:'The three-dark-seats tell',b:'Here is the useful part. In a minor key the seats on 1, 4 and 5 are <b>all naturally minor</b>. So when a loop is dark at home, dark at the 4 and dark at the 5, you are in a minor key. A major key only hides its dark chords at 2m, 3m and 6m — never at home. Songs often dress the 5 up as major to pull home harder, but a dark 4 next to a dark home usually gives the minor key away. Explore the map: every seat now shows its mode.',map:'modes'}
+  ]}
  ]}
 ];
 var LESSONS=[];
@@ -2130,8 +2165,13 @@ function playDemo(id){
   else if(id==='home')run(function(ctx){chordSeq(ctx,['G','Em','C','D','G'],{step:0.62,vel:0.42});});
   else if(id==='majmin')run(function(ctx){strum(ctx,'G',{dur:1.7,vel:0.46});strum(ctx,'Gm',{delay:1.7,dur:1.9,vel:0.46});});
   else if(id==='nashville')run(function(ctx){chordSeq(ctx,['G','D','Em','C'],{step:0.62,vel:0.42});});
+  else if(id==='modes')run(function(ctx){
+    chordSeq(ctx,['C','F','G','C'],{step:0.58,vel:0.42});
+    chordSeq(ctx,['Am','F','G','Am'],{step:0.58,vel:0.42,delay:3.1});
+  });
+  else if(id==='dorian')run(function(ctx){chordSeq(ctx,['Dm','G','Dm','G','Dm'],{step:0.6,vel:0.42});});
 }
-function embedKeyMap(container){
+function embedKeyMap(container,showModes){
   var st={mode:'maj',majKey:'G',minKey:'Am'};
   function draw(){
     container.innerHTML='';
@@ -2159,12 +2199,21 @@ function embedKeyMap(container){
       var tag=document.createElement('span');tag.className='es-tag '+(seat.q==='maj'?'mj':seat.q==='min'?'mn':'dm');
       tag.textContent=seat.q==='maj'?'major':seat.q==='min'?'minor':'dim';
       var nm=document.createElement('span');nm.className='es-name';nm.textContent=seatChordName(kk.pc,seat);
-      row.appendChild(num);row.appendChild(tag);row.appendChild(nm);
+      row.appendChild(num);row.appendChild(tag);
+      if(showModes){
+        var right=document.createElement('span');right.className='es-right';
+        right.appendChild(nm);
+        var md=document.createElement('span');md.className='es-mode';md.textContent=seat.mode||'';
+        right.appendChild(md);
+        row.appendChild(right);
+      } else row.appendChild(nm);
       row.addEventListener('click',function(){seatPlay(kk.pc,seat,seats[0]);});
       container.appendChild(row);
     });
     var note=document.createElement('div');note.className='emap-note';
-    note.textContent=isMin?'Home is still 1, written 1m because it is a minor chord. The same seven seats appear in every minor key.':'Home is 1. The same seven seats appear in every major key. Tap any seat to hear it.';
+    note.textContent=showModes
+      ?(isMin?'A minor key is the same family heard from a dark home: home on 1m is Aeolian, and its 4m and 5 are naturally minor too. Tap around and listen.':'The grey name on each seat is its mode: the sound of the family when that seat takes a turn as home. Home on 1 is Ionian, plain major. Tap any seat to hear it.')
+      :(isMin?'Home is still 1, written 1m because it is a minor chord. The same seven seats appear in every minor key.':'Home is 1. The same seven seats appear in every major key. Tap any seat to hear it.');
     container.appendChild(note);
   }
   draw();
@@ -2236,7 +2285,7 @@ function renderRead(body,s){
   if(p.map){
     var mapc=document.createElement('div');mapc.className='emap';
     body.appendChild(mapc);
-    embedKeyMap(mapc);
+    embedKeyMap(mapc,p.map==='modes');
   }
   var dots=document.createElement('div');dots.className='read-dots';
   for(var i=0;i<s.total;i++){var d=document.createElement('span');if(i<=s.idx)d.className='on';dots.appendChild(d);}
@@ -2552,12 +2601,12 @@ function reviewSpecs(){
 /* ================= SCREENS ================= */
 var KM_MODE='maj',KM_KEY='G',KM_MKEY='Am';
 var KM_MAJ_SEATS=[
-  {n:'1',off:0,q:'maj'},{n:'2m',off:2,q:'min'},{n:'3m',off:4,q:'min'},{n:'4',off:5,q:'maj'},
-  {n:'5',off:7,q:'maj'},{n:'6m',off:9,q:'min'},{n:'7\u00b0',off:11,q:'dim'}
+  {n:'1',off:0,q:'maj',mode:'Ionian'},{n:'2m',off:2,q:'min',mode:'Dorian'},{n:'3m',off:4,q:'min',mode:'Phrygian'},{n:'4',off:5,q:'maj',mode:'Lydian'},
+  {n:'5',off:7,q:'maj',mode:'Mixolydian',note:'loves a dominant 7'},{n:'6m',off:9,q:'min',mode:'Aeolian'},{n:'7\u00b0',off:11,q:'dim',mode:'Locrian'}
 ];
 var KM_MIN_SEATS=[
-  {n:'1m',off:0,q:'min'},{n:'2°',off:2,q:'dim'},{n:'3',off:3,q:'maj'},{n:'4m',off:5,q:'min'},
-  {n:'5',off:7,q:'maj',note:'borrowed major'},{n:'6',off:8,q:'maj'},{n:'7',off:10,q:'maj'}
+  {n:'1m',off:0,q:'min',mode:'Aeolian'},{n:'2°',off:2,q:'dim',mode:'Locrian'},{n:'3',off:3,q:'maj',mode:'Ionian'},{n:'4m',off:5,q:'min',mode:'Dorian'},
+  {n:'5',off:7,q:'maj',mode:'Phrygian',note:'naturally 5m'},{n:'6',off:8,q:'maj',mode:'Lydian'},{n:'7',off:10,q:'maj',mode:'Mixolydian'}
 ];
 function seatChordName(pc,seat){
   var sfx=seat.q==='min'?'m':seat.q==='dim'?'\u00b0':'';
@@ -2611,13 +2660,19 @@ function renderKmap(){
       var sn=document.createElement('span');sn.className='tiny muted';sn.textContent=seat.note;
       row.appendChild(sn);
     }
-    row.appendChild(nm);
+    var right=document.createElement('span');right.className='seat-right';
+    right.appendChild(nm);
+    if(seat.mode){
+      var md=document.createElement('span');md.className='seat-mode';md.textContent=seat.mode;
+      right.appendChild(md);
+    }
+    row.appendChild(right);
     row.addEventListener('click',function(){seatPlay(kk.pc,seat,seats[0]);});
     box.appendChild(row);
   });
   document.getElementById('km-note').textContent=isMin
-    ?'Home is still 1, written 1m because it is minor. The 2° is real but rare, and the 5 is naturally minor but usually played major to pull home.'
-    :'Same pattern in every major key. The 7\u00b0 seat is real but rare; charts mostly ignore it.';
+    ?'Home is still 1, written 1m. The 4m and 5 are naturally minor too — three dark seats is the fingerprint of a minor key — but songs usually raise the 5 to major so it pulls home harder. The 2° is real but rare. The small grey names are the seven modes: what each seat sounds like when it takes a turn as home. The last lesson in Learn tells that story.'
+    :'Same seven seats in every major key. The 5 leans home hardest, which is why it loves a dominant 7. The 7\u00b0 is real but rare; charts mostly ignore it. The small grey names are the seven modes: what each seat sounds like when it takes a turn as home. The last lesson in Learn tells that story.';
 }
 document.getElementById('kmap-open').addEventListener('click',function(){run(function(){});renderKmap();go('kmap');});
 document.getElementById('kmap-x').addEventListener('click',function(){go('learn');renderLearn();});
