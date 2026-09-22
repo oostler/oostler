@@ -111,6 +111,8 @@ h3{font-size:14px;font-weight:700}
 .slot{width:52px;height:52px;border-radius:14px;border:2.5px dashed var(--border);display:flex;align-items:center;
   justify-content:center;font-weight:800;font-size:16px;background:var(--card)}
 .slot.fill{border-style:solid;border-color:var(--blue);background:var(--blue-mist);color:var(--blue)}
+.slots.many{gap:6px}.slots.many .slot{width:40px;height:46px;border-radius:12px;font-size:14px}
+.tilebar.many .tile{min-width:46px;height:46px}
 .slot.s-ok{border-color:var(--ok);background:var(--ok-soft);color:var(--ok)}
 .slot.s-bad{border-color:var(--bad);background:var(--bad-soft);color:var(--bad)}
 .tilebar{display:flex;gap:9px;justify-content:center;flex-wrap:wrap}
@@ -207,11 +209,41 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .iv-cell{border:2px solid var(--border);border-radius:9px;padding:6px 0;text-align:center;font-size:12px;font-weight:800;color:var(--muted);background:var(--bg)}
 .iv-cell.chr{background:var(--warn-soft);border-color:#f59e0b;color:#92400e}
 .iv-cell.root{background:var(--blue-mist);border-color:var(--blue);color:var(--blue)}
+.iv-cell.alt{background:#fffbeb;border-color:#fcd34d;color:#b45309}
 .mh-btns{display:flex;gap:7px}
 .mh-btns button{flex:1;padding:9px 4px;border:2px solid var(--border);border-bottom-width:3px;border-radius:12px;background:var(--bg);
   font-family:inherit;font-weight:800;font-size:12px;color:var(--fg);cursor:pointer;white-space:nowrap}
 .mh-btns button:active{transform:translateY(1px);border-bottom-width:2px}
 .mh-chr{font-size:11.5px;font-weight:800;color:#92400e;background:var(--warn-soft);border-radius:10px;padding:7px 10px}
+.mh-lbl{font-size:10px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:-4px}
+.mh-form{font-size:12.5px;font-weight:800;color:var(--fg)}
+.mh-form b{color:#b45309}
+/* --- all-seven table (Start here) --- */
+.mt-tog{display:flex;gap:6px;margin-bottom:8px}
+.mt-tog button{flex:1;padding:8px 4px;border:2px solid var(--border);border-bottom-width:3px;border-radius:11px;background:var(--card);font-family:inherit;font-weight:800;font-size:12px;color:var(--fg);cursor:pointer}
+.mt-tog button.on{background:var(--blue);border-color:var(--blue-press);color:#fff}
+.mt-row{display:flex;align-items:center;gap:8px;background:var(--card);border:2px solid var(--border);border-bottom-width:3px;border-radius:13px;padding:7px 9px;margin-bottom:6px;cursor:pointer}
+.mt-row:active{transform:translateY(2px);border-bottom-width:1px}
+.mt-row.anchor{border-color:var(--blue);background:var(--blue-mist)}
+.mt-name{width:84px;flex-shrink:0;display:flex;flex-direction:column;line-height:1.15}
+.mt-name b{font-size:13px;font-weight:900}
+.mt-name span{font-size:9px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.mt-row.anchor .mt-name span{color:var(--blue)}
+.mt-cells{flex:1;display:grid;grid-template-columns:repeat(7,1fr);gap:3px;min-width:0}
+.mt-cell{text-align:center;font-size:11px;font-weight:800;border-radius:7px;padding:4px 0;background:var(--bg);color:var(--fg);border:1.5px solid var(--border)}
+.mt-cell.home{background:var(--blue);border-color:var(--blue);color:#fff}
+.mt-cell.alt{background:var(--warn-soft);border-color:#f59e0b;color:#92400e}
+/* --- mode chips on the chord map --- */
+.mode-chip{font-size:9.5px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;border-radius:99px;padding:3px 8px;border:1.5px solid var(--border);color:var(--muted);background:var(--card);cursor:pointer;font-family:inherit;white-space:nowrap}
+.mode-chip.anchor{background:var(--blue);border-color:var(--blue-press);color:#fff}
+.mode-chip:active{transform:translateY(1px)}
+.key-head{background:var(--card);border:2px solid var(--blue);border-bottom-width:4px;border-radius:16px;padding:11px 13px;display:flex;flex-direction:column;gap:8px}
+.kh-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.kh-name{font-size:18px;font-weight:900}
+.kh-mode{font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:#fff;background:var(--blue);border-radius:99px;padding:3px 9px}
+.kh-btn{margin-left:auto;padding:7px 11px;border:2px solid var(--border);border-bottom-width:3px;border-radius:11px;background:var(--bg);font-family:inherit;font-weight:800;font-size:12px;color:var(--fg);cursor:pointer;white-space:nowrap}
+.kh-btn:active{transform:translateY(1px);border-bottom-width:2px}
+.kh-form{font-size:11.5px;font-weight:700;color:var(--muted)}
 .lp-head{display:flex;align-items:center;gap:9px;padding:2px 0 4px}
 .streak-chip{margin-left:auto}
 .km-card{display:flex;align-items:center;gap:10px;background:var(--card);border:2px solid var(--border);border-bottom-width:4px;border-radius:16px;padding:11px 14px;cursor:pointer;font-weight:800;font-size:14px;width:100%;font-family:inherit;color:var(--fg)}
@@ -765,7 +797,15 @@ if(!ST.mistakes)ST.mistakes=[];
 if(!ST.days)ST.days=[];
 if(ST.charted==null)ST.charted=0;
 if(!ST.set)ST.set={vol:80,lefty:false};
-function save(){try{localStorage.setItem('tonic_v3',JSON.stringify(ST));}catch(e){}}
+function save(){syncDoneT();try{localStorage.setItem('tonic_v3',JSON.stringify(ST));}catch(e){}}
+/* Progress is kept by lesson TITLE, not position, so adding or reordering
+   lessons never shifts anyone's saved progress. doneL (by position) is
+   rebuilt from doneT on every load and stays the in-memory working copy. */
+function syncDoneT(){
+  if(typeof LESSONS==='undefined'||!LESSONS||!LESSONS.length)return;
+  ST.doneT={};
+  Object.keys(ST.doneL).forEach(function(i){var L=LESSONS[+i];if(L)ST.doneT[L.t]=1;});
+}
 function todayStr(){var d=new Date();return d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate();}
 function bumpStreak(){
   var t=todayStr();
@@ -1446,6 +1486,12 @@ function genQ(spec){
   if(g==='mtell')return genMTell(spec);
   if(g==='mspell')return genMSpell(spec);
   if(g==='mpar')return genMParent(spec);
+  if(g==='mmix')return genQ(pick([{g:'mform'},{g:'mtell',k:'mode'},{g:'mchart'},{g:'mnames'},{g:'mchr',k:'bend'}]));
+  if(g==='pmix')return genQ(pick([{g:'mspell'},{g:'mbuild'},{g:'mpar',dir:'mix'}]));
+  if(g==='mform')return genMFormula(spec);
+  if(g==='mbuild')return genMBuild(spec);
+  if(g==='mchart')return genMChart(spec);
+  if(g==='mnames')return genMNames(spec);
   if(g==='borrow')return genBorrow(spec);
   return genNum({g:'num',pool:['4','5']});
 }
@@ -2013,6 +2059,161 @@ function genMParent(spec){
   };
 }
 function ord(n){return ['','1st','2nd','3rd','4th','5th','6th','7th'][n]||String(n);}
+/* --- spec step 1, without the training wheels: hear it and name its formula
+   against Ionian. Brightness is NOT given, so the 3rd has to be heard too. --- */
+function formulaLabel(mi){var f=modeFormula(mi);return f.length?f.join(', '):'nothing bent';}
+function genMFormula(spec){
+  var pool=spec.pool||['Ionian','Dorian','Phrygian','Lydian','Mixolydian','Aeolian'];
+  var mn=pick(pool),mi=modeIdx(mn),m=MODES[mi];
+  var mk=randModal(mi);
+  /* distractors are ladder neighbours: each is one bent note away, the real confusion */
+  var others=pool.filter(function(x){return x!==mn;}).sort(function(a,b){
+    return Math.abs(MODES[modeIdx(a)].lad-m.lad)-Math.abs(MODES[modeIdx(b)].lad-m.lad)+(Math.random()-0.5)*0.1;
+  });
+  var opts=shuffle([mn].concat(others.slice(0,(spec.n||3)-1)));
+  var pl=function(){playModeBed(mk.pc,mi);};
+  var plMaj=function(){playModeScale(mk.pc,modeIdx('Ionian'));};
+  return {
+    skill:'modes',spec:spec,model:'choices',mhint:{pc:mk.pc,mi:mi},
+    prompt:'Listen to the vamp and the scale. Against major, which notes are bent?',
+    play:pl,playLabel:'the vamp, then the scale',
+    choices:opts.map(function(o){return {key:o,label:formulaLabel(modeIdx(o))};}),
+    correct:mn,
+    fbOk:{text:'Right: '+formulaLabel(mi)+'. That is '+m.n+(m.alias?', '+m.alias:'')+'.'},
+    fbBad:{text:'It was '+formulaLabel(mi)+', which is '+m.n+'. Start with the 3rd: bright means a natural 3, dark means a flat 3. Then listen for what else moved.',
+      btns:[{label:'This scale',fn:function(){playModeScale(mk.pc,mi);}},{label:'Plain major',fn:plMaj}]},
+    guidedText:'This is '+mk.disp+'. Against major on the same root it is '+formulaLabel(mi)+'.'
+  };
+}
+/* --- spec step 2: map the notes, one at a time, on tiles --- */
+var LETTERS=['C','D','E','F','G','A','B'],LETTER_PC=[0,2,4,5,7,9,11];
+function accName(letter,acc){return letter+(acc===1?'#':acc===-1?'b':acc===2?'##':acc===-2?'bb':'');}
+/* letter-correct spelling: degree i always gets the next letter up */
+function spellModeLetters(rootPc,mi,parent){
+  var rn=pcName(rootPc,parent),ri=LETTERS.indexOf(rn.charAt(0));
+  return MODES[mi].iv.map(function(x,i){
+    var L=LETTERS[(ri+i)%7],t=(rootPc+x)%12;
+    var d=((t-LETTER_PC[(ri+i)%7])%12+12)%12;
+    return accName(L,d===0?0:d===1?1:d===11?-1:d===2?2:-2);
+  });
+}
+function genMBuild(spec){
+  var pool=spec.pool||['Dorian','Phrygian','Lydian','Mixolydian','Aeolian','Ionian'];
+  var mn=pick(pool),mi=modeIdx(mn);
+  var mk=randModal(mi);
+  var notes=spellModeLetters(mk.pc,mi,mk.parent);
+  /* decoys: the same letter bent the other way relative to major. A flattened
+     degree gets its major version (F vs F# for Dorian's 3rd); a major-matching
+     degree gets its flat version, or the sharp 4 on the 4th */
+  var decoyFor=function(n,i){
+    var L=n.charAt(0),acc=n.length>1?(n.charAt(1)==='#'?1:-1):0;
+    var rel=MODES[mi].iv[i]-MAJ_IV[i];
+    var shift=rel<0?1:rel>0?-1:(i===3?1:-1);
+    if(Math.abs(acc+shift)>1)shift=-shift;
+    return accName(L,acc+shift);
+  };
+  /* skip spellings a guitarist never meets elsewhere in the app */
+  var RARE={'E#':1,'B#':1,'Cb':1,'Fb':1};
+  var degs=shuffle([1,2,3,4,5,6].filter(function(i){return !RARE[decoyFor(notes[i],i)];})).slice(0,3);
+  var pal=[];
+  notes.forEach(function(n,i){
+    pal.push(n);
+    if(degs.indexOf(i)>=0)pal.push(decoyFor(n,i));
+  });
+  /* order each letter's pair by pitch (flat, natural, sharp) so position never
+     reveals which one is right */
+  var accV=function(n){return n.length>1?(n.charAt(1)==='#'?1:-1):0;};
+  pal.sort(function(a,b){
+    var ra=LETTERS.indexOf(a.charAt(0)),rb=LETTERS.indexOf(b.charAt(0));
+    var r0=LETTERS.indexOf(notes[0].charAt(0));
+    return ((ra-r0+7)%7)-((rb-r0+7)%7)||accV(a)-accV(b);
+  });
+  var pl=function(){playModeScale(mk.pc,mi);};
+  return {
+    skill:'mpar',spec:spec,model:'tiles',mhint:{pc:mk.pc,mi:mi},
+    prompt:'Build '+mk.disp+' from its home note up, following its formula.',
+    chart:MODE_SEATS[mi].map(function(s){return s.plain;}).join('  '),
+    play:pl,playLabel:'hear the scale',
+    tiles:{palette:pal,n:7},
+    correct:notes,
+    fbOk:{text:mk.disp+' is '+notes.join(' ')+'. Same notes as '+mk.parent+' major, home on '+notes[0]+'.'},
+    fbBad:{text:mk.disp+' is '+notes.join(' ')+'. Each degree uses the next letter up; the formula tells you which ones are flat or sharp.',
+      btns:[{label:'Hear it',fn:pl}]},
+    guidedText:mk.disp+' is '+notes.join(' ')+': the formula 1 '+MODE_SEATS[mi].slice(1).map(function(s){return s.plain;}).join(' ')+' counted up from '+notes[0]+'.'
+  };
+}
+/* --- the advanced section mirrors the core course: chart loops, name chords --- */
+var MODE_LOOPS={
+ Ionian:[['1','4','5','1'],['1','5','6m','4'],['1','6m','4','5']],
+ Dorian:[['1m','4','1m','4'],['1m','b3','4','1m'],['1m','2m','b3','4'],['1m','4','b7','1m']],
+ Phrygian:[['1m','b2','1m','b2'],['1m','b2','b3','b2'],['1m','4m','b2','1m']],
+ Lydian:[['1','2','1','2'],['1','2','3m','2'],['1','2','5','1']],
+ Mixolydian:[['1','b7','4','1'],['1','4','b7','1'],['1','b7','1','4'],['1','5m','4','1']],
+ Aeolian:[['1m','b6','b7','1m'],['1m','b7','b6','b7'],['1m','4m','5m','1m']]
+};
+/* one plausible wrong tile per mode: usually the plain-map version of its tell */
+var MODE_DECOY={Ionian:'b7',Dorian:'4m',Phrygian:'4',Lydian:'2m',Mixolydian:'5',Aeolian:'5'};
+function degOf(num){var m=num.match(/\d/);return m?+m[0]:0;}
+function genMChart(spec){
+  var pool=(spec.pool||['Dorian','Phrygian','Lydian','Mixolydian']).filter(function(x){return MODE_LOOPS[x];});
+  var mn=pick(pool),mi=modeIdx(mn);
+  var mk=randModal(mi);
+  var seq=pick(MODE_LOOPS[mn]).slice();
+  var pal=[];
+  MODE_LOOPS[mn].forEach(function(l){l.forEach(function(n){if(pal.indexOf(n)<0)pal.push(n);});});
+  if(MODE_DECOY[mn]&&pal.indexOf(MODE_DECOY[mn])<0)pal.push(MODE_DECOY[mn]);
+  pal.sort(function(a,b){return degOf(a)-degOf(b)||a.length-b.length;});
+  var pl=function(){playModeLoop(mk.pc,mi,seq,{bpm:84,beats:2});};
+  var byNum={};MODE_SEATS[mi].forEach(function(s){byNum[s.num]=s;});
+  var names=seq.map(function(n){return modalChordName(mk.pc,byNum[n],mk.parent);}).join(' ');
+  return {
+    skill:'modes',spec:spec,model:'tiles',mhint:{pc:mk.pc,mi:mi},
+    prompt:'Key of '+mk.disp+'. Chart the loop, counting from its home.',
+    play:pl,playLabel:'the loop',
+    tiles:{palette:pal,n:seq.length},
+    correct:seq,
+    isChart:true,
+    fbOk:{text:'Charted: '+seq.join(' ')+', which is '+names+' in '+mk.disp+'.'},
+    fbBad:{text:'The chart was '+seq.join(' ')+' ('+names+'). Count every chord from '+pcName(mk.pc,mk.parent)+', the modal home, not from '+mk.parent+'.',
+      btns:[{label:'Hear it again',fn:pl}]},
+    guidedText:'In '+mk.disp+' this loop is '+seq.join(' ')+': '+names+'.'
+  };
+}
+function genMNames(spec){
+  var pool=(spec.pool||['Dorian','Phrygian','Lydian','Mixolydian','Aeolian']).filter(function(x){return MODE_LOOPS[x]&&x!=='Ionian';});
+  var mn=pick(pool),mi=modeIdx(mn);
+  var mk=randModal(mi);
+  var seq=pick(MODE_LOOPS[mn]).slice();
+  var seats=MODE_SEATS[mi],byNum={};seats.forEach(function(s,i){byNum[s.num]={s:s,i:i};});
+  var nm=function(s){return modalChordName(mk.pc,s,mk.parent);};
+  var correct=seq.map(function(n){return nm(byNum[n].s);}).join(' ');
+  /* wrong 1: the classic mistake, counting from the parent key's root instead of the modal home */
+  var ion=MODE_SEATS[modeIdx('Ionian')],parPc=keyPc('maj',mk.parent);
+  var wrong1=seq.map(function(n){return modalChordName(parPc,ion[byNum[n].i],mk.parent);}).join(' ');
+  /* wrong 2: the giveaway chord played with the plain-map quality */
+  var flip=function(s){return {off:s.off,q:s.q==='maj'?'min':'maj'};};
+  var ti=-1;seq.forEach(function(n,i){if(ti<0&&i>0&&n!==seq[0])ti=i;});
+  var wrong2=seq.map(function(n,i){return i===ti?nm(flip(byNum[n].s)):nm(byNum[n].s);}).join(' ');
+  var cands=[wrong1,wrong2].filter(function(x,i,a){return x!==correct&&a.indexOf(x)===i;});
+  while(cands.length<2){
+    var k=1+Math.floor(Math.random()*(seq.length-1));
+    var w=seq.map(function(n,i){return i===k?nm(flip(byNum[n].s)):nm(byNum[n].s);}).join(' ');
+    if(w!==correct&&cands.indexOf(w)<0)cands.push(w);
+  }
+  var pl=function(){playModeLoop(mk.pc,mi,seq,{bpm:84,beats:2});};
+  return {
+    skill:'modes',spec:spec,model:'choices',mhint:{pc:mk.pc,mi:mi},
+    prompt:'Key of '+mk.disp+'. The chart is '+seq.join(' ')+'. Which chords do you play?',
+    play:pl,playLabel:'hear the loop',
+    choices:shuffle([correct].concat(cands.slice(0,2))).map(function(o){return {key:o,label:o};}),
+    correct:correct,
+    fbOk:{text:'Right. In '+mk.disp+', '+seq.join(' ')+' is '+correct+'.'},
+    fbBad:{text:'It is '+correct+'. The 1 is '+pcName(mk.pc,mk.parent)+', the modal home. Counting from '+mk.parent+' instead gives '+wrong1+', the most common mistake with modes.',
+      btns:[{label:'Hear it',fn:pl}]},
+    guidedText:'In '+mk.disp+', the chart '+seq.join(' ')+' is played '+correct+'.'
+  };
+}
+
 
 /* ================= BORROWED COLOUR =================
    The answer to "I charted a song and one chord is not in the seven seats."
@@ -2426,14 +2627,19 @@ var UNITS=[
     {h:'Two flavors of home',b:'Home can be <b>bright</b> or <b>dark</b>. A bright home means the song is in a <b>major</b> key. A dark home means a <b>minor</b> key. Same idea, two moods.',demo:'majmin'},
     {h:'Why they sound different',b:'The difference is one note inside the home chord. A <b>major</b> chord has a bright middle note; a <b>minor</b> chord drops that note by one fret and the mood darkens. One fret, the whole feeling of a song.'},
     {h:'This is the first fork',b:'Almost every song is one or the other. Your very first listening question is always the same: is home bright or dark? That answer tells you which map of numbers to use.'},
-    {h:'Home is always 1',b:'Whether a song is major or minor, home is still called 1. You never have to rename it. You just count from home, in whichever family you are in.'},
-    {h:'Seven ways to hear one family',b:'Here is the bigger picture, so the words never surprise you later. A key is <b>seven chords</b>, and <b>any one of them can be home</b>. Seven choices means seven different sounds, and each one has a name, called a <b>mode</b>. You are going to learn two of them cold, because together they cover about four songs in five: home on the <b>1</b>, which is bright, properly called <b>Ionian</b> and known to everyone as major. And home on the <b>6</b>, which is dark, properly called <b>Aeolian</b> and known to everyone as minor. Listen: the same seven chords, resolving first to the bright home, then to the dark one.',demo:'modes'},
-    {h:'Two now, five later',b:'So when this app says <b>major</b>, it means Ionian, and when it says <b>minor</b>, it means Aeolian. Those are the two you will build everything on. The other five homes are real and you will meet famous songs living in them, but they wait until the end of the course, once your ear already knows these two cold.'}
+    {h:'Home is always 1',b:'Whether a song is major or minor, home is still called 1. You never have to rename it. You just count from home, in whichever family you are in.'}
   ]},
   {intro:true,t:'The number system',o:'Why numbers beat letters',skill:'intro',pages:[
     {h:'Chords as numbers',b:'Instead of letters, we name chords by their <b>number</b> counted from home. In a major key the common chords are <b>1, 4, 5</b> and the minor <b>6m</b>. This is the <b>Nashville number system</b>.'},
     {h:'The same numbers fit every key',b:'The magic: the numbers never change. <b>1 5 6m 4</b> is the same shape in every key. In G it is G D Em C. In C it is C G Am F. Learn the numbers once and you can play a song in any key.',demo:'nashville'},
-    {h:'The whole map, right here',b:'Here is every chord in a key, laid out as numbers. Switch between <b>major</b> and <b>minor</b>, change the key, and tap any seat to hear it after home. The number map button up top opens this any time. Now, let us open your ear.',map:true}
+    {h:'The whole map, right here',b:'Here is every chord in a key, laid out as numbers. Switch between <b>major</b> and <b>minor</b>, change the key, and tap any seat to hear it after home. The number map button up top opens this any time.',map:true}
+  ]},
+  {intro:true,t:'The seven modes',o:'One scale, seven homes',skill:'intro',pages:[
+    {h:'Everything is measured against major',b:'The major scale is seven notes. In C it is C D E F G A B, the white keys of a piano. Its proper name is <b>Ionian</b>, and it is the ruler every other scale is measured against. When musicians say <b>flat 3</b> or <b>flat 7</b>, they mean one fret lower than the major scale\'s 3rd or 7th.',demo:'ionian'},
+    {h:'Start on a different note',b:'Now play those same seven white keys, but start and finish on <b>D</b> instead of C. Nothing is added and nothing is taken away, yet it sounds completely different, because home has moved. That new sound is a <b>mode</b>, and this one is called <b>Dorian</b>. Start on each of the seven notes in turn and you get seven modes. Listen: C to C, then D to D, on the same white keys.',demo:'rotate'},
+    {h:'All seven, side by side',b:'Here they are in order. Tap any row to hear it. <b>Same seven notes</b> shows each mode as C major started from a different note. <b>Same home note</b> starts every mode on C, so you can see each one as a formula against major: the orange notes are the ones flattened or sharpened.',map:'table'},
+    {h:'Two of them run the world',b:'Two of these seven carry the large majority of pop, rock and classical music. <b>Ionian</b> is major: bright and settled. <b>Aeolian</b>, the one starting on the 6th note, is natural minor: a flat 3, flat 6 and flat 7, and dark. This whole course is built on those two, and it calls them major and minor, the way every musician does. Listen: the same chords, resolving first to the major home, then to the minor one.',demo:'modes'},
+    {h:'The other five, for later',b:'<b>Dorian</b> is minor with a brighter 6th. <b>Phrygian</b> is minor with a flat 2nd. <b>Lydian</b> is major with a sharp 4th. <b>Mixolydian</b> is major with a flat 7th. <b>Locrian</b> is so unstable it almost never feels like home. You do not need them yet. Once your ear knows major and minor cold, the last section of the course teaches you to hear all five. Now, let us open your ear.'}
   ]}
  ]},
  /* ---------- PART 1: OPEN THE EAR ---------- */
@@ -2595,7 +2801,7 @@ var UNITS=[
    skill:'minor',
    drill:[{g:'home',k:'which',mode:'min',skill:'minor'},{g:'chart',mode:'min',n:4},{g:'names',mode:'min',dir:'fwd',useLast:true}]},
   {t:'The relative-major shortcut',o:'Optional: how some pros spell minor songs',
-   e:'Every minor key shares its chords with one major key. Some Nashville charts use that shortcut and write a minor song inside its relative major, with home spelled 6m. You never need this, but now you can read it.',
+   e:'Every minor key shares its chords with one major key. Some Nashville charts use that shortcut and write a minor song inside its relative major, with home spelled 6m. This is also your first real look at modes: A minor, Aeolian, is just C major, Ionian, started from its 6th note. Same seven chords, different home.',
    skill:'minor',guided:{g:'rel'},drill:[{g:'rel'},{g:'rel'}],apply:{g:'rel'}}
  ]},
  /* ---------- PART 4: CHORD COLORS ---------- */
@@ -2648,62 +2854,72 @@ var UNITS=[
    e:'Every melody you chart lives on the fretboard. Rebuild a line, then study where it sits.',
    skill:'mel',guided:{g:'mel',k:'build',n:3},drill:[{g:'mel',k:'build',n:4,pool:[1,2,3,4,5]},{g:'mel',k:'build',n:5}],apply:{g:'mel',k:'build',n:5}}
  ]},
- /* ---------- PART 6: THE MODES (advanced) ---------- */
- {part:'The modes',name:'Meet the modes',goal:'One family, seven homes',lessons:[
-  {intro:true,t:'Seven homes, one family',o:'What a mode actually is',skill:'intro',modeUnit:true,pages:[
-    {h:'You already know two of them',b:'Remember the relative-major shortcut: a minor key and its relative major share the same seven chords. Same family, different <b>home</b>. That is the whole secret. When a family changes which seat is home, the sound changes, and the new sound gets a name. Listen: one set of chords, resolving first to a bright home, then to a dark one.',demo:'modes'},
-    {h:'Seven seats, seven names',b:'Any seat can take the turn as home, so there are seven sounds. In scale order they are <b>Ionian</b> (home on the 1, plain major), <b>Dorian</b> (on the 2), <b>Phrygian</b> (on the 3), <b>Lydian</b> (on the 4), <b>Mixolydian</b> (on the 5), <b>Aeolian</b> (on the 6, natural minor) and <b>Locrian</b> (on the 7). You know the 1st and the 6th cold. This unit is the other five, in that order.'},
-    {h:'Hear one, not seven',b:'Here is the trick that makes this easy. You never learn a mode from scratch. <b>Every mode is one note away from major or minor.</b> Dorian is minor with a raised 6th. Mixolydian is major with a flat 7th. That is all. Listen to the brightest, the plain one, and the darkest from the same root: the only thing changing is how many notes are flattened.',demo:'ladder'},
+ /* ---------- PART 6: THE MODES (advanced) ----------
+    Lesson titles are progress keys: keep existing ones stable. */
+ {part:'The modes',name:'Meet the modes',goal:'Back to the seven, now by ear',lessons:[
+  {intro:true,t:'Seven homes, one family',o:'Back to where the course began',skill:'intro',modeUnit:true,pages:[
+    {h:'Back to the seven modes',b:'At the very start you met all seven: the same seven notes, started from a different note each time. You have spent the whole course on two of them, <b>Ionian</b> and <b>Aeolian</b>, major and minor. Now the other five, in scale order: <b>Dorian</b>, <b>Phrygian</b>, <b>Lydian</b>, <b>Mixolydian</b>, and <b>Locrian</b>. Tap any row to hear it again.',map:'table'},
+    {h:'Hear one, not seven',b:'Here is what makes this easy. You never learn a mode from scratch. Measured against major, every mode is a short <b>formula</b>: Dorian is major with a flat 3 and flat 7. But you already know minor, and minor is major with a flat 3, flat 6 and flat 7. So Dorian is just <b>minor with the 6th put back</b>. <b>Every mode is one note away from major or minor.</b> Listen to the brightest mode, plain major, and the darkest, all from C: count how many notes drop each time.',demo:'ladder'},
     {h:'And one chord gives it away',b:'Better still, each mode has a <b>giveaway chord</b>: a seat that a plain major or minor map does not have. Dorian has a <b>major 4</b> under a dark home. Mixolydian has a major chord on the <b>flat 7</b>. Hear that one chord and you have named the mode without spelling a thing. Tap through the map: pick a home and watch the same seven chords renumber around it.',map:'lens'}
   ]},
   {t:'Dorian, the 2nd mode',o:'Minor with a raised 6th',modeUnit:true,
-   e:'Home on the 2nd seat. Dorian is <b>minor with a raised 6th</b>, and that one note lifts the gloom: darkness without despair. The giveaway is a <b>major 4</b> sitting under a minor home, where plain minor would give you a 4m. It is the sound of funk, soul, and a great deal of minor-key rock.',
+   e:'Home on the 2nd note of the parent scale. Against major, Dorian is <b>flat 3, flat 7</b>. Against minor, it is <b>minor with a raised 6th</b>, and that one note lifts the gloom: darkness without despair. The giveaway is a <b>major 4</b> sitting under a minor home, where plain minor would give you a 4m. It is the sound of funk, soul, and a great deal of minor-key rock.',
    skill:'modes',guided:{g:'mchr',k:'bend',pool:['Dorian']},
-   drill:[{g:'mchr',k:'bend',pool:['Dorian','Aeolian']},{g:'mtell',k:'quality',qpool:[{a:'Dorian',b:'Aeolian',seat:'4',q:'the 4 chord'}]},{g:'mtell',k:'mode',pool:['Dorian','Aeolian']}],
+   drill:[{g:'mchr',k:'bend',pool:['Dorian','Aeolian']},{g:'mtell',k:'quality',qpool:[{a:'Dorian',b:'Aeolian',seat:'4',q:'the 4 chord'}]},{g:'mchart',pool:['Dorian']},{g:'mtell',k:'mode',pool:['Dorian','Aeolian']}],
    apply:{g:'mtell',k:'mode',pool:['Dorian','Aeolian']}},
   {t:'Phrygian, the 3rd mode',o:'Minor with a flat 2nd',modeUnit:true,
-   e:'Home on the 3rd seat. Phrygian is <b>minor with a flattened 2nd</b>, a note sitting a single half step above home, and that squeeze is unmistakable. The giveaway is a <b>major chord on the flat 2</b>, leaning down onto home. Flamenco lives here, and so does a lot of metal. Rare in charts, but you will never mistake it once you know it.',
+   e:'Home on the 3rd note of the parent scale. Against major, Phrygian is <b>flat 2, flat 3, flat 6, flat 7</b>. Against minor, it is <b>minor with a flattened 2nd</b>, a note a single half step above home, and that squeeze is unmistakable. The giveaway is a <b>major chord on the flat 2</b>, leaning down onto home. Flamenco lives here, and so does a lot of metal.',
    skill:'modes',guided:{g:'mchr',k:'bend',pool:['Phrygian']},
-   drill:[{g:'mchr',k:'bend',pool:['Phrygian','Aeolian']},{g:'mtell',k:'mode',pool:['Phrygian','Dorian']},{g:'mtell',k:'num',pool:['Phrygian','Dorian']}],
+   drill:[{g:'mchr',k:'bend',pool:['Phrygian','Aeolian']},{g:'mtell',k:'mode',pool:['Phrygian','Dorian']},{g:'mchart',pool:['Phrygian']},{g:'mtell',k:'num',pool:['Phrygian','Dorian']}],
    apply:{g:'mtell',k:'mode',pool:['Dorian','Phrygian','Aeolian']}}
  ]},
  {part:'The modes',name:'The bright modes',goal:'Lydian, Mixolydian, and the one that cannot rest',lessons:[
   {t:'Lydian, the 4th mode',o:'Major with a sharp 4th',modeUnit:true,
-   e:'Home on the 4th seat. Lydian is <b>major with a raised 4th</b>, which makes it the only mode brighter than major itself. It floats instead of settling, which is why film music reaches for it. The giveaway is a <b>major 2</b>, where a plain major key would give you a 2m.',
+   e:'Home on the 4th note of the parent scale. Against major, Lydian changes just one note: a <b>sharp 4</b>. That makes it the only mode brighter than major itself. It floats instead of settling, which is why film music reaches for it. The giveaway is a <b>major 2</b>, where a plain major key would give you a 2m.',
    skill:'modes',guided:{g:'mchr',k:'bend',pool:['Lydian']},
-   drill:[{g:'mchr',k:'bend',pool:['Lydian','Ionian']},{g:'mtell',k:'mode',pool:['Lydian','Ionian']},{g:'mtell',k:'num',pool:['Lydian','Mixolydian']}],
+   drill:[{g:'mchr',k:'bend',pool:['Lydian','Ionian']},{g:'mtell',k:'mode',pool:['Lydian','Ionian']},{g:'mchart',pool:['Lydian']},{g:'mtell',k:'num',pool:['Lydian','Mixolydian']}],
    apply:{g:'mtell',k:'mode',pool:['Lydian','Ionian']}},
   {t:'Mixolydian, the 5th mode',o:'Major with a flat 7th',modeUnit:true,
-   e:'Home on the 5th seat, and the most useful mode in this unit. Mixolydian is <b>major with a flattened 7th</b>, so it stops straining upward and just leans back. The giveaway is a <b>major chord on the flat 7</b>, one whole step below home — that chord is the sound of an enormous amount of rock, blues and folk. Its 5 chord also turns minor, which is the other tell.',
+   e:'Home on the 5th note of the parent scale, and the most useful mode in this unit. Against major, Mixolydian changes one note: a <b>flat 7</b>, so it stops straining upward and just leans back. The giveaway is a <b>major chord on the flat 7</b>, one whole step below home, the sound of an enormous amount of rock, blues and folk. Its 5 chord also turns minor, which is the other tell.',
    skill:'modes',guided:{g:'mchr',k:'bend',pool:['Mixolydian']},
-   drill:[{g:'mchr',k:'bend',pool:['Mixolydian','Ionian']},{g:'mtell',k:'quality',qpool:[{a:'Mixolydian',b:'Ionian',seat:'5',q:'the 5 chord'}]},{g:'mtell',k:'mode',pool:['Mixolydian','Lydian','Ionian']}],
+   drill:[{g:'mchr',k:'bend',pool:['Mixolydian','Ionian']},{g:'mtell',k:'quality',qpool:[{a:'Mixolydian',b:'Ionian',seat:'5',q:'the 5 chord'}]},{g:'mchart',pool:['Mixolydian']},{g:'mtell',k:'mode',pool:['Mixolydian','Lydian','Ionian']}],
    apply:{g:'mtell',k:'mode',pool:['Mixolydian','Lydian','Ionian']}},
   {t:'Locrian, the 7th mode',o:'The seat that cannot be home',modeUnit:true,
-   e:'Home on the 7th seat — except it cannot really be home at all. Locrian\'s own chord is <b>diminished</b>, so nothing ever settles, and almost no song lives here. Know its face, know why it is empty, and move on. That is the honest lesson: six usable homes, and one that refuses.',
+   e:'Home on the 7th note of the parent scale, except it cannot really be home at all. Against major it is <b>flat 2, 3, 5, 6 and 7</b>, and that flat 5 makes its own chord <b>diminished</b>, so nothing ever settles and almost no song lives here. Know its face, know why it is empty, and move on: six usable homes, and one that refuses.',
    skill:'modes',guided:{g:'mchr',k:'bend',pool:['Locrian']},
    drill:[{g:'mchr',k:'bend',pool:['Locrian','Phrygian','Aeolian']},{g:'mchr',k:'name',pool:['Locrian','Phrygian','Aeolian']}],
    apply:{g:'mchr',k:'name',pool:['Locrian','Phrygian','Dorian','Aeolian']}},
   {t:'The brightness ladder',o:'All seven in one line',modeUnit:true,
-   e:'Now the whole set clicks together. Line the modes up by brightness and <b>each step flattens exactly one note</b>: Lydian, Ionian, Mixolydian, Dorian, Aeolian, Phrygian, Locrian. Six steps, seven modes. Your two anchors sit at positions two and five, each with one brighter neighbour and one darker one — Mixolydian is major gone one step dark, Dorian is minor gone one step bright. Three bright homes, three dark, and Locrian.',
+   e:'Now the whole set clicks together. Line the modes up by brightness and <b>each step flattens exactly one note</b>: Lydian, Ionian, Mixolydian, Dorian, Aeolian, Phrygian, Locrian. Six steps, seven modes. Major and minor sit at positions two and five, each with one brighter neighbour and one darker one. This lesson drops the training wheels: you will not be told whether home is bright or dark. Hear the 3rd first, then listen for what else moved.',
    skill:'modes',guided:{g:'mchr',k:'name',pool:['Lydian','Ionian','Mixolydian']},
-   drill:[{g:'mchr',k:'name',pool:['Dorian','Aeolian','Phrygian']},{g:'mchr',k:'bend',pool:['Dorian','Phrygian','Lydian','Mixolydian']},{g:'mtell',k:'mode',pool:['Dorian','Phrygian','Lydian','Mixolydian']},{g:'mchr',k:'name',pool:['Lydian','Ionian','Mixolydian','Dorian','Aeolian','Phrygian'],n:4}],
-   apply:{g:'mchr',k:'mix',pool:['Dorian','Phrygian','Lydian','Mixolydian']}}
+   drill:[{g:'mchr',k:'name',pool:['Dorian','Aeolian','Phrygian']},{g:'mform',pool:['Ionian','Mixolydian','Dorian','Aeolian']},{g:'mform',pool:['Lydian','Ionian','Mixolydian']},{g:'mform',pool:['Dorian','Aeolian','Phrygian']},{g:'mform'}],
+   apply:{g:'mform'}}
  ]},
- {part:'The modes',name:'Modes by name',goal:'Spell them, and find the parent',lessons:[
+ {part:'The modes',name:'Map the modes',goal:'Spell them, chart them, find the parent',lessons:[
   {t:'Spell any mode',o:'Build it from the root',modeUnit:true,
-   e:'Recognizing a mode is the ear skill. Spelling one is the building skill. Take the root, then walk the mode\'s own pattern of steps up from it. D Dorian is D E F G A B C: the pattern 1 2 b3 4 5 6 b7 counted from D.',
+   e:'Recognizing a mode is the ear skill. Spelling one is the building skill. Take the home note, then walk the formula up from it, one letter at a time. D Dorian is D E F G A B C: the formula 1 2 b3 4 5 6 b7 counted from D. Every degree gets the next letter, so the only question is whether each one is flat, natural or sharp.',
    skill:'mpar',guided:{g:'mspell',pool:['Dorian']},
-   drill:[{g:'mspell',pool:['Dorian','Mixolydian']},{g:'mspell',pool:['Phrygian','Lydian']},{g:'mspell'}],
-   apply:{g:'mspell'}},
-  {t:'Find the parent Ionian',o:'The bookkeeping that saves you work',modeUnit:true,
-   e:'Every mode is some major scale seen from a different seat, and that major scale is its <b>parent Ionian</b>. D Dorian is C major counted from D. This is pure bookkeeping — it is not how you hear a mode — but it is how you reuse every shape and scale you already own. Dorian is the 2nd mode, so its parent starts a whole step below. Mixolydian is the 5th, so its parent starts a whole step above.',
+   drill:[{g:'mspell',pool:['Dorian','Mixolydian']},{g:'mbuild',pool:['Dorian','Mixolydian']},{g:'mbuild',pool:['Phrygian','Lydian']},{g:'mbuild'}],
+   apply:{g:'mbuild'}},
+  {t:'Find the parent Ionian',o:'Every mode lives inside a major scale',modeUnit:true,
+   e:'Every mode is some major scale started from a different note, and that major scale is its <b>parent Ionian</b>. D Dorian is C major started on D. Dorian is the 2nd mode, so its parent starts a whole step below. Mixolydian is the 5th, so its parent starts a fifth below, a fourth above. Knowing the parent means every shape and scale you already own in that major key still works.',
    skill:'mpar',guided:{g:'mpar',dir:'fwd',pool:['Dorian']},
    drill:[{g:'mpar',dir:'fwd',pool:['Dorian','Mixolydian']},{g:'mpar',dir:'rev',pool:['Dorian','Lydian','Mixolydian']},{g:'mpar',dir:'fwd'}],
    apply:{g:'mpar',dir:'mix'}},
-  {t:'The modal challenge',o:'Hear it, name it, spell it, place it',modeUnit:true,
-   e:'The full chain on a mode you have never been told: hear the vamp, decide bright or dark, find the bent note, name the mode, then place it against its parent.',
+  {t:'Chart modal loops',o:'Same tiles, a modal home',modeUnit:true,
+   e:'Now the same skill you used on every major and minor song: chart the loop as numbers. The one rule that changes everything is <b>count from the modal home</b>. In D Dorian the 1 is D, not C, so Dm to G is 1m to 4, and that major 4 is the giveaway.',
+   skill:'modes',guided:{g:'mchart',pool:['Dorian']},
+   drill:[{g:'mchart',pool:['Dorian','Mixolydian']},{g:'mchart',pool:['Phrygian','Lydian']},{g:'mchart',pool:['Aeolian','Dorian']},{g:'mchart'}],
+   apply:{g:'mchart'}},
+  {t:'Modal keys by name',o:'Turn a modal chart into chords',modeUnit:true,
+   e:'And the translation skill, modal edition. Given the key and the chart, name the chords. The trap is counting from the parent: in D Dorian, 1m 4 is Dm G, not C F. Always start from the modal home.',
+   skill:'modes',guided:{g:'mnames',pool:['Dorian']},
+   drill:[{g:'mnames',pool:['Dorian','Mixolydian']},{g:'mnames',pool:['Phrygian','Lydian']},{g:'mnames'}],
+   apply:{g:'mnames'}},
+  {t:'The modal challenge',o:'Hear it, name it, chart it, place it',modeUnit:true,
+   e:'The full chain on a mode you are not told: hear the formula with no hint about bright or dark, chart a modal loop, name its chords, and place the mode inside its parent major scale.',
    skill:'modes',modeUnit:true,
-   drill:[{g:'mchr',k:'bend',pool:['Dorian','Phrygian','Lydian','Mixolydian']},{g:'mtell',k:'mode',pool:['Dorian','Phrygian','Lydian','Mixolydian']},{g:'mspell'},{g:'mpar',dir:'mix'}]}
+   drill:[{g:'mform'},{g:'mchart'},{g:'mnames'},{g:'mbuild'},{g:'mpar',dir:'mix'}]}
  ]},
  /* ---------- PART 7: BORROWED COLOUR ---------- */
  {part:'Borrowed colour',name:'Chords from outside',goal:'When a chord is not in the key at all',lessons:[
@@ -2755,11 +2971,20 @@ var SKILLS_LIST=[
  {id:'minor',name:'Minor keys',defSpec:{g:'num',mode:'min',pool:['1m','3','4m','5','6','7']}},
  {id:'col',name:'Chord colors',defSpec:{g:'col',k:'mix'}},
  {id:'mel',name:'Melodies',defSpec:{g:'mel',k:'mix'}},
- {id:'modes',name:'Modal sounds',defSpec:{g:'mtell',k:'mode',pool:['Dorian','Phrygian','Lydian','Mixolydian']}},
- {id:'mpar',name:'Parent scales',defSpec:{g:'mpar',dir:'mix'}},
+ {id:'modes',name:'Modal sounds',defSpec:{g:'mmix'}},
+ {id:'mpar',name:'Spell and place modes',defSpec:{g:'pmix'}},
  {id:'borrow',name:'Borrowed chords',defSpec:{g:'borrow',k:'mix'}}
 ];
 var INTRO_COUNT=0;UNITS.forEach(function(u){if(u.intro)INTRO_COUNT+=u.lessons.length;});
+/* lesson order as it was live before progress moved to titles; index-based
+   saves from that layout are mapped through it once, then never again */
+var LEGACY_TITLES=["What you will be able to do", "What a key is", "Major and minor", "The number system", "Resolved or unresolved", "Which chord sounds like home?", "Coming home", "Hold on to 1", "Major versus minor chord", "Major 1 versus minor 1", "Major song or minor song", "Find home, then judge it", "1 versus 5", "1 versus 4", "4 versus 5", "Hear 5 to 1", "Follow whole journeys", "When home comes back", "Chart three chords", "Fill in the missing chord", "Repeated chords", "1 versus 6m", "4 versus 6m", "All four functions", "Hear 1-5-6m-4", "Hear 6m-4-1-5", "Unfamiliar combinations", "Numbers to chords", "Chords to numbers", "All six keys", "Meet the 2m", "Meet the 3m", "The three minors", "The 2m-5-1 move", "Chart the full map", "Chart a four-bar loop", "Chart an eight-bar loop", "Translate the full map", "The major challenge", "Home is dark now", "The 6 and the 7", "The 4m", "The 5 with two faces", "The 3, and the full map", "Chart minor loops", "The Andalusian fall", "Minor keys by name", "The minor challenge", "The relative-major shortcut", "Sus chords", "The dominant 7", "The major 7", "The minor 7", "The diminished chord", "Color in context", "The jazz turnaround", "Higher, lower, or the same", "The anchor notes 1, 3 and 5", "Add 2 and 4", "Rebuild three notes", "Rebuild five notes", "The gap between notes", "Numbers on the fretboard", "Seven homes, one family", "Dorian, the 2nd mode", "Phrygian, the 3rd mode", "Lydian, the 4th mode", "Mixolydian, the 5th mode", "Locrian, the 7th mode", "The brightness ladder", "Spell any mode", "Find the parent Ionian", "The modal challenge", "A chord from outside the key", "Spot the outsider", "The sad 4", "The rock flat-7", "The bright 4", "Name the source", "Chart a loop with a borrow"];
+(function(){
+  if(!ST.doneT&&ST.pathV===3){
+    ST.doneT={};
+    Object.keys(ST.doneL).forEach(function(i){var t=LEGACY_TITLES[+i];if(t)ST.doneT[t]=1;});
+  }
+})();
 (function(){
   if(ST.pathV!==3){
     var m=Object.keys(ST.doneL).length; /* prior pathV made these sequential */
@@ -2768,8 +2993,13 @@ var INTRO_COUNT=0;UNITS.forEach(function(u){if(u.intro)INTRO_COUNT+=u.lessons.le
       for(var i=0;i<INTRO_COUNT;i++)ST.doneL[i]=1;
       for(var j=0;j<m;j++)ST.doneL[INTRO_COUNT+j]=1;
     }
-    ST.pathV=3;save();
+    ST.pathV=3;
+    syncDoneT();
   }
+  ST.doneL={};
+  LESSONS.forEach(function(L,i){if(ST.doneT&&ST.doneT[L.t])ST.doneL[i]=1;});
+  ST.cur=firstIncomplete();
+  save();
 })();
 function firstIncomplete(){
   for(var i=0;i<LESSONS.length;i++)if(!ST.doneL[i])return i;
@@ -2819,6 +3049,13 @@ function playDemo(id){
     chordSeq(ctx,['Am','F','G','Am'],{step:0.58,vel:0.42,delay:3.1});
   });
   else if(id==='dorian')run(function(ctx){chordSeq(ctx,['Dm','G','Dm','G','Dm'],{step:0.6,vel:0.42});});
+  else if(id==='ionian'){cut();playModeScale(0,modeIdx('Ionian'),{keep:true});}
+  else if(id==='rotate'){
+    /* the same white keys, first from C, then from D */
+    cut();
+    playModeScale(0,modeIdx('Ionian'),{keep:true});
+    playModeScale(2,modeIdx('Dorian'),{keep:true,delay:3.2});
+  }
   else if(id==='ladder'){
     /* brightest, plain, darkest from one root: the whole ladder in three scales */
     cut();
@@ -2832,6 +3069,61 @@ function playDemo(id){
     playAnyLoop('maj','G',['1','4','5','1'],{keep:true,bpm:88,beats:2});
     playAnyLoop('maj','G',['1','4m','5','1'],{keep:true,bpm:88,beats:2,delay:5.8});
   }
+}
+/* formula of a mode against Ionian on the same root, e.g. Dorian -> ['b3','b7'] */
+function modeFormula(mi){
+  return MODE_SEATS[mi].map(function(s){return s.plain;}).filter(function(d){return /[b#]/.test(d);});
+}
+function modeFormulaText(mi){
+  var f=modeFormula(mi);
+  return f.length?'major with '+f.join(', '):'the major scale itself';
+}
+/* all seven modes at once: the Start-here table */
+var C_WHITE=['C','D','E','F','G','A','B'];
+function embedModeTable(container){
+  var view='notes';
+  function draw(){
+    container.innerHTML='';
+    var tog=document.createElement('div');tog.className='mt-tog';
+    [['notes','Same seven notes'],['home','Same home note']].forEach(function(v){
+      var b=document.createElement('button');b.className=view===v[0]?'on':'';b.textContent=v[1];
+      b.addEventListener('click',function(){run(function(){});view=v[0];draw();});
+      tog.appendChild(b);
+    });
+    container.appendChild(tog);
+    MODES.forEach(function(m,mi){
+      var row=document.createElement('div');row.className='mt-row'+(m.anchor?' anchor':'');
+      var nm=document.createElement('div');nm.className='mt-name';
+      nm.innerHTML='<b>'+m.n+'</b><span>'+(m.alias||('mode '+m.deg))+'</span>';
+      row.appendChild(nm);
+      var cells=document.createElement('div');cells.className='mt-cells';
+      MODE_SEATS[mi].forEach(function(s,i){
+        var c=document.createElement('div');
+        if(view==='notes'){
+          c.className='mt-cell'+(i===0?' home':'');
+          c.textContent=C_WHITE[(mi+i)%7];
+        } else {
+          var alt=/[b#]/.test(s.plain);
+          c.className='mt-cell'+(i===0?' home':'')+(alt?' alt':'');
+          c.textContent=s.plain;
+        }
+        cells.appendChild(c);
+      });
+      row.appendChild(cells);
+      row.addEventListener('click',function(){
+        run(function(){});
+        /* same notes: C major from this mode's degree; same home: everything from C */
+        playModeScale(view==='notes'?MODES[mi].off:0,mi);
+      });
+      container.appendChild(row);
+    });
+    var note=document.createElement('div');note.className='emap-note';
+    note.textContent=view==='notes'
+      ?'Every row uses only the white keys. The blue note is home, and moving home is the only thing that changes.'
+      :'Every row starts on C. Orange notes differ from C major. Ionian has none; every other mode is major with a few notes bent.';
+    container.appendChild(note);
+  }
+  draw();
 }
 /* compact mode lens for lesson pages: pick a home, watch the chords renumber */
 function embedModeLens(container){
@@ -2919,7 +3211,9 @@ function embedKeyMap(container,showModes){
       if(showModes){
         var right=document.createElement('span');right.className='es-right';
         right.appendChild(nm);
-        var md=document.createElement('span');md.className='es-mode';md.textContent=seat.mode||'';
+        var md=document.createElement('span');
+        md.className='mode-chip'+(seat.mode&&MODES[modeIdx(seat.mode)].anchor?' anchor':'');
+        md.style.cursor='default';md.textContent=seat.mode||'';
         right.appendChild(md);
         row.appendChild(right);
       } else row.appendChild(nm);
@@ -3002,6 +3296,7 @@ function renderRead(body,s){
     var mapc=document.createElement('div');mapc.className='emap';
     body.appendChild(mapc);
     if(p.map==='lens')embedModeLens(mapc);
+    else if(p.map==='table')embedModeTable(mapc);
     else embedKeyMap(mapc,p.map==='modes');
   }
   var dots=document.createElement('div');dots.className='read-dots';
@@ -3099,8 +3394,9 @@ function renderChoices(body){
 }
 function renderTiles(body){
   Q._seq=[];
-  var slots=document.createElement('div');slots.className='slots';slots.id='q-slots';
-  var barEl=document.createElement('div');barEl.className='tilebar';
+  var many=Q.tiles.n>=6;
+  var slots=document.createElement('div');slots.className='slots'+(many?' many':'');slots.id='q-slots';
+  var barEl=document.createElement('div');barEl.className='tilebar'+(many?' many':'');
   var clr=document.createElement('button');clr.className='btn btn-sm';clr.textContent='Clear';
   clr.style.alignSelf='center';
   function paint(){
@@ -3381,8 +3677,8 @@ function renderKmapModes(){
   });
   var lg=document.getElementById('km-legend');
   lg.innerHTML=unlocked
-    ? '<span><i style="background:var(--blue)"></i>the two you build on</span><span>all seven unlocked</span>'
-    : '<span><i style="background:var(--blue)"></i>the two you know</span><span><i style="background:#cbd5e1"></i>the five waiting</span>';
+    ? '<span><i style="background:var(--blue)"></i>major and minor</span><span>all seven unlocked</span>'
+    : '<span><i style="background:var(--blue)"></i>major and minor, learn first</span><span><i style="background:#cbd5e1"></i>the other five, at the end</span>';
   /* root picker: the roots this mode can take from the six parent keys */
   var kg=document.getElementById('km-keys');kg.innerHTML='';
   modalKeysFor(KM_MI).forEach(function(mk){
@@ -3406,17 +3702,26 @@ function renderKmapModes(){
   top.appendChild(pt);
   card.appendChild(top);
   var fl=document.createElement('div');fl.className='mh-feel';fl.textContent=m.feel;card.appendChild(fl);
+  var lb=document.createElement('div');lb.className='mh-lbl';lb.textContent='Formula against Ionian (major)';
+  card.appendChild(lb);
   var iv=document.createElement('div');iv.className='iv-row';
   seats.forEach(function(s,i){
     var c=document.createElement('div');
-    c.className='iv-cell'+(i===0?' root':'')+(m.bendDeg===i+1?' chr':'');
+    var alt=/[b#]/.test(s.plain);
+    c.className='iv-cell'+(i===0?' root':'')+(m.bendDeg===i+1?' chr':alt?' alt':'');
     c.textContent=s.plain;
     iv.appendChild(c);
   });
   card.appendChild(iv);
+  var fx=document.createElement('div');fx.className='mh-form';
+  var ff=modeFormula(KM_MI);
+  fx.innerHTML=ff.length?'Major with <b>'+ff.join(', ')+'</b>.':'No notes bent. This is the ruler the other six are measured against.';
+  card.appendChild(fx);
   if(m.bend){
     var ch=document.createElement('div');ch.className='mh-chr';
-    ch.textContent=(m.vs==='maj'?'Major':'Minor')+' with a '+m.bend+'. That one note is the whole difference.';
+    ch.textContent=m.n==='Locrian'
+      ?'Against plain minor, the flat 2 and flat 5. That flat 5 is why home can never settle.'
+      :'Against plain '+(m.vs==='maj'?'major':'minor')+', only one note changes: the '+m.bend+'. That note is what you listen for.';
     card.appendChild(ch);
   }
   var bt=document.createElement('div');bt.className='mh-btns';
@@ -3465,8 +3770,7 @@ function renderKmap(){
   document.getElementById('km-modes').style.display=modeLens?'grid':'none';
   document.getElementById('km-legend').style.display=modeLens?'flex':'none';
   if(modeLens)return renderKmapModes();
-  document.getElementById('km-head').innerHTML='';
-  document.getElementById('km-lead').textContent='Every key has the same seats with the same qualities. Home is always 1. Tap a seat to hear it after home.';
+  document.getElementById('km-lead').textContent='Every key has the same seats with the same qualities. Home is always 1. Tap a seat to hear it, or a mode chip to hear that seat as home.';
   var isMin=KM_MODE==='min';
   document.getElementById('km-maj').classList.toggle('on',!isMin);
   document.getElementById('km-min').classList.toggle('on',isMin);
@@ -3487,6 +3791,31 @@ function renderKmap(){
   var kk=null;
   keys.forEach(function(k){if(k.n===cur)kk=k;});
   var seats=isMin?KM_MIN_SEATS:KM_MAJ_SEATS;
+  /* head card: this key as a mode, its scale and its intervals against Ionian */
+  var hmi=modeIdx(isMin?'Aeolian':'Ionian');
+  var parentN=isMin?PCN[(kk.pc+3)%12]:kk.n;
+  var hd=document.getElementById('km-head');hd.innerHTML='';
+  var card=document.createElement('div');card.className='key-head';
+  var top=document.createElement('div');top.className='kh-top';
+  var kn=document.createElement('span');kn.className='kh-name';kn.textContent=isMin?kk.disp:kk.n+' major';
+  var km=document.createElement('span');km.className='kh-mode';km.textContent=MODES[hmi].n;
+  var sb=document.createElement('button');sb.className='kh-btn';sb.textContent='Hear the scale';
+  sb.addEventListener('click',function(){run(function(){});playModeScale(kk.pc,hmi);});
+  top.appendChild(kn);top.appendChild(km);top.appendChild(sb);
+  card.appendChild(top);
+  var iv=document.createElement('div');iv.className='iv-row';
+  MODE_SEATS[hmi].forEach(function(s,i){
+    var c=document.createElement('div');
+    c.className='iv-cell'+(i===0?' root':'')+(/[b#]/.test(s.plain)?' chr':'');
+    c.textContent=s.plain;iv.appendChild(c);
+  });
+  card.appendChild(iv);
+  var fm=document.createElement('div');fm.className='kh-form';
+  fm.textContent=isMin
+    ?'Natural minor is major with a flat 3, flat 6 and flat 7. It uses the same notes as '+parentN+' major, starting from its 6th note.'
+    :'The major scale. Every other mode is measured against these seven intervals.';
+  card.appendChild(fm);
+  hd.appendChild(card);
   var box=document.getElementById('km-seats');box.innerHTML='';
   seats.forEach(function(seat,si){
     var row=document.createElement('div');
@@ -3504,16 +3833,26 @@ function renderKmap(){
     var right=document.createElement('span');right.className='seat-right';
     right.appendChild(nm);
     if(seat.mode){
-      var md=document.createElement('span');md.className='seat-mode';md.textContent=seat.mode;
+      var md=document.createElement('button');
+      md.className='mode-chip'+(MODES[modeIdx(seat.mode)].anchor?' anchor':'');
+      md.textContent=seat.mode;
+      md.title='Hear '+seat.mode+': this seat as home';
+      md.addEventListener('click',function(ev){
+        ev.stopPropagation();run(function(){});
+        KM_LENS='mode';KM_MI=modeIdx(seat.mode);KM_ROOT=(kk.pc+seat.off)%12;
+        renderKmap();
+        var sc=document.getElementById('kmap');if(sc&&sc.scrollTo)sc.scrollTo(0,0);window.scrollTo(0,0);
+      });
       right.appendChild(md);
     }
     row.appendChild(right);
     row.addEventListener('click',function(){seatPlay(kk.pc,seat,seats[0]);});
     box.appendChild(row);
   });
-  document.getElementById('km-note').textContent=isMin
-    ?'Home is still 1, written 1m. The 4m and 5 are naturally minor too — three dark seats is the fingerprint of a minor key — but songs usually raise the 5 to major so it pulls home harder. The 2° is real but rare. The small grey names are the seven modes: what each seat sounds like when it takes a turn as home. The last lesson in Learn tells that story.'
-    :'Same seven seats in every major key. The 5 leans home hardest, which is why it loves a dominant 7. The 7\u00b0 is real but rare; charts mostly ignore it. The small grey names are the seven modes: what each seat sounds like when it takes a turn as home. The last lesson in Learn tells that story.';
+  document.getElementById('km-note').textContent=(isMin
+    ?'Home is still 1, written 1m. The 4m and 5 are naturally minor too, and three dark seats is the fingerprint of a minor key, but songs usually raise the 5 to major so it pulls home harder. The 2\u00b0 is real but rare.'
+    :'Same seven seats in every major key. The 5 leans home hardest, which is why it loves a dominant 7. The 7\u00b0 is real but rare; charts mostly ignore it.')
+    +' Each chip names the mode you get when that seat takes a turn as home. The blue ones, Ionian and Aeolian, are major and minor: the two this course is built on. Tap any chip to hear it.';
 }
 document.getElementById('kmap-open').addEventListener('click',function(){run(function(){});renderKmap();go('kmap');});
 document.getElementById('kmap-x').addEventListener('click',function(){go('learn');renderLearn();});
