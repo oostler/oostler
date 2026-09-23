@@ -7,7 +7,25 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
-<title>Tonic - Hear the numbers</title>
+<title>Tonic: learn songs by ear</title>
+<meta name="description" content="Train your ear to hear songs as numbers: find home, chart every chord, and play it in any key. Then learn to hear all seven modes. Free, in your browser.">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="Tonic">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tonic">
+<meta property="og:url" content="https://oostler.github.io/oostler/">
+<meta property="og:title" content="Tonic: learn songs by ear">
+<meta property="og:description" content="Find home, hear every chord as a number, and play it in any key. Then the seven modes.">
+<meta property="og:image" content="https://oostler.github.io/oostler/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Tonic: learn songs by ear">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tonic: learn songs by ear">
+<meta name="twitter:description" content="Find home, hear every chord as a number, and play it in any key. Then the seven modes.">
+<meta name="twitter:image" content="https://oostler.github.io/oostler/og.png">
 <style>
 :root{
   --bg:#f9fafc;--card:#ffffff;--fg:#1e293b;--muted:#64748b;--border:#e2e8f0;
@@ -72,7 +90,8 @@ h3{font-size:14px;font-weight:700}
   padding:13px;cursor:pointer;display:flex;flex-direction:column;gap:3px}
 .skill-tile:active{transform:translateY(2px)}
 .skill-tile.locked{opacity:.5;pointer-events:none}
-.skill-tile .nm{font-weight:800;font-size:13.5px}
+.skill-tile{min-width:0}
+.skill-tile .nm{font-weight:800;font-size:13.5px;overflow-wrap:break-word}
 .skill-tile .ac{font-size:11.5px;color:var(--muted)}
 .bar{height:8px;background:var(--blue-mist);border-radius:99px;overflow:hidden}
 .bar>div{height:100%;background:var(--blue);border-radius:99px;transition:width .3s}
@@ -210,7 +229,9 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .iv-cell.chr{background:var(--warn-soft);border-color:#f59e0b;color:#92400e}
 .iv-cell.root{background:var(--blue-mist);border-color:var(--blue);color:var(--blue)}
 .iv-cell.alt{background:#fffbeb;border-color:#fcd34d;color:#b45309}
-.mh-btns{display:flex;gap:7px}
+.mh-btns{display:flex;gap:7px;flex-wrap:wrap}
+.mh-btns button{min-width:0}
+@media (max-width:360px){.mh-btns{gap:5px}.mh-btns button{font-size:11px;padding:8px 2px}.kh-btn{font-size:11px;padding:7px 8px}}
 .mh-btns button{flex:1;padding:9px 4px;border:2px solid var(--border);border-bottom-width:3px;border-radius:12px;background:var(--bg);
   font-family:inherit;font-weight:800;font-size:12px;color:var(--fg);cursor:pointer;white-space:nowrap}
 .mh-btns button:active{transform:translateY(1px);border-bottom-width:2px}
@@ -430,6 +451,9 @@ input[type=range]{width:100%;accent-color:var(--blue)}
 .gact{display:flex;align-items:center;gap:9px;background:var(--card);border:2px solid var(--border);border-radius:13px;padding:9px 13px;font-weight:700;font-size:13.5px}
 .gact .ga-mark{margin-left:auto;font-weight:900}
 .key-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}
+.key-grid.k12,.emap-keys.k12{grid-template-columns:repeat(6,1fr);gap:5px}
+.key-grid.k12m,.emap-keys.k12m{grid-template-columns:repeat(4,1fr);gap:5px}
+.key-grid.k12 .key-btn,.key-grid.k12m .key-btn{padding:10px 2px;font-size:13px}
 .key-btn{padding:11px 4px;border:2px solid var(--border);border-bottom-width:3px;border-radius:12px;background:var(--card);font-family:inherit;font-size:12px;font-weight:800;color:var(--fg);cursor:pointer;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .key-btn.on{background:var(--blue);border-color:var(--blue-press);color:#fff}
 .shop-bal{display:flex;align-items:center;justify-content:center;gap:8px;font-weight:900;font-size:19px;color:#b45309;background:#fef3c7;border-radius:14px;padding:11px}
@@ -1099,31 +1123,72 @@ function strumArr(ctx,arr,opt){
 function strumMidis(ctx,arr,opt){strumArr(ctx,arr,opt);}
 function strum(ctx,name,opt){
   opt=opt||{};
-  var v=VOIC[name]||CVOIC[name];
+  var v=VOIC[name]||CVOIC[name]||synthVoicing(name);
   if(!v)return;
   strumArr(ctx,v,opt);
 }
+/* Any chord in any key gets a voicing: an E-shape style barre built from the
+   root, bass between low E and D#, so keys like Db or F#m never play silent. */
+var SYNTH_IV={'':[0,4,7],'m':[0,3,7],'\u00b0':[0,3,6],'dim':[0,3,6],'7':[0,4,7,10],'maj7':[0,4,7,11],
+  'm7':[0,3,7,10],'sus4':[0,5,7],'sus2':[0,2,7],'5':[0,7]};
+function synthVoicing(name){
+  var m=/^([A-G](?:#|b)*)(.*)$/.exec(name||'');
+  if(!m||!SYNTH_IV[m[2]])return null;
+  var iv=SYNTH_IV[m[2]],bass=40+((nameToPc(m[1])-4+12)%12);
+  var out=[bass];
+  if(iv.length>2)out.push(bass+iv[2]);
+  out.push(bass+12);
+  iv.slice(1).forEach(function(x){out.push(bass+12+x);});
+  return out.filter(function(v,i,a){return a.indexOf(v)===i;}).sort(function(a,b){return a-b;}).slice(0,6);
+}
 /* music data */
-var KEYS=[{n:'C',pc:0},{n:'G',pc:7},{n:'D',pc:2},{n:'A',pc:9},{n:'E',pc:4},{n:'F',pc:5}];
-var MKEYS=[{n:'Am',pc:9,disp:'A minor'},{n:'Em',pc:4,disp:'E minor'},{n:'Dm',pc:2,disp:'D minor'}];
+/* All twelve keys of each kind, round the circle of fifths. The key map and
+   the every-key lessons use these; ordinary exercises draw from the
+   guitar-friendly subsets KEYS and MKEYS. */
+var ALL_KEYS=[{n:'C',pc:0},{n:'G',pc:7},{n:'D',pc:2},{n:'A',pc:9},{n:'E',pc:4},{n:'B',pc:11},
+  {n:'F#',pc:6},{n:'Db',pc:1},{n:'Ab',pc:8},{n:'Eb',pc:3},{n:'Bb',pc:10},{n:'F',pc:5}];
+var ALL_MKEYS=[{n:'Am',pc:9,rel:'C'},{n:'Em',pc:4,rel:'G'},{n:'Bm',pc:11,rel:'D'},{n:'F#m',pc:6,rel:'A'},
+  {n:'C#m',pc:1,rel:'E'},{n:'G#m',pc:8,rel:'B'},{n:'D#m',pc:3,rel:'F#'},{n:'Bbm',pc:10,rel:'Db'},
+  {n:'Fm',pc:5,rel:'Ab'},{n:'Cm',pc:0,rel:'Eb'},{n:'Gm',pc:7,rel:'Bb'},{n:'Dm',pc:2,rel:'F'}];
+ALL_MKEYS.forEach(function(k){k.disp=k.n.replace(/m$/,'')+' minor';});
+var KEYS=ALL_KEYS.filter(function(k){return ['C','G','D','A','E','F'].indexOf(k.n)>=0;});
+var MKEYS=ALL_MKEYS.filter(function(k){return ['Am','Em','Bm','F#m','C#m','Dm'].indexOf(k.n)>=0;});
 var PCN=['C','C#','D','Eb','E','F','F#','G','G#','A','Bb','B'];
+function findKey(mode,keyN){
+  var arr=mode==='min'?ALL_MKEYS:ALL_KEYS;
+  for(var i=0;i<arr.length;i++)if(arr[i].n===keyN)return arr[i];
+  return null;
+}
+/* ---- letter-correct spelling: scale degree n always gets the nth letter ---- */
+var LETTERS=['C','D','E','F','G','A','B'],LETTER_PC=[0,2,4,5,7,9,11];
+function accName(letter,acc){return letter+(acc===1?'#':acc===-1?'b':acc===2?'##':acc===-2?'bb':'');}
+function nameToPc(n){
+  var p=LETTER_PC[LETTERS.indexOf(n.charAt(0))];
+  for(var i=1;i<n.length;i++){var c=n.charAt(i);if(c==='#')p++;else if(c==='b')p--;else break;}
+  return ((p%12)+12)%12;
+}
+function spellDeg(tonic,deg,semis){
+  var L=(LETTERS.indexOf(tonic.charAt(0))+deg-1)%7;
+  var d=(((nameToPc(tonic)+semis)-LETTER_PC[L])%12+12)%12;
+  return accName(LETTERS[L],d===0?0:d===1?1:d===11?-1:d===2?2:-2);
+}
+function qSfx(q){return q==='min'?'m':q==='dim'?'\u00b0':'';}
+function tonicOf(mode,keyN){return mode==='min'?keyN.replace(/m$/,''):keyN;}
 var NUMS={'1':{off:0,m:false},'2m':{off:2,m:true},'3m':{off:4,m:true},'4':{off:5,m:false},'5':{off:7,m:false},'6m':{off:9,m:true}};
 var MNUMS={'1m':{off:0,m:true},'3':{off:3,m:false},'4m':{off:5,m:true},'5':{off:7,m:false},'5m':{off:7,m:true},'6':{off:8,m:false},'7':{off:10,m:false}};
 function numChord(keyN,num){
-  var k=null;KEYS.forEach(function(x){if(x.n===keyN)k=x;});
   var d=NUMS[num];
-  return PCN[(k.pc+d.off)%12]+(d.m?'m':'');
+  return spellDeg(keyN,degOf(num),d.off)+(d.m?'m':'');
 }
 function mNumChord(keyN,num){
-  var k=null;MKEYS.forEach(function(x){if(x.n===keyN)k=x;});
   var d=MNUMS[num];
-  return PCN[(k.pc+d.off)%12]+(d.m?'m':'');
+  return spellDeg(tonicOf('min',keyN),degOf(num),d.off)+(d.m?'m':'');
 }
 function chordOf(mode,keyN,num){return mode==='min'?mNumChord(keyN,num):numChord(keyN,num);}
 function keyDisp(mode,keyN){
   if(mode!=='min')return keyN;
-  var d=keyN;MKEYS.forEach(function(x){if(x.n===keyN)d=x.disp;});
-  return d;
+  var k=findKey('min',keyN);
+  return k?k.disp:keyN;
 }
 function homeNum(mode){return mode==='min'?'1m':'1';}
 function cadSeq(mode){return mode==='min'?['1m','4m','5','1m']:['1','4','5','1'];}
@@ -1199,20 +1264,27 @@ function modeTellSeat(mi){
 /* spelling: sharp keys name pc 3 as D#, flat keys as Eb. PCN alone would
    write E major's 7th degree as Eb, which is the wrong letter for that key. */
 var PCN_SHARP=['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];
-var SHARP_PARENTS={G:1,D:1,A:1,E:1};
+var PCN_FLAT=['C','Db','D','Eb','E','F','Gb','G','Ab','A','Bb','B'];
+var FLAT_KEYS={F:1,Bb:1,Eb:1,Ab:1,Db:1,Gb:1};
 function pcName(pc,parentKey){
-  return (parentKey&&SHARP_PARENTS[parentKey])?PCN_SHARP[pc]:PCN[pc];
+  if(!parentKey)return PCN[pc];
+  for(var d=1;d<=7;d++){var n=spellDeg(parentKey,d,MAJ_IV[d-1]);if(nameToPc(n)===pc)return n;}
+  return FLAT_KEYS[parentKey]?PCN_FLAT[pc]:PCN_SHARP[pc];
 }
-/* every modal key derivable from the six parent majors: 6 x 7 = 42 */
+/* every modal key derivable from the twelve parent majors: 12 x 7 = 84 */
 var MODAL_KEYS=[];
-KEYS.forEach(function(k){
+ALL_KEYS.forEach(function(k){
   MODES.forEach(function(m,mi){
     var pc=(k.pc+m.off)%12;
     MODAL_KEYS.push({pc:pc,mi:mi,parent:k.n,parentPc:k.pc,root:pcName(pc,k.n),disp:pcName(pc,k.n)+' '+m.n});
   });
 });
 function modalKeysFor(mi){return MODAL_KEYS.filter(function(x){return x.mi===mi;});}
-function parentOfModal(pc,mi){return PCN[((pc-MODES[mi].off)%12+12)%12];}
+function parentOfModal(pc,mi){
+  var ppc=((pc-MODES[mi].off)%12+12)%12;
+  for(var i=0;i<ALL_KEYS.length;i++)if(ALL_KEYS[i].pc===ppc)return ALL_KEYS[i].n;
+  return PCN[ppc];
+}
 function modalChordName(rootPc,seat,parentKey){
   return pcName((rootPc+seat.off)%12,parentKey)+(seat.q==='min'?'m':seat.q==='dim'?'°':'');
 }
@@ -1316,7 +1388,7 @@ function playKeyHint(mode,keyN){
   run(function(ctx){
     var seats=mode==='min'?KM_MIN_SEATS:KM_MAJ_SEATS;
     var kk=null;
-    (mode==='min'?MKEYS:KEYS).forEach(function(k){if(k.n===keyN)kk=k;});
+    kk=findKey(mode,keyN);
     if(!kk)return;
     seats.forEach(function(seat,i){
       strumMidis(ctx,seatMidis(kk.pc,seat),{delay:i*0.7,dur:0.66,vel:0.42});
@@ -1355,8 +1427,7 @@ function playLoop(keyN,nums,opt){
 /* melody */
 var DEGOFF={1:0,2:2,3:4,4:5,5:7};
 function keyRootMidi(keyN){
-  var k=null;KEYS.forEach(function(x){if(x.n===keyN)k=x;});
-  return 48+k.pc;
+  return 48+findKey('maj',keyN).pc;
 }
 function playMelody(keyN,degs,opt){
   opt=opt||{};
@@ -1791,7 +1862,7 @@ function seqVariants(seq,pool){
 function genNames(spec){
   var mode=spec.mode||'maj';
   var dir=spec.dir==='mix'?pick(['fwd','rev']):(spec.dir||'fwd');
-  var keyN=spec.key||(mode==='min'?pick(MKEYS).n:randKey());
+  var keyN=spec.key||(spec.all?pick(mode==='min'?ALL_MKEYS:ALL_KEYS).n:(mode==='min'?pick(MKEYS).n:randKey()));
   var pool=spec.pool||(mode==='min'?['1m','4m','5','6','7']:['1','4','5','6m']);
   var seq=(spec.useLast&&LAST_CHART&&LAST_MODE===mode)?LAST_CHART.slice():randChart(4,{pool:pool,unfamiliar:mode!=='min',home:homeNum(mode)});
   var chordNames=seq.map(function(x){return chordOf(mode,keyN,x);});
@@ -1838,7 +1909,7 @@ var REL_PAIRS=[
 function genRel(spec){
   var pair=pick(REL_PAIRS);
   var mk=pick(MKEYS);
-  var majKeyN=PCN[(mk.pc+3)%12];
+  var majKeyN=mk.rel;
   var toMaj=Math.random()<0.5;
   var qSeq=toMaj?pair.min:pair.maj;
   var ansSeq=toMaj?pair.maj:pair.min;
@@ -1868,7 +1939,10 @@ function genRel(spec){
 var MODE_BENDS={maj:['sharp 4','flat 7'],min:['natural 6','flat 2','flat 5']};
 var NOTHING_BENT='nothing bent';
 function modeAnchor(mi){return MODES[mi].vs||(MODES[mi].q==='maj'?'maj':'min');}
-function randModal(mi){return pick(modalKeysFor(mi));}
+function randModal(mi){
+  var ok=KEYS.map(function(k){return k.n;});
+  return pick(modalKeysFor(mi).filter(function(x){return ok.indexOf(x.parent)>=0;}));
+}
 function modeOpts(mi,pool,n){
   /* distractors stay inside the stated brightness: a bright option in a dark
      question is both incoherent and a free elimination. Reach across only if
@@ -2086,8 +2160,6 @@ function genMFormula(spec){
   };
 }
 /* --- spec step 2: map the notes, one at a time, on tiles --- */
-var LETTERS=['C','D','E','F','G','A','B'],LETTER_PC=[0,2,4,5,7,9,11];
-function accName(letter,acc){return letter+(acc===1?'#':acc===-1?'b':acc===2?'##':acc===-2?'bb':'');}
 /* letter-correct spelling: degree i always gets the next letter up */
 function spellModeLetters(rootPc,mi,parent){
   var rn=pcName(rootPc,parent),ri=LETTERS.indexOf(rn.charAt(0));
@@ -2243,9 +2315,8 @@ function borrowFor(mode,num){
   return null;
 }
 function keyPc(mode,keyN){
-  var arr=mode==='min'?MKEYS:KEYS,pc=0;
-  arr.forEach(function(k){if(k.n===keyN)pc=k.pc;});
-  return pc;
+  var k=findKey(mode,keyN);
+  return k?k.pc:0;
 }
 /* resolve any number - diatonic, diminished or borrowed - to a playable seat */
 function numSeat(mode,num){
@@ -2260,7 +2331,7 @@ function numSeat(mode,num){
 function chordOfAny(mode,keyN,num){
   var s=numSeat(mode,num);
   if(!s)return chordOf(mode,keyN,num);
-  return PCN[(keyPc(mode,keyN)+s.off)%12]+(s.q==='min'?'m':s.q==='dim'?'°':'');
+  return spellDeg(tonicOf(mode,keyN),degOf(num)||1,s.off)+qSfx(s.q);
 }
 /* one loop player that handles diatonic and borrowed seats alike, built
    algorithmically so no borrowed chord needs a named voicing */
@@ -2632,7 +2703,7 @@ var UNITS=[
   {intro:true,t:'The number system',o:'Why numbers beat letters',skill:'intro',pages:[
     {h:'Chords as numbers',b:'Instead of letters, we name chords by their <b>number</b> counted from home. In a major key the common chords are <b>1, 4, 5</b> and the minor <b>6m</b>. This is the <b>Nashville number system</b>.'},
     {h:'The same numbers fit every key',b:'The magic: the numbers never change. <b>1 5 6m 4</b> is the same shape in every key. In G it is G D Em C. In C it is C G Am F. Learn the numbers once and you can play a song in any key.',demo:'nashville'},
-    {h:'The whole map, right here',b:'Here is every chord in a key, laid out as numbers. Switch between <b>major</b> and <b>minor</b>, change the key, and tap any seat to hear it after home. The number map button up top opens this any time.',map:true}
+    {h:'The whole map, right here',b:'Here is every chord in a key, laid out as numbers. Switch between <b>major</b> and <b>minor</b>, change the key, and tap any seat to hear it after home. The map button at the top of the Learn screen opens this Key map any time, in all twelve keys.',map:true}
   ]},
   {intro:true,t:'The seven modes',o:'One scale, seven homes',skill:'intro',pages:[
     {h:'Everything is measured against major',b:'The major scale is seven notes. In C it is C D E F G A B, the white keys of a piano. Its proper name is <b>Ionian</b>, and it is the ruler every other scale is measured against. When musicians say <b>flat 3</b> or <b>flat 7</b>, they mean one fret lower than the major scale\'s 3rd or 7th.',demo:'ionian'},
@@ -2763,6 +2834,9 @@ var UNITS=[
    skill:'names',guided:{g:'names',dir:'mix',pool:['1','2m','3m','4','5','6m']},drill:[{g:'names',dir:'fwd',pool:['1','2m','3m','4','5','6m']},{g:'names',dir:'rev',pool:['1','2m','3m','4','5','6m']},{g:'names',dir:'mix',pool:['1','2m','3m','4','5','6m']}],apply:{g:'names',dir:'mix',pool:['1','2m','3m','4','5','6m']}}
  ]},
  {part:'The major map',name:'The major challenge',goal:'Everything at once',lessons:[
+  {t:'All twelve keys',o:'Every major key, flats and sharps included',
+   e:'Guitarists live in the six launch keys, but songs get written in all twelve, and the numbers still never change. Each chord is spelled the proper way for its key: in Eb the 4 is Ab, never G#, because every key uses each letter once. The Key map shows any of the twelve laid out.',
+   skill:'names',guided:{g:'names',dir:'fwd',all:true},drill:[{g:'names',dir:'fwd',all:true},{g:'names',dir:'rev',all:true},{g:'names',dir:'mix',all:true}],apply:{g:'names',dir:'mix',all:true}},
   {t:'The major challenge',o:'Hear a new loop, chart it, play it in two keys',
    e:'Everything at once: find home, confirm it is bright, chart the loop, then convert it to two different keys.',
    skill:'names',
@@ -2793,9 +2867,12 @@ var UNITS=[
   {t:'The Andalusian fall',o:'The famous minor staircase',
    e:'1m-7-6-5 walks down from home and lands on the door back in. Flamenco, rock and roll, and everything between.',
    skill:'minor',guided:{g:'seq',mode:'min',orders:[['1m','7','6','5'],['1m','6','7','5'],['1m','7','5','6']]},drill:[{g:'seq',mode:'min',orders:[['1m','7','6','5'],['1m','6','7','5'],['1m','7','5','6']]},{g:'seq',mode:'min',orders:[['1m','7','6','5'],['1m','6','7','5'],['1m','7','5','6']]},{g:'seq',mode:'min',orders:[['1m','7','6','5'],['1m','6','7','5'],['1m','7','5','6']]}],apply:{g:'chart',mode:'min',n:4}},
-  {t:'Minor keys by name',o:'Translate in A minor, E minor and D minor',
+  {t:'Minor keys by name',o:'Translate in the six launch minor keys',
    e:'In A minor, 1m-6-7 is Am-F-G. Same translation skill, minor map.',
    skill:'minor',guided:{g:'names',mode:'min',dir:'fwd'},drill:[{g:'names',mode:'min',dir:'fwd'},{g:'names',mode:'min',dir:'rev'},{g:'names',mode:'min',dir:'mix'}],apply:{g:'names',mode:'min',dir:'mix'}},
+  {t:'All twelve minor keys',o:'Every minor key, spelled properly',
+   e:'The same translation in every minor key. Each one shares its seven notes with a major key: F minor shares them with Ab major, so its chords are Fm, Ab, Bbm, C and Db. The Key map shows all twelve.',
+   skill:'minor',guided:{g:'names',mode:'min',dir:'fwd',all:true},drill:[{g:'names',mode:'min',dir:'fwd',all:true},{g:'names',mode:'min',dir:'rev',all:true},{g:'names',mode:'min',dir:'mix',all:true}],apply:{g:'names',mode:'min',dir:'mix',all:true}},
   {t:'The minor challenge',o:'Hear, chart and convert a minor song',
    e:'The full chain on the dark map: find home, chart the loop, name the chords.',
    skill:'minor',
@@ -3145,7 +3222,7 @@ function embedModeLens(container){
       mb.appendChild(b);
     });
     container.appendChild(mb);
-    var kg=document.createElement('div');kg.className='emap-keys';
+    var kg=document.createElement('div');kg.className='emap-keys k12';
     modalKeysFor(st.mi).forEach(function(mk){
       var b=document.createElement('button');b.className=mk.pc===st.pc?'on':'';b.textContent=mk.root;
       b.addEventListener('click',function(){run(function(){});st.pc=mk.pc;draw();});
@@ -3191,10 +3268,10 @@ function embedKeyMap(container,showModes){
     });
     container.appendChild(tog);
     var isMin=st.mode==='min';
-    var keys=isMin?MKEYS:KEYS;var cur=isMin?st.minKey:st.majKey;
-    var kg=document.createElement('div');kg.className='emap-keys';
+    var keys=isMin?ALL_MKEYS:ALL_KEYS;var cur=isMin?st.minKey:st.majKey;
+    var kg=document.createElement('div');kg.className='emap-keys '+(isMin?'k12m':'k12');
     keys.forEach(function(k){
-      var b=document.createElement('button');b.className=k.n===cur?'on':'';b.textContent=isMin?k.disp:k.n;
+      var b=document.createElement('button');b.className=k.n===cur?'on':'';b.textContent=isMin?k.n:k.n;
       b.addEventListener('click',function(){run(function(){});if(isMin)st.minKey=k.n;else st.majKey=k.n;draw();});
       kg.appendChild(b);
     });
@@ -3206,7 +3283,7 @@ function embedKeyMap(container,showModes){
       var num=document.createElement('span');num.className='es-num';num.textContent=seat.n;
       var tag=document.createElement('span');tag.className='es-tag '+(seat.q==='maj'?'mj':seat.q==='min'?'mn':'dm');
       tag.textContent=seat.q==='maj'?'major':seat.q==='min'?'minor':'dim';
-      var nm=document.createElement('span');nm.className='es-name';nm.textContent=seatChordName(kk.pc,seat);
+      var nm=document.createElement('span');nm.className='es-name';nm.textContent=seatChordName(kk.pc,seat,isMin?kk.rel:kk.n);
       row.appendChild(num);row.appendChild(tag);
       if(showModes){
         var right=document.createElement('span');right.className='es-right';
@@ -3343,7 +3420,7 @@ function renderQ(body,s){
     if(Q.fret){
       var fcard=document.createElement('div');fcard.className='card';
       var fd=document.createElement('div');fcard.appendChild(fd);body.appendChild(fcard);
-      var kk=null;KEYS.forEach(function(x){if(x.n===Q.fret.keyN)kk=x;});
+      var kk=findKey('maj',Q.fret.keyN);
       renderFret(fd,kk.pc,Q.fret.degs);
     }
     var cb=document.createElement('button');cb.className='btn btn-blue btn-big btn-block';cb.textContent='Continue';
@@ -3496,7 +3573,7 @@ function answer(key){
     cap.textContent='On the fretboard in '+Q.fret.keyN+'. Tap any dot to hear it.';
     var fd=document.createElement('div');
     fcard.appendChild(cap);fcard.appendChild(fd);body.appendChild(fcard);
-    var kk=null;KEYS.forEach(function(x){if(x.n===Q.fret.keyN)kk=x;});
+    var kk=findKey('maj',Q.fret.keyN);
     renderFret(fd,kk.pc,Q.fret.degs);
     fcard.scrollIntoView({behavior:'smooth',block:'nearest'});
   }
@@ -3630,9 +3707,8 @@ var KM_MIN_SEATS=[
   {n:'1m',off:0,q:'min',mode:'Aeolian'},{n:'2°',off:2,q:'dim',mode:'Locrian'},{n:'3',off:3,q:'maj',mode:'Ionian'},{n:'4m',off:5,q:'min',mode:'Dorian'},
   {n:'5',off:7,q:'maj',mode:'Phrygian',note:'naturally 5m'},{n:'6',off:8,q:'maj',mode:'Lydian'},{n:'7',off:10,q:'maj',mode:'Mixolydian'}
 ];
-function seatChordName(pc,seat){
-  var sfx=seat.q==='min'?'m':seat.q==='dim'?'\u00b0':'';
-  return PCN[(pc+seat.off)%12]+sfx;
+function seatChordName(pc,seat,parentKey){
+  return pcName((pc+seat.off)%12,parentKey)+qSfx(seat.q);
 }
 function seatMidis(pc,seat){
   var base=48+pc;
@@ -3680,7 +3756,7 @@ function renderKmapModes(){
     ? '<span><i style="background:var(--blue)"></i>major and minor</span><span>all seven unlocked</span>'
     : '<span><i style="background:var(--blue)"></i>major and minor, learn first</span><span><i style="background:#cbd5e1"></i>the other five, at the end</span>';
   /* root picker: the roots this mode can take from the six parent keys */
-  var kg=document.getElementById('km-keys');kg.innerHTML='';
+  var kg=document.getElementById('km-keys');kg.innerHTML='';kg.className='key-grid k12';
   modalKeysFor(KM_MI).forEach(function(mk){
     var b=document.createElement('button');
     b.className='key-btn'+(mk.pc===KM_ROOT?' on':'');
@@ -3775,12 +3851,14 @@ function renderKmap(){
   document.getElementById('km-maj').classList.toggle('on',!isMin);
   document.getElementById('km-min').classList.toggle('on',isMin);
   var kg=document.getElementById('km-keys');kg.innerHTML='';
-  var keys=isMin?MKEYS:KEYS;
+  var keys=isMin?ALL_MKEYS:ALL_KEYS;
   var cur=isMin?KM_MKEY:KM_KEY;
+  kg.className='key-grid '+(isMin?'k12m':'k12');
   keys.forEach(function(k){
     var b=document.createElement('button');
     b.className='key-btn'+(k.n===cur?' on':'');
-    b.textContent=isMin?k.disp:k.n;
+    b.textContent=isMin?k.n:k.n;
+    b.title=isMin?k.disp:k.n+' major';
     b.addEventListener('click',function(){
       run(function(){});
       if(isMin)KM_MKEY=k.n;else KM_KEY=k.n;
@@ -3793,7 +3871,7 @@ function renderKmap(){
   var seats=isMin?KM_MIN_SEATS:KM_MAJ_SEATS;
   /* head card: this key as a mode, its scale and its intervals against Ionian */
   var hmi=modeIdx(isMin?'Aeolian':'Ionian');
-  var parentN=isMin?PCN[(kk.pc+3)%12]:kk.n;
+  var parentN=isMin?kk.rel:kk.n;
   var hd=document.getElementById('km-head');hd.innerHTML='';
   var card=document.createElement('div');card.className='key-head';
   var top=document.createElement('div');top.className='kh-top';
@@ -3824,7 +3902,7 @@ function renderKmap(){
     var tag=document.createElement('span');
     tag.className='seat-tag '+(seat.q==='maj'?'mj':seat.q==='min'?'mn':'dm');
     tag.textContent=seat.q==='maj'?'major':seat.q==='min'?'minor':'dim';
-    var nm=document.createElement('span');nm.className='seat-name';nm.textContent=seatChordName(kk.pc,seat);
+    var nm=document.createElement('span');nm.className='seat-name';nm.textContent=seatChordName(kk.pc,seat,parentN);
     row.appendChild(num);row.appendChild(tag);
     if(seat.note){
       var sn=document.createElement('span');sn.className='tiny muted';sn.textContent=seat.note;
@@ -3974,7 +4052,7 @@ function playKeyCheat(){
   run(function(ctx){
     var seats=s.mode==='min'?KM_MIN_SEATS:KM_MAJ_SEATS;
     var kk=null;
-    (s.mode==='min'?MKEYS:KEYS).forEach(function(k){if(k.n===s.keyN)kk=k;});
+    kk=findKey(s.mode,s.keyN);
     seats.forEach(function(seat,i){
       strumMidis(ctx,seatMidis(kk.pc,seat),{delay:i*0.72,dur:0.68,vel:0.42});
       (function(idx){
